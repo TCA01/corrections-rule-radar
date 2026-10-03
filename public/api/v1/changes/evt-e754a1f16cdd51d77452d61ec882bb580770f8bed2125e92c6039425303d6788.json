@@ -1,0 +1,44 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "7778b45abb3cef3e9c298cc5c595e645ba6d72a9167db2f1ccc1ebabd15de6be",
+      "effective_date": "2023-10-19",
+      "identifier": "2100000230588",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000230588",
+      "snapshot_url": "/api/v1/rules/admrul-26917/versions/2100000230588-2023-10-19-8394738314b036e1.json",
+      "version_id": "2100000230588"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "805248d4958abdae676378ab2f7f65306aab3a6c9b869610b41d4a332311ab82",
+      "effective_date": "2021-08-12",
+      "identifier": "2100000203696",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000203696",
+      "snapshot_url": "/api/v1/rules/admrul-26917/versions/2100000203696-2021-08-12-78a486673900a659.json",
+      "version_id": "2100000203696"
+    },
+    "canonical_id": "admrul-26917",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "RULE_REPEALED"
+    ],
+    "changed_article_count": 0,
+    "changed_articles": [],
+    "comparison_evidence": null,
+    "comparison_scope": "FULL_STRUCTURED_BODY",
+    "comparison_source": null,
+    "comparison_status": "COMPARISON_UNAVAILABLE",
+    "comparison_unavailable_reason": "STRUCTURED_ARTICLES_UNAVAILABLE",
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2023-10-19",
+    "event_id": "evt-e754a1f16cdd51d77452d61ec882bb580770f8bed2125e92c6039425303d6788",
+    "fallback_reason": "OFFICIAL_COMPARISON_PAIR_OR_TEXT_UNAVAILABLE",
+    "official_old_new_available": false,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000230588",
+    "promulgation_or_issue_date": "2023-10-19",
+    "regulation_name": "교정공무원 예절 규정",
+    "regulation_type": "훈령"
+  },
+  "schema_version": "1.3"
+}

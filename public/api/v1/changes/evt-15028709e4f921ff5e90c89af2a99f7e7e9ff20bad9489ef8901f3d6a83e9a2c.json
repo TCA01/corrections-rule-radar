@@ -1,0 +1,64 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "cd2984d66230d866e5f707f1cad7da86c5beb2e81057acb2b3453b5ef20d180b",
+      "effective_date": "2026-03-30",
+      "identifier": "2100000276340",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000276340",
+      "snapshot_url": "/api/v1/rules/admrul-37401/versions/2100000276340-2026-03-30-7bbbcf100eb4f283.json",
+      "version_id": "2100000276340"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "7d21a0ab0961ea6e62eb54fd23272b5fbfaf0989b3b7f350069e676974190e12",
+      "effective_date": "2025-01-01",
+      "identifier": "2100000251334",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000251334",
+      "snapshot_url": "/api/v1/rules/admrul-37401/versions/2100000251334-2025-01-01-d5c4bc153c2abbdc.json",
+      "version_id": "2100000251334"
+    },
+    "canonical_id": "admrul-37401",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 1,
+    "changed_articles": [
+      {
+        "after_text": "제4조(직원) ① 간사는 법무부 분류심사과장 또는 분류심사과 서기관이나 교정관의 직에 있는 자로 한다.\n② (현행과 같음)\n③ 위원회의 사무를 처리하기 위하여 적정한 수의 인력을 유지하여야 한다.",
+        "article_key": "article-4",
+        "article_number": "4",
+        "article_title": "제4조(직원)",
+        "before_text": "제4조(직원) ① 간사는 법무부 분류심사과장 또는 분류심사과 서기관의 직에 있는 자로 한다.\n② (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-03-30"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "a1d084cdbf0a03a2976ddb22a433bbccdd226fe9715b60e5053718a7b96a9c02",
+      "credential_redacted": false,
+      "raw_sha256": "4285a25faa1cdfac73692da795e87f8b7b85e6940ae2f8da85fc914fb40fa3ea",
+      "request": {
+        "ID": "2100000276340",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "4285a25faa1cdfac73692da795e87f8b7b85e6940ae2f8da85fc914fb40fa3ea"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2026-03-30",
+    "event_id": "evt-15028709e4f921ff5e90c89af2a99f7e7e9ff20bad9489ef8901f3d6a83e9a2c",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000276340",
+    "promulgation_or_issue_date": "2026-03-30",
+    "regulation_name": "가석방심사위원회 운영지침",
+    "regulation_type": "예규"
+  },
+  "schema_version": "1.3"
+}

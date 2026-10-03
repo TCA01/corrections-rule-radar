@@ -1,0 +1,43 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "6ab94eedaec257f906dafc75e780690643782db3b4d14b319ceb0b7202be815e",
+      "effective_date": "2015-11-25",
+      "identifier": "176754",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=176754",
+      "snapshot_url": "/api/v1/rules/law-011097/versions/176754-2015-11-25-ca2528551878eafb.json",
+      "version_id": "176754"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "5190dbe66e3945171eadce01f90315c13c54835b5ac2358d6d1e4bef4ffd7560",
+      "effective_date": "2014-06-26",
+      "identifier": "156185",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=156185",
+      "snapshot_url": "/api/v1/rules/law-011097/versions/156185-2014-06-26-5a753992a101ecce.json",
+      "version_id": "156185"
+    },
+    "canonical_id": "law-011097",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED"
+    ],
+    "changed_article_count": 0,
+    "changed_articles": [],
+    "comparison_evidence": null,
+    "comparison_scope": "FULL_STRUCTURED_BODY",
+    "comparison_source": "STRUCTURED_SNAPSHOT_DIFF",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2015-11-25",
+    "event_id": "evt-0ae1b4f3a94e06ab46b20f4f4662b75ed60a680dd5b619611990a4a139e499d8",
+    "fallback_reason": "OFFICIAL_COMPARISON_PAIR_OR_TEXT_UNAVAILABLE",
+    "official_old_new_available": false,
+    "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=176754",
+    "promulgation_or_issue_date": "2015-11-25",
+    "regulation_name": "교도작업의 운영 및 특별회계에 관한 법률 시행규칙",
+    "regulation_type": "법무부령"
+  },
+  "schema_version": "1.3"
+}

@@ -1,0 +1,64 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "e7fa73d0a0d9f5bad1a4978cf67b92549119007c8ca2e72d5ba94810f2b837e1",
+      "effective_date": "2020-09-01",
+      "identifier": "217433",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=217433",
+      "snapshot_url": "/api/v1/rules/law-002608/versions/217433-2020-09-01-ccb2e747b76a9c28.json",
+      "version_id": "217433"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "d1948f271ca585cf6f90dc2b3f1edbe3c2e601b8a715674a7b272924e7fa216c",
+      "effective_date": "2019-10-03",
+      "identifier": "204722",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=204722",
+      "snapshot_url": "/api/v1/rules/law-002608/versions/204722-2019-10-03-50ee0427acfd7e37.json",
+      "version_id": "204722"
+    },
+    "canonical_id": "law-002608",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 1,
+    "changed_articles": [
+      {
+        "after_text": "제4조(승진임용의 기준) ① (현행과 같음)\n② 심사승진에 의한 승진임용은 승진후보자 명부의 높은 순위에 있는 사람부터 차례로 심사승진으로 임용하려는 결원 수의 5배수 범위에 있는 사람 중에서 임용하여야 한다.",
+        "article_key": "article-4",
+        "article_number": "4",
+        "article_title": "제4조(승진임용의 기준)",
+        "before_text": "제4조(승진임용의 기준) ① (생  략)\n② 심사승진에 의한 승진임용은 승진후보자 명부의 높은 순위에 있는 사람부터 차례로 심사승진으로 임용하려는 결원 수에 대하여 임용령 별표 5에 따라 정해지는 승진 심사 대상 범위에 있는 사람 중에서 임용하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2020-09-01"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "c8566e4ea4c4670e61ba6c882eea65a997dc5c32921e517efb5e5b3c3135de4b",
+      "credential_redacted": false,
+      "raw_sha256": "5887a819aef303fb66dd22858a21f3a2df74f44285b18052413ac79f23bee189",
+      "request": {
+        "MST": "217433",
+        "target": "oldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "5887a819aef303fb66dd22858a21f3a2df74f44285b18052413ac79f23bee189"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2020-09-01",
+    "event_id": "evt-de47fa0827fd897054476d0312b5c14c37ba0c59559000de19cabb2badb108e7",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=217433",
+    "promulgation_or_issue_date": "2020-04-07",
+    "regulation_name": "교정직공무원 승진임용 규정",
+    "regulation_type": "대통령령"
+  },
+  "schema_version": "1.3"
+}

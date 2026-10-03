@@ -1,0 +1,82 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "c5bd809d9e1112b83476e5c02dee8465f2371153580053f525a53871b3aa381a",
+      "effective_date": "2026-09-01",
+      "identifier": "289135",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=289135",
+      "snapshot_url": "/api/v1/rules/law-002608/versions/289135-2026-09-01-933b123473b919d2.json",
+      "version_id": "289135"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "e7fa73d0a0d9f5bad1a4978cf67b92549119007c8ca2e72d5ba94810f2b837e1",
+      "effective_date": "2020-09-01",
+      "identifier": "217433",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=217433",
+      "snapshot_url": "/api/v1/rules/law-002608/versions/217433-2020-09-01-ccb2e747b76a9c28.json",
+      "version_id": "217433"
+    },
+    "canonical_id": "law-002608",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 3,
+    "changed_articles": [
+      {
+        "after_text": "제6조(승진시험의 대상) ① 승진시험은 시험 요구일 현재를 기준으로 다음 각 호의 구분에 따른 사람을 대상으로 실시한다.1. 7급 또는 8급 공무원으로의 승진시험: 7급 또는 8급 공무원 승진후보자 명부 중에서 임용령 제31조제1항제1호에 따른 승진소요최저연수가 지난 사람2. 5급 또는 6급 공무원으로의 승진시험: 5급 또는 6급 공무원 승진후보자 명부에서 순위가 높은 사람부터 차례로 승진시험으로 승진임용하려는 결원 수의 2배수 이상 10배수 이하에서 법무부장관이 정하는 배수 범위에 있는 사람② 다음 각 호의 어느 하나에 해당하는 사람은 제1항에 따라 실시하는 승진시험의 대상에서 제외된다.1. 제7조에 따른 응시제한 사유에 해당하는 사람2. 승진시험이 실시되는 날까지 임용령 또는 임용시험령 등에 따른 승진임용 제한 사유나 응시자격 정지 사유에 해당하는 사람",
+        "article_key": "article-6",
+        "article_number": "6",
+        "article_title": "제6조(승진시험의 대상)",
+        "before_text": "제6조(승진시험 응시대상) 승진시험 요구일 현재를 기준으로 5급부터 8급까지의 승진후보자 명부 중에서 임용령 제31조제1항제1호에 따른 승진소요최저연수가 지난 사람은 승진시험에 응시할 수 있다. 다만, 제7조의 응시제한사유에 해당하거나 임용령 또는 임용시험령 등에 따른 승진임용 제한사유나 응시자격 정지사유에 해당하는 사람은 그러하지 아니하다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-09-01"
+      },
+      {
+        "after_text": "제10조(5급부터 8급까지 공무원으로의 승진시험 방법) ①·② (현행과 같음)\n③ 5급 일반승진시험의 제1차시험에 합격한 사람에 대해서는 제1차시험에 합격한 해당 시험의 제2차시험 이후 실시되는 5급 일반승진시험의 제1차시험을 면제한다.",
+        "article_key": "article-10",
+        "article_number": "10",
+        "article_title": "제10조(5급부터 8급까지 공무원으로의 승진시험 방법)",
+        "before_text": "제10조(5급 이하 공무원으로의 승진시험 방법) ①·② (생  략)\n③ 5급 일반승진시험의 제1차시험에 합격한 사람에 대해서는 본인이 응시요건을 갖추어 응시하는 다음 회 시험에서만 제1차시험을 면제한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-09-01"
+      },
+      {
+        "after_text": "제12조(6급부터 8급까지 공무원으로의 승진시험 합격결정) 6급부터 8급까지 공무원으로의 승진시험에서는 각 과목 만점의 40퍼센트 이상, 전 과목 총점의 60퍼센트 이상 득점한 사람 중에서 시험성적의 60퍼센트와 승진후보자 명부상 평정점수의 40퍼센트의 비율로 합산한 성적에 따른 고득점자순으로 합격자를 결정한다.",
+        "article_key": "article-12",
+        "article_number": "12",
+        "article_title": "제12조(6급부터 8급까지 공무원으로의 승진시험 합격결정)",
+        "before_text": "제12조(6급 이하 공무원으로의 승진시험 합격결정) 6급 이하 공무원으로의 승진시험에서는 각 과목 만점의 40퍼센트 이상, 전 과목 총점의 60퍼센트 이상 득점한 사람 중에서 시험성적의 60퍼센트와 승진후보자 명부상 평정점수의 40퍼센트의 비율로 합산한 성적에 따른 고득점자순으로 합격자를 결정한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-09-01"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "30b173653ce276fbdec5265d246779d3cd947f974b5e1905ab6c9c79df3204ad",
+      "credential_redacted": false,
+      "raw_sha256": "1d9b76fbd1eceb112a0b09458fc6d81f30b29186c697d73167cdae6b473b70fe",
+      "request": {
+        "MST": "289135",
+        "target": "oldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "1d9b76fbd1eceb112a0b09458fc6d81f30b29186c697d73167cdae6b473b70fe"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2026-09-01",
+    "event_id": "evt-982f2ac02b20ca68c33e5b50cc134f52e82bef164b4f1f1a109a66ac724881c7",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=289135",
+    "promulgation_or_issue_date": "2026-09-01",
+    "regulation_name": "교정직공무원 승진임용 규정",
+    "regulation_type": "대통령령"
+  },
+  "schema_version": "1.3"
+}

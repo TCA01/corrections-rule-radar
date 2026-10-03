@@ -1,0 +1,153 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "0d75f28e04e6ce5bd6c69365a5fbd2a59511838ca018c7e00315ff72109b823c",
+      "effective_date": "2023-03-14",
+      "identifier": "2100000220730",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000220730",
+      "snapshot_url": "/api/v1/rules/admrul-37585/versions/2100000220730-2023-03-14-c31fcdff80d5c2a3.json",
+      "version_id": "2100000220730"
+    },
+    "appendix_changes": [
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0005",
+          "title": "삭제",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=126115315"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0005",
+          "title": "교정위원 명부",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=112696493"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0006",
+          "title": "삭제",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=126115319"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0006",
+          "title": "교정위원(준 교정위원) 인적사항",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=112696497"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0007",
+          "title": "삭제",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=126115323"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0007",
+          "title": "활동기록부",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=112696501"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      }
+    ],
+    "before_version": {
+      "body_hash": "f66b56a9666e8a5d67ad1f2df518a154cf6c42e60fbd171d8654f1479bee870b",
+      "effective_date": "2022-01-01",
+      "identifier": "2100000208841",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000208841",
+      "snapshot_url": "/api/v1/rules/admrul-37585/versions/2100000208841-2022-01-01-e46a6041ee224bdd.json",
+      "version_id": "2100000208841"
+    },
+    "canonical_id": "admrul-37585",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "APPENDIX_METADATA_CHANGED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 4,
+    "changed_articles": [
+      {
+        "after_text": "제6조(위촉절차) ①·② (현행과 같음)\n③ 소장이 제1항의 교정위원을 추천할 때 제출하여야 할 서류는 다음과 같다.\n1. 신규위원 : ‘위촉동의서’(별지 제2호서식), 이력서\n2.·3. (현행과 같음)\n④ 소장은 제13조제2항제3호에 해당되어 해촉된 교정위원 중 그 내용이 교정위원이라는 신분을 이용한 것과 관련이 있는 경우에는 다시 교정위원으로 추천하여서는 아니 된다.",
+        "article_key": "article-6",
+        "article_number": "6",
+        "article_title": "제6조(위촉절차)",
+        "before_text": "제6조(위촉절차) ①·② (생  략)\n③ 소장이 제1항의 교정위원을 추천할 때 제출하여야 할 서류는 다음과 같다.\n1. 신규위원 : ‘위촉동의서’(별지 제2호서식), 이력서, 1년6개월 이상 참여활동실적(단, 교정ㆍ교화 활동실적이 현저하다는 소장의 의견서가 있는 경우는 6개월 이상의 참여활동실적)\n2.·3. (생  략)\n④ 소장은 제13조제2항제3호에 해당되어 해촉 된 교정위원 중 그 내용이 교정위원이라는 신분을 이용한 것과 관련이 있는 경우에는 다시 교정위원으로 추천하여서는 아니 된다.\n⑤ 국가유공자, 훈ㆍ포장 수상자, 의상자, 양로원 또는 고아원 등의 특수시설 자원봉사자, 기타 관련기관 증명서 제출자로서 교도관회의를 통해 국가ㆍ사회봉사 기여도가 높다고 판단되는 경우에는 제4조제6항에 따른 ‘교정위원 추천서’ 제출을 면제할 수 있으며, 참여활동 실적을 타 기관 봉사활동 실적으로 대체할 수 있다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-03-14"
+      },
+      {
+        "after_text": "제13조(위촉기간 만료 및 해촉 등) ① ∼ ③ (현행과 같음)\n④ 위촉기간 만료에 따른 위촉 종료, 해촉, 사망에 따른 절차는 제6조제1항을 준용하되, 제2항 제1호, 제3호, 제5호의 규정에 해당하는 경우에는 즉시 해촉을 건의하여야 하고, 해촉이 결정된 날로부터 3년간 교정위원으로 추천하여서는 아니 된다.\n⑤ (현행과 같음)",
+        "article_key": "article-13",
+        "article_number": "13",
+        "article_title": "제13조(위촉기간 만료 및 해촉 등)",
+        "before_text": "제13조(위촉기간 만료 및 해촉 등) ① ∼ ③ (생  략)\n④ 위촉기간 만료에 따른 위촉 종료, 해촉, 사망에 따른 절차는 제6조제1항을 준용하되, 전항 제1호, 제3호, 제5호의 규정에 해당하는 경우에는 즉시 해촉을 건의하여야 하고, 해촉이 결정된 날로부터 3년간 교정위원으로 추천하여서는 아니 된다.\n⑤ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-03-14"
+      },
+      {
+        "after_text": "제14조(교정위원 관리) 소장은 ‘교정위원 명부’, ‘교정위원(준 교정위원) 인적사항’ 및 ‘활동기록부’를 교정정보시스템에 입력ㆍ관리하여야 한다.",
+        "article_key": "article-14",
+        "article_number": "14",
+        "article_title": "제14조(교정위원 관리)",
+        "before_text": "제14조(교정위원 관리) ① 소장은 ‘교정위원 명부’(별지 제5호서식)를 작성ㆍ관리하여야 한다.  ② ‘교정위원(준 교정위원) 인적사항’(별지 제6호서식) 및 ‘활동기록부’(별지 제7호서식)에 기록을 유지ㆍ관리하여야 하며, 이 경우 교정정보시스템 등록으로 대체할 수 있다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-03-14"
+      },
+      {
+        "after_text": "제29조(재검토기한) 법무부장관은「훈령ㆍ예규 등의 발령 및 관리에 관한 규정」에 따라 이 예규에 대하여 2023년 1월 1일 기준으로 매 3년이 되는 시점(매 3년째의 6월 30일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+        "article_key": "article-29",
+        "article_number": "29",
+        "article_title": "제29조(재검토기한)",
+        "before_text": "제29조(재검토기한) 법무부장관은「훈령ㆍ예규 등의 발령 및 관리에 관한 규정」에 따라 이 예규에 대하여 2019년 7월 1일 기준으로 매3년이 되는 시점(매 3년째의 6월 30일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-03-14"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "5c8884d6f934f14af73dfd8717ff4ea005f1bb46ed2c24461797575577458332",
+      "credential_redacted": false,
+      "raw_sha256": "4078e3c2b6fa7d0f0a6cbc5ad7672c5542850ce693dc53b9f9b70c2038d4ca65",
+      "request": {
+        "ID": "2100000220730",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "4078e3c2b6fa7d0f0a6cbc5ad7672c5542850ce693dc53b9f9b70c2038d4ca65"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2023-03-14",
+    "event_id": "evt-c891ebb5e0e03df640fac6bcb4bac2b3078286f3337cc6855372872a29e3d0f3",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000220730",
+    "promulgation_or_issue_date": "2023-03-14",
+    "regulation_name": "교정위원 운영지침",
+    "regulation_type": "예규"
+  },
+  "schema_version": "1.3"
+}

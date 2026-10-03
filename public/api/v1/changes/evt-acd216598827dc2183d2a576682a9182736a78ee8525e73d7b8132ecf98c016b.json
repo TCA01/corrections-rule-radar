@@ -1,0 +1,111 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "2776dee34dd28cfe85363e039564cb00d65640467f5c13292e6e0add0d41a390",
+      "effective_date": "2020-06-08",
+      "identifier": "2100000189927",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000189927",
+      "snapshot_url": "/api/v1/rules/admrul-26424/versions/2100000189927-2020-06-08-0d785179e2658569.json",
+      "version_id": "2100000189927"
+    },
+    "appendix_changes": [
+      {
+        "after_metadata": null,
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0001",
+          "title": "교정기관 간판게시 양식 ",
+          "type": "별표",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=5199562"
+        },
+        "change_type": "APPENDIX_REMOVED",
+        "status": "REMOVED"
+      },
+      {
+        "after_metadata": null,
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0002",
+          "title": "교정기관의 영문간판 양식",
+          "type": "별표",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=5199564"
+        },
+        "change_type": "APPENDIX_REMOVED",
+        "status": "REMOVED"
+      },
+      {
+        "after_metadata": null,
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0003",
+          "title": "영문서한 양식(A4용지 기준)",
+          "type": "별표",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=5199567"
+        },
+        "change_type": "APPENDIX_REMOVED",
+        "status": "REMOVED"
+      },
+      {
+        "after_metadata": null,
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0004",
+          "title": "영문 모사전송 양식(A4용지 기준)",
+          "type": "별표",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=5199572"
+        },
+        "change_type": "APPENDIX_REMOVED",
+        "status": "REMOVED"
+      },
+      {
+        "after_metadata": null,
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0005",
+          "title": "법무부 명함디자인 양식",
+          "type": "별표",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=5199574"
+        },
+        "change_type": "APPENDIX_REMOVED",
+        "status": "REMOVED"
+      }
+    ],
+    "before_version": {
+      "body_hash": "ec7c1ada1fb429115b672f7cc77425844efbb87dd4d5dbd4121ff59f1968515f",
+      "effective_date": "2009-08-21",
+      "identifier": "2000000008540",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2000000008540",
+      "snapshot_url": "/api/v1/rules/admrul-26424/versions/2000000008540-2009-08-21-2eb7180cafef3a51.json",
+      "version_id": "2000000008540"
+    },
+    "canonical_id": "admrul-26424",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "APPENDIX_REMOVED",
+      "RULE_REPEALED"
+    ],
+    "changed_article_count": 0,
+    "changed_articles": [],
+    "comparison_evidence": null,
+    "comparison_scope": "FULL_STRUCTURED_BODY",
+    "comparison_source": null,
+    "comparison_status": "COMPARISON_UNAVAILABLE",
+    "comparison_unavailable_reason": "STRUCTURED_ARTICLES_UNAVAILABLE",
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2020-06-08",
+    "event_id": "evt-acd216598827dc2183d2a576682a9182736a78ee8525e73d7b8132ecf98c016b",
+    "fallback_reason": "OFFICIAL_COMPARISON_PAIR_OR_TEXT_UNAVAILABLE",
+    "official_old_new_available": false,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000189927",
+    "promulgation_or_issue_date": "2020-06-08",
+    "regulation_name": "교정기관 간판게시 및 교정직제 영문표기에 관한 지침",
+    "regulation_type": "예규"
+  },
+  "schema_version": "1.3"
+}

@@ -1,0 +1,73 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "910a5beb8553844576cc9bf98f6a2ea4f9eceae66793a06d5ec671c5d69feb47",
+      "effective_date": "2026-01-02",
+      "identifier": "276277",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=276277",
+      "snapshot_url": "/api/v1/rules/law-002027/versions/276277-2026-01-02-5fed88f5efc6468c.json",
+      "version_id": "276277"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "e54972fc5f6a7893553fbd88ff8dcd624d830ecae786f955f6e0d6fff382261d",
+      "effective_date": "2021-04-21",
+      "identifier": "222429",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=222429",
+      "snapshot_url": "/api/v1/rules/law-002027/versions/222429-2021-04-21-2fdc04232a0edbcd.json",
+      "version_id": "222429"
+    },
+    "canonical_id": "law-002027",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 2,
+    "changed_articles": [
+      {
+        "after_text": "제4조(위탁계약의 체결) ①·② (현행과 같음)\n③ 법무부장관은 위탁계약을 체결하기 전에 계약 내용을 기획예산처장관과 미리 협의하여야 한다.\n④ (현행과 같음)",
+        "article_key": "article-4",
+        "article_number": "4",
+        "article_title": "제4조(위탁계약의 체결)",
+        "before_text": "제4조(위탁계약의 체결) ①·② (생  략)\n③ 법무부장관은 위탁계약을 체결하기 전에 계약 내용을 기획재정부장관과 미리 협의하여야 한다.\n④ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-01-02"
+      },
+      {
+        "after_text": "제23조(운영 경비) ① 법무부장관은 사전에 기획예산처장관과 협의하여 민영교도소등을 운영하는 교정법인에 대하여 매년 그 교도소등의 운영에 필요한 경비를 지급한다.\n② (현행과 같음)",
+        "article_key": "article-23",
+        "article_number": "23",
+        "article_title": "제23조(운영 경비)",
+        "before_text": "제23조(운영 경비) ① 법무부장관은 사전에 기획재정부장관과 협의하여 민영교도소등을 운영하는 교정법인에 대하여 매년 그 교도소등의 운영에 필요한 경비를 지급한다.\n② (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-01-02"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "2213284c94f51cd403500d8e567a4c380470b97122077105603bf2e9be1ba9cf",
+      "credential_redacted": false,
+      "raw_sha256": "8a14d28872a3b05a9f9d4723e10b99405336e0e262834a82acf7de1cda2fe6e3",
+      "request": {
+        "MST": "276277",
+        "target": "oldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "8a14d28872a3b05a9f9d4723e10b99405336e0e262834a82acf7de1cda2fe6e3"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2026-01-02",
+    "event_id": "evt-bdf482e7827d6979792b361b768aec0cc04298395f6b76d32a0a784adccf3f22",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=276277",
+    "promulgation_or_issue_date": "2025-10-01",
+    "regulation_name": "민영교도소 등의 설치ㆍ운영에 관한 법률",
+    "regulation_type": "법률"
+  },
+  "schema_version": "1.3"
+}

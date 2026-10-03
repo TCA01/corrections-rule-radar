@@ -1,12 +1,13 @@
-# 교정업무 변경 레이더 — Phase 1B
+# 교정업무 변경 레이더 — Phase 1E
 
 Python Law.go.kr pipeline and React Web W1. No Android app, Firebase deployment,
 OCR, attachment downloads or legal interpretations are implemented here.
 
-Current: Web W1 exists. Phase 1B hardens its backend contract and prepares gated
-Actions/Firebase operations without redesign or deployment. Main schema 1.2;
-immutable archives remain 1.1. See docs/phase1b_contract.md,
-docs/phase1b_operations.md and data/reports/phase1b.md.
+Current: production core remains 68. Phase 1E adds persistent exact-version
+change history and a recent 90-day feed. Main schema 1.3; immutable archives
+remain 1.1. No frontend edits or deployment are included. Web W3 can consume
+schema 1.3 separately. Future provenance/scope expansion requires 1.4.
+See docs/phase1e_contract.md and data/reports/phase1e.md.
 
 Phase 1A: `python scripts/observe.py --runs 3` observes normal live syncs;
 `python scripts/verify.py` verifies recovery, contracts and secrets;
@@ -23,11 +24,15 @@ not automatically read. Never pass the value on the command line.
 python -m venv .venv
 .venv\Scripts\python -m pip install -r requirements.txt
 .venv\Scripts\python scripts/create_schemas.py
-.venv\Scripts\python scripts/capabilities.py
-.venv\Scripts\python scripts/sync.py
-.venv\Scripts\python scripts/sync.py
+.venv\Scripts\python scripts/production_sync.py
+.venv\Scripts\python scripts/production_sync.py
 .venv\Scripts\python -m unittest discover -s tests -v
 ```
+
+One-time history backfill: `python scripts/backfill_history.py`, then
+`python scripts/migrate_history.py` for an isolated rehearsal. After passing
+the backend checks, `python scripts/migrate_history.py --publish` explicitly
+generates the local schema 1.3 dataset. These commands do not deploy.
 
 Missing authentication stops with `WAITING_FOR_LAW_API_OC`. Networking must be
 permitted. Failures print only classified errors, never authenticated URLs or

@@ -1,0 +1,197 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "13b10569aa1169fb57bd5738873357832c4d62dea660795b23c0b0895f402088",
+      "effective_date": "2025-01-02",
+      "identifier": "2100000250524",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000250524",
+      "snapshot_url": "/api/v1/rules/admrul-28712/versions/2100000250524-2025-01-02-41d8ec98332fdc17.json",
+      "version_id": "2100000250524"
+    },
+    "appendix_changes": [
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=146139483",
+          "sequence": "0001",
+          "title": "공무용 차량 점검표",
+          "type": "별표",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=146139479"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0001",
+          "title": "공용차량 점검표",
+          "type": "별표",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=123700879"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=146139493",
+          "sequence": "0002",
+          "title": "호송용 승합차량의 색상 및 표지  ",
+          "type": "별표",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=146139485"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0002",
+          "title": "호송용 승합차량의 색상 및 표지",
+          "type": "별표",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=123700883"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      }
+    ],
+    "before_version": {
+      "body_hash": "41a0468ecc45bcb6afa5562ab26a229776ce947f5eaaf6a659eb9ef9de943d44",
+      "effective_date": "2023-01-02",
+      "identifier": "2100000217821",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000217821",
+      "snapshot_url": "/api/v1/rules/admrul-28712/versions/2100000217821-2023-01-02-5c0ef686fda93a7a.json",
+      "version_id": "2100000217821"
+    },
+    "canonical_id": "admrul-28712",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "RULE_RENAMED",
+      "APPENDIX_METADATA_CHANGED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 11,
+    "changed_articles": [
+      {
+        "after_text": "제1조(목적) 이 지침은 교정기관에서 보유하고 있는 공무용 차량의 효율적 관리유지를 목적으로 한다.",
+        "article_key": "article-1",
+        "article_number": "1",
+        "article_title": "제1조(목적)",
+        "before_text": "제1조(목적) 이 지침은 교정기관에서 보유하고 있는 공용차량의 효율적 관리유지를 목적으로 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-01-02"
+      },
+      {
+        "after_text": "제2조(적용 범위) 교정기관 공무용 차량에 대하여 다른 법령에 특별한 규정이 있는 경우를 제외하고는 이 규칙이 정하는 바에 따른다.",
+        "article_key": "article-2",
+        "article_number": "2",
+        "article_title": "제2조(적용 범위)",
+        "before_text": "제2조(적용 범위) 교정기관 공용차량에 대하여 다른 법령에 특별한 규정이 있는 경우를 제외하고는 이 규칙이 정하는 바에 따른다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-01-02"
+      },
+      {
+        "after_text": "제3조(차량의 구분) ① 교정기관 공무용 차량의 차종은 승용ㆍ승합ㆍ화물ㆍ특수 차량으로 구분하고, 차량의 규모에 따라 대형ㆍ중형ㆍ소형 및 경형으로 구분한다.\n② 교정기관 공무용 차량은 용도별로 다음 각호와 같이 구분한다.\n1. (현행과 같음)\n2. 일반업무 차량 : 교정기관 업무수행을 위해 운행하는 승용ㆍ승합ㆍ화물ㆍ특수 차량\n3. (현행과 같음)",
+        "article_key": "article-3",
+        "article_number": "3",
+        "article_title": "제3조(차량의 구분)",
+        "before_text": "제3조(차량의 구분) ① 교정기관 공용차량의 차종은 승용ㆍ승합ㆍ화물ㆍ특수용으로 구분하고, 차량의 규모에 따라 대형ㆍ중형ㆍ소형 및 경형으로 구분한다.\n② 교정기관 공용차량은 용도별로 다음 각호와 같이 구분한다.\n1. (생  략)\n2. 업무용 차량 : 교정기관 업무수행을 위해 운행하는 승용ㆍ승합ㆍ화물ㆍ특수차량\n3. (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-01-02"
+      },
+      {
+        "after_text": "제4조(차량의 관리책임) ① 차량관리 부서장은 공무용 차량을 적정하게 관리ㆍ유지하도록 하고, 운전원에 대하여 안전운행에 관한 교육을 실시하여야 한다.\n② 공무용 차량은 차량별 관리담당 운전원을 지정ㆍ운용하여야 한다.\n③ (현행과 같음)",
+        "article_key": "article-4",
+        "article_number": "4",
+        "article_title": "제4조(차량의 관리책임)",
+        "before_text": "제4조(차량의 관리책임) ① 차량관리 부서장은 공용차량을 적정하게 관리ㆍ유지하도록 하고, 운전원에 대하여 안전운행에 관한 교육을 실시하여야 한다.\n② 공용차량은 차량별 관리담당 운전원을 지정ㆍ운용하여야 한다.\n③ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-01-02"
+      },
+      {
+        "after_text": "제5조(차량의 관리) ① 차량의 관리부서는 다음 각호의 항목을 ‘교정정보시스템’에 기록하여야 한다.\n1. ∼ 3. (현행과 같음)\n② 담당운전원은 [별표 1]에 따라 운행 전 해당 차량의 이상유무를 일 1회 확인하여야 한다.",
+        "article_key": "article-5",
+        "article_number": "5",
+        "article_title": "제5조(차량의 관리)",
+        "before_text": "제5조(차량의 관리) ① 차량의 관리부서는 차량관리에 필요한 다음 각호의 장부를 기록ㆍ비치하여야 한다. 다만, 장부의 기록 및 관리에 대한 사항은 ‘교정정보시스템’에 등록하는 것으로 대체할 수 있다.\n1. ∼ 3. (생  략)\n② 담당운전원은 [별표 1]에 따라 매일 운행 전 차량의 이상유무를 확인하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-01-02"
+      },
+      {
+        "after_text": "제6조(차량의 운행) ① 공무용 차량은 공무수행 목적에 한하여 운행할 수 있으며, 정당한 사유 없이 사적인 용도로 사용할 수 없다.\n② 공무용 차량을 운행하고자 할 때에는 법무샘의 ‘차량관리’시스템을 활용하여 배차신청 후, 차량관리 주무부서장의 승인을 받아 사용한다.\n③ (현행과 같음)",
+        "article_key": "article-6",
+        "article_number": "6",
+        "article_title": "제6조(차량의 운행)",
+        "before_text": "제6조(차량의 운행) ① 공용차량은 공무수행 목적에 한하여 운행할 수 있으며, 정당한 사유 없이 사적인 용도로 사용할 수 없다.\n② 공용차량을 운행하고자 할 때에는 법무샘의 ‘차량관리’시스템을 활용하여 배차신청 후, 차량관리 주무부서장의 승인을 받아 사용한다.\n③ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-01-02"
+      },
+      {
+        "after_text": "제7조(공무용 차량의 색상 및 표지) 공무용 차량의 색상 및 표지는 다음 구분에 의한다.\n1. 호송용 승합차량은 【별표 2】과 같이 한다.\n2. 트럭은 전체를 흰색 또는 감청색으로 하고, 양옆 앞문 위치에 법무부 차량임을 표시한다.\n3. 청소ㆍ분뇨차는 전체를 녹색으로 하고 양옆 앞문 위치에 법무부 차량임을 표시한다.\n4. (현행과 같음)",
+        "article_key": "article-7",
+        "article_number": "7",
+        "article_title": "제7조(공무용 차량의 색상 및 표지)",
+        "before_text": "제7조(공용차량의 색상 및 표지) 공용차량의 색상 및 표지는 다음 구분에 의한다.\n1. 호송용 승합차량은 [별표 2]과 같이 한다.\n2. 업무용 트럭은 전체를 흰색 또는 감청색으로 하고, 양옆 앞문 위치에 법무부 차량임을 표시한다.\n3. 업무용 청소ㆍ분뇨차는 전체를 녹색으로 하고 양옆 앞문 위치에 법무부 차량임을 표시한다.\n4. (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-01-02"
+      },
+      {
+        "after_text": "제8조(공무용 차량의 특수장치 등) ①·② (현행과 같음)",
+        "article_key": "article-8",
+        "article_number": "8",
+        "article_title": "제8조(공무용 차량의 특수장치 등)",
+        "before_text": "제8조(공용차량의 특수장치 등) ①·② (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-01-02"
+      },
+      {
+        "after_text": "제10조(카드 등의 비치) 소관 과장은 「물품관리법」, 「물품관리법 시행령」, 「공무용 차량관리 규정」, 기타 관계규정에 의한 장부 등을 비치하고 정리하여야 한다.",
+        "article_key": "article-10",
+        "article_number": "10",
+        "article_title": "제10조(카드 등의 비치)",
+        "before_text": "제10조(카드 등의 비치) 소관 과장은 물품관리법, 물품관리법시행령, 공용차량관리규정 기타 관계규정에 의한 장부 등을 비치하고 정리하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-01-02"
+      },
+      {
+        "after_text": "제11조(차량의 교체 및 불용처리) ① (현행과 같음)\n② 차량교체는 최단운행 기준연한(이하 “내용연수”라 한다)이 경과된 차량을 대상으로 책정된 예산의 범위 내에서 「공무용 차량 관리 규정」의 교체기준에 따라 실시한다.\n③·④ (현행과 같음)",
+        "article_key": "article-11",
+        "article_number": "11",
+        "article_title": "제11조(차량의 교체 및 불용처리)",
+        "before_text": "제11조(차량의 교체 및 불용처리) ① (생  략)\n② 차량교체는 최단운행 기준연한(이하 “내용연수”라 한다)이 경과된 차량을 대상으로 책정된 예산의 범위 내에서 「공용차량 관리규정」의 교체기준에 따라 실시한다.\n③·④ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-01-02"
+      },
+      {
+        "after_text": "제12조(재검토기한) 「훈령ㆍ예규 등의 발령 및 관리에 관한 규정」에 따라 이 예규에 대하여 2025년 1월 2일을 기준으로 매 3년이 되는 시점(매 3년째의 12월 31일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+        "article_key": "article-12",
+        "article_number": "12",
+        "article_title": "제12조(재검토기한)",
+        "before_text": "제12조(재검토기한) 「훈령ㆍ예규 등의 발령 및 관리에 관한 규정」에 따라 이 예규에 대하여 2023년 1월 1일을 기준으로 매 3년이 되는 시점(매 3년째의 12월 31일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-01-02"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "b481aba33b88643436243a822ab60280920352143f8f9d731e8fbcfd3419cf13",
+      "credential_redacted": false,
+      "raw_sha256": "e333c3b48d18ecdec8ee5b814da6c0d2da7e1b90b78f3b7f1bb3e8ab280ed976",
+      "request": {
+        "ID": "2100000250524",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "e333c3b48d18ecdec8ee5b814da6c0d2da7e1b90b78f3b7f1bb3e8ab280ed976"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2025-01-02",
+    "event_id": "evt-50df78165e5db977408b58150121abc0bf761a577d7e615a6b531f7332712934",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000250524",
+    "promulgation_or_issue_date": "2025-01-02",
+    "regulation_name": "교정기관 공무용 차량 관리 지침",
+    "regulation_type": "예규"
+  },
+  "schema_version": "1.3"
+}

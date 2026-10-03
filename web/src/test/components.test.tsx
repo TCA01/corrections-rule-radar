@@ -7,7 +7,8 @@ import { RegulationDirectory } from '../components/RegulationDirectory';
 import { Header } from '../components/Header';
 import { RuleDetailModal } from '../components/RuleDetailModal';
 import { GlobalSearch } from '../components/GlobalSearch';
-import { RuleSummary, DisplayChangeEvent, RuleDetailResponse } from '../types';
+import { RecentChangesSection } from '../components/RecentChangesSection';
+import { RuleSummary, DisplayChangeEvent, RuleDetailResponse, PersistentChangeEvent } from '../types';
 import { api } from '../services/api';
 
 const mockRule: RuleSummary = {
@@ -143,22 +144,36 @@ const mockEvent: DisplayChangeEvent = {
   rule_summary: mockRule,
 };
 
+const mockPersistentEvent: PersistentChangeEvent = {
+  event_id: 'change-law-001668-20251223',
+  canonical_id: 'law-001668',
+  regulation_name: '형의 집행 및 수용자의 처우에 관한 법률',
+  regulation_type: '법률',
+  effective_date: '2026-12-24',
+  promulgation_or_issue_date: '2025-12-23',
+  detected_at: '2026-10-03T02:20:42Z',
+  change_type: 'RULE_AMENDED',
+  changed_article_count: 5,
+  changed_articles: [],
+  official_source_url: 'https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=280443',
+};
+
 describe('SummaryCards Component', () => {
   it('renders dynamic counts without hardcoded values', () => {
     render(
       <SummaryCards
         todayCount={1}
         upcoming30Count={0}
-        recent30Count={5}
+        recent90Count={5}
         totalTrackedCount={68}
       />
     );
 
     expect(screen.getByText('오늘 시행')).toBeInTheDocument();
     expect(screen.getByText('1')).toBeInTheDocument();
-    expect(screen.getByText('30일 내 시행 예정')).toBeInTheDocument();
+    expect(screen.getByText('30일 내 시행예정')).toBeInTheDocument();
     expect(screen.getByText('0')).toBeInTheDocument();
-    expect(screen.getByText('최근 30일 변경')).toBeInTheDocument();
+    expect(screen.getByText('최근 90일 변경')).toBeInTheDocument();
     expect(screen.getByText('5')).toBeInTheDocument();
     expect(screen.getByText('추적 규정')).toBeInTheDocument();
     expect(screen.getByText('68')).toBeInTheDocument();
@@ -255,11 +270,33 @@ describe('RegulationDirectory Component', () => {
 });
 
 describe('Header Component', () => {
+  it('renders VoiceBox Civic title and subtitle', () => {
+    render(
+      <Header
+        health={{
+          schema_version: '1.3',
+          dataset_version: 'ds-1',
+          health_scope: 'PUBLISHED_DATASET',
+          publication_status: 'HEALTHY',
+          status: 'HEALTHY',
+          rule_count: 68,
+          review_count: 0,
+          classification_review_count: 2,
+          last_successful_sync: '2026-10-03T02:55:26Z',
+        }}
+      />
+    );
+
+    expect(screen.getByText('교정관련 규정 추적기')).toBeInTheDocument();
+    expect(screen.getByText('교정업무에 관련된 법령·예규·훈령의 변경과 시행예정을 추적합니다.')).toBeInTheDocument();
+    expect(screen.queryByText('교정업무 변경 레이더')).not.toBeInTheDocument();
+  });
+
   it('displays sync time and degraded warning when health status is not OK', () => {
     render(
       <Header
         health={{
-          schema_version: '1.2',
+          schema_version: '1.3',
           dataset_version: 'ds-1',
           health_scope: 'PUBLISHED_DATASET',
           publication_status: 'DEGRADED',
@@ -269,7 +306,6 @@ describe('Header Component', () => {
           classification_review_count: 2,
           last_successful_sync: '2026-10-03T02:55:26Z',
         }}
-        onOpenDemo={vi.fn()}
       />
     );
 
@@ -280,10 +316,58 @@ describe('Header Component', () => {
   });
 });
 
+describe('RecentChangesSection Component', () => {
+  it('renders title, event rows with type badge, title, date, count, and triggers detail on click', () => {
+    const onSelectEvent = vi.fn();
+    const onSelectRule = vi.fn();
+
+    render(
+      <RecentChangesSection
+        events={[mockPersistentEvent]}
+        rules={[mockRule]}
+        selectedDomains={[]}
+        onSelectEvent={onSelectEvent}
+        onSelectRule={onSelectRule}
+      />
+    );
+
+    expect(screen.getByText('최근 규정 변경')).toBeInTheDocument();
+    expect(screen.getByText('형의 집행 및 수용자의 처우에 관한 법률')).toBeInTheDocument();
+    expect(screen.getByText('법률')).toBeInTheDocument();
+    expect(screen.getByText('2026.12.24')).toBeInTheDocument();
+    expect(screen.getByText('5개 조문')).toBeInTheDocument();
+    expect(screen.getByText(/수용·보안/)).toBeInTheDocument();
+
+    // Official link has valid URL
+    const link = screen.getByRole('link', { name: /공식 원문/ });
+    expect(link).toHaveAttribute('href', mockPersistentEvent.official_source_url);
+
+    // Click "변경 내용 보기"
+    const viewBtn = screen.getByRole('button', { name: /변경 내용 보기/ });
+    fireEvent.click(viewBtn);
+    expect(onSelectEvent).toHaveBeenCalledWith(mockPersistentEvent, mockRule);
+  });
+
+  it('filters events by selected business domains', () => {
+    render(
+      <RecentChangesSection
+        events={[mockPersistentEvent]}
+        rules={[mockRule]}
+        selectedDomains={['보관금품']}
+        onSelectEvent={vi.fn()}
+        onSelectRule={vi.fn()}
+      />
+    );
+
+    expect(screen.getByText(/선택하신 업무 분야에 해당하는 최근 90일 변경 내역이 없습니다/)).toBeInTheDocument();
+    expect(screen.queryByText('형의 집행 및 수용자의 처우에 관한 법률')).not.toBeInTheDocument();
+  });
+});
+
 describe('RuleDetailModal Component', () => {
-  it('renders rule detail, changed articles diff side-by-side, and appendices', async () => {
+  it('renders rule detail, changed articles diff side-by-side, and appendices with correct download/preview labels', async () => {
     const mockDetailResponse: RuleDetailResponse = {
-      schema_version: '1.2',
+      schema_version: '1.3',
       dataset_version: 'ds-1',
       rule: mockRule,
       current: {
@@ -303,11 +387,29 @@ describe('RuleDetailModal Component', () => {
         appendices: [
           {
             branch: '00',
-            pdf_url: 'https://www.law.go.kr/pdf',
             sequence: '0001',
-            title: '수용기록 서식',
+            title: '수용기록 웹 서식',
             type: '별표',
-            url: 'https://www.law.go.kr/form',
+            url: 'https://www.law.go.kr/viewForm.do',
+            pdf_url: null,
+          },
+          {
+            branch: '00',
+            sequence: '0002',
+            title: '영치품 접수 양식 HWP',
+            type: '서식',
+            url: 'https://www.law.go.kr/flDownload.do?seq=2',
+            pdf_url: null,
+          },
+          {
+            branch: '00',
+            sequence: '0003',
+            title: '폐지된 구 서식',
+            type: '서식',
+            url: null,
+            pdf_url: null,
+            status: 'REMOVED',
+            is_deleted: true,
           },
         ],
         attachments: [],
@@ -375,8 +477,14 @@ describe('RuleDetailModal Component', () => {
 
     render(<RuleDetailModal rule={mockRule} onClose={vi.fn()} />);
 
+    // Check official source link is prominently placed in modal header next to title
+    const officialLinks = screen.getAllByRole('link', { name: /공식 원문/ });
+    expect(officialLinks.length).toBeGreaterThanOrEqual(1);
+    expect(officialLinks[0]).toHaveAttribute('href', mockRule.official_source_url);
+    expect(document.querySelector('.modal-official-link')).toHaveAttribute('href', mockRule.official_source_url);
+
     await waitFor(() => {
-      expect(screen.getByText('개정 조문 대비표 (2026-12-24 시행 예정)')).toBeInTheDocument();
+      expect(screen.getByText('개정 조문 대비표 (2026.12.24 시행 예정)')).toBeInTheDocument();
     });
 
     // Check changed article nav pill
@@ -396,15 +504,80 @@ describe('RuleDetailModal Component', () => {
     expect(screen.getByText('제53조의2 종전')).toBeInTheDocument();
     expect(screen.getByText('제53조의2 개정안')).toBeInTheDocument();
 
-    // Check appendices
-    expect(screen.getByText('관련 별표·서식 (1건)')).toBeInTheDocument();
-    expect(screen.getByText('수용기록 서식')).toBeInTheDocument();
+    // Check appendices: labels and deleted handling (Section 20)
+    expect(screen.getByText('관련 별표·서식 (3건)')).toBeInTheDocument();
+    expect(screen.getByText('수용기록 웹 서식')).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: /미리보기/ })).toBeInTheDocument();
+
+    expect(screen.getByText('영치품 접수 양식 HWP')).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: /다운로드/ })).toBeInTheDocument();
+
+    // Deleted appendix must show metadata and notice without download/preview action buttons
+    expect(screen.getByText('폐지된 구 서식')).toBeInTheDocument();
+    expect(screen.getByText('해당 개정에서 삭제된 서식')).toBeInTheDocument();
 
     // Check official source notice
     expect(screen.getByText('출처: 법제처 국가법령정보센터')).toBeInTheDocument();
     expect(
       screen.getByText(/본 서비스는 법령·행정규칙 변경사항을 업무 편의를 위해 정리한 참고 서비스입니다/)
     ).toBeInTheDocument();
+  });
+
+  it('renders past-effective comparison when initialEvent is provided', async () => {
+    vi.spyOn(api, 'getRuleDetail').mockResolvedValue({
+      schema_version: '1.3',
+      dataset_version: 'ds-1',
+      rule: mockRule,
+      current: {
+        canonical_id: 'law-001668',
+        source_kind: 'law',
+        stable_identifier: '001668',
+        version_id: '1',
+        version_status: 'CURRENT',
+        version_reference: {
+          version_id: '1',
+          effective_date: '2026-10-02',
+          snapshot_url: '/api/v1/snapshot1.json',
+          official_source_url: 'https://www.law.go.kr',
+        },
+        metadata: mockRule.metadata,
+        official_source_url: 'https://www.law.go.kr',
+        appendices: [],
+        attachments: [],
+        body: { articles: { 조문단위: [] }, addenda: {} },
+        hashes: { appendix_hash: 'h1', attachment_link_hash: 'h2', body_hash: 'h3', metadata_hash: 'h4' },
+      },
+      changed_articles: [
+        {
+          article_key: '000100',
+          article_number: '1',
+          article_title: '제1조(목적)',
+          change_type: 'MODIFIED',
+          before_text: '수형자의 교화',
+          after_text: '수용자의 교화와 사회복귀',
+          effective_date: '2026-10-02',
+        },
+      ],
+      articles_compared_to: {
+        version_id: 'old-1',
+        effective_date: '2024-01-01',
+        snapshot_url: '/api/v1/snapshot.json',
+        official_source_url: 'https://www.law.go.kr',
+      },
+      upcoming: [],
+    });
+
+    render(<RuleDetailModal rule={mockRule} initialEvent={mockPersistentEvent} onClose={vi.fn()} />);
+
+    await waitFor(() => {
+      expect(screen.getByText(/개정 조문 대비표/)).toBeInTheDocument();
+    });
+
+    expect(screen.getAllByText('제1조(목적)').length).toBeGreaterThanOrEqual(1);
+    expect(screen.getByText(/사회복귀/)).toBeInTheDocument();
+
+    fireEvent.click(screen.getByText('전·후 전체 비교'));
+    expect(screen.getByText('수용자의 교화와 사회복귀')).toBeInTheDocument();
   });
 
   it('does NOT render provenance section when rule has no provenance or selection rationale', async () => {

@@ -1,0 +1,64 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "2b87ac33c2fd1fae211f4f0060b20fe6117572806f29422e28f89236c9ba8a94",
+      "effective_date": "2022-07-01",
+      "identifier": "243607",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=243607",
+      "snapshot_url": "/api/v1/rules/law-002049/versions/243607-2022-07-01-4f180ded03323019.json",
+      "version_id": "243607"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "923ff517485547a2575795fa753c24c86321d09f4d6390bd8f44f57a168e9f33",
+      "effective_date": "2017-05-08",
+      "identifier": "193683",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=193683",
+      "snapshot_url": "/api/v1/rules/law-002049/versions/193683-2017-05-08-57ba43db0ceb0248.json",
+      "version_id": "193683"
+    },
+    "canonical_id": "law-002049",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 1,
+    "changed_articles": [
+      {
+        "after_text": "제21조(준용규정) 군사법원에서 형의 선고를 받은 사람에 대한 법무부장관의 직무는 국방부장관이 수행하고, 검사의 직무는 형을 선고한 군사법원에 대응하는 군검찰부의 군검사가 수행한다.",
+        "article_key": "article-21",
+        "article_number": "21",
+        "article_title": "제21조(준용규정)",
+        "before_text": "제21조(준용규정) 군사법원에서 형의 선고를 받은 사람에 대한 법무부장관의 직무는 국방부장관이 수행하고, 검사의 직무는 형을 선고한 군사법원에 대응하는 군검찰부의 검찰관이 수행한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2022-07-01"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "485aeedd0590d09ce16aee8bab1fbea8365400fc7597a0141561b73a9b2486f5",
+      "credential_redacted": false,
+      "raw_sha256": "ab5182275eee8bf3057bbca046f8fa3b5975e6c4bfc54b1e86677a72ef2dde66",
+      "request": {
+        "MST": "243607",
+        "target": "oldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "ab5182275eee8bf3057bbca046f8fa3b5975e6c4bfc54b1e86677a72ef2dde66"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2022-07-01",
+    "event_id": "evt-ba054e287058fb1e9126fd02f7cab9ea818295baf833bd1a85945d207b2f9b2c",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=243607",
+    "promulgation_or_issue_date": "2022-06-30",
+    "regulation_name": "가석방자관리규정",
+    "regulation_type": "대통령령"
+  },
+  "schema_version": "1.3"
+}

@@ -26,7 +26,17 @@ ARTICLE=obj({'article_key':S,'article_number':S,'article_title':S,'change_type':
 COMPARISON={'changed_articles':arr(ARTICLE),'articles_compared_to':{'anyOf':[REF,{'type':'null'}]}}
 COMPARED_SNAP={**SNAP,'properties':{**SNAP['properties'],**COMPARISON},'required':SNAP['required']+list(COMPARISON)}
 EVENT['properties'].update(COMPARISON); EVENT['required']+=list(COMPARISON)
-COMMON['schema_version']={'const':'1.2'}
+COMMON['schema_version']={'const':'1.3'}
+PREF=obj({**REF['properties'],'identifier':S,'body_hash':H})
+PARTICLE={**ARTICLE,'properties':{**ARTICLE['properties'],'change_type':{'enum':['ADDED','REMOVED','MODIFIED','RENAMED','UNKNOWN_STRUCTURAL_CHANGE']}}}
+APPCHANGE=obj({'change_type':{'enum':['APPENDIX_ADDED','APPENDIX_REMOVED','APPENDIX_METADATA_CHANGED']},'status':{'enum':['AVAILABLE','REMOVED']},'before_metadata':{'anyOf':[APP,{'type':'null'}]},'after_metadata':{'anyOf':[APP,{'type':'null'}]}})
+PEVENT=obj({'event_id':EVENT['properties']['event_id'],'canonical_id':ID,'regulation_name':S,'regulation_type':NS,
+ 'change_type':{'enum':['RULE_AMENDED','RULE_RENAMED','ARTICLE_CHANGED','RULE_REPEALED','NEW_RULE','HISTORICAL_VERSION','METADATA_CORRECTED','EFFECTIVE_DATE_CORRECTED','APPENDIX_ADDED','APPENDIX_REMOVED','APPENDIX_METADATA_CHANGED']},
+ 'change_types':arr(S),'detected_at':TS,'promulgation_or_issue_date':D,'effective_date':{'type':'string','format':'date'},
+ 'before_version':{'anyOf':[PREF,{'type':'null'}]},'after_version':PREF,'changed_articles':arr(PARTICLE),'changed_article_count':N,'appendix_changes':arr(APPCHANGE),
+ 'official_old_new_available':{'type':'boolean'},'comparison_source':{'enum':['LAWGO_OLD_NEW','LAWGO_ADMIN_OLD_NEW','STRUCTURED_SNAPSHOT_DIFF',None]},
+ 'comparison_scope':{'enum':['FULL_STRUCTURED_BODY','OFFICIAL_COMPARISON_EXCERPT']},'comparison_status':{'enum':['AVAILABLE','COMPARISON_UNAVAILABLE']},
+ 'comparison_unavailable_reason':NS,'fallback_reason':NS,'comparison_evidence':{'type':['object','null']},'official_source_url':URL})
 contracts={
  'manifest':obj({**COMMON,'published_at':TS,'rules_url':{'const':'/api/v1/rules.json'},'latest_changes_url':{'const':'/api/v1/changes/latest.json'},'upcoming_changes_url':{'const':'/api/v1/changes/upcoming.json'},'health_url':{'const':'/api/v1/health.json'},'rule_count':N,'API_V1_CANDIDATE':{'const':True}}),
  'rules':obj({**COMMON,'rules':arr(RULE)}),
@@ -35,4 +45,9 @@ contracts={
  'changes':obj({**COMMON,'events':arr(EVENT)}),
  'health':obj({**COMMON,'status':{'enum':['OK','DEGRADED']},'last_successful_sync':TS,'publication_status':{'enum':['PUBLISHED','BLOCKED']},'rule_count':N,'review_count':N,'classification_review_count':N,'health_scope':{'const':'PUBLISHED_DATASET'}})
 }
+contracts['manifest']['properties'].update({'recent_changes_url':{'const':'/api/v1/changes/recent.json'},'history_changes_url':{'const':'/api/v1/changes/history.json'},'change_detail_url_template':{'const':'/api/v1/changes/{event_id}.json'}})
+contracts['manifest']['required']+=['recent_changes_url','history_changes_url','change_detail_url_template']
+contracts['history']=obj({**COMMON,'retention':{'const':'INDEFINITE'},'events':arr(PEVENT)})
+contracts['recent']=obj({**COMMON,'window_days':{'const':90},'date_basis':{'const':'EFFECTIVE_DATE_SEOUL'},'events':arr(PEVENT)})
+contracts['change']=obj({'schema_version':{'const':'1.3'},'event':PEVENT})
 for name,schema in contracts.items(): write_json('schemas/'+name+'.schema.json',{'$schema':'https://json-schema.org/draft/2020-12/schema','$id':'urn:corrections-rule-radar:api:v1:'+name,'title':name,**schema})

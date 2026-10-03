@@ -1,0 +1,36 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "e5cedaf02d2b153d8bcdf5b2943240c2b07bbee254aa964275484558517db122",
+      "effective_date": "2016-11-30",
+      "identifier": "183520",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=183520",
+      "snapshot_url": "/api/v1/rules/law-012557/versions/183520-2016-11-30-35ea339e2db10857.json",
+      "version_id": "183520"
+    },
+    "appendix_changes": [],
+    "before_version": null,
+    "canonical_id": "law-012557",
+    "change_type": "NEW_RULE",
+    "change_types": [
+      "NEW_RULE"
+    ],
+    "changed_article_count": 0,
+    "changed_articles": [],
+    "comparison_evidence": null,
+    "comparison_scope": "FULL_STRUCTURED_BODY",
+    "comparison_source": null,
+    "comparison_status": "COMPARISON_UNAVAILABLE",
+    "comparison_unavailable_reason": "BEFORE_VERSION_UNAVAILABLE",
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2016-11-30",
+    "event_id": "evt-8520b5ed2795f723b231914a9a5a71793bf0a365295dcddd5683bfd8b3915cff",
+    "fallback_reason": "OFFICIAL_COMPARISON_UNAVAILABLE",
+    "official_old_new_available": false,
+    "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=183520",
+    "promulgation_or_issue_date": "2016-05-29",
+    "regulation_name": "경비교도대 폐지에 따른 보상 등에 관한 법률",
+    "regulation_type": "법률"
+  },
+  "schema_version": "1.3"
+}

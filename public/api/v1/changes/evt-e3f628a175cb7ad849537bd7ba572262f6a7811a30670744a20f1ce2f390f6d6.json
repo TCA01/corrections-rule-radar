@@ -1,0 +1,336 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "f87fa9bdf3e885f8aa0ff3610553ff880f5c1a1e5d6282ad6404afedb01113de",
+      "effective_date": "2026-04-10",
+      "identifier": "2100000277210",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000277210",
+      "snapshot_url": "/api/v1/rules/admrul-37730/versions/2100000277210-2026-04-10-14399cc1279bb012.json",
+      "version_id": "2100000277210"
+    },
+    "appendix_changes": [
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163383359",
+          "sequence": "0001",
+          "title": "교정공무원 상호부조회 가입신청서",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163383355"
+        },
+        "before_metadata": null,
+        "change_type": "APPENDIX_ADDED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": null,
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163384653",
+          "sequence": "0001",
+          "title": "교정공무원 상호부조회 가입신청서",
+          "type": "서식",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163384649"
+        },
+        "change_type": "APPENDIX_REMOVED",
+        "status": "REMOVED"
+      },
+      {
+        "after_metadata": {
+          "branch": "01",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163383365",
+          "sequence": "0002",
+          "title": "교정공무원 상호부조회 탈퇴서",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163383361"
+        },
+        "before_metadata": null,
+        "change_type": "APPENDIX_ADDED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": null,
+        "before_metadata": {
+          "branch": "01",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163384739",
+          "sequence": "0002",
+          "title": "교정공무원 상호부조회 탈퇴서",
+          "type": "서식",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163384655"
+        },
+        "change_type": "APPENDIX_REMOVED",
+        "status": "REMOVED"
+      },
+      {
+        "after_metadata": {
+          "branch": "02",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163383371",
+          "sequence": "0002",
+          "title": "교정공무원 상호부조회 탈퇴 확인서",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163383367"
+        },
+        "before_metadata": null,
+        "change_type": "APPENDIX_ADDED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": null,
+        "before_metadata": {
+          "branch": "02",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163384745",
+          "sequence": "0002",
+          "title": "교정공무원 상호부조회 탈퇴 확인서",
+          "type": "서식",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163384741"
+        },
+        "change_type": "APPENDIX_REMOVED",
+        "status": "REMOVED"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163383377",
+          "sequence": "0003",
+          "title": "상호부조금 모금사유 발생 통보서",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163383373"
+        },
+        "before_metadata": null,
+        "change_type": "APPENDIX_ADDED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": null,
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163384751",
+          "sequence": "0003",
+          "title": "상호부조금 모금사유 발생 통보서",
+          "type": "서식",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163384747"
+        },
+        "change_type": "APPENDIX_REMOVED",
+        "status": "REMOVED"
+      },
+      {
+        "after_metadata": {
+          "branch": "01",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163383383",
+          "sequence": "0004",
+          "title": "교정공무원 상호부조 심의결정서",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163383379"
+        },
+        "before_metadata": null,
+        "change_type": "APPENDIX_ADDED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": null,
+        "before_metadata": {
+          "branch": "01",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163384757",
+          "sequence": "0004",
+          "title": "교정공무원 상호부조 심의결정서",
+          "type": "서식",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163384753"
+        },
+        "change_type": "APPENDIX_REMOVED",
+        "status": "REMOVED"
+      },
+      {
+        "after_metadata": {
+          "branch": "02",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163383389",
+          "sequence": "0004",
+          "title": "상호부조금 모금 결정서",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163383385"
+        },
+        "before_metadata": null,
+        "change_type": "APPENDIX_ADDED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": null,
+        "before_metadata": {
+          "branch": "02",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163384763",
+          "sequence": "0004",
+          "title": "상호부조금 모금 결정서",
+          "type": "서식",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163384759"
+        },
+        "change_type": "APPENDIX_REMOVED",
+        "status": "REMOVED"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163383395",
+          "sequence": "0005",
+          "title": "상호부조금 모금 명세서",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163383391"
+        },
+        "before_metadata": null,
+        "change_type": "APPENDIX_ADDED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": null,
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163384769",
+          "sequence": "0005",
+          "title": "상호부조금 모금 명세서",
+          "type": "서식",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163384765"
+        },
+        "change_type": "APPENDIX_REMOVED",
+        "status": "REMOVED"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163383401",
+          "sequence": "0006",
+          "title": "상호부조금 지급서",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163383397"
+        },
+        "before_metadata": null,
+        "change_type": "APPENDIX_ADDED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": null,
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163384775",
+          "sequence": "0006",
+          "title": "상호부조금 지급서",
+          "type": "서식",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163384771"
+        },
+        "change_type": "APPENDIX_REMOVED",
+        "status": "REMOVED"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163383407",
+          "sequence": "0007",
+          "title": "상호부조금 영수증",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163383403"
+        },
+        "before_metadata": null,
+        "change_type": "APPENDIX_ADDED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": null,
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163384781",
+          "sequence": "0007",
+          "title": "상호부조금 영수증",
+          "type": "서식",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163384777"
+        },
+        "change_type": "APPENDIX_REMOVED",
+        "status": "REMOVED"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163383413",
+          "sequence": "0008",
+          "title": "상호부조금 지급내역서",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163383409"
+        },
+        "before_metadata": null,
+        "change_type": "APPENDIX_ADDED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": null,
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163384787",
+          "sequence": "0008",
+          "title": "상호부조금 지급내역서",
+          "type": "서식",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=163384783"
+        },
+        "change_type": "APPENDIX_REMOVED",
+        "status": "REMOVED"
+      }
+    ],
+    "before_version": {
+      "body_hash": "5f0ef39db6acfe95fcd693908802a468816042324bb24fd35d1fab9a4663e818",
+      "effective_date": "2017-04-14",
+      "identifier": "2100000083050",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000083050",
+      "snapshot_url": "/api/v1/rules/admrul-37730/versions/2100000083050-2017-04-14-2544d77a6e0cd223.json",
+      "version_id": "2100000083050"
+    },
+    "canonical_id": "admrul-37730",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "APPENDIX_ADDED",
+      "APPENDIX_REMOVED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 2,
+    "changed_articles": [
+      {
+        "after_text": "제5조(대상) 상호부조회의 회원에게 다음 각 호의 1에 해당하는 사유가 발생한 때 상호부조금 지급 대상이 된다.\n1.·2. (현행과 같음)\n3. 「공무원 재해보상법 시행령」제40조에 따라 장해등급 3급 이상 또는 종합장해등급 2급 이상 판정을 받은 경우\n4. (현행과 같음)",
+        "article_key": "article-5",
+        "article_number": "5",
+        "article_title": "제5조(대상)",
+        "before_text": "제5조(대상) 상호부조회의 회원에게 다음 각 호의 1에 해당하는 사유가 발생한 때 상호부조금 지급 대상이 된다.\n1.·2. (생  략)\n3. 「공무원 연금법 시행령」제45조에 따라 장애등급 3급 이상 또는 종합장애등급 2급 이상 판정을 받은 경우\n4. (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-04-10"
+      },
+      {
+        "after_text": "제9조(상호부조금의 모금) ①·② (현행과 같음)\n③상호부조금은 다음과 같이 모금한다. 다만, 위원회 의결을 통해 감액하여 모금할 수 있다.",
+        "article_key": "article-9",
+        "article_number": "9",
+        "article_title": "제9조(상호부조금의 모금)",
+        "before_text": "제9조(상호부조금의 모금) ①·② (생  략)\n③상호부조금은 다음과 같이 모금한다. 다만, 위원회 의결을 통해 감액하여 모금할 수 있다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-04-10"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "aeedca3f6054a24ecb4ff9ff8b4d3ce0af210ee4e1686a86cc342bde26d5c4d8",
+      "credential_redacted": false,
+      "raw_sha256": "cc7e76541e651d3659bb4fb0b5bbd31948060cce11231acaf4c5b69bedec0a6e",
+      "request": {
+        "ID": "2100000277210",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "cc7e76541e651d3659bb4fb0b5bbd31948060cce11231acaf4c5b69bedec0a6e"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2026-04-10",
+    "event_id": "evt-e3f628a175cb7ad849537bd7ba572262f6a7811a30670744a20f1ce2f390f6d6",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000277210",
+    "promulgation_or_issue_date": "2026-04-10",
+    "regulation_name": "교정공무원 상호부조회 규정",
+    "regulation_type": "예규"
+  },
+  "schema_version": "1.3"
+}

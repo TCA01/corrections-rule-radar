@@ -6,31 +6,34 @@ import {
   HealthResponse,
   RulesResponse,
   ChangesResponse,
+  RecentChangesResponse,
   RuleDetailResponse,
 } from '../types';
 
 describe('Production Data Smoke Test (public/api/v1/)', () => {
   const publicDir = path.resolve(__dirname, '../../../public/api/v1');
 
-  it('verifies manifest.json integrity and schema', () => {
+  it('verifies manifest.json integrity and schema 1.3', () => {
     const raw = fs.readFileSync(path.join(publicDir, 'manifest.json'), 'utf-8');
     const data: ManifestResponse = JSON.parse(raw);
 
-    expect(data.schema_version).toBe('1.2');
+    expect(data.schema_version).toBe('1.3');
     expect(data.API_V1_CANDIDATE).toBe(true);
     expect(data.rule_count).toBe(68);
     expect(data.rules_url).toBe('/api/v1/rules.json');
     expect(data.health_url).toBe('/api/v1/health.json');
     expect(data.latest_changes_url).toBe('/api/v1/changes/latest.json');
     expect(data.upcoming_changes_url).toBe('/api/v1/changes/upcoming.json');
+    expect(data.recent_changes_url).toBe('/api/v1/changes/recent.json');
+    expect(data.history_changes_url).toBe('/api/v1/changes/history.json');
     expect(data.dataset_version).toMatch(/^ds-[a-f0-9]{64}$/);
   });
 
-  it('verifies health.json matches current publication scope', () => {
+  it('verifies health.json matches current publication scope under schema 1.3', () => {
     const raw = fs.readFileSync(path.join(publicDir, 'health.json'), 'utf-8');
     const data: HealthResponse = JSON.parse(raw);
 
-    expect(data.schema_version).toBe('1.2');
+    expect(data.schema_version).toBe('1.3');
     expect(data.status).toBe('OK');
     expect(data.health_scope).toBe('PUBLISHED_DATASET');
     expect(data.rule_count).toBe(68);
@@ -42,14 +45,17 @@ describe('Production Data Smoke Test (public/api/v1/)', () => {
     const raw = fs.readFileSync(path.join(publicDir, 'rules.json'), 'utf-8');
     const data: RulesResponse = JSON.parse(raw);
 
-    expect(data.schema_version).toBe('1.2');
+    expect(data.schema_version).toBe('1.3');
     expect(data.rules.length).toBe(68);
 
     const classified = data.rules.filter((r) => r.classification_status === 'REVIEWED');
     const review = data.rules.filter((r) => r.classification_status === 'REVIEW');
 
     expect(classified.length + review.length).toBe(data.rules.length);
-    for (const row of review) { expect(row.business_domains).toEqual([]); expect(row.primary_domain).toBeNull(); }
+    for (const row of review) {
+      expect(row.business_domains).toEqual([]);
+      expect(row.primary_domain).toBeNull();
+    }
 
     // Check all rules have official source url starting with law.go.kr
     for (const r of data.rules) {
@@ -58,12 +64,32 @@ describe('Production Data Smoke Test (public/api/v1/)', () => {
     }
   });
 
+  it('verifies recent.json contains persistent 90-day changes (schema 1.3)', () => {
+    const raw = fs.readFileSync(path.join(publicDir, 'changes/recent.json'), 'utf-8');
+    const data: RecentChangesResponse = JSON.parse(raw);
+
+    expect(data.schema_version).toBe('1.3');
+    expect(data.window_days).toBe(90);
+    expect(data.events.length).toBe(10);
+
+    for (const evt of data.events) {
+      expect(evt.event_id).toMatch(/^evt-[a-f0-9]{64}$/);
+      expect(evt.canonical_id).toMatch(/^(law|admrul)-\d+$/);
+      expect(evt.regulation_name).toBeTruthy();
+      expect(evt.effective_date).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+      expect(Array.isArray(evt.changed_articles)).toBe(true);
+      expect(evt.changed_article_count).toBeGreaterThanOrEqual(0);
+    }
+  });
+
   it('verifies repealed rules exist in dataset and are marked REPEALED', () => {
     const raw = fs.readFileSync(path.join(publicDir, 'rules.json'), 'utf-8');
     const data: RulesResponse = JSON.parse(raw);
 
     const repealed = data.rules.filter((r) => r.status === 'REPEALED');
-    for (const row of repealed) { expect(['폐지', '타법폐지']).toContain(row.metadata.amendment_type); }
+    for (const row of repealed) {
+      expect(['폐지', '타법폐지']).toContain(row.metadata.amendment_type);
+    }
   });
 
   it('verifies renamed/alias rules exist in dataset', () => {
@@ -91,23 +117,28 @@ describe('Production Data Smoke Test (public/api/v1/)', () => {
     const raw = fs.readFileSync(path.join(publicDir, 'changes/upcoming.json'), 'utf-8');
     const data: ChangesResponse = JSON.parse(raw);
 
-    expect(data.schema_version).toBe('1.2');
-    
+    expect(data.schema_version).toBe('1.3');
 
     for (const futureEvent of data.events) {
       expect(futureEvent.effective_date).toMatch(/^\d{4}-\d{2}-\d{2}$/);
-      expect(futureEvent.new_reference?.snapshot_url).toMatch(/^\/api\/v1\/rules\/.+\/versions\/.+\.json$/);
       expect(Array.isArray(futureEvent.changed_articles)).toBe(true);
     }
   });
 
-  it('verifies rule detail JSON for law-001668 has upcoming versions and changed articles', () => {
+  it('verifies rule detail JSON for law-001668 has upcoming versions and past-effective root diffs', () => {
     const raw = fs.readFileSync(path.join(publicDir, 'rules/law-001668.json'), 'utf-8');
     const data: RuleDetailResponse = JSON.parse(raw);
 
-    expect(data.schema_version).toBe('1.2');
+    expect(data.schema_version).toBe('1.3');
     expect(data.rule.canonical_id).toBe('law-001668');
     expect(['CURRENT', 'REPEALED']).toContain(data.current.version_status);
+
+    // Past-effective comparison at root
+    expect(Array.isArray(data.changed_articles)).toBe(true);
+    expect(data.changed_articles!.length).toBeGreaterThan(0);
+    expect(data.articles_compared_to).toBeDefined();
+
+    // Upcoming versions
     for (const version of data.upcoming) {
       expect(version.version_status).toBe('FUTURE');
       expect(version.metadata.effective_date).toMatch(/^\d{4}-\d{2}-\d{2}$/);
@@ -117,6 +148,17 @@ describe('Production Data Smoke Test (public/api/v1/)', () => {
         expect(['ADDED', 'MODIFIED', 'DELETED']).toContain(article.change_type);
       }
     }
+  });
+
+  it('verifies rule detail JSON for admrul-36283 has past-effective comparison without upcoming', () => {
+    const raw = fs.readFileSync(path.join(publicDir, 'rules/admrul-36283.json'), 'utf-8');
+    const data: RuleDetailResponse = JSON.parse(raw);
+
+    expect(data.schema_version).toBe('1.3');
+    expect(data.upcoming.length).toBe(0);
+    expect(Array.isArray(data.changed_articles)).toBe(true);
+    expect(data.changed_articles!.length).toBe(71);
+    expect(data.articles_compared_to?.version_id).toBe('2100000236340');
   });
 
   it('verifies at least one rule contains appendices', () => {

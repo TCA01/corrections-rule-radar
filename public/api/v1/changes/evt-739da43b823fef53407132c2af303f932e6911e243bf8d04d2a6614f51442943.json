@@ -1,0 +1,185 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "8689b7ed093ed49cea6504eb11ef4847eed0c077c2cb251def9d005a52213a02",
+      "effective_date": "2025-02-12",
+      "identifier": "2100000254464",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000254464",
+      "snapshot_url": "/api/v1/rules/admrul-34791/versions/2100000254464-2025-02-12-b2ece713de1a5f68.json",
+      "version_id": "2100000254464"
+    },
+    "appendix_changes": [
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=149011763",
+          "sequence": "0004",
+          "title": "개인정보의 수집·이용·제공에 관한 동의서",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=149011757"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0004",
+          "title": "개인정보의 수집&#65381;이용&#65381;제공에 관한 동의서",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=95453167"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      }
+    ],
+    "before_version": {
+      "body_hash": "3811b647c14f07dcff0e3c035d18ec33b03eddd853f2fba1b1c683312c06fc1a",
+      "effective_date": "2021-01-29",
+      "identifier": "2100000197601",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000197601",
+      "snapshot_url": "/api/v1/rules/admrul-34791/versions/2100000197601-2021-01-29-89725418833dc8d1.json",
+      "version_id": "2100000197601"
+    },
+    "canonical_id": "admrul-34791",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "APPENDIX_METADATA_CHANGED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 12,
+    "changed_articles": [
+      {
+        "after_text": "제1조(목적) 이 지침은 「형의 집행 및 수용자의 처우에 관한 법률」 제55조 및 제56조제1항에 따라 수형자의 사회생활 적응능력 함양과 성공적인 사회복귀를 위한 취업 및 창업지원 업무에 관하여 필요한 사항을 규정함을 목적으로 한다.",
+        "article_key": "article-1",
+        "article_number": "1",
+        "article_title": "제1조(목적)",
+        "before_text": "제1조(목적) 이 지침은 「형의 집행 및 수용자의 처우에 관한 법률」제55조 및 제56조제1항에 따라 수형자의 사회생활 적응능력 함양과 성공적인 사회복귀를 위한 취업 및 창업지원 업무에 관하여 필요한 사항을 규정함을 목적으로 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-02-12"
+      },
+      {
+        "after_text": "제5조(외부위원의 위촉 등) 외부위원의 위촉, 위촉절차, 소속변경, 신분증, 활동분야, 자료제공, 준수사항, 교정시설 참관 등, 관리, 회의결과 기록, 예우 및 사기진작에 관한 사항은 「교정위원 운영지침」 제4조제5항, 제5조제2항, 제6조부터 제12조까지, 제20조제3항 및 제22조부터 제27조까지의 규정을 준용한다.",
+        "article_key": "article-5",
+        "article_number": "5",
+        "article_title": "제5조(외부위원의 위촉 등)",
+        "before_text": "제5조(외부위원의 위촉 등) 외부위원의 위촉, 위촉절차, 소속변경, 신분증, 활동분야, 자료제공, 준수사항, 교정시설 참관 등, 관리, 회의결과 기록, 예우 및 사기진작에 관한 사항은 「교정위원 운영지침」(제4조 제6항, 제5조 제2항, 제6조 내지 제12조, 제20조 제3항, 제22조 내지 제27조)을 준용한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-02-12"
+      },
+      {
+        "after_text": "제10조(회의) ① 정책협의회 회의는 반기 1회 이상 개최하고 회장이 소집하며 그 결과의 기록ㆍ유지는 「형의 집행 및 수용자의 처우에 관한 법률 시행규칙」 제149조제2항을 준용한다.\n② 회장은 제1항외에 다음 각 호의 어느 하나에 해당하는 경우에는 정책협의회를 소집할 수 있다.\n1. (현행과 같음)\n2. 위원 3분의 1 이상의 요구가 있을 때\n3. (현행과 같음)\n③ ∼ ⑤ (현행과 같음)",
+        "article_key": "article-10",
+        "article_number": "10",
+        "article_title": "제10조(회의)",
+        "before_text": "제10조(회의) ① 정책협의회 회의는 반기 1회 이상 개최하고 회장이 소집하며 그 결과의 기록ㆍ유지는「형의 집행 및 수용자의 처우에 관한 법률 시행규칙」제149조제2항을 준용한다.\n② 회장은 제1항외에 다음 각 호의 어느 하나에 해당하는 경우에는 정책협의회를 소집할 수 있다.\n1. (생  략)\n2. 위원 3분의 1이상의 요구가 있을 때\n3. (생  략)\n③ ∼ ⑤ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-02-12"
+      },
+      {
+        "after_text": "제11조(구성) ①·② (현행과 같음)\n③ 전담반원은 직업훈련과(수용기록과) 소속 2명 이상, 사회복귀과ㆍ분류심사과 소속 각 1명 이상으로 구성하되, 직업능력개발훈련교사가 재직중인 기관에서는 직업훈련교사가 포함되도록 하여야 한다.\n④·⑤ (현행과 같음)",
+        "article_key": "article-11",
+        "article_number": "11",
+        "article_title": "제11조(구성)",
+        "before_text": "제11조(구성) ①·② (생  략)\n③ 전담반원은 직업훈련과(수용기록과) 소속 2명 이상, 사회복귀과ㆍ분류심사과 소속 각 1명 이상으로 구성하되, 수형자직업능력개발훈련교사가 재직중인 기관에서는 직업훈련교사가 포함되도록 하여야 한다.\n④·⑤ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-02-12"
+      },
+      {
+        "after_text": "제12조(근무) ① (현행과 같음)\n② 취업전담반의 일일근무사항은 별지 제1호 서식에 기록ㆍ유지하여야 한다.\n③ (현행과 같음)",
+        "article_key": "article-12",
+        "article_number": "12",
+        "article_title": "제12조(근무)",
+        "before_text": "제12조(근무) ① (생  략)\n② 취업전담반의 일일근무사항은 취업전담반 운영일지(별지 제1호 서식)에 기록ㆍ유지하여야 한다.\n③ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-02-12"
+      },
+      {
+        "after_text": "제14조(자료관리 등) ① 유관기관 등이 발간한 취업ㆍ창업 관련 유인물이나 자체 생산한 자료는 종류별, 분야별 등 체계적으로 관리하여야 하며 수형자의 요청이 있을 경우 적극 제공하여야 한다.\n② 취업전담반장은 취업ㆍ창업지원 관련 자료를 교정정보시스템으로 관리하며, 매월 15일을 ‘취업정보 점검의 날’로 지정하여 관련 자료가 체계적이고 실용적으로 관리될 수 있도록 하여야 한다.",
+        "article_key": "article-14",
+        "article_number": "14",
+        "article_title": "제14조(자료관리 등)",
+        "before_text": "제14조(자료관리 등) ① 유관기관 등이 발간한 취업ㆍ창업관련 유인물이나 자체 생산한 자료는 종류별, 분야별 등 체계적으로 관리하여야 하며 수형자의 요청이 있을 경우 적극 제공하여야 한다.\n② 취업전담반장은 취업ㆍ창업지원 관련 각종 D/B는 교정행정정보시스템으로 관리하며, 매월 관리 상태를 점검하여 D/B가 체계적이고 실용적으로 관리될 수 있도록 하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-02-12"
+      },
+      {
+        "after_text": "제15조(검사ㆍ조사 및 연구의뢰) ①·② (현행과 같음)\n③ 소장은 필요한 취업 및 창업 관련 검사ㆍ조사ㆍ연구를 자체적으로 실시하기 곤란한 경우에는 외부 전문기관 등에 의뢰하여 실시할 수 있다.",
+        "article_key": "article-15",
+        "article_number": "15",
+        "article_title": "제15조(검사ㆍ조사 및 연구의뢰)",
+        "before_text": "제15조(검사ㆍ조사 및 연구의뢰) ①·② (생  략)\n③ 소장은 필요한 취업 및 창업관련 검사ㆍ조사ㆍ연구를 자체적으로 실시하기 곤란한 경우에는 외부 전문기관 등에 의뢰하여 실시할 수 있다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-02-12"
+      },
+      {
+        "after_text": "제17조(교정시설 간 협력) ① 현재 수용 중인 교정시설에서 다른 교정시설에 수형자 취업ㆍ창업지원을 위한 의뢰가 있을 경우 의뢰받은 기관은 이에 적극 협조하여야 한다.\n② 제1항에 따라 취업ㆍ창업지원 의뢰를 한 수형자가 실제 취업을 하거나 창업한 경우, 의뢰한 기관은 ‘교정알선’ 실적에 반영하고 의뢰받은 기관은 ‘취업중계’ 실적에 반영한다.",
+        "article_key": "article-17",
+        "article_number": "17",
+        "article_title": "제17조(교정시설 간 협력)",
+        "before_text": "제17조(교정시설 간 협력) ① 현재 수용중인 교정시설에서 다른 교정시설에 수형자 취업ㆍ창업지원을 위한 의뢰가 있을 경우 의뢰받은 기관은 이에 적극 협조하여야 한다.\n② 취업ㆍ창업지원 실적은 실제 취업ㆍ창업을 한 교정시설의 통계로 하고 그 결과를 의뢰한 기관에 통보하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-02-12"
+      },
+      {
+        "after_text": "제18조(교육계획의 수립) ① 소장은 매년 3월 15일까지 취업ㆍ창업 교육 및 외부 전문기관 취업ㆍ창업 특별교육의 연간계획을 수립한다.\n② (현행과 같음)\n③ 교육에 관한 사항은 취업전담반 운영일지 및 교정정보시스템에 기록ㆍ유지하여야 한다.\n④ 취업ㆍ창업 교육은 석방전교육, 허그일자리지원 프로그램을 제외한 기관 자체 또는 외부 전문기관 협업(소자본창업교육 등)으로 시행하는 교육으로, 석방전교육 등과 교육내용이 중복되지 않도록 편성하여야 한다.",
+        "article_key": "article-18",
+        "article_number": "18",
+        "article_title": "제18조(교육계획의 수립)",
+        "before_text": "제18조(교육계획의 수립) ① 소장은 매년 3월 15일 까지 취업ㆍ창업 교육 및 외부 전문기관 취업ㆍ창업 특별교육의 연간계획을 수립한다.\n② (생  략)\n③ 교육에 관한 사항은 취업전담반 운영일지 및 교정행정정보시스템에 기록ㆍ유지하여야 한다.\n④ 취업ㆍ창업 교육은 석방전교육, 허그일자리지원프로그램을 제외한  기관 자체 또는 외부 전문기관 협업(소자본창업교육 등)으로 시행하는 교육으로, 석방전교육 등과 교육내용이 중복되지 않도록 편성하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-02-12"
+      },
+      {
+        "after_text": "제22조(교육내용 및 평가) ① (현행과 같음)\n② 소장은 매회 교육실시 후 별지 제7호 서식에 따라 교육 만족도 조사 등 성과를 평가하여 그 결과를 다음 회 교육과정에 반영하여야 한다.",
+        "article_key": "article-22",
+        "article_number": "22",
+        "article_title": "제22조(교육내용 및 평가)",
+        "before_text": "제22조(교육내용 및 평가) ① (생  략)\n② 소장은 매회 교육실시 후 별지 제7호 서식에 따라 교육만족도조사 등 성과를 평가하여 그 결과를 다음 회 교육과정에 반영하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-02-12"
+      },
+      {
+        "after_text": "제24조(상담 등) ① ∼ ③ (현행과 같음)\n④ 전담반원은 제2항과 관련하여 필요한 경우 교정정보시스템의 분류심사 자료를 열람할 수 있다.\n⑤ 취업ㆍ창업 관련 상담 등 필요한 사항은 교정정보시스템에 기록ㆍ유지하여야 한다.",
+        "article_key": "article-24",
+        "article_number": "24",
+        "article_title": "제24조(상담 등)",
+        "before_text": "제24조(상담 등) ① ∼ ③ (생  략)\n④ 전담반원은 제2항과 관련하여 필요한 경우 교정행정정보시스템 상의 분류심사 자료를 열람할 수 있다.\n⑤ 취업ㆍ창업 관련 상담 등 필요한 사항은 교정행정정보시스템에 기록ㆍ유지하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-02-12"
+      },
+      {
+        "after_text": "제25조(취업ㆍ창업 기회 제공 등) ① ∼ ③ (현행과 같음)\n④ 소장은 취업 및 창업을 희망하는 수형자의 지원을 위해 별지 제8호 서식의 개인별 취업 및 창업지원계획을 작성하고 교정정보시스템에 입력하여 관리하여야 한다.",
+        "article_key": "article-25",
+        "article_number": "25",
+        "article_title": "제25조(취업ㆍ창업 기회 제공 등)",
+        "before_text": "제25조(취업ㆍ창업 기회 제공 등) ① ∼ ③ (생  략)\n④ 소장은 취업 및 창업을 희망하는 수형자의 지원을 위해 별지 제8호 서식의 개인별 취업 및 창업지원계획을 작성하고 교정행정정보시스템에 입력하여 관리하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-02-12"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "e35568efded161cc2ed544c12ec7a9ecdae72bdc0ef61e23e970c51eec5d0cf5",
+      "credential_redacted": false,
+      "raw_sha256": "b32ac8394fc244da6d6e3312936d2b8da75ebd03fb1e5a7b76cc22b569d5fd68",
+      "request": {
+        "ID": "2100000254464",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "b32ac8394fc244da6d6e3312936d2b8da75ebd03fb1e5a7b76cc22b569d5fd68"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2025-02-12",
+    "event_id": "evt-739da43b823fef53407132c2af303f932e6911e243bf8d04d2a6614f51442943",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000254464",
+    "promulgation_or_issue_date": "2025-02-12",
+    "regulation_name": "수형자 취업 및 창업지원 업무 지침",
+    "regulation_type": "예규"
+  },
+  "schema_version": "1.3"
+}

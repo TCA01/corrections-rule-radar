@@ -24,12 +24,12 @@ export const Header: React.FC<HeaderProps> = ({ health }) => {
       <div className="container">
         <div className="header-inner">
           <div className="header-brand-block">
-            <a href="#" className="brand" aria-label="교정업무 변경 레이더 홈">
-              <span className="brand-badge">공공업무 지원</span>
-              <h1 className="brand-title">교정업무 변경 레이더</h1>
+            <a href="#" className="brand" aria-label="교정관련 규정 추적기 홈">
+              <span className="brand-badge">법령·행정규칙 추적</span>
+              <h1 className="brand-title">교정관련 규정 추적기</h1>
             </a>
             <p className="brand-subtitle">
-              법령·예규·훈령의 변경과 시행예정을 업무분야별로 확인하세요.
+              교정업무에 관련된 법령·예규·훈령의 변경과 시행예정을 추적합니다.
             </p>
           </div>
 

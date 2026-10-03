@@ -1,0 +1,180 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "11afc6a33174ba99b14262bd2788f810c6617b6ff35c474881c3ad9ffaf7bfd4",
+      "effective_date": "2024-07-01",
+      "identifier": "2100000243144",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000243144",
+      "snapshot_url": "/api/v1/rules/admrul-37383/versions/2100000243144-2024-07-01-264948754af4e570.json",
+      "version_id": "2100000243144"
+    },
+    "appendix_changes": [
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=141583769",
+          "sequence": "0001",
+          "title": "피보호감호자분류처우심사표",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=141583753"
+        },
+        "before_metadata": null,
+        "change_type": "APPENDIX_ADDED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": null,
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=141583699",
+          "sequence": "0001",
+          "title": "피보호감호자분류처우심사표",
+          "type": "서식",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=141583683"
+        },
+        "change_type": "APPENDIX_REMOVED",
+        "status": "REMOVED"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=141583775",
+          "sequence": "0002",
+          "title": "감호성적 채점 및 통지서",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=141583771"
+        },
+        "before_metadata": null,
+        "change_type": "APPENDIX_ADDED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": null,
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=141583705",
+          "sequence": "0002",
+          "title": "감호성적 채점 및 통지서",
+          "type": "서식",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=141583701"
+        },
+        "change_type": "APPENDIX_REMOVED",
+        "status": "REMOVED"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=141583781",
+          "sequence": "0003",
+          "title": "가출소예비심사대상자명부",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=141583777"
+        },
+        "before_metadata": null,
+        "change_type": "APPENDIX_ADDED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": null,
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=141583711",
+          "sequence": "0003",
+          "title": "가출소예비심사대상자명부",
+          "type": "서식",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=141583707"
+        },
+        "change_type": "APPENDIX_REMOVED",
+        "status": "REMOVED"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=141583787",
+          "sequence": "0004",
+          "title": "분류처우(회의)위원회 심의의결 내역",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=141583783"
+        },
+        "before_metadata": null,
+        "change_type": "APPENDIX_ADDED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": null,
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=141583717",
+          "sequence": "0004",
+          "title": "분류처우(회의)위원회 심의의결 내역",
+          "type": "서식",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=141583713"
+        },
+        "change_type": "APPENDIX_REMOVED",
+        "status": "REMOVED"
+      }
+    ],
+    "before_version": {
+      "body_hash": "e06f973a6f04656c2eba749946c930a84376e03da24e35c447bbccf3e504f0b8",
+      "effective_date": "2019-02-01",
+      "identifier": "2100000175825",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000175825",
+      "snapshot_url": "/api/v1/rules/admrul-37383/versions/2100000175825-2019-02-01-14eabd97505d8525.json",
+      "version_id": "2100000175825"
+    },
+    "canonical_id": "admrul-37383",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "APPENDIX_ADDED",
+      "APPENDIX_REMOVED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 2,
+    "changed_articles": [
+      {
+        "after_text": "제37조(전화통화) ① (현행과 같음)\n② 감호자의 전화통화는 그 허용횟수를 제한하지 아니한다. 다만, 소장은 기관의 운영 등을 위해 필요한 경우 그 허용횟수를 개방처우급 수형자 이상의 범위에서 조정할 수 있다.\n③ ∼ ⑤ (현행과 같음)",
+        "article_key": "article-37",
+        "article_number": "37",
+        "article_title": "제37조(전화통화)",
+        "before_text": "제37조(전화통화) ① (생  략)\n② 감호자의 처우급별 전화통화 허용횟수는 다음 각 호와 같다.  1. 가급 : 매월 12회  2. 나급 : 매월 9회  3. 다급 : 매월 7회  4. 라급 : 매월 5회\n③ ∼ ⑤ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-07-01"
+      },
+      {
+        "after_text": "제77조(재검토 기한) 법무부장관은 「훈령ㆍ예규 등의 발령 및 관리에 관한 규정」에 따라 이 훈령에 대하여 2024년 1월 1일을 기준으로 매 3년이 되는 시점(매 3년째의 12월 31일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+        "article_key": "article-77",
+        "article_number": "77",
+        "article_title": "제77조(재검토 기한)",
+        "before_text": "제77조(재검토 기한) 법무부장관은 「훈령ㆍ예규 등의 발령 및 관리에 관한 규정」에 따라 이 훈령에 대하여 2019년 2월 1일을 기준으로 매 3년이 되는 시점(매 3년째의 12월 31일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-07-01"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "b46ffdefb03dd3ed315f3a8bdb42928e1b6c0e53529fe222ba765f80715991aa",
+      "credential_redacted": false,
+      "raw_sha256": "23fabe129b55a8a3359df7bcf2f6fc42cd610ab8863065439371f82f7427ea63",
+      "request": {
+        "ID": "2100000243144",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "23fabe129b55a8a3359df7bcf2f6fc42cd610ab8863065439371f82f7427ea63"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2024-07-01",
+    "event_id": "evt-8fc7f93c9a5d1d03ca9acd955823ce371be0f90af4bbb1242edf2bfe26932b83",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000243144",
+    "promulgation_or_issue_date": "2024-06-26",
+    "regulation_name": "피보호감호자 분류처우 업무지침",
+    "regulation_type": "훈령"
+  },
+  "schema_version": "1.3"
+}

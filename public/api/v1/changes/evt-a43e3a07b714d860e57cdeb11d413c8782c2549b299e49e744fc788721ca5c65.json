@@ -1,0 +1,36 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "002d73b823828ae98b3b23efd7115a72101a557e69cfed7957c2541a89c65fd5",
+      "effective_date": "2017-12-29",
+      "identifier": "2100000108059",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000108059",
+      "snapshot_url": "/api/v1/rules/admrul-61378/versions/2100000108059-2017-12-29-d4acc7f304be1aa3.json",
+      "version_id": "2100000108059"
+    },
+    "appendix_changes": [],
+    "before_version": null,
+    "canonical_id": "admrul-61378",
+    "change_type": "NEW_RULE",
+    "change_types": [
+      "NEW_RULE"
+    ],
+    "changed_article_count": 0,
+    "changed_articles": [],
+    "comparison_evidence": null,
+    "comparison_scope": "FULL_STRUCTURED_BODY",
+    "comparison_source": null,
+    "comparison_status": "COMPARISON_UNAVAILABLE",
+    "comparison_unavailable_reason": "BEFORE_VERSION_UNAVAILABLE",
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2017-12-29",
+    "event_id": "evt-a43e3a07b714d860e57cdeb11d413c8782c2549b299e49e744fc788721ca5c65",
+    "fallback_reason": "OFFICIAL_COMPARISON_UNAVAILABLE",
+    "official_old_new_available": false,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000108059",
+    "promulgation_or_issue_date": "2017-12-29",
+    "regulation_name": "교정공무원 기관장(葬)에 관한 규정",
+    "regulation_type": "예규"
+  },
+  "schema_version": "1.3"
+}

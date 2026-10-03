@@ -1,0 +1,73 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "81beb832497dc19ec48e6157c5fbb6ac3efc6cee3c7af8a7b779d91812387cb1",
+      "effective_date": "2019-05-21",
+      "identifier": "2100000178657",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000178657",
+      "snapshot_url": "/api/v1/rules/admrul-37581/versions/2100000178657-2019-05-21-5ef62561a28b3e01.json",
+      "version_id": "2100000178657"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "32d0bfc3ae69c484b074db9eff3b277a834105f6fa143108777026ccf2ac0f00",
+      "effective_date": "2016-12-23",
+      "identifier": "2100000070279",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000070279",
+      "snapshot_url": "/api/v1/rules/admrul-37581/versions/2100000070279-2016-12-23-322e00b07d4a781a.json",
+      "version_id": "2100000070279"
+    },
+    "canonical_id": "admrul-37581",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 2,
+    "changed_articles": [
+      {
+        "after_text": "제1조(목적) 이 예규는 「교정직공무원 임용시험의 체력검사에 관한 규칙」별표에 따라 교정직공무원 임용을 위하여 실시하는 체력검사의 평가종목별 세부 측정방법을 정함을 목적으로 한다.",
+        "article_key": "article-1",
+        "article_number": "1",
+        "article_title": "제1조(목적)",
+        "before_text": "제1조(목적) 이 예규는「교정직공무원 임용시험의 체력검사에 관한 규칙」별표에 따라 교정직공무원 임용을 위하여 실시하는 체력검사의 평가종목별 세부 측정방법을 정함을 목적으로 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2019-05-21"
+      },
+      {
+        "after_text": "제3조(재검토기한) 「훈령ㆍ예규 등의 발령 및 관리에 관한 규정」(대통령훈령 제248호)에 따라 법령이나 현실여건의 변화 등을 검토하여 이 예규에 대하여 2019년 7월 1일 기준으로 매 3년이 되는 시점(매 3년째의 6월 30일까지를 말한다.)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+        "article_key": "article-3",
+        "article_number": "3",
+        "article_title": "제3조(재검토기한)",
+        "before_text": "제3조(재검토기한) 「훈령ㆍ예규 등의 발령 및 관리에 관한 규정」(대통령훈령 제248호)에 따라 법령이나 현실여건의 변화 등을 검토하여 이 예규에 대하여 2016년 7월 1일 기준으로 매 3년이 되는 시점(매 3년째의 6월 30일까지를 말한다.)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2019-05-21"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "3889a186d7f43a100151aeacd72cb3d470c5ba79bf12f5a8915cc59f96f5c8ec",
+      "credential_redacted": false,
+      "raw_sha256": "12a909e756c1b1ba56467261d2ea7a32c4926ea6a875c5cd16dae66dfe1124e9",
+      "request": {
+        "ID": "2100000178657",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "12a909e756c1b1ba56467261d2ea7a32c4926ea6a875c5cd16dae66dfe1124e9"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2019-05-21",
+    "event_id": "evt-506f319d01e49876f6661cba737816ea3b33152844e8bd2dcbd3eeb3002b8120",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000178657",
+    "promulgation_or_issue_date": "2019-05-21",
+    "regulation_name": "교정직공무원 임용시험의 체력검사 평가종목별 측정방법에 관한 규정",
+    "regulation_type": "예규"
+  },
+  "schema_version": "1.3"
+}

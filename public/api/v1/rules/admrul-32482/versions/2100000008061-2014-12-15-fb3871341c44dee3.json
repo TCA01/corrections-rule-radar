@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.1",
+  "version": {
+    "appendices": [],
+    "attachments": [
+      {
+        "title": "['(예규 1072호)사망수용자 장례비 지급지침(개정문).hwp', '1072-사망수용자 장례비 지급지침.hwp']",
+        "type": "OFFICIAL_ATTACHMENT",
+        "url": "https://www.law.go.kr/['http:/law.go.kr/flDownload.do?flSeq=18912803%27%2C+%27http%3A%2F%2Flaw.go.kr%2FflDownload.do%3FflSeq%3D18912802%27%5D"
+      }
+    ],
+    "body": {
+      "addenda": {
+        "부칙공포번호": [
+          "829",
+          "868",
+          "1072"
+        ],
+        "부칙공포일자": [
+          "20081219",
+          "20090820",
+          "20141215"
+        ],
+        "부칙내용": [
+          "부칙 (시행일) 이 지침은 「형의 집행 및 수용자의 처우에 관한 법률」이 시행되는 날부터 시행한다.",
+          "부칙 (시행일) 이 예규는 발령한 날부터 시행한다.",
+          "부칙 (시행일) 이 예규는 발령한 날부터 시행한다."
+        ]
+      },
+      "articles": [
+        "제1조 (목적) 이 지침은 「형의 집행 및 수용자의 처우에 관한 법률」 제128조의 규정과 관련한 사망한 수용자의 장례에 관한 사항을 규정함을 목적으로 한다.",
+        "제2조 (장례비 지급 요건) 교도소·구치소 및 그 지소의 장(이하 ‘소장’이라 한다)은 사망한 수용자가 다음 각 호의 어느 하나에 해당하는 경우 장례비를 예산으로 지급할 수 있다.1. 사망한 수용자의 친족 등이 경제적 어려움 등으로 시신을 인도받을 수 없는 경우2. 예산으로 장례비를 지급하는 것이 타당하다고 판단하는 경우",
+        "제3조 (장례비 지급 내용) 장례비의 범위는 수용자 사망부터 화장까지 발생한 장례시설 사용료, 장례 용품비, 영구차 사용료, 화장 비용 등으로 한다.",
+        "제4조 (장례비 지급 절차) ① 소장은 인수자의 경제적 사정 등을 감안, 장례비를 산정하고 법무부장관에게 보고 후 승인을 받아 집행한다.② 장례비는 장례관련 업체에 직접 지급하는 것을 원칙으로 한다.",
+        "제5조(재검토 기한) 「훈령·예규 등의 발령 및 관리에 관한 규정」(대통령훈령 제248호)에 따라 이 예규 발령 후의 법령이나 현실여건의 변화 등을 검토하여 이 예규의 폐지, 개정 등의 조치를 하여야 하는 기간은 2017. 12. 15.까지로 한다."
+      ]
+    },
+    "canonical_id": "admrul-32482",
+    "hashes": {
+      "appendix_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "attachment_link_hash": "998493c6c9163dbd61930d5e5e1202d77563d22dbd7b914e08d1fa85931bda9a",
+      "body_hash": "2c44c889b98080085fb35b2d12b105757284dd057ad7d03e94a4b6516206250d",
+      "metadata_hash": "6470bba43ef40509b34b319736e0e916ab9b1b158363cc0f5dfe7bfa578ea44f"
+    },
+    "metadata": {
+      "amendment_type": "일부개정",
+      "department": "법무부(복지과)",
+      "effective_date": "2014-12-15",
+      "issue_date": "2014-12-15",
+      "issue_number": "1072",
+      "ministry": "법무부",
+      "name": "사망수용자 장례비 지급 지침",
+      "official_state": "N",
+      "rule_type": "예규"
+    },
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000008061",
+    "source_kind": "admrul",
+    "stable_identifier": "32482",
+    "version_id": "2100000008061",
+    "version_reference": {
+      "effective_date": "2014-12-15",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000008061",
+      "snapshot_url": "/api/v1/rules/admrul-32482/versions/2100000008061-2014-12-15-fb3871341c44dee3.json",
+      "version_id": "2100000008061"
+    },
+    "version_status": "ARCHIVE"
+  }
+}

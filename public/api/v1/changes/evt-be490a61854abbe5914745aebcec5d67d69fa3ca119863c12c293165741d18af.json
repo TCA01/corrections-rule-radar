@@ -1,0 +1,243 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "55a8f6ea9b9f66fc97835210b345da4ba0d8c3a442620839c0996cc9322d56b2",
+      "effective_date": "2013-06-21",
+      "identifier": "2000000024378",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2000000024378",
+      "snapshot_url": "/api/v1/rules/admrul-37575/versions/2000000024378-2013-06-21-7fbccd59bdae25c8.json",
+      "version_id": "2000000024378"
+    },
+    "appendix_changes": [
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0002",
+          "title": "교정본부장 旗",
+          "type": "별도",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=14478532"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0002",
+          "title": "경비교도대 旗",
+          "type": "별도",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=4529439"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0003",
+          "title": "고위공무원단 소속공무원(지방교정청장) 旗",
+          "type": "별도",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=14478479"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0003",
+          "title": "교정본부장 旗",
+          "type": "별도",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=4529440"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0004",
+          "title": "고위공무원단 소속공무원(교정시설의 장) 旗",
+          "type": "별도",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=14478533"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0004",
+          "title": "고위공무원단 소속공무원(지방교정청장) 旗",
+          "type": "별도",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=4529441"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0005",
+          "title": "부이사관(교정시설의 장) 旗",
+          "type": "별도",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=14478535"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0005",
+          "title": "고위공무원단 소속공무원(교정시설의 장) 旗",
+          "type": "별도",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=4529442"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0006",
+          "title": "서기관(4급 교정시설의 장) 旗",
+          "type": "별도",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=14478480"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0006",
+          "title": "부이사관(교정시설의 장) 旗",
+          "type": "별도",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=4529443"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0007",
+          "title": "깃대",
+          "type": "별도",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=14478481"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0007",
+          "title": "서기관(4급 교정시설의 장) 旗",
+          "type": "별도",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=4529444"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0008",
+          "title": "교정 旗 배열 요령",
+          "type": "별도",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=14478537"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0008",
+          "title": "대대장(경비교도대) 旗",
+          "type": "별도",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=4529445"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": null,
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0009",
+          "title": "깃대",
+          "type": "별도",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=4529446"
+        },
+        "change_type": "APPENDIX_REMOVED",
+        "status": "REMOVED"
+      },
+      {
+        "after_metadata": null,
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0010",
+          "title": "교정 旗 배열 요령",
+          "type": "별도",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=4529447"
+        },
+        "change_type": "APPENDIX_REMOVED",
+        "status": "REMOVED"
+      }
+    ],
+    "before_version": {
+      "body_hash": "f7d650e03def3767cf81c40b13f6be2121138b8e732b1f180dcb28cd7ca3755e",
+      "effective_date": "2010-08-01",
+      "identifier": "2000000014374",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2000000014374",
+      "snapshot_url": "/api/v1/rules/admrul-37575/versions/2000000014374-2010-08-01-1a2b9c36c9e7f067.json",
+      "version_id": "2000000014374"
+    },
+    "canonical_id": "admrul-37575",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "RULE_RENAMED",
+      "APPENDIX_METADATA_CHANGED",
+      "APPENDIX_REMOVED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 2,
+    "changed_articles": [
+      {
+        "after_text": "제3조(비치) ① (현행과 같음)\n② 교정기는 깃대에 달아 집무실 책상후면 또는 적당한 위치에 세워두며 배열 순위 및 거리는【별도 8】과 같이 한다.\n③ (현행과 같음)",
+        "article_key": "article-3",
+        "article_number": "3",
+        "article_title": "제3조(비치)",
+        "before_text": "제3조(비치) ① (생  략)\n②교정기는 깃대에 달아 집무실 책상후면 또는 적당한 위치에 세워두며 배열 순위 및 거리는【별도 10】과 같이 한다.\n③ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2013-06-21"
+      },
+      {
+        "after_text": "제4조(제식) 교정기의 제식은【별도 1】내지【별도 6】, 깃대의 제식은【별도 7】과 같이 한다.",
+        "article_key": "article-4",
+        "article_number": "4",
+        "article_title": "제4조(제식)",
+        "before_text": "제4조(제식) 교정기의 제식은【별도 1】내지【별도 8】, 깃대의 제식은【별도 9】와 같이 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2013-06-21"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "09c3775b79e952887109eaf40e323d954950c31bd48321766d9a1a439179ff97",
+      "credential_redacted": false,
+      "raw_sha256": "fbe66543e76368f4f62afa77b624c814827ccbb7938578ead1f68495fece3596",
+      "request": {
+        "ID": "2000000024378",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "fbe66543e76368f4f62afa77b624c814827ccbb7938578ead1f68495fece3596"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2013-06-21",
+    "event_id": "evt-be490a61854abbe5914745aebcec5d67d69fa3ca119863c12c293165741d18af",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2000000024378",
+    "promulgation_or_issue_date": "2013-06-21",
+    "regulation_name": "교정기 규정",
+    "regulation_type": "훈령"
+  },
+  "schema_version": "1.3"
+}

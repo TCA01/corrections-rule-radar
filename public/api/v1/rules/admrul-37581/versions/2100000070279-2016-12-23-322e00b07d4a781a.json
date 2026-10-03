@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.1",
+  "version": {
+    "appendices": [
+      {
+        "branch": "00",
+        "pdf_url": null,
+        "sequence": "0001",
+        "title": "체력검사의 평가종목별 측정방법(제2조 관련)",
+        "type": "별표",
+        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=27874624"
+      },
+      {
+        "branch": "00",
+        "pdf_url": null,
+        "sequence": "0002",
+        "title": "20미터 왕복 오래달리기 점증속도표(별표 1 관련)",
+        "type": "별표",
+        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=27874631"
+      }
+    ],
+    "attachments": [
+      {
+        "title": "['예규 제1134호 - 교정직공무원 임용시험의 체력검사 평가종목별 측정방법에 관한 규정.hwp', '예규 제1134호 - 교정직공무원 임용시험의 체력검사 평가종목별 측정방법에 관한 규정 개정안.hwp']",
+        "type": "OFFICIAL_ATTACHMENT",
+        "url": "https://www.law.go.kr/['http:/law.go.kr/flDownload.do?flSeq=27871412%27%2C+%27http%3A%2F%2Flaw.go.kr%2FflDownload.do%3FflSeq%3D27871413%27%5D"
+      }
+    ],
+    "body": {
+      "addenda": {
+        "부칙공포번호": [
+          "796",
+          "873",
+          "940",
+          "1025",
+          "1123",
+          "1134"
+        ],
+        "부칙공포일자": [
+          "20080604",
+          "20090821",
+          "20100801",
+          "20130716",
+          "20160701",
+          "20161223"
+        ],
+        "부칙내용": [
+          "부칙 제1조(시행일) 이 예규는 2009년 1월 1일부터 시행한다.제2조(진행 중인 시험에 대한 경과조치) 이 예규 시행당시 시험실시사항이 공고되었거나 진행 중인 시험에 관하여는 적용하지 아니한다.",
+          "부칙 (시행일) 이 예규는 공포한 날로부터 시행한다.",
+          "부칙 (시행일) 이 규정은 2010년 8월 1일부터 시행한다.",
+          "부칙 (시행일) 이 지침은 공포한 날로부터 시행한다.",
+          "부칙 (시행일) 이 지침은 공포한 날로부터 시행한다.",
+          "부칙 (시행일) 이 지침은 공포한 날로부터 시행한다."
+        ]
+      },
+      "articles": [
+        "제1조(목적) 이 예규는「교정직공무원 임용시험의 체력검사에 관한 규칙」별표에 따라 교정직공무원 임용을 위하여 실시하는 체력검사의 평가종목별 세부 측정방법을 정함을 목적으로 한다.",
+        "제2조(체력검사의 측정방법) 체력검사의 평가종목별 측정방법은 별표 1과 같다.",
+        "제3조(재검토기한) 「훈령·예규 등의 발령 및 관리에 관한 규정」(대통령훈령 제248호)에 따라 법령이나 현실여건의 변화 등을 검토하여 이 예규에 대하여 2016년 7월 1일 기준으로 매 3년이 되는 시점(매 3년째의 6월 30일까지를 말한다.)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다."
+      ]
+    },
+    "canonical_id": "admrul-37581",
+    "hashes": {
+      "appendix_hash": "f397b34b3d67eedb8d4d2d524d7914b94e36e2041925b4cded3d61f93ff9f1ec",
+      "attachment_link_hash": "b42e8c7c74bc9f0af6db66eea57db4ade3b4b7ee8d48fec1dc125ad24e22c926",
+      "body_hash": "32d0bfc3ae69c484b074db9eff3b277a834105f6fa143108777026ccf2ac0f00",
+      "metadata_hash": "95752108725eed32b11c3d767e417fc3112e65d537124e22e9509b0aef4ae649"
+    },
+    "metadata": {
+      "amendment_type": "일부개정",
+      "department": "법무부(교정기획과)",
+      "effective_date": "2016-12-23",
+      "issue_date": "2016-12-23",
+      "issue_number": "1134",
+      "ministry": "법무부",
+      "name": "교정직공무원 임용시험의 체력검사 평가종목별 측정방법에 관한 규정",
+      "official_state": "N",
+      "rule_type": "예규"
+    },
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000070279",
+    "source_kind": "admrul",
+    "stable_identifier": "37581",
+    "version_id": "2100000070279",
+    "version_reference": {
+      "effective_date": "2016-12-23",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000070279",
+      "snapshot_url": "/api/v1/rules/admrul-37581/versions/2100000070279-2016-12-23-322e00b07d4a781a.json",
+      "version_id": "2100000070279"
+    },
+    "version_status": "ARCHIVE"
+  }
+}

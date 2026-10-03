@@ -1,13 +1,16 @@
 {
   "API_V1_CANDIDATE": true,
-  "review_document": "docs/phase1b_contract.md",
+  "review_document": "docs/phase1e_contract.md",
   "schema_sha256": {
-    "changes.schema.json": "748d6db7de385c017b8ba9ae7e1c4763f30a7b6eacfd90adf7b4b3f041c21190",
-    "health.schema.json": "55fbb6c5ca0369b79a74f2c8431fb0f42340c57ccf5ade0f063dd0776ee8339b",
-    "manifest.schema.json": "cc537529e14665673b53479470057378761374296a89f35b2f0905b6a54bc906",
-    "rule.schema.json": "51abe0975beb9c43e06bf3ea0572020c897bb6cffa2e2cb797b3320824b5e087",
-    "rules.schema.json": "0bc3d81b3f3447a312f41c00610227390b7657bd1e583aa7976a8e5ec285c419",
+    "change.schema.json": "35c02ec90fffe4f48f8ff27cacfc3e1b4508847bf61afad7fdec214f78f23ba5",
+    "changes.schema.json": "fb7c4f6f050ffa894efface4bb958789ecf51f6f88a14bc834243171cf8ea62f",
+    "health.schema.json": "3c81178a5b7880bd50895e69a666e83ede72d37fbaf227f009f066e18c019c13",
+    "history.schema.json": "14b74452cb5b05e7b3a14bee503fd763945095190bebb9029020119006d9574c",
+    "manifest.schema.json": "f572cc181025c927c9959400464b416b87c13f67ebff34f7327f59495fa0a319",
+    "recent.schema.json": "4903860e329a3452eec213a8f1f4bfde2551676f836cf7f8d5d565e86d943ea6",
+    "rule.schema.json": "8612b5ba3c57d02eb1ec01b0b0899f8d54e40e1b1e6b1a27e4edddb40436da1e",
+    "rules.schema.json": "3fb748cf8e0f8e673c067144eeacf32f513bb32b8e4d299d8bed61f3019341c6",
     "version.schema.json": "b67c5eedcdf18b95333fb05f315afddc257c2d37eb3f72d061abc2a94de789c1"
   },
-  "schema_version": "1.2"
+  "schema_version": "1.3"
 }

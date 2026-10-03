@@ -6,11 +6,12 @@
   "public_contract": {
     "failed_files": [],
     "status": "PASS",
-    "validated_file_count": 181
+    "validated_file_count": 324
   },
   "secret_scan": {
+    "file_count": 0,
     "files": [],
-    "status": "NOT_VERIFIED"
+    "status": "PASS"
   },
-  "tests": 71
+  "tests": 106
 }

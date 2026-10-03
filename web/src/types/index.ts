@@ -86,6 +86,9 @@ export interface ManifestResponse {
   health_url: string;
   latest_changes_url: string;
   upcoming_changes_url: string;
+  recent_changes_url?: string;
+  history_changes_url?: string;
+  change_detail_url_template?: string;
 }
 
 export interface HealthResponse {
@@ -105,9 +108,59 @@ export interface VersionReference {
   effective_date: string | null;
   snapshot_url: string;
   official_source_url: string;
+  identifier?: string;
+  body_hash?: string;
 }
 
-export interface ChangeEvent {
+export interface PersistentVersionInfo {
+  version_id?: string;
+  identifier?: string;
+  effective_date?: string | null;
+  official_source_url?: string;
+  snapshot_url?: string;
+  body_hash?: string;
+}
+
+export interface PersistentAppendixChange {
+  change_type: string;
+  status: 'AVAILABLE' | 'REMOVED' | string;
+  before_metadata?: AppendixItem | null;
+  after_metadata?: AppendixItem | null;
+}
+
+export interface PersistentChangeEvent {
+  event_id: string;
+  canonical_id: string;
+  regulation_name: string;
+  regulation_type: string;
+  effective_date: string | null;
+  promulgation_or_issue_date?: string | null;
+  detected_at: string;
+  change_type: ChangeType | string;
+  change_types?: string[];
+  changed_article_count: number;
+  changed_articles: ChangedArticle[];
+  before_version?: PersistentVersionInfo | null;
+  after_version?: PersistentVersionInfo | null;
+  comparison_status?: string;
+  comparison_source?: string;
+  comparison_scope?: string;
+  comparison_unavailable_reason?: string | null;
+  fallback_reason?: string | null;
+  official_old_new_available?: boolean;
+  official_source_url: string;
+  appendix_changes?: PersistentAppendixChange[];
+}
+
+export interface RecentChangesResponse {
+  schema_version: string;
+  dataset_version: string;
+  window_days: number;
+  date_basis: string;
+  events: PersistentChangeEvent[];
+}
+
+export interface ChangeEvent extends Partial<PersistentChangeEvent> {
   changed_articles?: ChangedArticle[];
   articles_compared_to?: VersionReference | null;
   event_id: string;
@@ -138,6 +191,8 @@ export interface AppendixItem {
   title: string | null;
   type: string | null;
   url: string | null;
+  status?: 'AVAILABLE' | 'REMOVED' | 'DELETED' | string;
+  is_deleted?: boolean;
 }
 
 export interface AttachmentItem {

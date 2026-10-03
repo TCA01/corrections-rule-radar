@@ -1,0 +1,73 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "802a1e1834707f4f02d9bd2012729e9fd600773bf35d93ea3931874af742c105",
+      "effective_date": "2019-07-01",
+      "identifier": "2100000180063",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000180063",
+      "snapshot_url": "/api/v1/rules/admrul-37580/versions/2100000180063-2019-07-01-ad4f21fe2a3f50f3.json",
+      "version_id": "2100000180063"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "5edaa13028d619b8f20d32a2a660cc57dbc3e2e9e007ba99646eebc282a4444e",
+      "effective_date": "2016-06-17",
+      "identifier": "2100000049849",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000049849",
+      "snapshot_url": "/api/v1/rules/admrul-37580/versions/2100000049849-2016-06-17-1646474b92f2ccb2.json",
+      "version_id": "2100000049849"
+    },
+    "canonical_id": "admrul-37580",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 2,
+    "changed_articles": [
+      {
+        "after_text": "제1조(목적) 이 지침은 「형의 집행 및 수용자의 처우에 관한 법률」 제8조에 따라 교도소ㆍ구치소 및 그 지소를 점검하기 위한 순회점검반의 운영에 관하여 필요한 사항을 정함을 목적으로 한다.",
+        "article_key": "article-1",
+        "article_number": "1",
+        "article_title": "제1조(목적)",
+        "before_text": "제1조(목적) 이 지침은 형의 집행 및 수용자의 처우에 관한 법률 제8조에 따라 교도소ㆍ구치소 및 그 지소를 점검하기 위한 순회점검반의 운영에 관하여 필요한 사항을 정함을 목적으로 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2019-07-01"
+      },
+      {
+        "after_text": "제10조(재검토기한) 법무부장관은 「훈령ㆍ예규 등의 발령 및 관리에 관한 규정」에 따라 2019년 7월 1일 기준으로 매 3년이 되는 시점(매 3년째의 6월 30일까지를 말한다.)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+        "article_key": "article-10",
+        "article_number": "10",
+        "article_title": "제10조(재검토기한)",
+        "before_text": "제10조(재검토기한) 「훈령ㆍ예규 등의 발령 및 관리에 관한 규정」(대통령훈령 제248호)에 따라 법령이나 현실여건의 변화 등을 검토하여 이 예규에 대하여 2016년 7월 1일 기준으로 매 3년이 되는 시점(매 3년째의 6월 30일까지를 말한다.)마다 그 타당성을 검토하여 개정 등의 조치를 하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2019-07-01"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "07ca6bd2c1e805079740fcdf753f3098f3c0fc39cf9d95bec238abdc3aef4590",
+      "credential_redacted": false,
+      "raw_sha256": "157e4e78d9752f0d10b59972dfa513c9ac3ad23e5114be59900d220c76e9da74",
+      "request": {
+        "ID": "2100000180063",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "157e4e78d9752f0d10b59972dfa513c9ac3ad23e5114be59900d220c76e9da74"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2019-07-01",
+    "event_id": "evt-daaf95551ef32e8e9b5101326772ba2a35b0896e53df1eb405e5409ca758a10f",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000180063",
+    "promulgation_or_issue_date": "2019-07-01",
+    "regulation_name": "순회점검반 운영지침",
+    "regulation_type": "예규"
+  },
+  "schema_version": "1.3"
+}

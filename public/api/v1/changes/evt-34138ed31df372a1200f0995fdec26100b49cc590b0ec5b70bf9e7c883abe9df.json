@@ -1,0 +1,140 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "7287263a011577894a5f54d5845a681b6fc829e4d3bfb67e15ac0563ccdd1fac",
+      "effective_date": "2025-07-01",
+      "identifier": "2100000260276",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000260276",
+      "snapshot_url": "/api/v1/rules/admrul-28644/versions/2100000260276-2025-07-01-a7b4b20f2cb3755e.json",
+      "version_id": "2100000260276"
+    },
+    "appendix_changes": [
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=152960821",
+          "sequence": "0004",
+          "title": "국가인권위원회/법무부 인권국 방문·조사 등록대장",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=152960777"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0004",
+          "title": "국가인권위원회/법무부 인권국 방문ㆍ조사 등록대장",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=116438147"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      }
+    ],
+    "before_version": {
+      "body_hash": "0d326d14bc656f13edbc95f7dc91ee1dfc69c07219ccb59bd6b92bc842fa7c8a",
+      "effective_date": "2022-07-01",
+      "identifier": "2100000212342",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000212342",
+      "snapshot_url": "/api/v1/rules/admrul-28644/versions/2100000212342-2022-07-01-c281578b510e8ef0.json",
+      "version_id": "2100000212342"
+    },
+    "canonical_id": "admrul-28644",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "APPENDIX_METADATA_CHANGED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 7,
+    "changed_articles": [
+      {
+        "after_text": "제5조의2(직원 교육) 소장은 전 직원에 대하여 진정 등과 관련된 규정, 사례 등의 인권교육을 정기적으로 실시하여야 한다.",
+        "article_key": "article-5의2",
+        "article_number": "5의2",
+        "article_title": "제5조의2(직원 교육)",
+        "before_text": "제5조의2(직원 교육) 소장은 해당 교정시설에 신규 임용되는 직원에 대하여 진정 등과 관련된 규정, 사례 등의 교육을 하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-07-01"
+      },
+      {
+        "after_text": "제13조(조사범위 등 사전고지) 소장은 교정시설을 방문한 조사관 등에게 조사, 수용자 면담, 실지조사, 감정 등(이하 “조사 등”이라 한다.)을 실시하기 전에 미리 다음 각 호의 사항을 고지한다.\n1. ∼ 5. (현행과 같음)\n6. 교도관입회가 금지된 진정 조사 시 조사관은 스스로 신변안전에 유의하여야 한다.",
+        "article_key": "article-13",
+        "article_number": "13",
+        "article_title": "제13조(조사범위 등 사전고지)",
+        "before_text": "제13조(조사범위 등 사전고지) 소장은 교정시설을 방문한 조사관 등에게 조사, 수용자 면담, 실지조사, 감정 등(이하 “조사 등”이라 한다.)을 실시하기 전에 미리 다음 각 호의 사항을 고지한다.\n1. ∼ 5. (생  략)\n6. 직원입회가 금지된 진정 조사 시 조사관은 스스로 신변안전에 유의하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-07-01"
+      },
+      {
+        "after_text": "제15조(면담장소 및 수용자 신체검사) ① (현행과 같음)\n② 소장은 교도관으로 하여금 조사관 등의 수용자 면담, 조사 등 전ㆍ후에 해당 수용자의 신체와 의류를 검사하게 하여야 한다.",
+        "article_key": "article-15",
+        "article_number": "15",
+        "article_title": "제15조(면담장소 및 수용자 신체검사)",
+        "before_text": "제15조(면담장소 및 수용자 신체검사) ① (생  략)\n② 소장은 직원으로 하여금 조사관 등의 수용자 면담, 조사 등 전ㆍ후에 해당 수용자의 신체와 의류를 검사하게 하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-07-01"
+      },
+      {
+        "after_text": "제16조(직원 입회) 소장은 조사관 등이 수용자를 면담 또는 조사하는 경우에는 「국가인권위원회법」 제24조 제5항 및 제31조 제6항에 따라 교도관이 참석하거나 감시하게 할 수 있다.",
+        "article_key": "article-16",
+        "article_number": "16",
+        "article_title": "제16조(직원 입회)",
+        "before_text": "제16조(직원 입회) 소장은 조사관 등이 수용자를 면담 또는 조사하는 경우에는 「국가인권위원회법」 제24조 제5항 및 제31조 제6항에 따라 직원이 참석하거나 감시하게 할 수 있다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-07-01"
+      },
+      {
+        "after_text": "제17조(조사범위 초과 시 조치) ① 조사관 등이 조사범위를 넘어서 녹음, 사진촬영 등을 하는 경우, 동행 교도관은 이를 제지하고 즉시 소장에게 보고하여야 한다.\n② (현행과 같음)",
+        "article_key": "article-17",
+        "article_number": "17",
+        "article_title": "제17조(조사범위 초과 시 조치)",
+        "before_text": "제17조(조사범위 초과 시 조치) ① 조사관 등이 조사범위를 넘어서 녹음, 사진촬영 등을 하는 경우, 동행 직원은 이를 제지하고 즉시 소장에게 보고하여야 한다.\n② (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-07-01"
+      },
+      {
+        "after_text": "제18조(자료제출 등 요구에 대한 처리) ① 조사관 등의 자료제출 요구는 조사관이 소속된 위원회 등 명의의 문서에 의하여 접수 후 처리한다. 다만, 방문조사 시 현장에서 요구하는 자료는 조사관 등의 필요성에 대한 소명을 거쳐 제공가능 여부를 검토한 후 제출한다.\n②·③ (현행과 같음)",
+        "article_key": "article-18",
+        "article_number": "18",
+        "article_title": "제18조(자료제출 등 요구에 대한 처리)",
+        "before_text": "제18조(자료제출 등 요구에 대한 처리) ① 조사관 등의 자료제출 요구에 대한 회신은 조사관이 소속된 위원회 등 명의의 문서에 의한다. 다만, 방문조사 시 현장에서 요구하는 자료는 조사관 등의 필요성에 대한 소명을 거쳐 제공가능 여부를 검토한 후 제출한다.\n②·③ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-07-01"
+      },
+      {
+        "after_text": "제25조(재검토 기한) 법무부장관은 이 지침에 대하여 2025년 7월 1일 기준으로 매 3년이 되는 시점(매 3년째의 6월 30일까지를 말한다.)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+        "article_key": "article-25",
+        "article_number": "25",
+        "article_title": "제25조(재검토 기한)",
+        "before_text": "제25조(재검토 기한) 법무부장관은 이 지침에 대하여 2022년 7월 1일 기준으로 매 3년이 되는 시점(매 3년째의 6월 30일까지를 말한다.)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-07-01"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "5982e997e4a31ea83c6ded30d98b63f648c884210ab0e088a6f6a2cb9adc0d44",
+      "credential_redacted": false,
+      "raw_sha256": "752a077e676bcc67f5b02834dab45c49b8738c73f58907112b037db00a637d09",
+      "request": {
+        "ID": "2100000260276",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "752a077e676bcc67f5b02834dab45c49b8738c73f58907112b037db00a637d09"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2025-07-01",
+    "event_id": "evt-34138ed31df372a1200f0995fdec26100b49cc590b0ec5b70bf9e7c883abe9df",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000260276",
+    "promulgation_or_issue_date": "2025-07-01",
+    "regulation_name": "수용자 인권업무 처리지침",
+    "regulation_type": "예규"
+  },
+  "schema_version": "1.3"
+}

@@ -1,0 +1,73 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "415da4914af0329d4ce02829e360123912bfbaf9e3b890afc943b1130af5f8a0",
+      "effective_date": "2025-05-27",
+      "identifier": "271285",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=271285",
+      "snapshot_url": "/api/v1/rules/law-009163/versions/271285-2025-05-27-b2718d6c18c19c09.json",
+      "version_id": "271285"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "977b06945a10c6e1d08157174588d1b210d52f694b6c63edad9a79980de1f428",
+      "effective_date": "2021-04-21",
+      "identifier": "230729",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=230729",
+      "snapshot_url": "/api/v1/rules/law-009163/versions/230729-2021-04-21-4c9ee16dec658c5e.json",
+      "version_id": "230729"
+    },
+    "canonical_id": "law-009163",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 2,
+    "changed_articles": [
+      {
+        "after_text": "제17조(직원의 임용 자격 등) ① 법 제29조제3항에 따라 민영교도소등의 직원으로 임용되려면 18세 이상이어야 한다.\n② (현행과 같음)",
+        "article_key": "article-17",
+        "article_number": "17",
+        "article_title": "제17조(직원의 임용 자격 등)",
+        "before_text": "제17조(직원의 임용 자격 등) ① 법 제29조제3항에 따른 민영교도소등의 직원의 임용 자격은 다음 각 호와 같다.1. 18세 이상인 사람2. 법무부령으로 정하는 신체조건에 해당하는 사람\n② (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-05-27"
+      },
+      {
+        "after_text": "제21조(징계처분) ① (현행과 같음)\n② 민영교도소등의 직원에 대한 징계의 종류는 해임ㆍ정직ㆍ감봉ㆍ견책으로 하되, 정직은 1개월 이상 3개월 이하의 기간 동안 직무에 종사하지 못하게 하고 보수의 전액을 감하며, 감봉은 1개월 이상 3개월 이하의 기간 동안 보수의 3분의 1을 줄인다.",
+        "article_key": "article-21",
+        "article_number": "21",
+        "article_title": "제21조(징계처분)",
+        "before_text": "제21조(징계처분) ① (생  략)\n② 민영교도소등의 직원에 대한 징계의 종류는 해임ㆍ정직ㆍ감봉ㆍ견책으로 하되, 정직은 1개월 이상 3개월 이하의 기간 동안 직무에 종사하지 못하게 하고 보수의 3분의 2를 줄이며, 감봉은 1개월 이상 3개월 이하의 기간 동안 보수의 3분의 1을 줄인다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-05-27"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "5b9d828e03dd315844c73a9ca33f5e0df091ffa9718d8de7b9465d9aaaa48877",
+      "credential_redacted": false,
+      "raw_sha256": "1ea9a0368eaf186a6b0a67c25a028c265964855918708b03e3ff5fee7bcd044f",
+      "request": {
+        "MST": "271285",
+        "target": "oldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "1ea9a0368eaf186a6b0a67c25a028c265964855918708b03e3ff5fee7bcd044f"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2025-05-27",
+    "event_id": "evt-6d5b137d043f644a2ee58bb4c8e52817b1ddad5e2bea7c06bb157719efe3ea49",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=271285",
+    "promulgation_or_issue_date": "2025-05-27",
+    "regulation_name": "민영교도소 등의 설치ㆍ운영에 관한 법률 시행령",
+    "regulation_type": "대통령령"
+  },
+  "schema_version": "1.3"
+}

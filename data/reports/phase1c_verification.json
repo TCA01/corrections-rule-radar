@@ -1,0 +1,22 @@
+{
+  "check_count": 11,
+  "checks": {
+    "credential_leak_zero": true,
+    "discovery_only": true,
+    "exact_registry_coverage": true,
+    "known_cross_scope_preserved": true,
+    "known_direct_candidates_proven": true,
+    "live_evidence_no_errors": true,
+    "official_seed_complete": true,
+    "production_contents_and_mtimes_preserved": true,
+    "required_record_provenance": true,
+    "system_map_gaps_resolved": true,
+    "unique_logical_ids": true
+  },
+  "frontend_external_drift": [
+    "web\\src\\components\\RuleDetailModal.tsx",
+    "web\\src\\test\\components.test.tsx"
+  ],
+  "pass_count": 11,
+  "production_file_count": 321
+}

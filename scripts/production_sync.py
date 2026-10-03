@@ -13,6 +13,7 @@ from scripts.collect_core import run as collect_core
 from scripts.discovery_scan import run as discover
 from scripts.sync import sync,read,ROOT
 from scripts.observe import public_fingerprint,semantic_hashes
+from pipeline.law_api.comparisons import prepare
 
 def run(*,discovery=False,full_audit=False):
     at=now(); start=time.monotonic(); metrics=Metrics(); previous=read('data/ops/health.json',{})
@@ -22,6 +23,7 @@ def run(*,discovery=False,full_audit=False):
     try:
         collection=discover(metrics=metrics,full_audit=full_audit) if discovery or full_audit else None
         collection=collection or collect_core(metrics=metrics,quiet=True)
+        prepare(collection,previous_state,read('data/registry/change_history.json',[]),metrics=metrics)
         result=sync(collection)
         if result['result']=='BLOCKED': error=result.get('reason','INCOMPLETE_COLLECTION')
     except Exception as exc:

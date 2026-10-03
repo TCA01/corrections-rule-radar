@@ -1,5 +1,11 @@
-import React, { useEffect, useState, useRef } from 'react';
-import { RuleSummary, RuleDetailResponse, ChangedArticleDiff } from '../types';
+import React, { useEffect, useState, useRef, useMemo } from 'react';
+import {
+  RuleSummary,
+  RuleDetailResponse,
+  ChangedArticleDiff,
+  PersistentChangeEvent,
+  AppendixItem,
+} from '../types';
 import { api, ApiError } from '../services/api';
 import { formatDotDate } from '../utils/date';
 import { displayArticleDiffs, computeWordDiff } from '../utils/diff';
@@ -15,21 +21,64 @@ import {
   FileText,
   Split,
   Eye,
+  Download,
 } from 'lucide-react';
 
-interface RuleDetailModalProps {
+export interface RuleDetailModalProps {
   rule: RuleSummary | null;
+  initialEvent?: PersistentChangeEvent | null;
   onClose: () => void;
 }
 
 type DiffDisplayMode = 'unified' | 'split';
 
-export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({ rule, onClose }) => {
+interface VersionComparisonTarget {
+  id: string;
+  label: string;
+  badge: string;
+  effectiveDate: string | null;
+  beforeVersion: string;
+  afterVersion: string;
+  changedArticles: ChangedArticleDiff[];
+  comparisonSource: string;
+  officialSourceUrl: string;
+}
+
+function isDownloadResource(url: string | null): boolean {
+  if (!url) return false;
+  const lower = url.toLowerCase();
+  return (
+    lower.includes('fldownload.do') ||
+    lower.endsWith('.hwp') ||
+    lower.endsWith('.hwpx') ||
+    lower.endsWith('.pdf') ||
+    lower.endsWith('.zip') ||
+    lower.endsWith('.doc') ||
+    lower.endsWith('.docx')
+  );
+}
+
+function isDeletedAppendix(app: AppendixItem): boolean {
+  const status = (app.status || '').toUpperCase();
+  return (
+    app.is_deleted === true ||
+    status === 'REMOVED' ||
+    status === 'DELETED' ||
+    status === '삭제'
+  );
+}
+
+export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({
+  rule,
+  initialEvent,
+  onClose,
+}) => {
   const [detail, setDetail] = useState<RuleDetailResponse | null>(null);
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
   const [activeDiffKey, setActiveDiffKey] = useState<string | null>(null);
-  const [diffMode, setDiffMode] = useState<DiffDisplayMode>('unified'); // Default: 변경된 부분
+  const [diffMode, setDiffMode] = useState<DiffDisplayMode>('unified'); // Default: [변경된 부분]
+  const [selectedComparisonId, setSelectedComparisonId] = useState<string>('');
 
   const diffRefs = useRef<Record<string, HTMLDivElement | null>>({});
 
@@ -79,13 +128,81 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({ rule, onClose 
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [onClose]);
 
+  // Build available comparison targets (upcoming, past-effective, or initialEvent)
+  const comparisons: VersionComparisonTarget[] = useMemo(() => {
+    const list: VersionComparisonTarget[] = [];
+
+    // 1. If opened with a specific event from recent changes
+    if (initialEvent && initialEvent.changed_articles && initialEvent.changed_articles.length > 0) {
+      list.push({
+        id: `event-${initialEvent.event_id}`,
+        label: `${formatDotDate(initialEvent.effective_date)} 개정`,
+        badge: '최근 시행',
+        effectiveDate: initialEvent.effective_date,
+        beforeVersion: initialEvent.before_version?.effective_date || initialEvent.before_version?.identifier || '종전 규정',
+        afterVersion: initialEvent.after_version?.effective_date || initialEvent.after_version?.identifier || '개정 규정',
+        changedArticles: displayArticleDiffs(initialEvent.changed_articles),
+        comparisonSource: initialEvent.comparison_source || '정밀 조문 대비',
+        officialSourceUrl: initialEvent.official_source_url || rule?.official_source_url || 'https://www.law.go.kr',
+      });
+    }
+
+    // 2. Upcoming future version in detail
+    if (detail?.upcoming && detail.upcoming.length > 0) {
+      for (const up of detail.upcoming) {
+        if (up.changed_articles && up.changed_articles.length > 0) {
+          const effDate = up.metadata?.effective_date || up.version_reference?.effective_date;
+          list.push({
+            id: `upcoming-${up.version_id}`,
+            label: `${formatDotDate(effDate)} 시행 예정`,
+            badge: '시행 예정',
+            effectiveDate: effDate,
+            beforeVersion: detail.current?.version_reference?.effective_date || detail.current?.stable_identifier || '현행 규정',
+            afterVersion: up.version_reference?.effective_date || up.version_id,
+            changedArticles: displayArticleDiffs(up.changed_articles),
+            comparisonSource: '국가법령정보센터 개정안 대비',
+            officialSourceUrl: up.official_source_url || rule?.official_source_url || 'https://www.law.go.kr',
+          });
+        }
+      }
+    }
+
+    // 3. Past-effective current version changes in detail (Phase 1E)
+    if (detail?.changed_articles && detail.changed_articles.length > 0) {
+      const effDate = detail.current?.metadata?.effective_date || detail.current?.version_reference?.effective_date;
+      const alreadyHas = list.some((c) => c.effectiveDate === effDate);
+      if (!alreadyHas) {
+        list.push({
+          id: `current-diff-${detail.current?.version_id}`,
+          label: `${formatDotDate(effDate)} 최근 시행`,
+          badge: '최근 시행',
+          effectiveDate: effDate,
+          beforeVersion: detail.articles_compared_to?.effective_date || detail.articles_compared_to?.version_id || '종전 규정',
+          afterVersion: detail.current?.version_reference?.effective_date || detail.current?.version_id || '현행 규정',
+          changedArticles: displayArticleDiffs(detail.changed_articles),
+          comparisonSource: '정밀 조문 대비 (Phase 1E)',
+          officialSourceUrl: detail.current?.official_source_url || rule?.official_source_url || 'https://www.law.go.kr',
+        });
+      }
+    }
+
+    return list;
+  }, [detail, initialEvent, rule]);
+
+  // Set default active comparison target
+  useEffect(() => {
+    if (comparisons.length > 0) {
+      if (!selectedComparisonId || !comparisons.some((c) => c.id === selectedComparisonId)) {
+        setSelectedComparisonId(comparisons[0].id);
+      }
+    }
+  }, [comparisons, selectedComparisonId]);
+
   if (!rule) return null;
 
-  const upcomingVersion = detail?.upcoming && detail.upcoming.length > 0 ? detail.upcoming[0] : null;
-  const articleDiffs: ChangedArticleDiff[] =
-    detail && upcomingVersion
-      ? displayArticleDiffs(upcomingVersion.changed_articles)
-      : [];
+  const activeComparison =
+    comparisons.find((c) => c.id === selectedComparisonId) || comparisons[0] || null;
+  const articleDiffs: ChangedArticleDiff[] = activeComparison?.changedArticles || [];
 
   const scrollToDiff = (key: string) => {
     setActiveDiffKey(key);
@@ -101,7 +218,7 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({ rule, onClose 
 
   const appendices = detail?.current.appendices || [];
 
-  // Check if provenance exists in backend data
+  // Check if provenance exists in backend data (Section 22)
   const effectiveRule = detail?.rule || rule;
   const hasProvenance = Boolean(effectiveRule.provenance || effectiveRule.selection_rationale);
 
@@ -116,9 +233,9 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({ rule, onClose 
       }}
     >
       <div className="modal-content">
-        {/* Header */}
+        {/* Header: VoiceBox Civic Style with Official Source Link right at top (Section 14) */}
         <div className="modal-header">
-          <div className="modal-title-group">
+          <div className="modal-header-top">
             <div className="modal-badges-row">
               <span className={`badge ${rule.source_kind === 'law' ? 'badge-law' : 'badge-admin'}`}>
                 {rule.corrections_category}
@@ -127,7 +244,7 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({ rule, onClose 
                 {rule.status === 'REPEALED' ? '폐지' : '현행'}
               </span>
               {rule.classification_status === 'REVIEW' || rule.business_domains.length === 0 ? (
-                <span className="badge badge-domain-review">업무 분야 검토 중</span>
+                <span className="badge badge-domain-review">검토중</span>
               ) : (
                 rule.business_domains.map((dom) => (
                   <span key={dom} className="badge badge-domain-reviewed">
@@ -137,19 +254,45 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({ rule, onClose 
               )}
             </div>
 
+            <button
+              type="button"
+              className="modal-close-btn"
+              onClick={onClose}
+              aria-label="닫기"
+            >
+              <X size={20} />
+            </button>
+          </div>
+
+          <div className="modal-title-row">
             <h2 id="rule-modal-title" className="modal-rule-title">
               {rule.current_name}
             </h2>
+
+            {/* Official Source Action moved to Header (Section 14) */}
+            <a
+              href={rule.official_source_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="modal-official-link"
+              title="국가법령정보센터 공식 원문 새 창 열기"
+            >
+              <span>공식 원문</span>
+              <ExternalLink size={13} aria-hidden="true" />
+            </a>
           </div>
 
-          <button
-            type="button"
-            className="modal-close-btn"
-            onClick={onClose}
-            aria-label="닫기"
-          >
-            <X size={20} />
-          </button>
+          <div className="modal-submeta-row">
+            <span className="modal-submeta-item">
+              시행 {formatDotDate(rule.metadata.effective_date)}
+              {rule.metadata.amendment_type ? ` [${rule.metadata.amendment_type}]` : ''}
+            </span>
+            <span className="modal-submeta-divider">·</span>
+            <span className="modal-submeta-item">
+              {rule.metadata.ministry || '법무부'}
+              {rule.metadata.department ? ` (${rule.metadata.department})` : ''}
+            </span>
+          </div>
         </div>
 
         {/* Body */}
@@ -211,7 +354,7 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({ rule, onClose 
             </div>
           </div>
 
-          {/* Provenance Slot: Section 19 (Rendered ONLY if backend data provides it) */}
+          {/* Provenance Slot: Section 22 (Rendered ONLY if backend data provides it) */}
           {hasProvenance && (
             <div className="detail-section provenance-section">
               <h3 className="detail-section-title">선정 근거</h3>
@@ -223,9 +366,9 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({ rule, onClose 
 
           {/* Loading state */}
           {loading && (
-            <div className="detail-loading-state">
+            <div className="modal-loading-state" role="status">
               <Loader2 className="animate-spin" size={24} />
-              <span>상세 조문 및 별표 데이터를 불러오는 중입니다...</span>
+              <p>규정 상세 정보 및 조문 대비표를 불러오는 중입니다...</p>
             </div>
           )}
 
@@ -237,13 +380,49 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({ rule, onClose 
             </div>
           )}
 
-          {/* Legal Diff Comparison Section */}
-          {!loading && !error && upcomingVersion && articleDiffs.length > 0 && (
+          {/* Legal Diff Comparison Section (Upcoming & Past-Effective Changes) */}
+          {!loading && !error && activeComparison && articleDiffs.length > 0 && (
             <div className="detail-section diff-section">
+              {/* Multiple Version Selector Tabs (if both upcoming and past exist) */}
+              {comparisons.length > 1 && (
+                <div className="diff-version-tabs" role="tablist" aria-label="개정 버전 선택">
+                  {comparisons.map((c) => (
+                    <button
+                      key={c.id}
+                      type="button"
+                      role="tab"
+                      aria-selected={c.id === selectedComparisonId}
+                      className={`diff-version-tab ${c.id === selectedComparisonId ? 'active' : ''}`}
+                      onClick={() => setSelectedComparisonId(c.id)}
+                    >
+                      <span className="version-tab-badge">{c.badge}</span>
+                      <span className="version-tab-label">{c.label}</span>
+                    </button>
+                  ))}
+                </div>
+              )}
+
               <div className="diff-header-bar">
-                <h3 className="detail-section-title">
-                  {`개정 조문 대비표 (${upcomingVersion.metadata.effective_date} 시행 예정)`}
-                </h3>
+                <div className="diff-header-left">
+                  <h3 className="detail-section-title">
+                    {`개정 조문 대비표 (${formatDotDate(activeComparison.effectiveDate)} ${
+                      activeComparison.badge === '시행 예정' ? '시행 예정' : '시행'
+                    })`}
+                  </h3>
+                  <div className="diff-meta-strip">
+                    <span className="diff-meta-item">
+                      종전 버전: <strong>{activeComparison.beforeVersion}</strong>
+                    </span>
+                    <span className="diff-meta-divider">→</span>
+                    <span className="diff-meta-item">
+                      개정 버전: <strong>{activeComparison.afterVersion}</strong>
+                    </span>
+                    <span className="diff-meta-divider">·</span>
+                    <span className="diff-meta-item">
+                      개정 조문: <strong>{articleDiffs.length}개</strong>
+                    </span>
+                  </div>
+                </div>
 
                 {/* Diff Mode Selector: [변경된 부분] (DEFAULT) vs [전·후 전체 비교] */}
                 <div className="diff-mode-toggle" role="tablist" aria-label="조문 비교 방식 선택">
@@ -379,53 +558,74 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({ rule, onClose 
             </div>
           )}
 
-          {!loading && !error && (!upcomingVersion || articleDiffs.length === 0) && (
+          {!loading && !error && (!activeComparison || articleDiffs.length === 0) && (
             <div className="detail-section">
               <h3 className="detail-section-title">조문 변경 대비표</h3>
               <div className="empty-state">
                 <FileText size={24} style={{ margin: '0 auto', opacity: 0.5 }} />
                 <p>
-                  별도의 개정 예정 조문 대비 데이터가 없습니다. 현행 규정 원문은 국가법령정보센터를 통해
+                  별도의 개정 조문 대비 데이터가 없습니다. 현행 규정 원문은 상단 공식 원문 링크를 통해
                   확인하실 수 있습니다.
                 </p>
               </div>
             </div>
           )}
 
-          {/* Appendices & Forms Section */}
+          {/* Appendices & Forms Section: Sections 15 & 16 */}
           {!loading && !error && appendices.length > 0 && (
             <div className="detail-section">
               <h3 className="detail-section-title">
                 관련 별표·서식 ({appendices.length}건)
               </h3>
               <div className="appendices-list">
-                {appendices.map((app, idx) => (
-                  <div key={`${app.sequence}-${idx}`} className="appendix-item">
-                    <div className="appendix-icon">
-                      <FileSpreadsheet size={16} />
+                {appendices.map((app, idx) => {
+                  const isDeleted = isDeletedAppendix(app);
+                  const isDownload = isDownloadResource(app.url);
+                  const isPdfPreview = Boolean(app.pdf_url && !isDownloadResource(app.pdf_url));
+
+                  return (
+                    <div key={`${app.sequence}-${idx}`} className={`appendix-item ${isDeleted ? 'deleted' : ''}`}>
+                      <div className="appendix-icon">
+                        <FileSpreadsheet size={16} />
+                      </div>
+                      <div className="appendix-info">
+                        <span className="appendix-title">{app.title || `별표·서식 제${app.sequence}호`}</span>
+                        <span className="appendix-meta">
+                          {app.type || '별표/서식'} {app.sequence ? `(제${app.sequence}호)` : ''}
+                        </span>
+                      </div>
+
+                      {/* Section 15 & 16: Accurate Action Button or Deleted Notice */}
+                      {isDeleted ? (
+                        <span className="appendix-deleted-badge">해당 개정에서 삭제된 서식</span>
+                      ) : isPdfPreview ? (
+                        <a
+                          href={app.pdf_url!}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="appendix-action-btn preview"
+                          title="미리보기 새 창 열기"
+                        >
+                          <span>미리보기</span>
+                          <ExternalLink size={12} aria-hidden="true" />
+                        </a>
+                      ) : app.url ? (
+                        <a
+                          href={app.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className={`appendix-action-btn ${isDownload ? 'download' : 'preview'}`}
+                          title={isDownload ? '서식 파일 다운로드' : '미리보기 새 창 열기'}
+                        >
+                          <span>{isDownload ? '다운로드' : '미리보기'}</span>
+                          {isDownload ? <Download size={12} aria-hidden="true" /> : <ExternalLink size={12} aria-hidden="true" />}
+                        </a>
+                      ) : (
+                        <span className="appendix-no-link">링크 없음</span>
+                      )}
                     </div>
-                    <div className="appendix-info">
-                      <span className="appendix-title">{app.title || `별표·서식 제${app.sequence}호`}</span>
-                      <span className="appendix-meta">
-                        {app.type || '별표/서식'} {app.sequence ? `(제${app.sequence}호)` : ''}
-                      </span>
-                    </div>
-                    {app.url ? (
-                      <a
-                        href={app.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="appendix-link"
-                        title="국가법령정보센터 공식 원문 보기"
-                      >
-                        <span>원문 보기</span>
-                        <ExternalLink size={12} />
-                      </a>
-                    ) : (
-                      <span className="appendix-no-link">링크 없음</span>
-                    )}
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             </div>
           )}

@@ -1,5 +1,5 @@
 {
-  "dataset_version": "ds-1f332f33e70a591d8c90bfcb93c615f2b4ab487c3cbafcd37d9442fc9da29e54",
+  "dataset_version": "ds-7805063f9c55bcd7d7616ee1e3d509f79cc0ee449489171391afacdbf9e30ed3",
   "rules": [
     {
       "business_domains": [
@@ -2237,5 +2237,5 @@
       "version_id": "261779"
     }
   ],
-  "schema_version": "1.2"
+  "schema_version": "1.3"
 }

@@ -15,6 +15,8 @@ import {
 describe('App End-to-End Integration Test with Production Fixtures', () => {
   const publicDir = path.resolve(__dirname, '../../../tests/fixtures/web_baseline');
 
+  const prodPublicDir = path.resolve(__dirname, '../../../public/api/v1');
+
   const manifestData: ManifestResponse = JSON.parse(
     fs.readFileSync(path.join(publicDir, 'manifest.json'), 'utf-8')
   );
@@ -30,6 +32,10 @@ describe('App End-to-End Integration Test with Production Fixtures', () => {
   const latestData: ChangesResponse = JSON.parse(
     fs.readFileSync(path.join(publicDir, 'changes/latest.json'), 'utf-8')
   );
+  const recentDataRaw: any = fs.existsSync(path.join(publicDir, 'changes/recent.json'))
+    ? JSON.parse(fs.readFileSync(path.join(publicDir, 'changes/recent.json'), 'utf-8'))
+    : JSON.parse(fs.readFileSync(path.join(prodPublicDir, 'changes/recent.json'), 'utf-8'));
+  const recentData: any = { ...recentDataRaw, dataset_version: manifestData.dataset_version };
   const lawDetailData: RuleDetailResponse = JSON.parse(
     fs.readFileSync(path.join(publicDir, 'rules/law-001668.json'), 'utf-8')
   );
@@ -42,6 +48,7 @@ describe('App End-to-End Integration Test with Production Fixtures', () => {
     vi.spyOn(api, 'getRules').mockResolvedValue(rulesData);
     vi.spyOn(api, 'getUpcomingChanges').mockResolvedValue(upcomingData);
     vi.spyOn(api, 'getLatestChanges').mockResolvedValue(latestData);
+    vi.spyOn(api, 'getRecentChanges').mockResolvedValue(recentData);
     vi.spyOn(api, 'getRuleDetail').mockImplementation((id: string) => {
       if (id === 'law-001668') return Promise.resolve(lawDetailData);
       const file = path.join(publicDir, `rules/${id}.json`);
@@ -70,12 +77,19 @@ describe('App End-to-End Integration Test with Production Fixtures', () => {
       expect(screen.getByText('추적 규정')).toBeInTheDocument();
     });
 
+    // Check new branding "교정관련 규정 추적기" is present and old branding is completely eradicated
+    expect(screen.getAllByText('교정관련 규정 추적기').length).toBeGreaterThanOrEqual(1);
+    expect(screen.queryByText('교정업무 변경 레이더')).not.toBeInTheDocument();
+
     // Check last successful sync is displayed
     expect(screen.getByText(/마지막 정상 동기화:/)).toBeInTheDocument();
 
     // Check total tracked regulations count matches actual rules.length (68)
     expect(screen.getByText('추적 규정')).toBeInTheDocument();
     expect(screen.getByText(String(rulesData.rules.length))).toBeInTheDocument();
+
+    // Check recent 90-day changes section is rendered
+    expect(screen.getByText('최근 규정 변경')).toBeInTheDocument();
 
     // Check upcoming regulations section contains law-001668
     expect(screen.getByText('시행 예정 규정 타임라인')).toBeInTheDocument();
@@ -199,8 +213,9 @@ describe('App End-to-End Integration Test with Production Fixtures', () => {
       ).toBeInTheDocument();
     });
 
-    // Site still renders completely
-    expect(screen.getAllByText('교정업무 변경 레이더').length).toBeGreaterThanOrEqual(1);
+    // Site still renders completely with new branding
+    expect(screen.getAllByText('교정관련 규정 추적기').length).toBeGreaterThanOrEqual(1);
+    expect(screen.queryByText('교정업무 변경 레이더')).not.toBeInTheDocument();
     expect(screen.getByText('추적 규정')).toBeInTheDocument();
   });
 });

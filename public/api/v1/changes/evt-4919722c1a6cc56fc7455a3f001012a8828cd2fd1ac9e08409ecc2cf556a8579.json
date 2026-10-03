@@ -1,0 +1,91 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "4b3fbeaf23b84b13317c3f121061d8d412f24dc31dfb145cd11f28bdc08f3bca",
+      "effective_date": "2022-07-01",
+      "identifier": "2100000211709",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000211709",
+      "snapshot_url": "/api/v1/rules/admrul-51868/versions/2100000211709-2022-07-01-5a161674d06fe07f.json",
+      "version_id": "2100000211709"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "4dc3620f29483f3347481a2c5a5204a1fbcf4798f6c71dd7097816afe17bc403",
+      "effective_date": "2019-07-01",
+      "identifier": "2100000180066",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000180066",
+      "snapshot_url": "/api/v1/rules/admrul-51868/versions/2100000180066-2019-07-01-ab11f6038c0bf2c5.json",
+      "version_id": "2100000180066"
+    },
+    "canonical_id": "admrul-51868",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 4,
+    "changed_articles": [
+      {
+        "after_text": "제3조(보고대상) ① 지방교정청등의 장(이하 “청장등”이라고 한다)은 다음 각 호의 사항에 대하여 법무부장관(이하 “장관”이라 한다) 및 상급 지방교정청장(교도소, 구치소(지소 포함)에 한한다. 이하 같다)에게 정보보고를 하여야 한다.\n1. 소속 직원의 사고 또는 비위, 소속 직원에 대한 진정 접수 및 처리결과에 관한 사항\n2. ∼ 6. (현행과 같음)\n7. 수용자의 가석방, 교육ㆍ사회복귀, 직업훈련, 의료처우 및 심리치료에 관한 주요사항\n8. ∼ 14. (현행과 같음)\n② 제1항제1호에서 “소속 직원”이라 함은 지방교정청등의 소속 공무원, 공무직 근로자, 대체복무요원, 그 밖에 청장등의 책임 아래에 있는 사람을 말한다(이하 같다).\n③ ∼ ⑦ (현행과 같음)",
+        "article_key": "article-3",
+        "article_number": "3",
+        "article_title": "제3조(보고대상)",
+        "before_text": "제3조(보고대상) ① 지방교정청등의 장(이하 “청장등”이라고 한다)은 다음 각 호의 사항에 대하여 법무부장관(이하 “장관”이라 한다) 및 상급 지방교정청장(교도소, 구치소(지소 포함)에 한한다. 이하 같다)에게 정보보고를 하여야 한다.\n1. 소속 직원의 사고 또는 비위, 소속 직원에 대한 진정 접수 및  처리결과에 관한 사항\n2. ∼ 6. (생  략)\n7. 수용자의 가석방에 관한 주요사항, 교육ㆍ사회복귀에 관한 주요사항, 직업훈련에 관한 주요사항 및 의료처우에 관한 주요사항\n8. ∼ 14. (생  략)\n② 제1항제1호에서 “소속 직원”이라 함은 지방교정청등의 소속 공무원, 계약직 근로자, 그 밖에 청장등의 책임 아래에 있는 사람을 말한다(이하 같다).\n③ ∼ ⑦ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2022-07-01"
+      },
+      {
+        "after_text": "제5조(보고시기 및 방법) 정보보고는 별지 제1호 서식에 따라 문서ㆍ전자문서ㆍ팩스ㆍ전자우편 등의 방법으로 지체 없이 하여야 한다. 다만, 긴급한 경우에는 구두 또는 유ㆍ무선 전화를 사용하여 보고한 후 본문의 방법을 따른다.",
+        "article_key": "article-5",
+        "article_number": "5",
+        "article_title": "제5조(보고시기 및 방법)",
+        "before_text": "제5조(보고시기 및 방법) 정보보고는 별지 제1호 서식에 따라 문서ㆍ전자문서ㆍ팩시밀리 등의 방법으로 지체 없이 하여야 한다. 다만, 긴급한 경우에는 구두 또는 유ㆍ무선 전화를 사용하여 보고한 후 본문의 방법을 따른다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2022-07-01"
+      },
+      {
+        "after_text": "제9조(보고방법) ① 감독보고서는 행정봉투(4호)에 밀봉 후 행정봉투 전면 수신인란에 법무부장관, 상단에 “친전”이라고 붉은 글씨로 표시해 우편 등의 방법으로 제출한다.\n② (현행과 같음)",
+        "article_key": "article-9",
+        "article_number": "9",
+        "article_title": "제9조(보고방법)",
+        "before_text": "제9조(보고방법) ① 감독보고서는 행정봉투(4호)에 밀봉 후 행정봉투 전면 수신인란에 법무부장관, 상단에 “친전”이라고 주서하여 우편 등의 방법으로 제출한다.\n② (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2022-07-01"
+      },
+      {
+        "after_text": "제12조(재검토기한) 법무부장관은 「훈령ㆍ예규 등의 발령 및 관리에 관한 규정」에 따라 2022년 7월 1일 기준으로 매 3년이 되는 시점(매 3년째의 6월 30일까지를 말한다.)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+        "article_key": "article-12",
+        "article_number": "12",
+        "article_title": "제12조(재검토기한)",
+        "before_text": "제12조(재검토기한) 법무부장관은 「훈령ㆍ예규 등의 발령 및 관리에 관한 규정」에 따라 2019년 7월 1일 기준으로 매 3년이 되는 시점(매 3년째의 6월 30일까지를 말한다.)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2022-07-01"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "e39b44d6af4795e771c825ba16a90f858125f0367a9e48751af35f056a66b318",
+      "credential_redacted": false,
+      "raw_sha256": "2238430ef21d25e75ae7f3534170416cf054fd4b84ce4468f7d5792ae02c59e2",
+      "request": {
+        "ID": "2100000211709",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "2238430ef21d25e75ae7f3534170416cf054fd4b84ce4468f7d5792ae02c59e2"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2022-07-01",
+    "event_id": "evt-4919722c1a6cc56fc7455a3f001012a8828cd2fd1ac9e08409ecc2cf556a8579",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000211709",
+    "promulgation_or_issue_date": "2022-05-26",
+    "regulation_name": "교정본부 보고사무지침",
+    "regulation_type": "훈령"
+  },
+  "schema_version": "1.3"
+}

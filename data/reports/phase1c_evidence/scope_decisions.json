@@ -1,0 +1,893 @@
+{
+  "admrul-2077667": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 인사혁신처 자체 제안제도; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-2077668": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 인사혁신처 자체 법제업무; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-2078078": {
+    "scope_class": "DIRECT_CORRECTIONS",
+    "selection_basis": "교정본부·지방교정청·소속기관 종합상황실 설치·운영; 핵심법 체계도 연결",
+    "applies_to": [
+      "교정본부",
+      "지방교정청",
+      "교정기관 종합상황실"
+    ],
+    "recommended_action": "추가 권고; 사용자 승인 후 수집·계약 검증",
+    "review_note": null
+  },
+  "admrul-2083985": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 중앙소방학교 정보공개; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-2088851": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 공소청 고위공무원 직위 등급; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-25243": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 국가데이터처 국외파견 공무원; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-26402": {
+    "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+    "selection_basis": "제3조 법무부 본부·소속기관 공무원에 적용하는 청렴·행동기준",
+    "applies_to": [
+      "교정직 공무원",
+      "법무부 소속 공무원"
+    ],
+    "recommended_action": "추가 권고; 사용자 승인 후 수집·계약 검증",
+    "review_note": null
+  },
+  "admrul-26601": {
+    "scope_class": "REVIEW",
+    "selection_basis": "공식 현행 규정이나 교정 업무에 필요한 추적 범위의 추가 검토 필요; 제1조(목적) 이 규정은 「국고금관리법」 제45조 및 같은 법 시행령 제109조 제1항, 「국가를 당사자로 하는 계약에 관한 법률」 제6조 제5항 및 같은 법 시행령 제6조 제1항",
+    "applies_to": [],
+    "recommended_action": "보류; 교정기관 적용 범위와 담당 업무의 실질 관련성 확인"
+  },
+  "admrul-26783": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 검사윤리강령 해석·운영; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-26787": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 검사 윤리만 규율; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-26927": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 소년원·소년분류심사원 직원 물품; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-27435": {
+    "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+    "selection_basis": "법무·검찰공무원 부조리 신고·처리 및 보상·포상 절차",
+    "applies_to": [
+      "법무부 소속 공무원"
+    ],
+    "recommended_action": "추가 권고; 사용자 승인 후 수집·계약 검증",
+    "review_note": null
+  },
+  "admrul-27524": {
+    "scope_class": "REVIEW",
+    "selection_basis": "공소청공무원 등이 형사사법국 주관 국외여행하는 경우로 적용 한정; 교정직 일상 적용 근거 불충분",
+    "applies_to": [],
+    "recommended_action": "보류; 제품 범위 및 적용 대상 개별 확인",
+    "review_note": null
+  },
+  "admrul-27525": {
+    "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+    "selection_basis": "목적조문에 교도소·구치소의 특수지근무수당 지급 대상 범위 명시",
+    "applies_to": [
+      "교도소·구치소 공무원"
+    ],
+    "recommended_action": "추가 권고; 사용자 승인 후 수집·계약 검증",
+    "review_note": null
+  },
+  "admrul-27617": {
+    "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+    "selection_basis": "법무부 소속 공무원의 범죄·비위에 대한 징계 처리 기준·절차",
+    "applies_to": [
+      "법무부 소속 공무원"
+    ],
+    "recommended_action": "추가 권고; 사용자 승인 후 수집·계약 검증",
+    "review_note": null
+  },
+  "admrul-28206": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 정신질환자 사회복귀시설 비용 고시; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-29857": {
+    "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+    "selection_basis": "회계 관계공무원 관직·임명권 위임; 제4조 지방교정청장 대리자 임명 명시",
+    "applies_to": [
+      "교정기관 회계 담당자",
+      "지방교정청장"
+    ],
+    "recommended_action": "추가 권고; 사용자 승인 후 수집·계약 검증",
+    "review_note": null
+  },
+  "admrul-30235": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 지방공무원 균형인사; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-30248": {
+    "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+    "selection_basis": "교정직을 포함한 국가공무원의 복무·징계 직접 관련; 제품 소유자 KEEP 결정 및 인사혁신처 현행 메타데이터·개정이유",
+    "applies_to": [
+      "교정직 공무원",
+      "국가공무원"
+    ],
+    "recommended_action": "추가 권고; KEEP 범위 유지, 첨부형 본문 수집 지원과 1.3 계약 검증 후 승인 적용",
+    "review_note": "현행 2026-10-01 인사혁신처 예규 225호. 안정 ID 30248 / 버전 2100000285756. 조문내용 빈 값, HWPX/PDF 공식 첨부 제공; 범위 인정과 수집기 호환성 검토를 분리."
+  },
+  "admrul-31871": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 지방공무원 인사제도; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-32496": {
+    "scope_class": "REVIEW",
+    "selection_basis": "공식 현행 규정이나 교정 업무에 필요한 추적 범위의 추가 검토 필요; 제1조(목적) 이 규칙은 「공무원제안규정」(이하 \"영\"이라 한다) 및 「공무원제안 규정 시행규칙」(이하 \"규칙\"이라 한다)에 의하여 법무부장관이 관장하는 자체 공무원제안제도의 운영",
+    "applies_to": [],
+    "recommended_action": "보류; 교정기관 적용 범위와 담당 업무의 실질 관련성 확인"
+  },
+  "admrul-33547": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 외교부 자료실; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-34081": {
+    "scope_class": "REVIEW",
+    "selection_basis": "공식 현행 규정이나 교정 업무에 필요한 추적 범위의 추가 검토 필요; 제1조(목적)이 규정은 법무부 소속 공무원의 능력개발과 사기앙양을 도모하기 위하여 교육훈련성적이 우수한 공무원 또는 분임 및 교육운영 유공자에게 시상하는 공무원교육상(이하 ‘교육상",
+    "applies_to": [],
+    "recommended_action": "보류; 교정기관 적용 범위와 담당 업무의 실질 관련성 확인"
+  },
+  "admrul-34266": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 방위사업청 소속 공무원 인사; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-35573": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 소년보호행정 분야 사회복무요원; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-35611": {
+    "scope_class": "DIRECT_CORRECTIONS",
+    "selection_basis": "형집행법 제81조·시행령 제100조의 미결수용인 분리수용 협조·공범표시 규정",
+    "applies_to": [
+      "구치소 수용 담당자",
+      "미결수용인"
+    ],
+    "recommended_action": "추가 권고; 사용자 승인 후 수집·계약 검증",
+    "review_note": null
+  },
+  "admrul-36677": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 원자로 계기·방사선측정기 교정; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-37000": {
+    "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+    "selection_basis": "제2조 법무부·소속기관 3급 이하 일반직 공무원의 보직관리 기준",
+    "applies_to": [
+      "교정직 공무원",
+      "법무부 소속 일반직 공무원"
+    ],
+    "recommended_action": "추가 권고; 사용자 승인 후 수집·계약 검증",
+    "review_note": null
+  },
+  "admrul-37001": {
+    "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+    "selection_basis": "교정직공무원승진임용규정을 명시하는 소속기관 임용권·시험권 위임",
+    "applies_to": [
+      "교정기관 임용·시험 담당자"
+    ],
+    "recommended_action": "추가 권고; 사용자 승인 후 수집·계약 검증",
+    "review_note": null
+  },
+  "admrul-37578": {
+    "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+    "selection_basis": "법무부·소속기관 민원 담당 공무원의 수당 지급 기준",
+    "applies_to": [
+      "교정기관 민원 담당 공무원"
+    ],
+    "recommended_action": "추가 권고; 사용자 승인 후 수집·계약 검증",
+    "review_note": null
+  },
+  "admrul-37620": {
+    "scope_class": "REVIEW",
+    "selection_basis": "고위공무원단 한정 인사규칙; 교정직 포함 범위·추적 필요성 개별 확인 필요",
+    "applies_to": [
+      "고위공무원단"
+    ],
+    "recommended_action": "보류; 제품 범위 및 적용 대상 개별 확인",
+    "review_note": null
+  },
+  "admrul-37653": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 보호직 조사관 자격; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-38793": {
+    "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+    "selection_basis": "법무부 소속 공무원 직무 관련 범죄의 고발 대상·절차",
+    "applies_to": [
+      "법무부 소속 공무원"
+    ],
+    "recommended_action": "추가 권고; 사용자 승인 후 수집·계약 검증",
+    "review_note": null
+  },
+  "admrul-38955": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 지방별정직 공무원 인사; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-39934": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 일반 SNS 홍보 포상으로 교정 핵심 업무 추적 필요성 입증 부족; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-46410": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 경찰공무원 인사; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-56140": {
+    "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+    "selection_basis": "제2조 법무부 본부에만 적용; 본부 교정직 복무 관련은 있으나 교도소·구치소 당직 기준으로 일반화 금지",
+    "applies_to": [
+      "법무부 본부 공무원"
+    ],
+    "recommended_action": "보류; 제품 범위 및 적용 대상 개별 확인",
+    "review_note": null
+  },
+  "admrul-59375": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 측정기기 교정; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-59595": {
+    "scope_class": "REVIEW",
+    "selection_basis": "군 교정시설 전용 규정으로 법무부 교정직 적용 근거 없음; 군 교정까지 제품 범위를 넓힐지는 별도 결정",
+    "applies_to": [
+      "군수용자",
+      "군교정시설"
+    ],
+    "recommended_action": "보류; 제품 범위 및 적용 대상 개별 확인",
+    "review_note": null
+  },
+  "admrul-59596": {
+    "scope_class": "REVIEW",
+    "selection_basis": "군 교정시설 전용 규정으로 법무부 교정직 적용 근거 없음; 군 교정까지 제품 범위를 넓힐지는 별도 결정",
+    "applies_to": [
+      "군수용자",
+      "군교정시설"
+    ],
+    "recommended_action": "보류; 제품 범위 및 적용 대상 개별 확인",
+    "review_note": null
+  },
+  "admrul-59711": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 광교정수장 수도사업 변경; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-66785": {
+    "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+    "selection_basis": "제2조 6급 이하 공무원, 제3·4조 교정기관 및 지방교정청 징계위원회 관할 명시",
+    "applies_to": [
+      "교정기관 6급 이하 공무원",
+      "징계 담당자"
+    ],
+    "recommended_action": "추가 권고; 사용자 승인 후 수집·계약 검증",
+    "review_note": null
+  },
+  "admrul-69673": {
+    "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+    "selection_basis": "적극행정 관련 징계 소명 및 형사·민사 소송 지원 절차",
+    "applies_to": [
+      "법무부 소속 공무원"
+    ],
+    "recommended_action": "추가 권고; 사용자 승인 후 수집·계약 검증",
+    "review_note": null
+  },
+  "admrul-69776": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 보호직 공무원 인사; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-71516": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 소방공무원 인사협의회; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-74433": {
+    "scope_class": "DIRECT_CORRECTIONS",
+    "selection_basis": "교정기획과 소관; 제12조의2 지방교정청장 승인권한 및 교정기관 대체복무 관리 본문 근거",
+    "applies_to": [
+      "교정기관 대체복무 담당자",
+      "대체복무요원"
+    ],
+    "recommended_action": "추가 권고; 사용자 승인 후 수집·계약 검증",
+    "review_note": null
+  },
+  "admrul-74434": {
+    "scope_class": "DIRECT_CORRECTIONS",
+    "selection_basis": "교정기획과 소관; 대체복무 교육운영관·교육센터 학사 및 복무 관리",
+    "applies_to": [
+      "대체복무 교육센터",
+      "교육운영관"
+    ],
+    "recommended_action": "추가 권고; 사용자 승인 후 수집·계약 검증",
+    "review_note": null
+  },
+  "admrul-74437": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 부부장검사 인사; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-74438": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 검사인사위원회 운영; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-75221": {
+    "scope_class": "DIRECT_CORRECTIONS",
+    "selection_basis": "지방교정청·교도소·구치소 조직 및 정원 운영·관리 기준",
+    "applies_to": [
+      "지방교정청",
+      "교도소",
+      "구치소"
+    ],
+    "recommended_action": "추가 권고; 사용자 승인 후 수집·계약 검증",
+    "review_note": null
+  },
+  "admrul-76965": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 측정능력·기기 교정 분야; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-76970": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 측정기기 교정(보정) 분야; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-76984": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 시험·측정 교정 기술요건; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-77216": {
+    "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+    "selection_basis": "법무부 및 소속기관 공무원의 직무 관련 주식 거래 준수사항",
+    "applies_to": [
+      "법무부 소속 공무원"
+    ],
+    "recommended_action": "추가 권고; 사용자 승인 후 수집·계약 검증",
+    "review_note": null
+  },
+  "admrul-77481": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 보호직 공무원 교육훈련; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-78303": {
+    "scope_class": "DIRECT_CORRECTIONS",
+    "selection_basis": "형집행법 제64조·시행규칙 제119조의2에 따른 교정직 전문강사 자격인정",
+    "applies_to": [
+      "교정직 공무원",
+      "교정교육 전문 강사"
+    ],
+    "recommended_action": "추가 권고; 사용자 승인 후 수집·계약 검증",
+    "review_note": null
+  },
+  "admrul-83074": {
+    "scope_class": "DIRECT_CORRECTIONS",
+    "selection_basis": "교정시설 감염병 대응 정책·제도 자문 지원단의 구성·운영 규정",
+    "applies_to": [
+      "교정시설",
+      "감염병관리지원단"
+    ],
+    "recommended_action": "추가 권고; 사용자 승인 후 수집·계약 검증",
+    "review_note": null
+  },
+  "admrul-84204": {
+    "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+    "selection_basis": "법무부 및 소속기관 공무원의 직무 관련 부동산 신규취득 제한",
+    "applies_to": [
+      "법무부 소속 공무원"
+    ],
+    "recommended_action": "추가 권고; 사용자 승인 후 수집·계약 검증",
+    "review_note": null
+  },
+  "admrul-84831": {
+    "scope_class": "DIRECT_CORRECTIONS",
+    "selection_basis": "교정본부·지방교정청·교도소·구치소 영어 명칭과 간판 규정",
+    "applies_to": [
+      "교정기관"
+    ],
+    "recommended_action": "추가 권고; 사용자 승인 후 수집·계약 검증",
+    "review_note": null
+  },
+  "admrul-86352": {
+    "scope_class": "DIRECT_CORRECTIONS",
+    "selection_basis": "교정정책자문위원회와 교정기관 자문위원회의 구성·운영 규정",
+    "applies_to": [
+      "교정본부",
+      "교정기관"
+    ],
+    "recommended_action": "추가 권고; 사용자 승인 후 수집·계약 검증",
+    "review_note": null
+  },
+  "admrul-86499": {
+    "scope_class": "DIRECT_CORRECTIONS",
+    "selection_basis": "교정 담당 특별사법경찰 직무 수행; 법무부 특별점검팀 소관",
+    "applies_to": [
+      "교정특별사법경찰"
+    ],
+    "recommended_action": "추가 권고; 사용자 승인 후 수집·계약 검증",
+    "review_note": null
+  },
+  "admrul-87003": {
+    "scope_class": "DIRECT_CORRECTIONS",
+    "selection_basis": "형집행법·교도관직무규칙에 따른 교정사고 대응·장비 훈련 규정",
+    "applies_to": [
+      "교도관"
+    ],
+    "recommended_action": "추가 권고; 사용자 승인 후 수집·계약 검증",
+    "review_note": null
+  },
+  "admrul-87505": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 국립법무병원 임기제 직원 임용; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-89409": {
+    "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+    "selection_basis": "법무부 및 소속기관 공무원·이해관계자의 직무 관련 가상자산 보유 제한",
+    "applies_to": [
+      "법무부 소속 공무원"
+    ],
+    "recommended_action": "추가 권고; 사용자 승인 후 수집·계약 검증",
+    "review_note": null
+  },
+  "admrul-91035": {
+    "scope_class": "DIRECT_CORRECTIONS",
+    "selection_basis": "교정본부 의장대·악대 편성 및 운영을 목적조문에서 규정",
+    "applies_to": [
+      "교정본부 의장대·악대"
+    ],
+    "recommended_action": "추가 권고; 사용자 승인 후 수집·계약 검증",
+    "review_note": null
+  },
+  "admrul-97044": {
+    "scope_class": "DIRECT_CORRECTIONS",
+    "selection_basis": "형집행법 제64조에 따른 마약류수용자·알코올 관련사범 중독재활 및 사회복귀 지원",
+    "applies_to": [
+      "마약류수용자",
+      "알코올 관련사범",
+      "교정시설 재활 담당자"
+    ],
+    "recommended_action": "추가 권고; 사용자 승인 후 수집·계약 검증",
+    "review_note": null
+  },
+  "admrul-97483": {
+    "scope_class": "DIRECT_CORRECTIONS",
+    "selection_basis": "교정기획과 소관 교정미래혁신단 설치·운영 규정",
+    "applies_to": [
+      "교정미래혁신단"
+    ],
+    "recommended_action": "추가 권고; 사용자 승인 후 수집·계약 검증",
+    "review_note": null
+  },
+  "admrul-97625": {
+    "scope_class": "REVIEW",
+    "selection_basis": "공식 현행 규정이나 교정 업무에 필요한 추적 범위의 추가 검토 필요; 제1조(목적) 이 규정은 법무부와 그 소속기관에서 근무하는 공무원이 아닌 근로자의 채용절차에 필요한 기준과 원칙을 마련함으로써 법무부와 그 소속기관의 채용절차의 공정성과 투명성을 ",
+    "applies_to": [],
+    "recommended_action": "보류; 교정기관 적용 범위와 담당 업무의 실질 관련성 확인"
+  },
+  "admrul-98096": {
+    "scope_class": "DIRECT_CORRECTIONS",
+    "selection_basis": "교정시설 조성 부지 공모 평가를 목적조문에서 규정",
+    "applies_to": [
+      "교정시설 조성 담당자"
+    ],
+    "recommended_action": "추가 권고; 사용자 승인 후 수집·계약 검증",
+    "review_note": null
+  },
+  "admrul-2036599": {
+    "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+    "selection_basis": "법무부 일반직 4급 이하 교육훈련시간 승진반영; 본문 교정직 훈련시간 기준 명시",
+    "applies_to": [
+      "교정직 공무원",
+      "법무부 일반직 공무원"
+    ],
+    "recommended_action": "추가 권고; 사용자 승인 후 수집·계약 검증",
+    "review_note": null
+  },
+  "admrul-2036612": {
+    "scope_class": "REVIEW",
+    "selection_basis": "공식 현행 규정이나 교정 업무에 필요한 추적 범위의 추가 검토 필요; 제1조(목적) 이 지침은 법무부 지식관리의 효율적 운영과 지식활동 활성화를 기하기 위해 추진조직, 업무절차, 활동기준 등 필요한 사항을 정하는데 그 목적이 있다.",
+    "applies_to": [],
+    "recommended_action": "보류; 교정기관 적용 범위와 담당 업무의 실질 관련성 확인"
+  },
+  "admrul-2036614": {
+    "scope_class": "REVIEW",
+    "selection_basis": "공식 현행 규정이나 교정 업무에 필요한 추적 범위의 추가 검토 필요; 제1조 (목적) 이 지침은 법무부 인터넷 홈페이지의 효율적인 관리와 운영에 필요한 사항을 규정함으로써 법무부 정책홍보를 강화하고 대국민 서비스의 질적 개선에 기여함을 목적으로 한다",
+    "applies_to": [],
+    "recommended_action": "보류; 교정기관 적용 범위와 담당 업무의 실질 관련성 확인"
+  },
+  "admrul-2037255": {
+    "scope_class": "REVIEW",
+    "selection_basis": "공식 현행 규정이나 교정 업무에 필요한 추적 범위의 추가 검토 필요; 제1조(목적) 이 지침은 「국가 정보보안 기본지침」에 따라 수행하여야 할 정보보안과 관련한 기본업무를 규정함을 목적으로 한다.",
+    "applies_to": [],
+    "recommended_action": "보류; 교정기관 적용 범위와 담당 업무의 실질 관련성 확인"
+  },
+  "admrul-26434": {
+    "scope_class": "REVIEW",
+    "selection_basis": "공식 현행 규정이나 교정 업무에 필요한 추적 범위의 추가 검토 필요; 제1조(목적) 이 지침은 「공공기관의 정보공개에 관한 법률」(이하 ‘법’이라 한다) 및 동법시행령(이하 ‘시행령’이라 한다)에 따라 우리 부의 행정정보 공개에 필요한 사항을 규정함",
+    "applies_to": [],
+    "recommended_action": "보류; 교정기관 적용 범위와 담당 업무의 실질 관련성 확인"
+  },
+  "admrul-26523": {
+    "scope_class": "REVIEW",
+    "selection_basis": "공식 현행 규정이나 교정 업무에 필요한 추적 범위의 추가 검토 필요; 공식 조문·첨부자료의 적용 대상 확인 필요",
+    "applies_to": [],
+    "recommended_action": "보류; 교정기관 적용 범위와 담당 업무의 실질 관련성 확인"
+  },
+  "admrul-26728": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 선도유예 소년 선도보호; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-27439": {
+    "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+    "selection_basis": "법무부 감사 대상 소속기관에 교정기관이 포함되는 자체감사 절차",
+    "applies_to": [
+      "교정기관 감사 담당자"
+    ],
+    "recommended_action": "추가 권고; 사용자 승인 후 수집·계약 검증",
+    "review_note": null
+  },
+  "admrul-31841": {
+    "scope_class": "REVIEW",
+    "selection_basis": "공식 현행 규정이나 교정 업무에 필요한 추적 범위의 추가 검토 필요; 제1조 (목적) 이 지침은 법무행정 및 국가인권정책에 관한 자문을 위하여 법무부 인권국에서 운영하는「법무부 인권정책자문단」(이하 \"자문단\"이라 한다)의 구성 및 운영 등에 필요한 ",
+    "applies_to": [],
+    "recommended_action": "보류; 교정기관 적용 범위와 담당 업무의 실질 관련성 확인"
+  },
+  "admrul-34505": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 치료감호자 처우; 교정시설 수용자와 별개; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-34510": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 소년사건 검사 결정 전 조사; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-35518": {
+    "scope_class": "REVIEW",
+    "selection_basis": "공식 현행 규정이나 교정 업무에 필요한 추적 범위의 추가 검토 필요; 제1조(목적) 이 규정은 『행정규제기본법 』제7조 및 제19조의 규정에 의한 법무부 자체 규제심사위원회의 구성 및 운영 등에 관하여 필요한 사항을 규정함을 목적으로 한다.",
+    "applies_to": [],
+    "recommended_action": "보류; 교정기관 적용 범위와 담당 업무의 실질 관련성 확인"
+  },
+  "admrul-35866": {
+    "scope_class": "REVIEW",
+    "selection_basis": "공식 현행 규정이나 교정 업무에 필요한 추적 범위의 추가 검토 필요; 제1조(목적) 이 규정은 「공공기록물 관리에 관한 법률」 제13조 및 같은 법 시행령 제10조의 규정에 따라 법무부와 그 소속기관(대검찰청 및 그 소속기관 제외)의 기록물관리와 기",
+    "applies_to": [],
+    "recommended_action": "보류; 교정기관 적용 범위와 담당 업무의 실질 관련성 확인"
+  },
+  "admrul-36177": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 보호외국인 출입국 보호; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-37228": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 국립법무병원 치료감호자 피복; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-37286": {
+    "scope_class": "REVIEW",
+    "selection_basis": "공식 현행 규정이나 교정 업무에 필요한 추적 범위의 추가 검토 필요; 제1조(목적) 이 규정은 성과관리를 통해 법무부와 그 소속기관의 조직 및 개인적 역량을 결집하여 소관업무를 효율적으로 추진하고, 이에 대한 정당한 평가와 보상체계를 구축함으로써 고",
+    "applies_to": [],
+    "recommended_action": "보류; 교정기관 적용 범위와 담당 업무의 실질 관련성 확인"
+  },
+  "admrul-37413": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 소년보호기관 보호소년 처우; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-37470": {
+    "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+    "selection_basis": "법무부 구금·보호시설 인권침해 조사 및 실태조사 세부 절차",
+    "applies_to": [
+      "교정시설",
+      "인권업무 담당자"
+    ],
+    "recommended_action": "추가 권고; 사용자 승인 후 수집·계약 검증",
+    "review_note": null
+  },
+  "admrul-37471": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 소년보호위원; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-37545": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 보호관찰 지명수배; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-37556": {
+    "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+    "selection_basis": "목적조문에 교도소 등 교육 담당 공무원·직업훈련교사 연구업무수당 명시",
+    "applies_to": [
+      "교도소 교육 담당 공무원",
+      "직업훈련교사"
+    ],
+    "recommended_action": "추가 권고; 사용자 승인 후 수집·계약 검증",
+    "review_note": null
+  },
+  "admrul-37699": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 소년보호기관 급식; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-37809": {
+    "scope_class": "REVIEW",
+    "selection_basis": "공식 현행 규정이나 교정 업무에 필요한 추적 범위의 추가 검토 필요; 제1조(목적) 이 규정은 「행정업무의 운영 및 혁신에 관한 규정」 제10조제2항의 규정에 의하여 법무부 문서결재에 관한 전결사항과 그 절차를 정하여 효율적인 업무수행을 기함을 목적",
+    "applies_to": [],
+    "recommended_action": "보류; 교정기관 적용 범위와 담당 업무의 실질 관련성 확인"
+  },
+  "admrul-38684": {
+    "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+    "selection_basis": "법무부·소속기관 성희롱·성폭력·스토킹 예방·처리 절차",
+    "applies_to": [
+      "교정기관 직원",
+      "고충 처리 담당자"
+    ],
+    "recommended_action": "추가 권고; 사용자 승인 후 수집·계약 검증",
+    "review_note": null
+  },
+  "admrul-39565": {
+    "scope_class": "REVIEW",
+    "selection_basis": "공식 현행 규정이나 교정 업무에 필요한 추적 범위의 추가 검토 필요; 제1조(목적) 이 지침은 「개인정보 보호법」(이하 \"법\"이라 한다) 제12조제2항에 따라 법무부 소관업무 개인정보처리자가 준수하여야 하는 개인정보의 처리기준, 개인정보 침해의 유형",
+    "applies_to": [],
+    "recommended_action": "보류; 교정기관 적용 범위와 담당 업무의 실질 관련성 확인"
+  },
+  "admrul-42353": {
+    "scope_class": "REVIEW",
+    "selection_basis": "공식 현행 규정이나 교정 업무에 필요한 추적 범위의 추가 검토 필요; 제1조(목적) 이 지침은 법무부와 그 소속기관 및 검찰청이 추진하는 인권보호 상황, 정책 및 제도 등을 점검·평가하기 위하여 실시하는 인권보호상황평가와 인권 우수기관에 대한 포상에",
+    "applies_to": [],
+    "recommended_action": "보류; 교정기관 적용 범위와 담당 업무의 실질 관련성 확인"
+  },
+  "admrul-43101": {
+    "scope_class": "REVIEW",
+    "selection_basis": "공식 현행 규정이나 교정 업무에 필요한 추적 범위의 추가 검토 필요; 제1조(목적) 이 훈령은 「공공기관의 갈등 예방과 해결에 관한 규정」(대통령령 제24429호)과 「공공기관의 갈등 예방과 해결에 관한 시행규칙」(총리령 제1014호)의 시행에 관하",
+    "applies_to": [],
+    "recommended_action": "보류; 교정기관 적용 범위와 담당 업무의 실질 관련성 확인"
+  },
+  "admrul-43832": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 소년원 감호업무; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-44754": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 소년원 영상정보처리기기; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-47847": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 단기 보호소년 처우; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-48643": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 보호소년 교육; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-48745": {
+    "scope_class": "REVIEW",
+    "selection_basis": "공식 현행 규정이나 교정 업무에 필요한 추적 범위의 추가 검토 필요; 제1조(목적) 이 훈령은 「재난 및 안전관리 기본법」 제15조의2 및 같은 법 시행령 제21조에 따른 중앙사고수습본부의 구성 및 운영 등에 필요한 사항을 규정함을 목적으로 한다.",
+    "applies_to": [],
+    "recommended_action": "보류; 교정기관 적용 범위와 담당 업무의 실질 관련성 확인"
+  },
+  "admrul-54232": {
+    "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+    "selection_basis": "법무부 청탁금지법 사무 처리 및 담당 책임 절차",
+    "applies_to": [
+      "법무부 소속 공무원",
+      "청탁방지 담당자"
+    ],
+    "recommended_action": "추가 권고; 사용자 승인 후 수집·계약 검증",
+    "review_note": null
+  },
+  "admrul-56291": {
+    "scope_class": "REVIEW",
+    "selection_basis": "공식 현행 규정이나 교정 업무에 필요한 추적 범위의 추가 검토 필요; 제1조(목적) 이 규정은 법무부가 행하는 업무 및 사업 중 청렴의무 준수와 관련하여 불합리한 제도ㆍ관행ㆍ업무절차 등을 발굴하고 그 개선ㆍ시정을 권고하는 법무부 청렴시민감사관(이하 ",
+    "applies_to": [],
+    "recommended_action": "보류; 교정기관 적용 범위와 담당 업무의 실질 관련성 확인"
+  },
+  "admrul-62325": {
+    "scope_class": "REVIEW",
+    "selection_basis": "공식 현행 규정이나 교정 업무에 필요한 추적 범위의 추가 검토 필요; 제1조(목적) 이 지침은 법무부 업무포털 시스템의 운영ㆍ관리에 필요한 기본적인 사항을 규정하여 시스템 운영의 효율성을 높이는 것을 목적으로 한다.",
+    "applies_to": [],
+    "recommended_action": "보류; 교정기관 적용 범위와 담당 업무의 실질 관련성 확인"
+  },
+  "admrul-64876": {
+    "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+    "selection_basis": "제2조 지방교정청장 운영 및 제3조 법무부 소속 공무원 복지 적용 명시",
+    "applies_to": [
+      "교정직 공무원",
+      "지방교정청장"
+    ],
+    "recommended_action": "추가 권고; 사용자 승인 후 수집·계약 검증",
+    "review_note": null
+  },
+  "admrul-65165": {
+    "scope_class": "REVIEW",
+    "selection_basis": "공식 현행 규정이나 교정 업무에 필요한 추적 범위의 추가 검토 필요; 제1조(목적) 이 규정은 「국어기본법」 제17조 및 같은 법 시행령 제12조에 따른 전문용어표준화협의회(이하 \"협의회\"라 한다)의 구성 및 운영에 필요한 사항을 정함을 목적으로 한",
+    "applies_to": [],
+    "recommended_action": "보류; 교정기관 적용 범위와 담당 업무의 실질 관련성 확인"
+  },
+  "admrul-68106": {
+    "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+    "selection_basis": "법무부 소속 직원 고충심사 절차; 본문 지방교정청·교도소·구치소 고충심사위원회 명시",
+    "applies_to": [
+      "교정기관 직원",
+      "고충심사 담당자"
+    ],
+    "recommended_action": "추가 권고; 사용자 승인 후 수집·계약 검증",
+    "review_note": null
+  },
+  "admrul-69022": {
+    "scope_class": "REVIEW",
+    "selection_basis": "공식 현행 규정이나 교정 업무에 필요한 추적 범위의 추가 검토 필요; 제1조(목적) 이 규정은 「국가공무원법」 제50조의2제2항 및 「적극행정 운영규정」(이하 \"영\"이라 한다)에 따라 법무부 적극행정위원회의 구성과 운영 등에 관하여 필요한 사항을 규",
+    "applies_to": [],
+    "recommended_action": "보류; 교정기관 적용 범위와 담당 업무의 실질 관련성 확인"
+  },
+  "admrul-69484": {
+    "scope_class": "REVIEW",
+    "selection_basis": "공식 현행 규정이나 교정 업무에 필요한 추적 범위의 추가 검토 필요; 제1조(목적) 이 훈령은 형사사건에 대한 공보와 관련하여 피의자, 참고인 등 사건관계인(이하 \"사건관계인\"이라 한다)의 인권을 보호하고 무죄추정의 원칙이 훼손되지 않도록 함과 동시",
+    "applies_to": [],
+    "recommended_action": "보류; 교정기관 적용 범위와 담당 업무의 실질 관련성 확인"
+  },
+  "admrul-74522": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 소년보호기관 위탁소년 처우; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-79961": {
+    "scope_class": "REVIEW",
+    "selection_basis": "공식 현행 규정이나 교정 업무에 필요한 추적 범위의 추가 검토 필요; 제1조(목적) 이 규칙은 법무부와 그 소속기관이 소관 업무와 조직에 관하여  「양성평등기본법」(이하 \"법\"이라 한다)에 따라 양성평등을 실현하는데 필요한 사항을 규정함을 목적으로 ",
+    "applies_to": [],
+    "recommended_action": "보류; 교정기관 적용 범위와 담당 업무의 실질 관련성 확인"
+  },
+  "admrul-83728": {
+    "scope_class": "NOT_CORRECTIONS",
+    "selection_basis": "공식 대상·목적 근거: 전자감독 특별사법경찰; 보호관찰 분야; 이번 교정직·교정기관 범위에는 포함 권고 안 함",
+    "applies_to": [],
+    "recommended_action": "포함 비권고; 검색 근거만 보존",
+    "review_note": null
+  },
+  "admrul-9008801": {
+    "scope_class": "REVIEW",
+    "selection_basis": "공식 현행 규정이나 교정 업무에 필요한 추적 범위의 추가 검토 필요; 공식 조문·첨부자료의 적용 대상 확인 필요",
+    "applies_to": [],
+    "recommended_action": "보류; 교정기관 적용 범위와 담당 업무의 실질 관련성 확인"
+  },
+  "admrul-97623": {
+    "scope_class": "REVIEW",
+    "selection_basis": "공식 현행 규정이나 교정 업무에 필요한 추적 범위의 추가 검토 필요; 제1조(목적) 이 규정은 「행정기관의 조직과 정원에 관한 통칙」(이하 \"통칙\"이라 한다) 제29조의3에 따른 자율기구 \"민자ㆍ개발사업추진단\"의 설치와 그 운영 등에 필요한 사항을 ",
+    "applies_to": [],
+    "recommended_action": "보류; 교정기관 적용 범위와 담당 업무의 실질 관련성 확인"
+  },
+  "admrul-32125": {
+    "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+    "selection_basis": "제1·2조 법무부·소속기관 시설공사 검사 절차; 민영교도소법 체계도 연결로 시설 발주 업무의 실질 관련성 확인",
+    "applies_to": [
+      "교정기관 시설공사 담당자"
+    ],
+    "recommended_action": "추가 권고; 사용자 승인 후 시설업무 범위로 수집·계약 검증",
+    "review_note": "체계도 연결 자체를 위임의 법적 확정으로 표현하지 않음; 공식 적용범위로 공통 업무 분류."
+  }
+}

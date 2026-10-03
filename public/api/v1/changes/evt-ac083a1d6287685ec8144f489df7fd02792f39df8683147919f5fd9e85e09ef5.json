@@ -1,0 +1,183 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "3fdf55bb4ce62f00fbf8958b59aeb78d14529ea6ffe33ed5df0f5f3c00881eb0",
+      "effective_date": "2024-01-03",
+      "identifier": "2100000234494",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000234494",
+      "snapshot_url": "/api/v1/rules/admrul-37588/versions/2100000234494-2024-01-03-766bf4e709f6f171.json",
+      "version_id": "2100000234494"
+    },
+    "appendix_changes": [
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=136545269",
+          "sequence": "0005",
+          "title": "검수일지",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=136545265"
+        },
+        "before_metadata": null,
+        "change_type": "APPENDIX_ADDED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=136545275",
+          "sequence": "0006",
+          "title": "위생관리 점검표",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=136545271"
+        },
+        "before_metadata": null,
+        "change_type": "APPENDIX_ADDED",
+        "status": "AVAILABLE"
+      }
+    ],
+    "before_version": {
+      "body_hash": "f5ac343c211e53802200b849841ca58b52f6266cd778dc94c627b4573321e325",
+      "effective_date": "2021-12-30",
+      "identifier": "2100000207804",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000207804",
+      "snapshot_url": "/api/v1/rules/admrul-37588/versions/2100000207804-2021-12-30-c4f6be983d2f0310.json",
+      "version_id": "2100000207804"
+    },
+    "canonical_id": "admrul-37588",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "RULE_RENAMED",
+      "APPENDIX_ADDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 11,
+    "changed_articles": [
+      {
+        "after_text": "제3조(양곡구입) 양곡은 각 교정기관 소재지 또는 인근 지방자치단체 등에서 구입하거나 또는「국가를 당사자로 하는 계약에 관한 법률」등 관련 규정에 따라 계약된 업체를 통해 구입할 수 있다.",
+        "article_key": "article-3",
+        "article_number": "3",
+        "article_title": "제3조(양곡구입)",
+        "before_text": "제3조(양곡구입) 양곡은 각 교정기관 소재지 또는 인근 지방자치단체 등에서 구입한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-01-03"
+      },
+      {
+        "after_text": "제5조(비상식량 인수) ① (현행과 같음)\n② 구입 대표기관은 지시공문에 따라 인계시기 등을 인수기관과 협의하고, 인수 시 제품의 제조일자 납품시기와 비교하여 일치되는지 여부와 소비기한을 확인한 후 인수하여야 한다.\n③ (현행과 같음)",
+        "article_key": "article-5",
+        "article_number": "5",
+        "article_title": "제5조(비상식량 인수)",
+        "before_text": "제5조(비상식량 인수) ① (생  략)\n② 구입 대표기관은 지시공문에 따라 인계시기 등을 인수기관과 협의하고, 인수 시 제품의 제조일자 납품시기와 비교하여 일치되는지 여부와 유효 기간을 확인한 후 인수하여야 한다.\n③ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-01-03"
+      },
+      {
+        "after_text": "제6조(보관관리) ① (현행과 같음)\n② 비상식량의 소비기한은 현품 제조일로부터 제조회사의 보증기간으로 한다.",
+        "article_key": "article-6",
+        "article_number": "6",
+        "article_title": "제6조(보관관리)",
+        "before_text": "제6조(보관관리) ① (생  략)\n② 비상식량의 유효기간은 현품 제조일로부터 제조회사의 보증기간으로 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-01-03"
+      },
+      {
+        "after_text": "제7조(부식조달 및 검수) ① ∼ ④ (현행과 같음)\n⑤ 검수관은 주ㆍ부식 등을 검수할 때에는 별지 제5호 서식에 따라 검수일지를 기록하여야 한다. 다만, 자체적으로 검수일지를 기록하는 경우에는 별지 제5호의 점검사항을 포함하여야 한다.",
+        "article_key": "article-7",
+        "article_number": "7",
+        "article_title": "제7조(부식조달 및 검수)",
+        "before_text": "제7조(부식조달 및 검수) ① ∼ ④ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-01-03"
+      },
+      {
+        "after_text": "제8조(부식 수불관리) ① 모든 부식물은 구입 납품 즉시 검수하고 소모품대장에 등재하여야 하며, 내어줄 때에는 물품의 수량을 확인하고 관계서류에 기재하는 등 관리를 철저하게 하여야 한다. 다만, 물품관리법에서 규정한 출납증명서류는 생략할 수 있다.\n② (현행과 같음)",
+        "article_key": "article-8",
+        "article_number": "8",
+        "article_title": "제8조(부식 수불관리)",
+        "before_text": "제8조(부식 수불관리) ① 모든 부식물은 구입 납품 즉시 검수하고 소모품대장에 등재하여야 하며, 내어줄 때에는 물품의 수량을 확인하고 관계 서류에 기재하는 등 관리를 철저하게 하여야 한다. 다만, 물품관리법에서 규정한 출납증명서류는 생략할 수 있다.\n② (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-01-03"
+      },
+      {
+        "after_text": "제9조(급식관리) ① ∼ ④ (현행과 같음)\n⑤ 급식담당자는 조리ㆍ식품위생ㆍ안전 등에 대한 교육을 주기적으로 실시하고, 주식ㆍ부식ㆍ연료의 보관창고에 현황판을 작성 비치하고 매일 수불사항에 따라 별지 제3호서식의 재고현황을 기록ㆍ유지하여야 한다.\n⑥ (현행과 같음)",
+        "article_key": "article-9",
+        "article_number": "9",
+        "article_title": "제9조(급식관리)",
+        "before_text": "제9조(급식관리) ① ∼ ④ (생  략)\n⑤ 급양 담당자는 조리ㆍ식품위생ㆍ안전 등에 대한 교육을 주기적으로 실시하고, 주식ㆍ부식ㆍ연료의 보관창고에 현황판을 작성 비치하고 매일 수불사항에 따라 별지 제3호서식의 재고현황을 기록ㆍ유지하여야 한다.\n⑥ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-01-03"
+      },
+      {
+        "after_text": "제10조(교도관 특식) ① (현행과 같음)\n② 특식 지급 대상은 지급 당일 주ㆍ야간 근무자 전원에 한한다.",
+        "article_key": "article-10",
+        "article_number": "10",
+        "article_title": "제10조(교도관 특식)",
+        "before_text": "제10조(교도관 특식) ① (생  략)\n② 특식 지급 대상은 지급 당일 주 ㆍ 야간 근무자 전원에 한한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-01-03"
+      },
+      {
+        "after_text": "제12조(교도관 급식) ① 급식 대상자는 자체 근무 명령서에 의하되 다음 각 호를 참작하여 급식 운영 관계과장에 통보한 후 실시한다.\n1.·2. (현행과 같음)\n3. 일근자 등의 한 끼 매식비는 야간 근무자 1일 1인당 급식비의 3분의 1에 해당하는 금액을 기준으로 하되, 식단 작성 시 교도관 회의 등에서 그 달의 매식비를 달리 결정하여 운영할 수 있다.\n② (현행과 같음)",
+        "article_key": "article-12",
+        "article_number": "12",
+        "article_title": "제12조(교도관 급식)",
+        "before_text": "제12조(교도관 급식) ① 급식 대상자는 자체 근무 명령서에 의하되 다음 각 호를 참작하여 급식 운영 관계 과장에 통보한 후 실시한다.\n1.·2. (생  략)\n3. 일근자 등의 한 끼 매식비는 야간 근무자 1일 1인당 소비액(주식비, 부식비, 연료비)의 3분의 1에 해당하는 금액을 기준으로 하되, 식단 작성 시 교도관 회의 등에서 그 달의 매식비를 달리 결정하여 운영할 수 있다.\n② (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-01-03"
+      },
+      {
+        "after_text": "제13조(대체복무요원 급식 및 특식) ① ∼ ④ (현행과 같음)\n⑤ 특식 지급일이 같은 날에 중복되는 경우에는 1회만 급식한다.\n⑥ 소장은 종교적인 신념 또는 채식주의 등 일반 급식이 곤란한 경우 기관의 여건 등을 고려하여 건강 및 체력 유지에 필요한 음식물을 지급할 수 있다.",
+        "article_key": "article-13",
+        "article_number": "13",
+        "article_title": "제13조(대체복무요원 급식 및 특식)",
+        "before_text": "제13조(대체복무요원 급식 및 특식) ① ∼ ④ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-01-03"
+      },
+      {
+        "after_text": "제16조(기타) 교도관ㆍ대체복무요원의 식단 작성 및 운영요령, 급식 결과 보고서 작성요령, 부식물 규격 등 그 밖의 급식관리에 필요한 사항은「수용자 급식관리지침」등을 참고한다.",
+        "article_key": "article-16",
+        "article_number": "16",
+        "article_title": "제16조(기타)",
+        "before_text": "제16조(기타) 교도관ㆍ대체복무요원의 식단 작성 및 운영요령, 급식 결과 보고서 작성요령, 부식물 규격 등 그 밖의 급양관리에 필요한 사항은 수용자 급양관리 지침 등을 참고한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-01-03"
+      },
+      {
+        "after_text": "제17조(재검토기한) 「훈령ㆍ예규 등의 발령 및 관리에 관한 규정」에 따라 이 예규에 대하여 2024년 1월 1일을 기준으로 매 3년이 되는 시점(매 3년째의 12월 31일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+        "article_key": "article-17",
+        "article_number": "17",
+        "article_title": "제17조(재검토기한)",
+        "before_text": "제17조(재검토기한) 「훈령ㆍ예규 등의 발령 및 관리에 관한 규정」에 따라 이 예규에 대하여 2022년 1월 1일을 기준으로 매 3년이 되는 시점(매 3년째의 12월 31일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-01-03"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "2c9e5c0d15e7e312286708aa5edc2c35dd2ceb07c40325a92b550dc7976b5ae1",
+      "credential_redacted": false,
+      "raw_sha256": "5eb76dd20fa1c849eac92f9b9385e36c80c4709739d83190d331578bb7c12db1",
+      "request": {
+        "ID": "2100000234494",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "5eb76dd20fa1c849eac92f9b9385e36c80c4709739d83190d331578bb7c12db1"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2024-01-03",
+    "event_id": "evt-ac083a1d6287685ec8144f489df7fd02792f39df8683147919f5fd9e85e09ef5",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000234494",
+    "promulgation_or_issue_date": "2024-01-03",
+    "regulation_name": "교도관·대체복무요원 급식관리지침",
+    "regulation_type": "예규"
+  },
+  "schema_version": "1.3"
+}

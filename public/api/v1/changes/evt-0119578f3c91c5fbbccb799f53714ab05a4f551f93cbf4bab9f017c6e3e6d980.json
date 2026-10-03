@@ -1,0 +1,43 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "570d252fac61f61df19821254a8d57722d59b27734b33ba738a204e720673da0",
+      "effective_date": "2015-11-25",
+      "identifier": "176755",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=176755",
+      "snapshot_url": "/api/v1/rules/law-010752/versions/176755-2015-11-25-3245844a2ca65ca0.json",
+      "version_id": "176755"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "caea5698a59f7d8b051bfdfd18040f96f41a4d58279f6939597476417772b6e4",
+      "effective_date": "2014-12-23",
+      "identifier": "165665",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=165665",
+      "snapshot_url": "/api/v1/rules/law-010752/versions/165665-2014-12-23-3546eeb3e070c15b.json",
+      "version_id": "165665"
+    },
+    "canonical_id": "law-010752",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED"
+    ],
+    "changed_article_count": 0,
+    "changed_articles": [],
+    "comparison_evidence": null,
+    "comparison_scope": "FULL_STRUCTURED_BODY",
+    "comparison_source": "STRUCTURED_SNAPSHOT_DIFF",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2015-11-25",
+    "event_id": "evt-0119578f3c91c5fbbccb799f53714ab05a4f551f93cbf4bab9f017c6e3e6d980",
+    "fallback_reason": "OFFICIAL_COMPARISON_PAIR_OR_TEXT_UNAVAILABLE",
+    "official_old_new_available": false,
+    "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=176755",
+    "promulgation_or_issue_date": "2015-11-25",
+    "regulation_name": "교정직공무원 임용시험의 체력검사에 관한 규칙",
+    "regulation_type": "법무부령"
+  },
+  "schema_version": "1.3"
+}

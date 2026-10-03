@@ -12,7 +12,7 @@ from pipeline.operations import heartbeat_due,now
 from pipeline.snapshot import write_json
 
 ROOT=Path(__file__).resolve().parents[1]
-EXACT={'data/registry/state.json','data/registry/rules.json','data/registry/events.json','data/seed/corrections.json','data/ops/deployment.json'}
+EXACT={'data/registry/state.json','data/registry/rules.json','data/registry/events.json','data/registry/change_history.json','data/seed/corrections.json','data/ops/deployment.json'}
 def allowed(path):
     if '\\' in path or any(part in ('.','..','') for part in path.split('/')): return False
     return path in EXACT or bool(re.fullmatch(r'public/api/v1/(?:[A-Za-z0-9_.-]+/)*[A-Za-z0-9_.-]+\.json',path)) or bool(re.fullmatch(r'data/snapshots/(law|admrul)-\d+/[A-Za-z0-9_.-]+\.json',path))

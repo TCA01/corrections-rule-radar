@@ -1,0 +1,91 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "98d7d1b9355230a569f19ecc40266bae26c3b937ec95a02c64a621d0a54d6708",
+      "effective_date": "2026-10-02",
+      "identifier": "290535",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290535",
+      "snapshot_url": "/api/v1/rules/law-005630/versions/290535-2026-10-02-a54fa9a8f4335975.json",
+      "version_id": "290535"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "22e854dde3949a0af49d5904ef952a9999c8568537acfb03752cf1ab18227387",
+      "effective_date": "2026-01-02",
+      "identifier": "281471",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=281471",
+      "snapshot_url": "/api/v1/rules/law-005630/versions/281471-2026-01-02-c2d0b19e8c199af9.json",
+      "version_id": "281471"
+    },
+    "canonical_id": "law-005630",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 4,
+    "changed_articles": [
+      {
+        "after_text": "제1조의2(협의체의 구성 및 운영 등) ① 「형의 집행 및 수용자의 처우에 관한 법률」(이하 “법”이라 한다) 제5조의3에 따른 협의체(이하 “협의체”라 한다)는 위원장을 포함하여 13명의 위원으로 구성한다.\n② 협의체의 위원장은 법무부차관이 되고, 협의체의 위원은 다음 각 호의 사람이 된다.\n1. 교육부, 법무부, 국방부, 행정안전부, 보건복지부, 고용노동부, 기획예산처, 중대범죄수사청, 경찰청 및 해양경찰청 소속 고위공무원단에 속하는 공무원(국방부의 경우에는 고위공무원단에 속하는 공무원 또는 이에 상당하는 장성급 장교를, 중대범죄수사청의 경우에는 2급 중대범죄수사청수사관을, 경찰청 및 해양경찰청의 경우에는 경무관 이상의 경찰공무원을 말한다) 중에서 해당 소속 기관의 장이 지명하는 사람 각 1명\n2. (현행과 같음)\n3. 공소청 소속 검사 또는 고위공무원단에 속하는 공무원 중에서 검찰총장이 지명하는 사람 1명\n③·④ (현행과 같음)",
+        "article_key": "article-1의2",
+        "article_number": "1의2",
+        "article_title": "제1조의2(협의체의 구성 및 운영 등)",
+        "before_text": "제1조의2(협의체의 구성 및 운영 등) ① 「형의 집행 및 수용자의 처우에 관한 법률」(이하 “법”이라 한다) 제5조의3에 따른 협의체(이하 “협의체”라 한다)는 위원장을 포함하여 12명의 위원으로 구성한다.\n② 협의체의 위원장은 법무부차관이 되고, 협의체의 위원은 다음 각 호의 사람이 된다.\n1. 교육부, 법무부, 국방부, 행정안전부, 보건복지부, 고용노동부, 기획예산처, 경찰청 및 해양경찰청 소속 고위공무원단에 속하는 공무원(국방부의 경우에는 고위공무원단에 속하는 공무원 또는 이에 상당하는 장성급 장교를, 경찰청 및 해양경찰청의 경우에는 경무관 이상의 경찰공무원을 말한다) 중에서 해당 소속 기관의 장이 지명하는 사람 각 1명\n2. (생  략)\n3. 대검찰청 소속 검사 또는 고위공무원단에 속하는 공무원 중에서 검찰총장이 지명하는 사람 1명\n③·④ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-10-02"
+      },
+      {
+        "after_text": "제13조(신입자의 인수) ① 소장은 법원ㆍ공소청(광역공소청, 지방공소청 및 지방공소청 지청을 포함한다. 이하 같다)ㆍ경찰관서 등으로부터 처음으로 교정시설에 수용되는 사람(이하 “신입자”라 한다)을 인수한 경우에는 호송인(護送人)에게 인수서를 써 주어야 한다. 이 경우 신입자에게 부상ㆍ질병, 그 밖에 건강에 이상(이하 이 조에서 “부상등”이라 한다)이 있을 때에는 호송인으로부터 그 사실에 대한 확인서를 받아야 한다.\n②·③ (현행과 같음)",
+        "article_key": "article-13",
+        "article_number": "13",
+        "article_title": "제13조(신입자의 인수)",
+        "before_text": "제13조(신입자의 인수) ① 소장은 법원ㆍ검찰청ㆍ경찰관서 등으로부터 처음으로 교정시설에 수용되는 사람(이하 “신입자”라 한다)을 인수한 경우에는 호송인(護送人)에게 인수서를 써 주어야 한다. 이 경우 신입자에게 부상ㆍ질병, 그 밖에 건강에 이상(이하 이 조에서 “부상등”이라 한다)이 있을 때에는 호송인으로부터 그 사실에 대한 확인서를 받아야 한다.\n②·③ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-10-02"
+      },
+      {
+        "after_text": "제107조(유치장 수용기간) 경찰서 등 수사기관의 유치장에는 수형자를 30일 이상 수용할 수 없다.",
+        "article_key": "article-107",
+        "article_number": "107",
+        "article_title": "제107조(유치장 수용기간)",
+        "before_text": "제107조(유치장 수용기간) 경찰관서에 설치된 유치장에는 수형자를 30일 이상 수용할 수 없다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-10-02"
+      },
+      {
+        "after_text": "제134조(징벌집행의 계속) 법 제108조제4호부터 제14호까지의 징벌 집행 중인 수용자가 다른 교정시설로 이송되거나 법원 또는 공소청 등에 출석하는 경우에는 징벌집행이 계속되는 것으로 본다.",
+        "article_key": "article-134",
+        "article_number": "134",
+        "article_title": "제134조(징벌집행의 계속)",
+        "before_text": "제134조(징벌집행의 계속) 법 제108조제4호부터 제14호까지의 징벌 집행 중인 수용자가 다른 교정시설로 이송되거나 법원 또는 검찰청 등에 출석하는 경우에는 징벌집행이 계속되는 것으로 본다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-10-02"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "e1ef13210be7e7694a181a3ce89a3beea3b07d0cb204691d12e25236f269184f",
+      "credential_redacted": false,
+      "raw_sha256": "ac14a117b5ffc92c2be92d1917bac6c9e42b4ca759589b52bee87a33339a118d",
+      "request": {
+        "MST": "290535",
+        "target": "oldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "ac14a117b5ffc92c2be92d1917bac6c9e42b4ca759589b52bee87a33339a118d"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2026-10-02",
+    "event_id": "evt-33969a4c0d9cae4e6306bab90cb98306d96c3d88414c0417fcd8d7bc6ad8f323",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290535",
+    "promulgation_or_issue_date": "2026-09-29",
+    "regulation_name": "형의 집행 및 수용자의 처우에 관한 법률 시행령",
+    "regulation_type": "대통령령"
+  },
+  "schema_version": "1.3"
+}

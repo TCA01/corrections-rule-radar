@@ -1,0 +1,846 @@
+{
+  "data\\reports\\phase1d_api_eligibility.json": {
+    "mtime_ns": 1791013836706269800,
+    "sha256": "c7403abd1180b093e47402dbb84d9a415dfd4108c939321cbf41c05e9c21c327"
+  },
+  "data\\reports\\phase1d_evidence\\contract_validation_gaps.json": {
+    "mtime_ns": 1791012766807160700,
+    "sha256": "e77a6d147e15bd72445fc0117175fbc2922294aaa2e4bafe75842cda9123831b"
+  },
+  "data\\reports\\phase1d_evidence\\integrity.json": {
+    "mtime_ns": 1791012622724230600,
+    "sha256": "22294dff75debd22e57a9a57cdf6855b25a06001b9b4242cba7daf7759b57cee"
+  },
+  "data\\reports\\phase1d_evidence\\lineage_details.json": {
+    "mtime_ns": 1791012622546255900,
+    "sha256": "3b6efa4bf0c5800634852636264093ec7d3c719c228fd3a4e55d166b8def161d"
+  },
+  "data\\reports\\phase1d_evidence\\lineage_searches.json": {
+    "mtime_ns": 1791012610385355800,
+    "sha256": "3d66e11f2012df1d8c6332d37fb549824d668b86857f24284dd4e78997a20628"
+  },
+  "data\\reports\\phase1d_evidence\\lineage_supplement.json": {
+    "mtime_ns": 1791012998384154300,
+    "sha256": "08de86196c236222ce673a8d59bc84ce31fa01048c6377220dd388fc6c460a0f"
+  },
+  "data\\reports\\phase1d_evidence\\production_before.json": {
+    "mtime_ns": 1791012105522864600,
+    "sha256": "7972e01432de0b39e12ef8bfc268e0a18e73563fe21a7a2cfb1c39fe4f8888da"
+  },
+  "data\\reports\\phase1d_evidence\\records.json": {
+    "mtime_ns": 1791012593659170700,
+    "sha256": "20563f1601ebbbead3565055af6d82de37cba6ac23c9cae3fc913788cbd517f3"
+  },
+  "public\\api\\v1\\changes\\latest.json": {
+    "mtime_ns": 1791000389435949000,
+    "sha256": "efdef121027b18d214477ff0ccd785265c24b80f5666d68407eea4dac4d4ee6d"
+  },
+  "public\\api\\v1\\changes\\upcoming.json": {
+    "mtime_ns": 1791000389438978600,
+    "sha256": "bbd0fbf4dca84389f1b7bedda3e5718e623d86dd252fccfdc2135798f6dbe713"
+  },
+  "public\\api\\v1\\health.json": {
+    "mtime_ns": 1791000389440947700,
+    "sha256": "ef5b8abe7179144af3a345b6e775fb519a134a4708eb947f0b74b906a08c07e3"
+  },
+  "public\\api\\v1\\manifest.json": {
+    "mtime_ns": 1791000389442948500,
+    "sha256": "04632a015f05d6c41e1c51558e8972c30df507f913b3f5aaec47a9523a999b29"
+  },
+  "public\\api\\v1\\rules.json": {
+    "mtime_ns": 1791000389433975000,
+    "sha256": "8caa83aa143e5761c7dcc4a106e7a6573ffa8cb1996f70136274a7ff3c3d277e"
+  },
+  "public\\api\\v1\\rules\\admrul-2046965.json": {
+    "mtime_ns": 1791000388235566900,
+    "sha256": "b83de26533621649c7374c55e52164d00d83d7fd63c7d5f607fa6051809fe998"
+  },
+  "public\\api\\v1\\rules\\admrul-2046965\\versions\\2100000094389-2017-09-01-a6dc91827b5c45b7.json": {
+    "mtime_ns": 1791000389224978300,
+    "sha256": "5d46266210350bc8f6f93027091963e19d6a1e7c3e9f29cccbc18628f9bec89e"
+  },
+  "public\\api\\v1\\rules\\admrul-2046965\\versions\\2100000255778-2025-03-01-39806dcee0852a46.json": {
+    "mtime_ns": 1791000388802327300,
+    "sha256": "1c7356d842b533f6d707c7fb08a1ff6645c5991aa07aa266ef9f0754398f56d6"
+  },
+  "public\\api\\v1\\rules\\admrul-26424.json": {
+    "mtime_ns": 1791000388238537700,
+    "sha256": "aca9c456f4dd2b3fa15a07e085a5c8700729b8217f04f9193ef3922c66a8d497"
+  },
+  "public\\api\\v1\\rules\\admrul-26424\\versions\\2000000008540-2009-08-21-2eb7180cafef3a51.json": {
+    "mtime_ns": 1791000389228978700,
+    "sha256": "06b5c926b170e5136983a77749b66d82e5e8984233c21b996a7ce530e02adb2c"
+  },
+  "public\\api\\v1\\rules\\admrul-26424\\versions\\2100000189927-2020-06-08-0d785179e2658569.json": {
+    "mtime_ns": 1791000388805327600,
+    "sha256": "8b8f46d518c1a88856a5f72308159d55e33672f495190d698cbd3be4f8d23ff9"
+  },
+  "public\\api\\v1\\rules\\admrul-26465.json": {
+    "mtime_ns": 1791000388243534100,
+    "sha256": "2df3b6424fd0fc83cfa9b98262b68d800fc9b0e71f23083200dcdb9a7f980e5d"
+  },
+  "public\\api\\v1\\rules\\admrul-26465\\versions\\2100000103736-2018-01-01-7aadce1099b43dc6.json": {
+    "mtime_ns": 1791000389231946900,
+    "sha256": "0759ce9376b0407a5c863b8289014a2de5d70e5dea1070e324c9d873c9c663f6"
+  },
+  "public\\api\\v1\\rules\\admrul-26465\\versions\\2100000230792-2024-01-01-426c5857ce23a2cf.json": {
+    "mtime_ns": 1791000388808046100,
+    "sha256": "7af079679b5244463ef64a4414524839eea47f05eaaa00722eca5a0b619254c6"
+  },
+  "public\\api\\v1\\rules\\admrul-26678.json": {
+    "mtime_ns": 1791000388246536600,
+    "sha256": "c34f7f963c598295632a401c13f4947f03e2b3a399198082722d7b7c20218d3e"
+  },
+  "public\\api\\v1\\rules\\admrul-26678\\versions\\2000000000735-2005-09-01-755426a999673567.json": {
+    "mtime_ns": 1791000388811045500,
+    "sha256": "a152a3baef45a36f9cebf395b74028851f9f2a47f3da3ac795d5a5e856337459"
+  },
+  "public\\api\\v1\\rules\\admrul-26917.json": {
+    "mtime_ns": 1791000388250536900,
+    "sha256": "810260f2cb8ab00e54294f34d20df07ff6c5c78294cdd5977d177a296371e3d4"
+  },
+  "public\\api\\v1\\rules\\admrul-26917\\versions\\2100000100740-2017-10-27-1c7e1a7431973cf4.json": {
+    "mtime_ns": 1791000389234947700,
+    "sha256": "2934cc9078a3490f32652a67e3d4502a614ce0b673a64fe417b1ebe1939af6b6"
+  },
+  "public\\api\\v1\\rules\\admrul-26917\\versions\\2100000230588-2023-10-19-8394738314b036e1.json": {
+    "mtime_ns": 1791000388814076700,
+    "sha256": "9b1d728c8c48654d7cf17b997a27f1fca8bc51ed3969dfba420a9c56d7a21c70"
+  },
+  "public\\api\\v1\\rules\\admrul-28315.json": {
+    "mtime_ns": 1791000388255892300,
+    "sha256": "d619b987082636b3746170af015544b7b12459bf9f261087502544e9b5ade43d"
+  },
+  "public\\api\\v1\\rules\\admrul-28315\\versions\\2100000038844-2016-02-01-551a1176dd06fa93.json": {
+    "mtime_ns": 1791000388820045200,
+    "sha256": "e517416a0ec48d6365a3813eb27febe032082a636fe42df205c3fee83e775583"
+  },
+  "public\\api\\v1\\rules\\admrul-28558.json": {
+    "mtime_ns": 1791000388259928200,
+    "sha256": "510c868ff34bb77f59746f44958c549387377b42c7dda720dec47fce53ea2778"
+  },
+  "public\\api\\v1\\rules\\admrul-28558\\versions\\2100000178255-2019-05-02-cafadbaaeff3d876.json": {
+    "mtime_ns": 1791000389237946900,
+    "sha256": "9c3194d9451be148cb6f41f99ab25ec58b5d59a90ea802fa5f6bed4784b2d0c9"
+  },
+  "public\\api\\v1\\rules\\admrul-28558\\versions\\2100000252596-2025-01-02-a8d4988a72062d38.json": {
+    "mtime_ns": 1791000388823046400,
+    "sha256": "6786f1d36fc2f99242c2c6396c52d40a0947d40042cd5c526810d127681e3384"
+  },
+  "public\\api\\v1\\rules\\admrul-28644.json": {
+    "mtime_ns": 1791000388264928500,
+    "sha256": "a86a8362f4418d81875d2dcaa3fee5be945fdcce3fdd8b357ad6ec1e2030a4b1"
+  },
+  "public\\api\\v1\\rules\\admrul-28644\\versions\\2100000179928-2019-07-01-920cb464330b3013.json": {
+    "mtime_ns": 1791000389241946700,
+    "sha256": "6bc195a8a2df2da3c67bacf894a8d81fe5deb88abd7750782f3bfbf2a6d45bce"
+  },
+  "public\\api\\v1\\rules\\admrul-28644\\versions\\2100000260276-2025-07-01-a7b4b20f2cb3755e.json": {
+    "mtime_ns": 1791000388827046500,
+    "sha256": "ba4a6c3e746d18185cc38b653e01690bb49340eeb872a44dccbde178d317e8e6"
+  },
+  "public\\api\\v1\\rules\\admrul-28645.json": {
+    "mtime_ns": 1791000388271923300,
+    "sha256": "6c3295c5a67603ec6b27b3c24c81649733c5fa99a6f1bc94b794b1a8d21b8c77"
+  },
+  "public\\api\\v1\\rules\\admrul-28645\\versions\\2100000108061-2017-12-29-83c5f73e2ac45c94.json": {
+    "mtime_ns": 1791000389244978500,
+    "sha256": "dbf575b85da6e130656c2ceea5acd5cc9c1e2a5a27aa6450ffe1680b51ed8d58"
+  },
+  "public\\api\\v1\\rules\\admrul-28645\\versions\\2100000233322-2023-12-31-0e1439167e019075.json": {
+    "mtime_ns": 1791000388830941700,
+    "sha256": "3be5c4fa9ffb53f59be1714078ad3d0a2c463192d6f7a34343d8ccbcba93de62"
+  },
+  "public\\api\\v1\\rules\\admrul-28712.json": {
+    "mtime_ns": 1791000388276928200,
+    "sha256": "bd7e17afb3e6f4c00f1aed37208fb9a773dc428d6e05470744e2402212087859"
+  },
+  "public\\api\\v1\\rules\\admrul-28712\\versions\\2100000093893-2017-08-17-71ed5053e2ebe012.json": {
+    "mtime_ns": 1791000389247947800,
+    "sha256": "9704c150a7d0c59899c76cd63a7d71babebab24c09cf988787dcb3259c47fdbe"
+  },
+  "public\\api\\v1\\rules\\admrul-28712\\versions\\2100000250524-2025-01-02-41d8ec98332fdc17.json": {
+    "mtime_ns": 1791000388834947200,
+    "sha256": "6e877a5502b1d095188e00079b71d2c83cefd43653ff6a114a29dfd74ba361d6"
+  },
+  "public\\api\\v1\\rules\\admrul-28718.json": {
+    "mtime_ns": 1791000388282900600,
+    "sha256": "aace66645c2269526c5b14ad3a0986f753bf5bff10571bb42e0383710cc2ecb7"
+  },
+  "public\\api\\v1\\rules\\admrul-28718\\versions\\2100000072011-2017-01-02-8b8e703562220216.json": {
+    "mtime_ns": 1791000389252949500,
+    "sha256": "cef9be27bea27937b3e71a04eaa464cffc48b7006a7727ae883042ec97e073c2"
+  },
+  "public\\api\\v1\\rules\\admrul-28718\\versions\\2100000252600-2025-01-02-a76c8f1d337eeef0.json": {
+    "mtime_ns": 1791000388838948500,
+    "sha256": "b958bf500d987a12879bf89cbc71e89cdae2362625c6f3ffa83f3fb39d248e59"
+  },
+  "public\\api\\v1\\rules\\admrul-28763.json": {
+    "mtime_ns": 1791000388286925200,
+    "sha256": "399b096ee5007066d13295c17e26c2440532f6afae33bedbf38f6452d5d04e1d"
+  },
+  "public\\api\\v1\\rules\\admrul-28763\\versions\\2100000107161-2017-12-22-da14ae8d08170eff.json": {
+    "mtime_ns": 1791000389254978400,
+    "sha256": "a054c2bc397bd0e21d8c23491b0a4bd13da3a969d56cdcd169c2a4b1dc8d5bb2"
+  },
+  "public\\api\\v1\\rules\\admrul-28763\\versions\\2100000210483-2022-04-01-0e17bbf8697aee04.json": {
+    "mtime_ns": 1791000388842947900,
+    "sha256": "ab762c5a10b3f301d5bb31e1649766ab126f3b0c89bee4219bd537bd4bd0e614"
+  },
+  "public\\api\\v1\\rules\\admrul-32482.json": {
+    "mtime_ns": 1791000388289928000,
+    "sha256": "621d35ed65fffa0326c5c7ef0bf5089ced28738dbfbffa05fd65e40e66ec306a"
+  },
+  "public\\api\\v1\\rules\\admrul-32482\\versions\\2100000093894-2017-08-17-3de2ae35bfa2af29.json": {
+    "mtime_ns": 1791000388845949200,
+    "sha256": "49c8b3be3a0e26fde9ec375ff8d1324df65b8aecff065b3681e9bfbbd2ce961e"
+  },
+  "public\\api\\v1\\rules\\admrul-32484.json": {
+    "mtime_ns": 1791000388292928600,
+    "sha256": "9f3bbbd3a4b32fb0ce901737823ee2d03da6abbc2e18487dfe7a5856c0957e96"
+  },
+  "public\\api\\v1\\rules\\admrul-32484\\versions\\2000000025796-2013-10-15-20b8c11f37cb9ff5.json": {
+    "mtime_ns": 1791000388849954100,
+    "sha256": "b263382f7717e1e08c7730696a02887e16dcae96c9bdcaa815c916680e5ffa2a"
+  },
+  "public\\api\\v1\\rules\\admrul-32485.json": {
+    "mtime_ns": 1791000388296922900,
+    "sha256": "de35f202588fd928d1a0dcc236acbfec250943560a53c38fbdaa478eb5198ac8"
+  },
+  "public\\api\\v1\\rules\\admrul-32485\\versions\\2100000084189-2017-04-22-8fcb0468e068cc15.json": {
+    "mtime_ns": 1791000389257991300,
+    "sha256": "5fc0de220ae3c78a79bfe3418a37efc55bfdc5baefcbdb15ae1ab9f6d4396524"
+  },
+  "public\\api\\v1\\rules\\admrul-32485\\versions\\2100000254466-2025-02-12-02f7784b842f98af.json": {
+    "mtime_ns": 1791000388852979700,
+    "sha256": "ba4ac70d377bb597e216b88abb464cc5f798ad27dca2af9c387a62d07e825bfc"
+  },
+  "public\\api\\v1\\rules\\admrul-32486.json": {
+    "mtime_ns": 1791000388301896100,
+    "sha256": "ddd9724d6859d1b6f4db056892224aeee72479c940caf82be6540e301a80973d"
+  },
+  "public\\api\\v1\\rules\\admrul-32486\\versions\\2100000034763-2015-12-14-1c030bad0d86cd42.json": {
+    "mtime_ns": 1791000389259947200,
+    "sha256": "2e372055acaba2aab19b4b76b44d7a8258e1d25a51d21685701e108ed7d1b02d"
+  },
+  "public\\api\\v1\\rules\\admrul-32486\\versions\\2100000249032-2024-11-04-3a5dec5ad91b4db5.json": {
+    "mtime_ns": 1791000388856949500,
+    "sha256": "11705f181aacb4bbfbad04e4bac38894db819c05c16b876d371b4bfcc6eb6dd2"
+  },
+  "public\\api\\v1\\rules\\admrul-32495.json": {
+    "mtime_ns": 1791000388306895200,
+    "sha256": "4f14202d66541c534d56feae6877be005bc28a5fd2b29b2c381ca5a9d129b431"
+  },
+  "public\\api\\v1\\rules\\admrul-32495\\versions\\2100000112016-2018-01-26-9c3acfe1654fd998.json": {
+    "mtime_ns": 1791000389262947100,
+    "sha256": "a77c2b0ceba4145a00dce0da7766957558916f35fab4ba6bd96e848bf86e9098"
+  },
+  "public\\api\\v1\\rules\\admrul-32495\\versions\\2100000198614-2021-03-02-a8df34e032582d50.json": {
+    "mtime_ns": 1791000388859948100,
+    "sha256": "2d3921b4c0d86b118c841a70c4e7ac022b1f72e229f54aa061f0842e5958e6b7"
+  },
+  "public\\api\\v1\\rules\\admrul-34791.json": {
+    "mtime_ns": 1791000388315899800,
+    "sha256": "69da9e3414dab5cb5080cae631e492b2c9caabbba466ef7d2d44a152fe44afc3"
+  },
+  "public\\api\\v1\\rules\\admrul-34791\\versions\\2100000084331-2017-04-22-42445b52187c2d68.json": {
+    "mtime_ns": 1791000389266946800,
+    "sha256": "85885f3ceb5154a31507d45902b965e28faaad32bc31fe34efa9849e6196973b"
+  },
+  "public\\api\\v1\\rules\\admrul-34791\\versions\\2100000254464-2025-02-12-b2ece713de1a5f68.json": {
+    "mtime_ns": 1791000388864974400,
+    "sha256": "b42c9853c05ada51b170a4218df52ddc9ec48b3494b1e43c2beb7f06317433e2"
+  },
+  "public\\api\\v1\\rules\\admrul-35334.json": {
+    "mtime_ns": 1791000388330927700,
+    "sha256": "5b76f36e9fe01bbfa2e62933ebc4eb0edeb0804b16fc7c3aeb81b625f4be25fe"
+  },
+  "public\\api\\v1\\rules\\admrul-35334\\versions\\2100000177619-2019-04-15-e7401c20d3ea4c2b.json": {
+    "mtime_ns": 1791000389271945300,
+    "sha256": "630e339ecc1dd9f52821a6cdbce95fe977a37e3d8c8f2626547e658c34da10ec"
+  },
+  "public\\api\\v1\\rules\\admrul-35334\\versions\\2100000276392-2026-03-30-fcbbc4780e67dc74.json": {
+    "mtime_ns": 1791000388872947300,
+    "sha256": "38eb3c8176b35c1abcb35b4f8c8332637f284c5301ce119b8204a9c20bee7cfd"
+  },
+  "public\\api\\v1\\rules\\admrul-36282.json": {
+    "mtime_ns": 1791000388356928600,
+    "sha256": "b31a443f91681b2c98918fee723a9aa11f7ec875b26ca366b82a3ada457d2340"
+  },
+  "public\\api\\v1\\rules\\admrul-36282\\versions\\2100000218879-2023-02-06-f80f5bb4112f5d8b.json": {
+    "mtime_ns": 1791000389284946500,
+    "sha256": "58d2f834b4705f3959cad397f43eb8dbb903ab8c5be7ac845d67a8028e1da6f7"
+  },
+  "public\\api\\v1\\rules\\admrul-36282\\versions\\2100000285400-2026-10-01-4718889da3400aa9.json": {
+    "mtime_ns": 1791000388885947700,
+    "sha256": "16c13fa8a019184a52dd1bdd82da965aea792d7fa92f983895d3049994d7ee55"
+  },
+  "public\\api\\v1\\rules\\admrul-36283.json": {
+    "mtime_ns": 1791000388382902300,
+    "sha256": "80259ee67f43d48a38ff2797663b58c1cc623dae9cdae638c41985d05b479ad1"
+  },
+  "public\\api\\v1\\rules\\admrul-36283\\versions\\2100000181864-2019-09-02-04099b838fdf98fe.json": {
+    "mtime_ns": 1791000389294946800,
+    "sha256": "4c479b0f134e7312515fbe7c14fac2736bf1edd550811587b27df07bdc03aff8"
+  },
+  "public\\api\\v1\\rules\\admrul-36283\\versions\\2100000285404-2026-10-01-446b31d0db0bb6c3.json": {
+    "mtime_ns": 1791000388898949200,
+    "sha256": "14d58c820a1fa77537f126ec378bf426d56b8b44e820cba119712546accd67eb"
+  },
+  "public\\api\\v1\\rules\\admrul-37037.json": {
+    "mtime_ns": 1791000388397923600,
+    "sha256": "9ec67431b6c0f4ba104bda0deb086d4c7a8f80e29f8b601b2707165e58ba0fb6"
+  },
+  "public\\api\\v1\\rules\\admrul-37037\\versions\\2100000177953-2019-04-24-79c643743ff832a4.json": {
+    "mtime_ns": 1791000389299949800,
+    "sha256": "15a5a9d7a90e1fca8d3eb262f30d67ff8f0224e29b38c2d780e9ba990fa83f42"
+  },
+  "public\\api\\v1\\rules\\admrul-37037\\versions\\2100000251988-2024-12-31-5d90afa9c647134f.json": {
+    "mtime_ns": 1791000388906947500,
+    "sha256": "71521d2c08d1febc95f141b904f4ae44a6ec8b7848a329ea4c350e4483f5eeea"
+  },
+  "public\\api\\v1\\rules\\admrul-37383.json": {
+    "mtime_ns": 1791000388405897200,
+    "sha256": "d652dafba6b28d726566b08d659b89708a2afe10737db732a16ac33bb5507184"
+  },
+  "public\\api\\v1\\rules\\admrul-37383\\versions\\2100000175825-2019-02-01-14eabd97505d8525.json": {
+    "mtime_ns": 1791000389304946500,
+    "sha256": "595f4eff4884841d9d6d8ff99e0314ea40c321a40ac33e250deb5f98ff809a16"
+  },
+  "public\\api\\v1\\rules\\admrul-37383\\versions\\2100000243144-2024-07-01-264948754af4e570.json": {
+    "mtime_ns": 1791000388911947800,
+    "sha256": "4d2c77411e13c873fa40fd2ad2a473e2db823a6dfb38266d085e8e7daa2785cf"
+  },
+  "public\\api\\v1\\rules\\admrul-37401.json": {
+    "mtime_ns": 1791000388410897000,
+    "sha256": "9d51ce60037d880ff8fca37e7ef55e0743827694dbf57faadcc100f513911c03"
+  },
+  "public\\api\\v1\\rules\\admrul-37401\\versions\\2100000034760-2016-01-01-9ec75ec6e338b9d0.json": {
+    "mtime_ns": 1791000389307946700,
+    "sha256": "3e06047b4fd1c5945095b4ce25e35af496c3ce361669d6b35aed5a421ce22fc0"
+  },
+  "public\\api\\v1\\rules\\admrul-37401\\versions\\2100000276340-2026-03-30-7bbbcf100eb4f283.json": {
+    "mtime_ns": 1791000388916949000,
+    "sha256": "c185a38185e13e43c92fb7930b6e29910cb368784aa71237f082e21ea6aaa00f"
+  },
+  "public\\api\\v1\\rules\\admrul-37575.json": {
+    "mtime_ns": 1791000388413897100,
+    "sha256": "7069bd31785e54fa286cc87097790c6dcdd1d0086f0e86b148a278858306bae3"
+  },
+  "public\\api\\v1\\rules\\admrul-37575\\versions\\2000000024378-2013-06-21-7fbccd59bdae25c8.json": {
+    "mtime_ns": 1791000388920946000,
+    "sha256": "af679d252d3ca88df8e0fc670b4e69bf0c345009f0978a76fbffe5edae87c660"
+  },
+  "public\\api\\v1\\rules\\admrul-37576.json": {
+    "mtime_ns": 1791000388418897800,
+    "sha256": "39a16036d5254b31dedca4b2b5663a384a630db4dfd1f8d8bef7a6baa1d2cfbe"
+  },
+  "public\\api\\v1\\rules\\admrul-37576\\versions\\2100000071879-2017-01-01-5fc1c31b06fb98da.json": {
+    "mtime_ns": 1791000388923946200,
+    "sha256": "f499c2b52191153831c7630496b05e1cb235bf411e1e38a55a9181105023d309"
+  },
+  "public\\api\\v1\\rules\\admrul-37579.json": {
+    "mtime_ns": 1791000388421928600,
+    "sha256": "9b3b5f4447d0039b72fbf395ac67fd895ad103a14d3072cf1380c289ce095f0d"
+  },
+  "public\\api\\v1\\rules\\admrul-37579\\versions\\2100000181661-2019-08-27-76c7e446b3e2bbe9.json": {
+    "mtime_ns": 1791000388926946500,
+    "sha256": "ae44ec78851c9bea8261f05c6d19b9d8164b67890ae0cf7f25b1d1886db27be5"
+  },
+  "public\\api\\v1\\rules\\admrul-37580.json": {
+    "mtime_ns": 1791000388424928300,
+    "sha256": "55136debf6f6c219b38e25d3a96c5abd1e47b5de0945c79c0535e6c14999091e"
+  },
+  "public\\api\\v1\\rules\\admrul-37580\\versions\\2100000180063-2019-07-01-ad4f21fe2a3f50f3.json": {
+    "mtime_ns": 1791000388929946400,
+    "sha256": "b5b48aedf97361033cf41a65599b13fcc4ad85f56114d710d5e044ddc4daa38d"
+  },
+  "public\\api\\v1\\rules\\admrul-37581.json": {
+    "mtime_ns": 1791000388427898000,
+    "sha256": "cbb9c84d91e5e0c81b616ec6d283ca090b8939028c3628672f1bba3123073634"
+  },
+  "public\\api\\v1\\rules\\admrul-37581\\versions\\2100000178657-2019-05-21-5ef62561a28b3e01.json": {
+    "mtime_ns": 1791000388932951000,
+    "sha256": "31d706c3c8d1ffa57391cdda6092b99d237a1b1710825dfeb3396bef7268ebe7"
+  },
+  "public\\api\\v1\\rules\\admrul-37583.json": {
+    "mtime_ns": 1791000388441546100,
+    "sha256": "2dd70add371afd08068c593fbaf471cf7cbf2db63f35893cd780009e1e0fb195"
+  },
+  "public\\api\\v1\\rules\\admrul-37583\\versions\\2100000178538-2019-05-15-151bd71a7c6d7482.json": {
+    "mtime_ns": 1791000389313948000,
+    "sha256": "be67f43ba1d336a2fb50226fb6d177904d0fdf97f7810e70532cd22c7e997207"
+  },
+  "public\\api\\v1\\rules\\admrul-37583\\versions\\2100000260706-2025-06-30-2e8a42770396e721.json": {
+    "mtime_ns": 1791000388939946100,
+    "sha256": "34732720d6b1798ff0e3a9a5e1a332ea09edfca908399563e9fbfdcc13f5506b"
+  },
+  "public\\api\\v1\\rules\\admrul-37584.json": {
+    "mtime_ns": 1791000388457513700,
+    "sha256": "43e47fcd97674eaa910ba48cd665902204878ac4770decdabbf440c665115662"
+  },
+  "public\\api\\v1\\rules\\admrul-37584\\versions\\2100000175556-2019-01-21-d3d71b425450d89e.json": {
+    "mtime_ns": 1791000389320974000,
+    "sha256": "5c2767c53319c7d6852b123673d96bde71adfba1510c3ddc05423f1faac57fed"
+  },
+  "public\\api\\v1\\rules\\admrul-37584\\versions\\2100000285778-2026-10-02-baa1be95e79d6240.json": {
+    "mtime_ns": 1791000388947949000,
+    "sha256": "3795936a24f6542f78d76661eed46124f15578ffdc845895bfe660d53ce60add"
+  },
+  "public\\api\\v1\\rules\\admrul-37585.json": {
+    "mtime_ns": 1791000388464514600,
+    "sha256": "b944e1c5078476b0304a7bb8acabc8f071c56e380b2ccd9719ef7817fcf04c45"
+  },
+  "public\\api\\v1\\rules\\admrul-37585\\versions\\2100000175363-2019-01-14-62c34c00cbf8a9b8.json": {
+    "mtime_ns": 1791000389325946700,
+    "sha256": "346ff4032918188346861f4663c40dd6fbd33b37690226caa776a175a141f304"
+  },
+  "public\\api\\v1\\rules\\admrul-37585\\versions\\2100000220730-2023-03-14-c31fcdff80d5c2a3.json": {
+    "mtime_ns": 1791000388953946100,
+    "sha256": "57723a288342162b0b4fe699f6a28d7a9e2fd0355877809e51530bf1f4a0176d"
+  },
+  "public\\api\\v1\\rules\\admrul-37586.json": {
+    "mtime_ns": 1791000388479548200,
+    "sha256": "15827ba372a349fd61fd96aea9c1bc386cdb7e8774c6ebfefe452b4a1a72a335"
+  },
+  "public\\api\\v1\\rules\\admrul-37586\\versions\\2100000177955-2019-04-25-52b11c8545b101e1.json": {
+    "mtime_ns": 1791000389330977900,
+    "sha256": "8afdef0e5b80ee87ee058d3438278eaeeab50a31ccfc9c78da0126b0edec76cf"
+  },
+  "public\\api\\v1\\rules\\admrul-37586\\versions\\2100000255630-2025-03-12-c217b8aa09fb3fba.json": {
+    "mtime_ns": 1791000388960945700,
+    "sha256": "7f4445e5a55664cec4d41f01fc8305b7fe888bae2522fdf96d0eacecd8e49b78"
+  },
+  "public\\api\\v1\\rules\\admrul-37587.json": {
+    "mtime_ns": 1791000388486515000,
+    "sha256": "e85e95c317ab7e43515ae07d9f147d15063b55cd8c7e9e890b0a7c7b56b6aa26"
+  },
+  "public\\api\\v1\\rules\\admrul-37587\\versions\\2100000094180-2017-07-03-a0ca52741034a796.json": {
+    "mtime_ns": 1791000389335946300,
+    "sha256": "2dce65a7e28ba0eee0a8642c3fa505810dabc4e80026499ec5eaed99cd1eab12"
+  },
+  "public\\api\\v1\\rules\\admrul-37587\\versions\\2100000232102-2023-12-01-4e9dee79240d1845.json": {
+    "mtime_ns": 1791000388964945600,
+    "sha256": "1d09c9ea00d8d759c1a9b26333897a14bb19ff18e455e6e704352b58e7053e00"
+  },
+  "public\\api\\v1\\rules\\admrul-37588.json": {
+    "mtime_ns": 1791000388492547200,
+    "sha256": "ae079a4736b5dd7aebdb668ead9c835d5fd051c4a98967fc0e32df2cba0f7802"
+  },
+  "public\\api\\v1\\rules\\admrul-37588\\versions\\2100000174657-2018-12-26-d90f6f07a696041e.json": {
+    "mtime_ns": 1791000389338946500,
+    "sha256": "843296f9868798e944beaf4bbf640abda3126b3ce7958b996edad4322d779c67"
+  },
+  "public\\api\\v1\\rules\\admrul-37588\\versions\\2100000234494-2024-01-03-766bf4e709f6f171.json": {
+    "mtime_ns": 1791000388970946400,
+    "sha256": "36144295586feb1cfe20ebc0d729e8041bf64049c7b46b7aec4f6a808f21b6e1"
+  },
+  "public\\api\\v1\\rules\\admrul-37589.json": {
+    "mtime_ns": 1791000388501514600,
+    "sha256": "27bc2ebf0f6138bf5361620bb4f44e20e57b5b999de6439b65f0659395bc5e13"
+  },
+  "public\\api\\v1\\rules\\admrul-37589\\versions\\2100000174658-2018-12-26-bfe494dbb9341ab8.json": {
+    "mtime_ns": 1791000389343946700,
+    "sha256": "23fe6fca839af64846be71f4139c900116aac69cb52124da0fb08d40beb6b16d"
+  },
+  "public\\api\\v1\\rules\\admrul-37589\\versions\\2100000234496-2024-01-03-ddd7fcc7d71ca135.json": {
+    "mtime_ns": 1791000388974945500,
+    "sha256": "9cea8b457e3e7277135f0272e71f74e68d355dadb29ae5e3ca9ffdef088f4ab8"
+  },
+  "public\\api\\v1\\rules\\admrul-37590.json": {
+    "mtime_ns": 1791000388516516700,
+    "sha256": "dc16b7280ad8249e46bfb5a290aeb2a82f883b47d16e783fbb507ebba4c30516"
+  },
+  "public\\api\\v1\\rules\\admrul-37590\\versions\\2100000097312-2017-09-18-4253256553c5372f.json": {
+    "mtime_ns": 1791000389350975300,
+    "sha256": "95becc3a1185eda2b6ad021883bddc9443f9d549d6c197a7da1f2ed905653836"
+  },
+  "public\\api\\v1\\rules\\admrul-37590\\versions\\2100000252598-2025-01-02-179d928118ad60b4.json": {
+    "mtime_ns": 1791000388984948100,
+    "sha256": "d7609ebe54be8b74df67e8cf5acc31ea8f3e04e49aef37095f818810940fb052"
+  },
+  "public\\api\\v1\\rules\\admrul-37730.json": {
+    "mtime_ns": 1791000388521546200,
+    "sha256": "68bf5112971bd35517b6ad24560f1d0627baba993b0aa724a0a0bc637eda35b5"
+  },
+  "public\\api\\v1\\rules\\admrul-37730\\versions\\2100000083050-2017-04-14-2544d77a6e0cd223.json": {
+    "mtime_ns": 1791000389354947300,
+    "sha256": "7e51f78ed2cae33cb53a46cc8d21fa1a35df6dbd2e5bf38953a6c9a0c1a4d6fe"
+  },
+  "public\\api\\v1\\rules\\admrul-37730\\versions\\2100000277210-2026-04-10-14399cc1279bb012.json": {
+    "mtime_ns": 1791000388988947000,
+    "sha256": "8370d9407a768c31e73270a6383aad04e80f63b2c70aa34a91d72610ed1c810b"
+  },
+  "public\\api\\v1\\rules\\admrul-37922.json": {
+    "mtime_ns": 1791000388528587600,
+    "sha256": "35cca50728456df5feb8cf4db5c4c41b7ae784821214978a45f6c1d91f8691a7"
+  },
+  "public\\api\\v1\\rules\\admrul-37922\\versions\\2100000054781-2016-08-01-502fdc700d8e4d09.json": {
+    "mtime_ns": 1791000389358973600,
+    "sha256": "57b65142412f5269634121a966119959640c1a82f14431971b154c3ea00576ec"
+  },
+  "public\\api\\v1\\rules\\admrul-37922\\versions\\2100000253510-2025-01-20-75db826a1dcb8804.json": {
+    "mtime_ns": 1791000388992946600,
+    "sha256": "2898d294552ec4826dcb817510fb5d57aee4e8c21ebad94aa396e508810d82cb"
+  },
+  "public\\api\\v1\\rules\\admrul-38225.json": {
+    "mtime_ns": 1791000388537117600,
+    "sha256": "b80ec5c502e1d08724b5592f56f34f07679513269ec7296d0ca7487945372fd5"
+  },
+  "public\\api\\v1\\rules\\admrul-38225\\versions\\2100000135729-2018-07-03-22b25a8b24762df6.json": {
+    "mtime_ns": 1791000389363978100,
+    "sha256": "0cc8cd3adbd96b8766a06d586a6ee98fb72784fe37e1e78722bc84397cf48e47"
+  },
+  "public\\api\\v1\\rules\\admrul-38225\\versions\\2100000243146-2024-07-01-7a0fdc09157b16ca.json": {
+    "mtime_ns": 1791000388997946800,
+    "sha256": "c0ae96cc1f70f43d0b72b64a8ce68e7a82a6bb6f218ddd348d002b3f884b6ceb"
+  },
+  "public\\api\\v1\\rules\\admrul-39881.json": {
+    "mtime_ns": 1791000388540813800,
+    "sha256": "9131d659313799622f111f14024e34ea2d001781df0b00ecd1689950508846bc"
+  },
+  "public\\api\\v1\\rules\\admrul-39881\\versions\\2100000090194-2017-06-20-9336b2a086b9d023.json": {
+    "mtime_ns": 1791000389001946800,
+    "sha256": "fce87ea99580f25a53e7ff628279d7e59d3814cdc55570504e3babebc2c435e5"
+  },
+  "public\\api\\v1\\rules\\admrul-40159.json": {
+    "mtime_ns": 1791000388547780800,
+    "sha256": "a8eda9b81ed7c5b8b9ba77b23599f5416711adbdd9abe8a69ed3baba2d1daf7f"
+  },
+  "public\\api\\v1\\rules\\admrul-40159\\versions\\2100000145369-2018-09-01-19dd3416859f4e72.json": {
+    "mtime_ns": 1791000389367979300,
+    "sha256": "c6aec6f445bc3264f68acc5efb1eb89a3c31cb6570cfc47d48a17fc1eb7c54d1"
+  },
+  "public\\api\\v1\\rules\\admrul-40159\\versions\\2100000243132-2024-07-01-9fdc144f48b14819.json": {
+    "mtime_ns": 1791000389005947400,
+    "sha256": "7d76266ebf0fe863ccf0e7a08c7f7e324a8510d69c3b9a6bc9d5d8bd5677c207"
+  },
+  "public\\api\\v1\\rules\\admrul-43058.json": {
+    "mtime_ns": 1791000388552809200,
+    "sha256": "2cccdd88c967ce07d4a63d40b7159cc94984cf7df789f44add48f8008dcf5f50"
+  },
+  "public\\api\\v1\\rules\\admrul-43058\\versions\\2100000166130-2018-12-07-eaf84219fb70cf2d.json": {
+    "mtime_ns": 1791000389371946600,
+    "sha256": "30c0bc5d721a4c30a6ecd24b22d78c44ceaada21da7f9ba0a0e5c5542ddef8b1"
+  },
+  "public\\api\\v1\\rules\\admrul-43058\\versions\\2100000278360-2026-05-01-140d174bafa2cf0d.json": {
+    "mtime_ns": 1791000389008946400,
+    "sha256": "0e6ecca209c2d0ae534c4b39f581398f869b12a7acab598f049405f8620b0c4d"
+  },
+  "public\\api\\v1\\rules\\admrul-46978.json": {
+    "mtime_ns": 1791000388563811800,
+    "sha256": "292c885d81e26092c2cbbbf01c41ecfd96bb564f1c46c3f57c35fe4a66e8f851"
+  },
+  "public\\api\\v1\\rules\\admrul-46978\\versions\\2100000123833-2018-05-14-2becfe506d28bb35.json": {
+    "mtime_ns": 1791000389375945900,
+    "sha256": "23a908c7a66aee99d963ce11074d5dcb8aab74024cb79788f7120c974ce8cade"
+  },
+  "public\\api\\v1\\rules\\admrul-46978\\versions\\2100000234486-2024-02-01-63269ec7dddd5d62.json": {
+    "mtime_ns": 1791000389013946900,
+    "sha256": "c8dbdda541e18919e04ef47c216035c736e1c88e4d47972ccad6f8506a94967d"
+  },
+  "public\\api\\v1\\rules\\admrul-51868.json": {
+    "mtime_ns": 1791000388569812500,
+    "sha256": "097c998a8b03caaa9ede793d699bbc2934a59ba5d4b128ede013fdd57b324da7"
+  },
+  "public\\api\\v1\\rules\\admrul-51868\\versions\\2100000180066-2019-07-01-ab11f6038c0bf2c5.json": {
+    "mtime_ns": 1791000389378945900,
+    "sha256": "b7202d4efab12c1ba19022e9b722370ca906315cd4ba244c69bf64889c97b4ca"
+  },
+  "public\\api\\v1\\rules\\admrul-51868\\versions\\2100000211709-2022-07-01-5a161674d06fe07f.json": {
+    "mtime_ns": 1791000389017946600,
+    "sha256": "2cb791f0b44324d0881459c7b80f4ebe83c3422f0b637095d025dc3b95495a18"
+  },
+  "public\\api\\v1\\rules\\admrul-54074.json": {
+    "mtime_ns": 1791000388579807000,
+    "sha256": "cd02206377faae8ecf48e614f087c434a7d9141410d6ae3183c90d64a7ca951e"
+  },
+  "public\\api\\v1\\rules\\admrul-54074\\versions\\2100000104455-2017-12-05-ff04194b4629c922.json": {
+    "mtime_ns": 1791000389382954700,
+    "sha256": "3ac939633f8d17335f4902667adfba479bd663e521a2c5a811c4d0785f94c038"
+  },
+  "public\\api\\v1\\rules\\admrul-54074\\versions\\2100000256922-2025-04-01-c847151358a68614.json": {
+    "mtime_ns": 1791000389022951000,
+    "sha256": "18d6f5593a2ead403ef1aafa00dba12f7fdb4a5a582d29090655f3cfe31ee9ec"
+  },
+  "public\\api\\v1\\rules\\admrul-56055.json": {
+    "mtime_ns": 1791000388594812600,
+    "sha256": "88d45520c972aec65715f225905f92da0af7718849d0240f6fdba7e58f062e57"
+  },
+  "public\\api\\v1\\rules\\admrul-56055\\versions\\2100000181937-2019-09-04-39c43395fa9b3584.json": {
+    "mtime_ns": 1791000389389946900,
+    "sha256": "21da815179bb9ae85428b63764c3026fafa17779cdb3eb546faac775eb409dfe"
+  },
+  "public\\api\\v1\\rules\\admrul-56055\\versions\\2100000276308-2026-04-01-29fa6e16f41b9f3b.json": {
+    "mtime_ns": 1791000389028948700,
+    "sha256": "e3cd756047d3113560040d6fbfbb55342af92a20db39ca5674e796f405599bb7"
+  },
+  "public\\api\\v1\\rules\\admrul-59009.json": {
+    "mtime_ns": 1791000388601782600,
+    "sha256": "1f1d45740601be0165afefaa2607fc7939e1dbd421950eeae23963f4b5568105"
+  },
+  "public\\api\\v1\\rules\\admrul-59009\\versions\\2100000095349-2017-09-25-3ef10eb47b305d8b.json": {
+    "mtime_ns": 1791000389392945300,
+    "sha256": "d380a2abc22d2b4f94c653d127cacb46cccf5b76d0bd6befde5823813444055f"
+  },
+  "public\\api\\v1\\rules\\admrul-59009\\versions\\2100000274270-2026-02-09-54de73298a4147be.json": {
+    "mtime_ns": 1791000389032949100,
+    "sha256": "9abfae5b879ba3bff18bd3b6b2f385d3905ad3ebe35206886f25a08df2dc3a6c"
+  },
+  "public\\api\\v1\\rules\\admrul-61378.json": {
+    "mtime_ns": 1791000388604812500,
+    "sha256": "47eeb131bb401cbb6601829b4c807e85f1c80e4be7165c176cd770e6a9115ea0"
+  },
+  "public\\api\\v1\\rules\\admrul-61378\\versions\\2100000108059-2017-12-29-d4acc7f304be1aa3.json": {
+    "mtime_ns": 1791000389035947000,
+    "sha256": "e5cc38b10209a2d486bbd7cf80af21210379fa85aa78dcee312f6cffe4ce8724"
+  },
+  "public\\api\\v1\\rules\\law-001668.json": {
+    "mtime_ns": 1791000388643812500,
+    "sha256": "567cdf4855b8d6138179e7b5731512777a7a01389260a985c09282120be21f6f"
+  },
+  "public\\api\\v1\\rules\\law-001668\\versions\\246593-2022-12-27-8e90484309ae300e.json": {
+    "mtime_ns": 1791000389410945400,
+    "sha256": "5f1a9a64c302b3d8913c8eb017f92da861721caa7eefdea7b2fba191f4455114"
+  },
+  "public\\api\\v1\\rules\\law-001668\\versions\\280443-2026-12-24-888f2de821c1f52d.json": {
+    "mtime_ns": 1791000389215948900,
+    "sha256": "c08a9e37b8a1f6798f8e8205acd1f9c95832357de77b676a6ff5672275b8bea1"
+  },
+  "public\\api\\v1\\rules\\law-001668\\versions\\290191-2026-10-02-6f7111ef76469437.json": {
+    "mtime_ns": 1791000389054949900,
+    "sha256": "6d52b9d9f925018c89c2ffc7cf46afd8d9e3fa0f571a8248e4f11a6a06911c7d"
+  },
+  "public\\api\\v1\\rules\\law-002027.json": {
+    "mtime_ns": 1791000388653689100,
+    "sha256": "c059b0d98ec291be026704ade071c2c0c6e650a83eb43714ee2e98d53be1c491"
+  },
+  "public\\api\\v1\\rules\\law-002027\\versions\\276277-2026-01-02-5fed88f5efc6468c.json": {
+    "mtime_ns": 1791000389062945100,
+    "sha256": "75096579e503f46ab91306676e19f48ad33e5af8bf25928bef40de0aa8af92e1"
+  },
+  "public\\api\\v1\\rules\\law-002049.json": {
+    "mtime_ns": 1791000388657857000,
+    "sha256": "682fcf17a584c396b3f4388f154c9eefcd8b1973f8d6c8ef00463813011eff1d"
+  },
+  "public\\api\\v1\\rules\\law-002049\\versions\\290173-2026-10-02-7e078218780f15f4.json": {
+    "mtime_ns": 1791000389068949700,
+    "sha256": "3f5cc6eaea0cc064d65a83b1ae76401b47b8903a697776e91383a9433c6a12a0"
+  },
+  "public\\api\\v1\\rules\\law-002608.json": {
+    "mtime_ns": 1791000388661857000,
+    "sha256": "3cc8992607f340d7522fe198dd493cbebde63f9d34cae2c4c1d33883f96dbf9d"
+  },
+  "public\\api\\v1\\rules\\law-002608\\versions\\289135-2026-09-01-933b123473b919d2.json": {
+    "mtime_ns": 1791000389072947300,
+    "sha256": "ce27f62da1d33d4e5962f386e291bf5d22ac08327077d2d8bfb2b551e89171df"
+  },
+  "public\\api\\v1\\rules\\law-004057.json": {
+    "mtime_ns": 1791000388666827800,
+    "sha256": "aebd60237883db3b8c13bdf1e28da5e119436225c682785d4aecc817cc375215"
+  },
+  "public\\api\\v1\\rules\\law-004057\\versions\\290453-2026-10-02-59157ee9a56c4c7f.json": {
+    "mtime_ns": 1791000389076946500,
+    "sha256": "38fbbaa1ca6f75a49c22b6a660e5ac9ad284770ce5f865f0827efcccaa890e33"
+  },
+  "public\\api\\v1\\rules\\law-005630.json": {
+    "mtime_ns": 1791000388683273000,
+    "sha256": "a7a6c3ddb3dc4a1d46ff02c23fec6a5638be0dee0c0075a2d7bd0ffd42af3daa"
+  },
+  "public\\api\\v1\\rules\\law-005630\\versions\\290535-2026-10-02-a54fa9a8f4335975.json": {
+    "mtime_ns": 1791000389092945900,
+    "sha256": "425689e1992d13c5a0071ecc106d1d5801dff9d5dfeab73290079442af7d2beb"
+  },
+  "public\\api\\v1\\rules\\law-006521.json": {
+    "mtime_ns": 1791000388689885600,
+    "sha256": "e9335ee37dfb3038cdf9cf9729dcdb0252326b14d8cc77bf18da92be3a54b850"
+  },
+  "public\\api\\v1\\rules\\law-006521\\versions\\258001-2024-01-03-08c822086b53d4ae.json": {
+    "mtime_ns": 1791000389099950400,
+    "sha256": "ac1d0455742bc4e8b485d74b26aa28f4f523a58ec78f22330fe2dfebe3d7e555"
+  },
+  "public\\api\\v1\\rules\\law-006524.json": {
+    "mtime_ns": 1791000388702890100,
+    "sha256": "13bc374735ff349150ec608312657b1fdc515eda95930419d43095dc7e29a68e"
+  },
+  "public\\api\\v1\\rules\\law-006524\\versions\\270769-2025-04-22-aad2637dfa38edab.json": {
+    "mtime_ns": 1791000389112949300,
+    "sha256": "bc74a484d1e2562cde5031ef1ce94e9c0f325b61ed253b0d49c09f47e773ad23"
+  },
+  "public\\api\\v1\\rules\\law-009144.json": {
+    "mtime_ns": 1791000388708925300,
+    "sha256": "2e0ff4bd8c7fb8d6265b75cbfae66a30c100347073b16ca9c11e1b3f3543f260"
+  },
+  "public\\api\\v1\\rules\\law-009144\\versions\\271415-2025-05-27-48040821e71ff705.json": {
+    "mtime_ns": 1791000389118947900,
+    "sha256": "ab88470b43d44e023aaf40dc76a6a0725722b13c77eb9377b736d7d4979a9914"
+  },
+  "public\\api\\v1\\rules\\law-009163.json": {
+    "mtime_ns": 1791000388714892900,
+    "sha256": "d661ac02915edc88970001aeca45a021bb7eb220624143f12b46d027aaf83fdf"
+  },
+  "public\\api\\v1\\rules\\law-009163\\versions\\271285-2025-05-27-b2718d6c18c19c09.json": {
+    "mtime_ns": 1791000389123945500,
+    "sha256": "fb48294a333482d15bb13cc47ea05a7525507801e519904562adda49d4bfe52c"
+  },
+  "public\\api\\v1\\rules\\law-010752.json": {
+    "mtime_ns": 1791000388718892900,
+    "sha256": "11c32b025cbfae8de191c8618eb8e8fe40b76c78ce1cc280f471529883606815"
+  },
+  "public\\api\\v1\\rules\\law-010752\\versions\\176755-2015-11-25-3245844a2ca65ca0.json": {
+    "mtime_ns": 1791000389126945400,
+    "sha256": "ac4e05ea004c2bdfb09bbbdc60a0d515f6b9de7af6e63e39f731471ab26746c2"
+  },
+  "public\\api\\v1\\rules\\law-010878.json": {
+    "mtime_ns": 1791000388722923800,
+    "sha256": "54b831fd1a4b029f33fc48ffb056ab44b8da9db4f412b33c5f053f058f157372"
+  },
+  "public\\api\\v1\\rules\\law-010878\\versions\\138747-2013-04-05-4202dc32453c274e.json": {
+    "mtime_ns": 1791000389130947100,
+    "sha256": "e38d11ce125dc84b527801d1166f4e099b59a8bba5a10c166a2c745962e335a4"
+  },
+  "public\\api\\v1\\rules\\law-010883.json": {
+    "mtime_ns": 1791000388764892700,
+    "sha256": "146208d71065fc1afa6122b492c9e44dc34a462fbada2bd09f4d1607d2e08369"
+  },
+  "public\\api\\v1\\rules\\law-010883\\versions\\290561-2026-10-02-5a34aa24996902c2.json": {
+    "mtime_ns": 1791000389171978800,
+    "sha256": "b96147d63bbdff70a0f9c34812193ceb7af406fccd25d08e2d08ac3937076f71"
+  },
+  "public\\api\\v1\\rules\\law-011092.json": {
+    "mtime_ns": 1791000388769891700,
+    "sha256": "a0793964eb908d65cc6ce22e7a9a0c70a7966686797aa788d848c48fdb8a079b"
+  },
+  "public\\api\\v1\\rules\\law-011092\\versions\\106754-2010-10-22-3581fc923a5f506b.json": {
+    "mtime_ns": 1791000389176946600,
+    "sha256": "ede92a837e0da5ca88a654ec20a1ac4afc7df8f461179db7b913146ed2312f6a"
+  },
+  "public\\api\\v1\\rules\\law-011097.json": {
+    "mtime_ns": 1791000388773890700,
+    "sha256": "166a51516b0e425ad7717d8f47c9f1ac65ec0b20d816a33933a4dc1beb780b13"
+  },
+  "public\\api\\v1\\rules\\law-011097\\versions\\176754-2015-11-25-ca2528551878eafb.json": {
+    "mtime_ns": 1791000389179946500,
+    "sha256": "f94d273241f304088e654d69572042d9c1f72a6053646c7a9fb1bada0339bde3"
+  },
+  "public\\api\\v1\\rules\\law-011894.json": {
+    "mtime_ns": 1791000388777891000,
+    "sha256": "5bfdac58068190d9eceece47ccf2a66bf569db5e6bdc85dac42d0f6e51314740"
+  },
+  "public\\api\\v1\\rules\\law-011894\\versions\\142443-2013-07-30-c212cb799aeb0e16.json": {
+    "mtime_ns": 1791000389184985000,
+    "sha256": "b73ac5122492f73cfa3c253fb2740eab022322e01b7a2839c5ed4672b7fe83ca"
+  },
+  "public\\api\\v1\\rules\\law-012347.json": {
+    "mtime_ns": 1791000388783328800,
+    "sha256": "781cc04f99ec3cb235048a09ff530ee4d071f550f93bec3e60ce4c487c1748c2"
+  },
+  "public\\api\\v1\\rules\\law-012347\\versions\\222423-2020-10-20-3a61d8782934dd36.json": {
+    "mtime_ns": 1791000389189978300,
+    "sha256": "a9979bda459e8a246a32bb3c867d4795ec9030935a3837f487373691699578c2"
+  },
+  "public\\api\\v1\\rules\\law-012557.json": {
+    "mtime_ns": 1791000388787327200,
+    "sha256": "ab307ccd3451c466b9a152f46003d0f4ad2179f2452a37cc29fc345a355b61ef"
+  },
+  "public\\api\\v1\\rules\\law-012557\\versions\\183520-2016-11-30-35ea339e2db10857.json": {
+    "mtime_ns": 1791000389192946900,
+    "sha256": "d3ff25a98937847bf3d481009d4920d0884f1aac587ebff0e331fd8f63e3a241"
+  },
+  "public\\api\\v1\\rules\\law-012676.json": {
+    "mtime_ns": 1791000388791358600,
+    "sha256": "382d319db219609213d735e3dbd8ea9afa7e9908fe20b49ed8935c93c1e551fc"
+  },
+  "public\\api\\v1\\rules\\law-012676\\versions\\261779-2024-04-16-15a8e97defa6d67a.json": {
+    "mtime_ns": 1791000389196946600,
+    "sha256": "fcd53dce4247914b8b07903954195fad04d5ba7367fc0026fd5bee7d1b7723e3"
+  },
+  "web\\src\\App.tsx": {
+    "mtime_ns": 1791009855304624800,
+    "sha256": "cbaa4ccee360fe1fa810b48d4478a38f8aae06dfe2ab0e126328bdb1622f0f1a"
+  },
+  "web\\src\\components\\ChangeFeed.tsx": {
+    "mtime_ns": 1791000093174026600,
+    "sha256": "cc55393bf2531bce97b56f5199d1351f8362c268447b531c65efc5b1aa001172"
+  },
+  "web\\src\\components\\DomainSelector.tsx": {
+    "mtime_ns": 1791009791559181300,
+    "sha256": "3c024f43dfb04e77e472e4234ef1626f3453e1091476396cf968c93c73edce33"
+  },
+  "web\\src\\components\\GlobalSearch.tsx": {
+    "mtime_ns": 1791010210441861900,
+    "sha256": "f6ece7e11d95692c9a49aafafea2fa79fbdc48fe9505b6bc74e5f5bfaa1a2826"
+  },
+  "web\\src\\components\\Header.tsx": {
+    "mtime_ns": 1791009771032863500,
+    "sha256": "e4e190c18061ecd9f7ba607c31d9eca606e03948a260f00352b8542f1808d94d"
+  },
+  "web\\src\\components\\NoticeFooter.tsx": {
+    "mtime_ns": 1791000093176033900,
+    "sha256": "99d29ca68ae4e216049b7b9566d77d0cbf4eca0398c61294f96742f83cad3c9d"
+  },
+  "web\\src\\components\\RegulationDirectory.tsx": {
+    "mtime_ns": 1791009818324102700,
+    "sha256": "9830f008c8d24afc59adf81b7393601ee2847a737428443164afd93ca99ea40d"
+  },
+  "web\\src\\components\\RuleDetailModal.tsx": {
+    "mtime_ns": 1791010284700055200,
+    "sha256": "64d409bf0f2273ff2606473b50fe23c9f1ab17c38e7bc78c5e79f7725f803620"
+  },
+  "web\\src\\components\\SummaryCards.tsx": {
+    "mtime_ns": 1791009780796407000,
+    "sha256": "2c5f36c6b0834145bacd0fc2249f8565aa3217cbb4d5a80c849eec39194a35d4"
+  },
+  "web\\src\\components\\UpcomingTimeline.tsx": {
+    "mtime_ns": 1791000093177033500,
+    "sha256": "056bb4dd3c0c20e6367eaf805fc8aa10eed89c772626dd10ab2328f3d0bf802a"
+  },
+  "web\\src\\index.css": {
+    "mtime_ns": 1791009899821241500,
+    "sha256": "6475fb0a0afa0f0d9b0f5c55fd95270e7e7471b6a33ed5fb3d8fd57923ffb511"
+  },
+  "web\\src\\main.tsx": {
+    "mtime_ns": 1791000093173049400,
+    "sha256": "04bc6c664005d207f6c9a42cac1a11810f6257a77604ecc9a2dfa1f0a68959ba"
+  },
+  "web\\src\\services\\api.ts": {
+    "mtime_ns": 1791001752124345800,
+    "sha256": "b555cfc34d62751765a01420f74abacb4e7abac1db00c759a8d79db6b278e028"
+  },
+  "web\\src\\test\\app_integration.test.tsx": {
+    "mtime_ns": 1791010035083853300,
+    "sha256": "d707789d0d5be792d11d97999b2831a2caea0d037d6b9d96479c0b6105dbdd7c"
+  },
+  "web\\src\\test\\components.test.tsx": {
+    "mtime_ns": 1791010298826114000,
+    "sha256": "66d152d06919fe9dbffb7c96e1ce15af7381e34b25c295367134554e72a6807a"
+  },
+  "web\\src\\test\\production_data.test.ts": {
+    "mtime_ns": 1791000991518013800,
+    "sha256": "e67e37078d2cd07c135b2cdc7926104f4dfb9003ca09b68707c856f87e0af7f2"
+  },
+  "web\\src\\test\\setup.ts": {
+    "mtime_ns": 1791000093180033900,
+    "sha256": "f024949402026965b36e5f4524906d0b1f6978d167f139d7582c4f00b810e7ab"
+  },
+  "web\\src\\test\\utils.test.ts": {
+    "mtime_ns": 1791010184876003000,
+    "sha256": "572c42b600569e65093dcb574ff7fc593af6bd774e33a538117290170d44e535"
+  },
+  "web\\src\\types\\index.ts": {
+    "mtime_ns": 1791009751997631800,
+    "sha256": "c72e54b371d14618ba5c250bfd9547601bb8bd583d7cd933702ef9533d9b365c"
+  },
+  "web\\src\\utils\\date.ts": {
+    "mtime_ns": 1791000093190164500,
+    "sha256": "fdc98f57c6933afe3114dc6630f1e3fb03a91fd4ffb0722290b7faa24fd15949"
+  },
+  "web\\src\\utils\\diff.ts": {
+    "mtime_ns": 1791009735177839600,
+    "sha256": "07c40efa8adf09b619e53c13b81ad8785387c5adb9656efea2c7eb72cd6b1505"
+  },
+  "web\\src\\utils\\format.ts": {
+    "mtime_ns": 1791000093191166100,
+    "sha256": "538688af8bc570c0017cfb58f28df1dd9c91be5b34d1bbc630fec006867d1ba1"
+  }
+}

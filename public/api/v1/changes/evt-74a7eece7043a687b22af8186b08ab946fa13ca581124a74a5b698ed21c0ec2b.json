@@ -1,0 +1,54 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "99804c0bc46223efa3bfb1b5ee3cad7387e9c0f2111cb5a7035f4f73d4da04af",
+      "effective_date": "2020-10-20",
+      "identifier": "222423",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=222423",
+      "snapshot_url": "/api/v1/rules/law-012347/versions/222423-2020-10-20-3a61d8782934dd36.json",
+      "version_id": "222423"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "0e35e63779d59208e7907c549c648f8b31dc47329dc967f7db64d53d12f30c4e",
+      "effective_date": "2015-08-11",
+      "identifier": "173982",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=173982",
+      "snapshot_url": "/api/v1/rules/law-012347/versions/173982-2015-08-11-cdde3d8a44e58377.json",
+      "version_id": "173982"
+    },
+    "canonical_id": "law-012347",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 1,
+    "changed_articles": [
+      {
+        "after_text": "제15조의2(민감정보 및 고유식별정보의 처리)\n① 공제회는 다음 각 호의 사무를 수행하기 위하여 불가피한 경우 당사자의 동의를 받아 「개인정보 보호법」 제23조에 따른 건강에 관한 정보와 같은 법 제24조에 따른 고유식별정보가 포함된 자료를 처리할 수 있다.\n1. 회원의 부담금에 관한 사무\n2. 회원(회원의 유가족을 포함한다)에 대한 급여에 관한 사무\n3. 회원에 대한 대여에 관한 사무\n4. 회원을 위한 각종 복지ㆍ후생사업에 관한 사무\n5. 기금조성을 위한 사업에 관한 사무\n② 공제회는 제1항에 따른 정보가 포함된 자료를 처리할 때에는 해당 정보를 「개인정보 보호법」에 따라 보호하여야 한다.",
+        "article_key": "article-15의2",
+        "article_number": "15의2",
+        "article_title": "제15조의2(민감정보 및 고유식별정보의 처리)",
+        "before_text": null,
+        "change_type": "ADDED",
+        "effective_date": "2020-10-20"
+      }
+    ],
+    "comparison_evidence": null,
+    "comparison_scope": "FULL_STRUCTURED_BODY",
+    "comparison_source": "STRUCTURED_SNAPSHOT_DIFF",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2020-10-20",
+    "event_id": "evt-74a7eece7043a687b22af8186b08ab946fa13ca581124a74a5b698ed21c0ec2b",
+    "fallback_reason": "OFFICIAL_COMPARISON_PAIR_OR_TEXT_UNAVAILABLE",
+    "official_old_new_available": false,
+    "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=222423",
+    "promulgation_or_issue_date": "2020-10-20",
+    "regulation_name": "교정공제회법",
+    "regulation_type": "법률"
+  },
+  "schema_version": "1.3"
+}

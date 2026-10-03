@@ -1,0 +1,24 @@
+{
+  "all_observed_files_unchanged": false,
+  "candidate_bodies": 69,
+  "changed_paths": [
+    "web\\src\\components\\RuleDetailModal.tsx",
+    "web\\src\\test\\components.test.tsx"
+  ],
+  "errors": [],
+  "finished_at": "2026-10-03T06:56:21.620400+00:00",
+  "metrics": {
+    "api_request_count": 255,
+    "api_response_seconds": 128.708,
+    "average_api_response_seconds": 0.504737,
+    "public_page_request_count": 70,
+    "public_page_response_seconds": 57.924,
+    "retry_count": 0,
+    "total_http_request_count": 325,
+    "transport_error_summary": {}
+  },
+  "observation_note": "Frontend files changed concurrently outside audit write boundaries; preserved. Collector initially stopped on whole-tree drift; report now distinguishes protected production data.",
+  "official_resolved": 68,
+  "production_unchanged": true,
+  "protected_changed_paths": []
+}

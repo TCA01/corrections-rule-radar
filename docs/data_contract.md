@@ -1,7 +1,9 @@
 # Shared public API v1
 
-Active main schema: 1.2. Immutable version artifacts: unchanged archive format
-1.1. Canonical changed_articles and date rules are in phase1b_contract.md.
+Active main schema: 1.3. Immutable version artifacts retain archive format 1.1.
+Persistent history semantics are in phase1e_contract.md. Legacy article/detail
+fields remain documented in phase1b_contract.md. Provenance/scope expansion is
+reserved for schema 1.4.
 
 UTF-8 JSON; string IDs; ISO-8601 dates/timestamps; explicit nullable metadata;
 no HTML needed for core display; root-relative `/api/v1/` paths. JSON Schema
@@ -15,6 +17,9 @@ Draft 2020-12 contracts are self-contained in `schemas/`.
 | `/api/v1/rules/{canonical_id}/versions/{version-key}.json` | version | Immutable event version references |
 | `/api/v1/changes/latest.json` | changes | Observed current/historical events |
 | `/api/v1/changes/upcoming.json` | changes | Events for pending effective versions |
+| `/api/v1/changes/recent.json` | recent | Persistent events effective in the last 90 Seoul civil days |
+| `/api/v1/changes/history.json` | history | All persisted changes, retained indefinitely |
+| `/api/v1/changes/{event_id}.json` | change | Exact-version comparison, independent of dataset timestamps |
 | `/api/v1/health.json` | health | Last verified published dataset and counts |
 
 ID namespaces: `law-{official-stable-ID}`, `admrul-{official-stable-ID}`.

@@ -1,0 +1,82 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "155d475f8845c26008f69ec1dccbd8e4ae019abe99d117793e7f2af3719e03b7",
+      "effective_date": "2025-04-22",
+      "identifier": "270769",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=270769",
+      "snapshot_url": "/api/v1/rules/law-006524/versions/270769-2025-04-22-aad2637dfa38edab.json",
+      "version_id": "270769"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "0920abf006634bf810583da99d8080e1d081ad0c50fdb8947363deff68753be9",
+      "effective_date": "2023-01-11",
+      "identifier": "247779",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=247779",
+      "snapshot_url": "/api/v1/rules/law-006524/versions/247779-2023-01-11-03101a2429a81924.json",
+      "version_id": "247779"
+    },
+    "canonical_id": "law-006524",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 3,
+    "changed_articles": [
+      {
+        "after_text": "제15조(비상소집 응소) 교도관은 다음 각 호에 해당하는 상황(이하 “비상상황”이라 한다)이 발생하여 비상소집 명령을 받은 경우에는 지체 없이 소집에 응하여 상관의 지시를 받아야 한다.\n1. 천재지변이나 그 밖의 중대한 사태\n2. 화재, 수용자의 도주ㆍ폭행ㆍ소요ㆍ자살, 외부로부터의 침입 등 교정시설의 안전과 질서를 위태롭게 하는 사고(이하 “교정사고”라 한다)",
+        "article_key": "article-15",
+        "article_number": "15",
+        "article_title": "제15조(비상소집 응소)",
+        "before_text": "제15조(비상소집 응소) 교도관은 천재지변이나 그 밖의 중대한 사태가 발생하여 비상소집 명령을 받은 경우에는 지체 없이 소집에 응하여 상관의 지시를 받아야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-04-22"
+      },
+      {
+        "after_text": "제38조(재난 시의 조치) 교정직교도관은 천재지변이나 그 밖의 중대한 사태가 발생한 경우에는 수용자의 계호를 특히 엄중하게 하고, 상관의 지휘를 받아 적절한 피난 준비를 하여야 한다. 다만, 상관의 지휘를 받을 시간적 여유가 없는 경우에는 수용자의 생명과 안전을 위한 대피 등의 조치를 최우선적으로 하여야 한다.",
+        "article_key": "article-38",
+        "article_number": "38",
+        "article_title": "제38조(재난 시의 조치)",
+        "before_text": "제38조(재난 시의 조치) 교정직교도관은 천재지변이나 그 밖의 재해가 발생한 경우에는 수용자의 계호를 특히 엄중하게 하고, 상관의 지휘를 받아 적절한 피난 준비를 하여야 한다. 다만, 상관의 지휘를 받을 시간적 여유가 없는 경우에는 수용자의 생명과 안전을 위한 대피 등의 조치를 최우선적으로 하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-04-22"
+      },
+      {
+        "after_text": "제43조(교정시설의 경계 등) ① (현행과 같음)\n② 교정직교도관이 제1항에 따라 경계 또는 순찰 근무를 하는 경우에는 그의 시선 내에 있는 구역ㆍ시설 등을 감시하여 교정사고와 수용자의 징벌대상행위 등을 예방ㆍ단속하여야 한다.",
+        "article_key": "article-43",
+        "article_number": "43",
+        "article_title": "제43조(교정시설의 경계 등)",
+        "before_text": "제43조(교정시설의 경계 등) ① (생  략)\n② 교정직교도관이 제1항에 따라 경계 또는 순찰 근무를 하는 경우에는 그의 시선 내에 있는 구역ㆍ시설 등을 감시하여 수용자의 도주 등 교정사고, 수용자의 징벌대상행위, 외부로부터의 침입 등을 예방ㆍ단속하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-04-22"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "f3717a3e66c4b8e63d9ab78eaff0fcd4eaec46ad534ff8cad319fa254d9bf58a",
+      "credential_redacted": false,
+      "raw_sha256": "4737088ea41fe95e0eaae41e61b5c53ea3d8e481fa8a5a2aa07b198dc996c06a",
+      "request": {
+        "MST": "270769",
+        "target": "oldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "4737088ea41fe95e0eaae41e61b5c53ea3d8e481fa8a5a2aa07b198dc996c06a"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2025-04-22",
+    "event_id": "evt-4e127429f47ec7ef1090630e00b4b85904db0f4f340cc72ad773bf2b8fbe211c",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=270769",
+    "promulgation_or_issue_date": "2025-04-22",
+    "regulation_name": "교도관직무규칙",
+    "regulation_type": "법무부령"
+  },
+  "schema_version": "1.3"
+}

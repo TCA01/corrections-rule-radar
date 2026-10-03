@@ -1,0 +1,445 @@
+{
+  "$id": "urn:corrections-rule-radar:api:v1:change",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "event": {
+      "additionalProperties": false,
+      "properties": {
+        "after_version": {
+          "additionalProperties": false,
+          "properties": {
+            "body_hash": {
+              "pattern": "^[a-f0-9]{64}$",
+              "type": "string"
+            },
+            "effective_date": {
+              "format": "date",
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "identifier": {
+              "type": "string"
+            },
+            "official_source_url": {
+              "format": "uri",
+              "pattern": "^https://(www\\.)?law\\.go\\.kr/",
+              "type": "string"
+            },
+            "snapshot_url": {
+              "pattern": "^/api/v1/rules/(law|admrul)-\\d+/versions/\\d+-\\d{4}-\\d{2}-\\d{2}-[a-f0-9]{16}\\.json$",
+              "type": "string"
+            },
+            "version_id": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "version_id",
+            "effective_date",
+            "snapshot_url",
+            "official_source_url",
+            "identifier",
+            "body_hash"
+          ],
+          "type": "object"
+        },
+        "appendix_changes": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "after_metadata": {
+                "anyOf": [
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "branch": {
+                        "type": "string"
+                      },
+                      "pdf_url": {
+                        "anyOf": [
+                          {
+                            "format": "uri",
+                            "pattern": "^https://(www\\.)?law\\.go\\.kr/",
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "sequence": {
+                        "type": "string"
+                      },
+                      "title": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "type": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "url": {
+                        "anyOf": [
+                          {
+                            "format": "uri",
+                            "pattern": "^https://(www\\.)?law\\.go\\.kr/",
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "title",
+                      "type",
+                      "sequence",
+                      "branch",
+                      "url",
+                      "pdf_url"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "before_metadata": {
+                "anyOf": [
+                  {
+                    "additionalProperties": false,
+                    "properties": {
+                      "branch": {
+                        "type": "string"
+                      },
+                      "pdf_url": {
+                        "anyOf": [
+                          {
+                            "format": "uri",
+                            "pattern": "^https://(www\\.)?law\\.go\\.kr/",
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "sequence": {
+                        "type": "string"
+                      },
+                      "title": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "type": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "url": {
+                        "anyOf": [
+                          {
+                            "format": "uri",
+                            "pattern": "^https://(www\\.)?law\\.go\\.kr/",
+                            "type": "string"
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      }
+                    },
+                    "required": [
+                      "title",
+                      "type",
+                      "sequence",
+                      "branch",
+                      "url",
+                      "pdf_url"
+                    ],
+                    "type": "object"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "change_type": {
+                "enum": [
+                  "APPENDIX_ADDED",
+                  "APPENDIX_REMOVED",
+                  "APPENDIX_METADATA_CHANGED"
+                ]
+              },
+              "status": {
+                "enum": [
+                  "AVAILABLE",
+                  "REMOVED"
+                ]
+              }
+            },
+            "required": [
+              "change_type",
+              "status",
+              "before_metadata",
+              "after_metadata"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "before_version": {
+          "anyOf": [
+            {
+              "additionalProperties": false,
+              "properties": {
+                "body_hash": {
+                  "pattern": "^[a-f0-9]{64}$",
+                  "type": "string"
+                },
+                "effective_date": {
+                  "format": "date",
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "identifier": {
+                  "type": "string"
+                },
+                "official_source_url": {
+                  "format": "uri",
+                  "pattern": "^https://(www\\.)?law\\.go\\.kr/",
+                  "type": "string"
+                },
+                "snapshot_url": {
+                  "pattern": "^/api/v1/rules/(law|admrul)-\\d+/versions/\\d+-\\d{4}-\\d{2}-\\d{2}-[a-f0-9]{16}\\.json$",
+                  "type": "string"
+                },
+                "version_id": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "version_id",
+                "effective_date",
+                "snapshot_url",
+                "official_source_url",
+                "identifier",
+                "body_hash"
+              ],
+              "type": "object"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "canonical_id": {
+          "pattern": "^(law|admrul)-\\d+$",
+          "type": "string"
+        },
+        "change_type": {
+          "enum": [
+            "RULE_AMENDED",
+            "RULE_RENAMED",
+            "ARTICLE_CHANGED",
+            "RULE_REPEALED",
+            "NEW_RULE",
+            "HISTORICAL_VERSION",
+            "METADATA_CORRECTED",
+            "EFFECTIVE_DATE_CORRECTED",
+            "APPENDIX_ADDED",
+            "APPENDIX_REMOVED",
+            "APPENDIX_METADATA_CHANGED"
+          ]
+        },
+        "change_types": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "changed_article_count": {
+          "minimum": 0,
+          "type": "integer"
+        },
+        "changed_articles": {
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "after_text": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "article_key": {
+                "type": "string"
+              },
+              "article_number": {
+                "type": "string"
+              },
+              "article_title": {
+                "type": "string"
+              },
+              "before_text": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "change_type": {
+                "enum": [
+                  "ADDED",
+                  "REMOVED",
+                  "MODIFIED",
+                  "RENAMED",
+                  "UNKNOWN_STRUCTURAL_CHANGE"
+                ]
+              },
+              "effective_date": {
+                "format": "date",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "article_key",
+              "article_number",
+              "article_title",
+              "change_type",
+              "before_text",
+              "after_text",
+              "effective_date"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "comparison_evidence": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "comparison_scope": {
+          "enum": [
+            "FULL_STRUCTURED_BODY",
+            "OFFICIAL_COMPARISON_EXCERPT"
+          ]
+        },
+        "comparison_source": {
+          "enum": [
+            "LAWGO_OLD_NEW",
+            "LAWGO_ADMIN_OLD_NEW",
+            "STRUCTURED_SNAPSHOT_DIFF",
+            null
+          ]
+        },
+        "comparison_status": {
+          "enum": [
+            "AVAILABLE",
+            "COMPARISON_UNAVAILABLE"
+          ]
+        },
+        "comparison_unavailable_reason": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "detected_at": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "effective_date": {
+          "format": "date",
+          "type": "string"
+        },
+        "event_id": {
+          "pattern": "^evt-[a-f0-9]{64}$",
+          "type": "string"
+        },
+        "fallback_reason": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "official_old_new_available": {
+          "type": "boolean"
+        },
+        "official_source_url": {
+          "format": "uri",
+          "pattern": "^https://(www\\.)?law\\.go\\.kr/",
+          "type": "string"
+        },
+        "promulgation_or_issue_date": {
+          "format": "date",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "regulation_name": {
+          "type": "string"
+        },
+        "regulation_type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "event_id",
+        "canonical_id",
+        "regulation_name",
+        "regulation_type",
+        "change_type",
+        "change_types",
+        "detected_at",
+        "promulgation_or_issue_date",
+        "effective_date",
+        "before_version",
+        "after_version",
+        "changed_articles",
+        "changed_article_count",
+        "appendix_changes",
+        "official_old_new_available",
+        "comparison_source",
+        "comparison_scope",
+        "comparison_status",
+        "comparison_unavailable_reason",
+        "fallback_reason",
+        "comparison_evidence",
+        "official_source_url"
+      ],
+      "type": "object"
+    },
+    "schema_version": {
+      "const": "1.3"
+    }
+  },
+  "required": [
+    "schema_version",
+    "event"
+  ],
+  "title": "change",
+  "type": "object"
+}

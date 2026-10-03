@@ -1,0 +1,73 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "2c5c9a4498b30432571d18ed7fade0fd68dcb73e083c204b074c29385d95a869",
+      "effective_date": "2023-12-01",
+      "identifier": "2100000232102",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000232102",
+      "snapshot_url": "/api/v1/rules/admrul-37587/versions/2100000232102-2023-12-01-4e9dee79240d1845.json",
+      "version_id": "2100000232102"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "a1b1a8e1f2fa16194a0a9686e81bea8e72eced9a20aa99ea1f484a7db2372ac4",
+      "effective_date": "2017-07-03",
+      "identifier": "2100000094180",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000094180",
+      "snapshot_url": "/api/v1/rules/admrul-37587/versions/2100000094180-2017-07-03-a0ca52741034a796.json",
+      "version_id": "2100000094180"
+    },
+    "canonical_id": "admrul-37587",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 2,
+    "changed_articles": [
+      {
+        "after_text": "제18조(퇴거명령) ① 소장은 비상대기숙소 입주자 중 다음 각 호의 어느 하나에 해당하는 자에게 별지 제6호서식의 퇴거명령서로 즉시 퇴거를 명하여야 한다.\n1.·2. (현행과 같음)\n3. 제16조 각 호의 의무를 위반한 자\n4. 제17조를 위반하여 금지된 행위를 한자\n5. 제12조 제1항에 따른 입주자격을 상실한 자\n6. 제12조 제2항에 따라 소장이 입주를 제한한 자\n7. 제12조 제3항에 따른 입주기간이 만료된 자\n8. 본인이 희망하고 소장이 퇴거 사유가 있다고 인정하는 자\n② 퇴거명령을 받은 입주자는 60일 이내에 별지 제7호서식의 인수ㆍ인계서를 작성하여 비상대기숙소 관리 소장에게 인계하여야 하며, 위 기간 경과 시는 동 관리 소장 및 소장은 즉시 독촉장을 발부하여야 한다.",
+        "article_key": "article-18",
+        "article_number": "18",
+        "article_title": "제18조(퇴거명령)",
+        "before_text": "제18조(퇴거명령) ① 소장은 비상대기숙소 입주자 중 다음 각 호의 어느 하나에 해당하는 사유가 발생하면 별지 제6호서식의 퇴거명령서로 즉시 퇴거를 명하여야 한다.\n1.·2. (생  략)\n3. 제16조, 제17조 각호의 지침에 위반한 자\n4. 제12조 제2항 및 제3항에 해당하는 자\n5. 본인이 희망하고 소장이 퇴거 사유가 있다고 인정하는 자\n② 퇴거명령을 받은 입주자는 60일 이내에  별지 제7호서식의 인수ㆍ인계서를 작성하여 비상대기숙소 관리 소장에게 인계하여야 하며, 위 기간 경과 시는 동 관리 소장 및 소장은 즉시 독촉장을 발부하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-12-01"
+      },
+      {
+        "after_text": "제21조(손해배상 등) 입주자가 고의 또는 중대한 과실로 비상대기숙소에 손해를 끼친 경우에는 원상복구를 하거나 손해 상당액을 변제하여야 한다. 정할 때에는 수시로 검사하게 할 수 있다.",
+        "article_key": "article-21",
+        "article_number": "21",
+        "article_title": "제21조(손해배상 등)",
+        "before_text": "제21조(손해배상 등) 입주자가 고의 또는 중대한 과실로 비상대기숙소에 손해를 끼친 경우에는 원상복구를 하거나 손해 상당액을 변제하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-12-01"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "32a9f85e8a00f9c93d0ea7b16a0cd2a1a76a073fa5d393157236269426a5753e",
+      "credential_redacted": false,
+      "raw_sha256": "96d6038a91b90a834cd61dc6ba7b46d2c6719033354b37e64d5c409aeb00b1fa",
+      "request": {
+        "ID": "2100000232102",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "96d6038a91b90a834cd61dc6ba7b46d2c6719033354b37e64d5c409aeb00b1fa"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2023-12-01",
+    "event_id": "evt-af828d0a401e7a6fcd230e22802ee9f7f8d1c80eee7c9ca435db7cb8afca303c",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000232102",
+    "promulgation_or_issue_date": "2023-11-27",
+    "regulation_name": "비상대기숙소 관리지침",
+    "regulation_type": "예규"
+  },
+  "schema_version": "1.3"
+}

@@ -9,7 +9,7 @@ export const NoticeFooter: React.FC = () => {
           <div className="footer-brand">
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.5rem' }}>
               <Shield size={18} color="var(--color-primary-light)" />
-              <h3 style={{ fontSize: '1.125rem', fontWeight: 700, margin: 0 }}>교정업무 변경 레이더</h3>
+              <h3 style={{ fontSize: '1.125rem', fontWeight: 700, margin: 0 }}>교정관련 규정 추적기</h3>
             </div>
             <p style={{ maxWidth: '400px', lineHeight: 1.5, color: 'var(--color-text-muted)' }}>
               교정직 공무원 및 관련 업무 담당자를 위한 법령·예규·훈령 개정 및 시행 예정 모니터링 시스템입니다.
@@ -41,7 +41,7 @@ export const NoticeFooter: React.FC = () => {
         </div>
 
         <div style={{ marginTop: '2rem', paddingTop: '1rem', borderTop: '1px solid #e2e8f0', textAlign: 'center', fontSize: '0.75rem', color: '#94a3b8' }}>
-          교정업무 변경 레이더 — Static Web Client (Firebase Hosting Compatible)
+          교정관련 규정 추적기 — Static Web Client (Firebase Hosting Compatible)
         </div>
       </div>
     </footer>

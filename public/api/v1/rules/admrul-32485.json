@@ -1,9 +1,9 @@
 {
   "articles_compared_to": {
-    "effective_date": "2017-04-22",
-    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000084189",
-    "snapshot_url": "/api/v1/rules/admrul-32485/versions/2100000084189-2017-04-22-8fcb0468e068cc15.json",
-    "version_id": "2100000084189"
+    "effective_date": "2020-06-08",
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000189959",
+    "snapshot_url": "/api/v1/rules/admrul-32485/versions/2100000189959-2020-06-08-86e8745a6a9ff423.json",
+    "version_id": "2100000189959"
   },
   "changed_articles": [
     {
@@ -20,7 +20,7 @@
       "article_key": "article-2",
       "article_number": "2",
       "article_title": "제2조(적용대상)",
-      "before_text": "제2조(적용대상) 교정시설 또는 소년원, 치료감호소에 근무하는 직업훈련교사의 임용에 관하여 관련 법령 및 공무원 임용규칙(안전행정부 예규)에 따로 규정된 것을 제외하고는 이 규정에 의한다.",
+      "before_text": "제2조(적용대상) 교정시설 또는 소년원, 치료감호소에 근무하는 직업훈련교사의 임용에 관하여 관련 법령 및 공무원 임용규칙(인사혁신처 예규)에 따로 규정된 것을 제외하고는 이 규정에 의한다.",
       "change_type": "MODIFIED",
       "effective_date": "2025-02-12"
     },
@@ -56,7 +56,7 @@
       "article_key": "article-13",
       "article_number": "13",
       "article_title": "제13조(재검토기한)",
-      "before_text": "제13조(재검토기한) 법무부장관은「훈령·예규 등의 발령 및 관리에 관한 규정」(대통령훈령 제334호)에 따라 이 지침에 대하여 2017년 7월 1일 기준으로 매3년이 되는 시점(매 3년째의 6월 30일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다",
+      "before_text": "제13조(재검토기한) 법무부장관은「훈령·예규 등의 발령 및 관리에 관한 규정」(대통령훈령 제394호)에 따라 이 지침에 대하여 2020년 7월 1일 기준으로 매 3년이 되는 시점(매 3년째의 6월 30일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
       "change_type": "MODIFIED",
       "effective_date": "2025-02-12"
     }
@@ -159,7 +159,7 @@
     },
     "version_status": "CURRENT"
   },
-  "dataset_version": "ds-1f332f33e70a591d8c90bfcb93c615f2b4ab487c3cbafcd37d9442fc9da29e54",
+  "dataset_version": "ds-7805063f9c55bcd7d7616ee1e3d509f79cc0ee449489171391afacdbf9e30ed3",
   "rule": {
     "business_domains": [
       "인사·조직",
@@ -194,6 +194,6 @@
     "status": "CURRENT",
     "version_id": "2100000254466"
   },
-  "schema_version": "1.2",
+  "schema_version": "1.3",
   "upcoming": []
 }

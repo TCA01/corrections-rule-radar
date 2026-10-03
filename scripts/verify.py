@@ -8,6 +8,7 @@ from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 from pipeline.snapshot import write_json
 from pipeline.validation import validate_contract,assert_schema_freeze
+from scripts.validate_public import validate
 
 def scan_secret():
     secret=os.environ.get('LAW_API_OC','')
@@ -24,11 +25,8 @@ def main():
     stream=io.StringIO(); result=unittest.TextTestRunner(stream=stream,verbosity=0).run(suite)
     report={'tests':result.testsRun,'passed':result.wasSuccessful(),'failures':len(result.failures),'errors':len(result.errors),'failure_test_ids':[t.id() for t,_ in result.failures+result.errors],'secret_scan':scan_secret()}
     public=Path('public/api/v1'); checked=0; schema_failures=[]
-    for p in public.rglob('*.json'):
-        rel=str(p.relative_to(public)).replace('\\','/')
-        schema='version' if '/versions/' in rel else 'changes' if rel.startswith('changes/') else 'rule' if rel.startswith('rules/') else p.stem
-        try: validate_contract(schema,json.loads(p.read_text(encoding='utf-8'))); checked+=1
-        except Exception: schema_failures.append(rel)
+    try: checked=validate(public)['validated_files']
+    except Exception: schema_failures.append('PUBLIC_CONTRACT_OR_REFERENCE_VALIDATION_FAILED')
     report['public_contract']={'validated_file_count':checked,'failed_files':schema_failures,'status':'PASS' if checked and not schema_failures else 'FAIL'}
     write_json('data/reports/tests.json',report)
     print(json.dumps(report,ensure_ascii=False))

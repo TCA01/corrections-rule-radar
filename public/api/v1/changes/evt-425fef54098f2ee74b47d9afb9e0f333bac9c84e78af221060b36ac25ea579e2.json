@@ -1,0 +1,995 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "59d6862883bfa6f8ffc7b51557ebb50eefef648c819cc3271b741bbd6b086441",
+      "effective_date": "2023-02-06",
+      "identifier": "2100000218879",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000218879",
+      "snapshot_url": "/api/v1/rules/admrul-36282/versions/2100000218879-2023-02-06-f80f5bb4112f5d8b.json",
+      "version_id": "2100000218879"
+    },
+    "appendix_changes": [
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132069787",
+          "sequence": "0001",
+          "title": "물품발송원장",
+          "type": "별표",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132069783"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0001",
+          "title": "물품발송장",
+          "type": "별표",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=45482624"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132069859",
+          "sequence": "0008",
+          "title": "삭제",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132069855"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0008",
+          "title": "작업일과표",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=45478600"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132069891",
+          "sequence": "0010",
+          "title": "월분 교도작업운영현황보고",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132069885"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0010",
+          "title": "교도작업운영현황보고",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=45478986"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132069897",
+          "sequence": "0011",
+          "title": "삭제",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132069893"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0011",
+          "title": "주문접수부",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=45479016"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132069903",
+          "sequence": "0012",
+          "title": "삭제",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132069899"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0012",
+          "title": "생산계획서",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=45479038"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "02",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132069909",
+          "sequence": "0012",
+          "title": "직영작업 생산계획서",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132069905"
+        },
+        "before_metadata": null,
+        "change_type": "APPENDIX_ADDED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "03",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132069915",
+          "sequence": "0012",
+          "title": "위탁작업 생산계획서",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132069911"
+        },
+        "before_metadata": null,
+        "change_type": "APPENDIX_ADDED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "04",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132069921",
+          "sequence": "0012",
+          "title": "도급작업 계획서",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132069917"
+        },
+        "before_metadata": null,
+        "change_type": "APPENDIX_ADDED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "05",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132069927",
+          "sequence": "0012",
+          "title": "직영작업 생산결과서",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132069923"
+        },
+        "before_metadata": null,
+        "change_type": "APPENDIX_ADDED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "06",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132069933",
+          "sequence": "0012",
+          "title": "위탁작업 생산결과서",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132069929"
+        },
+        "before_metadata": null,
+        "change_type": "APPENDIX_ADDED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "07",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132069939",
+          "sequence": "0012",
+          "title": "도급작업 결과서",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132069935"
+        },
+        "before_metadata": null,
+        "change_type": "APPENDIX_ADDED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132069945",
+          "sequence": "0013",
+          "title": "삭제",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132069941"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0013",
+          "title": "직영작업명령원부",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=45479220"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132069951",
+          "sequence": "0014",
+          "title": "삭제",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132069947"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0014",
+          "title": "위탁작업명령원부",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=45479258"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132069957",
+          "sequence": "0015",
+          "title": "삭제",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132069953"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0015",
+          "title": "노무작업명령원부",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=45479262"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132069963",
+          "sequence": "0016",
+          "title": "삭제",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132069959"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0016",
+          "title": "도급작업명령원부",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=45479266"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "02",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132069997",
+          "sequence": "0020",
+          "title": "위탁(외부통근)작업 계약변경 현황",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132069993"
+        },
+        "before_metadata": null,
+        "change_type": "APPENDIX_ADDED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "03",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132070003",
+          "sequence": "0020",
+          "title": "위탁(외부통근)작업 재계약 승인신청서",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132069999"
+        },
+        "before_metadata": null,
+        "change_type": "APPENDIX_ADDED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132070077",
+          "sequence": "0031",
+          "title": "삭제",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132070073"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0031",
+          "title": "개방지역작업장통근작업 일지",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=45482260"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132070083",
+          "sequence": "0032",
+          "title": "삭제",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132070079"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0032",
+          "title": "집중근로작업장 취업대상자 명부",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=45482264"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132070095",
+          "sequence": "0034",
+          "title": "삭제",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132070091"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0034",
+          "title": "입주계약서",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=45482274"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132070101",
+          "sequence": "0035",
+          "title": "삭제",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132070097"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0035",
+          "title": "집중근로작업장 작업일지",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=45482280"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132070113",
+          "sequence": "0037",
+          "title": "삭제",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132070109"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0037",
+          "title": "지정품목 공급실적",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=45482290"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132070133",
+          "sequence": "0040",
+          "title": "전시제품 판매현황",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132070129"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0040",
+          "title": "전시제품 제작 공급현황",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=45482302"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132070139",
+          "sequence": "0041",
+          "title": "삭제",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=132070135"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0041",
+          "title": "제품생산 주문현황",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=45482306"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      }
+    ],
+    "before_version": {
+      "body_hash": "5caeab5c4edd609e11be0444d09279f53240cb5c7693bc15c7948cd7f0cb8427",
+      "effective_date": "2019-09-02",
+      "identifier": "2100000181863",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000181863",
+      "snapshot_url": "/api/v1/rules/admrul-36282/versions/2100000181863-2019-09-02-3ea8999999a1f5e7.json",
+      "version_id": "2100000181863"
+    },
+    "canonical_id": "admrul-36282",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "APPENDIX_METADATA_CHANGED",
+      "APPENDIX_ADDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 57,
+    "changed_articles": [
+      {
+        "after_text": "제3조(정의) 이 지침에서 사용하는 용어의 정의는 다음과 같다.\n1. ∼ 6. (현행과 같음)\n7. “집중근로작업장”이라 함은 집중근로제로 운영하는 작업장을 말한다.\n8. ∼ 15. (현행과 같음)\n16. “자립형교도작업”이라 함은 수형자의 근로의욕 향상과 출소 후 생활정착금 마련을 위하여 1일 실제 작업시간 7시간 확보 및 공임책정을 수량과정으로 산정하는 제도로서 작업생산량 증가실적에 따라 작업장려금이 인상되도록 하는 집중근로제를 말한다.\n17. (현행과 같음)",
+        "article_key": "article-3",
+        "article_number": "3",
+        "article_title": "제3조(정의)",
+        "before_text": "제3조(정의) 이 지침에서 사용하는 용어의 정의는 다음과 같다.\n1. ∼ 6. (생  략)\n7. “집중근로작업장”이라 함은 제108조 및 제109조의 규정에 따라 선정된 수용자가 취업하는 작업장을 말한다.\n8. ∼ 15. (생  략)\n16. “자립형교도작업”이라 함은 수형자의 근로의욕 향상과 출소 후 생활정착금 마련을 위하여 1일 실제 작업시간 8시간 확보 및 공임책정을 수량과정으로 산정하는 제도로서 작업생산량 증가실적에 따라 작업장려금이 인상되도록 하는 집중근로제를 말한다.\n17. (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제8조(작업의 폐지와 중지) ① 소장이 작업을 폐지하고자 할 때에는 법무부장관에게 승인을 받아야 한다.  이 경우 승인 신청은 에 의한다.\n② (현행과 같음)",
+        "article_key": "article-8",
+        "article_number": "8",
+        "article_title": "제8조(작업의 폐지와 중지)",
+        "before_text": "제8조(작업의 폐지와 중지) ① 소장이 작업을 폐지하고자 할 때에는 에 따라 법무부장관에게 보고를 하여야 한다. 다만, 직영작업을 폐지하고자 할 때에는 법무부장관의 승인을 받아야 한다.\n② (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제12조(작업의 부과 및 작업성적 확인) ①·② (현행과 같음)\n③ 작업장담당자는 매일 1회 이상 취업자의 작업성적을 검사하여 교정정보시스템으로 작업일과표를 작성하고 매월 말에 이를 일괄하여 직업훈련과장 또는 수용기록과장(이하 “직업훈련과장”이라 한다)에게 보고하여야 한다. 다만, 이송ㆍ출소 등으로 작업장이 변경되는 취업자에 대하여는 지체없이 보고하여야 한다.",
+        "article_key": "article-12",
+        "article_number": "12",
+        "article_title": "제12조(작업의 부과 및 작업성적 확인)",
+        "before_text": "제12조(작업의 부과 및 작업성적 확인) ①·② (생  략)\n③작업장담당자는 매일 1회 이상 취업자의 작업성적을 검사하여 의 작업일과표에 성적을 기재하고 매월 말에 이를 일괄하여 직업훈련과장 또는 수용기록과장(이하 “직업훈련과장”이라 한다)에게 보고하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제18조(생산품 위탁판매) ①·② (현행과 같음)\n③ 법무부장관은 제2항의 위탁판매에 상당한 세입목표액의 조정절차를 취하여야 한다.",
+        "article_key": "article-18",
+        "article_number": "18",
+        "article_title": "제18조(생산품 위탁판매)",
+        "before_text": "제18조(생산품 위탁판매) ①·② (생  략)\n③ 법무부장관은 제2항의 위탁판매에 상당한 세입책임액의 조정절차를 취하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제21조(주문접수) 수요자로부터 물품의 생산ㆍ제작ㆍ조제ㆍ가공ㆍ수선(이하 “생산”이라 한다) 또는 공사의 완성이나 노무의 제공에 관한 주문을 받았을 때에는 교정정보시스템으로 주문내역을 작성하여 소장에게 보고한다.",
+        "article_key": "article-21",
+        "article_number": "21",
+        "article_title": "제21조(주문접수)",
+        "before_text": "제21조(주문접수) 수요자로부터 물품의 생산ㆍ제작ㆍ조제ㆍ가공ㆍ수선(이하 “생산”이라 한다) 또는 공사의 완성이나 노무의 제공에 관한 주문을 받았을 때에는 의 주문접수부에 이를 기재하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제25조(작업시행) ① 작업은  직영작업 생산계획서,  위탁작업 생산계획서,  도급작업 생산계획서(이하 ‘생산계획서’라 칭함)에 의하여 시행한다.\n② 생산계획서는 교정정보시스템으로 작성하여 소장에게 보고한다. 다만, 필요한 경우 , , 에 의해 보고할 수 있다.\n③ 생산계획서는 생산 단위별로 작성함을 원칙으로 하되, 동일한 규격으로 계속하여 생산하는 경우 반기별 1회 이상 작성하여야 하며, 민간참여작업은 작업내용을 고려하여 매월 작성하여야 한다.\n④ 생산계획서는 작업의 시행에 필요한 설계도나 시방서 또는 기타 필요한 서류를 첨부하여야 한다. 다만, 민간참여작업의 경우에는 서류를 첨부하지 않을 수 있다.",
+        "article_key": "article-25",
+        "article_number": "25",
+        "article_title": "제25조(작업시행)",
+        "before_text": "제25조(작업명령) ① 작업은 소장의 명령에 의하여 시행한다.\n② 작업명령은 부터 까지의 작업명령원부에 의한다.\n③ 작업명령원부는 계약 또는 생산 단위별로 작성함을 원칙으로 하되, 규격 및 단가가 동일하거나 필요하다고 인정할 경우에는 일괄하여 작성할 수 있다.\n④ 작업명령원부는 작업의 시행에 필요한 설계도나 시방서 또는 기타 필요한 서류를 첨부하고 날인하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제26조(작업지시) 직업훈련과장은 생산계획서를 작업담당자에게 교부하고 작업시행에 필요한 사항을 지시하여야 하며 작업담당자는 지체 없이 작업장담당자에게 통지하여야 한다.",
+        "article_key": "article-26",
+        "article_number": "26",
+        "article_title": "제26조(작업지시)",
+        "before_text": "제26조(작업지시) 작업명령이 있을 때에는 직업훈련과장은 작업명령원부를 작업담당자에게 교부하고 작업시행에 필요한 사항을 지시하여야 하며 작업담당자는 지체 없이 작업장담당자에게 통지하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제27조(작업시행 책임과 기술지도) ① (현행과 같음)\n② 작업장담당자는 생산계획서에 의한 작업 지시를 받았을 때에는 취업자에게 필요한 사항을 지시하여 해당작업을 시행하여야 한다.\n③ (현행과 같음)\n④ 작업장담당자는 수량과정의 경우 매일 개인별 생산량을 교정정보시스템에 입력하여야 한다. 다만, 개인별 생산량을 계량하기 곤란한 경우 에 의해 조별 또는 전체 생산량을 기록하고 매월 말에 이를 일괄하여 작업담당자에게 인계하여야 한다.\n⑤ 작업장담당자는 매일 취업인원, 불취업인원, 불취업내역, 교육사항, 지시받은 사항 등을 교정정보시스템에 기록하여야 한다.",
+        "article_key": "article-27",
+        "article_number": "27",
+        "article_title": "제27조(작업시행 책임과 기술지도)",
+        "before_text": "제27조(작업시행 책임과 기술지도) ① (생  략)\n② 작업장담당자는 작업명령원부에 의한 작업 지시를 받았을 때에는 작업명령원부에 날인하고 취업자에게 필요한 사항을 지시하여 해당작업을 시행하여야 한다.\n③ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제30조(재료수불) ① 작업담당자는 생산계획서에 따라 소요재료를 파악, 소속 물품운용관을 통하여 물품관리관에게 필요물품을 청구하여 물품출납공무원으로부터 해당물품을 수령한 후 의 작업재료수불부에 소요재료의 수불내용을 기록하여 물품운용관의 확인을 받아야 한다.\n② 작업담당자는 제1항의 절차를 마친 소요재료를 지체 없이 작업장담당자에게 교부하여야 한다.\n③ 제2항의 소요재료는 분할하여 교부할 수 있으며 작업장담당자의 요청에 따라 추가로 청구하여 교부할 수 있다.",
+        "article_key": "article-30",
+        "article_number": "30",
+        "article_title": "제30조(재료수불)",
+        "before_text": "제30조(재료수불) ① 작업담당자는 작업명령원부에 의거 소요재료를 파악, 소속 물품운용관을 통하여 물품관리관에게 필요물품을 청구하여 물품출납공무원으로부터 해당물품을 수령한 후 의 작업재료수불부에 소요재료의 수불내용을 기록하여 직업훈련과장의 확인을 받아야 한다.\n② 제1항의 절차를 마친 후 작업담당자는 작업명령원부의 재료불출란에 수량을 기재하여 작업장담당자에게 지체 없이 소요재료를 교부하여야 한다.\n③ 전2항의 소요재료는 분할하여 교부할 수 있으며 추가하여 청구 하거나 또는 교부할 수 있다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제31조(생산품의 검사 및 인계) ① 작업장담당자는 지시받은 생산작업을 종료하였을 때에는 생산계획서에 따른 생산일자, 수량 기타 필요한 사항을 확인하고 작업담당자에게 생산품을 인계하여야 한다.\n② 작업담당자는 작업장담당자로부터 인계받은 생산품을 물품운용관의 확인을 받고 소관 물품출납공무원에게 인계하여야 한다.\n③ 작업장담당자는 지시받은 생산작업을 종료하기 전이라도 생산품의 일부에 대하여 작업담당자에게 인계할 수 있다.",
+        "article_key": "article-31",
+        "article_number": "31",
+        "article_title": "제31조(생산품의 검사 및 인계)",
+        "before_text": "제31조(생산품의 검사 및 인계) ① 작업장담당자는 명령받은 생산작업을 종료하였을 때에는 작업명령원부에 생산일자, 수량 기타 필요한 사항을 기재하여 작업담당자에게 인계하여야 한다.\n② 작업담당자는 작업장담당자로부터 인계받은 생산품을 소정의 검사를 거쳐 물품운용관을 통하여 소관 물품출납공무원에게 인계하여야 한다.\n③ 작업장담당자는 명령받은 생산작업을 종료하기 전이라도 생산품의 일부에 대하여 작업담당자에게 인계할 수 있으며 작업담당자는 소정의 검사를 거쳐 소관 물품운용관을 통하여 물품출납공무원에게 인계할 수 있다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제32조(작업완료 보고) 직업훈련과장은 생산계획서에 따라 생산품을 완성하면 지체없이 그 결과를 교정정보시스템으로 작성하여 소장에게 작업완료 보고를 하여야 한다. 다만, 필요한 경우  직영작업 생산결과서,  위탁작업 생산결과서,  도급작업 생산결과서(이하 ‘생산결과서’라 칭함)에 의해 보고 할 수 있다.",
+        "article_key": "article-32",
+        "article_number": "32",
+        "article_title": "제32조(작업완료 보고)",
+        "before_text": "제32조(작업완료 보고) 직업훈련과장은 소정의 검사규정에 의하여 완성된 생산품에 대하여는 지체 없이 작업명령원부를 소장에게 제시하여 작업완료 보고를 하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제35조(생산품의 출고명령 및 반출) ① 생산품은 교정정보시스템에 의한 출고명령에 따라 출고하여야 한다. 다만, 필요한 경우 에 의한 생산품출고명령원부에 따라 출고할 수 있다.\n② 생산품을 출고하고자 할 때에는 교정정보시스템으로 물품출문증을 발행하여야 한다. 다만, 필요한 경우 에 의한 물품출문증을 발행할 수 있다.\n③ (현행과 같음)\n④ 물품반출 후의 해당 출문증은 교정정보시스템으로 당직간부와 보안과장의 확인을 받아야 한다. 다만, 에 의해 발행한 물품출문증은 당직간부와 보안과장의 확인을 받은 후 출문증발급원장에 첨부, 정리하여야 한다.",
+        "article_key": "article-35",
+        "article_number": "35",
+        "article_title": "제35조(생산품의 출고명령 및 반출)",
+        "before_text": "제35조(생산품의 출고명령 및 반출) ① 생산품은 의 생산품출고명령원부에 의한 출고명령 없이는 출고시킬 수 없다.\n② 생산품을 출고하고자 할 때에는 출고명령원부에 의거 의 출문증을 발행하여야 한다.\n③ (생  략)\n④ 물품반출 후의 당해 출문증은 당직간부와 보안과장의 확인을 받은 후 직업훈련과의 출문증발급원장에 첨부, 정리하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제37조(부산물의 처리) ① 작업담당자는 작업의 부산물로서 각각의 활용가치가 있는 것은 그 품목 및 수량을 부산물처리부에 기재하고 물품운용관을 통하여 물품출납공무원에게 반납하여야 한다.\n②·③ (현행과 같음)",
+        "article_key": "article-37",
+        "article_number": "37",
+        "article_title": "제37조(부산물의 처리)",
+        "before_text": "제37조(부산물의 처리) ① 작업담당자는 작업의 부산물로서 개개로 활용가치가 있는 것은 그 품목 및 수량을 당해 작업명령원부에 기재하여 물품운용관을 통하여 물품출납공무원에게 반납하여야 한다.\n②·③ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제43조(위탁작업 계약기간) ① 위탁작업 계약을 하는 경우 법무부장관의 승인을 받아 시행한다. 다만, 재계약의 경우에는 제49조의 규정에 따라 보고 또는 승인을 받아 시행한다.\n② 위탁작업의 계약은 6개월 또는 1년을 기준으로 한다.\n③ 연도 중에 신규로 계약하는 경우에는 해당 연도 6월 30일 또는 12월 31일을 계약종료일로 한다. 다만, 해당 연도의 마지막날까지 남은 기간이 3개월 이하인 경우에는 다음 연도의 6월 30일 또는 12월 31일을 계약 종료일로 할 수 있다.",
+        "article_key": "article-43",
+        "article_number": "43",
+        "article_title": "제43조(위탁작업 계약기간)",
+        "before_text": "제43조(위탁작업 시행기간) ① 위탁작업의 기간은 6개월 또는 1년으로 하여 법무부장관의 승인을 받아 시행한다. 다만, 재계약의 경우에는 지방교정청장의 승인을 받아 시행한다.\n② 연도 중에 신규로 계약하는 경우에는 당해 연도 6월 30일 또는 12월 31일까지를 계약기간으로 한다. 다만, 연도 잔여기간이 3개월 이하인 경우에는 다음 연도 6월 30일 또는 12월 31일까지 할 수 있다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제49조(재계약 보고 및 승인) ① 위탁작업을 재계약 하는 경우 계약종료 연도 6월 10일 또는 12월 10일까지 지방교정청장에게 에 의한 계약변경 현황을 보고하여야 한다.  ② 제1항의 규정에도 불구하고 최초 승인 후 매 3년이 되는 해에는 의 재계약 승인신청서와 의 작업계획서 및 실적서를 첨부하여 재계약 승인을 신청하여야 한다.  ③ 제1항 및 제2항의 규정에도 불구하고 최초 승인 후 매 10년이 되는 해에는 제42조에 따라 법무부장관에게 승인신청을 하여야 한다.",
+        "article_key": "article-49",
+        "article_number": "49",
+        "article_title": "제49조(재계약 보고 및 승인)",
+        "before_text": "제49조(재계약 승인신청) 위탁작업 재계약 승인신청은 계약종료 연도 6월 10일 또는 12월 10일까지 하여야 하며 작업계획서 및 실적서 을 첨부하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제53조(제경비 부담) 작업상 필요한 잡품비, 전기료 등 제경비는 위탁업자가 부담하고 공임과 같이 세입 조정하여야 한다. 다만, 다수의 교정기관이 공동으로 계약하여 위탁작업을 하려는 경우 해당 작업으로 생산한 제품의 운송비에 대하여는 교정기관이 일부 부담할 수 있다.",
+        "article_key": "article-53",
+        "article_number": "53",
+        "article_title": "제53조(제경비 부담)",
+        "before_text": "제53조(제경비 부담) 작업상 필요한 잡품비, 전기료 등 제경비는 위탁업자가 부담하고 공임과 같이 세입 조정하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제55조(준용규정) 제25조, 제26조, 제27조, 제32조, 제35조, 제36조의 규정은 위탁작업에 준용한다.",
+        "article_key": "article-55",
+        "article_number": "55",
+        "article_title": "제55조(준용규정)",
+        "before_text": "제55조(준용규정) 제25조부터 제33조까지, 제35조의 규정은 위탁작업에 준용한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제57조(준용규정) 제36조, 제47조, 제48조, 제49조, 제52조, 제54조의 규정은 노무작업에 준용한다.",
+        "article_key": "article-57",
+        "article_number": "57",
+        "article_title": "제57조(준용규정)",
+        "before_text": "제57조(준용규정) 제25조부터 제27조까지의 규정은 노무작업에 준용한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제82조(계약) ① ∼ ③ (현행과 같음)",
+        "article_key": "article-82",
+        "article_number": "82",
+        "article_title": "제82조(계약)",
+        "before_text": "제82조(계약) ① ∼ ③ (생  략)\n④ 제47조부터 제48조까지의 규정을 준용한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제84조(선정절차) ①·② (현행과 같음)\n③ 개방지역에 설치된 직영작업장의 통근자 선정의 경우 제1항과 동일한 선정절차에 의한다.",
+        "article_key": "article-84",
+        "article_number": "84",
+        "article_title": "제84조(선정절차)",
+        "before_text": "제84조(선정절차) ①·② (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제87조(준용규정) 개방지역작업에 저촉되지 않는 위탁작업 및 외부기업통근작업의 규정은 본장에 준용한다.",
+        "article_key": "article-87",
+        "article_number": "87",
+        "article_title": "제87조(준용규정)",
+        "before_text": "제87조(준용규정) 제47조, 제62조부터 제66조까지, 제71조부터 제80조까지의 규정을 본장에서 준용한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제88조(경쟁방법) 개방지역작업장에 입주할 기업체와 계약을 체결하고자 하는 경우에는 경쟁입찰 방법으로 한다. 다만, 교도작업의 목적ㆍ성질ㆍ규모 등을 고려하여 입찰 참가자를 제한할 수 있다.",
+        "article_key": "article-88",
+        "article_number": "88",
+        "article_title": "제88조(경쟁방법)",
+        "before_text": "제88조(경쟁방법) 개방지역작업장에 입주할 기업체와 계약을 체결하고자 하는 경우에는 경쟁입찰 방법으로 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제91조(입찰공고) 입찰에 의하여 경쟁에 부치고자 할 때에는 「국유재산법」 제31조에 따라 총괄청이 지정ㆍ고시하는 정보처리장치를 이용하여 공고하여야 한다. 다만, 필요한 경우 일간신문 게재 또는 게시판 게시 등의 방법을 병행할 수 있다.",
+        "article_key": "article-91",
+        "article_number": "91",
+        "article_title": "제91조(입찰공고)",
+        "before_text": "제91조(입찰공고) 입찰에 의하여 경쟁에 부치고자 할 때에는 「국가를 당사자로 하는 계약에 관한 법률 시행령」 제33조에 따라 지정정보처리장치를 이용하여 공고하여야 한다. 다만, 필요한 경우 일간신문 게재 또는 게시판 게시 등의 방법을 병행할 수 있다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제95조(수의계약) 계약담당자는 제88조에도 불구하고 다음 각 호의 어느 하나에 해당하는 경우에는 수의계약을 할 수 있다.\n1.·2. (현행과 같음)\n3. 취업연계형교도작업에 참여한 경력이 있거나 참여를 희망하는 기업체. 다만, 출소자의 취업실적 증빙자료를 첨부하여야 한다.\n4. 「해외진출기업의 국내복귀 지원에 관한 법률」 및 국가 정책적 이유로 해당 기업체의 교도작업 참여를 허용하려는 경우",
+        "article_key": "article-95",
+        "article_number": "95",
+        "article_title": "제95조(수의계약)",
+        "before_text": "제95조(수의계약) 계약담당자는 제88조에도 불구하고 다음 각 호의 어느 하나에 해당하는 경우에는 수의계약을 할 수 있다.\n1.·2. (생  략)\n3. 취업연계형교도작업에 참여한 경력이 있거나 참여를 희망하는 기업체 다만, 출소자의 취업실적을 유지 관리하여야 하고, 취업실적 증빙자료를 첨부 하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제103조(작업시간) ① ∼ ③ (현행과 같음)\n④ 작업장담당자는 매일 제12조제3항 및 제27조제5항과 같이 작업일과표와 작업사항를 교정정보시스템으로 작성하여야 한다.",
+        "article_key": "article-103",
+        "article_number": "103",
+        "article_title": "제103조(작업시간)",
+        "before_text": "제103조(작업시간) ① ∼ ③ (생  략)\n④ 작업장담당자는 매일 에 의한 개방지역작업장 통근작업일지를 작성하여야 한다. 다만 제12조제3항의 작업일과표는 작성하지 아니한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제108조(대상자 선정요건) ① (현행과 같음)\n② 집중근로제 시행 소장은 작업 또는 교화상 필요하다고 인정하는 경우에는 제1항 제1호의 규정에 해당되지 아니하는 수용자를 집중근로자로 선정할 수 있다.\n③ (현행과 같음)",
+        "article_key": "article-108",
+        "article_number": "108",
+        "article_title": "제108조(대상자 선정요건)",
+        "before_text": "제108조(대상자 선정요건) ① (생  략)\n② 집중근로제 시행 소장은 작업 또는 교화상 필요하다고 인정하는 경우에는 제1항 제1호의 규정에 해당되지 아니하는 수형자를 집중근로자로 선정할 수 있다.\n③ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제109조(대상자 선정절차) 집중근로작업장 취업수용자는 제108조의 대상자 중에서 작업장담당자가 추천하는 수용자를 직업훈련과장의 심사를 거쳐 소장이 선정한다.",
+        "article_key": "article-109",
+        "article_number": "109",
+        "article_title": "제109조(대상자 선정절차)",
+        "before_text": "제109조(대상자 선정절차) ① 집중근로작업장 작업담당자는 작업장담당자가 추천하는 취업희망자를 의 집중근로작업장 취업대상자 명부에 등재하여야 한다.  ② 집중근로작업장 취업수용자는 제1항의 취업대상자 중에서 직업훈련과장의 심사를 거쳐 소장이 선정한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제122조(계약) ① 소장은 선정된 기업체의 장과 제20호 서식>의 예에 의한 집중근로작업장 입주계약서를 작성하여야 한다.\n②·③ (현행과 같음)",
+        "article_key": "article-122",
+        "article_number": "122",
+        "article_title": "제122조(계약)",
+        "before_text": "제122조(계약) ① 소장은 선정된 기업체의 장과 제34호 서식>의 예에 의한 집중근로작업장 입주계약서를 작성하여야 한다.\n②·③ (생  략)\n④ 제47조부터 제48조까지의 규정을 준용한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제124조(작업일지 등 작성) ① 작업장담당자는 매일 집중근로작업장 작업사항을 교정정보시스템으로 작성하여야 한다.\n② 작업장담당자는 수량과정의 경우 매일 개인별 생산량을 교정정보시스템에 입력하여야 한다. 다만, 개인별 생산량을 계량하기 곤란한 경우 에 의해 조별 또는 전체 생산량을 기록하고 매월 말에 이를 일괄하여 작업담당자에게 인계하여야 한다.",
+        "article_key": "article-124",
+        "article_number": "124",
+        "article_title": "제124조(작업일지 등 작성)",
+        "before_text": "제124조(작업일지 등 작성) ① 작업장담당자는 매일 에 의한 집중근로작업장 작업일지를 작성하여야 한다.\n② 작업장담당자는 매일 개인별 또는 조별 생산량을 검사하여 의 생산기록부에 그 성적을 기재하고 직업훈련과장에게 보고하여야 한다. 다만, 제12조제3항의 작업일과표는 작성하지 아니한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제127조(준용규정) 집중근로제과 저촉되지 않는 위탁작업 규정은 본장에 준용한다.",
+        "article_key": "article-127",
+        "article_number": "127",
+        "article_title": "제127조(준용규정)",
+        "before_text": "제127조(준용규정) 자립형교도작업과 저촉되지 않는 집중근로제 규정은 자립형교도작업에 준용한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제128조(자체구매품목의 지정과 해지) ① 법무부장관은 교도작업제품의 품질향상, 규격의 표준화 및 대량생산으로 적기에 염가의 제품을 생산ㆍ공급하기 위하여 교정시설의 생산능력, 기술수준, 입지적 조건 등을 고려하여 교도작업제품 자체구매품목(이하 “지정품목”이라 한다)과 이를 생산하는 교정시설(이하 “생산교도소”라 한다)을 지정한다.\n② 소장은 자소에서 생산하는 교도작업제품을 지정 또는 해지 하고자 할 때에는 법무부장관에게 승인신청을 하여야 한다.\n③ 법무부장관은 제2항의 규정에 의한 제품을 지정품목으로 지정 또는 해지한 때에는 생산교도소와 지정품목을 구매ㆍ사용하는 교정시설(이하 “수요교도소”라 한다)에 통보하여야 한다.",
+        "article_key": "article-128",
+        "article_number": "128",
+        "article_title": "제128조(자체구매품목의 지정과 해지)",
+        "before_text": "제128조(자체구매품목의 지정과 해지) ① 법무부장관은 교도작업제품의 품질향상, 규격의 표준화 및 대량생산으로 적기에 염가의 제품을 생산ㆍ공급하기 위하여 교정시설의 생산능력, 기술수준, 입지적 조건 등을 고려하여 제작교도소와 교도작업제품 자체구매품목(이하 “지정품목”이라 한다)을 지정한다.\n② 소장은 자소에서 제조하는 교도작업제품을 지정품목으로 지정 또는 해지 하고자 할 때에는 법무부장관에게 승인신청을 하여야 한다.\n③ 법무부장관은 제2항의 규정에 의한 제품을 지정품목으로 지정 또는 해지한 때에는 이를 제작교도소 및 수요교도소에 통보하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제129조(가격결정 등) 생산교도소가 지정품목의 가격 및 규격을 결정하고자 할 때에는 다음 각 호의 서류를 첨부하여 법무부장관에게 가격 및 규격승인을 신청하여 승인을 얻어야 한다.\n1. ∼ 5. (현행과 같음)",
+        "article_key": "article-129",
+        "article_number": "129",
+        "article_title": "제129조(가격결정 등)",
+        "before_text": "제129조(가격결정 등) 제작교도소장이 지정품목의 가격 및 규격을 결정하고자 할 때에는 다음 각 호의 서류를 첨부하여 법무부장관에게 가격 및 규격승인을 신청하여 승인을 얻어야 한다.\n1. ∼ 5. (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제130조(가격변동 등) ① 제129조의 규정에 의한 가격승인을 얻은 후 물가변동 기타 사유로 인하여 가격변동이 필요한 경우 생산교도소는 제129조 각호의 서류 외에 그 사유서를 첨부한 가격변동승인신청서를 법무부장관에게 제출하여 재 승인을 받아야 한다.\n② (현행과 같음)",
+        "article_key": "article-130",
+        "article_number": "130",
+        "article_title": "제130조(가격변동 등)",
+        "before_text": "제130조(가격변동 등) ① 제129조의 규정에 의한 가격승인을 얻은 후 물가변동 기타 사유로 인하여 가격변동이 필요한 경우 제작교도소장은 제129조 각호의 서류 외에 그 사유서를 첨부한 가격변동승인신청서를 법무부장관에게 제출하여 재 승인을 받아야 한다.\n② (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제131조(가격 등 통보) 생산교도소는 제129조 및 제130조의 규정에 의한 가격 및 규격의 승인을 얻은 때에는 지체 없이 수요교도소에 통보하여야 한다.",
+        "article_key": "article-131",
+        "article_number": "131",
+        "article_title": "제131조(가격 등 통보)",
+        "before_text": "제131조(가격 등 통보) 제작교도소장은 제129조 및 제130조의 규정에 의한 가격 및 규격의 승인을 얻은 때에는 지체 없이 수요교도소에 통보하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제132조(지정품목의 구매) ① 각 교정시설은 지정품목을 생산교도소에서 구매ㆍ사용하여야 한다. 다만, 생산교도소에 구매의뢰 하였으나 공급불능 통보를 받은 경우에는 외부에서 조달하되 최소한으로 억제하여야 한다.\n② (현행과 같음)\n③ 각 교정시설은 지정품목 이외의 물품이라도 교도작업에 의하여 생산되는 물품의 경우 우선적으로 구매ㆍ사용하여야 한다.",
+        "article_key": "article-132",
+        "article_number": "132",
+        "article_title": "제132조(지정품목의 구매)",
+        "before_text": "제132조(지정품목의 구매) ① 각 소장은 지정품목을 제작교도소에서 구매ㆍ사용하여야 한다. 다만, 제작교도소에 구매의뢰 하였으나 공급불능 통보를 받은 경우에는 외부에서 조달하되 최소한으로 억제하여야 한다.\n② (생  략)\n③ 각 교도소장은 지정품목 이외의 물품이라도 교도작업에 의하여 생산되는 물품의 경우 우선적으로 구매ㆍ사용하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제133조(수요교도소장에 대한 요청) ① 생산교도소는 물품의 구매실적이 현저하게 낮은 수요교도소에 대하여 구매증대를 위한 필요한 조치를 요구할 수 있다.\n② 수요교도소는 특별한 사유가 없는 한 생산교도소의 요구에 적극 협조하여야 한다.",
+        "article_key": "article-133",
+        "article_number": "133",
+        "article_title": "제133조(수요교도소장에 대한 요청)",
+        "before_text": "제133조(수요교도소장에 대한 요청) ① 제작교도소장은 물품의 구매실적이 현저하게 낮은 수요교도소장에 대하여 구매증대를 위한 필요한 조치를 요구할 수 있다.\n② 수요교도소장은 특별한 사유가 없는 한 제작교도소장의 요구에 적극 협조하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제134조(생산교도소의 품질보증) ① 생산교도소는 수요교도소에 물품을 공급함에 있어서 제품규격과 품질을 보증하여야 한다.\n② 생산교도소는 물품의 생산에 필요한 자재확보 및 품질향상을 위한 기술개발 지원 등 필요한 조치를 강구하여야 한다.",
+        "article_key": "article-134",
+        "article_number": "134",
+        "article_title": "제134조(생산교도소의 품질보증)",
+        "before_text": "제134조(제작교도소의 품질보증) ① 제작교도소장은 수요교도소에 물품을 공급함에 있어서 제품규격과 품질을 보증하여야 한다.\n② 제작교도소장은 물품의 생산에 필요한 자재확보 및 품질향상을 위한 기술개발 지원 등 필요한 조치를 강구하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제135조(구매계획의 작성) ① 각 교정시설은 예산 및 연간 예정 수요량을 감안하여 다음 회계연도의 지정품목 구매계획을 작성하여 이를 당해연도 10월 31일까지 생산교도소에 제출하여야 한다.\n② (현행과 같음)",
+        "article_key": "article-135",
+        "article_number": "135",
+        "article_title": "제135조(구매계획의 작성)",
+        "before_text": "제135조(구매계획의 작성) ① 각 교도소장은 예산 및 연간 예정 수요량을 감안하여 다음 회계연도의 지정품목 구매계획을 작성하여 이를 당해연도 10월 31일까지 제작교도소장에게 제출하여야 한다.\n② (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제136조(생산계획 제출) ① 생산교도소는 생산능력, 수요교도소의 수요량 등을 감안하여 다음 회계연도의 지정품목 생산계획을 작성하여 당해연도 11월 30일까지 법무부장관에게 보고하여야 한다.\n② (현행과 같음)\n③ 법무부장관은 제1항의 규정에 의하여 제출된 생산계획을 참작하여 다음 회계연도 지정품목 종합생산계획을 확정하여 당해 연도말까지 생산교도소 및 수요교도소에 통보하여야 한다.",
+        "article_key": "article-136",
+        "article_number": "136",
+        "article_title": "제136조(생산계획 제출)",
+        "before_text": "제136조(생산계획 제출) ① 제작교도소장은 생산능력, 수요교도소의 수요량 등을 감안하여 다음 회계연도의 지정품목 생산계획을 작성하여 당해연도 11월 30일까지 법무부장관에게 보고하여야 한다.\n② (생  략)\n③ 법무부장관은 제1항의 규정에 의하여 제출된 생산계획을 참작하여 다음 회계연도 지정품목 종합생산계획을 확정하여 당해 연도말까지 제작교도소 및 수요교도소에 통보하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제137조(제품운송) ① 물품의 운송은 철도, 정기화물 등이나 생산교도소의 차량을 이용한다.\n② 운송 도중의 분실, 파손 등에 대한 책임은 생산교도소에 있고 운송업자로부터 현품을 인수한 후의 사고 책임은 수요교도소에 있다. 다만, 인수인계과정에서 발생한 사고는 공동하여 부담한다.\n③ 물품운송에 소요되는 포장비 등 일체의 비용은 생산교도소에서 부담하되 원가에 산입한다. 다만, 도착 후의 경비는 수요교도소에서 부담한다.\n④ 물품발송 시에는 의 물품발송장을 물품과 함께 발송하고 물품발송 후 지체 없이 대금 납입고지서를 발송하여야 한다.",
+        "article_key": "article-137",
+        "article_number": "137",
+        "article_title": "제137조(제품운송)",
+        "before_text": "제137조(제품운송) ① 물품의 운송은 철도, 정기화물 등이나 제작교도소의 차량을 이용한다.\n② 운송 도중의 분실, 파손 등에 대한 책임은 제작교도소에 있고 운송업자로부터 현품을 인수한 후의 사고 책임은 수요교도소에 있다. 다만, 인수인계과정에서 발생한 사고는 공동하여 부담한다.\n③ 물품운송에 소요되는 포장비 등 일체의 비용은 제작교도소에서 부담하되 원가에 산입한다. 다만, 도착 후의 경비는 수요교도소에서 부담한다.\n④ 물품발송 시에는 의 물품발송장을 물품과 함께 발송하고 물품발송 후 지체 없이 대금 납입고지서를 발송하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제139조(실적보고) 생산교도소의 지정품목에 대한 공급실적 보고는〈별지 제10호 서식〉의 교도작업운영현황보고로 갈음한다.",
+        "article_key": "article-139",
+        "article_number": "139",
+        "article_title": "제139조(실적보고)",
+        "before_text": "제139조(실적보고) 제작교도소장은 지정품목에 대한 공급실적을 에 의거 분기별로 작성하여 당해 분기종료 후 10일 이내에 법무부장관에게 보고하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제141조(검사대상) 교도작업에서 생산하는 모든 제품과 재공품, 제품을 생산하기 위하여 구입한 재료 및 자재에 대하여는 이 지침에 의한 검사공무원의 검사를 받아야 한다. 다만, 성질상 검사가 필요 없다고 소장이 인정하는 품목과 민간참여작업 생산품은 검사공무원의 검사를 생략할 수 있다.",
+        "article_key": "article-141",
+        "article_number": "141",
+        "article_title": "제141조(검사대상)",
+        "before_text": "제141조(검사대상) 교도작업에서 생산하는 모든 제품과 재공품, 제품을 생산하기 위하여 구입한 재료 및 자재에 대하여는 이 지침에 의한 검사공무원의 검사를 받아야 한다. 다만, 성질상 검사가 필요 없다고  소장이 인정하는 품목은 그러하지 아니하다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제161조(회의 의결방법) ① (현행과 같음)\n② 평가위원회의 의사는 구성원 과반수의 출석과 출석구성원 과반수의 찬성으로 의결한다.\n④ (현행과 같음)",
+        "article_key": "article-161",
+        "article_number": "161",
+        "article_title": "제161조(회의 의결방법)",
+        "before_text": "제161조(회의 의결방법) ① (생  략)\n② 평가위원회의 의사는 위원장을 포함한 재적위원 과반수이상의 출석과 출석위원 과반수이상의 찬성으로 의결한다.\n③ 위원장은 표결권을 가지며 가부동수인 경우에는 결정권을 가진다.\n④ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제164조(기록) ① (현행과 같음)\n② 위원장이 필요하다고 인정할 때에는 생산결과서를 제1항의 교도작업제품평가부에 갈음할 수 있다.",
+        "article_key": "article-164",
+        "article_number": "164",
+        "article_title": "제164조(기록)",
+        "before_text": "제164조(기록) ① (생  략)\n② 위원장이 필요하다고 인정할 때에는 의 작업명령원부를 제1항의 교도작업제품평가부에 갈음할 수 있다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제169조(수급계획) ① (현행과 같음)\n② 법무부장관은 전시제품 생산 교도소를 지정하여 공급에 원활을 기하도록 하여야 한다.",
+        "article_key": "article-169",
+        "article_number": "169",
+        "article_title": "제169조(수급계획)",
+        "before_text": "제169조(수급계획) ① (생  략)\n② 법무부장관은 전시제품 제작 교도소를 지정하여 공급에 원활을 기하도록 하여야 한다.\n③ 전시제품 제작기관으로 지정된 교도소장은 전시제품 제작공급 현황을 매월 말 기준 에 의거 작성, 다음달 5일까지 법무부장관에게 보고하여야 한다. 다만, 부득이한 사정으로 공급이 불가능할 때에는 즉시 그 사유를 보고하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제173조(주문 및 판매) 전시관 운영 교정시설의 소장은 전시제품 주문을 받아 판매하는 경우 의 전시제품 판매현황을 월말 기준으로 작성하여 다음 달 5일까지 법무부장관에게 보고하여야 한다.",
+        "article_key": "article-173",
+        "article_number": "173",
+        "article_title": "제173조(주문 및 판매)",
+        "before_text": "제173조(주 문) 전시관운영소장이 제품생산 주문을 받았을 때에는 적합성, 채산성, 생산능력 등을 종합 검토하여 에 의거 법무부장관에게 보고하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제174조(판매방법) 전시관의 제품은 현금판매 이외에 신용카드, 계좌이체 등의 방법으로 판매할 수 있다.",
+        "article_key": "article-174",
+        "article_number": "174",
+        "article_title": "제174조(판매방법)",
+        "before_text": "제174조(판 매) 전시관의 제품은 정찰제로 현금 판매함을 원칙으로 한다. 다만, 운영상 필요하다고 인정할 때에는 예외로 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제175조(판매가격 결정) 전시제품의 판매가격은 생산기관의 의견을 참조하여 전시관 운영 교정시설의 평가위원회에서 결정한다.",
+        "article_key": "article-175",
+        "article_number": "175",
+        "article_title": "제175조(판매가격 결정)",
+        "before_text": "제175조(판매가격 결정) 전시제품의 판매가격은 제작기관의 의견을 참조하여 전시관 설치교도소의 평가위원회에서 결정한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제197조(부상) 제안수상자에 대하여는 예산의 범위 안에서 부상을 수여하되 그 기준은 별표 5의 포상기준표에 의한다.",
+        "article_key": "article-197",
+        "article_number": "197",
+        "article_title": "제197조(부상)",
+        "before_text": "제197조(부상) 제안수상자에 대하여는 예산의 범위 안에서 부상을 수여하되 그 기준은 별표 4의 포상기준표에 의한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제210조(작업자 안전교육) ① (현행과 같음)\n② 제1항의 교육은 직업훈련과장이 매분기 1회, 작업장관할 간부가 매월 1회, 작업장담당 직원이 매주 1회 또는 필요한 경우 수시로 실시하는 것을 그 내용으로 하며 교정정보시스템에 그 기록을 유지하여야 한다.\n③ (현행과 같음)",
+        "article_key": "article-210",
+        "article_number": "210",
+        "article_title": "제210조(작업자 안전교육)",
+        "before_text": "제210조(작업자 안전교육) ① (생  략)\n② 제1항의 교육은 직업훈련과장이 매분기 1회, 작업장관할 간부가 매월 1회, 작업장담당 직원이 매주 1회 또는 필요한 경우 수시로 실시하는 것을 그 내용으로 하며 교육일지 또는 작업장일지에 그 기록을 유지하여야 한다.\n③ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제216조(화기단속 책임자 지정) ① 소장은 「공공기관의 소방안전관리에 관한 규정」제9조에 따른 화기 단속 및 화재 예방을 위하여 각 부서별 또는 시설물에 정ㆍ부 각 1인의 화기단속 책임자를 임명하여야 한다.\n②·③ (현행과 같음)",
+        "article_key": "article-216",
+        "article_number": "216",
+        "article_title": "제216조(화기단속 책임자 지정)",
+        "before_text": "제216조(화기단속 책임자 지정) ① 소장은 「공공기관의 방화관리에 관한 규정」제5조에 의하여 각 부서별 또는 시설물에 정ㆍ부 각 1인의 화기단속 책임자를 임명하여야 한다.\n②·③ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제228조(유독물의 표시) 유독물 관리자는 「화학물질관리법 시행규칙」 제12조에 의한 유독물의 표시를 하여야 한다.",
+        "article_key": "article-228",
+        "article_number": "228",
+        "article_title": "제228조(유독물의 표시)",
+        "before_text": "제228조(유독물의 표시) 유독물 관리자는 「유해화학물질관리법 시행규칙」 제28조에 의한 유독물의 표시를 하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제229조(유독물의 보관 및 저장) ① ∼ ③ (현행과 같음)\n④ 유독물 보관 장소에는 관리책임자 등 지정인 이외에는 접근을 금하고 소화기와 개인보호장구를 비치하여야 한다.",
+        "article_key": "article-229",
+        "article_number": "229",
+        "article_title": "제229조(유독물의 보관 및 저장)",
+        "before_text": "제229조(유독물의 보관 및 저장) ① ∼ ③ (생  략)\n④ 유독물 보관 장소에는 관리책임자 등 지정인 이외에는 접근을 금하고 소화기를 비치하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제232조(유독물 취급자 지정) 직업훈련과장은 유독물을 취급하는 수형자(이하 “사용자”라 한다.)를 지정하며, 칭호번호ㆍ성명ㆍ작업종목ㆍ유독물의 종류ㆍ취급시작일ㆍ취급종료일 등을 교정정보시스템에 기록하여 확인ㆍ감독한다.",
+        "article_key": "article-232",
+        "article_number": "232",
+        "article_title": "제232조(유독물 취급자 지정)",
+        "before_text": "제232조(유독물 취급자 지정) 직업훈련과장은 유독물을 취급하는 수형자(이하 “사용자”라 한다.)를 지정하며, 칭호번호ㆍ성명ㆍ작업종목ㆍ유독물의 종류 및 취업시간 등을 매일 기록하고 확인ㆍ감독한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제233조(작업장에 교부된 유독물의 취급) ① 사용자에 대한 안전교육은 직업훈련과장이 매월 1회, 작업장관할 간부가 매주 1회, 작업담당자 및 작업장담당자는 매일 1회 이상 실시하여야 하며, 작업장담당자는 교정정보시스템에 교육사항을 기록한다.\n② ∼ ⑤ (현행과 같음)",
+        "article_key": "article-233",
+        "article_number": "233",
+        "article_title": "제233조(작업장에 교부된 유독물의 취급)",
+        "before_text": "제233조(작업장에 교부된 유독물의 취급) ① 사용자에 대한 안전교육은 직업훈련과장이 매월 1회, 작업장관할 간부가 매주 1회, 작업담당자 및 작업장담당자는 매일 1회 이상 실시하여야 하며 교육일지 및 작업장일지에 그 기록을 유지하여야 한다.\n② ∼ ⑤ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제234조(타과와의 감독협조 등) ①·② (현행과 같음)\n③ 의료과장은 연 1회 이상 유독물 사용자의 건강을 확인하여야 한다.\n④·⑤ (현행과 같음)",
+        "article_key": "article-234",
+        "article_number": "234",
+        "article_title": "제234조(타과와의 감독협조 등)",
+        "before_text": "제234조(타과와의 감독협조 등) ①·② (생  략)\n③ 의료과장은 3월에 1회 이상 유독물 사용자의 건강진단을 시행한다.\n④·⑤ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      },
+      {
+        "after_text": "제236조(재검토기한) 법무부장관은 「훈령ㆍ예규 등의 발령 및 관리에 관한 규정」에 따라 이 지침에 대하여 2023년 1월 1일 기준으로 매 3년이 되는 시점(매 3년째의 12월 31일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+        "article_key": "article-236",
+        "article_number": "236",
+        "article_title": "제236조(재검토기한)",
+        "before_text": "제236조(재검토기한) 법무부장관은 「훈령ㆍ예규 등의 발령 및 관리에 관한 규정」에 따라 이 지침에 대하여 2020년 1월 1일 기준으로 매 3년이 되는 시점(매 3년째의 12월 31일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-02-06"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "4b5c640cec80241af28142fdf3dba15dddb0e7281f745a452391028da53ff418",
+      "credential_redacted": false,
+      "raw_sha256": "b84d0a719e74b88434a9e20f478a11bcb49dfc8923fd707d2d5e90f657d51d96",
+      "request": {
+        "ID": "2100000218879",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "b84d0a719e74b88434a9e20f478a11bcb49dfc8923fd707d2d5e90f657d51d96"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2023-02-06",
+    "event_id": "evt-425fef54098f2ee74b47d9afb9e0f333bac9c84e78af221060b36ac25ea579e2",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000218879",
+    "promulgation_or_issue_date": "2023-02-06",
+    "regulation_name": "교도작업운영지침",
+    "regulation_type": "예규"
+  },
+  "schema_version": "1.3"
+}

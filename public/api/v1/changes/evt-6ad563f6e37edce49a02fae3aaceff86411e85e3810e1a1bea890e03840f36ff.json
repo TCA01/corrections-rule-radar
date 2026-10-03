@@ -1,0 +1,91 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "e2135d10f94038893f5be5db80f90ec455700d2eb8eafe0a77c4117016fafbc5",
+      "effective_date": "2022-12-27",
+      "identifier": "246593",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=246593",
+      "snapshot_url": "/api/v1/rules/law-001668/versions/246593-2022-12-27-8e90484309ae300e.json",
+      "version_id": "246593"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "3fd17da7c85fc10ae0dbcbb1d479a7b9314056387c2d967ec5b44b91c2f8de72",
+      "effective_date": "2020-08-05",
+      "identifier": "213833",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=213833",
+      "snapshot_url": "/api/v1/rules/law-001668/versions/213833-2020-08-05-ec42688d940416ca.json",
+      "version_id": "213833"
+    },
+    "canonical_id": "law-001668",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 4,
+    "changed_articles": [
+      {
+        "after_text": "제41조(접견) ① (현행과 같음)\n② 수용자의 접견은 접촉차단시설이 설치된 장소에서 하게 한다. 다만, 다음 각 호의 어느 하나에 해당하는 경우에는 접촉차단시설이 설치되지 아니한 장소에서 접견하게 한다.\n1. 미결수용자(형사사건으로 수사 또는 재판을 받고 있는 수형자와 사형확정자를 포함한다)가 변호인(변호인이 되려는 사람을 포함한다. 이하 같다)과 접견하는 경우\n2. 수용자가 소송사건의 대리인인 변호사와 접견하는 경우 등 수용자의 재판청구권 등을 실질적으로 보장하기 위하여 대통령령으로 정하는 경우로서 교정시설의 안전 또는 질서를 해칠 우려가 없는 경우\n③ ∼ ⑥ (현행과 같음)",
+        "article_key": "article-41",
+        "article_number": "41",
+        "article_title": "제41조(접견)",
+        "before_text": "제41조(접견) ① (생  략)\n② 수용자의 접견은 접촉차단시설이 설치된 장소에서 하게 한다. 다만, 다음 각 호의 어느 하나에 해당하는 경우에는 접촉차단시설이 설치되지 아니한 장소에서 접견하게 한다.\n1. 미결수용자(형사사건으로 수사 또는 재판을 받고 있는 수형자와 사형확정자를 포함한다)가 변호인과 접견하는 경우\n2. 수용자가 소송사건의 대리인인 변호사와 접견하는 경우로서 교정시설의 안전 또는 질서를 해칠 우려가 없는 경우\n③ ∼ ⑥ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2022-12-27"
+      },
+      {
+        "after_text": "제71조(작업시간 등) ① 1일의 작업시간(휴식ㆍ운동ㆍ식사ㆍ접견 등 실제 작업을 실시하지 않는 시간을 제외한다. 이하 같다)은 8시간을 초과할 수 없다.② 제1항에도 불구하고 취사ㆍ청소ㆍ간병 등 교정시설의 운영과 관리에 필요한 작업의 1일 작업시간은 12시간 이내로 한다.③ 1주의 작업시간은 52시간을 초과할 수 없다. 다만, 수형자가 신청하는 경우에는 1주의 작업시간을 8시간 이내의 범위에서 연장할 수 있다.④ 제2항 및 제3항에도 불구하고 19세 미만 수형자의 작업시간은 1일에 8시간을, 1주에 40시간을 초과할 수 없다.⑤ 공휴일ㆍ토요일과 대통령령으로 정하는 휴일에는 작업을 부과하지 아니한다. 다만, 다음 각 호의 어느 하나에 해당하는 경우에는 작업을 부과할 수 있다.1. 제2항에 따른 교정시설의 운영과 관리에 필요한 작업을 하는 경우2. 작업장의 운영을 위하여 불가피한 경우3. 공공의 안전이나 공공의 이익을 위하여 긴급히 필요한 경우4. 수형자가 신청하는 경우",
+        "article_key": "article-71",
+        "article_number": "71",
+        "article_title": "제71조(작업시간 등)",
+        "before_text": "제71조(휴일의 작업) 공휴일ㆍ토요일과 그 밖의 휴일에는 작업을 부과하지 아니한다. 다만, 취사ㆍ청소ㆍ간호, 그 밖에 특히 필요한 작업은 예외로 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2022-12-27"
+      },
+      {
+        "after_text": "제74조(위로금ㆍ조위금) ① (현행과 같음)\n② 위로금은 본인에게 지급하고, 조위금은 그 상속인에게 지급한다.",
+        "article_key": "article-74",
+        "article_number": "74",
+        "article_title": "제74조(위로금ㆍ조위금)",
+        "before_text": "제74조(위로금ㆍ조위금) ① (생  략)\n② 위로금은 석방할 때에 본인에게 지급하고, 조위금은 그 상속인에게 지급한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2022-12-27"
+      },
+      {
+        "after_text": "제84조(변호인과의 접견 및 편지수수) ① 제41조제4항에도 불구하고 미결수용자와 변호인과의 접견에는 교도관이 참여하지 못하며 그 내용을 청취 또는 녹취하지 못한다. 다만, 보이는 거리에서 미결수용자를 관찰할 수 있다.\n②·③ (현행과 같음)",
+        "article_key": "article-84",
+        "article_number": "84",
+        "article_title": "제84조(변호인과의 접견 및 편지수수)",
+        "before_text": "제84조(변호인과의 접견 및 편지수수) ① 제41조제4항에도 불구하고 미결수용자와 변호인(변호인이 되려고 하는 사람을 포함한다. 이하 같다)과의 접견에는 교도관이 참여하지 못하며 그 내용을 청취 또는 녹취하지 못한다. 다만, 보이는 거리에서 미결수용자를 관찰할 수 있다.\n②·③ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2022-12-27"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "fc0b1d5bf7955a41b33b883a60c7bbc1dc1a94701eab7d32cf52333a071ca7b2",
+      "credential_redacted": false,
+      "raw_sha256": "43695e96288fec64a5541051880612ddb967d0f79b3557fdde6048e4d38ceb28",
+      "request": {
+        "MST": "246593",
+        "target": "oldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "43695e96288fec64a5541051880612ddb967d0f79b3557fdde6048e4d38ceb28"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2022-12-27",
+    "event_id": "evt-6ad563f6e37edce49a02fae3aaceff86411e85e3810e1a1bea890e03840f36ff",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=246593",
+    "promulgation_or_issue_date": "2022-12-27",
+    "regulation_name": "형의 집행 및 수용자의 처우에 관한 법률",
+    "regulation_type": "법률"
+  },
+  "schema_version": "1.3"
+}

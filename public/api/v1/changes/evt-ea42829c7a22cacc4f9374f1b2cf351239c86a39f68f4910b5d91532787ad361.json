@@ -1,0 +1,92 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "b9db9c722cd0f7bd3484fafa84d0930a7d07f3c691ab404d6f947d8fce4f3638",
+      "effective_date": "2017-01-01",
+      "identifier": "2100000071879",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000071879",
+      "snapshot_url": "/api/v1/rules/admrul-37576/versions/2100000071879-2017-01-01-5fc1c31b06fb98da.json",
+      "version_id": "2100000071879"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "2c8dc3d595f1c56ee575baf36c5474ffc9812677293dee2ae780e1ca167bbdd6",
+      "effective_date": "2013-01-01",
+      "identifier": "2000000021708",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2000000021708",
+      "snapshot_url": "/api/v1/rules/admrul-37576/versions/2000000021708-2013-01-01-b2cfa135c2c103e8.json",
+      "version_id": "2000000021708"
+    },
+    "canonical_id": "admrul-37576",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "RULE_RENAMED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 4,
+    "changed_articles": [
+      {
+        "after_text": "제2조(기능) ① 중앙급식관리위원회는 다음 각 호의 사항을 심의한다.\n1. 교도소ㆍ구치소 및 그 지소, 보호감호소(이하 “수용기관”이라 한다)에 수용된 수형자ㆍ미결수용자ㆍ사형확정자 및 피보호감호자(이하 “수용자”라 한다)의 급식 및 식품위생에 관한 사항\n2.·3. (현행과 같음)\n② 각 수용기관에 두는 급식관리위원회(이하“지방급식관리위원회”라 한다)는 다음 각 호의 사항을 심의한다.\n1. 법무부장관이 결정한 수용자에게 급식할 영양섭취 기준 내에서의 식단 선택과 그 수량의 결정에 관한 사항\n2. 제1호의 선택된 식단과 수량에 대한 함유 영양량의 검토에 관한 사항\n3. (현행과 같음)",
+        "article_key": "article-2",
+        "article_number": "2",
+        "article_title": "제2조(기능)",
+        "before_text": "제2조(기능) ① 중앙급식관리위원회는 다음 각 호의 사항을 심의한다.\n1. 교도소ㆍ구치소 및 그 지소, 보호감호소(이하 “수용기관”이라 한다)에 수용된 수형자ㆍ미결수용자ㆍ사형확정자 및 피보호감호자(이하 “수용자”라 한다)에게 급식할 부식의 식군과 수량의 결정에 관한 사항\n2.·3. (생  략)\n② 각 수용기관에 두는 급식관리위원회(이하“지방급식관리위원회”라 한다)는 다음 각 호의 사항을 심의한다.\n1. 법무부장관이 결정한 수용자에게 급식할 부식의 식군 내에서의 품종선택과 그 수량의 결정에 관한 사항\n2. 제1호의 선택된 품종과 수량에 대한 함유 영양량의 검토에 관한 사항\n3. (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2017-01-01"
+      },
+      {
+        "after_text": "제6조(위원장의 임무 등) ① 중앙급식관리위원회 및 지방급식관리위원회(이하“각 위원회”라 한다)의 위원장은 각 위원회를 대표하며, 각 위원회의 업무를 통할한다.\n② (현행과 같음)",
+        "article_key": "article-6",
+        "article_number": "6",
+        "article_title": "제6조(위원장의 임무 등)",
+        "before_text": "제6조(위원장의 임무 등) ① 중앙급식관리위원회 및 지방급식관리위원회(이하“각 위원회”라 한다)의 위원장은 각 위원회를 대표하며, 각 위원회의 업무를 통할한다.\n② (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2017-01-01"
+      },
+      {
+        "after_text": "제9조(간사) ①·② (현행과 같음)\n③ 지방급식관리위원회의 간사는 해당 수용기관의 복지과장(지소는 복지 교감)이 된다.",
+        "article_key": "article-9",
+        "article_number": "9",
+        "article_title": "제9조(간사)",
+        "before_text": "제9조(간사) ①·② (생  략)\n③ 지방급식관리위원회의 간사는 해당 수용기관의 복지과장(구치지소는 식품위생직)이 된다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2017-01-01"
+      },
+      {
+        "after_text": "제12조(재검토기한) 「훈령ㆍ예규 등의 발령 및 관리에 관한 규정」에 따라 이 훈령에 대하여 2017년 1월 1일 기준으로 매 3년이 되는 시점(매 3년째의 12월 31일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+        "article_key": "article-12",
+        "article_number": "12",
+        "article_title": "제12조(재검토기한)",
+        "before_text": "제12조(재검토기한) 「훈령ㆍ예규 등의 발령 및 관리에 관한 규정」(대통령훈령 제248호)에 따라 이 훈령 발령 후의 법령이나 현실여건의 변화 등을 검토하여 이 훈령의 폐지, 개정 등의 조치를 하여야 하는 기한은 2015년 12월 31일까지로 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2017-01-01"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "04e2c78e0e9f7c79bf044abcdabdb0cbf9045ea2805c9e52aba5b59f503576b6",
+      "credential_redacted": false,
+      "raw_sha256": "6ae675ad739f569f71e74f41c624331990821923b610d24e641d41d76616d82a",
+      "request": {
+        "ID": "2100000071879",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "6ae675ad739f569f71e74f41c624331990821923b610d24e641d41d76616d82a"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2017-01-01",
+    "event_id": "evt-ea42829c7a22cacc4f9374f1b2cf351239c86a39f68f4910b5d91532787ad361",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000071879",
+    "promulgation_or_issue_date": "2016-12-30",
+    "regulation_name": "수용자 급식관리위원회 운영지침",
+    "regulation_type": "훈령"
+  },
+  "schema_version": "1.3"
+}

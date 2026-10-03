@@ -1,0 +1,99 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "7191f0bc5931c70179aefb29155b092c3eb45d48d1b202341dd789a5be2e91f9",
+      "effective_date": "2013-04-05",
+      "identifier": "138747",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=138747",
+      "snapshot_url": "/api/v1/rules/law-010878/versions/138747-2013-04-05-4202dc32453c274e.json",
+      "version_id": "138747"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "c24a1d04ad745a66df7bf352fe6acedd9e087ad18c8a28bb310247533d640e9c",
+      "effective_date": "2010-01-01",
+      "identifier": "90087",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=90087",
+      "snapshot_url": "/api/v1/rules/law-010878/versions/90087-2010-01-01-c687d951df91c46f.json",
+      "version_id": "90087"
+    },
+    "canonical_id": "law-010878",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 6,
+    "changed_articles": [
+      {
+        "after_text": "제2조(정의) 이 법에서 사용하는 용어의 정의는 다음과 같다.\n1. \"교도작업\"이란 교정시설의 수용자에게 부과하는 작업을 말한다.\n2. \"공공기관\"이란 「공공기관의 운영에 관한 법률」 제4조부터 제6조까지의 규정에 따라 지정ㆍ고시된 기관을 말한다.",
+        "article_key": "article-2",
+        "article_number": "2",
+        "article_title": "제2조(정의)",
+        "before_text": "제2조(정의) 이 법에서 사용하는 용어의 정의는 다음과 같다.1. \"교도작업\"이란 교정시설의 수용자에게 부과하는 작업을 말한다.2. \"공공기관\"이란 「공공기관의 운영에 관한 법률」 제4조부터 제6조까지의 규정에 따라 지정ㆍ고시된 기관을 말한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2013-04-05"
+      },
+      {
+        "after_text": "제6조(교도작업에의 민간참여)\n① 법무부장관은 「형의 집행 및 수용자의 처우에 관한 법률」 제68조에 따라 수형자가 외부기업체 등에 통근 작업하거나 교정시설의 안에 설치된 외부기업체의 작업장에서 작업할 수 있도록 민간기업을 참여하게 하여 교도작업을 운영할 수 있다.\n② 교정시설의 장은 제1항에 따라 민간기업이 참여할 교도작업(이하 이 조에서 \"민간참여작업\"이라 한다)의 내용을 해당 기업체와의 계약으로 정하고 이에 대하여 법무부장관의 승인(재계약의 경우에는 지방교정청장의 승인)을 받아야 한다. 다만, 법무부장관이 정하는 단기의 계약에 대하여는 그러하지 아니하다.\n③ 제1항 및 제2항에 따른 민간기업의 참여 절차, 민간참여작업의 종류, 그 밖에 민간참여작업의 운영에 필요한 사항은 「형의 집행 및 수용자의 처우에 관한 법률」 제68조제1항의 사항을 고려하여 법무부장관이 정한다.",
+        "article_key": "article-6",
+        "article_number": "6",
+        "article_title": "제6조(교도작업에의 민간참여)",
+        "before_text": "제6조(교도작업에의 민간참여) ① 법무부장관은 「형의 집행 및 수용자의 처우에 관한 법률」 제68조에 따라 수형자가 외부기업체 등에 통근 작업하거나 교정시설의 안에 설치된 외부기업체의 작업장에서 작업할 수 있도록 민간기업을 참여하게 하여 교도작업을 운영할 수 있다.② 교정시설의 장은 제1항에 따라 민간기업이 참여할 교도작업(이하 이 조에서 \"민간참여작업\"이라 한다)의 내용을 해당 기업체와의 계약으로 정하고 이에 대하여 법무부장관의 승인(재계약의 경우에는 지방교정청장의 승인)을 받아야 한다. 다만, 법무부장관이 정하는 단기의 계약에 대하여는 그러하지 아니하다.③ 제1항 및 제2항에 따른 민간기업의 참여 절차, 민간참여작업의 종류, 그 밖에 민간참여작업의 운영에 필요한 사항은 「형의 집행 및 수용자의 처우에 관한 법률」 제68조제1항의 사항을 고려하여 법무부장관이 정한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2013-04-05"
+      },
+      {
+        "after_text": "제8조(교도작업특별회계의 설치ㆍ운용)\n① 교도작업의 효율적인 운영을 위하여 교도작업특별회계(이하 \"특별회계\"라 한다)를 설치한다.\n② 특별회계는 법무부장관이 운용ㆍ관리한다.",
+        "article_key": "article-8",
+        "article_number": "8",
+        "article_title": "제8조(교도작업특별회계의 설치ㆍ운용)",
+        "before_text": "제8조(교도작업특별회계의 설치ㆍ운용) ① 교도작업의 효율적인 운영을 위하여 교도작업특별회계(이하 \"특별회계\"라 한다)를 설치한다.② 특별회계는 법무부장관이 운용ㆍ관리한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2013-04-05"
+      },
+      {
+        "after_text": "제9조(특별회계의 세입ㆍ세출)\n① 특별회계의 세입(歲入)은 다음 각 호와 같다.\n1. 교도작업으로 생산된 제품 및 서비스의 판매, 그 밖에 교도작업에 부수되는 수입금\n2. 제10조에 따른 일반회계로부터의 전입금\n3. 제11조에 따른 차입금\n② 특별회계의 세출(歲出)은 다음 각 호와 같다.\n1. 교도작업의 관리, 교도작업 관련 시설의 마련 및 유지ㆍ보수, 그 밖에 교도작업의 운영을 위하여 필요한 경비\n2. 「형의 집행 및 수용자의 처우에 관한 법률」 제73조제2항의 작업장려금\n3. 「형의 집행 및 수용자의 처우에 관한 법률」 제74조의 위로금 및 조위금\n4. 수용자의 교도작업 관련 직업훈련을 위한 경비",
+        "article_key": "article-9",
+        "article_number": "9",
+        "article_title": "제9조(특별회계의 세입ㆍ세출)",
+        "before_text": "제9조(특별회계의 세입ㆍ세출) ① 특별회계의 세입(歲入)은 다음 각 호와 같다.1. 교도작업으로 생산된 제품 및 서비스의 판매, 그 밖에 교도작업에 부수되는 수입금2. 제10조에 따른 일반회계로부터의 전입금3. 제11조에 따른 차입금② 특별회계의 세출(歲出)은 다음 각 호와 같다.1. 교도작업의 관리, 교도작업 관련 시설의 마련 및 유지ㆍ보수, 그 밖에 교도작업의 운영을 위하여 필요한 경비2. 「형의 집행 및 수용자의 처우에 관한 법률」 제73조제2항의 작업장려금3. 「형의 집행 및 수용자의 처우에 관한 법률」 제74조의 위로금 및 조위금4. 수용자의 교도작업 관련 직업훈련을 위한 경비",
+        "change_type": "MODIFIED",
+        "effective_date": "2013-04-05"
+      },
+      {
+        "after_text": "제11조(일시 차입 등)\n① 특별회계는 지출할 자금이 부족할 경우에는 특별회계의 부담으로 국회의 의결을 받은 금액의 범위에서 일시적으로 차입하거나 세출예산의 범위에서 수입금 출납공무원 등이 수납한 현금을 우선 사용할 수 있다.\n② 제1항에 따라 일시적으로 차입하거나 우선 사용한 자금은 해당 회계연도 내에 상환하거나 지출금으로 대체납입하여야 한다.",
+        "article_key": "article-11",
+        "article_number": "11",
+        "article_title": "제11조(일시 차입 등)",
+        "before_text": "제11조(일시 차입 등) ① 특별회계는 지출할 자금이 부족할 경우에는 특별회계의 부담으로 국회의 의결을 받은 금액의 범위에서 일시적으로 차입하거나 세출예산의 범위에서 수입금 출납공무원 등이 수납한 현금을 우선 사용할 수 있다.② 제1항에 따라 일시적으로 차입하거나 우선 사용한 자금은 해당 회계연도 내에 상환하거나 지출금으로 대체납입하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2013-04-05"
+      },
+      {
+        "after_text": "제11조의2(잉여금의 처리) 특별회계의 결산상 잉여금은 다음 연도의 세입에 이입한다.",
+        "article_key": "article-11의2",
+        "article_number": "11의2",
+        "article_title": "제11조의2(잉여금의 처리)",
+        "before_text": null,
+        "change_type": "ADDED",
+        "effective_date": "2013-04-05"
+      }
+    ],
+    "comparison_evidence": null,
+    "comparison_scope": "FULL_STRUCTURED_BODY",
+    "comparison_source": "STRUCTURED_SNAPSHOT_DIFF",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2013-04-05",
+    "event_id": "evt-75b50e79d3117c6bde67af809210cc22de167a21621b6c0c80ed07e3a20288ab",
+    "fallback_reason": "OFFICIAL_COMPARISON_PAIR_OR_TEXT_UNAVAILABLE",
+    "official_old_new_available": false,
+    "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=138747",
+    "promulgation_or_issue_date": "2013-04-05",
+    "regulation_name": "교도작업의 운영 및 특별회계에 관한 법률",
+    "regulation_type": "법률"
+  },
+  "schema_version": "1.3"
+}

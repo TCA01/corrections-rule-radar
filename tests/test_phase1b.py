@@ -138,7 +138,11 @@ class Phase1BTests(unittest.TestCase):
     def test_artifact_rejects_private_files_and_secret_in_assets(self):
         with tempfile.TemporaryDirectory() as tmp:
             root=Path(tmp); (root/'assets').mkdir(); (root/'index.html').write_text('<script src="/assets/app-AbCd1234.js"></script>',encoding='utf-8'); (root/'assets/app-AbCd1234.js').write_text('ok',encoding='utf-8')
-            shutil.copytree(ROOT/'public/api/v1',root/'api/v1')
+            # Verify the current contract candidate independently of whether the
+            # authorized production migration has already been performed.
+            candidate=root/'candidate'; _,files=build_contract(self.small_collection(),[],AT); publish(files,candidate)
+            shutil.copytree(candidate/'public/api/v1',root/'api/v1')
+            shutil.rmtree(candidate)
             self.assertEqual(artifact(root)['status'],'PASS')
             (root/'raw.json').write_text('{}')
             with self.assertRaisesRegex(ValueError,'UNEXPECTED_ARTIFACT_FILE'): artifact(root)

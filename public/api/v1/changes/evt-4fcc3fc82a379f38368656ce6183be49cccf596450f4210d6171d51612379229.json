@@ -1,0 +1,118 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "aed9059774a25cbf1810c01d23172a284a2e287b37dca6f194e54124c9dff2c9",
+      "effective_date": "2026-02-09",
+      "identifier": "2100000274270",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000274270",
+      "snapshot_url": "/api/v1/rules/admrul-59009/versions/2100000274270-2026-02-09-54de73298a4147be.json",
+      "version_id": "2100000274270"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "05f45fd8afcf76684b0f0ad1db42882e7ead798179c684144400a8a8b7dddb23",
+      "effective_date": "2017-09-25",
+      "identifier": "2100000095349",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000095349",
+      "snapshot_url": "/api/v1/rules/admrul-59009/versions/2100000095349-2017-09-25-3ef10eb47b305d8b.json",
+      "version_id": "2100000095349"
+    },
+    "canonical_id": "admrul-59009",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 7,
+    "changed_articles": [
+      {
+        "after_text": "제4조(조직) ① 콜센터는 서울구치소 민원과 소속으로 한다.\n② 콜센터에는 운영 전반을 총괄하는 센터장을 두고, 센터장은 4급 또는 5급으로 보한다. 단, 센터장의 결원 또는 부재 시에는 서울구치소 민원과장이 그 직무를 대행한다.\n③ 센터장 소속 하에 상담팀을 두고 상담팀에는 상담팀장을 둔다. 상담팀장은 6급으로 보한다\n④ 상담팀은 기획ㆍ분석 및 제반 행정 처리를 담당하고, 전화 상담업무 등을 수행한다\n⑤ 센터장은 원활한 업무 수행을 위하여 필요한 경우 상담팀원 간 업무 분장을 조정할 수 있다.",
+        "article_key": "article-4",
+        "article_number": "4",
+        "article_title": "제4조(조직)",
+        "before_text": "제4조(조직) ① 콜센터는 서울지방교정청 보안과 소속으로 한다.\n② 콜센터에는 운영 전반을 총괄하는 센터장을 두고, 센터장 소속하에 기획ㆍ분석 및 제반 행정 처리를 담당하는 운영팀과 전화 상담업무를 수행하는 상담팀을 둔다.\n③ 센터장은 원활한 업무 수행을 위하여 필요한 경우 운영팀과 상담팀 간 인원 및 업무를 조정할 수 있다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-02-09"
+      },
+      {
+        "after_text": "제5조(상담시간 및 상담팀 운영) ① 콜센터 상담시간은 08:30부터 17:30까지로 한다. 다만, 토요일과 공휴일은 제외한다.\n②·③ (현행과 같음)",
+        "article_key": "article-5",
+        "article_number": "5",
+        "article_title": "제5조(상담시간 및 상담팀 운영)",
+        "before_text": "제5조(상담시간 및 상담팀 운영) ① 콜센터 상담시간은 09:00부터 17:30까지로 한다. 다만, 토요일과 공휴일은 제외한다.\n②·③ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-02-09"
+      },
+      {
+        "after_text": "제6조(상담원 교체) 센터장은 상담원 중 다음 각 호의 어느 하나에 해당하는 자의 교체를 서울구치소장에게 건의할 수 있다.\n1. ∼ 4. (현행과 같음)",
+        "article_key": "article-6",
+        "article_number": "6",
+        "article_title": "제6조(상담원 교체)",
+        "before_text": "제6조(상담원 교체) 센터장은 상담원 중 다음 각 호의 어느 하나에 해당하는 자의 교체를 서울지방교정청장에게 건의할 수 있다.\n1. ∼ 4. (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-02-09"
+      },
+      {
+        "after_text": "제8조(전화상담 및 중계) ① ∼ ④ (현행과 같음)\n⑤ 민원인 상담 1회당 권장 시간은 20분 이내로 한다. 다만, 정상적인 업무처리 과정에서 민원인과의 상담이 길어지는 경우에는 예외로 한다.\n⑥ 제5항에도 불구하고 다음 각 호에 해당하는 경우에는 상담 종료 사유를 고지한 후 즉시 종료할 수 있다.  1. 상담원의 제지에도 불구하고 민원인이 욕설ㆍ협박ㆍ모욕 등 폭언을 계속하는 경우  2. 민원인이 상담원에 대하여 성희롱 등 성적 음성ㆍ음향 등을 들려주는 경우  3. 상담원이 설명을 충분히 하였음에도 정당한 사유 없이 동일ㆍ유사한 내용을 반복 요청하는 경우  4. 상담원의 정당한 질문과 무관한 발언을 계속하는 경우  5. 상담원의 계속된 질문에도 민원인이 무응답하는 경우\n⑦ 상담원은 답변내용의 일관성을 유지하기 위하여 상담데이터베이스를 근거로 상담하여야 한다.\n⑧ 모든 상담사항에 대하여는 상담일시, 신청인, 상담자, 질문 및 답변요지를 “콜센터 시스템” 에 기록하여야 하며, 민원인이 자주 질문하는 사례나 새로운 상담사례는 상담데이터베이스에 반영할 수 있도록 센터장에게 관련 자료를 제출하여야 한다.",
+        "article_key": "article-8",
+        "article_number": "8",
+        "article_title": "제8조(전화상담 및 중계)",
+        "before_text": "제8조(전화상담 및 중계) ① ∼ ④ (생  략)\n⑤ 상담원은 답변내용의 일관성을 유지하기 위하여 상담데이터베이스를 근거로 상담하여야 한다.\n⑥ 모든 상담사항에 대하여는 상담일시, 신청인, 상담자, 질문 및 답변요지를 “콜센터 시스템” 에 기록하여야 하며, 민원인이 자주 질문하는 사례나 새로운 상담사례는 상담데이터베이스에 반영할 수 있도록 센터장에게 관련 자료를 제출하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-02-09"
+      },
+      {
+        "after_text": "제10조(안내) 상담원이 처리하는 안내사항은 다음 각 호와 같다.\n1. (현행과 같음)\n2. 교정민원서비스 안내 : 모바일 서비스, 보관금뱅킹시스템, 인터넷 서신 등 온라인 민원, 일반ㆍ화상 등 접견, 보관금ㆍ품, 민원서류발급 등",
+        "article_key": "article-10",
+        "article_number": "10",
+        "article_title": "제10조(안내)",
+        "before_text": "제10조(안내) 상담원이 처리하는 안내사항은 다음 각 호와 같다.\n1. (생  략)\n2. 교정민원서비스 안내 : 모바일 서비스, 영치금뱅킹시스템, 인터넷 서신 등 온라인 민원, 일반ㆍ화상 등 접견, 영치금ㆍ품, 민원서류발급 등",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-02-09"
+      },
+      {
+        "after_text": "제11조(접견 예약 신청) ①·② (현행과 같음)\n③ 접견 예약은 접견을 희망하는 날의 7일 전 16시 이후부터 접견 전일 16시 이전 까지로 한다.\n④ 상담원은 접견 예약 접수 시 다음 각 호의 주의 사항을 고지한다.\n1.·2. (현행과 같음)\n3. 접견 예약 불이행 시 조치 내용\n가. 접견일 전날까지 미리 취소함이 없이 접견을 실시하지 아니한 경우 예약 접견일의 다음날부터 14일 동안 예약 불허\n나. 예약 접견일 당일에 접견을 취소한 민원인에 대하여는 그 다음날 부터 7일 동안 예약 불허\n4. (현행과 같음)",
+        "article_key": "article-11",
+        "article_number": "11",
+        "article_title": "제11조(접견 예약 신청)",
+        "before_text": "제11조(접견 예약 신청) ①·② (생  략)\n③ 접견 예약은 접견을 희망하는 날의 10일 전부터 그 전일까지 사이에 신청하여야 한다.\n④ 상담원은 접견 예약 접수 시 다음 각 호의 주의 사항을 고지한다.\n1.·2. (생  략)\n3. 접견 예약 불이행 시 조치 내용 : 예약 불이행일로부터 5일 동안 예약 불허\n4. (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-02-09"
+      },
+      {
+        "after_text": "제22조(재검토 기한) 법무부장관은 「훈령ㆍ예규 등의 발령 및 관리에 관한 규정」에 따라 이 규정에 대하여 2026년 1월 1일 기준으로 매 3년이 되는 시점(매 3년째의 6월 30일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+        "article_key": "article-22",
+        "article_number": "22",
+        "article_title": "제22조(재검토 기한)",
+        "before_text": "제22조(재검토 기한) 법무부장관은 「훈령ㆍ예규 등의 발령 및 관리에 관한 규정」에 따라 이 규정에 대하여 2017년 7월 1일 기준으로 매 3년이 되는 시점(매 3년째의 6월 30일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-02-09"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "db6fff331fc5591cf2b9c5c618ef2356dfc2d5393ff15cbb257249e864089a59",
+      "credential_redacted": false,
+      "raw_sha256": "d2de65812ec0d58b8c2dc0d52162857e228031113f32d9eec42202588fd22e9c",
+      "request": {
+        "ID": "2100000274270",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "d2de65812ec0d58b8c2dc0d52162857e228031113f32d9eec42202588fd22e9c"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2026-02-09",
+    "event_id": "evt-4fcc3fc82a379f38368656ce6183be49cccf596450f4210d6171d51612379229",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000274270",
+    "promulgation_or_issue_date": "2026-02-09",
+    "regulation_name": "교정민원콜센터 운영규정",
+    "regulation_type": "예규"
+  },
+  "schema_version": "1.3"
+}

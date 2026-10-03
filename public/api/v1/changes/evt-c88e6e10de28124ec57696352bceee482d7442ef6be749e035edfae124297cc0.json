@@ -1,0 +1,131 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "ea2ddc83e1e640872836dac55ba549157ab477588e1eb44d83f166545dbfc845",
+      "effective_date": "2025-02-12",
+      "identifier": "2100000254466",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000254466",
+      "snapshot_url": "/api/v1/rules/admrul-32485/versions/2100000254466-2025-02-12-02f7784b842f98af.json",
+      "version_id": "2100000254466"
+    },
+    "appendix_changes": [
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=149010091",
+          "sequence": "0001",
+          "title": "전문경력관 직업능력개발훈련교사 임용자격 요건(제3조 관련)",
+          "type": "별표",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=149010087"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0001",
+          "title": "직업훈련교사의 임용자격 요건(제3조 관련)",
+          "type": "별표",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=66857227"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      }
+    ],
+    "before_version": {
+      "body_hash": "2f01ecd9760240306f40f3d42a4ded3343963a6355296de0b6e512cb0d94d16b",
+      "effective_date": "2020-06-08",
+      "identifier": "2100000189959",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000189959",
+      "snapshot_url": "/api/v1/rules/admrul-32485/versions/2100000189959-2020-06-08-86e8745a6a9ff423.json",
+      "version_id": "2100000189959"
+    },
+    "canonical_id": "admrul-32485",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "APPENDIX_METADATA_CHANGED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 6,
+    "changed_articles": [
+      {
+        "after_text": "제1조(목적) 이 규정은 전문경력관 직업능력개발훈련교사(이하 “직업훈련교사”라 한다)의 임용시험 및 임용요건 등 직업훈련교사의 임용에 필요한 사항을 규정함을 목적으로 한다.",
+        "article_key": "article-1",
+        "article_number": "1",
+        "article_title": "제1조(목적)",
+        "before_text": "제1조(목적) 이 규정은 전문경력관 직업능력개발훈련교사(이하 직업훈련교사라 한다)의 임용시험 및 임용요건 등 직업훈련교사의 임용에 필요한 사항을 규정함을 목적으로 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-02-12"
+      },
+      {
+        "after_text": "제2조(적용대상) 교정시설 또는 소년원, 국립법무병원에 근무하는 직업훈련교사의 임용에 관하여 관련 법령 및 공무원 임용규칙(인사혁신처 예규)에 따로 규정된 것을 제외하고는 이 규정에 따른다.",
+        "article_key": "article-2",
+        "article_number": "2",
+        "article_title": "제2조(적용대상)",
+        "before_text": "제2조(적용대상) 교정시설 또는 소년원, 치료감호소에 근무하는 직업훈련교사의 임용에 관하여 관련 법령 및 공무원 임용규칙(인사혁신처 예규)에 따로 규정된 것을 제외하고는 이 규정에 의한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-02-12"
+      },
+      {
+        "after_text": "제3조(채용자격요건) 직업훈련교사의 응시자격 요건은 별표 1의 직위군 중 해당분야의 각 호 1 이상의 자격요건을 갖춘 자로 한다.",
+        "article_key": "article-3",
+        "article_number": "3",
+        "article_title": "제3조(채용자격요건)",
+        "before_text": "제3조(채용자격요건) 직업훈련교사의 응시자격 요건은 별표 1의 직위군 중 해당분야의 각 호 1이상의 자격요건을 갖춘 자로 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-02-12"
+      },
+      {
+        "after_text": "제5조(나이) 직업훈련교사로 임용할 수 있는 자의 나이는 20세 이상으로 한다.",
+        "article_key": "article-5",
+        "article_number": "5",
+        "article_title": "제5조(나이)",
+        "before_text": "제5조(연령) 직업훈련교사로 임용할 수 있는 자의 연령은 20세 이상으로 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-02-12"
+      },
+      {
+        "after_text": "제12조(시험위원 등에 대한 수당 지급) 시험위원 등에게는 예산의 범위 내에서 수당을 지급할 수 있다.",
+        "article_key": "article-12",
+        "article_number": "12",
+        "article_title": "제12조(시험위원 등에 대한 수당 지급)",
+        "before_text": "제12조(시험위원 등에 대한 수당 지급) 시험위원에 대하여는 예산의 범위 내에서 수당을 지급할 수 있다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-02-12"
+      },
+      {
+        "after_text": "제13조(재검토기한) 법무부장관은「훈령ㆍ예규 등의 발령 및 관리에 관한 규정」에 따라 이 지침에 대하여 2020년 7월 1일 기준으로 매 3년이 되는 시점(매 3년째의 6월 30일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+        "article_key": "article-13",
+        "article_number": "13",
+        "article_title": "제13조(재검토기한)",
+        "before_text": "제13조(재검토기한) 법무부장관은「훈령ㆍ예규 등의 발령 및 관리에 관한 규정」(대통령훈령 제394호)에 따라 이 지침에 대하여 2020년 7월 1일 기준으로 매 3년이 되는 시점(매 3년째의 6월 30일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-02-12"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "a1997e96042e5d1355f10601f6bfed75425cbd5254debe6175e701d7d8389834",
+      "credential_redacted": false,
+      "raw_sha256": "44124a379630d1af6d62fefb556455a9866ff8188aecbb60c2f6717b061d3d4e",
+      "request": {
+        "ID": "2100000254466",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "44124a379630d1af6d62fefb556455a9866ff8188aecbb60c2f6717b061d3d4e"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2025-02-12",
+    "event_id": "evt-c88e6e10de28124ec57696352bceee482d7442ef6be749e035edfae124297cc0",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000254466",
+    "promulgation_or_issue_date": "2025-02-12",
+    "regulation_name": "전문경력관 직업능력개발훈련교사 임용 규정",
+    "regulation_type": "예규"
+  },
+  "schema_version": "1.3"
+}

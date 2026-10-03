@@ -1,0 +1,16 @@
+{
+  "dataset_version": "ds-45f074d8ab1c34d39b5801b74ddd722c4177a4ec9f0b3817595fa4b9470b250b",
+  "events_after_repeats": 1,
+  "last_good_preserved": true,
+  "mode": "ISOLATED_TEMP_DIRECTORY; PROPOSED_1.3_CATEGORY_VERSION_COMPATIBILITY; NO PRODUCTION PUBLICATION",
+  "one_rule_failure_isolated": true,
+  "provenance_migration_tested": false,
+  "public_bytes_and_mtimes_preserved": true,
+  "record_count": 106,
+  "transitions": [
+    "PUBLISHED",
+    "BLOCKED",
+    "NO_CHANGE",
+    "NO_CHANGE"
+  ]
+}

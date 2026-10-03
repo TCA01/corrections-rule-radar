@@ -1,0 +1,109 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "96dcf6e1a697c831a5e3bb50dcb58ce7bbf7424d63a66907159eff7c912ef874",
+      "effective_date": "2024-07-01",
+      "identifier": "2100000243132",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000243132",
+      "snapshot_url": "/api/v1/rules/admrul-40159/versions/2100000243132-2024-07-01-9fdc144f48b14819.json",
+      "version_id": "2100000243132"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "07ef0d4c036d7cbe18580748d5bdbe3603c38b26e063ab515b4151554356aeb9",
+      "effective_date": "2023-06-01",
+      "identifier": "2100000223986",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000223986",
+      "snapshot_url": "/api/v1/rules/admrul-40159/versions/2100000223986-2023-06-01-8278cca179d5e2cb.json",
+      "version_id": "2100000223986"
+    },
+    "canonical_id": "admrul-40159",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 6,
+    "changed_articles": [
+      {
+        "after_text": "제9조(신체검사와 설문조사) ① ∼ ③ (현행과 같음)\n④ 소장은 소년수형자 등을 대상으로 매월 1회 이상 설문조사를 실시하여 폭행에 의한 피해유무를 확인하고, 그 처리결과를 기록 유지하여야 한다.\n⑤ (현행과 같음)",
+        "article_key": "article-9",
+        "article_number": "9",
+        "article_title": "제9조(신체검사와 설문조사)",
+        "before_text": "제9조(신체검사와 설문조사) ① ∼ ③ (생  략)\n④ 소장은 소년수형자 등을 대상으로 분기 1회 이상 설문조사를 실시하여 폭행에 의한 피해유무를 확인하고, 그 처리결과를 기록 유지하여야 한다.\n⑤ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-07-01"
+      },
+      {
+        "after_text": "제18조(접견) ①·② (현행과 같음)\n③ 소년교도소 등에는 소년수형자 등이 가족과 유대를 강화하는데 도움을 줄 수 있는 가족만남실을 설치할 수 있다.",
+        "article_key": "article-18",
+        "article_number": "18",
+        "article_title": "제18조(접견)",
+        "before_text": "제18조(접견) ①·② (생  략)\n③ 소년교도소 등에는 소년수형자 등이 가족과 유대를 강화하는데 도움을 줄 수 있는 가족접견실을 설치할 수 있다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-07-01"
+      },
+      {
+        "after_text": "제19조(편지) ①\n② (현행과 같음)",
+        "article_key": "article-19",
+        "article_number": "19",
+        "article_title": "제19조(편지)",
+        "before_text": "제19조(편지) ① 소년수형자 등이 수취하는 편지의 종류는 다음 각 호와 같다.  1. 일반편지 : 일반 우편업무를 통한 방법으로 수취하는 편지  2. 전자(인터넷) 편지 : 법무부 온라인민원서비스에 의한 인터넷 편지  3.\n② (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-07-01"
+      },
+      {
+        "after_text": "제20조(전화통화의 허용횟수) ① 소년수형자 등의 경비처우급에 따른 전화통화 허용횟수는 다음 각 호와 같다.\n1. 개방처우급 : 월 20회\n2. 완화경비처우급 : 월 10회\n3. 일반경비처우급 : 월 5회\n4. 중(重)경비처우급 : 월 2회\n② (현행과 같음)\n③ 소장은 제1항에도 불구하고 교육ㆍ교화상 필요하다고 인정하는 경우에는 전화통화 횟수 및 시간을 추가하거나 연장할 수 있으며, 특히 가족과의 유대관계를 적극 고려하여야 한다.",
+        "article_key": "article-20",
+        "article_number": "20",
+        "article_title": "제20조(전화통화의 허용횟수)",
+        "before_text": "제20조(전화통화의 허용횟수) ① 소년수형자 등의 경비처우급에 따른 전화통화 허용횟수는 다음 각 호와 같다.\n1. 개방처우급 : 월 6회\n2. 완화경비처우급 : 월 4회\n3. 일반경비처우급 : 월 2회\n4. 중(重)경비처우급 : 월 1회\n② (생  략)\n③ 소장은 제1항에도 불구하고 교육ㆍ교화상 특히 필요하다고 인정하는 경우에는 전화통화 횟수 및 시간을 추가하거나 연장할 수 있다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-07-01"
+      },
+      {
+        "after_text": "제35조(가족관계회복 지원 등) ① 소장은 소년수형자 등에 대하여 가족관계회복을 위한 가족만남의 날 행사, 가족만남의 집 이용, 가족만남실 이용, 가족사랑캠프를 실시할 수 있다. 이 경우 제18조의 접견 허용횟수에는 포함되지 아니한다.\n② ∼ ④ (현행과 같음)",
+        "article_key": "article-35",
+        "article_number": "35",
+        "article_title": "제35조(가족관계회복 지원 등)",
+        "before_text": "제35조(가족관계회복 지원 등) ① 소장은 소년수형자 등에 대하여 가족관계회복을 위한 가족만남의 날 행사, 가족만남의 집 이용, 가족접견실 이용, 가족사랑캠프를 실시할 수 있다. 이 경우 제18조의 접견 허용횟수에는 포함되지 아니한다.\n② ∼ ④ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-07-01"
+      },
+      {
+        "after_text": "제39조(재검토기한) 법무부장관은 이 예규에 대하여 2024년 1월 1일을 기준으로 매 3년이 되는 시점(매 3년째의 12월 31일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+        "article_key": "article-39",
+        "article_number": "39",
+        "article_title": "제39조(재검토기한)",
+        "before_text": "제39조(재검토기한) 법무부장관은 이 예규에 대하여 2023년 7월 1일을 기준으로 매 3년이 되는 시점(매 3년째의 6월 30일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-07-01"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "fc4f7bdba8df2cea4c928f7eac76f2c83207c0e1b3e29c960af668c010a17afa",
+      "credential_redacted": false,
+      "raw_sha256": "fe0f76e67eb1b9b055d5df2004138bffd90c40ecf4548401a333e9da5bb254dd",
+      "request": {
+        "ID": "2100000243132",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "fe0f76e67eb1b9b055d5df2004138bffd90c40ecf4548401a333e9da5bb254dd"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2024-07-01",
+    "event_id": "evt-c74be6000549a124147e9a65eb212b93c2e17755cb1d788843c7ac9d698d0c0d",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000243132",
+    "promulgation_or_issue_date": "2024-06-26",
+    "regulation_name": "소년수형자 처우 등에 관한 지침",
+    "regulation_type": "예규"
+  },
+  "schema_version": "1.3"
+}

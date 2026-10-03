@@ -12,7 +12,7 @@ def assert_schema_freeze():
     if not lock.exists(): raise ValueError('API_V1_FREEZE_MISSING')
     frozen=json.loads(lock.read_text(encoding='utf-8'))
     actual={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted((root/'schemas').glob('*.schema.json'))}
-    if frozen['schema_version']!='1.2' or frozen['schema_sha256']!=actual: raise ValueError('API_V1_SCHEMA_DRIFT_REQUIRES_EXPLICIT_REVIEW')
+    if frozen['schema_version']!='1.3' or frozen['schema_sha256']!=actual: raise ValueError('API_V1_SCHEMA_DRIFT_REQUIRES_EXPLICIT_REVIEW')
     return True
 
 def assert_public_safe(value,*,text=False):

@@ -10,7 +10,7 @@ from pipeline.normalize import snapshot
 from pipeline.snapshot import write_json,save_snapshot
 from pipeline.operations import now
 from pipeline.operations.calendar import seoul_date
-from scripts.collect import search
+from pipeline.law_api.search import search
 
 ROOT=Path(__file__).resolve().parents[1]
 def run(*,metrics=None,quiet=False):

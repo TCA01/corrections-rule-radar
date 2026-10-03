@@ -3,12 +3,14 @@ import {
   RuleSummary,
   HealthResponse,
   ChangesResponse,
+  RecentChangesResponse,
+  PersistentChangeEvent,
   BusinessDomain,
   CONTROLLED_DOMAINS,
   DisplayChangeEvent,
 } from './types';
 import { api, ApiError } from './services/api';
-import { calculateDDay, isSameDay, isWithinPastDays } from './utils/date';
+import { calculateDDay, isSameDay } from './utils/date';
 import { getChangeTypeLabel, getFactualDescription } from './utils/format';
 import { Header } from './components/Header';
 import { GlobalSearch } from './components/GlobalSearch';
@@ -16,18 +18,20 @@ import { SummaryCards } from './components/SummaryCards';
 import { DomainSelector } from './components/DomainSelector';
 import { ChangeFeed } from './components/ChangeFeed';
 import { UpcomingTimeline } from './components/UpcomingTimeline';
+import { RecentChangesSection } from './components/RecentChangesSection';
 import { RegulationDirectory } from './components/RegulationDirectory';
 import { RuleDetailModal } from './components/RuleDetailModal';
 import { NoticeFooter } from './components/NoticeFooter';
 import { AlertCircle, RefreshCw, Loader2 } from 'lucide-react';
 
-const STORAGE_KEY_DOMAINS = 'corrections_rule_radar_domains';
+const STORAGE_KEY_DOMAINS = 'corrections_rule_tracker_domains';
 
 export const App: React.FC = () => {
   const [health, setHealth] = useState<HealthResponse | null>(null);
   const [rules, setRules] = useState<RuleSummary[]>([]);
   const [upcomingChanges, setUpcomingChanges] = useState<ChangesResponse | null>(null);
-  const [latestChanges, setLatestChanges] = useState<ChangesResponse | null>(null);
+  const [recentChanges, setRecentChanges] = useState<RecentChangesResponse | null>(null);
+  const [, setLatestChanges] = useState<ChangesResponse | null>(null);
 
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
@@ -35,7 +39,7 @@ export const App: React.FC = () => {
   // Selected business domains (stored in localStorage)
   const [selectedDomains, setSelectedDomains] = useState<BusinessDomain[]>(() => {
     try {
-      const saved = localStorage.getItem(STORAGE_KEY_DOMAINS);
+      const saved = localStorage.getItem(STORAGE_KEY_DOMAINS) || localStorage.getItem('corrections_rule_radar_domains');
       if (saved) {
         const parsed = JSON.parse(saved);
         if (Array.isArray(parsed)) {
@@ -50,33 +54,36 @@ export const App: React.FC = () => {
     return [];
   });
 
-  // Active rule for detail view modal
+  // Active rule and change event for detail view modal
   const [activeRule, setActiveRule] = useState<RuleSummary | null>(null);
+  const [activeChangeEvent, setActiveChangeEvent] = useState<PersistentChangeEvent | null>(null);
 
   // Save selected domains to localStorage
   useEffect(() => {
     try {
       localStorage.setItem(STORAGE_KEY_DOMAINS, JSON.stringify(selectedDomains));
+      localStorage.setItem('corrections_rule_radar_domains', JSON.stringify(selectedDomains));
     } catch {
       // ignore storage errors
     }
   }, [selectedDomains]);
 
-  // Load initial dataset
+  // Load initial dataset (Schema 1.3)
   const loadData = async () => {
     setLoading(true);
     setError(null);
     try {
-      const [manifestData, healthData, rulesData, upcomingData, latestData] = await Promise.all([
+      const [manifestData, healthData, rulesData, upcomingData, recentData, latestData] = await Promise.all([
         api.getManifest(),
         api.getHealth().catch(() => null),
         api.getRules(),
-        api.getUpcomingChanges().catch(() => ({ schema_version: '1.2', dataset_version: '', events: [] })),
-        api.getLatestChanges().catch(() => ({ schema_version: '1.2', dataset_version: '', events: [] })),
+        api.getUpcomingChanges().catch(() => ({ schema_version: '1.3', dataset_version: '', events: [] })),
+        api.getRecentChanges().catch(() => ({ schema_version: '1.3', dataset_version: '', window_days: 90, date_basis: '', events: [] })),
+        api.getLatestChanges().catch(() => ({ schema_version: '1.3', dataset_version: '', events: [] })),
       ]);
 
       if (
-        [healthData, rulesData, upcomingData, latestData].some(
+        [healthData, rulesData, upcomingData, recentData, latestData].some(
           (data) => data?.dataset_version && data.dataset_version !== manifestData.dataset_version
         )
       ) {
@@ -86,6 +93,7 @@ export const App: React.FC = () => {
       setHealth(healthData);
       setRules(rulesData.rules);
       setUpcomingChanges(upcomingData);
+      setRecentChanges(recentData);
       setLatestChanges(latestData);
       setLoading(false);
     } catch (err: unknown) {
@@ -166,88 +174,10 @@ export const App: React.FC = () => {
       });
   }, [upcomingChanges, ruleMap]);
 
-  // Recent changes
-  const recentEvents: DisplayChangeEvent[] = useMemo(() => {
-    const list: DisplayChangeEvent[] = [];
-    const seenRules = new Set<string>();
-
-    // 1. From latestChanges events
-    if (latestChanges && latestChanges.events) {
-      for (const evt of latestChanges.events) {
-        const rule = ruleMap.get(evt.canonical_id);
-        if (!rule) continue;
-        seenRules.add(rule.canonical_id);
-        const effDate = evt.effective_date || rule.metadata.effective_date;
-        const dDayInfo = calculateDDay(effDate);
-
-        list.push({
-          id: evt.event_id,
-          canonical_id: evt.canonical_id,
-          rule_name: rule.current_name,
-          corrections_category: rule.corrections_category,
-          business_domains: rule.business_domains,
-          classification_status: rule.classification_status,
-          change_type: evt.change_type,
-          change_type_label: getChangeTypeLabel(evt.change_type),
-          detected_at: evt.detected_at,
-          effective_date: effDate,
-          d_day: dDayInfo.dDay,
-          department: rule.metadata.department,
-          factual_description: getFactualDescription(evt.change_type, effDate),
-          official_source_url: evt.official_source_url || rule.official_source_url,
-          is_upcoming: false,
-          is_today: dDayInfo.dDay === 0,
-          status: rule.status,
-          rule_summary: rule,
-        });
-      }
-    }
-
-    // 2. From recent rules in rules.json
-    for (const rule of rules) {
-      if (seenRules.has(rule.canonical_id)) continue;
-      if (rule.status === 'REPEALED') continue;
-      const effDate = rule.metadata.effective_date;
-      if (!effDate) continue;
-
-      const dDayInfo = calculateDDay(effDate);
-      if (isWithinPastDays(effDate, 45) || dDayInfo.dDay === 0) {
-        list.push({
-          id: `rule-recent-${rule.canonical_id}`,
-          canonical_id: rule.canonical_id,
-          rule_name: rule.current_name,
-          corrections_category: rule.corrections_category,
-          business_domains: rule.business_domains,
-          classification_status: rule.classification_status,
-          change_type: 'RULE_AMENDED',
-          change_type_label: rule.metadata.amendment_type || '규정 개정',
-          detected_at: null,
-          effective_date: effDate,
-          d_day: dDayInfo.dDay,
-          department: rule.metadata.department,
-          factual_description: `${effDate} 시행: ${
-            rule.metadata.amendment_type || '개정'
-          } 조문이 적용되었습니다.`,
-          official_source_url: rule.official_source_url,
-          is_upcoming: false,
-          is_today: dDayInfo.dDay === 0,
-          status: rule.status,
-          rule_summary: rule,
-        });
-      }
-    }
-
-    return list.sort((a, b) => {
-      const dateA = a.effective_date || '';
-      const dateB = b.effective_date || '';
-      return dateB.localeCompare(dateA);
-    });
-  }, [latestChanges, rules, ruleMap]);
-
   // Today effective events
   const todayEvents = useMemo(() => {
     const list: DisplayChangeEvent[] = [];
-    for (const e of [...upcomingEvents, ...recentEvents]) {
+    for (const e of upcomingEvents) {
       if (e.d_day === 0) {
         list.push(e);
       }
@@ -279,27 +209,24 @@ export const App: React.FC = () => {
       }
     }
     return list;
-  }, [upcomingEvents, recentEvents, rules]);
+  }, [upcomingEvents, rules]);
 
-  // Dynamic summary counts
+  // Dynamic summary counts (Section 9: 오늘 시행, 30일 내 시행예정, 최근 90일 변경, 추적 규정)
   const summaryCounts = useMemo(() => {
     const todayCount = todayEvents.length;
     const upcoming30Count = upcomingEvents.filter(
       (e) => e.d_day !== null && e.d_day > 0 && e.d_day <= 30
     ).length;
-    const recent30Count = recentEvents.filter((e) => {
-      if (!e.effective_date) return false;
-      return isWithinPastDays(e.effective_date, 30);
-    }).length;
+    const recent90Count = recentChanges?.events?.length || 0;
     const totalTrackedCount = rules.length;
 
     return {
       todayCount,
       upcoming30Count,
-      recent30Count,
+      recent90Count,
       totalTrackedCount,
     };
-  }, [todayEvents, upcomingEvents, recentEvents, rules]);
+  }, [todayEvents, upcomingEvents, recentChanges, rules]);
 
   // Filter events based on selected business domains
   const filterBySelectedDomains = (eventList: DisplayChangeEvent[]) => {
@@ -312,11 +239,6 @@ export const App: React.FC = () => {
   const domainFilteredUpcoming = useMemo(
     () => filterBySelectedDomains(upcomingEvents),
     [upcomingEvents, selectedDomains]
-  );
-
-  const domainFilteredRecent = useMemo(
-    () => filterBySelectedDomains(recentEvents),
-    [recentEvents, selectedDomains]
   );
 
   const domainFilteredToday = useMemo(
@@ -341,7 +263,7 @@ export const App: React.FC = () => {
 
   return (
     <div className="app-root">
-      {/* 1. Header */}
+      {/* 1. Header (Product title: 교정관련 규정 추적기, last sync) */}
       <Header health={health} />
 
       <main className="container" role="main" style={{ paddingBottom: '4rem' }}>
@@ -349,7 +271,7 @@ export const App: React.FC = () => {
         {loading && (
           <div className="main-loading-state">
             <Loader2 className="animate-spin" size={32} />
-            <p>교정업무 규정 데이터(API v1)를 불러오고 있습니다...</p>
+            <p>교정관련 규정 데이터(API v1)를 불러오고 있습니다...</p>
           </div>
         )}
 
@@ -374,24 +296,27 @@ export const App: React.FC = () => {
           </div>
         )}
 
-        {/* Normal Content: Target Hierarchy from Section 6 */}
+        {/* Normal Content: Page Order from Section 7 */}
         {!loading && !error && (
           <>
             {/* 2. GLOBAL SEARCH (Prominent, immediately below header) */}
             <GlobalSearch
               rules={rules}
-              onSelectRule={(rule) => setActiveRule(rule)}
+              onSelectRule={(rule) => {
+                setActiveChangeEvent(null);
+                setActiveRule(rule);
+              }}
             />
 
-            {/* 3. Concise Summary / Important Current Information Band */}
+            {/* 3. EDITORIAL SUMMARY BAND (오늘 시행 / 30일 내 시행예정 / 최근 90일 변경 / 추적 규정) */}
             <SummaryCards
               todayCount={summaryCounts.todayCount}
               upcoming30Count={summaryCounts.upcoming30Count}
-              recent30Count={summaryCounts.recent30Count}
+              recent90Count={summaryCounts.recent90Count}
               totalTrackedCount={summaryCounts.totalTrackedCount}
             />
 
-            {/* 4. MY BUSINESS DOMAINS */}
+            {/* 4. MY BUSINESS DOMAINS (VoiceBox Civic Segmented Filter Panel) */}
             <DomainSelector
               selectedDomains={selectedDomains}
               onToggleDomain={handleToggleDomain}
@@ -406,34 +331,40 @@ export const App: React.FC = () => {
                 title="오늘 시행"
                 badgeText={`${domainFilteredToday.length}건`}
                 events={domainFilteredToday}
-                onSelectEvent={(evt) => setActiveRule(evt.rule_summary)}
+                onSelectEvent={(evt) => {
+                  setActiveChangeEvent(null);
+                  setActiveRule(evt.rule_summary);
+                }}
                 featuredStyle="today"
               />
             )}
 
             <UpcomingTimeline
               events={domainFilteredUpcoming}
-              onSelectEvent={(evt) => setActiveRule(evt.rule_summary)}
+              onSelectEvent={(evt) => {
+                setActiveChangeEvent(null);
+                setActiveRule(evt.rule_summary);
+              }}
             />
 
-            {/* 6. RECENT CHANGES */}
-            <ChangeFeed
-              title="최근 규정 변경 사항"
-              badgeText={`${domainFilteredRecent.length}건`}
-              events={domainFilteredRecent}
-              emptyMessage={
-                selectedDomains.length > 0
-                  ? '선택하신 업무 분야에 해당하는 최근 45일 내 규정 변경 내역이 없습니다.'
-                  : '최근 변경 내역이 없습니다.'
-              }
-              onSelectEvent={(evt) => setActiveRule(evt.rule_summary)}
-              featuredStyle="recent"
+            {/* 6. RECENT 90-DAY CHANGES (Dedicated Persistent Change-History Section) */}
+            <RecentChangesSection
+              events={recentChanges?.events || []}
+              ruleMap={ruleMap}
+              selectedDomains={selectedDomains}
+              onSelectEvent={(evt, rule) => {
+                setActiveChangeEvent(evt);
+                setActiveRule(rule || null);
+              }}
             />
 
             {/* 7. ALL REGULATIONS DIRECTORY */}
             <RegulationDirectory
               rules={rules}
-              onSelectRule={(rule) => setActiveRule(rule)}
+              onSelectRule={(rule) => {
+                setActiveChangeEvent(null);
+                setActiveRule(rule);
+              }}
             />
           </>
         )}
@@ -443,7 +374,11 @@ export const App: React.FC = () => {
       {activeRule && (
         <RuleDetailModal
           rule={activeRule}
-          onClose={() => setActiveRule(null)}
+          initialEvent={activeChangeEvent}
+          onClose={() => {
+            setActiveRule(null);
+            setActiveChangeEvent(null);
+          }}
         />
       )}
 

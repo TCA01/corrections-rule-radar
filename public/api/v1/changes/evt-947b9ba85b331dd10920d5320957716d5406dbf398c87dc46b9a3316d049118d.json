@@ -1,0 +1,64 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "6905e439a03195fef445df3a4c00fc707bc0c57004676beb26e730444dddfd8b",
+      "effective_date": "2024-04-16",
+      "identifier": "261779",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=261779",
+      "snapshot_url": "/api/v1/rules/law-012676/versions/261779-2024-04-16-15a8e97defa6d67a.json",
+      "version_id": "261779"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "c20756bc711f2eb22b83cb8933af4ac0163413213f36f4e00b790e57e62976e9",
+      "effective_date": "2023-06-05",
+      "identifier": "249603",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=249603",
+      "snapshot_url": "/api/v1/rules/law-012676/versions/249603-2023-06-05-070b5af3ef15885e.json",
+      "version_id": "249603"
+    },
+    "canonical_id": "law-012676",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 1,
+    "changed_articles": [
+      {
+        "after_text": "제6조(급여금의 청구) ① (현행과 같음)\n② 제1항에도 불구하고 법무부장관이 경비교도가 직무수행 중 사망한 것으로 인정하는 경우에는 그 인정일부터 5년 이내에 사망급여금을 청구할 수 있다.\n③ 전시, 사변 또는 그 밖의 부득이한 사유로 제1항 또는 제2항에 따른 기간 내에 급여금을 청구하지 못한 경우에는 급여금을 청구할 수 있는 기간을 2년 연장한다.\n④ 급여금의 청구절차 및 지급에 관하여 필요한 사항은 국가보훈부장관이 정한다.",
+        "article_key": "article-6",
+        "article_number": "6",
+        "article_title": "제6조(급여금의 청구)",
+        "before_text": "제6조(급여금의 청구) ① (생  략)\n② 급여금의 청구절차 및 지급에 관하여 필요한 사항은 국가보훈부장관이 정한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-04-16"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "e0f010847302945dff6136ab0419679176232fe0db85e050e577c589f7ecb13b",
+      "credential_redacted": false,
+      "raw_sha256": "7069256f0ecb10524e73acb0b734b5bd1627c11b152de220f033d2f6894b348c",
+      "request": {
+        "MST": "261779",
+        "target": "oldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "7069256f0ecb10524e73acb0b734b5bd1627c11b152de220f033d2f6894b348c"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2024-04-16",
+    "event_id": "evt-947b9ba85b331dd10920d5320957716d5406dbf398c87dc46b9a3316d049118d",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=261779",
+    "promulgation_or_issue_date": "2024-04-16",
+    "regulation_name": "경비교도대 폐지에 따른 보상 등에 관한 법률 시행령",
+    "regulation_type": "대통령령"
+  },
+  "schema_version": "1.3"
+}

@@ -1,0 +1,388 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "175570c6a9f1fc9879a1194b42f95cdaf165dbab042913a6e4d1cc1070e63c93",
+      "effective_date": "2024-07-01",
+      "identifier": "2100000243146",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000243146",
+      "snapshot_url": "/api/v1/rules/admrul-38225/versions/2100000243146-2024-07-01-7a0fdc09157b16ca.json",
+      "version_id": "2100000243146"
+    },
+    "appendix_changes": [
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=141892925",
+          "sequence": "0001",
+          "title": "중간처우 추천 대상자 신상조사표",
+          "type": "서식",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=141892919"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0001",
+          "title": "사회적응훈련원 대상자 신상조사표",
+          "type": "서식",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=38597611"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=141892931",
+          "sequence": "0002",
+          "title": "중간처우 추천 대상자 명단",
+          "type": "서식",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=141892927"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0002",
+          "title": "사회적응훈련원 추천 대상자 명단",
+          "type": "서식",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=38597617"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=141892937",
+          "sequence": "0003",
+          "title": "삭제",
+          "type": "서식",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=141892933"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0003",
+          "title": "경비처우급 변경(S1급, S2급)자 명단",
+          "type": "서식",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=38597625"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=141892911",
+          "sequence": "0004",
+          "title": "삭제",
+          "type": "별표",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=141892907"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0004",
+          "title": "운영지원작업자 선정기준(제41조 관련)",
+          "type": "별표",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=35389329"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=141892943",
+          "sequence": "0004",
+          "title": "삭제",
+          "type": "서식",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=141892939"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0004",
+          "title": "천안개방 운영지원작업 이송 대상자 명단",
+          "type": "서식",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=38597629"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=141892949",
+          "sequence": "0005",
+          "title": "삭제",
+          "type": "서식",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=141892945"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0005",
+          "title": "자율보행 허가자 명부",
+          "type": "서식",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=38597633"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=141892955",
+          "sequence": "0006",
+          "title": "삭제",
+          "type": "서식",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=141892951"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0006",
+          "title": "자율보행 허가증 발행부",
+          "type": "서식",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=38597637"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=141892961",
+          "sequence": "0007",
+          "title": "삭제",
+          "type": "서식",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=141892957"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0007",
+          "title": "자율보행 허가증",
+          "type": "서식",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=38597641"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      }
+    ],
+    "before_version": {
+      "body_hash": "cc0a8aa6e2f66f81bba20288580ccbdb380bd286ce5151fce39192778f66adc1",
+      "effective_date": "2018-07-03",
+      "identifier": "2100000135729",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000135729",
+      "snapshot_url": "/api/v1/rules/admrul-38225/versions/2100000135729-2018-07-03-22b25a8b24762df6.json",
+      "version_id": "2100000135729"
+    },
+    "canonical_id": "admrul-38225",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "APPENDIX_METADATA_CHANGED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 19,
+    "changed_articles": [
+      {
+        "after_text": "제3조(구분수용) ① 교정시설은 경비등급에 따라 해당 경비처우급 수형자를 구분수용 한다. 다만, 처우상 특히 필요하거나 시설의 여건상 부득이한 경우, 또는 「수용구분 및 이송ㆍ기록 등에 관한 지침」 등에 따른 사유가 있는 경우에는 경비처우급이 다른 수형자를 함께 수용하여 처우할 수 있다.\n② (현행과 같음)",
+        "article_key": "article-3",
+        "article_number": "3",
+        "article_title": "제3조(구분수용)",
+        "before_text": "제3조(구분수용) ① 교정시설은 경비등급에 따라 해당 경비처우급 수형자를 구분수용 한다. 다만, 처우상 특히 필요하거나 시설의 여건상 부득이한 경우, 또는 특수한 기능을 수행하는 전담교정시설의 경우에는 경비처우급이 다른 수형자를 함께 수용하여 처우할 수 있다.\n② (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-07-01"
+      },
+      {
+        "after_text": "제7조(경비등급 혼용지정) ① 완화경비시설의 경우 시설 내의 일부 수용동을 정하여 일반경비처우급 수형자를 수용할 수 있다.\n② 일반경비시설의 경우 시설 내의 일부 수용동을 정하여 개방처우급ㆍ완화경비처우급 수형자를 수용할 수 있다.\n③ 소장은 같은 교정시설 내에 경비등급이 혼용되어 지정된 경우 구획을 정하여 경비처우급별로 구분 수용함을 원칙으로 한다.\n④ 소장은 경비등급 기준에 맞지 않는 수형자를 작업 등의 사유로 이송 미이행 보고를 한 경우에는 해당 분야에 작업을 지정하여야 한다.",
+        "article_key": "article-7",
+        "article_number": "7",
+        "article_title": "제7조(경비등급 혼용지정)",
+        "before_text": "제7조(경비등급 혼용지정) ① 일반경비시설의 경우에는 시설내의 일부 수용동을 정하여 완화경비수용동으로 지정하고, 개방처우급ㆍ완화경비처우급 수형자를 수용 할 수 있다.\n② 제1항에 따라 경비등급을 혼용하여 지정ㆍ운영하는 시설의 경비등급별 수용자 비율은 다음 각 호와 같다. 다만, 외국인ㆍ소년수형자ㆍ훈련생ㆍ장애인 등 경비처우급별 수용에 대해 예외적으로 수용되는 자는 정해진 비율에서 제외한다.  1. 수용정원 2,000명 이상인 일반경비시설에는 수용정원의 20퍼센트 이내의 개방처우급ㆍ완화경비처우급 수형자를 수용할 수 있다  2. 수용정원 1,000명 이상인 일반경비시설에는 수용정원의 17퍼센트 이내의 개방처우급ㆍ완화경비처우급 수형자를 수용할 수 있다.  3. 수용정원 1,000명 미만인 일반경비시설에는 수용정원의 15퍼센트 이내의 개방처우급ㆍ완화경비처우급 수형자를 수용할 수 있다.  4. 위 각 호의 규정에도 불구하고 개방지역작업장 및 숙련 기술을 요하는 작업장을 운영하는 기관은 위 각 호에서 정한 수형자의 수용 비율에 5퍼센트를 더하여 개방처우급ㆍ완화경비처우급 수형자를 수용할 수 있다.\n③ 소장은 같은 교정시설내에 경비등급이 혼용되어 지정된 경우 구획을 정하여 경비처우급별로 구분 수용함을 원칙으로 한다.\n④ 소장은 경비등급 기준에 맞지 않는 수형자를 개방지역작업자 등의 사유로 이송 미이행 보고를 한 경우에는 반드시 해당 분야에 작업을 지정하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-07-01"
+      },
+      {
+        "after_text": "제11조(공동식사) 소장은 개방시설 및 완화경비시설에 공동식당을 설치하여 수형자에게 공동식사를 하게 할 수 있다.",
+        "article_key": "article-11",
+        "article_number": "11",
+        "article_title": "제11조(공동식사)",
+        "before_text": "제11조",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-07-01"
+      },
+      {
+        "after_text": "제19조(운동시간) ① 소장은 시행령 제49조에 따라「수용관리 및 계호업무 등에 관한 지침」제308조에도 불구하고 개방처우급 수형자에게 매일 1시간 이내의 실외운동을 실시하게 할 수 있다.\n② (현행과 같음)",
+        "article_key": "article-19",
+        "article_number": "19",
+        "article_title": "제19조(운동시간)",
+        "before_text": "제19조(운동시간) ① 소장은 시행령 제49조에 따라「수용관리 및 계호업무 등에 관한 지침」제337조에도 불구하고 개방처우급 수형자에게 매일 1시간 이내의 실외운동을 실시하게 할 수 있다.\n② (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-07-01"
+      },
+      {
+        "after_text": "제20조(텔레비전 시청) ① (현행과 같음)\n② 다만, 소장은 제1항에도 불구하고 자치생활 수형자에게는 그 기준을 달리 정할 수 있다.",
+        "article_key": "article-20",
+        "article_number": "20",
+        "article_title": "제20조(텔레비전 시청)",
+        "before_text": "제20조(텔레비전 시청) (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-07-01"
+      },
+      {
+        "after_text": "제24조(자치생활 환경조성) 소장은 자치생활 수형자의 처우향상ㆍ자치생활환경 조성을 위하여 자치생활 수형자에 대하여 제9조 및 제11조를 준용할 수 있다.",
+        "article_key": "article-24",
+        "article_number": "24",
+        "article_title": "제24조(자치생활 환경조성)",
+        "before_text": "제24조(자치생활 환경조성) 소장은 자치생활 수형자의 처우향상ㆍ자치생활환경 조성을 위하여 자치생활 수형자에 대하여 제9조를 준용할 수 있다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-07-01"
+      },
+      {
+        "after_text": "제25조(도서실 및 열람실 자율이용) 소장은 개방처우급 수형자 또는 자치생활 허가 대상 수형자에게 도서실 및 도서실에 부속된 열람실의 자율이용을 허가할 수 있다.",
+        "article_key": "article-25",
+        "article_number": "25",
+        "article_title": "제25조(도서실 및 열람실 자율이용)",
+        "before_text": "제25조(도서실 및 열람실 자율이용) 소장은 개방처우급 수형자에게 도서실 및 도서실에 부속된 열람실의 자율이용을 허가 할 수 있다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-07-01"
+      },
+      {
+        "after_text": "제29조",
+        "article_key": "article-29",
+        "article_number": "29",
+        "article_title": "제29조",
+        "before_text": "제29조(일반귀휴) 소장은 수형자의 경비처우급에 따라 귀휴의 허가 범위를 다음 각 호와 같이 할 수 있다.  1. 개방처우급 : 1년 중 20일 이내 허가  2. 완화경비처우급 : 1년 중 10일 내외 허가  3. 일반경비처우급 : 교화ㆍ사회복귀 준비 등을 위하여 특히 필요한 경우 허가  4. 중경비처우급 : 불허",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-07-01"
+      },
+      {
+        "after_text": "제35조(외부 출ㆍ퇴근작업) 소장은 필요시 외부통근작업장의 개방처우급ㆍ완화경비처우급 수형자에 대해서 직원의 동행 없는 외부기업체 출ㆍ퇴근 작업을 허가할 수 있다.",
+        "article_key": "article-35",
+        "article_number": "35",
+        "article_title": "제35조(외부 출ㆍ퇴근작업)",
+        "before_text": "제35조(외부 출ㆍ퇴근작업) 소장은 개방시설에 수용된 개방처우급ㆍ완화경비처우급 수형자에 대하여 직원의 동행 없이 외부기업체에 출ㆍ퇴근 작업을 허가 할 수 있다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-07-01"
+      },
+      {
+        "after_text": "제36조(외부출장직업훈련) 소장은 개방처우급ㆍ완화경비처우급 수형자에 대하여 직원의 동행없이 직업능력 향상을 위하여 특히 필요한 경우에는 교정시설 외부의 공공기관 등에서 직업훈련을 받게 할 수 있다.",
+        "article_key": "article-36",
+        "article_number": "36",
+        "article_title": "제36조(외부출장직업훈련)",
+        "before_text": "제36조(외부출장직업훈련) 소장은 개방시설에 수용된 개방처우급ㆍ완화경비처우급 수형자에 대하여 직원의 동행없이 직업능력 향상을 위하여 특히 필요한 경우에는 교정시설 외부의 공공기관 등에서 직업훈련을 받게 할 수 있다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-07-01"
+      },
+      {
+        "after_text": "제39조(중간처우대상자 선정기준) ① 중간처우시설(교정시설에 설치된 개방시설 또는 지역사회에 설치된 개방시설) 수용 대상자 선정시 고려되는 사항은 다음 각 호와 같다.\n1. ∼ 3. (현행과 같음)\n4. 가석방 가능성\n5. 형기종료일까지의 기간(남은형기)\n6. (현행과 같음)\n② (현행과 같음)\n③ 조직폭력사범, 마약류사범, 추천 기준일 현재 1년 이내 징벌자, 직업훈련생, 교육생 등은 중간처우 대상자 선정에서 제외한다. 다만, 직업훈련생, 교육생이 훈련 또는 교육기간의 종료가 예정된 자가 희망하는 경우에는 예외로 한다.",
+        "article_key": "article-39",
+        "article_number": "39",
+        "article_title": "제39조(중간처우대상자 선정기준)",
+        "before_text": "제39조(중간처우대상자 선정기준) ① 중간처우시설(교정시설에 설치된 개방시설 또는 지역사회에 설치된 개방시설) 수용 대상자 선정시 고려되는 사항은 다음 각 호와 같다.\n1. ∼ 3. (생  략)\n4. 가석방 가능 여부\n5. 형기종료일까지의 기간(잔여형기)\n6. (생  략)\n② (생  략)\n③ 조직폭력, 마약사범, 추천 기준일 현재 1년 이내 징벌자, 직업훈련생, 교육생 등은 중간처우 대상자 선정에서 제외한다. 다만, 직업훈련생, 교육생이 훈련 또는 교육기간의 종료가 예정된 자가 희망하는 경우에는 예외로 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-07-01"
+      },
+      {
+        "after_text": "제40조(중간처우대상자 선정 및 이송) ① 각 교정기관에서 중간처우대상자를 추천하는 경우에는 [별지 제1호서식]의 신상조사표, [별지 제2호서식]의 추천대상자 명단을 작성한다.\n② 중간처우시설 운영기관의 장은 제1항에 따른 중간처우 추천 대상자의 선정기준 적정성을 확인하기 위해 필요시 화상면접 등을 실시할 수 있다.\n③ 중간처우대상자의 선정 및 이송절차는 [별표 5]와 같다.",
+        "article_key": "article-40",
+        "article_number": "40",
+        "article_title": "제40조(중간처우대상자 선정 및 이송)",
+        "before_text": "제40조(중간처우대상자 선정 및 이송) ① 각 교정기관에서 중간처우대상자를 추천하는 경우에는 [별지 제1호서식]의 신상조사표, [별지 제2호서식]의 추천대상자 명단, [별지 제3호서식]의 경비처우급 변경자 명단을 작성한다.\n② 중간처우대상자의 선정 및 이송절차는 [별표 5]와 같다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-07-01"
+      },
+      {
+        "after_text": "제41조(운영지원작업 취업자 선정기준)",
+        "article_key": "article-41",
+        "article_number": "41",
+        "article_title": "제41조(운영지원작업 취업자 선정기준)",
+        "before_text": "제41조(운영지원작업 취업자 선정기준) 개방교도소 운영에 필요한 운영지원작업 취업자 선정기준은 다음 각 호와 같다.  1. [별표 4]에서 정한 과실범 수형자  2. 도주 및 재범가능성  3. 연령, 건강, 정신상태 등을 고려한 작업 감당 여부  4. 가석방 가능 여부",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-07-01"
+      },
+      {
+        "after_text": "제42조(운영지원 작업자 선정 및 이송)",
+        "article_key": "article-42",
+        "article_number": "42",
+        "article_title": "제42조(운영지원 작업자 선정 및 이송)",
+        "before_text": "제42조(운영지원 작업자 선정 및 이송) ① 개방처우대상인 운영지원 작업자는 개방교도소장의 추천을 받아 법무부장관이 선정한다.  ② 각 교정기관의 장은 제1항에 의해 선정된 수형자에 대하여 특별한 사유가 없는 한 이송지시에 따라 별도의 이송신청 절차 없이 개방교도소로 이송한다.  ③ 개방교도소장은 필요한 경우 과실범을 수용하고 있는 교정기관의 장에게 과실범 수형자 명단 및 신상조사표를 요구할 수 있다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-07-01"
+      },
+      {
+        "after_text": "제43조(선정 취소사유) 중간처우대상자의 중간처우 선정 취소사유는 다음 각 호와 같다.\n1. (현행과 같음)\n2. 규율 위반의 정도가 중하여 중간처우대상자로 처우하는 것이 적당하지 않다고 인정되는 경우\n3. ∼ 5. (현행과 같음)\n6. 다른 사람에게 나쁜 영향을 줄 우려가 있는 경우\n7. 심리적 불안정 등의 사유로 중간처우대상자로 처우하는 것이 적당하지 않다고 인정되는 경우",
+        "article_key": "article-43",
+        "article_number": "43",
+        "article_title": "제43조(선정 취소사유)",
+        "before_text": "제43조(선정 취소사유) 중간처우대상자 및 개방처우대상 과실범 수형자 선정 취소사유는 다음 각 호와 같다.\n1. (생  략)\n2. 규율 위반의 정도가 중하여 중간처우대상자 및 개방처우대상 과실범 수형자로 처우하는 것이 적당하지 않다고 인정되는 경우\n3. ∼ 5. (생  략)\n6. 그 밖에 다른 사람에게 나쁜 영향을 줄 우려가 있거나 중간처우대상자 및 개방처우대상 수형자로 처우하는 것이 적당하지 않다고 인정되는 경우",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-07-01"
+      },
+      {
+        "after_text": "제44조(선정취소) 중간처우대상 수형자가 제43조 선정 취소사유의 어느 하나에 해당하는 경우에는 분류처우위원회(임시분류처우위원회 포함)의 의결을 거쳐 그 선정을 취소할 수 있다.",
+        "article_key": "article-44",
+        "article_number": "44",
+        "article_title": "제44조(선정취소)",
+        "before_text": "제44조(선정취소) 중간처우대상자 및 개방처우대상 과실범 수형자가 제43조 선정 취소사유의 어느 하나에 해당하는 경우에는 분류처우위원회(임시분류처우위원회 포함)의 의결을 거쳐 그 선정을 취소할 수 있다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-07-01"
+      },
+      {
+        "after_text": "제45조(수용 및 이송) ① (현행과 같음)\n② 중간처우대상자 선정이 취소된 경우에는 일반수형자로 처우하며 지체 없이 법무부장관에게 보고한 후 이송을 신청한다. 다만, 소장은 대상자의 형기종료 예정일 등을 고려하여 이송신청을 하지 아니할 수 있다.\n③ 제2항에 따라 이송신청이 의뢰된 경우에는 원래 소속 교도소 등으로 이송하여야 한다. 다만, 본인에게 책임이 있는 경우에는 원래 소속이 아닌 다른 교도소 등으로 이송할 수 있다.",
+        "article_key": "article-45",
+        "article_number": "45",
+        "article_title": "제45조(수용 및 이송)",
+        "before_text": "제45조(수용 및 이송) ① (생  략)\n② 중간처우대상자 및 개방처우대상자 선정이 취소된 경우에는 일반수형자로 처우하며 지체 없이 법무부장관에게 보고 후 이송신청을 의뢰한다.\n③ 제2항에 따라 이송신청이 의뢰된 경우에는 원래 소속 교도소 등으로 환소하여야 한다. 다만, 본인에게 책임이 있는 경우에는 원래 소속이 아닌 다른 교도소 등으로 이송할 수 있다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-07-01"
+      },
+      {
+        "after_text": "제47조(자율보행) ① (현행과 같음)\n② 소장은 자치생활 대상 수형자에게 교도관의 계호 없이 주간에 일정구역 내에서 접견, 전화, 소규모 종교행사 참석, 의료과 진료 등을 위하여 자율보행을 허가할 수 있다.\n③\n④ (현행과 같음)",
+        "article_key": "article-47",
+        "article_number": "47",
+        "article_title": "제47조(자율보행)",
+        "before_text": "제47조(자율보행) ① (생  략)\n② 소장은 완화경비시설의 수형자에게 교도관의 계호 없이 주간에 일정구역 내에서 접견, 전화, 소규모 종교행사 참석, 의료과 진료 등을 위하여 자율보행을 허가할 수 있다. 다만, 자율보행을 할 수 있는 수형자에 대하여는 그 명단을 [별지 제5호서식]에 등재하고, [별지 제6호서식]에 의해 발행된 [별지 제7호서식]의 ‘자율보행 허가증’을 소지하게 하여야 한다.\n③ 제2항에 따른 ‘자율보행 허가증’은 수형자가 자율보행 시 수형자의 상의에 패용하도록 하고 자율보행 종료 후 반납ㆍ회수한다.\n④ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-07-01"
+      },
+      {
+        "after_text": "제51조(재검토 기한) 법무부장관은 이 예규에 대하여 2024년 1월 1일을 기준으로 매 3년이 되는 시점(매 3년째의 12월 31일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+        "article_key": "article-51",
+        "article_number": "51",
+        "article_title": "제51조(재검토 기한)",
+        "before_text": "제51조(재검토 기한) 법무부장관은 이 예규에 대하여 2019년 1월 1일을 기준으로 매 3년이 되는 시점(매 3년째의 12월 31일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-07-01"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "94895f6555ce3d307e175d376465357a5bb29c0b39a31f8eaad3fb87ee3492dc",
+      "credential_redacted": false,
+      "raw_sha256": "cbdeeddb854c192b1a1199b1ed91c298d00b37b11f6867f39421653202d161e3",
+      "request": {
+        "ID": "2100000243146",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "cbdeeddb854c192b1a1199b1ed91c298d00b37b11f6867f39421653202d161e3"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2024-07-01",
+    "event_id": "evt-c9ac4f3bc1956368b826ccae623c9e07797ca9a14aa47bf9c2ce6797e0666305",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000243146",
+    "promulgation_or_issue_date": "2024-06-26",
+    "regulation_name": "교정시설 경비등급별 수형자의 처우 등에 관한 지침",
+    "regulation_type": "예규"
+  },
+  "schema_version": "1.3"
+}

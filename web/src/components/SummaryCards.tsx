@@ -3,7 +3,8 @@ import React from 'react';
 interface SummaryCardsProps {
   todayCount: number;
   upcoming30Count: number;
-  recent30Count: number;
+  recent90Count?: number;
+  recent30Count?: number;
   totalTrackedCount: number;
   onSelectCard?: (type: 'today' | 'upcoming' | 'recent' | 'total') => void;
 }
@@ -11,10 +12,13 @@ interface SummaryCardsProps {
 export const SummaryCards: React.FC<SummaryCardsProps> = ({
   todayCount,
   upcoming30Count,
+  recent90Count,
   recent30Count,
   totalTrackedCount,
   onSelectCard,
 }) => {
+  const displayRecentCount = recent90Count !== undefined ? recent90Count : (recent30Count ?? 0);
+
   return (
     <section className="editorial-summary-band" aria-label="주요 규정 동향 통계">
       <div className="summary-band-inner">
@@ -46,7 +50,7 @@ export const SummaryCards: React.FC<SummaryCardsProps> = ({
           onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && onSelectCard?.('upcoming')}
           aria-label={`30일 내 시행 예정: ${upcoming30Count}건`}
         >
-          <span className="summary-stat-label">30일 내 시행 예정</span>
+          <span className="summary-stat-label">30일 내 시행예정</span>
           <div className="summary-stat-val">
             <span className="stat-number">{upcoming30Count}</span>
             <span className="stat-unit">건</span>
@@ -56,18 +60,18 @@ export const SummaryCards: React.FC<SummaryCardsProps> = ({
 
         <div className="summary-divider" aria-hidden="true" />
 
-        {/* Item 3: 최근 30일 변경 */}
+        {/* Item 3: 최근 90일 변경 */}
         <div
           className="summary-stat-cell"
           tabIndex={0}
           role="button"
           onClick={() => onSelectCard?.('recent')}
           onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && onSelectCard?.('recent')}
-          aria-label={`최근 30일 변경: ${recent30Count}건`}
+          aria-label={`최근 90일 변경: ${displayRecentCount}건`}
         >
-          <span className="summary-stat-label">최근 30일 변경</span>
+          <span className="summary-stat-label">최근 90일 변경</span>
           <div className="summary-stat-val">
-            <span className="stat-number">{recent30Count}</span>
+            <span className="stat-number">{displayRecentCount}</span>
             <span className="stat-unit">건</span>
           </div>
           <span className="summary-stat-sub">최근 개정·적용 내역</span>

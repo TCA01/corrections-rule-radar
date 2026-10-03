@@ -1,0 +1,64 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "147e45391be42c20054615df9e20bdfe9521a19ea96778c72d73dd8292e9ad7d",
+      "effective_date": "2021-01-05",
+      "identifier": "227647",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=227647",
+      "snapshot_url": "/api/v1/rules/law-004057/versions/227647-2021-01-05-71271dd5711d3fd7.json",
+      "version_id": "227647"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "04089ad91a7e07be15dffcef969617da928bbe70bd3c537dfc7ec7313374accf",
+      "effective_date": "2018-02-20",
+      "identifier": "202240",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=202240",
+      "snapshot_url": "/api/v1/rules/law-004057/versions/202240-2018-02-20-61b7b6cd4fcc64a5.json",
+      "version_id": "202240"
+    },
+    "canonical_id": "law-004057",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 1,
+    "changed_articles": [
+      {
+        "after_text": "제11조(피호송자의 질병등) ①·② (현행과 같음)\n③질병이 치유된 때에는 제1항의 관서는 즉시 호송을 계속 진행하고 발송관서에 통지해야 한다.",
+        "article_key": "article-11",
+        "article_number": "11",
+        "article_title": "제11조(피호송자의 질병등)",
+        "before_text": "제11조(피호송자의 질병등) ①·② (생  략)\n③질병이 치유된 때에는 제1항의 관서는 즉시 호송을 속행하고 발송관서에 통지하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2021-01-05"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "c4d29e88001a744fb3c0e9fa51da093b878ad055d394aa170bb0ba4b0b566898",
+      "credential_redacted": false,
+      "raw_sha256": "c97ce94124f54ee770fd4df138ac7497e1fadf9ed6ec08ef757e773f597b9dbb",
+      "request": {
+        "MST": "227647",
+        "target": "oldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "c97ce94124f54ee770fd4df138ac7497e1fadf9ed6ec08ef757e773f597b9dbb"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2021-01-05",
+    "event_id": "evt-faad187101694c437092101bf8532eb66e48aede3a47a7b2f4a18b43f3a6c7a9",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=227647",
+    "promulgation_or_issue_date": "2021-01-05",
+    "regulation_name": "수형자 등 호송 규정",
+    "regulation_type": "대통령령"
+  },
+  "schema_version": "1.3"
+}

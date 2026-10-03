@@ -1,0 +1,65 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "52d9359252a228b75bfd01429245553e417d9a4a25258f6ec833c0f06f6ad509",
+      "effective_date": "2025-01-20",
+      "identifier": "2100000253510",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000253510",
+      "snapshot_url": "/api/v1/rules/admrul-37922/versions/2100000253510-2025-01-20-75db826a1dcb8804.json",
+      "version_id": "2100000253510"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "461cf120961f4d0b487a1857346a474edeaa116cbbe8983cc23c208db072f1f4",
+      "effective_date": "2023-01-01",
+      "identifier": "2100000217115",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000217115",
+      "snapshot_url": "/api/v1/rules/admrul-37922/versions/2100000217115-2023-01-01-45d22b74e2c2adb2.json",
+      "version_id": "2100000217115"
+    },
+    "canonical_id": "admrul-37922",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "RULE_RENAMED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 1,
+    "changed_articles": [
+      {
+        "after_text": "제27조(재검토기한) 법무부장관은 「훈령ㆍ예규 등의 발령 및 관리에 관한 규정」에 따라 이 지침에 대하여 2025년 7월 1일 기준으로 매 3년이 되는 시점(매 3년째의 6월 30일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+        "article_key": "article-27",
+        "article_number": "27",
+        "article_title": "제27조(재검토기한)",
+        "before_text": "제27조(재검토기한) 법무부장관은 「훈령ㆍ예규 등의 발령 및 관리에 관한 규정」에 따라 이 지침에 대하여 2023년 1월 1일 기준으로 매 3년이 되는 시점(매 3년째의 12월 31일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-01-20"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "7d1c1d5466caf07ac2243aabfad8af3a166a6833ac41d0fa8c7ed0c8f46f9ec6",
+      "credential_redacted": false,
+      "raw_sha256": "56fc9900cf108253a6d5eb777ba17eb67c07f0289157aef0d519c16670d95357",
+      "request": {
+        "ID": "2100000253510",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "56fc9900cf108253a6d5eb777ba17eb67c07f0289157aef0d519c16670d95357"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2025-01-20",
+    "event_id": "evt-d3e5585361c54fea501fb91490d6b084150b93dbb6d06e871ebf8e8dd8ce2e8b",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000253510",
+    "promulgation_or_issue_date": "2025-01-16",
+    "regulation_name": "민영교도소 운영경비 회계 등에 관한 지침",
+    "regulation_type": "예규"
+  },
+  "schema_version": "1.3"
+}

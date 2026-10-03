@@ -1,0 +1,100 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "bb9985d9cb6dde21087703c3809d7dbe761f57c7ab7277f185a26d757c689ffa",
+      "effective_date": "2026-10-02",
+      "identifier": "290173",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290173",
+      "snapshot_url": "/api/v1/rules/law-002049/versions/290173-2026-10-02-7e078218780f15f4.json",
+      "version_id": "290173"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "2b87ac33c2fd1fae211f4f0060b20fe6117572806f29422e28f89236c9ba8a94",
+      "effective_date": "2022-07-01",
+      "identifier": "243607",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=243607",
+      "snapshot_url": "/api/v1/rules/law-002049/versions/243607-2022-07-01-4f180ded03323019.json",
+      "version_id": "243607"
+    },
+    "canonical_id": "law-002049",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 5,
+    "changed_articles": [
+      {
+        "after_text": "제4조(가석방 사실의 통보) ① 교도소ㆍ구치소 및 그 지소(支所)(이하 “교정시설”이라 한다)의 장은 가석방이 허가된 사람을 석방할 때에는 그 사실을 가석방될 사람의 주거지를 관할하는 지방공소청장(지방공소청 지청장을 포함한다. 이하 같다)과 형을 선고한 법원에 대응하는 공소청의 장 및 가석방될 사람을 보호ㆍ감독할 경찰서(이하 “관할경찰서”라 한다)의 장에게 미리 통보하여야 한다.\n② (현행과 같음)",
+        "article_key": "article-4",
+        "article_number": "4",
+        "article_title": "제4조(가석방 사실의 통보)",
+        "before_text": "제4조(가석방 사실의 통보) ① 교도소ㆍ구치소 및 그 지소(支所)(이하 “교정시설”이라 한다)의 장은 가석방이 허가된 사람을 석방할 때에는 그 사실을 가석방될 사람의 주거지를 관할하는 지방검찰청의 장(지방검찰청 지청의 장을 포함한다. 이하 같다)과 형을 선고한 법원에 대응하는 검찰청 검사장 및 가석방될 사람을 보호ㆍ감독할 경찰서(이하 “관할경찰서”라 한다)의 장에게 미리 통보하여야 한다.\n② (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-10-02"
+      },
+      {
+        "after_text": "제7조(관할경찰서의 장의 조치) ①·② (현행과 같음)\n③ 관할경찰서의 장은 제2항에 따른 조치를 할 경우 그 사실을 관할 지방공소청장 및 가석방자를 수용하였다가 석방한 교정시설(이하 “석방시설”이라 한다)의 장(이하 “관계기관의 장”이라 한다)에게 통보하여야 한다.",
+        "article_key": "article-7",
+        "article_number": "7",
+        "article_title": "제7조(관할경찰서의 장의 조치)",
+        "before_text": "제7조(관할경찰서의 장의 조치) ①·② (생  략)\n③ 관할경찰서의 장은 제2항에 따른 조치를 할 경우 그 사실을 관할 지방검찰청의 장 및 가석방자를 수용하였다가 석방한 교정시설(이하 “석방시설”이라 한다)의 장(이하 “관계기관의 장”이라 한다)에게 통보하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-10-02"
+      },
+      {
+        "after_text": "제12조(국내주거지 이전등 신고 사실의 통보) 관할경찰서의 장은 제10조에 따라 국내주거지 이전등의 신고를 받은 경우에는 가석방자의 새 주거지를 관할하는 지방공소청장 및 경찰서의 장에게 신고 사실을 통보하고, 해당 경찰서의 장에게 관계서류를 송부하여야 한다.",
+        "article_key": "article-12",
+        "article_number": "12",
+        "article_title": "제12조(국내주거지 이전등 신고 사실의 통보)",
+        "before_text": "제12조(국내주거지 이전등 신고 사실의 통보) 관할경찰서의 장은 제10조에 따라 국내주거지 이전등의 신고를 받은 경우에는 가석방자의 새 주거지를 관할하는 지방검찰청의 장 및 경찰서의 장에게 신고 사실을 통보하고, 해당 경찰서의 장에게 관계서류를 송부하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-10-02"
+      },
+      {
+        "after_text": "제18조(가석방의 실효 등 보고) 각 지방공소청장, 경찰서의 장 및 교정시설의 장은 가석방자가 「형법」 제74조 또는 제75조에 해당하게 된 사실을 알았을 때에는 지체 없이 석방시설의 장에게 통보하여야 하며, 통보를 받은 석방시설의 장은 지체 없이 법무부장관에게 보고하여야 한다.",
+        "article_key": "article-18",
+        "article_number": "18",
+        "article_title": "제18조(가석방의 실효 등 보고)",
+        "before_text": "제18조(가석방의 실효 등 보고) 각 지방검찰청의 장, 경찰서의 장 및 교정시설의 장은 가석방자가 「형법」 제74조 또는 제75조에 해당하게 된 사실을 알았을 때에는 지체 없이 석방시설의 장에게 통보하여야 하며, 통보를 받은 석방시설의 장은 지체 없이 법무부장관에게 보고하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-10-02"
+      },
+      {
+        "after_text": "제19조(가석방의 취소 등) ① 법무부장관은 가석방 처분을 취소하였을 때에는 가석방자의 주거지를 관할하는 지방공소청장 또는 교정시설의 장이나 가석방 취소 당시 가석방자를 수용하고 있는 교정시설의 장에게 통보하여 남은 형을 집행하게 하여야 한다.\n② (현행과 같음)",
+        "article_key": "article-19",
+        "article_number": "19",
+        "article_title": "제19조(가석방의 취소 등)",
+        "before_text": "제19조(가석방의 취소 등) ① 법무부장관은 가석방 처분을 취소하였을 때에는 가석방자의 주거지를 관할하는 지방검찰청의 장 또는 교정시설의 장이나 가석방 취소 당시 가석방자를 수용하고 있는 교정시설의 장에게 통보하여 남은 형을 집행하게 하여야 한다.\n② (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-10-02"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "d6cd354812f49e142b346e822883a7fcd23fa77e53a6ef6f839a9828491e9d7b",
+      "credential_redacted": false,
+      "raw_sha256": "4bb73ec2b230e22949b86130a680727e599b04afa51241cc6fb396d06f225ff5",
+      "request": {
+        "MST": "290173",
+        "target": "oldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "4bb73ec2b230e22949b86130a680727e599b04afa51241cc6fb396d06f225ff5"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2026-10-02",
+    "event_id": "evt-52a5f7f83304b066a405623e2ee068a452cb59ff20ffe385e2b59f2f0c13f2eb",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290173",
+    "promulgation_or_issue_date": "2026-09-29",
+    "regulation_name": "가석방자관리규정",
+    "regulation_type": "대통령령"
+  },
+  "schema_version": "1.3"
+}

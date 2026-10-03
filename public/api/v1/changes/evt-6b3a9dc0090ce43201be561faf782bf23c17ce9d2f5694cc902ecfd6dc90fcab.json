@@ -1,0 +1,73 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "2d90d372edaf1fde92472393600083fa4762bc357492e2dac6679d6bd362104b",
+      "effective_date": "2022-04-01",
+      "identifier": "2100000210483",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000210483",
+      "snapshot_url": "/api/v1/rules/admrul-28763/versions/2100000210483-2022-04-01-0e17bbf8697aee04.json",
+      "version_id": "2100000210483"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "cdb4c57e2a571a0eeae6a374efd586a12c725e72855c5c2f7e6729bf62b5220a",
+      "effective_date": "2017-12-22",
+      "identifier": "2100000107161",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000107161",
+      "snapshot_url": "/api/v1/rules/admrul-28763/versions/2100000107161-2017-12-22-da14ae8d08170eff.json",
+      "version_id": "2100000107161"
+    },
+    "canonical_id": "admrul-28763",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 2,
+    "changed_articles": [
+      {
+        "after_text": "제2조(기본방침) 이 기준의 기본방침은 다음과 같다.\n1. (현행과 같음)\n2. 교정사고 중심의 일률적 문책을 지양하고, 사고의 유형, 사고의 정도, 고의 및 과실여부 등 구체적 사안에 따라 문책기준 차별화\n3. (현행과 같음)\n4. 고의, 현저한 직무태만 등으로 야기된 사고관련자는 중징계 함으로써 책임의식을 고취, 복무기강확립 및 교정사고 방지",
+        "article_key": "article-2",
+        "article_number": "2",
+        "article_title": "제2조(기본방침)",
+        "before_text": "제2조(기본방침) 이 기준의 기본방침은 다음과 같다.\n1. (생  략)\n2. 교정사고 중심의 일률적 문책을 지양하고, 사고유형, 경중, 고의 및 과실여부 등 구체적 사안에 따라 문책기준 차별화\n3. (생  략)\n4. 직무태만, 무사안일 등으로 야기된 사고관련자는 중징계 함으로써 책임의식을 고취, 복무기강확립 및 교정사고 방지",
+        "change_type": "MODIFIED",
+        "effective_date": "2022-04-01"
+      },
+      {
+        "after_text": "제4조(참작 사항) ① (현행과 같음)\n② 개인별 구체적 징계양정은 사고의 유형, 사고의 정도, 과실의 경중, 사고가 공직 내외에 미치는 영향 등 종합적인 정황을 참작하여 결정한다.\n③·④ (현행과 같음)",
+        "article_key": "article-4",
+        "article_number": "4",
+        "article_title": "제4조(참작 사항)",
+        "before_text": "제4조(참작 사항) ① (생  략)\n② 개인별 구체적 징계양정은 사고의 유형, 책임의 경중, 과실의 정도, 근무성적 등 종합적인 정황을 참작하여 결정한다.\n③·④ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2022-04-01"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "16ce0b7587bd311799628123ce8876939421a1cc1f3d92ac9bbe8243b9a92324",
+      "credential_redacted": false,
+      "raw_sha256": "a6221fe526290f157de53143613a83a28aea60ad29205b4239b751b1e55f2f4d",
+      "request": {
+        "ID": "2100000210483",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "a6221fe526290f157de53143613a83a28aea60ad29205b4239b751b1e55f2f4d"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2022-04-01",
+    "event_id": "evt-6b3a9dc0090ce43201be561faf782bf23c17ce9d2f5694cc902ecfd6dc90fcab",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000210483",
+    "promulgation_or_issue_date": "2022-04-01",
+    "regulation_name": "교정사고 유형별 문책기준 지침",
+    "regulation_type": "예규"
+  },
+  "schema_version": "1.3"
+}

@@ -1,0 +1,183 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "66662d31d4ce7beb5e8aa07b7013e83fa66f25160005f8e32bd7f2191c270b0c",
+      "effective_date": "2024-01-03",
+      "identifier": "2100000234496",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000234496",
+      "snapshot_url": "/api/v1/rules/admrul-37589/versions/2100000234496-2024-01-03-ddd7fcc7d71ca135.json",
+      "version_id": "2100000234496"
+    },
+    "appendix_changes": [
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=136545641",
+          "sequence": "0007",
+          "title": "검수일지",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=136545637"
+        },
+        "before_metadata": null,
+        "change_type": "APPENDIX_ADDED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=136545647",
+          "sequence": "0008",
+          "title": "위생관리 점검표",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=136545643"
+        },
+        "before_metadata": null,
+        "change_type": "APPENDIX_ADDED",
+        "status": "AVAILABLE"
+      }
+    ],
+    "before_version": {
+      "body_hash": "c0e0583a09f1279575d6e9760aafc170e2b625a7b4572c0d146670a70f9443fe",
+      "effective_date": "2021-12-30",
+      "identifier": "2100000207807",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000207807",
+      "snapshot_url": "/api/v1/rules/admrul-37589/versions/2100000207807-2021-12-30-9ad8a46c73383b52.json",
+      "version_id": "2100000207807"
+    },
+    "canonical_id": "admrul-37589",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "RULE_RENAMED",
+      "APPENDIX_ADDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 11,
+    "changed_articles": [
+      {
+        "after_text": "제4조(양곡보관 및 수불관리) ① ∼ ④ (현행과 같음)\n⑤ 소장은 배식방법 등을 수시로 점검하여 해당 기관의 실정에 적합한 급식방법을 마련하여야 한다.\n⑥ 취사 및 배식 종사인원의 확보, 배식시간의 단축여부, 위생 및 보안상의 문제점 등을 수시로 검토하여 효율적인 급식운영이 되도록 한다.",
+        "article_key": "article-4",
+        "article_number": "4",
+        "article_title": "제4조(양곡보관 및 수불관리)",
+        "before_text": "제4조(양곡보관 및 수불관리) ① ∼ ④ (생  략)\n⑤ 소장은 배식방법 등을 수시로 점검하여 해당 기관의 실정에 적합한 급식방법을 마련하는 등 급식에 원활을 기하도록 한다.\n⑥ 취사 및 배식 종사 인원의 확보, 배식시간의 단축여부, 위생 및 보안상의 문제점 등을 수시로 검토하여 효율적인 급식운영이 되도록 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-01-03"
+      },
+      {
+        "after_text": "제5조(비상식량 인수) ① 구입 대표기관은 납품되는 비상식량의 규격, 수량 및 훼손품 여부에 대하여 검사하고, 이상이 있는 경우 불합격 등의 조치를 하여야 한다.\n② 구입 대표기관은 지시공문에 따라 인계시기 등을 인수기관과 협의하고, 제품의 제조일자가 납품시기와 일치되는지 여부와 소비기한을 확인한 후 인수하여야 한다.\n③ (현행과 같음)",
+        "article_key": "article-5",
+        "article_number": "5",
+        "article_title": "제5조(비상식량 인수)",
+        "before_text": "제5조(비상식량 인수) ① 구입 대표기관은 납품되는 비상식량의 규격, 수량 및 훼손품 여부에 대하여 검사하고, 이상이 있는 경우에는 불합격 등의 조치를 하여야 한다.\n② 구입 대표기관은 지시공문에 따라 인계시기 등을 인수기관과 협의하고, 제품의 제조일자가 납품시기와 일치되는지 여부와 유효기간을 확인한 후 인수하여야 한다.\n③ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-01-03"
+      },
+      {
+        "after_text": "제6조(보관관리) ① (현행과 같음)\n② 비상식량의 소비기한은 현품 제조일로부터 제조회사의 보증기간으로 한다.\n③ (현행과 같음)",
+        "article_key": "article-6",
+        "article_number": "6",
+        "article_title": "제6조(보관관리)",
+        "before_text": "제6조(보관관리) ① (생  략)\n② 비상식량의 유효기간은 현품 제조일로부터 제조회사의 보증기간으로 한다.\n③ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-01-03"
+      },
+      {
+        "after_text": "제9조(부식조달) ① ∼ ④ (현행과 같음)\n⑤ 수용자의 부식물 구입은 교도작업특별회계 생산품을 우선 구입하고 「국가를 당사자로 하는 계약에 관한 법률」등 관련 규정에 따라 일반경쟁 입찰방식으로 구입하는 것을 원칙으로 한다.\n⑥ ∼ ⑧ (현행과 같음)",
+        "article_key": "article-9",
+        "article_number": "9",
+        "article_title": "제9조(부식조달)",
+        "before_text": "제9조(부식조달) ① ∼ ④ (생  략)\n⑤ 수용자의 부식물 구입은 교도작업특별회계 생산품을 우선 구입하고 「국가를 당사자로 하는 계약에 관한 법률」 등 관련 규정에 따라 일반경쟁 입찰방식으로 구입하는 것을 원칙으로 한다.\n⑥ ∼ ⑧ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-01-03"
+      },
+      {
+        "after_text": "제10조(검수) ① 검수관은 주ㆍ부식 등을 검수할 때에는 별지 제7호 서식에 따라 검수일지를 기록하여야 한다. 다만, 자체적으로 검수일지를 기록하는 경우에는 별지 제7호의 점검사항을 포함하여야 한다.\n② ∼ ⑦ (현행과 같음)",
+        "article_key": "article-10",
+        "article_number": "10",
+        "article_title": "제10조(검수)",
+        "before_text": "제10조(검수) ① 검수는 계약된 물품의 규격, 수량 및 견본과 일치 여부를 확인하고, 특히 육류를 시중에서 구입할 경우 축산물 등급 판정확인서 및 이력관리 확인서를 첨부하도록 하여 급식관리에 만전을 기하여야 한다.\n② ∼ ⑦ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-01-03"
+      },
+      {
+        "after_text": "제11조(수불관리) ①·② (현행과 같음)\n③ 복지과장은 관계직원으로 하여금 부식물의 재고량 및 상태의 이상 유무를 정기적으로 확인하게 하여 부식물이 상하거나 과부족이 발생하지 않도록 보관 및 관리에 철저를 기하고, 매월 그 결과를 소장에게 보고하여야 한다.",
+        "article_key": "article-11",
+        "article_number": "11",
+        "article_title": "제11조(수불관리)",
+        "before_text": "제11조(수불관리) ①·② (생  략)\n③ 복지과장은 관계 직원으로 하여금 부식물의 재고량 및 상태의 이상 유무를 정기적으로 확인하게 하여 부식물이 상하거나 과부족이 발생하지 않도록 보관 및 관리에 철저를 기하고, 매월 그 결과를 소장에게 보고하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-01-03"
+      },
+      {
+        "after_text": "제13조(급식관리) ①·② (현행과 같음)\n③ 연중 또는 월중 급식계획의 운영은 식품의 성수기, 비수기 또는 물가 변동 상황 등을 검토하여 식품을 선택하고, 양의 증감 등을 감안하여 급식운영을 적정하게 할 수 있도록 한다.\n④ 지방교정청장은 산하기관의 급식운영 실태 및 식중독 등의 사고가 발생하지 않도록 수시로 지도ㆍ감독하고, 급식에 관한 문제점이 발생하지 않도록 급식의 운영과 개선에 노력하여야 한다.",
+        "article_key": "article-13",
+        "article_number": "13",
+        "article_title": "제13조(급식관리)",
+        "before_text": "제13조(급식관리) ①·② (생  략)\n③ 연중 또는 월중 급식계획의 운영은 식품의 성수기, 비수기 또는 물가 변동상황 등을 검토하여 식품을 선택하고, 양의 증감 등을 감안하여 급식운영을 적정하게 할 수 있도록 한다.\n④ 지방교정청장은 산하기관의 급식운영 실태에 대하여 수시로 지도ㆍ감독하고, 급식에 관한 문제점이 발생하지 않도록 급식의 운영과 개선에 노력하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-01-03"
+      },
+      {
+        "after_text": "제16조(중간식 지급) ① (현행과 같음)\n② 연장 작업으로 인한 중간식의 지급은 주ㆍ부식 또는 대용식 1회분을 간식으로 지급할 수 있다.",
+        "article_key": "article-16",
+        "article_number": "16",
+        "article_title": "제16조(중간식 지급)",
+        "before_text": "제16조(중간식 지급) ① (생  략)\n② 연장 작업으로 인한 중간식의 지급은 연장 작업 통지부에 의한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-01-03"
+      },
+      {
+        "after_text": "제17조(식단 작성 및 운영요령) ① (현행과 같음)\n② 식단은 재료명, 단가, 금액, 영양량, 그 밖의 필요사항을 기록한 조리계획서 등을 기초로 별지 제4호 서식의 월 식단차림표(부식)에 따라 요일별, 끼니별로 각 기관의 실정에 맞도록 주간 단위로 작성하여 월중에 반복 운영하는 것을 원칙으로 한다.\n③ (현행과 같음)\n④ 계절식품을 충분히 활용하되, 「국민영양관리법」의 영양소 섭취기준을 참고하여 균형 있는 식단이 되도록 한다.\n⑤·⑥ (현행과 같음)\n⑦ 대체 급식은 식단의 시행중 계획 식단의 이행이 부득이한 사정으로 어려운 경우에, 미리 그 현황과 변경사유를 별지 제5호 서식의 식단변경 보고서에 기록하여 소장의 허가를 받은 후 시행한다.\n⑧ (현행과 같음)",
+        "article_key": "article-17",
+        "article_number": "17",
+        "article_title": "제17조(식단 작성 및 운영요령)",
+        "before_text": "제17조(식단작성 및 운영요령) ① (생  략)\n② 식단은 재료명, 단가, 금액, 영양량, 그 밖의 필요사항을 기록한 조리계획서 등을 기초로 별지 제3호 서식의 월 식단차림표(부식)에 따라 요일별, 끼니별로 각 기관의 실정에 맞도록 주간 단위로 작성하여 월중에 반복 운영하는 것을 원칙으로 한다.\n③ (생  략)\n④ 계절식품을 충분히 활용하되, 국민영양관리법의 영양소 섭취기준을 참고하여 균형 있는 식단이 되도록 한다.\n⑤·⑥ (생  략)\n⑦ 대체 급식은 식단의 시행중 계획 식단의 이행이 부득이한 사정으로 어려운 경우에, 미리 그 현황과 변경사유를 별지 제4호 서식의 식단변경 보고서에 기록하여 소장의 허가를 받은 후 시행한다.\n⑧ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-01-03"
+      },
+      {
+        "after_text": "제19조(지급결과 보고서 작성 등) ① (현행과 같음)\n② 소장은 주ㆍ부식 및 연료의 지급 결과 보고서 중 월보는 다음 달 5일까지, 연보는 다음 해 1월 10일까지 별지 제6호 서식의 수용자 주ㆍ부식 지급결과 보고서를 작성하여 지방교정청장에게 보고하고, 각 지방교정청장은 소속 기관의 급식현황 중 월보는 다음 달 10일까지, 연보는 다음 해 1월 20일까지 별지 제6호의2서식 수용자 주ㆍ부식 지급결과 보고서를 작성하여 법무부장관에게 보고 하여야 한다.\n③ 급식비 예산집행 현황\n1. 지출원인행위액의 월계ㆍ누계의 계는 부식비, 연료비, 부대경비를 합산하여 계산한다.\n2. (현행과 같음)\n④ ∼ ⑧ (현행과 같음)",
+        "article_key": "article-19",
+        "article_number": "19",
+        "article_title": "제19조(지급결과 보고서 작성 등)",
+        "before_text": "제19조(지급결과 보고서 작성 등) ① (생  략)\n② 소장은 주ㆍ부식 및 연료의 지급 결과 보고서 중 월보는 다음 달 5일까지, 연보는 다음 해 1월 10일까지 별지 제5호 서식의 수용자 주ㆍ부식 지급결과 보고서를 작성하여 지방교정청장에게 보고하고, 각 지방교정청장은 소속 기관의 급식현황 중 월보는 다음 달 10일까지, 연보는 다음 해 1월 20일까지 별지 제5호의2서식 수용자 주ㆍ부식 지급결과 보고서를 작성하여 법무부장관에게 보고 하여야 한다.\n③ 급식비 예산집행 현황\n1. 지출원인 행위액의 월계ㆍ누계의 계는 부식비, 연료비, 부대경비를 합산하여 계산한다.\n2. (생  략)\n④ ∼ ⑧ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-01-03"
+      },
+      {
+        "after_text": "제21조(재검토기한) 「훈령 ㆍ 예규 등의 발령 및 관리에 관한 규정」에 따라 이 예규에 대하여 2024년 1월 1일 기준으로 매 3년이 되는 시점(매 3년째의 12월 31일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+        "article_key": "article-21",
+        "article_number": "21",
+        "article_title": "제21조(재검토기한)",
+        "before_text": "제21조(재검토기한) 「훈령 ㆍ 예규 등의 발령 및 관리에 관한 규정」에 따라 이 예규에 대하여 2022년 1월 1일 기준으로 매 3년이 되는 시점(매 3년째의 12월 31일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-01-03"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "fd06dfb73b306d1076524f2d8c0fede2316b00ec159b9c0e8c5bf4d0bf808274",
+      "credential_redacted": false,
+      "raw_sha256": "193a545e72314ca92a2e547ca5408fd3191b2422e5b7ed5ea54285696a845557",
+      "request": {
+        "ID": "2100000234496",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "193a545e72314ca92a2e547ca5408fd3191b2422e5b7ed5ea54285696a845557"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2024-01-03",
+    "event_id": "evt-148b744eb5e6f10011d07404a8f28bae3196a77b5f37813f05872790147ff571",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000234496",
+    "promulgation_or_issue_date": "2024-01-03",
+    "regulation_name": "수용자 급식관리지침",
+    "regulation_type": "예규"
+  },
+  "schema_version": "1.3"
+}

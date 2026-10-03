@@ -1,0 +1,12 @@
+[
+  {
+    "file": "rules/admrul-2036599.json",
+    "message": "'지침' is not one of ['법률', '대통령령', '법무부령', '예규', '훈령']\n\nFailed validating 'enum' in schema['properties']['rule']['properties']['corrections_category']:\n    {'enum': ['법률', '대통령령', '법무부령', '예규', '훈령']}\n\nOn instance['rule']['corrections_category']:\n    '지침'",
+    "type": "ValidationError"
+  },
+  {
+    "file": "rules.json",
+    "message": "'지침' is not one of ['법률', '대통령령', '법무부령', '예규', '훈령']\n\nFailed validating 'enum' in schema['properties']['rules']['items']['properties']['corrections_category']:\n    {'enum': ['법률', '대통령령', '법무부령', '예규', '훈령']}\n\nOn instance['rules'][0]['corrections_category']:\n    '지침'",
+    "type": "ValidationError"
+  }
+]

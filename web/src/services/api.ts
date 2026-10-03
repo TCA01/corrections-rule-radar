@@ -3,6 +3,8 @@ import {
   RulesResponse,
   HealthResponse,
   ChangesResponse,
+  RecentChangesResponse,
+  PersistentChangeEvent,
   RuleDetailResponse,
 } from '../types';
 
@@ -72,6 +74,18 @@ export const api = {
 
   getUpcomingChanges(): Promise<ChangesResponse> {
     return fetchJson<ChangesResponse>('/api/v1/changes/upcoming.json');
+  },
+
+  getRecentChanges(): Promise<RecentChangesResponse> {
+    return fetchJson<RecentChangesResponse>('/api/v1/changes/recent.json');
+  },
+
+  getHistoryChanges(): Promise<RecentChangesResponse> {
+    return fetchJson<RecentChangesResponse>('/api/v1/changes/history.json');
+  },
+
+  getChangeEvent(eventId: string): Promise<PersistentChangeEvent> {
+    return fetchJson<PersistentChangeEvent>(`/api/v1/changes/${eventId}.json`);
   },
 
   getRuleDetail(canonicalId: string): Promise<RuleDetailResponse> {

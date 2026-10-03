@@ -1,0 +1,73 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "f41d4f7c1c6f8e786bf7980acbb58baee1eab2b5269e0724cff41695eb8baa5e",
+      "effective_date": "2026-10-02",
+      "identifier": "290453",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290453",
+      "snapshot_url": "/api/v1/rules/law-004057/versions/290453-2026-10-02-59157ee9a56c4c7f.json",
+      "version_id": "290453"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "147e45391be42c20054615df9e20bdfe9521a19ea96778c72d73dd8292e9ad7d",
+      "effective_date": "2021-01-05",
+      "identifier": "227647",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=227647",
+      "snapshot_url": "/api/v1/rules/law-004057/versions/227647-2021-01-05-71271dd5711d3fd7.json",
+      "version_id": "227647"
+    },
+    "canonical_id": "law-004057",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 2,
+    "changed_articles": [
+      {
+        "after_text": "제2조(호송공무원) 교도소ㆍ구치소 및 그 지소(이하 “교정시설”이라 한다) 간의 호송은 교도관이 행하며, 그 밖의 호송은 고위공직자범죄수사처수사관, 중대범죄수사청수사관, 경찰관 또는 「공소청법」 제55조ㆍ「형사소송법」 제494조에 따라 직무를 수행하는 공소청 직원이 행한다.",
+        "article_key": "article-2",
+        "article_number": "2",
+        "article_title": "제2조(호송공무원)",
+        "before_text": "제2조(호송공무원) 교도소ㆍ구치소 및 그 지소(이하 “교정시설”이라 한다) 간의 호송은 교도관이 행하며, 그 밖의 호송은 경찰관 또는 「검찰청법」 제47조에 따라 사법경찰관리로서의 직무를 수행하는 검찰청 직원이 행한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-10-02"
+      },
+      {
+        "after_text": "제10조(피호송자의 도주 등) ①피호송자가 도주한 때에는 호송관은 즉시 그 지방 및 인근 경찰관서와 호송관서에 통지하여야 하며, 호송관서는 관할 지방공소청, 사건소관 공소청, 호송을 명령한 관서, 발송관서 및 수송관서에 통지하여야 한다.\n② (현행과 같음)",
+        "article_key": "article-10",
+        "article_number": "10",
+        "article_title": "제10조(피호송자의 도주 등)",
+        "before_text": "제10조(피호송자의 도주 등) ①피호송자가 도주한 때에는 호송관은 즉시 그 지방 및 인근 경찰관서와 호송관서에 통지하여야 하며, 호송관서는 관할 지방검찰청, 사건소관 검찰청, 호송을 명령한 관서, 발송관서 및 수송관서에 통지하여야 한다.\n② (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-10-02"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "d77f81510f8356cee1dffd189abbd9d5dd8a193125b18103962ddc4ce68d8cfc",
+      "credential_redacted": false,
+      "raw_sha256": "f42bd6018d3e8ce97a02881e4c3638794640da8e63cad0438e51a511889eb4ab",
+      "request": {
+        "MST": "290453",
+        "target": "oldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "f42bd6018d3e8ce97a02881e4c3638794640da8e63cad0438e51a511889eb4ab"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2026-10-02",
+    "event_id": "evt-7e971fbb919a8045ea0ebcfef61714e944b44b2a0b0664cb73e06a1135f52009",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290453",
+    "promulgation_or_issue_date": "2026-09-29",
+    "regulation_name": "수형자 등 호송 규정",
+    "regulation_type": "대통령령"
+  },
+  "schema_version": "1.3"
+}

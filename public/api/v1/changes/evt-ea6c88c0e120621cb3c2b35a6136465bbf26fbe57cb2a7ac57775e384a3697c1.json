@@ -1,0 +1,64 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "aa5c60a9530921852b623361d40b38d0e0e990cb64ca2e36acfb0037ade91496",
+      "effective_date": "2010-10-22",
+      "identifier": "106754",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=106754",
+      "snapshot_url": "/api/v1/rules/law-011092/versions/106754-2010-10-22-3581fc923a5f506b.json",
+      "version_id": "106754"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "e10cde4e34a8ca3dd98b5402f52b2a83d2539240d29c1bdfd66814528e06ed43",
+      "effective_date": "2010-01-01",
+      "identifier": "96893",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=96893",
+      "snapshot_url": "/api/v1/rules/law-011092/versions/96893-2010-01-01-af8d76afea3e9991.json",
+      "version_id": "96893"
+    },
+    "canonical_id": "law-011092",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 1,
+    "changed_articles": [
+      {
+        "after_text": "제9조(일반경쟁계약) 특별회계의 세입ㆍ세출의 원인이 되는 계약을 담당하는 공무원(이하 “계약담당자”라 한다)은 다음 각 호의 어느 하나에 해당하는 계약으로서 추정가격이 「국가를 당사자로 하는 계약에 관한 법률 시행령」 제26조제1항제5호가목에 따른 추정가격의 2배를 초과하는 계약을 하려는 경우에는 일반경쟁에 부쳐야 한다.\n1. ∼ 4. (현행과 같음)",
+        "article_key": "article-9",
+        "article_number": "9",
+        "article_title": "제9조(일반경쟁계약)",
+        "before_text": "제9조(일반경쟁계약) 특별회계의 세입ㆍ세출의 원인이 되는 계약을 담당하는 공무원(이하 “계약담당자”라 한다)은 다음 각 호의 어느 하나에 해당하는 계약으로서 추정가격이 「국가를 당사자로 하는 계약에 관한 법률 시행령」 제26조제1항제5호에 따른 추정가격의 2배를 초과하는 계약을 하려는 경우에는 일반경쟁에 부쳐야 한다.\n1. ∼ 4. (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2010-10-22"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "c4572397e26ae69a3ba0b06e0c1b8f3f33f133f5ef0fdc527c7211f37c640aba",
+      "credential_redacted": false,
+      "raw_sha256": "7e6a10989978349ac6473d368ca3d2fce89eeddcee4e6adde20305e00acd26bf",
+      "request": {
+        "MST": "106754",
+        "target": "oldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "7e6a10989978349ac6473d368ca3d2fce89eeddcee4e6adde20305e00acd26bf"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2010-10-22",
+    "event_id": "evt-ea6c88c0e120621cb3c2b35a6136465bbf26fbe57cb2a7ac57775e384a3697c1",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=106754",
+    "promulgation_or_issue_date": "2010-07-21",
+    "regulation_name": "교도작업의 운영 및 특별회계에 관한 법률 시행령",
+    "regulation_type": "대통령령"
+  },
+  "schema_version": "1.3"
+}

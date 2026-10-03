@@ -1,0 +1,17 @@
+{
+  "changed_paths": [],
+  "duration_seconds": 517.188,
+  "finished_at": "2026-10-03T07:30:22.721280+00:00",
+  "metrics": {
+    "api_request_count": 470,
+    "api_response_seconds": 214.791,
+    "average_api_response_seconds": 0.457002,
+    "public_page_request_count": 0,
+    "public_page_response_seconds": 0.0,
+    "retry_count": 0,
+    "total_http_request_count": 470,
+    "transport_error_summary": {}
+  },
+  "production_unchanged": true,
+  "started_at": "2026-10-03T07:21:45.539107+00:00"
+}

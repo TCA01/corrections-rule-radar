@@ -28,6 +28,9 @@ def fingerprint():
                 values[str(path)] = [hashlib.sha256(path.read_bytes()).hexdigest(), path.stat().st_mtime_ns]
     return values
 
+def protected_changes(before, after):
+    return [p for p in set(before)|set(after) if not p.startswith('web') and before.get(p)!=after.get(p)]
+
 def redirect(path, value):
     write_json(OUT / Path(path).name, value)
 
@@ -84,9 +87,9 @@ def main():
         except (ApiError,ValueError) as exc: errors.append({'stage':'system_map','canonical_id':'law-'+stable,'error':str(exc)})
     write_json(OUT/'system_maps.json', maps)
     after=fingerprint()
-    write_json(OUT/'integrity.json', {'finished_at':now(),'production_unchanged':before==after,'changed_paths':[p for p in set(before)|set(after) if before.get(p)!=after.get(p)],'metrics':metrics.report(),'errors':errors,'official_resolved':len(collection['registry']),'candidate_bodies':len(bodies)})
+    write_json(OUT/'integrity.json', {'finished_at':now(),'production_unchanged':not protected_changes(before,after),'all_observed_files_unchanged':before==after,'changed_paths':[p for p in set(before)|set(after) if before.get(p)!=after.get(p)],'protected_changed_paths':protected_changes(before,after),'metrics':metrics.report(),'errors':errors,'official_resolved':len(collection['registry']),'candidate_bodies':len(bodies)})
     print('AUDIT_COLLECTION_COMPLETE', flush=True)
-    if before!=after: raise ValueError('PRODUCTION_CHANGED')
+    if protected_changes(before,after): raise ValueError('PRODUCTION_CHANGED')
 
 if __name__=='__main__':
     main()

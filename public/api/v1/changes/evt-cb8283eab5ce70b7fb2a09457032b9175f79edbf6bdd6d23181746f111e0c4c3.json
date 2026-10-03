@@ -1,0 +1,64 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "48fa843178f97ea702b3f61695693bc52db0ec79c40d876e556276b23eb000b9",
+      "effective_date": "2025-05-27",
+      "identifier": "271415",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=271415",
+      "snapshot_url": "/api/v1/rules/law-009144/versions/271415-2025-05-27-48040821e71ff705.json",
+      "version_id": "271415"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "c4ec45366a1203675f33bae865132a676eb152644b27fc8abb692ce98c8624f5",
+      "effective_date": "2022-02-07",
+      "identifier": "240263",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=240263",
+      "snapshot_url": "/api/v1/rules/law-009144/versions/240263-2022-02-07-1d93047d7761119c.json",
+      "version_id": "240263"
+    },
+    "canonical_id": "law-009144",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 1,
+    "changed_articles": [
+      {
+        "after_text": "제5조(기본재산의 처분) ① 교정법인이 법 제14조제2항에 따라 기본재산의 매도ㆍ증여 또는 교환에 관한 허가를 받거나 신고를 하려는 경우에는 그 허가신청서 또는 신고서에 다음 각 호의 서류를 첨부하여 법무부장관에게 제출하여야 한다.\n1. (현행과 같음)\n2. 「감정평가 및 감정평가사에 관한 법률」 제2조제4호에 따른 감정평가법인등이 작성한 감정평가서 또는 「부동산 가격공시에 관한 법률 시행규칙」 제5조에 따른 개별공시지가 확인서(교환의 경우에는 양쪽의 재산에 관한 것이어야 한다)\n3.·4. (현행과 같음)\n②·③ (현행과 같음)",
+        "article_key": "article-5",
+        "article_number": "5",
+        "article_title": "제5조(기본재산의 처분)",
+        "before_text": "제5조(기본재산의 처분) ① 교정법인이 법 제14조제2항에 따라 기본재산의 매도ㆍ증여 또는 교환에 관한 허가를 받거나 신고를 하려는 경우에는 그 허가신청서 또는 신고서에 다음 각 호의 서류를 첨부하여 법무부장관에게 제출하여야 한다.\n1. (생  략)\n2. 「감정평가 및 감정평가사에 관한 법률」 제2조에 따른 감정평가업자가 작성한 감정평가서 또는 「부동산 가격공시에 관한 법률 시행규칙」 제5조에 따른 개별공시지가 확인서(교환의 경우에는 양쪽의 재산에 관한 것이어야 한다)\n3.·4. (생  략)\n②·③ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-05-27"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "7d3406d115c4798655aa7a7c7af1c0a8195bb89e4e970c276450315c3a20f912",
+      "credential_redacted": false,
+      "raw_sha256": "92b8a2137b1938a3eef8dc4005f8a82b2265b08fbed6651aff15f3f8e31a5d69",
+      "request": {
+        "MST": "271415",
+        "target": "oldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "92b8a2137b1938a3eef8dc4005f8a82b2265b08fbed6651aff15f3f8e31a5d69"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2025-05-27",
+    "event_id": "evt-cb8283eab5ce70b7fb2a09457032b9175f79edbf6bdd6d23181746f111e0c4c3",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=271415",
+    "promulgation_or_issue_date": "2025-05-27",
+    "regulation_name": "민영교도소 등의 설치ㆍ운영에 관한 법률 시행규칙",
+    "regulation_type": "법무부령"
+  },
+  "schema_version": "1.3"
+}

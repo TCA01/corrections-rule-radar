@@ -51,15 +51,15 @@
   --diff-ins-bg: #dcfce7;
   --diff-ins-text: #14532d;
 
-  /* Radii: small, crisp, restrained */
-  --radius-xs: 2px;
-  --radius-sm: 4px;
-  --radius-md: 6px;
+  /* Radii: VoiceBox Civic sharp geometry (0-2px) */
+  --radius-xs: 0px;
+  --radius-sm: 2px;
+  --radius-md: 2px;
 
-  /* Subtle elevation */
-  --shadow-subtle: 0 1px 2px rgba(20, 24, 33, 0.04);
-  --shadow-dropdown: 0 6px 16px -2px rgba(20, 24, 33, 0.08), 0 2px 6px -1px rgba(20, 24, 33, 0.04);
-  --shadow-modal: 0 16px 36px -4px rgba(20, 24, 33, 0.16), 0 4px 12px -2px rgba(20, 24, 33, 0.08);
+  /* Elevation: flat surfaces with crisp borders */
+  --shadow-subtle: none;
+  --shadow-dropdown: 0 4px 12px rgba(17, 20, 26, 0.08);
+  --shadow-modal: 0 8px 24px rgba(17, 20, 26, 0.12);
 
   --font-family: -apple-system, BlinkMacSystemFont, "Pretendard", "Noto Sans KR", "Segoe UI", Roboto, sans-serif;
   --max-width: 1140px;
@@ -879,6 +879,145 @@ a:hover {
 }
 
 /* ==========================================================================
+   Recent 90-Day Changes Table (VoiceBox Civic)
+   ========================================================================== */
+.recent-changes-section {
+  margin-top: 2rem;
+}
+
+.recent-changes-table-wrapper {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xs);
+  overflow-x: auto;
+}
+
+.recent-changes-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 0.875rem;
+}
+
+.recent-changes-table thead th {
+  background-color: var(--color-surface-muted);
+  color: var(--color-text-subtle);
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.65rem 0.875rem;
+  border-bottom: 2px solid var(--color-border-strong);
+  white-space: nowrap;
+}
+
+.recent-change-row {
+  border-bottom: 1px solid var(--color-border-subtle);
+  transition: background-color 0.1s ease;
+}
+
+.recent-change-row:last-child {
+  border-bottom: none;
+}
+
+.recent-change-row:hover {
+  background-color: var(--color-surface-hover);
+}
+
+.recent-changes-table td {
+  padding: 0.75rem 0.875rem;
+  vertical-align: middle;
+}
+
+.tabular-date {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  font-size: 0.8125rem;
+  white-space: nowrap;
+}
+
+.recent-rule-name-btn {
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: var(--color-text-main);
+  text-align: left;
+  word-break: keep-all;
+  transition: color 0.1s ease;
+  padding: 0;
+}
+
+.recent-rule-name-btn:hover {
+  color: var(--color-accent-navy);
+  text-decoration: underline;
+}
+
+.articles-count-tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  background-color: var(--color-surface-muted);
+  border: 1px solid var(--color-border-subtle);
+  padding: 0.15rem 0.45rem;
+  border-radius: var(--radius-xs);
+  white-space: nowrap;
+}
+
+.domain-text-muted {
+  font-size: 0.75rem;
+  color: var(--color-text-subtle);
+  word-break: keep-all;
+}
+
+.recent-btn-group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  flex-wrap: nowrap;
+}
+
+.btn-action-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: var(--color-accent-navy);
+  padding: 0.35rem 0.65rem;
+  border: 1px solid var(--color-accent-navy);
+  border-radius: var(--radius-xs);
+  transition: all 0.1s ease;
+  white-space: nowrap;
+}
+
+.btn-action-primary:hover {
+  background-color: var(--color-accent-navy-hover);
+  border-color: var(--color-accent-navy-hover);
+}
+
+.btn-action-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  background-color: var(--color-surface);
+  padding: 0.35rem 0.55rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xs);
+  transition: all 0.1s ease;
+  white-space: nowrap;
+}
+
+.btn-action-secondary:hover {
+  color: var(--color-text-main);
+  border-color: var(--color-border-strong);
+  text-decoration: none;
+}
+
+/* ==========================================================================
    Regulation Directory: Editorial Legal Index
    ========================================================================== */
 .directory-controls {
@@ -1209,18 +1348,18 @@ a:hover {
 
 .modal-header {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 1rem;
+  flex-direction: column;
+  gap: 0.75rem;
   padding: 1.25rem 1.5rem;
-  border-bottom: 1px solid var(--color-border);
-  background-color: var(--color-surface-alt);
+  border-bottom: 2px solid var(--color-border-strong);
+  background-color: var(--color-surface);
 }
 
-.modal-title-group {
+.modal-header-top {
   display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
 }
 
 .modal-badges-row {
@@ -1230,12 +1369,58 @@ a:hover {
   flex-wrap: wrap;
 }
 
+.modal-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
 .modal-rule-title {
   font-size: 1.375rem;
   font-weight: 800;
   color: var(--color-text-main);
   letter-spacing: -0.02em;
   word-break: keep-all;
+  flex: 1;
+}
+
+.modal-official-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  color: var(--color-accent-navy);
+  border: 1px solid var(--color-border-strong);
+  background-color: var(--color-surface);
+  padding: 0.3rem 0.65rem;
+  border-radius: var(--radius-xs);
+  white-space: nowrap;
+  transition: all 0.1s ease;
+}
+
+.modal-official-link:hover {
+  background-color: var(--color-accent-navy);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.modal-submeta-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+}
+
+.modal-submeta-item {
+  font-weight: 500;
+}
+
+.modal-submeta-divider {
+  color: var(--color-border);
 }
 
 .modal-close-btn {
@@ -1245,12 +1430,14 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: color 0.1s ease;
+  border: 1px solid transparent;
+  transition: all 0.1s ease;
 }
 
 .modal-close-btn:hover {
   color: var(--color-text-main);
   background-color: var(--color-surface-hover);
+  border-color: var(--color-border);
 }
 
 .modal-body {
@@ -1600,6 +1787,48 @@ a:hover {
   color: var(--color-text-subtle);
 }
 
+.appendix-action-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--color-accent-navy);
+  padding: 0.25rem 0.6rem;
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--radius-xs);
+  transition: all 0.1s ease;
+  white-space: nowrap;
+}
+
+.appendix-action-btn:hover {
+  background-color: var(--color-accent-navy);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.appendix-action-btn.download {
+  color: #0f172a;
+}
+
+.appendix-action-btn.preview {
+  color: #1e40af;
+}
+
+.appendix-deleted-badge {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #991b1b;
+  background-color: #fef2f2;
+  border: 1px solid #fecaca;
+  padding: 0.2rem 0.5rem;
+  border-radius: var(--radius-xs);
+  white-space: nowrap;
+}
+
 .appendix-link {
   display: inline-flex;
   align-items: center;
@@ -1620,6 +1849,66 @@ a:hover {
 .appendix-no-link {
   font-size: 0.75rem;
   color: var(--color-text-light);
+}
+
+/* Diff Version Tabs & Meta Strip */
+.diff-version-tabs {
+  display: flex;
+  gap: 0.5rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--color-border);
+  flex-wrap: wrap;
+}
+
+.diff-version-tab {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.75rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  background-color: var(--color-surface-muted);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xs);
+  transition: all 0.1s ease;
+}
+
+.diff-version-tab:hover {
+  color: var(--color-text-main);
+  border-color: var(--color-border-strong);
+}
+
+.diff-version-tab.active {
+  color: #ffffff;
+  background-color: var(--color-accent-navy);
+  border-color: var(--color-accent-navy);
+}
+
+.version-tab-badge {
+  font-size: 0.6875rem;
+  font-weight: 700;
+  padding: 0.1rem 0.35rem;
+  border-radius: var(--radius-xs);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.diff-meta-strip {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  margin-top: 0.25rem;
+  flex-wrap: wrap;
+}
+
+.diff-meta-item strong {
+  color: var(--color-text-main);
+}
+
+.diff-meta-divider {
+  color: var(--color-border);
 }
 
 .detail-source-section {

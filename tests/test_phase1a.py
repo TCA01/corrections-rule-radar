@@ -78,7 +78,7 @@ class Phase1ATests(unittest.TestCase):
     def test_contract_candidate_current_future_health_and_domains(self):
         domains=load(ROOT/'data/registry/business_domains.json'); collection=apply_domains(baseline_law(self.collection),domains)
         _,files=build_contract(collection,[],AT)
-        self.assertTrue(files['manifest.json'][1]['API_V1_CANDIDATE']); self.assertEqual(files['manifest.json'][1]['schema_version'],'1.2')
+        self.assertTrue(files['manifest.json'][1]['API_V1_CANDIDATE']); self.assertEqual(files['manifest.json'][1]['schema_version'],'1.3')
         detail=files['rules/law-001668.json'][1]
         self.assertEqual(detail['current']['version_status'],'CURRENT'); self.assertEqual(detail['upcoming'][0]['version_status'],'FUTURE'); self.assertIn('dataset_version',detail)
         self.assertEqual(files['health.json'][1]['health_scope'],'PUBLISHED_DATASET'); self.assertEqual(files['health.json'][1]['classification_review_count'],sum(r['classification_status']=='REVIEW' for r in collection['registry']))
@@ -114,9 +114,14 @@ class Phase1ATests(unittest.TestCase):
         for p in public.rglob('*.json'):
             value=load(p)
             if 'dataset_version' in value: self.assertEqual(value['dataset_version'],manifest['dataset_version'])
-            refs=[value['current']['version_reference']]+[v['version_reference'] for v in value['upcoming']] if 'current' in value else [r for e in value.get('events',[]) for r in (e['old_reference'],e['new_reference']) if r]
+            if 'current' in value:
+                refs=[value['current']['version_reference']]+[v['version_reference'] for v in value['upcoming']]
+            else:
+                events=[value['event']] if 'event' in value else value.get('events',[])
+                refs=[r for e in events for r in ((e['before_version'],e['after_version']) if 'after_version' in e else (e['old_reference'],e['new_reference'])) if r]
             for ref in refs:
                 path=public/ref['snapshot_url'].removeprefix('/api/v1/'); self.assertTrue(path.exists())
                 version=load(path)['version']; self.assertEqual(version['version_id'],ref['version_id']); self.assertEqual(version['metadata']['effective_date'],ref['effective_date'])
+                if 'body_hash' in ref: self.assertEqual(version['hashes']['body_hash'],ref['body_hash'])
 
 if __name__=='__main__': unittest.main()

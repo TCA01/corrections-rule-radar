@@ -1,0 +1,83 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "5820ff6700fb944345a924b04bbed9838accdfae28bc92383b7fbc7cb3b9be73",
+      "effective_date": "2024-11-04",
+      "identifier": "2100000249032",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000249032",
+      "snapshot_url": "/api/v1/rules/admrul-32486/versions/2100000249032-2024-11-04-3a5dec5ad91b4db5.json",
+      "version_id": "2100000249032"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "7ab1d7ce50a6b171a28873d9158e1f5c8f56de15cde048b09c95063c8505d6a0",
+      "effective_date": "2015-12-14",
+      "identifier": "2100000034763",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000034763",
+      "snapshot_url": "/api/v1/rules/admrul-32486/versions/2100000034763-2015-12-14-1c030bad0d86cd42.json",
+      "version_id": "2100000034763"
+    },
+    "canonical_id": "admrul-32486",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "RULE_RENAMED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 3,
+    "changed_articles": [
+      {
+        "after_text": "제1조(목적) 이 지침은 법무부 교정본부 교정행정 관련 영화ㆍ방송등(이하 ‘영화 등’이라고 한다) 제작지원에 있어 일관성 있는 지원기준 설정 으로 업무처리의 효율을 기함은 물론, 교정행정 홍보의 활성화를 유도하여 국민과 함께하는 친근한 교정이미지를 조성함을 목적으로 한다.",
+        "article_key": "article-1",
+        "article_number": "1",
+        "article_title": "제1조(목적)",
+        "before_text": "제1조(목적) 이 지침은 법무부 교정본부 교정행정 관련 영화 및 방송드라마(이하 ‘영화 등’이라고 한다) 제작지원에 있어 일관성 있는 지원기준 설정 으로 업무처리의 효율을 기함은 물론, 교정행정 홍보의 활성화를 유도하여 국민과 함께하는 친근한 교정이미지를 조성함을 목적으로 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-11-04"
+      },
+      {
+        "after_text": "제7조(심의기구의 구성 및 운영) ① 법무부 교정본부에 두는 심의기구의 명칭은 교정관련영화등제작지원심의위원회(이하 ‘심의위원회’라 한다) 로 하되, 법무부 교정본부장을 위원장으로 하고, 교정정책단장, 보안정책단장, 교정본부 소속 각과 과장으로 하며, 간사는 홍보담당자로 한다.\n② ∼ ④ (현행과 같음)",
+        "article_key": "article-7",
+        "article_number": "7",
+        "article_title": "제7조(심의기구의 구성 및 운영)",
+        "before_text": "제7조(심의기구의 구성 및 운영) ① 법무부 교정본부에 두는 심의기구의 명칭은 교정관련영화등제작지원심의위원회(이하 ‘심의위원회’라 한다) 로 하되, 법무부 교정본부장을 위원장으로 하고, 교정정책단장, 보안정책단장, 교정기획과장, 직업훈련과장, 사회복귀과장, 복지과장, 보안과장, 분류심사과장, 의료과장으로 하며, 간사는 홍보담당자로 한다.\n② ∼ ④ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-11-04"
+      },
+      {
+        "after_text": "제10조(제작지원요청 절차) 영화 등 제작사가 제작지원요청을 하는 경우에 법무부 교정본부장은 영화 등 제작사로 하여금 영화 등 촬영개시 2개월 전까지 다음 각호의 서류를 제출하게 하여야 한다. 다만, 교정행정과의 연관성이 적은 촬영 등의 경우에는 교정본부장은 각호의 서류 중 제3호 내지 제5호의 서류를 제출하지 아니하게 할 수 있다.\n1. (현행과 같음)\n2. 시나리오 및 시놉시스 각 1부\n3. 기획의도 및 교정행정관련 내용 평가서(별표 2) 각 1부\n4.·5. (현행과 같음)",
+        "article_key": "article-10",
+        "article_number": "10",
+        "article_title": "제10조(제작지원요청 절차)",
+        "before_text": "제10조(제작지원요청 절차) 영화 등 제작사가 제작지원요청을 하는 경우에 법무부 교정본부장은 영화 등 제작사로 하여금 영화 등 촬영개시 2개월 전까지 다음 각호의 서류를 제출하게 하여야 한다.\n1. (생  략)\n2. 기획의도 및 교정행정관련 내용 평가서(별표 2) 각 1부\n3. 시나리오 및 시놉시스 각 1부\n4.·5. (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-11-04"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "3698d18d76ca317fe7647831acb515e7ca9452f268c54bfc0c664d79ec0404af",
+      "credential_redacted": false,
+      "raw_sha256": "d6a3741e4c7f649f292f5f47b32d34aae72a4a15b41287d7edf5fc56cd1fdced",
+      "request": {
+        "ID": "2100000249032",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "d6a3741e4c7f649f292f5f47b32d34aae72a4a15b41287d7edf5fc56cd1fdced"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T08:35:01.361665+00:00",
+    "effective_date": "2024-11-04",
+    "event_id": "evt-d6d4ddbd7cc2e3bb0293377aeecf210030e14b63922b61b7c290df649046b420",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000249032",
+    "promulgation_or_issue_date": "2024-11-04",
+    "regulation_name": "교정관련 영화·방송등 제작지원 지침",
+    "regulation_type": "예규"
+  },
+  "schema_version": "1.3"
+}

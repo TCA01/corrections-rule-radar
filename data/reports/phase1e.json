@@ -1,0 +1,229 @@
+{
+  "appendix_removal_events": 24,
+  "backend_tests": {
+    "errors": 0,
+    "failure_test_ids": [],
+    "failures": 0,
+    "passed": true,
+    "public_contract": {
+      "failed_files": [],
+      "status": "PASS",
+      "validated_file_count": 324
+    },
+    "secret_scan": {
+      "file_count": 0,
+      "files": [],
+      "status": "PASS"
+    },
+    "tests": 106
+  },
+  "backfill": {
+    "duration_seconds": 257.953,
+    "metrics": {
+      "api_request_count": 217,
+      "api_response_seconds": 118.046,
+      "average_api_response_seconds": 0.543991,
+      "public_page_request_count": 0,
+      "public_page_response_seconds": 0.0,
+      "retry_count": 0,
+      "total_http_request_count": 217,
+      "transport_error_summary": {}
+    }
+  },
+  "comparison_unavailable": 6,
+  "current_core": 68,
+  "deployed": false,
+  "events_with_article_comparison": 71,
+  "events_without_article_comparison": 8,
+  "frontend_modified": false,
+  "history_beyond_90_days": 68,
+  "integrity": {
+    "changed_protected_files": [],
+    "checked_counts": {
+      "frontend_files": 22,
+      "immutable_archives": 108,
+      "phase1d_discovery_files": 8
+    },
+    "status": "PASS"
+  },
+  "known_limitations": [
+    "Official old/new comparison excerpts may contain omission markers; comparison_scope discloses this.",
+    "Exact-pair mismatches use structured snapshot fallback; no HTML/document parsing.",
+    "Six earlier historical baselines have no structured predecessor; explicitly COMPARISON_UNAVAILABLE. Recent 90-day events have no unavailable comparisons.",
+    "Initial backfill covers recent 90 days and a preceding historical change per rule, not every amendment since creation.",
+    "Legacy latest/upcoming feeds retain their pre-1.3 event model; Web W3 should consume recent/history and persistent event details.",
+    "No attachment contents or legal interpretation. Future provenance/scope expansion is reserved for schema 1.4."
+  ],
+  "past_effective_examples": [
+    {
+      "canonical_id": "law-010883",
+      "changed_article_count": 5,
+      "comparison_source": "STRUCTURED_SNAPSHOT_DIFF",
+      "effective_date": "2026-10-02",
+      "event_id": "evt-e8f0ac5b9bd3132252877ab234437465e97dbc26d91e5643465050a19ee200bf",
+      "regulation_name": "형의 집행 및 수용자의 처우에 관한 법률 시행규칙"
+    },
+    {
+      "canonical_id": "law-001668",
+      "changed_article_count": 7,
+      "comparison_source": "STRUCTURED_SNAPSHOT_DIFF",
+      "effective_date": "2026-10-02",
+      "event_id": "evt-dfe92805c48d476e36c5c99c7e11ce21ab547ec3b825835c2d04e0c011fabefc",
+      "regulation_name": "형의 집행 및 수용자의 처우에 관한 법률"
+    },
+    {
+      "canonical_id": "law-004057",
+      "changed_article_count": 2,
+      "comparison_source": "LAWGO_OLD_NEW",
+      "effective_date": "2026-10-02",
+      "event_id": "evt-7e971fbb919a8045ea0ebcfef61714e944b44b2a0b0664cb73e06a1135f52009",
+      "regulation_name": "수형자 등 호송 규정"
+    },
+    {
+      "canonical_id": "law-002049",
+      "changed_article_count": 5,
+      "comparison_source": "LAWGO_OLD_NEW",
+      "effective_date": "2026-10-02",
+      "event_id": "evt-52a5f7f83304b066a405623e2ee068a452cb59ff20ffe385e2b59f2f0c13f2eb",
+      "regulation_name": "가석방자관리규정"
+    },
+    {
+      "canonical_id": "law-005630",
+      "changed_article_count": 4,
+      "comparison_source": "LAWGO_OLD_NEW",
+      "effective_date": "2026-10-02",
+      "event_id": "evt-33969a4c0d9cae4e6306bab90cb98306d96c3d88414c0417fcd8d7bc6ad8f323",
+      "regulation_name": "형의 집행 및 수용자의 처우에 관한 법률 시행령"
+    },
+    {
+      "canonical_id": "admrul-37584",
+      "changed_article_count": 23,
+      "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+      "effective_date": "2026-10-02",
+      "event_id": "evt-18869ca99f3cd419ad147adad5289d1a1bda797251272ac8c0d23a5df75e89be",
+      "regulation_name": "수용자 교육교화 운영지침"
+    },
+    {
+      "canonical_id": "admrul-36283",
+      "changed_article_count": 68,
+      "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+      "effective_date": "2026-10-01",
+      "event_id": "evt-50adfb740f91cdaf579359919a370496c26cb2bbe5927d974c0cda633e90d48b",
+      "regulation_name": "교도작업특별회계운영지침"
+    },
+    {
+      "canonical_id": "admrul-36282",
+      "changed_article_count": 97,
+      "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+      "effective_date": "2026-10-01",
+      "event_id": "evt-490ec93ede065c91f02c831c4eed5435f7af6c0141e4dbfa3f808f3c46c45c5f",
+      "regulation_name": "교도작업운영지침"
+    },
+    {
+      "canonical_id": "law-002608",
+      "changed_article_count": 3,
+      "comparison_source": "LAWGO_OLD_NEW",
+      "effective_date": "2026-09-01",
+      "event_id": "evt-982f2ac02b20ca68c33e5b50cc134f52e82bef164b4f1f1a109a66ac724881c7",
+      "regulation_name": "교정직공무원 승진임용 규정"
+    },
+    {
+      "canonical_id": "law-010883",
+      "changed_article_count": 6,
+      "comparison_source": "STRUCTURED_SNAPSHOT_DIFF",
+      "effective_date": "2026-08-06",
+      "event_id": "evt-b5702aa3a6345807b24a58d91711a525642268888a5cec617260d5eb2d4ca064",
+      "regulation_name": "형의 집행 및 수용자의 처우에 관한 법률 시행규칙"
+    }
+  ],
+  "performance_after": {
+    "api_calls_per_run": [
+      90,
+      90
+    ],
+    "average_duration_seconds": 100.329,
+    "duration_seconds": [
+      100.829,
+      99.829
+    ]
+  },
+  "performance_before": {
+    "api_calls": 90,
+    "duration_seconds": 99.031
+  },
+  "persistent_change_events": 79,
+  "phase": "1E",
+  "production_core_expanded": false,
+  "public_json_validation": {
+    "dataset_version": "ds-7805063f9c55bcd7d7616ee1e3d509f79cc0ee449489171391afacdbf9e30ed3",
+    "rule_count": 68,
+    "status": "PASS",
+    "validated_files": 324
+  },
+  "ready_for_web_w3": true,
+  "recent_90_day_events": 10,
+  "recent_comparison_unavailable": 0,
+  "runs": [
+    {
+      "api_request_count": 90,
+      "api_response_seconds": 42.124,
+      "average_api_response_seconds": 0.468044,
+      "dataset_version": "ds-7805063f9c55bcd7d7616ee1e3d509f79cc0ee449489171391afacdbf9e30ed3",
+      "duration_seconds": 100.829,
+      "error_summary": {},
+      "event_ids_identical": true,
+      "failure_count": 0,
+      "finished_at": "2026-10-03T08:50:55.889832+00:00",
+      "last_good_dataset_version": "ds-7805063f9c55bcd7d7616ee1e3d509f79cc0ee449489171391afacdbf9e30ed3",
+      "mode": "CORE_STABLE_IDS",
+      "new_events": 0,
+      "persistent_new_events": 0,
+      "public_bytes_and_mtimes_identical": true,
+      "public_page_request_count": 0,
+      "public_page_response_seconds": 0.0,
+      "public_rewritten": false,
+      "result": "NO_CHANGE",
+      "retry_count": 0,
+      "review_count": 0,
+      "snapshot_hashes_identical": true,
+      "started_at": "2026-10-03T08:49:15.071514+00:00",
+      "success_count": 68,
+      "total_http_request_count": 90,
+      "transport_error_summary": {}
+    },
+    {
+      "api_request_count": 90,
+      "api_response_seconds": 39.199,
+      "average_api_response_seconds": 0.435544,
+      "dataset_version": "ds-7805063f9c55bcd7d7616ee1e3d509f79cc0ee449489171391afacdbf9e30ed3",
+      "duration_seconds": 99.829,
+      "error_summary": {},
+      "event_ids_identical": true,
+      "failure_count": 0,
+      "finished_at": "2026-10-03T09:00:53.391338+00:00",
+      "last_good_dataset_version": "ds-7805063f9c55bcd7d7616ee1e3d509f79cc0ee449489171391afacdbf9e30ed3",
+      "mode": "CORE_STABLE_IDS",
+      "new_events": 0,
+      "persistent_new_events": 0,
+      "public_bytes_and_mtimes_identical": true,
+      "public_page_request_count": 0,
+      "public_page_response_seconds": 0.0,
+      "public_rewritten": false,
+      "result": "NO_CHANGE",
+      "retry_count": 0,
+      "review_count": 0,
+      "snapshot_hashes_identical": true,
+      "started_at": "2026-10-03T08:59:13.562062+00:00",
+      "success_count": 68,
+      "total_http_request_count": 90,
+      "transport_error_summary": {}
+    }
+  ],
+  "schema": "1.3",
+  "source_distribution": {
+    "LAWGO_ADMIN_OLD_NEW": 45,
+    "LAWGO_OLD_NEW": 17,
+    "STRUCTURED_SNAPSHOT_DIFF": 11
+  },
+  "status": "PASS"
+}

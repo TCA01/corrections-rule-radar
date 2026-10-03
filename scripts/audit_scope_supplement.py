@@ -16,6 +16,33 @@ def main():
     existing=json.loads((OUT/'candidate_bodies.json').read_text(encoding='utf-8'))
     registry=json.loads(Path('data/registry/rules.json').read_text(encoding='utf-8'))
     seen=set(existing)|{r['canonical_id'] for r in registry}
+    if '--map-only' in sys.argv:
+        previous=json.loads((OUT/'supplement.json').read_text(encoding='utf-8'))
+        bodies=previous['bodies']; seen.update(bodies)
+        links={}
+        def walk(value):
+            if isinstance(value,dict):
+                if '행정규칙ID' in value: links['admrul-'+str(value['행정규칙ID'])]=value
+                for entry in value.values(): walk(entry)
+            elif isinstance(value,list):
+                for entry in value: walk(entry)
+        walk(json.loads((OUT/'system_maps.json').read_text(encoding='utf-8')))
+        for cid,link in links.items():
+            if cid in seen: continue
+            items,ev=search(c,'admrul',query=link['행정규칙명'],nw=1)
+            exact=[i for i in items if 'admrul-'+str(i['행정규칙ID'])==cid]
+            if len(exact)!=1: raise ValueError('SYSTEM_MAP_CURRENT_ID_REVIEW')
+            item=exact[0]; stable,serial=identifiers(item,'admrul')
+            payload,evidence=c.fetch('lawService.do',target='admrul',ID=serial)
+            record={'list_item':item,'payload':payload,'evidence':evidence,'official_url':detail_url('admrul',serial),'map_search_evidence':ev}
+            try: record['snapshot']=snapshot(payload,'admrul',serial,evidence)
+            except ValueError as exc: record['body_review_reason']=str(exc)
+            bodies[cid]=record
+        previous['bodies']=bodies
+        previous['production_unchanged']=before==fingerprint()
+        write_json(OUT/'supplement.json',previous)
+        print('SYSTEM_MAP_GAPS_RESOLVED',flush=True)
+        return
     for word in ('교정','교도소','구치소'):
         items,ev=search(c,'admrul',query=word,search=2,org='1270000',nw=1)
         searches.append({'query':word,'search':2,'org':'1270000','count':len(items),'items':items,'evidence':ev})
