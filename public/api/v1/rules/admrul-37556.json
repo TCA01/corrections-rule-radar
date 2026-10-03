@@ -1,0 +1,163 @@
+{
+  "articles_compared_to": {
+    "effective_date": "2019-08-30",
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000181905",
+    "snapshot_url": "/api/v1/rules/admrul-37556/versions/2100000181905-2019-08-30-ad4b7d5ad05f91b8.json",
+    "version_id": "2100000181905"
+  },
+  "changed_articles": [
+    {
+      "after_text": "제3조(지급범위) 수당은 다음 각 호 중 하나에 해당하는 자에게 지급된다.1. 소년원 및 소년분류심사원 소속 공무원으로서 초등학교 또는 중등학교과정의 교육을 담당하는 자와 직업훈련을 담당하는 자2. 교도소 및 구치소 소속 공무원으로서 초등학교 또는 중등학교 과정의 교육을 담당하는 자와 직업훈련을 담당하는 자3. (삭제)4. 국립법무병원 소속 공무원으로서 초등학교 또는 중등학교 과정의 교육을 담당하는 자와 직업훈련을 담당하는 자",
+      "article_key": "article-3",
+      "article_number": "3",
+      "article_title": "제3조(지급범위)",
+      "before_text": "제3조(지급범위) 수당은 다음 각 호 중 하나에 해당하는 자에게 지급된다.1. 소년원 및 소년분류심사원 소속 보호직, 전문경력관 및 임기제 공무원으로서 초등학교 또는 중등학교과정의 교육을 담당하는 자와 직업훈련을 담당하는 직업훈련교사2. 교도소 및 구치소 소속 교정직, 전문경력관 및 임기제 공무원으로서 초등학교 또는 중등학교 과정의 교육을 담당하는 자와 직업훈련을 담당하는 직업훈련교사3. (삭제)4. 치료감호소 소속 보호직, 전문경력관 및 임기제 공무원으로서 초등학교 또는 중등학교 과정의 교육을 담당하는 자와 직업훈련을 담당하는 직업훈련교사",
+      "change_type": "MODIFIED",
+      "effective_date": "2022-07-07"
+    },
+    {
+      "after_text": "제5조(재검토기한) 법무부장관은 「훈령ㆍ예규 등의 발령 및 관리에 관한 규정」에 따라 이 훈령에 대하여 2023년 1월 1일 기준으로 매 3년이 되는 시점(매 3년째의 12월 31일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+      "article_key": "article-5",
+      "article_number": "5",
+      "article_title": "제5조(재검토기한)",
+      "before_text": "제5조(재검토기한) 법무부장관은 「훈령·예규 등의 발령 및 관리에 관한 규정」에 따라 이 훈령에 대하여 2020년 1월 1일 기준으로 매 3년이 되는 시점(매 3년째의 12월 31일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+      "change_type": "MODIFIED",
+      "effective_date": "2022-07-07"
+    }
+  ],
+  "current": {
+    "appendices": [],
+    "attachments": [
+      {
+        "title": "['개정전문_연구업무수당 지급규칙.hwp', '개정이유서_연구업무수당 지급규칙.hwp']",
+        "type": "OFFICIAL_ATTACHMENT",
+        "url": "https://www.law.go.kr/['http:/law.go.kr/flDownload.do?flSeq=116399493%27%2C+%27http%3A%2F%2Flaw.go.kr%2FflDownload.do%3FflSeq%3D116399495%27%5D"
+      }
+    ],
+    "body": {
+      "addenda": {
+        "부칙공포번호": [
+          "357",
+          "576",
+          "788",
+          "942",
+          "1061",
+          "1247",
+          "1427"
+        ],
+        "부칙공포일자": [
+          "19960103",
+          "20070101",
+          "20100719",
+          "20140514",
+          "20160425",
+          "20190829",
+          "20220622"
+        ],
+        "부칙내용": [
+          "부칙 이 규칙은 1996년 7월 1일부터 시행한다.",
+          "부칙 이 규칙은 2007년 1월 1일부터 시행한다.",
+          "부칙 이 규칙은 2010년 7월 19일부터 시행한다.",
+          "부칙 이 규칙은 2014년 5월 14일부터 시행한다.",
+          "부칙 이 규칙은 공포한 날부터 시행한다.",
+          "부칙 이 지침은 2019년 8월 30일부터 시행한다.",
+          "부칙 이 훈령은 2022년 7월 7일부터 시행한다."
+        ]
+      },
+      "articles": [
+        "제1조(목적) 이 규칙은 「공무원수당 등에 관한 규정」제14조의 규정에 의하여 법무부소속 공무원 중 소년원 또는 교도소 등에서 초등학교 또는 중등학교 과정의 교육을 담당하는 공무원과 직업훈련교사에 대하여 연구업무수당(이하 \"수당\"이라 한다)을 지급하는 데 필요한 사항을 규정함을 목적으로 한다.",
+        "제2조(지급액) 수당의 지급액은 「공무원수당 등에 관한 규정」제14조에서 정하는 바에 따른다.",
+        "제3조(지급범위) 수당은 다음 각 호 중 하나에 해당하는 자에게 지급된다.1. 소년원 및 소년분류심사원 소속 공무원으로서 초등학교 또는 중등학교과정의 교육을 담당하는 자와 직업훈련을 담당하는 자2. 교도소 및 구치소 소속 공무원으로서 초등학교 또는 중등학교 과정의 교육을 담당하는 자와 직업훈련을 담당하는 자3. (삭제)4. 국립법무병원 소속 공무원으로서 초등학교 또는 중등학교 과정의 교육을 담당하는 자와 직업훈련을 담당하는 자",
+        "제4조(지급일) 수당의 지급일은 공무원보수규정 제20조의 규정에 의한다.",
+        "제5조(재검토기한) 법무부장관은 「훈령ㆍ예규 등의 발령 및 관리에 관한 규정」에 따라 이 훈령에 대하여 2023년 1월 1일 기준으로 매 3년이 되는 시점(매 3년째의 12월 31일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다."
+      ]
+    },
+    "canonical_id": "admrul-37556",
+    "hashes": {
+      "appendix_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "attachment_link_hash": "fbf330b2bb2792b520d9199ed4fdfb7aa33a5c3386bd0313008d1a283b2eade4",
+      "body_hash": "55049a53cc76f64d2af13188371039fc8efa602e19df7c22f97b3b1ff14a4af2",
+      "metadata_hash": "8e473a922ae2228d731fb4a7c8fdf1fe7e71270b78ad23ba323d6a329d05c3f3"
+    },
+    "metadata": {
+      "amendment_type": "일부개정",
+      "department": "법무부(소년보호과)",
+      "effective_date": "2022-07-07",
+      "issue_date": "2022-06-22",
+      "issue_number": "1427",
+      "ministry": "법무부",
+      "name": "연구업무수당 지급규칙",
+      "official_state": "Y",
+      "rule_type": "훈령"
+    },
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000212345",
+    "source_kind": "admrul",
+    "stable_identifier": "37556",
+    "version_id": "2100000212345",
+    "version_reference": {
+      "effective_date": "2022-07-07",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000212345",
+      "snapshot_url": "/api/v1/rules/admrul-37556/versions/2100000212345-2022-07-07-6e92a91a55c65811.json",
+      "version_id": "2100000212345"
+    },
+    "version_status": "CURRENT"
+  },
+  "dataset_version": "ds-98bdc9ab4f0c49b90a76fe0a00c8efee2fdc7f7079c3cabc098c6da41ce1bc37",
+  "rule": {
+    "business_domains": [
+      "인사·조직",
+      "교육·교화",
+      "작업·직업훈련"
+    ],
+    "canonical_id": "admrul-37556",
+    "classification_status": "REVIEWED",
+    "corrections_category": "훈령",
+    "current_name": "연구업무수당 지급규칙",
+    "detail_url": "/api/v1/rules/admrul-37556.json",
+    "domain_assignment_status": "EVIDENCE_BASED",
+    "historical_names": [],
+    "metadata": {
+      "amendment_type": "일부개정",
+      "department": "법무부(소년보호과)",
+      "effective_date": "2022-07-07",
+      "issue_date": "2022-06-22",
+      "issue_number": "1427",
+      "ministry": "법무부",
+      "name": "연구업무수당 지급규칙",
+      "official_state": "Y",
+      "rule_type": "훈령"
+    },
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000212345",
+    "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교도소 교육 담당 공무원",
+        "직업훈련교사"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000212345",
+      "discovery_source": [
+        "LAW_API_MINISTRY",
+        "LAW_API_KEYWORD"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": null,
+      "official_seed_url": null,
+      "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "목적조문에 교도소 등 교육 담당 공무원·직업훈련교사 연구업무수당 명시",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
+    "secondary_domains": [
+      "교육·교화",
+      "작업·직업훈련"
+    ],
+    "seed_names": [],
+    "source_kind": "admrul",
+    "status": "CURRENT",
+    "version_id": "2100000212345"
+  },
+  "schema_version": "1.4",
+  "upcoming": []
+}

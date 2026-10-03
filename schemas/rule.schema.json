@@ -119,6 +119,12 @@
               "sequence": {
                 "type": "string"
               },
+              "status": {
+                "enum": [
+                  "AVAILABLE",
+                  "REMOVED"
+                ]
+              },
               "title": {
                 "type": [
                   "string",
@@ -150,7 +156,8 @@
               "sequence",
               "branch",
               "url",
-              "pdf_url"
+              "pdf_url",
+              "status"
             ],
             "type": "object"
           },
@@ -405,6 +412,7 @@
               "인사·조직",
               "정보화",
               "민영교도소",
+              "보고",
               "기타"
             ]
           },
@@ -426,7 +434,8 @@
             "대통령령",
             "법무부령",
             "예규",
-            "훈령"
+            "훈령",
+            "지침"
           ]
         },
         "current_name": {
@@ -435,6 +444,12 @@
         "detail_url": {
           "pattern": "^/api/v1/rules/(law|admrul)-\\d+\\.json$",
           "type": "string"
+        },
+        "domain_assignment_status": {
+          "enum": [
+            "EVIDENCE_BASED",
+            "FALLBACK"
+          ]
         },
         "historical_names": {
           "items": {
@@ -535,6 +550,7 @@
                 "인사·조직",
                 "정보화",
                 "민영교도소",
+                "보고",
                 "기타"
               ]
             },
@@ -542,6 +558,96 @@
               "type": "null"
             }
           ]
+        },
+        "provenance": {
+          "additionalProperties": false,
+          "properties": {
+            "api_tracking_class": {
+              "const": "API_TRACKABLE"
+            },
+            "appendix_metadata_source": {
+              "const": "LAWGO_STRUCTURED_METADATA"
+            },
+            "applies_to": {
+              "items": {
+                "type": "string"
+              },
+              "minItems": 1,
+              "type": "array"
+            },
+            "canonical_source_url": {
+              "format": "uri",
+              "pattern": "^https://(www\\.)?law\\.go\\.kr/",
+              "type": "string"
+            },
+            "discovery_source": {
+              "items": {
+                "enum": [
+                  "CORRECTIONS_PAGE",
+                  "LAW_API_KEYWORD",
+                  "LAW_API_MINISTRY",
+                  "CORE_SYSTEM_MAP",
+                  "MANUAL_OFFICIAL_REVIEW"
+                ]
+              },
+              "minItems": 1,
+              "type": "array"
+            },
+            "history_source": {
+              "const": "LAWGO_STRUCTURED_HISTORY"
+            },
+            "official_seed_name": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "official_seed_url": {
+              "anyOf": [
+                {
+                  "format": "uri",
+                  "pattern": "^https://www\\.corrections\\.go\\.kr/",
+                  "type": "string"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "scope_class": {
+              "enum": [
+                "OFFICIAL_CORRECTIONS_LIST",
+                "DIRECT_CORRECTIONS",
+                "CROSS_DOMAIN_CORRECTIONS",
+                "HISTORICAL_REPEALED"
+              ]
+            },
+            "scope_review_status": {
+              "const": "APPROVED"
+            },
+            "selection_basis": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "structured_body_source": {
+              "const": "LAWGO_JSON_XML"
+            }
+          },
+          "required": [
+            "scope_class",
+            "selection_basis",
+            "applies_to",
+            "official_seed_name",
+            "official_seed_url",
+            "canonical_source_url",
+            "discovery_source",
+            "scope_review_status",
+            "api_tracking_class",
+            "structured_body_source",
+            "history_source",
+            "appendix_metadata_source"
+          ],
+          "type": "object"
         },
         "secondary_domains": {
           "items": {
@@ -560,6 +666,7 @@
               "인사·조직",
               "정보화",
               "민영교도소",
+              "보고",
               "기타"
             ]
           },
@@ -603,12 +710,14 @@
         "official_source_url",
         "detail_url",
         "primary_domain",
-        "secondary_domains"
+        "secondary_domains",
+        "provenance",
+        "domain_assignment_status"
       ],
       "type": "object"
     },
     "schema_version": {
-      "const": "1.3"
+      "const": "1.4"
     },
     "upcoming": {
       "items": {
@@ -635,6 +744,12 @@
                 },
                 "sequence": {
                   "type": "string"
+                },
+                "status": {
+                  "enum": [
+                    "AVAILABLE",
+                    "REMOVED"
+                  ]
                 },
                 "title": {
                   "type": [
@@ -667,7 +782,8 @@
                 "sequence",
                 "branch",
                 "url",
-                "pdf_url"
+                "pdf_url",
+                "status"
               ],
               "type": "object"
             },

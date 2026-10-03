@@ -13,6 +13,8 @@ def validate(root=ROOT):
     if {r['cron'] for r in production['on']['schedule']}!={'37 23 * * *','37 11 * * *'}: raise ValueError('INVALID_SYNC_CRON')
     if 'workflow_dispatch' not in production['on'] or production['concurrency']['cancel-in-progress']!='false': raise ValueError('UNSAFE_CONCURRENCY')
     steps=production['jobs']['sync']['steps']; text=json.dumps(production)
+    discovery_cache=[s for s in steps if s.get('uses','').startswith('actions/cache@')]
+    if len(discovery_cache)!=1 or set(discovery_cache[0]['with']['path'].split())!={'data/ops/discovery_pages.json','data/reports/discovery_candidates_api.json'}: raise ValueError('UNSAFE_DISCOVERY_CACHE')
     for command in ('scripts/scheduled_sync.py','scripts/verify.py','npm test','npm run build','scripts/verify_artifact.py','scripts/generated_commit.py'):
         if command not in text: raise ValueError('MISSING_PRODUCTION_GATE')
     names=[s.get('name','') for s in steps]

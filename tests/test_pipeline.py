@@ -33,7 +33,11 @@ def load(path): return json.loads(Path(path).read_text(encoding='utf-8'))
 def evidence_collection():
     # Portable offline evidence: committed last-good state, not ignored staging.
     state=load(ROOT/'data/registry/state.json'); registry=load(ROOT/'data/registry/rules.json')
-    return {'complete':True,'registry':registry,'snapshots':state['snapshots'],'future':state['future'],'resolution':[{'status':'RESOLVED','canonical_id':r['canonical_id']} for r in registry]}
+    collection={'complete':True,'registry':registry,'snapshots':state['snapshots'],'future':state['future'],'resolution':[{'status':'RESOLVED','canonical_id':r['canonical_id']} for r in registry]}
+    from pipeline.registry.provenance import apply_provenance
+    from pipeline.registry.domains import apply_domains
+    collection=apply_provenance(collection,load(ROOT/'data/registry/provenance.json'))
+    return apply_domains(collection,load(ROOT/'data/registry/business_domains.json'))
 
 def baseline_law(collection):
     # Keep the October regression example independent of future production runs.

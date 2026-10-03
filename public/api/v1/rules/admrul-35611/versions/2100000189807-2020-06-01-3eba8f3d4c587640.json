@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.1",
+  "version": {
+    "appendices": [],
+    "attachments": [
+      {
+        "title": "['(대검예규 제1097호)미결수용인분리수용협조.hwp', '(대검예규 제501호) 미결수용인 분리수용 협조(공범표시).hwp']",
+        "type": "OFFICIAL_ATTACHMENT",
+        "url": "https://www.law.go.kr/['http:/law.go.kr/flDownload.do?flSeq=66263177%27%2C+%27http%3A%2F%2Flaw.go.kr%2FflDownload.do%3FflSeq%3D66263179%27%5D"
+      }
+    ],
+    "body": {
+      "addenda": {
+        "부칙공포번호": "1097",
+        "부칙공포일자": "20200601",
+        "부칙내용": "부칙 1. 이 예규는 2020년 6월 1일부터 시행한다.2. 종전의 대검예규 제501호(미결수용인 분리수용 협조)는 이를 폐지한다."
+      },
+      "articles": "공범을 비롯하여 사건에 서로 관련이 있는 피의자 등의 미결수용에 있어서는 형의 집행 및 수용자의 처우에 관한 법률 제81조, 동법 시행령 제100조의 규정에 의하여 분리수용하고, 서로간의 접촉을 금지토록 되어 있는 바, 송치된 구속피의자의 수용을 지휘할 때나 구속영장의 집행을 지휘할 때는 구치소 등에서 동 관련 관계를 용이하게 식별할 수 있도록 다음 요령으로 공범관계를 명시하기 바람.　1. 공범자 등을 동시에 수용할 경우에는 구속영장집행지휘 날인 부분 또는 수용지휘 하단 여백에 \"피의자 ○ ○ ○ 와 공범, 피고인 ○ ○ ○와 서로 관련\" 등으로 표시하고2. 공범자 등을 추가 수용할 경우에는 위 부분에 \"수용 중인 피의자 ○ ○ ○ 와 공범, 수용 중인 피고인 ○ ○ ○와 서로 관련\" 등으로 표시할 것"
+    },
+    "canonical_id": "admrul-35611",
+    "hashes": {
+      "appendix_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "attachment_link_hash": "5c851ce6641864e2780d768c839a5d25cfc2fde4503bccfac7299e19f0003135",
+      "body_hash": "cc85fcabf7eca33e4019e6f68ce1003c9083164cf95fe668774f4678749d9e10",
+      "metadata_hash": "09ebcd9566ae0866bc9c9a2465f60bc5930c5dcfe57e7a93443da97d0183cc32"
+    },
+    "metadata": {
+      "amendment_type": "폐지제정",
+      "department": "공소청(형사1과)",
+      "effective_date": "2020-06-01",
+      "issue_date": "2020-06-01",
+      "issue_number": "1097",
+      "ministry": "공소청",
+      "name": "미결수용인 분리수용 협조(공범표시)",
+      "official_state": "N",
+      "rule_type": "예규"
+    },
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000189807",
+    "source_kind": "admrul",
+    "stable_identifier": "35611",
+    "version_id": "2100000189807",
+    "version_reference": {
+      "effective_date": "2020-06-01",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000189807",
+      "snapshot_url": "/api/v1/rules/admrul-35611/versions/2100000189807-2020-06-01-3eba8f3d4c587640.json",
+      "version_id": "2100000189807"
+    },
+    "version_status": "ARCHIVE"
+  }
+}

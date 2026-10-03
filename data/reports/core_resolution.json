@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-03T08:59:13.867247+00:00",
+  "collected_at": "2026-10-03T11:40:05.580789+00:00",
   "complete": true,
   "entries": [
     {
@@ -544,6 +544,310 @@
       "resolution_method": "TRUSTED_STABLE_ID",
       "review_reason": null,
       "seed_name": "교도소와 소년원 및 외국인보호소 등 의무관 임상연구비 지급지침",
+      "status": "RESOLVED"
+    },
+    {
+      "canonical_id": "admrul-2036599",
+      "current_name": "법무부 교육훈련시간 승진반영제도 운영지침",
+      "resolution_method": "TRUSTED_STABLE_ID",
+      "review_reason": null,
+      "seed_name": null,
+      "status": "RESOLVED"
+    },
+    {
+      "canonical_id": "admrul-2078078",
+      "current_name": "교정 종합상황실 운영 규정",
+      "resolution_method": "TRUSTED_STABLE_ID",
+      "review_reason": null,
+      "seed_name": null,
+      "status": "RESOLVED"
+    },
+    {
+      "canonical_id": "admrul-26402",
+      "current_name": "법무부 공무원 행동강령",
+      "resolution_method": "TRUSTED_STABLE_ID",
+      "review_reason": null,
+      "seed_name": null,
+      "status": "RESOLVED"
+    },
+    {
+      "canonical_id": "admrul-27435",
+      "current_name": "법무·검찰공무원의 부조리신고등에 대한 보상 및 포상 지침",
+      "resolution_method": "TRUSTED_STABLE_ID",
+      "review_reason": null,
+      "seed_name": null,
+      "status": "RESOLVED"
+    },
+    {
+      "canonical_id": "admrul-27439",
+      "current_name": "법무부 자체감사규정",
+      "resolution_method": "TRUSTED_STABLE_ID",
+      "review_reason": null,
+      "seed_name": null,
+      "status": "RESOLVED"
+    },
+    {
+      "canonical_id": "admrul-27525",
+      "current_name": "공무원 특수지근무수당 지급대상기관과 그 등급별 지급대상자의 범위에 관한 규칙",
+      "resolution_method": "TRUSTED_STABLE_ID",
+      "review_reason": null,
+      "seed_name": null,
+      "status": "RESOLVED"
+    },
+    {
+      "canonical_id": "admrul-27617",
+      "current_name": "법무부 소속 공무원의 비위 등 처리지침",
+      "resolution_method": "TRUSTED_STABLE_ID",
+      "review_reason": null,
+      "seed_name": null,
+      "status": "RESOLVED"
+    },
+    {
+      "canonical_id": "admrul-29857",
+      "current_name": "법무부 소관 회계 관계공무원의 관직지정과 임명권 위임에 관한 규정",
+      "resolution_method": "TRUSTED_STABLE_ID",
+      "review_reason": null,
+      "seed_name": null,
+      "status": "RESOLVED"
+    },
+    {
+      "canonical_id": "admrul-32125",
+      "current_name": "시설공사 검사업무규칙",
+      "resolution_method": "TRUSTED_STABLE_ID",
+      "review_reason": null,
+      "seed_name": null,
+      "status": "RESOLVED"
+    },
+    {
+      "canonical_id": "admrul-35611",
+      "current_name": "미결수용인 분리수용 협조(공범표시)",
+      "resolution_method": "TRUSTED_STABLE_ID",
+      "review_reason": null,
+      "seed_name": null,
+      "status": "RESOLVED"
+    },
+    {
+      "canonical_id": "admrul-37000",
+      "current_name": "법무부 소속 공무원 보직관리기준",
+      "resolution_method": "TRUSTED_STABLE_ID",
+      "review_reason": null,
+      "seed_name": null,
+      "status": "RESOLVED"
+    },
+    {
+      "canonical_id": "admrul-37001",
+      "current_name": "법무부소속 공무원 임용권 및 임용시험실시권 위임규칙",
+      "resolution_method": "TRUSTED_STABLE_ID",
+      "review_reason": null,
+      "seed_name": null,
+      "status": "RESOLVED"
+    },
+    {
+      "canonical_id": "admrul-37470",
+      "current_name": "인권침해 사건 조사·처리 및 구금·보호시설의 실태조사에 관한 규칙 시행세칙",
+      "resolution_method": "TRUSTED_STABLE_ID",
+      "review_reason": null,
+      "seed_name": null,
+      "status": "RESOLVED"
+    },
+    {
+      "canonical_id": "admrul-37556",
+      "current_name": "연구업무수당 지급규칙",
+      "resolution_method": "TRUSTED_STABLE_ID",
+      "review_reason": null,
+      "seed_name": null,
+      "status": "RESOLVED"
+    },
+    {
+      "canonical_id": "admrul-37578",
+      "current_name": "민원담당공무원 수당지급 규칙",
+      "resolution_method": "TRUSTED_STABLE_ID",
+      "review_reason": null,
+      "seed_name": null,
+      "status": "RESOLVED"
+    },
+    {
+      "canonical_id": "admrul-38684",
+      "current_name": "법무부 성희롱·성폭력·스토킹 예방 및 처리지침",
+      "resolution_method": "TRUSTED_STABLE_ID",
+      "review_reason": null,
+      "seed_name": null,
+      "status": "RESOLVED"
+    },
+    {
+      "canonical_id": "admrul-38793",
+      "current_name": "법무부 소속 공무원 등의 직무관련 범죄 고발지침",
+      "resolution_method": "TRUSTED_STABLE_ID",
+      "review_reason": null,
+      "seed_name": null,
+      "status": "RESOLVED"
+    },
+    {
+      "canonical_id": "admrul-54232",
+      "current_name": "법무부 청탁금지법 관련 사무 처리지침",
+      "resolution_method": "TRUSTED_STABLE_ID",
+      "review_reason": null,
+      "seed_name": null,
+      "status": "RESOLVED"
+    },
+    {
+      "canonical_id": "admrul-64876",
+      "current_name": "법무부 맞춤형복지제도 운영지침",
+      "resolution_method": "TRUSTED_STABLE_ID",
+      "review_reason": null,
+      "seed_name": null,
+      "status": "RESOLVED"
+    },
+    {
+      "canonical_id": "admrul-66785",
+      "current_name": "법무부와 그 소속기관의 보통징계위원회 설치 및 운영에 관한 규정",
+      "resolution_method": "TRUSTED_STABLE_ID",
+      "review_reason": null,
+      "seed_name": null,
+      "status": "RESOLVED"
+    },
+    {
+      "canonical_id": "admrul-68106",
+      "current_name": "법무부 고충업무처리지침",
+      "resolution_method": "TRUSTED_STABLE_ID",
+      "review_reason": null,
+      "seed_name": null,
+      "status": "RESOLVED"
+    },
+    {
+      "canonical_id": "admrul-69673",
+      "current_name": "법무부 적극행정공무원의 징계절차에서의 소명 또는 소송 등에 관한 지원 지침",
+      "resolution_method": "TRUSTED_STABLE_ID",
+      "review_reason": null,
+      "seed_name": null,
+      "status": "RESOLVED"
+    },
+    {
+      "canonical_id": "admrul-74433",
+      "current_name": "대체역 복무관리규칙",
+      "resolution_method": "TRUSTED_STABLE_ID",
+      "review_reason": null,
+      "seed_name": null,
+      "status": "RESOLVED"
+    },
+    {
+      "canonical_id": "admrul-74434",
+      "current_name": "대체복무요원 교육규칙",
+      "resolution_method": "TRUSTED_STABLE_ID",
+      "review_reason": null,
+      "seed_name": null,
+      "status": "RESOLVED"
+    },
+    {
+      "canonical_id": "admrul-75221",
+      "current_name": "지방교정청등의 조직 및 정원관리에 관한 규정",
+      "resolution_method": "TRUSTED_STABLE_ID",
+      "review_reason": null,
+      "seed_name": null,
+      "status": "RESOLVED"
+    },
+    {
+      "canonical_id": "admrul-77216",
+      "current_name": "법무부 공무원의 주식 거래 제한에 관한 지침",
+      "resolution_method": "TRUSTED_STABLE_ID",
+      "review_reason": null,
+      "seed_name": null,
+      "status": "RESOLVED"
+    },
+    {
+      "canonical_id": "admrul-78303",
+      "current_name": "교정직 공무원의 교정교육 전문 강사 자격인정 및 절차에 관한 규정",
+      "resolution_method": "TRUSTED_STABLE_ID",
+      "review_reason": null,
+      "seed_name": null,
+      "status": "RESOLVED"
+    },
+    {
+      "canonical_id": "admrul-83074",
+      "current_name": "법무부 교정시설 감염병관리지원단 운영 규정",
+      "resolution_method": "TRUSTED_STABLE_ID",
+      "review_reason": null,
+      "seed_name": null,
+      "status": "RESOLVED"
+    },
+    {
+      "canonical_id": "admrul-84204",
+      "current_name": "법무부 공무원의 부동산 신규취득 제한에 관한 지침",
+      "resolution_method": "TRUSTED_STABLE_ID",
+      "review_reason": null,
+      "seed_name": null,
+      "status": "RESOLVED"
+    },
+    {
+      "canonical_id": "admrul-84831",
+      "current_name": "교정직제 영어 명칭 등에 관한 지침",
+      "resolution_method": "TRUSTED_STABLE_ID",
+      "review_reason": null,
+      "seed_name": null,
+      "status": "RESOLVED"
+    },
+    {
+      "canonical_id": "admrul-86352",
+      "current_name": "교정정책자문위원회 운영규정",
+      "resolution_method": "TRUSTED_STABLE_ID",
+      "review_reason": null,
+      "seed_name": null,
+      "status": "RESOLVED"
+    },
+    {
+      "canonical_id": "admrul-86499",
+      "current_name": "교정특별사법경찰 운영규정",
+      "resolution_method": "TRUSTED_STABLE_ID",
+      "review_reason": null,
+      "seed_name": null,
+      "status": "RESOLVED"
+    },
+    {
+      "canonical_id": "admrul-87003",
+      "current_name": "교도관 훈련에 관한 규칙",
+      "resolution_method": "TRUSTED_STABLE_ID",
+      "review_reason": null,
+      "seed_name": null,
+      "status": "RESOLVED"
+    },
+    {
+      "canonical_id": "admrul-89409",
+      "current_name": "법무부 공무원의 가상자산 보유 제한에 관한 지침",
+      "resolution_method": "TRUSTED_STABLE_ID",
+      "review_reason": null,
+      "seed_name": null,
+      "status": "RESOLVED"
+    },
+    {
+      "canonical_id": "admrul-91035",
+      "current_name": "교정본부 의장대·악대 운영규정",
+      "resolution_method": "TRUSTED_STABLE_ID",
+      "review_reason": null,
+      "seed_name": null,
+      "status": "RESOLVED"
+    },
+    {
+      "canonical_id": "admrul-97044",
+      "current_name": "중독재활 업무지침",
+      "resolution_method": "TRUSTED_STABLE_ID",
+      "review_reason": null,
+      "seed_name": null,
+      "status": "RESOLVED"
+    },
+    {
+      "canonical_id": "admrul-97483",
+      "current_name": "자율기구 \"교정미래혁신단\" 설치 및 운영에 관한 규정",
+      "resolution_method": "TRUSTED_STABLE_ID",
+      "review_reason": null,
+      "seed_name": null,
+      "status": "RESOLVED"
+    },
+    {
+      "canonical_id": "admrul-98096",
+      "current_name": "공모에 의한 교정시설 조성 입지 선정 평가지침",
+      "resolution_method": "TRUSTED_STABLE_ID",
+      "review_reason": null,
+      "seed_name": null,
       "status": "RESOLVED"
     }
   ]

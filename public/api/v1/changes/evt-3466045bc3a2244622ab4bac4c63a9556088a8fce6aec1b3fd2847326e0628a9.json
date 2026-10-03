@@ -1,0 +1,64 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "0e13e4b6c3e53c884991a66d224a72e8b418d7a727fecd449a41422b3f1e62f6",
+      "effective_date": "2022-09-05",
+      "identifier": "2100000214354",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000214354",
+      "snapshot_url": "/api/v1/rules/admrul-54232/versions/2100000214354-2022-09-05-59435b36610de756.json",
+      "version_id": "2100000214354"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "11cfa161f3912d0c1028d05b6e580b813327213e82da585971bead297926770e",
+      "effective_date": "2019-05-23",
+      "identifier": "2100000178745",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000178745",
+      "snapshot_url": "/api/v1/rules/admrul-54232/versions/2100000178745-2019-05-23-49c1ae2fafc80732.json",
+      "version_id": "2100000178745"
+    },
+    "canonical_id": "admrul-54232",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 1,
+    "changed_articles": [
+      {
+        "after_text": "제5조(구성 및 운영) ① ∼ ⑧ (현행과 같음)\n⑨ 위원회의 운영에 관하여는 위원장의 직무, 위원회의 회의, 간사, 회의록 작성, 비밀준수의무, 위원의 대우 등에 관한 「법무부감찰위원회 규정」 제5조, 제6조, 제8조 내지 제11조 및 「법무부감찰위원회 운영세칙」 제4조제2항, 제8조제1항을 준용한다. 이 경우 ‘위원회’는 ‘법무부 청렴자문위원회’로 본다. 다만, 법무부 감찰위원회와 법무부 청렴자문위원회가 동일한 일자에 동일한 장소에서 개최된 경우 법무부 감찰위원회 위원과 법무부 청렴자문위원회 위원을 겸직하는 위원에 대한 수당과 여비는 2개 위원회에 소요된 시간 동안 어느 하나의 위원회에 참석한 것을 기준으로 지급한다.",
+        "article_key": "article-5",
+        "article_number": "5",
+        "article_title": "제5조(구성 및 운영)",
+        "before_text": "제5조(구성 및 운영) ① ∼ ⑧ (생  략)\n⑨위원회의 운영에 관하여는 위원장의 직무, 위원회의 회의, 간사, 회의록 작성, 비밀준수의무, 위원의 대우 등에 관한 「법무부감찰위원회 규정」 제5조, 제6조, 제8조 내지 제11조 및 「법무부감찰위원회 운영세칙」 제4조제2항, 제7조제2항, 제8조제1항을 준용한다. 이 경우 ‘위원회’는 ‘법무부 청렴자문위원회’로 본다. 다만, 법무부 감찰위원회와 법무부 청렴자문위원회가 동일한 일자에 동일한 장소에서 개최된 경우 법무부 감찰위원회 위원과 법무부 청렴자문위원회 위원을 겸직하는 위원에 대한 수당과 여비는 2개 위원회에 소요된 시간 동안 어느 하나의 위원회에 참석한 것을 기준으로 지급한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2022-09-05"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "90923744a42a6a401273ac5e6ff94c3d02d6e80c4aa9e92204ac2bcbab1e7f26",
+      "credential_redacted": false,
+      "raw_sha256": "d5faa23213425722535e1faada080939e035752b53b19ea2b64887a8909aa952",
+      "request": {
+        "ID": "2100000214354",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "d5faa23213425722535e1faada080939e035752b53b19ea2b64887a8909aa952"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T11:27:41.976743+00:00",
+    "effective_date": "2022-09-05",
+    "event_id": "evt-3466045bc3a2244622ab4bac4c63a9556088a8fce6aec1b3fd2847326e0628a9",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000214354",
+    "promulgation_or_issue_date": "2022-09-05",
+    "regulation_name": "법무부 청탁금지법 관련 사무 처리지침",
+    "regulation_type": "예규"
+  },
+  "schema_version": "1.4"
+}

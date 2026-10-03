@@ -1,0 +1,119 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "80b5fa1dbbddb2ec2e882acd81601c9f059106fde7320d4003af28df1a123e20",
+      "effective_date": "2022-09-05",
+      "identifier": "2100000214353",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000214353",
+      "snapshot_url": "/api/v1/rules/admrul-27435/versions/2100000214353-2022-09-05-7203089030f9ebb1.json",
+      "version_id": "2100000214353"
+    },
+    "appendix_changes": [
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0001",
+          "title": "부조리관련신고서",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=119440079"
+        },
+        "before_metadata": null,
+        "change_type": "APPENDIX_ADDED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": null,
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0001",
+          "title": "부조리관련신고서",
+          "type": "서식",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=40267547"
+        },
+        "change_type": "APPENDIX_REMOVED",
+        "status": "REMOVED"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0002",
+          "title": "부조리관련신고관리대장",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=119440083"
+        },
+        "before_metadata": null,
+        "change_type": "APPENDIX_ADDED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": null,
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0002",
+          "title": "부조리관련신고관리대장",
+          "type": "서식",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=40267553"
+        },
+        "change_type": "APPENDIX_REMOVED",
+        "status": "REMOVED"
+      }
+    ],
+    "before_version": {
+      "body_hash": "d7199a782a8987bcba9163011a62e1ddb677c60ce95e3da8edd1df09476553cd",
+      "effective_date": "2019-01-23",
+      "identifier": "2100000175611",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000175611",
+      "snapshot_url": "/api/v1/rules/admrul-27435/versions/2100000175611-2019-01-23-f6f9b4945937659b.json",
+      "version_id": "2100000175611"
+    },
+    "canonical_id": "admrul-27435",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "APPENDIX_ADDED",
+      "APPENDIX_REMOVED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 1,
+    "changed_articles": [
+      {
+        "after_text": "제3조(신고의 방식등) ① 부조리관련 신고는 우편, 전화, 인터넷 등 정보통신망, 팩스 등으로 할 수 있다.\n② (현행과 같음)",
+        "article_key": "article-3",
+        "article_number": "3",
+        "article_title": "제3조(신고의 방식등)",
+        "before_text": "제3조(신고의 방식등) ①부조리관련 신고는 우편, 전화, 인터넷, 팩스 등으로 할 수 있다.\n② (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2022-09-05"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "0e0312593c5cdc8c01c5b3ea6e1e2180b239e901d1d4004338e1d7a0009738a2",
+      "credential_redacted": false,
+      "raw_sha256": "eed66cc27a0add021e22b65464a58b98864045bb34c987226da6b55ed885d980",
+      "request": {
+        "ID": "2100000214353",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "eed66cc27a0add021e22b65464a58b98864045bb34c987226da6b55ed885d980"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T11:27:41.976743+00:00",
+    "effective_date": "2022-09-05",
+    "event_id": "evt-1751bb15c7d8686ceaccad8fed9e541cbf957a9d3cd7e6703c70aa6a61fbbd88",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000214353",
+    "promulgation_or_issue_date": "2022-09-05",
+    "regulation_name": "법무·검찰공무원의 부조리신고등에 대한 보상 및 포상 지침",
+    "regulation_type": "훈령"
+  },
+  "schema_version": "1.4"
+}

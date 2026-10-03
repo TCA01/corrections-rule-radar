@@ -1,0 +1,91 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "0264f7426ed85f049f43bdc447149138e747243a4a535e43cc653151929592d9",
+      "effective_date": "2026-08-27",
+      "identifier": "2100000284368",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000284368",
+      "snapshot_url": "/api/v1/rules/admrul-84831/versions/2100000284368-2026-08-27-61ebc8c9ede6e031.json",
+      "version_id": "2100000284368"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "de77db529e921dad01908c92872526c6ba96c308c54a27a3d2f60c02cbca3e5a",
+      "effective_date": "2023-03-14",
+      "identifier": "2100000220774",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000220774",
+      "snapshot_url": "/api/v1/rules/admrul-84831/versions/2100000220774-2023-03-14-1d194e6b04321406.json",
+      "version_id": "2100000220774"
+    },
+    "canonical_id": "admrul-84831",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 4,
+    "changed_articles": [
+      {
+        "after_text": "제5조(교정조직의 영어 명칭) ① 법무부 교정본부에 두는 행정조직의 영어 명칭은 다음 각호와 같다.\n1. ∼ 10. (현행과 같음)\n11. 특별점검팀 : Special Inspection Team\n12. 마약사범재활팀 : Substance Abuse Rehabilitation Team\n13. 교화방송센터 : KCS Broadcasting Center\n② 지방교정청에 두는 행정조직의 영어 명칭은 다음 각호와 같다.\n1. ∼ 8. (현행과 같음)\n9. 광역특별사법경찰팀 : Regional Special Judicial Police Team\n③ 교정기관에 두는 행정조직의 영어 명칭은 다음 각호와 같다.\n1. ∼ 15. (현행과 같음)\n16. 특별사법경찰팀 : Special Judicial Police Team\n17. 마약사범재활과 : Substance Abuse Rehabilitation Division",
+        "article_key": "article-5",
+        "article_number": "5",
+        "article_title": "제5조(교정조직의 영어 명칭)",
+        "before_text": "제5조(교정조직의 영어 명칭) ① 법무부 교정본부에 두는 행정조직의 영어 명칭은 다음 각호와 같다.\n1. ∼ 10. (생  략)\n11. 특별점검단 : Special Inspection Unit\n12. 교화방송센터 : KCS Broadcasting Center\n② 지방교정청에 두는 행정조직의 영어 명칭은 다음 각호와 같다.\n1. ∼ 8. (생  략)\n9. 광역특별사법경찰대 : Regional Special Judicial PoliceSquad\n③ 교정기관에 두는 행정조직의 영어 명칭은 다음 각호와 같다.\n1. ∼ 15. (생  략)\n16. 특별사법경찰대 : Special Judicial Police Squad",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-08-27"
+      },
+      {
+        "after_text": "제7조(교정직교도관 직급의 영어 명칭) 교정직교도관 직급의 영어 명칭은 다음 각호와 같다.\n1. ∼ 10. (현행과 같음)",
+        "article_key": "article-7",
+        "article_number": "7",
+        "article_title": "제7조(교정직교도관 직급의 영어 명칭)",
+        "before_text": "제7조(정복교도관 직급의 영어 명칭) 정복교도관 직급의 영어 명칭은 다음 각호와 같다.\n1. ∼ 10. (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-08-27"
+      },
+      {
+        "after_text": "제8조(교정직교도관 외 다른 교도관의 영문표기) ① 직업훈련교도관의 영어 명칭은 다음 각호와 같다.\n1. 직업능력개발훈련교사 : Vocational Training Officer\n② 기술직교도관의 영어 명칭은 다음 각호와 같다.\n1. (현행과 같음)\n2. 농업직 : Agricultural Officer\n3. 시설직 : Facility Maintenance Officer\n4. 전산직 : Information Technology Officer\n5. 방송통신직 : Broadcasting Technology Officer\n6. 운전직 : Driving Officer\n③ 보건위생직교도관의 영어 명칭은 다음 각호와 같다.\n1. 의무직 : Medical Care Officer\n2. 약무직 : Pharmacy Officer\n3. 간호직 : Nursing Officer\n4. 의료기술직 : Medical Technology Officer\n5. 식품위생직 : Food and Sanitation Officer\n④ 관리운영직교도관의 영어 명칭은 다음 각호와 같다.\n1. 건축운영직 : Architecture Operation Officer\n2. 통신운영직 : Communication Operation Officer\n3. 전기운영직 : Electricity Operation Officer\n4. 기계운영직 : Machinery Operation Officer\n5. 열관리운영직 : Heat Control Operation Officer\n6. 사무운영직 : Clerical Work Operation Officer\n⑤ 기록연구사의 영어 명칭은 다음 각호와 같다.  1. 기록연구사 : Archivist",
+        "article_key": "article-8",
+        "article_number": "8",
+        "article_title": "제8조(교정직교도관 외 다른 교도관의 영문표기)",
+        "before_text": "제8조(사복교도관 직렬의 영문표기) ① 직업훈련교도관 직렬의 영어 명칭은 다음 각호와 같다.\n1. 직업훈련교사 : Vocational Training Officer\n② 기술직교도관 직렬의 영어 명칭은 다음 각호와 같다.\n1. (생  략)\n2. 의료기술직 : Medical Technology Officer\n3. 식품위생직 : Food and Sanitation Officer\n4. 의무직 : Medical Care Officer\n5. 약무직 : Pharmacy Officer\n6. 간호직 : Nursing Officer\n③ 관리운영직교도관 직렬의 영어 명칭은 다음 각호와 같다.\n1. 건축운영직 : Architecture Operation Officer\n2. 통신운영직 : Communication Operation Officer\n3. 전기운영직 : Electricity Operation Officer\n4. 기계운영직 : Machinery Operation Officer\n5. 열관리운영직 : Heat Control Operation Officer\n④ 기록연구사의 영어 명칭은 다음 각호와 같다.\n1. 기록연구사 : Archivist",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-08-27"
+      },
+      {
+        "after_text": "제9조(일반직 공무원 직급의 영어 명칭) ① 일반직 공무원 직급의 영어 명칭은 별표 3과 같다.",
+        "article_key": "article-9",
+        "article_number": "9",
+        "article_title": "제9조(일반직 공무원 직급의 영어 명칭)",
+        "before_text": "제9조(사복교도관 직급의 영어 명칭) ① 사복교도관 직급의 영어 명칭은 별표 3과 같다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-08-27"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "a73a1e464d36706be9e218cb976e4c25c4f85d065ff062c2b24d340a5fc9722f",
+      "credential_redacted": false,
+      "raw_sha256": "da72eb9044156697383fb565cc2f3496977aef09c7e837a13bcd49e7a42f9d92",
+      "request": {
+        "ID": "2100000284368",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "da72eb9044156697383fb565cc2f3496977aef09c7e837a13bcd49e7a42f9d92"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T11:27:41.976743+00:00",
+    "effective_date": "2026-08-27",
+    "event_id": "evt-1ac4d883a137d3ea6a6c824f9539b5ff639bc24fadc37f7728327064d931eb0f",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000284368",
+    "promulgation_or_issue_date": "2026-08-27",
+    "regulation_name": "교정직제 영어 명칭 등에 관한 지침",
+    "regulation_type": "예규"
+  },
+  "schema_version": "1.4"
+}

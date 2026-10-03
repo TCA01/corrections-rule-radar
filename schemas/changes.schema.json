@@ -309,7 +309,7 @@
       "type": "array"
     },
     "schema_version": {
-      "const": "1.3"
+      "const": "1.4"
     }
   },
   "required": [

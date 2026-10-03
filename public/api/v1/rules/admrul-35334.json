@@ -211,6 +211,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162877501",
         "sequence": "0001",
+        "status": "AVAILABLE",
         "title": "가석방 예비심사 대상자 선정 기준",
         "type": "별표",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162877457"
@@ -219,6 +220,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162877519",
         "sequence": "0001",
+        "status": "AVAILABLE",
         "title": "가석방 예비심사 대상자 명부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162877515"
@@ -227,6 +229,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162877507",
         "sequence": "0002",
+        "status": "AVAILABLE",
         "title": "가석방예비심사 대상자 명부 작성방법",
         "type": "별표",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162877503"
@@ -235,6 +238,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162877525",
         "sequence": "0002",
+        "status": "AVAILABLE",
         "title": "가석방 예비회의 결과보고",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162877521"
@@ -243,6 +247,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162877513",
         "sequence": "0003",
+        "status": "AVAILABLE",
         "title": "범죄개요 기재방법",
         "type": "별표",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162877509"
@@ -251,6 +256,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162877531",
         "sequence": "0003",
+        "status": "AVAILABLE",
         "title": "가석방 적격심사 신청자 명단",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162877527"
@@ -259,6 +265,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162877537",
         "sequence": "0004",
+        "status": "AVAILABLE",
         "title": "가석방 적격 심사신청 현황",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162877533"
@@ -267,6 +274,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162877543",
         "sequence": "0005",
+        "status": "AVAILABLE",
         "title": "가석방 허가(예정)자 현황 보고",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162877539"
@@ -275,6 +283,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162877549",
         "sequence": "0006",
+        "status": "AVAILABLE",
         "title": "가석방자명부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162877545"
@@ -283,6 +292,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162877555",
         "sequence": "0007",
+        "status": "AVAILABLE",
         "title": "가석방통보서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162877551"
@@ -291,6 +301,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162877561",
         "sequence": "0008",
+        "status": "AVAILABLE",
         "title": "치료보호 조건부 가석방 동의서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162877557"
@@ -299,6 +310,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162877567",
         "sequence": "0009",
+        "status": "AVAILABLE",
         "title": "가석방 관련 안내문",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162877563"
@@ -307,6 +319,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162877573",
         "sequence": "0010",
+        "status": "AVAILABLE",
         "title": "보안서약서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=162877569"
@@ -463,7 +476,7 @@
     },
     "version_status": "CURRENT"
   },
-  "dataset_version": "ds-7805063f9c55bcd7d7616ee1e3d509f79cc0ee449489171391afacdbf9e30ed3",
+  "dataset_version": "ds-98bdc9ab4f0c49b90a76fe0a00c8efee2fdc7f7079c3cabc098c6da41ce1bc37",
   "rule": {
     "business_domains": [
       "분류·가석방"
@@ -473,6 +486,7 @@
     "corrections_category": "예규",
     "current_name": "가석방 업무지침",
     "detail_url": "/api/v1/rules/admrul-35334.json",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
     "metadata": {
       "amendment_type": "일부개정",
@@ -487,6 +501,24 @@
     },
     "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000276392",
     "primary_domain": "분류·가석방",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정본부 및 소속기관(공식 목록·담당 부서 근거)"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000276392",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "가석방 업무지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "가석방 업무지침"
@@ -495,6 +527,6 @@
     "status": "CURRENT",
     "version_id": "2100000276392"
   },
-  "schema_version": "1.3",
+  "schema_version": "1.4",
   "upcoming": []
 }

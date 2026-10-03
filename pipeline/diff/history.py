@@ -10,6 +10,7 @@ from pipeline.normalize import digest,plain,date as api_date
 from pipeline.registry import unwrap,as_list
 from pipeline.diff.articles import ARTICLE,text_lines
 from pipeline.publication.versions import reference
+from pipeline.normalize.appendices import appendix_status
 
 def identity(s):
     if s is None: return None
@@ -85,8 +86,9 @@ def appendix_diff(before,after):
     for key in sorted(set(old)|set(new),key=str):
         left=old.get(key); right=new.get(key)
         if left and right and {k:v for k,v in left.items() if k not in ('url','pdf_url')}=={k:v for k,v in right.items() if k not in ('url','pdf_url')}: continue
-        kind='APPENDIX_ADDED' if left is None else 'APPENDIX_REMOVED' if right is None else 'APPENDIX_METADATA_CHANGED'
-        changes.append({'change_type':kind,'status':'REMOVED' if right is None else 'AVAILABLE',
+        removed=right is None or appendix_status(right)=='REMOVED'
+        kind='APPENDIX_REMOVED' if removed else 'APPENDIX_ADDED' if left is None else 'APPENDIX_METADATA_CHANGED'
+        changes.append({'change_type':kind,'status':'REMOVED' if removed else 'AVAILABLE',
                         'before_metadata':left,'after_metadata':right})
     return changes
 

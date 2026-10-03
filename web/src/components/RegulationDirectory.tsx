@@ -29,12 +29,8 @@ export const RegulationDirectory: React.FC<RegulationDirectoryProps> = ({ rules,
 
       // 3. Domain filter
       if (selectedDomain !== 'all') {
-        if (selectedDomain === 'REVIEW') {
-          if (rule.classification_status !== 'REVIEW') return false;
-        } else {
-          const dom = selectedDomain as BusinessDomain;
-          if (!rule.business_domains.includes(dom)) return false;
-        }
+        const dom = selectedDomain as BusinessDomain;
+        if (!rule.business_domains.includes(dom)) return false;
       }
 
       // 4. Search query matching: title, aliases (seed_names, historical_names), department
@@ -107,7 +103,6 @@ export const RegulationDirectory: React.FC<RegulationDirectoryProps> = ({ rules,
                 {dom}
               </option>
             ))}
-            <option value="REVIEW">업무 분야 검토 중</option>
           </select>
 
           <label className="repealed-toggle">
@@ -179,17 +174,13 @@ export const RegulationDirectory: React.FC<RegulationDirectoryProps> = ({ rules,
                   </div>
 
                   <div className="col-domain" role="cell">
-                    {rule.classification_status === 'REVIEW' || rule.business_domains.length === 0 ? (
-                      <span className="domain-label review">분야 검토중</span>
-                    ) : (
-                      <div className="domain-labels-wrap">
-                        {rule.business_domains.map((dom) => (
-                          <span key={dom} className="domain-label">
-                            {dom}
-                          </span>
-                        ))}
-                      </div>
-                    )}
+                    <div className="domain-labels-wrap">
+                      {rule.business_domains.map((dom) => (
+                        <span key={dom} className="domain-label">
+                          {dom}
+                        </span>
+                      ))}
+                    </div>
                   </div>
 
                   <div className="col-date" role="cell">

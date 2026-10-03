@@ -49,7 +49,7 @@ class Phase1ATests(unittest.TestCase):
             self.assertEqual(sync.sync(self.collection)['result'],'NO_CHANGE'); self.assertEqual(before,observe.public_fingerprint(tmp))
     def test_domain_registry_complete_and_evidence_bound(self):
         domains=load(ROOT/'data/registry/business_domains.json'); core=set(self.collection['snapshots'])
-        self.assertEqual(set(r['canonical_id'] for r in domains['rules']),core); self.assertEqual(len(domains['rules']),len(core))
+        self.assertTrue(core<=set(r['canonical_id'] for r in domains['rules']))
         taxonomy=load(ROOT/'data/seed/business_domains.json')['domains']
         for rule in domains['rules']:
             basis=rule['classification_basis']; self.assertEqual(basis['reviewer'],'CODEX_EVIDENCE_REVIEW'); self.assertFalse(basis['legal_interpretation']); self.assertTrue(basis['official_source_url'].startswith('https://www.law.go.kr/'))
@@ -61,7 +61,7 @@ class Phase1ATests(unittest.TestCase):
         mapping=next(r for r in domains['rules'] if r['review_status']=='REVIEWED'); cid=mapping['canonical_id']
         collection['snapshots'][cid]['hashes']['body_hash']='0'*64
         applied=apply_domains(collection,domains); row=next(r for r in applied['registry'] if r['canonical_id']==cid)
-        self.assertEqual(row['classification_status'],'REVIEW'); self.assertEqual(row['business_domains'],[]); self.assertIsNone(row['primary_domain'])
+        self.assertEqual(row['classification_status'],'REVIEWED'); self.assertEqual(row['business_domains'],['기타']); self.assertEqual(row['domain_assignment_status'],'FALLBACK')
     def test_event_old_new_references_resolve_to_real_versions(self):
         case=load(ROOT/'tests/fixtures/admin_replay.json'); new=case['new']; old=case['old']; cid=new['canonical_id']
         collection=copy.deepcopy(self.collection); collection['snapshots'][cid]=new
@@ -78,7 +78,7 @@ class Phase1ATests(unittest.TestCase):
     def test_contract_candidate_current_future_health_and_domains(self):
         domains=load(ROOT/'data/registry/business_domains.json'); collection=apply_domains(baseline_law(self.collection),domains)
         _,files=build_contract(collection,[],AT)
-        self.assertTrue(files['manifest.json'][1]['API_V1_CANDIDATE']); self.assertEqual(files['manifest.json'][1]['schema_version'],'1.3')
+        self.assertTrue(files['manifest.json'][1]['API_V1_CANDIDATE']); self.assertEqual(files['manifest.json'][1]['schema_version'],'1.4')
         detail=files['rules/law-001668.json'][1]
         self.assertEqual(detail['current']['version_status'],'CURRENT'); self.assertEqual(detail['upcoming'][0]['version_status'],'FUTURE'); self.assertIn('dataset_version',detail)
         self.assertEqual(files['health.json'][1]['health_scope'],'PUBLISHED_DATASET'); self.assertEqual(files['health.json'][1]['classification_review_count'],sum(r['classification_status']=='REVIEW' for r in collection['registry']))

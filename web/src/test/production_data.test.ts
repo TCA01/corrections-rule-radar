@@ -14,13 +14,13 @@ import { isRemovedAppendix } from '../utils/format';
 describe('Production Data Smoke Test (public/api/v1/)', () => {
   const publicDir = path.resolve(__dirname, '../../../public/api/v1');
 
-  it('verifies manifest.json integrity and schema 1.3', () => {
+  it('verifies manifest.json integrity and schema 1.4', () => {
     const raw = fs.readFileSync(path.join(publicDir, 'manifest.json'), 'utf-8');
     const data: ManifestResponse = JSON.parse(raw);
 
-    expect(data.schema_version).toBe('1.3');
+    expect(data.schema_version).toBe('1.4');
     expect(data.API_V1_CANDIDATE).toBe(true);
-    expect(data.rule_count).toBe(68);
+    expect(data.rule_count).toBe(106);
     expect(data.rules_url).toBe('/api/v1/rules.json');
     expect(data.health_url).toBe('/api/v1/health.json');
     expect(data.latest_changes_url).toBe('/api/v1/changes/latest.json');
@@ -30,32 +30,43 @@ describe('Production Data Smoke Test (public/api/v1/)', () => {
     expect(data.dataset_version).toMatch(/^ds-[a-f0-9]{64}$/);
   });
 
-  it('verifies health.json matches current publication scope under schema 1.3', () => {
+  it('verifies health.json matches current publication scope under schema 1.4', () => {
     const raw = fs.readFileSync(path.join(publicDir, 'health.json'), 'utf-8');
     const data: HealthResponse = JSON.parse(raw);
 
-    expect(data.schema_version).toBe('1.3');
+    expect(data.schema_version).toBe('1.4');
     expect(data.status).toBe('OK');
     expect(data.health_scope).toBe('PUBLISHED_DATASET');
-    expect(data.rule_count).toBe(68);
-    expect(data.classification_review_count).toBeGreaterThanOrEqual(0);
+    expect(data.rule_count).toBe(106);
+    expect(data.classification_review_count).toBe(0);
+    expect(data.review_count).toBe(0);
     expect(data.last_successful_sync).toBeTruthy();
   });
 
-  it('verifies rules.json contains expected 68 core rules, 66 classified, 2 review', () => {
+  it('verifies rules.json contains expected 106 core rules, 104 current, 2 repealed, zero review', () => {
     const raw = fs.readFileSync(path.join(publicDir, 'rules.json'), 'utf-8');
     const data: RulesResponse = JSON.parse(raw);
 
-    expect(data.schema_version).toBe('1.3');
-    expect(data.rules.length).toBe(68);
+    expect(data.schema_version).toBe('1.4');
+    expect(data.rules.length).toBe(106);
+
+    const currentRules = data.rules.filter((r) => r.status === 'CURRENT');
+    const repealedRules = data.rules.filter((r) => r.status === 'REPEALED');
+    expect(currentRules.length).toBe(104);
+    expect(repealedRules.length).toBe(2);
 
     const classified = data.rules.filter((r) => r.classification_status === 'REVIEWED');
     const review = data.rules.filter((r) => r.classification_status === 'REVIEW');
+    expect(classified.length).toBe(106);
+    expect(review.length).toBe(0);
 
-    expect(classified.length + review.length).toBe(data.rules.length);
-    for (const row of review) {
-      expect(row.business_domains).toEqual([]);
-      expect(row.primary_domain).toBeNull();
+    // Verify all rules have provenance with selection_basis and API_TRACKABLE
+    for (const r of data.rules) {
+      expect(r.provenance).toBeDefined();
+      const prov = r.provenance as any;
+      expect(prov.selection_basis).toBeTruthy();
+      expect(prov.api_tracking_class).toBe('API_TRACKABLE');
+      expect(['OFFICIAL_CORRECTIONS_LIST', 'DIRECT_CORRECTIONS', 'CROSS_DOMAIN_CORRECTIONS', 'HISTORICAL_REPEALED']).toContain(prov.scope_class);
     }
 
     // Check all rules have official source url starting with law.go.kr
@@ -63,15 +74,36 @@ describe('Production Data Smoke Test (public/api/v1/)', () => {
       expect(r.official_source_url).toMatch(/^https:\/\/(www\.)?law\.go\.kr\//);
       expect(r.detail_url).toMatch(/^\/api\/v1\/rules\/(law|admrul)-\d+\.json$/);
     }
+
+    // Verify admrul-32484 and admrul-51868 have '보고' domain
+    const rule32484 = data.rules.find((r) => r.canonical_id === 'admrul-32484');
+    expect(rule32484).toBeDefined();
+    expect(rule32484!.business_domains).toContain('보고');
+
+    const rule51868 = data.rules.find((r) => r.canonical_id === 'admrul-51868');
+    expect(rule51868).toBeDefined();
+    expect(rule51868!.business_domains).toContain('보고');
+
+    // Verify excluded rules are absent
+    const excludedServ = data.rules.find((r) => r.current_name.includes('복무·징계'));
+    expect(excludedServ).toBeUndefined();
+    const excludedPersonnel = data.rules.find((r) => r.current_name.includes('인사운영처리지침'));
+    expect(excludedPersonnel).toBeUndefined();
+
+    // Verify newly added Phase 1F regulations are present
+    expect(data.rules.some((r) => r.canonical_id === 'admrul-78303')).toBe(true); // 전문 강사 자격인정
+    expect(data.rules.some((r) => r.canonical_id === 'admrul-97044')).toBe(true); // 중독재활
+    expect(data.rules.some((r) => r.canonical_id === 'admrul-87003')).toBe(true); // 교도관 훈련
+    expect(data.rules.some((r) => r.canonical_id === 'admrul-2036599')).toBe(true); // 교육훈련시간 (CROSS_DOMAIN)
   });
 
-  it('verifies recent.json contains persistent 90-day changes (schema 1.3)', () => {
+  it('verifies recent.json contains persistent 90-day changes (schema 1.4)', () => {
     const raw = fs.readFileSync(path.join(publicDir, 'changes/recent.json'), 'utf-8');
     const data: RecentChangesResponse = JSON.parse(raw);
 
-    expect(data.schema_version).toBe('1.3');
+    expect(data.schema_version).toBe('1.4');
     expect(data.window_days).toBe(90);
-    expect(data.events.length).toBe(10);
+    expect(data.events.length).toBe(14);
 
     for (const evt of data.events) {
       expect(evt.event_id).toMatch(/^evt-[a-f0-9]{64}$/);
@@ -118,7 +150,7 @@ describe('Production Data Smoke Test (public/api/v1/)', () => {
     const raw = fs.readFileSync(path.join(publicDir, 'changes/upcoming.json'), 'utf-8');
     const data: ChangesResponse = JSON.parse(raw);
 
-    expect(data.schema_version).toBe('1.3');
+    expect(data.schema_version).toBe('1.4');
 
     for (const futureEvent of data.events) {
       expect(futureEvent.effective_date).toMatch(/^\d{4}-\d{2}-\d{2}$/);
@@ -130,7 +162,7 @@ describe('Production Data Smoke Test (public/api/v1/)', () => {
     const raw = fs.readFileSync(path.join(publicDir, 'rules/law-001668.json'), 'utf-8');
     const data: RuleDetailResponse = JSON.parse(raw);
 
-    expect(data.schema_version).toBe('1.3');
+    expect(data.schema_version).toBe('1.4');
     expect(data.rule.canonical_id).toBe('law-001668');
     expect(['CURRENT', 'REPEALED']).toContain(data.current.version_status);
 
@@ -155,7 +187,7 @@ describe('Production Data Smoke Test (public/api/v1/)', () => {
     const raw = fs.readFileSync(path.join(publicDir, 'rules/admrul-36283.json'), 'utf-8');
     const data: RuleDetailResponse = JSON.parse(raw);
 
-    expect(data.schema_version).toBe('1.3');
+    expect(data.schema_version).toBe('1.4');
     expect(data.upcoming.length).toBe(0);
     expect(Array.isArray(data.changed_articles)).toBe(true);
     expect(data.changed_articles!.length).toBe(71);

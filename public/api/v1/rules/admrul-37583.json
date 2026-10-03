@@ -409,6 +409,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508503",
         "sequence": "0001",
+        "status": "AVAILABLE",
         "title": "직업훈련 수형자 명부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508499"
@@ -417,6 +418,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508509",
         "sequence": "0002",
+        "status": "AVAILABLE",
         "title": "훈련일지",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508505"
@@ -425,6 +427,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508515",
         "sequence": "0003",
+        "status": "AVAILABLE",
         "title": "직업훈련 시작 보고서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508511"
@@ -433,6 +436,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508521",
         "sequence": "0004",
+        "status": "AVAILABLE",
         "title": "직업훈련 보류·취소자 명부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508517"
@@ -441,6 +445,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508527",
         "sequence": "0005",
+        "status": "AVAILABLE",
         "title": "기술자격 취득자 현황",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508523"
@@ -449,6 +454,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508533",
         "sequence": "0006",
+        "status": "AVAILABLE",
         "title": "직종별 기술자격 취득자 현황",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508529"
@@ -457,6 +463,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508539",
         "sequence": "0007",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508535"
@@ -465,6 +472,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508545",
         "sequence": "0008",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508541"
@@ -473,6 +481,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508551",
         "sequence": "0009",
+        "status": "AVAILABLE",
         "title": "기술자격 보유자 현황",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508547"
@@ -481,6 +490,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508557",
         "sequence": "0010",
+        "status": "AVAILABLE",
         "title": "직종별 기술자격 보유자 현황",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508553"
@@ -489,6 +499,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508563",
         "sequence": "0011",
+        "status": "AVAILABLE",
         "title": "기술자격 보유자 석방현황",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508559"
@@ -497,6 +508,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508569",
         "sequence": "0012",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508565"
@@ -505,6 +517,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508575",
         "sequence": "0013",
+        "status": "AVAILABLE",
         "title": "훈련장비기록부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508571"
@@ -513,6 +526,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508581",
         "sequence": "0014",
+        "status": "AVAILABLE",
         "title": "실습명령부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508577"
@@ -521,6 +535,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508587",
         "sequence": "0015",
+        "status": "AVAILABLE",
         "title": "품목별 훈련재료수불부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508583"
@@ -529,6 +544,7 @@
         "branch": "01",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508593",
         "sequence": "0015",
+        "status": "AVAILABLE",
         "title": "훈련재료수불부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508589"
@@ -537,6 +553,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508599",
         "sequence": "0016",
+        "status": "AVAILABLE",
         "title": "부산물대장",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508595"
@@ -545,6 +562,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508605",
         "sequence": "0017",
+        "status": "AVAILABLE",
         "title": "실습제품평가부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508601"
@@ -553,6 +571,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508611",
         "sequence": "0018",
+        "status": "AVAILABLE",
         "title": "실습제품기증대장",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508607"
@@ -561,6 +580,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508617",
         "sequence": "0019",
+        "status": "AVAILABLE",
         "title": "직업훈련 예산집행 현황",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508613"
@@ -569,6 +589,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508623",
         "sequence": "0020",
+        "status": "AVAILABLE",
         "title": "직업훈련 구분별 현황",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508619"
@@ -577,6 +598,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508629",
         "sequence": "0021",
+        "status": "AVAILABLE",
         "title": "기관별 직업훈련현황",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508625"
@@ -585,6 +607,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508635",
         "sequence": "0022",
+        "status": "AVAILABLE",
         "title": "직업훈련 종류별 현황",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=153508631"
@@ -742,7 +765,7 @@
     },
     "version_status": "CURRENT"
   },
-  "dataset_version": "ds-7805063f9c55bcd7d7616ee1e3d509f79cc0ee449489171391afacdbf9e30ed3",
+  "dataset_version": "ds-98bdc9ab4f0c49b90a76fe0a00c8efee2fdc7f7079c3cabc098c6da41ce1bc37",
   "rule": {
     "business_domains": [
       "작업·직업훈련"
@@ -752,6 +775,7 @@
     "corrections_category": "예규",
     "current_name": "수형자 직업능력개발훈련 운영지침",
     "detail_url": "/api/v1/rules/admrul-37583.json",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
     "metadata": {
       "amendment_type": "일부개정",
@@ -766,6 +790,25 @@
     },
     "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000260706",
     "primary_domain": "작업·직업훈련",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "수용자",
+        "수형자"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000260706",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "수형자 직업능력개발훈련 운영지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "수형자 직업능력개발훈련 운영지침"
@@ -774,6 +817,6 @@
     "status": "CURRENT",
     "version_id": "2100000260706"
   },
-  "schema_version": "1.3",
+  "schema_version": "1.4",
   "upcoming": []
 }

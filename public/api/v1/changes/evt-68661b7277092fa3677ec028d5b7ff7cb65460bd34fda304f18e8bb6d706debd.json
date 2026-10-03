@@ -1,0 +1,85 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "be70039bd0de396608d26b7328a81fd47eea5232895d9578765cf61da1e605de",
+      "effective_date": "2023-02-10",
+      "identifier": "2100000219484",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000219484",
+      "snapshot_url": "/api/v1/rules/admrul-2036599/versions/2100000219484-2023-02-10-62a4d75fcfac0387.json",
+      "version_id": "2100000219484"
+    },
+    "appendix_changes": [
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0004",
+          "title": "교육훈련실적관리도 ",
+          "type": "별표",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=125212175"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0004",
+          "title": "교육훈련실적관리도",
+          "type": "별표",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=117851233"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0005",
+          "title": "자격증인정기준 ",
+          "type": "별표",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=125212179"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0005",
+          "title": "자격증인정기준",
+          "type": "별표",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=117851237"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      }
+    ],
+    "before_version": {
+      "body_hash": "235d8144178bfe4fee443fff07f03eba3ae9af38e4d3c277c9021eb587a9e5fc",
+      "effective_date": "2021-08-10",
+      "identifier": "2100000203697",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000203697",
+      "snapshot_url": "/api/v1/rules/admrul-2036599/versions/2100000203697-2021-08-10-755ff4cdfc9ec408.json",
+      "version_id": "2100000203697"
+    },
+    "canonical_id": "admrul-2036599",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "APPENDIX_METADATA_CHANGED"
+    ],
+    "changed_article_count": 0,
+    "changed_articles": [],
+    "comparison_evidence": null,
+    "comparison_scope": "FULL_STRUCTURED_BODY",
+    "comparison_source": null,
+    "comparison_status": "COMPARISON_UNAVAILABLE",
+    "comparison_unavailable_reason": "STRUCTURED_ARTICLES_UNAVAILABLE",
+    "detected_at": "2026-10-03T11:27:41.976743+00:00",
+    "effective_date": "2023-02-10",
+    "event_id": "evt-68661b7277092fa3677ec028d5b7ff7cb65460bd34fda304f18e8bb6d706debd",
+    "fallback_reason": "OFFICIAL_COMPARISON_PAIR_OR_TEXT_UNAVAILABLE",
+    "official_old_new_available": false,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000219484",
+    "promulgation_or_issue_date": "2023-02-10",
+    "regulation_name": "법무부 교육훈련시간 승진반영제도 운영지침",
+    "regulation_type": "지침"
+  },
+  "schema_version": "1.4"
+}

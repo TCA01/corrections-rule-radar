@@ -1,0 +1,36 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "9afa12bb7756d1cb1b02eb5d84c2398e9d29dd277a09f9c8ccd5bbff003bcbdc",
+      "effective_date": "2026-05-18",
+      "identifier": "2100000278766",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000278766",
+      "snapshot_url": "/api/v1/rules/admrul-97044/versions/2100000278766-2026-05-18-2326c6231ec03051.json",
+      "version_id": "2100000278766"
+    },
+    "appendix_changes": [],
+    "before_version": null,
+    "canonical_id": "admrul-97044",
+    "change_type": "NEW_RULE",
+    "change_types": [
+      "NEW_RULE"
+    ],
+    "changed_article_count": 0,
+    "changed_articles": [],
+    "comparison_evidence": null,
+    "comparison_scope": "FULL_STRUCTURED_BODY",
+    "comparison_source": null,
+    "comparison_status": "COMPARISON_UNAVAILABLE",
+    "comparison_unavailable_reason": "BEFORE_VERSION_UNAVAILABLE",
+    "detected_at": "2026-10-03T11:27:41.976743+00:00",
+    "effective_date": "2026-05-18",
+    "event_id": "evt-41f0b936a85143c618827d7b3beb9dbf968dd23ba9f0427282647d91857082bc",
+    "fallback_reason": "OFFICIAL_COMPARISON_UNAVAILABLE",
+    "official_old_new_available": false,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000278766",
+    "promulgation_or_issue_date": "2026-05-18",
+    "regulation_name": "중독재활 업무지침",
+    "regulation_type": "예규"
+  },
+  "schema_version": "1.4"
+}

@@ -40,6 +40,9 @@ def validate(folder,*,contract_validator=None):
     if len(rules)!=manifest['rule_count'] or len(set(r['canonical_id'] for r in rules))!=len(rules): raise ValueError('INVALID_RULE_COUNT')
     for row in rules:
         if not (folder/row['detail_url'].removeprefix('/api/v1/')).is_file(): raise ValueError('MISSING_RULE_DETAIL')
+        if row['provenance']['canonical_source_url']!=row['official_source_url']: raise ValueError('PROVENANCE_SOURCE_MISMATCH')
+        if row['provenance']['api_tracking_class']!='API_TRACKABLE' or row['provenance']['scope_review_status']!='APPROVED' or row['classification_status']!='REVIEWED' or not row['business_domains']: raise ValueError('PRODUCTION_REVIEW_OR_INELIGIBLE')
+        if (row['status']=='REPEALED')!=(row['provenance']['scope_class']=='HISTORICAL_REPEALED'): raise ValueError('HISTORICAL_STATUS_MISMATCH')
     history=json.loads((folder/'changes/history.json').read_text(encoding='utf8'))['events']
     recent=json.loads((folder/'changes/recent.json').read_text(encoding='utf8'))['events']
     known={e['event_id']:e for e in history}; core={r['canonical_id'] for r in rules}

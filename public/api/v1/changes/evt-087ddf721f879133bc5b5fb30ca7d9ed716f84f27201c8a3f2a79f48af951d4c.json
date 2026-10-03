@@ -1,0 +1,92 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "8fc7a70c78ade6b992af1ed13ea79de99c6217abc259cf20758f6a5374e73cc3",
+      "effective_date": "2026-03-26",
+      "identifier": "2100000276408",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000276408",
+      "snapshot_url": "/api/v1/rules/admrul-86352/versions/2100000276408-2026-03-26-a0a25556ec332368.json",
+      "version_id": "2100000276408"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "73248171a059ade02e6e288b0833122c9ddfb7e0eb46f663edb024db624ed49e",
+      "effective_date": "2023-08-08",
+      "identifier": "2100000227714",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000227714",
+      "snapshot_url": "/api/v1/rules/admrul-86352/versions/2100000227714-2023-08-08-042b0a7fe0918d29.json",
+      "version_id": "2100000227714"
+    },
+    "canonical_id": "admrul-86352",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "RULE_RENAMED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 4,
+    "changed_articles": [
+      {
+        "after_text": "제2조(기능) ① 법무부 교정정책자문위원회(이하 “법무부위원회”라 한다)는 다음 각 호에 대한 자문에 응하고 필요한 의견을 제시할 수 있다.\n1.·2. (현행과 같음)\n3. 수용자 처우 및 인권 증진에 관한 필요한 사항\n4. (현행과 같음)\n② 교정기관 교정정책자문위원회(이하 “교정기관위원회”라 한다)는 다음 각 호에 대한 심의 및 자문에 응하고 필요한 의견을 제시할 수 있다.\n1. ∼ 4. (현행과 같음)\n③ 법무부위원회는 심도있는 논의를 위하여 위원으로 구성된 분과위원회(이하 “분과위원회”라한다)를 둘 수 있다.\n④ 제3항에 따라 위원회에 두는 분과위원회 구성은 다음 각 호와 같다.  1. 위원장 1인을 포함하여 4∼5인의 위원으로 구성한다.  2. 분과 전문분야는 법무부장관이 지정한다.  3. 분과는 위원의 전문분야를 고려하여 법무부장관이 지정한다.  4. 위원장은 분과 위원 중 호선한다.",
+        "article_key": "article-2",
+        "article_number": "2",
+        "article_title": "제2조(기능)",
+        "before_text": "제2조(기능) ① 법무부 교정정책자문위원회(이하 “법무부위원회”라 한다)는 다음 각호에 대한 심의 및 자문에 응하고 필요한 의견을 제시할 수 있다.\n1.·2. (생  략)\n3. 수용자 급양ㆍ의료ㆍ교육 등 처우 및 인권증진에 관해 필요한 사항\n4. (생  략)\n② 교정기관 교정정책자문위원회(이하 “교정기관위원회”라 한다)는 다음 각호에 대한 심의 및 자문에 응하고 필요한 의견을 제시할 수 있다.\n1. ∼ 4. (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-03-26"
+      },
+      {
+        "after_text": "제6조(회의) ① (현행과 같음)\n② 분과위원회 회의는 법무부장관 또는 법무부위원회 위원장이 필요하다고 인정하거나 위원 과반수의 요청이 있을 때 회의를 개최할 수 있다.\n③ 법무부위원회 및 분과위원회는 위원 과반수의 출석으로 개의하고 회의사항 중 의결이 필요한 경우 출석위원 과반수의 찬성으로 의결한다.\n④ 법무부위원회 및 분과위원회 위원장은 회의에 필요한 경우 위원이 아닌 자를 회의에 참석시켜 안건에 대한 설명이나 의견을 들을 수 있다.",
+        "article_key": "article-6",
+        "article_number": "6",
+        "article_title": "제6조(회의)",
+        "before_text": "제6조(회의) ① (생  략)\n② 법무부위원회는 위원 과반수의 출석으로 개의하고 회의사항 중 의결이 필요한 경우 출석위원 과반수의 찬성으로 의결한다.\n③ 법무부위원회 위원장은 회의에 필요한 경우 위원이 아닌 자를 회의에 참석시켜 안건에 대한 설명이나 의견을 들을 수 있다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-03-26"
+      },
+      {
+        "after_text": "제7조(간사) ① 법무부위원회, 분과위원회, 교정기관위원회의 사무를 처리하기 위하여 각 위원회에 간사 1명을 둔다. 이 경우, 법무부위원회의 간사는 법무부 교정기획과 소속 교정관으로 하고, 분과위원회 간사는 분과위원회 위원장이 지명한 위원으로 하며, 교정기관위원회의 간사는 해당 교정시설의 총무과 소속 교감으로 한다.\n②·③ (현행과 같음)\n④ 분과위원회 간사는 회의록을 작성하고 분과위원회 회의와 관련된 기록, 그 밖의 서류를 작성하고, 작성된 회의록 등 서류는 법무부위원회 간사에게 제출한다.",
+        "article_key": "article-7",
+        "article_number": "7",
+        "article_title": "제7조(간사)",
+        "before_text": "제7조(간사) ① 법무부위원회와 교정기관위원회의 사무를 처리하기 위하여 각 위원회에 간사 1명을 둔다. 이 경우, 법무부위원회의 간사는 법무부 교정기획과 소속 교정관으로 하고, 교정기관위원회의 간사는 해당 교정시설의 총무과 소속 교감으로 한다.\n②·③ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-03-26"
+      },
+      {
+        "after_text": "제11조(재검토기한) 「훈령ㆍ예규 등의 발령 및 관리에 관한 규정」에 따라 이 지침에 대하여 2026년 1월 1일 기준으로 매 3년이 되는 시점(매 3년째의 6월 30일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+        "article_key": "article-11",
+        "article_number": "11",
+        "article_title": "제11조(재검토기한)",
+        "before_text": "제11조(재검토기한) 「훈령ㆍ예규 등의 발령 및 관리에 관한 규정」에 따라 이 지침에 대하여 2024년 1월 1일 기준으로 매 3년이 되는 시점(매 3년째의 6월 30일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-03-26"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "22624851c28558526de59d43e84c8f83ade0f7af566b40919cc0524e9c8d8283",
+      "credential_redacted": false,
+      "raw_sha256": "e91ce49235f6b5e17916ad2458b454ea84f1713a4835913d5f461cb7f57b8a76",
+      "request": {
+        "ID": "2100000276408",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "e91ce49235f6b5e17916ad2458b454ea84f1713a4835913d5f461cb7f57b8a76"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T11:27:41.976743+00:00",
+    "effective_date": "2026-03-26",
+    "event_id": "evt-087ddf721f879133bc5b5fb30ca7d9ed716f84f27201c8a3f2a79f48af951d4c",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000276408",
+    "promulgation_or_issue_date": "2026-03-26",
+    "regulation_name": "교정정책자문위원회 운영규정",
+    "regulation_type": "훈령"
+  },
+  "schema_version": "1.4"
+}

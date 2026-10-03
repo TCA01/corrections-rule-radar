@@ -1,0 +1,64 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "c9da50152ed94b3291eb2f2eeb80dfd4eb271d3e4d848b644a3f5958e4ea64a8",
+      "effective_date": "2026-09-11",
+      "identifier": "2100000284892",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000284892",
+      "snapshot_url": "/api/v1/rules/admrul-26402/versions/2100000284892-2026-09-11-faaf64a9aef90e02.json",
+      "version_id": "2100000284892"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "56e2dd3fcf31cbd4ad2771429a3d5592f23380f5e01a2ecd4b1d4b76f017ae25",
+      "effective_date": "2023-10-19",
+      "identifier": "2100000230584",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000230584",
+      "snapshot_url": "/api/v1/rules/admrul-26402/versions/2100000230584-2023-10-19-9bc7b85c45149bba.json",
+      "version_id": "2100000230584"
+    },
+    "canonical_id": "admrul-26402",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 1,
+    "changed_articles": [
+      {
+        "after_text": "제2조(정의) 이 영에서 사용하는 용어의 뜻은 다음과 같다.\n1. ∼ 4. (현행과 같음)\n5. “가상자산”이란 「가상자산 이용자 보호 등에 관한 법률」 제2조제1호에 따른 가상자산을 말한다.",
+        "article_key": "article-2",
+        "article_number": "2",
+        "article_title": "제2조(정의)",
+        "before_text": "제2조(정의) 이 영에서 사용하는 용어의 뜻은 다음과 같다.\n1. ∼ 4. (생  략)\n5. “가상자산”이란 경제적 가치를 지닌 것으로서 전자적으로 거래 또는 이전될 수 있는 전자적 증표(그에 관한 일체의 권리를 포함한다)를 말한다. 다만, 다음 각 목의 어느 하나에 해당하는 것은 제외한다.   가. 화폐ㆍ재화ㆍ용역 등으로 교환될 수 없는 전자적 증표 또는 그 증표에 관한 정보로서 발행인이 사용처와 그 용도를 제한한 것   나. 「게임산업진흥에 관한 법률」 제32조제1항제7호에 따른 게임물의 이용을 통하여 획득한 유ㆍ무형의 결과물   다. 「전자금융거래법」 제2조제14호에 따른 선불전자지급수단 및 같은 조 제15호에 따른 전자화폐   라. 「주식ㆍ사채 등의 전자등록에 관한 법률」 제2조제4호에 따른 전자등록주식등   마. 「전자어음의 발행 및 유통에 관한 법률」 제2조제2호에 따른 전자어음   바. 「상법」 제862조에 따른 전자선하증권   사. 거래의 형태와 특성을 고려하여 「특정 금융거래정보의 보고 및 이용 등에 관한 법률 시행령」제4조로 정하는 것",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-09-11"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "47b58eb7848fb60bffa65bb8aae66a12a9ad94ae79aa2398d7e4ceea3fb157ae",
+      "credential_redacted": false,
+      "raw_sha256": "07b1d1f689befd7e3371273b03b2d6175fa4846b416cae8f3577ae90c3c839ee",
+      "request": {
+        "ID": "2100000284892",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "07b1d1f689befd7e3371273b03b2d6175fa4846b416cae8f3577ae90c3c839ee"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T11:27:41.976743+00:00",
+    "effective_date": "2026-09-11",
+    "event_id": "evt-9db9b14e639110217b7d20612828ada45b484817c3eb435ac0774aab587a3313",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000284892",
+    "promulgation_or_issue_date": "2026-09-11",
+    "regulation_name": "법무부 공무원 행동강령",
+    "regulation_type": "훈령"
+  },
+  "schema_version": "1.4"
+}

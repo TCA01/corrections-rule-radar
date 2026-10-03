@@ -1,0 +1,3317 @@
+[
+  {
+    "auto_production_entry": false,
+    "candidate_name": "출입국관리법시행령 별표 1의2 중 24. 거주(F-2)자목에 해당하는 자의 연령, 학력, 소득 등에 관한 기준 고시",
+    "canonical_id": "admrul-2031764",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.540059+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "외국인 자동출입국심사 이용대상자 등록 요건 및 절차",
+    "canonical_id": "admrul-2034229",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.539503+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "출입국관리법시행규칙 별표 6의 규정에 의한 권한의 일부위임 범위",
+    "canonical_id": "admrul-2034266",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.540059+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "출입국관리법시행령 제26조의2제1항에 따라 신고만으로 근무처 변경·추가를 할 수 있는 외국인의 요건 고시",
+    "canonical_id": "admrul-2034285",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.540059+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "출입국관리법시행규칙 제76조제2항 관련 별표5의2 회화지도(E-2) 자격자가 외국인등록 신청 시에 제출하여야 하는 채용신체검사서의 마약검사 항목과 검사방법 및 법무부장관이 지정하는 의료기관의 요건 등 고시",
+    "canonical_id": "admrul-2036286",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.540059+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 지식관리 운영지침",
+    "canonical_id": "admrul-2036612",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538402+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 홈페이지 운영지침",
+    "canonical_id": "admrul-2036614",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538402+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 정보보안 기본지침",
+    "canonical_id": "admrul-2037255",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538402+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "사회통합프로그램 기본소양 평가관리 규정",
+    "canonical_id": "admrul-2037345",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "국제결혼 안내프로그램 이수 대상 및 운영사항 고시",
+    "canonical_id": "admrul-2037546",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537328+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "외국법자문사법 제34조의2 제1항에 따른 자유무역협정등의 당사국 고시",
+    "canonical_id": "admrul-2038485",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.539503+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "전자선하증권 등록기관의 지정요건 중 기술인력 규정",
+    "canonical_id": "admrul-2039289",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.540059+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "외국법자문사법 시행령 제2조 제6호 진술서 서식",
+    "canonical_id": "admrul-2039566",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.539503+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "북한주민으로 하여금 직접 사용·관리하게 할 수 있는 재산의 한도 고시",
+    "canonical_id": "admrul-2049106",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "출입국관리법시행령 별표 1의2의 제24호 거주(F-2)의 체류자격 ‘차’목에 해당하는 부동산의 투자지역, 투자대상 및 투자기준금액 등에 관한 기준 고시",
+    "canonical_id": "admrul-2058245",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.540059+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "외국법자문사법 제34조의2 제1항에 따른 자유무역협정등의 당사국 고시",
+    "canonical_id": "admrul-2059507",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.539503+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "외국법자문사법 제34조의2 제1항에 따른 자유무역협정등의 당사국 고시",
+    "canonical_id": "admrul-2061185",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.539503+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "외국법자문사법 제34조의2 제1항에 따른 자유무역협정등의 당사국",
+    "canonical_id": "admrul-2069265",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.539503+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "외국법자문사법 제34조의2 제1항에 따른 자유무역협정등의 당사국",
+    "canonical_id": "admrul-2070705",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.539503+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "관광·휴양시설 투자이민제 대상지역 지정 절차 고시",
+    "canonical_id": "admrul-2075585",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537328+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "2023년 생계비 지원액 고시",
+    "canonical_id": "admrul-2078508",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.536657+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "국적법 시행령 제6조제2항에 해당하는 우수인재 평가기준 및 추천 등에 관한 고시",
+    "canonical_id": "admrul-2078625",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537328+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "영주자격자의 배우자 결혼 동거 목적 사증 발급에 필요한 소득요건 고시",
+    "canonical_id": "admrul-2078645",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.539503+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "공익신탁의 공시에 관한 고시",
+    "canonical_id": "admrul-2080645",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537328+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "공익신탁의 인가신청서 등 서식에 관한 고시",
+    "canonical_id": "admrul-2080646",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537328+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "진술조력인의 운영 등에 관한 규정",
+    "canonical_id": "admrul-2082218",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.540059+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "공소청 및 각급 공소청 및 지청에 두는 공무원 정원 중 고위공무원단 직위의 직무등급의 표시 등에 관한 규정",
+    "canonical_id": "admrul-2088851",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.536657+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "재외동포(F-4) 자격의 취업활동 제한범위 고시",
+    "canonical_id": "admrul-2090230",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.539503+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "범죄예방환경개선협의회 규정",
+    "canonical_id": "admrul-2108947",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537853+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "공익사업 투자이민제도 투자대상, 투자금액 등에 관한 기준 고시",
+    "canonical_id": "admrul-2109471",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537328+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "범죄예방자원봉사 기본규정",
+    "canonical_id": "admrul-23857",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537853+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "감찰사실 공표에 관한 지침",
+    "canonical_id": "admrul-26432",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.536657+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 행정정보공개지침",
+    "canonical_id": "admrul-26434",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538402+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부기에 관한 규정",
+    "canonical_id": "admrul-26468",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538402+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 개방형직위 및 공모직위의 운영 등에 관한 규정",
+    "canonical_id": "admrul-26523",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537853+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "국립법무병원 자문위원회 규정",
+    "canonical_id": "admrul-26531",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537328+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부회계관계공무원의재정보증규정",
+    "canonical_id": "admrul-26601",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538402+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "보호관찰기관 당직 및 비상근무 지침",
+    "canonical_id": "admrul-26679",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 예규 등 제정·개정절차 및 정비 지침",
+    "canonical_id": "admrul-26688",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538402+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "소년선도보호지침",
+    "canonical_id": "admrul-26728",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "출입국관리법시행규칙 별표5 “사증발급신청 등 첨부서류”에 관한 고시",
+    "canonical_id": "admrul-26729",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.540059+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 여성아동정책심의위원회에 관한 규정",
+    "canonical_id": "admrul-26738",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538402+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "각종 체류허가 등의 신청 및 수령의 대리에 관한 규정",
+    "canonical_id": "admrul-26774",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.536657+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "검사윤리강령운영지침",
+    "canonical_id": "admrul-26783",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.536657+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "소년원 등의 기능 및 명칭 복수사용에 관한 지침",
+    "canonical_id": "admrul-26786",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "검사윤리강령",
+    "canonical_id": "admrul-26787",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.536657+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "소년원 및 소년분류심사원 소속 공무원 급여규칙",
+    "canonical_id": "admrul-26927",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "(법무부) 사건관계인등비용지급규칙",
+    "canonical_id": "admrul-27023",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538402+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "직무성과금지급업무처리지침",
+    "canonical_id": "admrul-27043",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.540059+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "공익법무관 관리지침",
+    "canonical_id": "admrul-27045",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537328+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "외국인 종합안내센터 설치 및 운영에 관한 규정",
+    "canonical_id": "admrul-27067",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.539503+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 공무직 등 근로자 관리지침",
+    "canonical_id": "admrul-27199",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537853+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "소년원 및 소년분류심사원 차량관리 규칙",
+    "canonical_id": "admrul-27219",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "출입국관리기규정",
+    "canonical_id": "admrul-27235",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.540059+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "국가를 당사자로 하는 소송업무 처리지침",
+    "canonical_id": "admrul-27337",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537328+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "외국인범죄수사처리지침",
+    "canonical_id": "admrul-27344",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.539503+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 정책위원회 규정",
+    "canonical_id": "admrul-27385",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538402+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "공소청통계사무규정",
+    "canonical_id": "admrul-27392",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.536657+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "개성공업지구 및 금강산관광지구에서 발생한 형사사건 처리지침",
+    "canonical_id": "admrul-27399",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.536657+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "감찰담당 검사 임용 등에 관한 지침",
+    "canonical_id": "admrul-27400",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.536657+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "각종 보고지시의 유효기간에 관한 지침",
+    "canonical_id": "admrul-27415",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.536657+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "해외투자기업 기술연수생 등에 대한 사증발급인정서 발급 및 관리에 관한 훈령",
+    "canonical_id": "admrul-27428",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.540059+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부감찰위원회 운영세칙",
+    "canonical_id": "admrul-27436",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537853+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "공직자등록재산조사단 운영규정",
+    "canonical_id": "admrul-27437",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537328+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 공무국외출장 운영지침",
+    "canonical_id": "admrul-27489",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537853+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "공소청 공무원 등의 공무국외여행 관리규정",
+    "canonical_id": "admrul-27524",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.536657+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "범죄경력자료 등 조회시스템운영에관한지침",
+    "canonical_id": "admrul-28522",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537853+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "협정 비공무사건 사전지급업무 처리지침",
+    "canonical_id": "admrul-28673",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.540059+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "망실 국유재산 현황보고",
+    "canonical_id": "admrul-28674",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537853+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "범죄피해자보호위원회 운영세칙",
+    "canonical_id": "admrul-28958",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537853+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "출입국사범 고발규정",
+    "canonical_id": "admrul-31751",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.540059+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "보호일시해제업무 처리규정",
+    "canonical_id": "admrul-31761",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 인권정책자문단 운영지침",
+    "canonical_id": "admrul-31841",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538402+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "공사감독자 업무규정",
+    "canonical_id": "admrul-32126",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.536657+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 공무원제안제도 운영규정",
+    "canonical_id": "admrul-32496",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537853+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "남·북한 왕래자 등에 대한 출입(국)심사지침",
+    "canonical_id": "admrul-33603",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537853+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "보호외국인 급식관리규정",
+    "canonical_id": "admrul-33607",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "출입국사범 단속과정의 적법절차 및 인권보호 준칙",
+    "canonical_id": "admrul-33609",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.540059+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "검사 국외훈련 심의위원회 규정",
+    "canonical_id": "admrul-33610",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.536657+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "국가인권위원회 진정 등 업무처리 지침",
+    "canonical_id": "admrul-33611",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537328+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "(법무부) 공무원교육상기금운영규정",
+    "canonical_id": "admrul-34081",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537853+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "행사관련 법무부장관상 수여 및 후원명칭 사용승인 지침",
+    "canonical_id": "admrul-34170",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.540059+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 산하단체장 후보 추천위원회 구성·운영 규정",
+    "canonical_id": "admrul-34171",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538402+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "민방위 경보 발령ㆍ전달 규정",
+    "canonical_id": "admrul-34211",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537853+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "보호관찰소 선도위탁 규정",
+    "canonical_id": "admrul-34504",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "피치료감호자 분류 및 처우관리준칙",
+    "canonical_id": "admrul-34505",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.540059+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "소년사건 검사의 결정 전 조사 처리 규정",
+    "canonical_id": "admrul-34510",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 도서관리 규정",
+    "canonical_id": "admrul-35296",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538402+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 자체 규제심사위원회 운영규정",
+    "canonical_id": "admrul-35518",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538402+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "소년원 및 소년분류심사원 사회복무요원 복무관리지침",
+    "canonical_id": "admrul-35573",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "APEC 기업인 여행카드의 발급 및 관리 규정",
+    "canonical_id": "admrul-35710",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.536657+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 기록관 운영 및 기록물관리에 관한 규정",
+    "canonical_id": "admrul-35866",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537853+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 예산집행심의회 규정",
+    "canonical_id": "admrul-35867",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538402+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "특별사법경찰관리 지명절차 등에 관한 지침",
+    "canonical_id": "admrul-36111",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.540059+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "외국인보호규칙 시행세칙",
+    "canonical_id": "admrul-36177",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.539503+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "국가 및 행협배상 업무처리지침",
+    "canonical_id": "admrul-36183",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537328+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "국적업무처리지침",
+    "canonical_id": "admrul-36246",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537328+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "검사 국외훈련 운영규정",
+    "canonical_id": "admrul-36455",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.536657+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법령 제정·개정 업무 지침",
+    "canonical_id": "admrul-36564",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537853+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부소관 국가정보자료관리 세부시행규칙",
+    "canonical_id": "admrul-36731",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538402+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "출입국기록관리 및 정보화업무처리지침",
+    "canonical_id": "admrul-36732",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.540059+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 자체평가위원회 운영 규정",
+    "canonical_id": "admrul-36773",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538402+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "공증인 직무교육 지침",
+    "canonical_id": "admrul-36822",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537328+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "온라인 사증발급 및 사증추천인에 관한 업무처리지침",
+    "canonical_id": "admrul-36846",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.539503+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 직무대리 규칙",
+    "canonical_id": "admrul-36999",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538402+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법률구조법인의 등록에 관한 사무취급 규정",
+    "canonical_id": "admrul-37017",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537853+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 정보화업무 기본지침",
+    "canonical_id": "admrul-37084",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538402+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 국제거래법연구단 운영규정",
+    "canonical_id": "admrul-37142",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537853+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "국립법무병원 의류 및 침구 제식 규칙",
+    "canonical_id": "admrul-37228",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537328+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "국립법무병원 급식관리규정",
+    "canonical_id": "admrul-37229",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537328+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "국립법무병원 직원 지급품 규칙",
+    "canonical_id": "admrul-37230",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537328+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 성과관리 운영규정",
+    "canonical_id": "admrul-37286",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538402+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "보호소년 처우지침",
+    "canonical_id": "admrul-37413",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "소년보호위원 기본규정",
+    "canonical_id": "admrul-37471",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "보호관찰대상자 등 지명수배 절차에 관한 규칙",
+    "canonical_id": "admrul-37545",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무시설조성 추진에 따른 업무지침",
+    "canonical_id": "admrul-37593",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "보호직 공무원의 조사관 등 자격 인정 및 절차에 관한 규정",
+    "canonical_id": "admrul-37653",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "소년보호기관 급식관리지침",
+    "canonical_id": "admrul-37699",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "주택임대차위원회 운영 규정",
+    "canonical_id": "admrul-37722",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.540059+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "주택임대차위원회 직원 규정",
+    "canonical_id": "admrul-37723",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.540059+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "상법상 과태료 부과 기준 지침",
+    "canonical_id": "admrul-37802",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법학전문대학원 교육파견 심사위원회 규정",
+    "canonical_id": "admrul-37805",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 위임전결 규정",
+    "canonical_id": "admrul-37809",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538402+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 해외진출기업 국제법무지원단 운영규정",
+    "canonical_id": "admrul-38004",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538402+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 감찰규정",
+    "canonical_id": "admrul-38179",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537853+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 상법 특별위원회 운영규정",
+    "canonical_id": "admrul-38337",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538402+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 일상감사 운영에 관한 규정",
+    "canonical_id": "admrul-38790",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538402+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "귀화 민간면접관 위촉 및 처우에 관한 규정",
+    "canonical_id": "admrul-38819",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537328+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "치료약물",
+    "canonical_id": "admrul-38859",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.540059+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 개인정보 보호지침",
+    "canonical_id": "admrul-39565",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537853+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "에스엔에스(SNS) 홍보 우수 기관 및 공무원 포상 지침",
+    "canonical_id": "admrul-39934",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.539503+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 정책연구 관리 규정",
+    "canonical_id": "admrul-40951",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538402+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "육아휴직 결원보충을 위한 별도정원에 관한 규정",
+    "canonical_id": "admrul-41083",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.539503+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "중소기업회계기준 고시",
+    "canonical_id": "admrul-41522",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.540059+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "투자이민협의회 규정",
+    "canonical_id": "admrul-42331",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.540059+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "인권보호상황평가 및 포상에 관한 지침",
+    "canonical_id": "admrul-42353",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.539503+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "난민위원회 운영세칙",
+    "canonical_id": "admrul-42390",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537853+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "출입국·외국인지원센터 운영규정",
+    "canonical_id": "admrul-43043",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.540059+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 공익신고 처리 및 신고자 보호 등에 관한 규정",
+    "canonical_id": "admrul-43075",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537853+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 국외훈련심의위원회 운영지침",
+    "canonical_id": "admrul-43090",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537853+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 갈등관리 규정",
+    "canonical_id": "admrul-43101",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537853+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "공익사업 투자이민 상담센터 설치 및 운영에 관한 규정",
+    "canonical_id": "admrul-43307",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537328+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "소년원·소년분류심사원 감호업무지침",
+    "canonical_id": "admrul-43832",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 법령해석위원회 운영지침",
+    "canonical_id": "admrul-44119",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538402+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "소년원 및 소년분류심사원 영상정보처리기기 운영지침",
+    "canonical_id": "admrul-44754",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "범죄수익 환수포상금 지급사무 운영규정",
+    "canonical_id": "admrul-44885",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537853+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "국가인권위원회 권고 관련 업무처리지침",
+    "canonical_id": "admrul-45875",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537328+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "보호실 출입문 자동제어시스템 운영지침",
+    "canonical_id": "admrul-45920",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "사회통합 프로그램 다문화사회 전문가 인정 기준 등에 관한 규정",
+    "canonical_id": "admrul-46340",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무자문위원회 전문·연구위원 관리지침",
+    "canonical_id": "admrul-46387",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "국적심의위원회 운영지침",
+    "canonical_id": "admrul-46653",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537328+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 공익신탁자문위원회 운영규정",
+    "canonical_id": "admrul-47700",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537853+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "특수단기 보호소년의 처우 및 교육에 관한 지침",
+    "canonical_id": "admrul-47847",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.540059+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무정책 홍보전략협의회 운영지침",
+    "canonical_id": "admrul-48160",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "보호소년 교육지침",
+    "canonical_id": "admrul-48643",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 중앙사고수습본부의 구성 및 운영 등에 관한 규정",
+    "canonical_id": "admrul-48745",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538402+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "난민통역인 등 비용지급규칙",
+    "canonical_id": "admrul-48749",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537853+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "사회통합 자원봉사위원 기본규정",
+    "canonical_id": "admrul-50676",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "보호소년 등의 의료에 관한 지침",
+    "canonical_id": "admrul-51352",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 공증제도개선위원회 운영지침",
+    "canonical_id": "admrul-51607",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537853+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "범죄예방정책국 보고사무지침",
+    "canonical_id": "admrul-51869",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537853+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "출입국·외국인정책본부 보고사무지침",
+    "canonical_id": "admrul-51870",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.540059+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무연수원 보고사무지침",
+    "canonical_id": "admrul-51871",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "아동학대범죄의 처벌 등에 관한 특례법에 따른 감호위탁시설 지정 고시",
+    "canonical_id": "admrul-52792",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.539503+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "보호관찰소의 명칭 병행 사용에 관한 지침",
+    "canonical_id": "admrul-53258",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "외국법자문사법 제35조의2 제1항에 따른 자유무역협정등의 당사국 고시",
+    "canonical_id": "admrul-54694",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.539503+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부공무원 당직 및 비상근무 규칙",
+    "canonical_id": "admrul-56140",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537853+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 청렴시민감사관 설치 및 운영에 관한 규정",
+    "canonical_id": "admrul-56291",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538402+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "외국법자문사법 제34조의2 제1항에 따른 자유무역협정등의 당사국",
+    "canonical_id": "admrul-56441",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.539503+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "외국법자문사법 제34조의2 제1항에 따른 자유무역협정등의 당사국",
+    "canonical_id": "admrul-56442",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.539503+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "북한인권 관련 법률자문단 운영규정",
+    "canonical_id": "admrul-56586",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "외국법자문사법 제35조의2 제1항에 따른 자유무역협정등의 당사국",
+    "canonical_id": "admrul-58409",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.539503+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "국가송무 상소심의위원회 운영지침",
+    "canonical_id": "admrul-60427",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537328+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 업무포털 운영지침",
+    "canonical_id": "admrul-62325",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538402+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "외국법자문사법 제34조의2 제1항에 따른 자유무역협정등의 당사국",
+    "canonical_id": "admrul-62444",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.539503+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 본부 노사협의회 운영규정",
+    "canonical_id": "admrul-63197",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538402+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "외국법자문사법 제34조의2 제1항에 따른 자유무역협정등의 당사국 고시",
+    "canonical_id": "admrul-63601",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.539503+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "변호사 보수 규정",
+    "canonical_id": "admrul-64354",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "사회통합프로그램 기본소양평가 응시 수수료 고시",
+    "canonical_id": "admrul-64720",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 전문용어 표준화협의회 운영 규정",
+    "canonical_id": "admrul-65165",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538402+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "외국법자문사법 제35조의2 제1항에 따른 자유무역협정등의 당사국",
+    "canonical_id": "admrul-65671",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.539503+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "검사 전보 및 보직관리 등에 관한 규칙",
+    "canonical_id": "admrul-65687",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.536657+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "보호기 규정",
+    "canonical_id": "admrul-66624",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "포용적 가족문화를 위한 법제개선위원회 운영 규정",
+    "canonical_id": "admrul-67533",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.540059+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "전자등록업허가 등에 관한 규정",
+    "canonical_id": "admrul-69015",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.539503+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 적극행정위원회 운영규정",
+    "canonical_id": "admrul-69022",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538402+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "공소청 공무용 차량 운영규정",
+    "canonical_id": "admrul-69263",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.536657+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "형사사건의 공보에 관한 규정",
+    "canonical_id": "admrul-69484",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.540633+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "보호직 공무원 인사운영 규정",
+    "canonical_id": "admrul-69776",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "외국법자문사법 제35조의2 제1항에 따른 자유무역협정등의 당사국",
+    "canonical_id": "admrul-70156",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.539503+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "광역공소청장 등의 청 운영상황 보고에 관한 지침",
+    "canonical_id": "admrul-70314",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537328+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "외국법자문사법 제35조의2 제1항에 따른 자유무역협정등의 당사국",
+    "canonical_id": "admrul-70368",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.539503+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법교육 전문강사 운영 규정",
+    "canonical_id": "admrul-71899",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537853+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "감찰첩보 제보자 등에 대한 신원보호 지침",
+    "canonical_id": "admrul-72335",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.536657+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "결혼동거 목적의 사증 발급에 필요한 요건 및 심사면제 기준 고시",
+    "canonical_id": "admrul-73589",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.536657+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "북한인권자료 관리에 관한 규정",
+    "canonical_id": "admrul-74303",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "부부장검사의 인사와 운용에 관한 규정",
+    "canonical_id": "admrul-74437",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "검사인사위원회규정운영세칙",
+    "canonical_id": "admrul-74438",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.536657+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "특정경제사범 관리위원회 규정",
+    "canonical_id": "admrul-74439",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.540059+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "위탁소년 등 처우지침",
+    "canonical_id": "admrul-74522",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.539503+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 민원조정위원회 운영규정",
+    "canonical_id": "admrul-74757",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538402+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "영장심의위원회 운영세칙",
+    "canonical_id": "admrul-75610",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.539503+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "출입국민원 대행기관 관리지침",
+    "canonical_id": "admrul-75945",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.540059+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 인권 모니터링 운영 규정",
+    "canonical_id": "admrul-76757",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538402+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "외국인 장기보호 심의위원회 운영지침",
+    "canonical_id": "admrul-77147",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.539503+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "보호직 공무원 교육훈련에 관한 운영지침",
+    "canonical_id": "admrul-77481",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "청소년 범죄예방위원 운영규정",
+    "canonical_id": "admrul-77549",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.540059+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "비자신청센터 운영기관 지정·운영에 관한 규정",
+    "canonical_id": "admrul-77604",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "집합건물 회계처리기준",
+    "canonical_id": "admrul-78336",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.540059+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "주택임대차분쟁조정위원회 수수료 처리 기준",
+    "canonical_id": "admrul-78729",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.540059+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 국고보조금 관리 규정",
+    "canonical_id": "admrul-79239",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537853+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "피부착자 소재불명 사건 공개 규칙",
+    "canonical_id": "admrul-79848",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.540059+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 양성평등 추진 규칙",
+    "canonical_id": "admrul-79961",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538402+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "육아휴직 결원보충 활성화를 위한 법무부와 그 소속기관에 두는 별도정원 운영 규정",
+    "canonical_id": "admrul-80415",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.539503+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 미래성장을 위한 이민정책위원회 규정",
+    "canonical_id": "admrul-80872",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538402+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 감시정 관리·운용 지침",
+    "canonical_id": "admrul-81113",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537853+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 청원심의회 운영규정",
+    "canonical_id": "admrul-81354",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538402+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 공공데이터 관리지침",
+    "canonical_id": "admrul-81716",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537853+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 공직자의 이해충돌 방지제도 운영지침",
+    "canonical_id": "admrul-81918",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537853+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "난민 이의신청 접수 및 처리에 관한 지침",
+    "canonical_id": "admrul-83236",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537853+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "합작법무법인 선임변호사 및 선임외국법자문사 겸직허가지침",
+    "canonical_id": "admrul-83526",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.540059+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "전자감독 특별사법경찰 집무규정",
+    "canonical_id": "admrul-83728",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.539503+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "가정폭력범죄의 처벌 등에 관한 특례법에 따른 감호위탁시설 지정 고시",
+    "canonical_id": "admrul-85362",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.536657+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "출국대기실 제공물품 세부기준",
+    "canonical_id": "admrul-85438",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.540059+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무보호위원 운영규정",
+    "canonical_id": "admrul-85523",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537853+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 민법개정위원회 운영규정",
+    "canonical_id": "admrul-85926",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538402+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "6급 보호관찰관 운영 규정",
+    "canonical_id": "admrul-86368",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.536657+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "전자민원창구 운영에 관한 고시",
+    "canonical_id": "admrul-86427",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.539503+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "형사사법정보시스템 발전 전략 자문단 운영 규정",
+    "canonical_id": "admrul-86439",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.540633+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 2030자문단 설치 및 운영에 관한 규정",
+    "canonical_id": "admrul-87246",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537853+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "국립법무병원 임기제 공무원 임용규정",
+    "canonical_id": "admrul-87505",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537328+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "출입국·외국인정책본부 소관 법령에 따른 통고처분 및 과태료의 가중처분에 관한 세부 지침",
+    "canonical_id": "admrul-89591",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.540059+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 형사법개정특별위원회 운영규정",
+    "canonical_id": "admrul-89806",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538402+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "공안사범자료관리규정",
+    "canonical_id": "admrul-9008801",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.536657+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "국가인권정책협의회 규정",
+    "canonical_id": "admrul-9010341",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537328+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "친일반민족행위자 재산의 국가귀속 관련 소송업무 승계 등에 관한 규정",
+    "canonical_id": "admrul-9011248",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.540059+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "소년비행예방협의회 규정",
+    "canonical_id": "admrul-9013141",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "국제투자분쟁의 예방 및 대응에 관한 규정",
+    "canonical_id": "admrul-9013462",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537328+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "친일반민족행위자재산조사위원회 설립준비단 규정",
+    "canonical_id": "admrul-9015160",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.540059+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 기록관 청사관리규정",
+    "canonical_id": "admrul-90430",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537853+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "사회통합프로그램 참여자 교육 수수료 고시",
+    "canonical_id": "admrul-90467",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "외국법자문사법 제34조의2 제1항에 따른 자유무역협정등의 당사국",
+    "canonical_id": "admrul-90846",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.539503+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "외국법자문사법 제35조의2 제1항에 따른 자유무역협정등의 당사국",
+    "canonical_id": "admrul-90847",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.539503+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "범죄피해 구조금의 분할 지급 등에 적용할 이자율에 관한 고시",
+    "canonical_id": "admrul-92364",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537853+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "출입국관리법시행령 별표1의2 중 24. 거주(F-2) 자목에 해당하는 자 중 첨단분야 최우수인재(Top-Tier) 자격 기준 및 대상에 관한 고시",
+    "canonical_id": "admrul-92430",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.540059+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "난민전문통역인 등 운영 규정",
+    "canonical_id": "admrul-92883",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.537853+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 외국법자문사법개정위원회 운영지침",
+    "canonical_id": "admrul-93007",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538402+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "보호관찰위원 운영규정",
+    "canonical_id": "admrul-94486",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "출입국관리법 시행령 별표 1의2 중 24. 거주(F-2) 파목에 관한 기준 고시",
+    "canonical_id": "admrul-95009",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.540059+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "자율기구 ‘동포체류통합과’ 설치 및 운영에 관한 규정",
+    "canonical_id": "admrul-95316",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.539503+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "계절근로 전문기관의 지정기준 및 지정절차 등에 관한 고시",
+    "canonical_id": "admrul-96590",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.536657+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "검찰인권존중미래위원회 규정",
+    "canonical_id": "admrul-97332",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.536657+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "비자 발급규모 사전공표제 운영에 관한 규정",
+    "canonical_id": "admrul-97574",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538954+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "자율기구 \"민자ㆍ개발사업추진단\" 설치 및 운영에 관한 규정",
+    "canonical_id": "admrul-97623",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.539503+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  },
+  {
+    "auto_production_entry": false,
+    "candidate_name": "법무부 비공무원 공정채용 규정",
+    "canonical_id": "admrul-97625",
+    "discovery_source": "LAW_API_MINISTRY",
+    "first_seen_at": "2026-10-03T11:40:05.538402+00:00",
+    "lifecycle": "DISCOVERED",
+    "requires": [
+      "API_ELIGIBILITY_AUDIT",
+      "SCOPE_REVIEW",
+      "HUMAN_APPROVAL"
+    ]
+  }
+]

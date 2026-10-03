@@ -1,0 +1,36 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "3411ef70ef2c30c083836e92e5b73c974fe8c56bf803f48011251eaa74305dcc",
+      "effective_date": "2023-11-01",
+      "identifier": "2100000230968",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000230968",
+      "snapshot_url": "/api/v1/rules/admrul-87003/versions/2100000230968-2023-11-01-0ef42aadf0f5c7cf.json",
+      "version_id": "2100000230968"
+    },
+    "appendix_changes": [],
+    "before_version": null,
+    "canonical_id": "admrul-87003",
+    "change_type": "NEW_RULE",
+    "change_types": [
+      "NEW_RULE"
+    ],
+    "changed_article_count": 0,
+    "changed_articles": [],
+    "comparison_evidence": null,
+    "comparison_scope": "FULL_STRUCTURED_BODY",
+    "comparison_source": null,
+    "comparison_status": "COMPARISON_UNAVAILABLE",
+    "comparison_unavailable_reason": "BEFORE_VERSION_UNAVAILABLE",
+    "detected_at": "2026-10-03T11:27:41.976743+00:00",
+    "effective_date": "2023-11-01",
+    "event_id": "evt-5ea9e478ece8f486596b09e30aca069ab6c3372864081b256201c7944fb56d3b",
+    "fallback_reason": "OFFICIAL_COMPARISON_UNAVAILABLE",
+    "official_old_new_available": false,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000230968",
+    "promulgation_or_issue_date": "2023-11-01",
+    "regulation_name": "교도관 훈련에 관한 규칙",
+    "regulation_type": "훈령"
+  },
+  "schema_version": "1.4"
+}

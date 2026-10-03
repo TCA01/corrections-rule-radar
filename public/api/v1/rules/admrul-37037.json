@@ -445,6 +445,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150762939",
         "sequence": "0000",
+        "status": "AVAILABLE",
         "title": "수용자 의료용품 공통품목",
         "type": "별표",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150762935"
@@ -453,6 +454,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150762861",
         "sequence": "0001",
+        "status": "AVAILABLE",
         "title": "중증 정신질환 수용자 관리 대장",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150762857"
@@ -461,6 +463,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150762867",
         "sequence": "0002",
+        "status": "AVAILABLE",
         "title": "치료중점 교정시설 등 이송신청자 명부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150762863"
@@ -469,6 +472,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150762873",
         "sequence": "0003",
+        "status": "AVAILABLE",
         "title": "환소신청자 명부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150762869"
@@ -477,6 +481,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150762879",
         "sequence": "0004",
+        "status": "AVAILABLE",
         "title": "의약품 월 점검부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150762875"
@@ -485,6 +490,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150762885",
         "sequence": "0005",
+        "status": "AVAILABLE",
         "title": "교정시설 규제약물 인수인계 대장",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150762881"
@@ -493,6 +499,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150762891",
         "sequence": "0006",
+        "status": "AVAILABLE",
         "title": "의료용 마약류 저장시설 점검부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150762887"
@@ -501,6 +508,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150762897",
         "sequence": "0007",
+        "status": "AVAILABLE",
         "title": "국가지급 의료용 마약류 관리대장",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150762893"
@@ -509,6 +517,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150762903",
         "sequence": "0008",
+        "status": "AVAILABLE",
         "title": "협력 약국 확인서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150762899"
@@ -517,6 +526,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150762909",
         "sequence": "0009",
+        "status": "AVAILABLE",
         "title": "교부허가의약품 자가관리·투약 서약서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150762905"
@@ -525,6 +535,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150762915",
         "sequence": "0010",
+        "status": "AVAILABLE",
         "title": "휴대의약품 임시 지급 대장",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150762911"
@@ -533,6 +544,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150762921",
         "sequence": "0011",
+        "status": "AVAILABLE",
         "title": "지원의약품 관리대장                 ",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150762917"
@@ -541,6 +553,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150762927",
         "sequence": "0012",
+        "status": "AVAILABLE",
         "title": "국가지급의약품 폐기조서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150762923"
@@ -549,6 +562,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150762933",
         "sequence": "0013",
+        "status": "AVAILABLE",
         "title": "유독물질 관리대장",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150762929"
@@ -702,7 +716,7 @@
     },
     "version_status": "CURRENT"
   },
-  "dataset_version": "ds-7805063f9c55bcd7d7616ee1e3d509f79cc0ee449489171391afacdbf9e30ed3",
+  "dataset_version": "ds-98bdc9ab4f0c49b90a76fe0a00c8efee2fdc7f7079c3cabc098c6da41ce1bc37",
   "rule": {
     "business_domains": [
       "의료"
@@ -712,6 +726,7 @@
     "corrections_category": "예규",
     "current_name": "수용자 의료관리지침",
     "detail_url": "/api/v1/rules/admrul-37037.json",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
     "metadata": {
       "amendment_type": "일부개정",
@@ -726,6 +741,24 @@
     },
     "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000251988",
     "primary_domain": "의료",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "수용자"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000251988",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "수용자 의료관리지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "수용자 의료관리지침"
@@ -734,6 +767,6 @@
     "status": "CURRENT",
     "version_id": "2100000251988"
   },
-  "schema_version": "1.3",
+  "schema_version": "1.4",
   "upcoming": []
 }

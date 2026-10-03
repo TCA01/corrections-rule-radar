@@ -1,0 +1,82 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "deee0f1c4cb473437088c2e661a39528209a465fc855b20d32fc0a7f799f2762",
+      "effective_date": "2022-07-21",
+      "identifier": "2100000214168",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000214168",
+      "snapshot_url": "/api/v1/rules/admrul-66785/versions/2100000214168-2022-07-21-33ba53ac0c7a0958.json",
+      "version_id": "2100000214168"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "ea5ac7a7c60b525cd3811be5991753c2f13cd2273e9005898c6b89e7f2e0d886",
+      "effective_date": "2019-06-25",
+      "identifier": "2100000179926",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000179926",
+      "snapshot_url": "/api/v1/rules/admrul-66785/versions/2100000179926-2019-06-25-989a968a84902df4.json",
+      "version_id": "2100000179926"
+    },
+    "canonical_id": "admrul-66785",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 3,
+    "changed_articles": [
+      {
+        "after_text": "제1조(목적) 이 규정은 「공무원징계령」제3조 및 제5조에 따라 법무부와 그 소속기관에 두는 보통징계위원회(이하 ‘징계위원회’ 라 한다)의 구성과 운영에 관한 사항을 규정함으로써 징계위원회의 효율적 운영과 기관 간 징계기준의 실질적 형평을 제고함을 목적으로 한다.",
+        "article_key": "article-1",
+        "article_number": "1",
+        "article_title": "제1조(목적)",
+        "before_text": "제1조(목적) 이 규정은 『공무원징계령』제3조 및 제5조에 따라 법무부와 그 소속기관에 두는 보통징계위원회(이하 ‘징계위원회’ 라 한다)의 구성과 운영에 관한 사항을 규정함으로써 징계위원회의 효율적 운영과 기관 간 징계기준의 실질적 형평을 제고함을 목적으로 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2022-07-21"
+      },
+      {
+        "after_text": "제5조(징계위원회의 구성) ① ∼ ③ (현행과 같음)\n④ 징계위원회 민간위원은 징계위원회가 설치된 기관의 장이 다음 각 호의 어느 하나에 해당하는 사람 중에서 다양한 직역의 전문가로 위촉하되, 특정 성(性)이 민간위원 수의 10분의 6을 초과하지 않도록 해야 한다.\n1. ∼ 4. (현행과 같음)\n⑤ (현행과 같음)\n⑥ 징계 사유가 다음 각 호의 어느 하나에 해당하는 징계 사건이 속한 징계위원회의 회의를 구성하는 경우에는 피해자와 같은 성별의 위원이 위원장을 제외한 위원 수의 3분의 1 이상 포함되어야 한다.  1. 「성폭력범죄의 처벌 등에 관한 특례법」 제2조에 따른 성폭력범죄  2. 「양성평등기본법」 제3조제2호에 따른 성희롱",
+        "article_key": "article-5",
+        "article_number": "5",
+        "article_title": "제5조(징계위원회의 구성)",
+        "before_text": "제5조(징계위원회의 구성) ① ∼ ③ (생  략)\n④ 징계위원회 민간위원은 징계위원회가 설치된 기관의 장이 다음 각 호의 사람 중에서 성별을 고려하여 다양한 직역의 전문가로 위촉하여야 한다.\n1. ∼ 4. (생  략)\n⑤ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2022-07-21"
+      },
+      {
+        "after_text": "제8조(운영세칙) 「국가공무원법」, 「공무원징계령」, 「공무원징계령시행규칙」 및 본 규정 외에 징계위원회의 운영 및 징계 절차 등에 관하여 필요한 사항은 징계위원회의 의결로 정한다.",
+        "article_key": "article-8",
+        "article_number": "8",
+        "article_title": "제8조(운영세칙)",
+        "before_text": "제8조(운영세칙) 『국가공무원법』, 『공무원징계령』, 『공무원징계령시행규칙』 및 본 규정 외에 징계위원회의 운영 및 징계 절차 등에 관하여 필요한 사항은 징계위원회의 의결로 정한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2022-07-21"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "ab95bf9391d88f43520086f3033c9ab08c7c3b92d3a950cc7633c87a4c1a5c41",
+      "credential_redacted": false,
+      "raw_sha256": "e420c9d378bdd2d246bb901fb08161a34ef8d1c63a38a7089d0328a2a3ab004c",
+      "request": {
+        "ID": "2100000214168",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "e420c9d378bdd2d246bb901fb08161a34ef8d1c63a38a7089d0328a2a3ab004c"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T11:27:41.976743+00:00",
+    "effective_date": "2022-07-21",
+    "event_id": "evt-56636c0a635f9681e0ba2ef02fabb277e09ef09f277c7636d5c1a486b10bafd7",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000214168",
+    "promulgation_or_issue_date": "2022-07-21",
+    "regulation_name": "법무부와 그 소속기관의 보통징계위원회 설치 및 운영에 관한 규정",
+    "regulation_type": "훈령"
+  },
+  "schema_version": "1.4"
+}

@@ -13,14 +13,14 @@ from pipeline.operations.calendar import seoul_date
 from pipeline.law_api.search import search
 
 ROOT=Path(__file__).resolve().parents[1]
-def run(*,metrics=None,quiet=False):
-    state=json.loads((ROOT/'data/registry/state.json').read_text(encoding='utf-8'))
-    trusted=json.loads((ROOT/'data/registry/rules.json').read_text(encoding='utf-8'))
+def run(*,metrics=None,quiet=False,state=None,trusted=None,output='data/staging/collection.json'):
+    state=state or json.loads((ROOT/'data/registry/state.json').read_text(encoding='utf-8'))
+    trusted=trusted or json.loads((ROOT/'data/registry/rules.json').read_text(encoding='utf-8'))
     if set(state['seed_ids'])!=set(r['canonical_id'] for r in trusted): raise ValueError('TRUSTED_REGISTRY_INCOMPLETE')
     client=LawClient(metrics=metrics); at=now(); snapshots={}; future={}; rows=[]; resolution=[]
     for row in trusted:
         cid=row['canonical_id']; stable=state['snapshots'][cid]['stable_identifier']; kind=row['source_kind']
-        record={'canonical_id':cid,'seed_name':row['seed_names'][0],'status':'REVIEW','review_reason':None,'resolution_method':'TRUSTED_STABLE_ID'}
+        record={'canonical_id':cid,'seed_name':row['seed_names'][0] if row['seed_names'] else None,'status':'REVIEW','review_reason':None,'resolution_method':'TRUSTED_STABLE_ID'}
         try:
             upcoming=[]; repeal=None
             if kind=='law':
@@ -63,10 +63,29 @@ def run(*,metrics=None,quiet=False):
                     if value['metadata']['amendment_type'] not in ('폐지','타법폐지') or value['metadata']['effective_date']>seoul_date().isoformat(): raise ValueError('REPEAL_BODY_MISMATCH')
                     value['repeal_evidence']=repeal
                 elif value['metadata']['official_state']!='Y': raise ValueError('CURRENT_NOT_CONFIRMED')
+                if value['metadata']['effective_date']>seoul_date().isoformat():
+                    # Some administrative LID responses expose the next version
+                    # as Y. Establish today's operative predecessor by exact-ID
+                    # history, never by a manually maintained effective date.
+                    upcoming.append(value); save_snapshot(value)
+                    items=[]
+                    for title in dict.fromkeys([row['current_name'],value['metadata']['name']]):
+                        found,_=search(client,'admrul',query=title,nw=2); items+=found
+                    from pipeline.normalize import date
+                    past=[i for i in items if identifiers(i,kind)[0]==stable and date(i.get('시행일자')) and date(i['시행일자'])<=seoul_date().isoformat()]
+                    if not past: raise ValueError('ADMIN_FUTURE_PREDECESSOR_UNAVAILABLE')
+                    chosen=max(past,key=lambda i:(date(i['시행일자']),i['발령일자'],i['행정규칙일련번호']))
+                    _,serial=identifiers(chosen,kind)
+                    payload,ev=client.fetch('lawService.do',target='admrul',ID=serial)
+                    value=snapshot(payload,kind,serial,ev)
+                    if value['metadata']['effective_date']!=date(chosen['시행일자']) or value['metadata']['amendment_type'] in ('폐지','타법폐지'): raise ValueError('ADMIN_FUTURE_PREDECESSOR_REQUIRES_REVIEW')
             if value['canonical_id']!=cid: raise ValueError('CANONICAL_ID_MISMATCH')
             if value['metadata']['effective_date']>seoul_date().isoformat(): raise ValueError('CURRENT_DATE_IN_FUTURE')
             save_snapshot(value); snapshots[cid]=value; future[cid]=upcoming
-            updated=copy.deepcopy(row); updated.update({'current_name':value['metadata']['name'],'status':'REPEALED' if repeal else 'CURRENT','current_effective_date':value['metadata']['effective_date'],'version_id':value['version_id'],'last_verified_at':at,'official_source':value['official_source_url']}); rows.append(updated)
+            updated=copy.deepcopy(row); updated.update({'current_name':value['metadata']['name'],'status':'REPEALED' if repeal else 'CURRENT','current_effective_date':value['metadata']['effective_date'],'version_id':value['version_id'],'last_verified_at':at,'official_source':value['official_source_url']})
+            if row['current_name']!=value['metadata']['name'] and row['current_name'] not in updated['historical_names']: updated['historical_names'].append(row['current_name'])
+            if 'provenance' in updated: updated['provenance']['canonical_source_url']=value['official_source_url']
+            rows.append(updated)
             record.update({'status':'RESOLVED','current_name':value['metadata']['name']})
         except (ApiError,ValueError,KeyError,TypeError) as exc:
             record['review_reason']=exc.code if isinstance(exc,ApiError) else str(exc) if isinstance(exc,ValueError) else 'SCHEMA_MISMATCH'
@@ -74,5 +93,5 @@ def run(*,metrics=None,quiet=False):
         resolution.append(record)
     collection={'complete':True,'collected_at':at,'registry':rows,'snapshots':snapshots,'future':future,'resolution':resolution}
     write_json(ROOT/'data/reports/core_resolution.json',{'entries':resolution,'complete':True,'collected_at':at})
-    write_json(ROOT/'data/staging/collection.json',collection)
+    write_json(ROOT/output,collection)
     return collection

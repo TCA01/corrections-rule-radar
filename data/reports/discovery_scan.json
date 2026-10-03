@@ -1,6 +1,66 @@
 {
-  "entry_count": 68,
-  "full_identity_audit": false,
-  "last_attempt": "2026-10-03T04:11:16.362520+00:00",
-  "table_changed": false
+  "api_candidates_pending": 255,
+  "full_identity_audit": true,
+  "last_attempt": "2026-10-03T11:40:01.934677+00:00",
+  "list_evidence": [
+    {
+      "cache_key": "1456979cb166bcbfa586f51210c7870b281a71fc8cd57a21735dfeb2c8820d5e",
+      "credential_redacted": true,
+      "raw_sha256": "5343697db21a746afb5593412892531c4e463b17a1c422acb13facc7b168dcfe",
+      "request": {
+        "display": 100,
+        "nw": 1,
+        "org": "1270000",
+        "page": 1,
+        "target": "admrul",
+        "type": "JSON"
+      },
+      "stored_sha256": "fa1d869595fb22fdc3d530fa5895c1a8d4a50f835a6b8a3a1dd99c3ce241be7e"
+    },
+    {
+      "cache_key": "582c01cdfe4d4b980188c23c5eb6a10eea59d96a250587c14641f56edca936ca",
+      "credential_redacted": true,
+      "raw_sha256": "b708a3b05b947da885823b98f0767e6236bbbab42857280801eaae569ac3c372",
+      "request": {
+        "display": 100,
+        "nw": 1,
+        "org": "1270000",
+        "page": 2,
+        "target": "admrul",
+        "type": "JSON"
+      },
+      "stored_sha256": "589fe814b90bd3e3345ee1f95bab91fb15f41250e113f2826bdbae28aab1b15f"
+    },
+    {
+      "cache_key": "f0119a8a15244775d4f37d39fc8ee6a24837dd3b0af8774366cff5ba8539fe1c",
+      "credential_redacted": true,
+      "raw_sha256": "fbd6e5c9c14657ef53539d2beae098ebcc6c112c56e834ddef922842934bb430",
+      "request": {
+        "display": 100,
+        "nw": 1,
+        "org": "1270000",
+        "page": 3,
+        "target": "admrul",
+        "type": "JSON"
+      },
+      "stored_sha256": "72dd2f9dafccc7d3883ea82673555b1334b95b13bb9eaddd9386bc3801386100"
+    },
+    {
+      "cache_key": "6f42db204d4527748282c3afbdfe6be1ab811b6d6aca41379d2f1396aee54c7a",
+      "credential_redacted": true,
+      "raw_sha256": "5412dcb1442e1f3a7a87c480654d114169e5b4221c1bcb9de58ab0578eb36666",
+      "request": {
+        "display": 100,
+        "nw": 1,
+        "org": "1270000",
+        "page": 4,
+        "target": "admrul",
+        "type": "JSON"
+      },
+      "stored_sha256": "7c9a87eaf5d62ba8a2a8c48a449064522e3dc1e1675e5d15df835aa4fee8925e"
+    }
+  ],
+  "monitor_mode": "OPAQUE_BYTES_ONLY_NO_HTML_PARSING",
+  "production_membership_changed": false,
+  "table_changed": true
 }

@@ -1,0 +1,43 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "0fc59b5e980ebff74b7c71deab4b85aad3c52803384ab66da4ab78f6d8f6abfa",
+      "effective_date": "2024-06-03",
+      "identifier": "2100000241876",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000241876",
+      "snapshot_url": "/api/v1/rules/admrul-35611/versions/2100000241876-2024-06-03-604a88d50c6aa3e4.json",
+      "version_id": "2100000241876"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "cc85fcabf7eca33e4019e6f68ce1003c9083164cf95fe668774f4678749d9e10",
+      "effective_date": "2020-06-01",
+      "identifier": "2100000189807",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000189807",
+      "snapshot_url": "/api/v1/rules/admrul-35611/versions/2100000189807-2020-06-01-3eba8f3d4c587640.json",
+      "version_id": "2100000189807"
+    },
+    "canonical_id": "admrul-35611",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED"
+    ],
+    "changed_article_count": 0,
+    "changed_articles": [],
+    "comparison_evidence": null,
+    "comparison_scope": "FULL_STRUCTURED_BODY",
+    "comparison_source": null,
+    "comparison_status": "COMPARISON_UNAVAILABLE",
+    "comparison_unavailable_reason": "STRUCTURED_ARTICLES_UNAVAILABLE",
+    "detected_at": "2026-10-03T11:27:41.976743+00:00",
+    "effective_date": "2024-06-03",
+    "event_id": "evt-79e20b35a1fcf46cc0d5310dbf45ebf197e35f79a4e1630812b6c9f0c3f73718",
+    "fallback_reason": "OFFICIAL_COMPARISON_PAIR_OR_TEXT_UNAVAILABLE",
+    "official_old_new_available": false,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000241876",
+    "promulgation_or_issue_date": "2024-06-03",
+    "regulation_name": "미결수용인 분리수용 협조(공범표시)",
+    "regulation_type": "예규"
+  },
+  "schema_version": "1.4"
+}

@@ -1,6 +1,23 @@
 {
-  "ui_label": "관련 업무 분야",
-  "domains": ["수용·보안", "접견·외부교통", "보관금품", "분류·가석방", "교육·교화", "작업·직업훈련", "급식·복지", "의료", "심리치료", "인권·청원", "민원", "인사·조직", "정보화", "민영교도소", "기타"],
-  "policy": "Multiple domains allowed. Only reviewed mappings may be published. No legal conclusions.",
-  "reviewed_mappings": {}
+  "domains": [
+    "수용·보안",
+    "접견·외부교통",
+    "보관금품",
+    "분류·가석방",
+    "교육·교화",
+    "작업·직업훈련",
+    "급식·복지",
+    "의료",
+    "심리치료",
+    "인권·청원",
+    "민원",
+    "인사·조직",
+    "정보화",
+    "민영교도소",
+    "보고",
+    "기타"
+  ],
+  "policy": "Multi-domain metadata organization; evidence-reviewed mappings and approved 기타 fallback. No legal interpretation.",
+  "reviewed_mappings": {},
+  "ui_label": "관련 업무 분야"
 }

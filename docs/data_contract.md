@@ -1,9 +1,10 @@
 # Shared public API v1
 
-Active main schema: 1.3. Immutable version artifacts retain archive format 1.1.
+Active main schema: 1.4. Immutable version artifacts retain archive format 1.1;
+existing persistent event detail envelopes retain 1.3. The approved 106-record
+scope, provenance and appendix tombstones are in phase1f_contract.md.
 Persistent history semantics are in phase1e_contract.md. Legacy article/detail
-fields remain documented in phase1b_contract.md. Provenance/scope expansion is
-reserved for schema 1.4.
+fields remain documented in phase1b_contract.md.
 
 UTF-8 JSON; string IDs; ISO-8601 dates/timestamps; explicit nullable metadata;
 no HTML needed for core display; root-relative `/api/v1/` paths. JSON Schema

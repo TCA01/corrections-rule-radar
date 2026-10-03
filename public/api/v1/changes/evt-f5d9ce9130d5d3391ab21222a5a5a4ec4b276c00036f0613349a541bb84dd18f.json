@@ -1,0 +1,105 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "d14f1fc86f0e1e872c85421235a925d3c24c3318cad0c8a7ed9cae53d00e029a",
+      "effective_date": "2025-12-03",
+      "identifier": "2100000268562",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268562",
+      "snapshot_url": "/api/v1/rules/admrul-74433/versions/2100000268562-2025-12-03-42871f433eeddb6b.json",
+      "version_id": "2100000268562"
+    },
+    "appendix_changes": [
+      {
+        "after_metadata": {
+          "branch": "02",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=158879191",
+          "sequence": "0001",
+          "title": "대체복무요원 분할복무 신청서",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=158879187"
+        },
+        "before_metadata": null,
+        "change_type": "APPENDIX_ADDED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "03",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=158879197",
+          "sequence": "0001",
+          "title": "대체복무요원 분할복무(승인, 불승인) 통지서 ",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=158879193"
+        },
+        "before_metadata": null,
+        "change_type": "APPENDIX_ADDED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "04",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=158879203",
+          "sequence": "0001",
+          "title": "대체복무요원 복무중단 취소 신청서",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=158879199"
+        },
+        "before_metadata": null,
+        "change_type": "APPENDIX_ADDED",
+        "status": "AVAILABLE"
+      }
+    ],
+    "before_version": {
+      "body_hash": "7baffd7971e32dc479e34c36fd5f0b968f96570054bed714f2ff3f9767095db8",
+      "effective_date": "2024-12-16",
+      "identifier": "2100000249776",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000249776",
+      "snapshot_url": "/api/v1/rules/admrul-74433/versions/2100000249776-2024-12-16-13ac9e1f717e1502.json",
+      "version_id": "2100000249776"
+    },
+    "canonical_id": "admrul-74433",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "APPENDIX_ADDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 1,
+    "changed_articles": [
+      {
+        "after_text": "제94조(재검토기한) 법무부장관은 「훈령ㆍ예규 등의 발령 및 관리에 관한 규정」에 따라 이 훈령에 대하여 2026년 1월 1일 기준으로 매 3년이 되는 시점(매 3년째의 12월 31일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+        "article_key": "article-94",
+        "article_number": "94",
+        "article_title": "제94조(재검토기한)",
+        "before_text": "제94조(재검토기한) 법무부장관은 「훈령ㆍ예규 등의 발령 및 관리에 관한 규정」에 따라 이 훈령에 대하여 2024년 1월 1일 기준으로 매 3년이 되는 시점(매 3년째의 12월 31일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-12-03"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "aa0b522636f2edef27645e16f44c9889ac10ac50e52589dd1427fc1e0a018fc2",
+      "credential_redacted": false,
+      "raw_sha256": "862f48868c4c7c5f72d5edae91bf0ac18bd3434282d93b041458331309ef46f3",
+      "request": {
+        "ID": "2100000268562",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "862f48868c4c7c5f72d5edae91bf0ac18bd3434282d93b041458331309ef46f3"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T11:27:41.976743+00:00",
+    "effective_date": "2025-12-03",
+    "event_id": "evt-f5d9ce9130d5d3391ab21222a5a5a4ec4b276c00036f0613349a541bb84dd18f",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268562",
+    "promulgation_or_issue_date": "2025-12-03",
+    "regulation_name": "대체역 복무관리규칙",
+    "regulation_type": "훈령"
+  },
+  "schema_version": "1.4"
+}

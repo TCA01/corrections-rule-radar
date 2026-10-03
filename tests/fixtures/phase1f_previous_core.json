@@ -1,0 +1,581 @@
+{
+  "aliases": {
+    "admrul-2046965": {
+      "historical_names": [],
+      "seed_names": [
+        "분류처우 업무지침"
+      ]
+    },
+    "admrul-26424": {
+      "historical_names": [],
+      "seed_names": [
+        "교정기관 간판게시 및 교정직제 영문표기에 관한 지침"
+      ]
+    },
+    "admrul-26465": {
+      "historical_names": [],
+      "seed_names": [
+        "교도소와 소년원 및 외국인보호소 등 의무관 임상연구비 지급지침"
+      ]
+    },
+    "admrul-26678": {
+      "historical_names": [],
+      "seed_names": [
+        "교정의 날 규칙"
+      ]
+    },
+    "admrul-26917": {
+      "historical_names": [],
+      "seed_names": [
+        "교정공무원 예절 규정"
+      ]
+    },
+    "admrul-28315": {
+      "historical_names": [],
+      "seed_names": [
+        "교정행정정보화업무지침"
+      ]
+    },
+    "admrul-28558": {
+      "historical_names": [
+        "교도관 급여품 및 대여품 지침"
+      ],
+      "seed_names": [
+        "교도관 급여품 및 대여품 지침"
+      ]
+    },
+    "admrul-28644": {
+      "historical_names": [],
+      "seed_names": [
+        "수용자 인권업무 처리지침"
+      ]
+    },
+    "admrul-28645": {
+      "historical_names": [],
+      "seed_names": [
+        "수용자 청원 처리지침"
+      ]
+    },
+    "admrul-28712": {
+      "historical_names": [
+        "교정기관 공용차량 관리 지침"
+      ],
+      "seed_names": [
+        "교정기관 공용차량 관리 지침"
+      ]
+    },
+    "admrul-28718": {
+      "historical_names": [],
+      "seed_names": [
+        "수용자 피복관리 및 제작·운용에 관한 지침"
+      ]
+    },
+    "admrul-28763": {
+      "historical_names": [],
+      "seed_names": [
+        "교정사고 유형별 문책기준 지침"
+      ]
+    },
+    "admrul-32482": {
+      "historical_names": [],
+      "seed_names": [
+        "사망수용자 장례비 지급 지침"
+      ]
+    },
+    "admrul-32484": {
+      "historical_names": [],
+      "seed_names": [
+        "현황작성 및 보고요령 지침"
+      ]
+    },
+    "admrul-32485": {
+      "historical_names": [],
+      "seed_names": [
+        "전문경력관 직업능력개발훈련교사 임용 규정"
+      ]
+    },
+    "admrul-32486": {
+      "historical_names": [
+        "교정관련 영화·방송드라마 제작지원 지침"
+      ],
+      "seed_names": [
+        "교정관련 영화·방송드라마 제작지원 지침"
+      ]
+    },
+    "admrul-32495": {
+      "historical_names": [],
+      "seed_names": [
+        "수용자 자비구매물품의 공급에 관한 지침"
+      ]
+    },
+    "admrul-34791": {
+      "historical_names": [],
+      "seed_names": [
+        "수형자 취업 및 창업지원 업무지침"
+      ]
+    },
+    "admrul-35334": {
+      "historical_names": [],
+      "seed_names": [
+        "가석방 업무지침"
+      ]
+    },
+    "admrul-36282": {
+      "historical_names": [],
+      "seed_names": [
+        "교도작업운영지침"
+      ]
+    },
+    "admrul-36283": {
+      "historical_names": [
+        "교도작업특별회계 운영지침"
+      ],
+      "seed_names": [
+        "교도작업특별회계 운영지침"
+      ]
+    },
+    "admrul-37037": {
+      "historical_names": [],
+      "seed_names": [
+        "수용자 의료관리지침"
+      ]
+    },
+    "admrul-37383": {
+      "historical_names": [],
+      "seed_names": [
+        "피보호감호자 분류처우 업무지침"
+      ]
+    },
+    "admrul-37401": {
+      "historical_names": [],
+      "seed_names": [
+        "가석방심사위원회 운영지침"
+      ]
+    },
+    "admrul-37575": {
+      "historical_names": [],
+      "seed_names": [
+        "교정기 규정"
+      ]
+    },
+    "admrul-37576": {
+      "historical_names": [],
+      "seed_names": [
+        "수용자 급식관리위원회 운영지침"
+      ]
+    },
+    "admrul-37579": {
+      "historical_names": [],
+      "seed_names": [
+        "휴가일수 계산 자체 기준 지침"
+      ]
+    },
+    "admrul-37580": {
+      "historical_names": [],
+      "seed_names": [
+        "순회점검반 운영지침"
+      ]
+    },
+    "admrul-37581": {
+      "historical_names": [],
+      "seed_names": [
+        "교정직공무원 임용시험의 체력검사 평가종목별 측정방법에 관한 규정"
+      ]
+    },
+    "admrul-37583": {
+      "historical_names": [],
+      "seed_names": [
+        "수형자 직업능력개발훈련 운영지침"
+      ]
+    },
+    "admrul-37584": {
+      "historical_names": [],
+      "seed_names": [
+        "수용자 교육교화 운영지침"
+      ]
+    },
+    "admrul-37585": {
+      "historical_names": [],
+      "seed_names": [
+        "교정위원 운영지침"
+      ]
+    },
+    "admrul-37586": {
+      "historical_names": [],
+      "seed_names": [
+        "수용자 사회복귀지원 등에 관한 지침"
+      ]
+    },
+    "admrul-37587": {
+      "historical_names": [],
+      "seed_names": [
+        "비상대기숙소 관리지침"
+      ]
+    },
+    "admrul-37588": {
+      "historical_names": [
+        "교도관 급양관리지침"
+      ],
+      "seed_names": [
+        "교도관 급양관리 지침"
+      ]
+    },
+    "admrul-37589": {
+      "historical_names": [
+        "수용자 급양관리지침"
+      ],
+      "seed_names": [
+        "수용자 급양관리 지침"
+      ]
+    },
+    "admrul-37590": {
+      "historical_names": [
+        "영치금품 관리지침"
+      ],
+      "seed_names": [
+        "영치금품 관리지침"
+      ]
+    },
+    "admrul-37730": {
+      "historical_names": [],
+      "seed_names": [
+        "교정공무원 상호부조회 규정"
+      ]
+    },
+    "admrul-37922": {
+      "historical_names": [],
+      "seed_names": [
+        "민영교도소 운영경비 회계 등에 관한 지침"
+      ]
+    },
+    "admrul-38225": {
+      "historical_names": [],
+      "seed_names": [
+        "교정시설 경비등급별 수형자의 처우 등에 관한 지침"
+      ]
+    },
+    "admrul-39881": {
+      "historical_names": [],
+      "seed_names": [
+        "교정공무원기장 등 수여 및 패용에 관한 규정"
+      ]
+    },
+    "admrul-40159": {
+      "historical_names": [
+        "소년교도소 운영지침"
+      ],
+      "seed_names": [
+        "소년교도소 운영지침"
+      ]
+    },
+    "admrul-43058": {
+      "historical_names": [],
+      "seed_names": [
+        "경비교도 보상 등에 관한 지침"
+      ]
+    },
+    "admrul-46978": {
+      "historical_names": [],
+      "seed_names": [
+        "교정공무원 인사운영 규칙"
+      ]
+    },
+    "admrul-51868": {
+      "historical_names": [],
+      "seed_names": [
+        "교정본부 보고사무지침"
+      ]
+    },
+    "admrul-54074": {
+      "historical_names": [],
+      "seed_names": [
+        "분류센터 운영지침"
+      ]
+    },
+    "admrul-56055": {
+      "historical_names": [
+        "심리치료 업무지침"
+      ],
+      "seed_names": [
+        "심리치료업무지침"
+      ]
+    },
+    "admrul-59009": {
+      "historical_names": [],
+      "seed_names": [
+        "교정민원콜센터 운영규정"
+      ]
+    },
+    "admrul-61378": {
+      "historical_names": [],
+      "seed_names": [
+        "교정공무원 기관장에 관한 규정"
+      ]
+    },
+    "law-001668": {
+      "historical_names": [],
+      "seed_names": [
+        "형의 집행 및 수용자의 처우에 관한 법률"
+      ]
+    },
+    "law-002027": {
+      "historical_names": [],
+      "seed_names": [
+        "민영교도소 등의 설치·운영에 관한 법률"
+      ]
+    },
+    "law-002049": {
+      "historical_names": [],
+      "seed_names": [
+        "가석방자 관리규정"
+      ]
+    },
+    "law-002608": {
+      "historical_names": [],
+      "seed_names": [
+        "교정직공무원 승진임용 규정"
+      ]
+    },
+    "law-004057": {
+      "historical_names": [],
+      "seed_names": [
+        "수형자 등 호송 규정"
+      ]
+    },
+    "law-005630": {
+      "historical_names": [],
+      "seed_names": [
+        "형의 집행 및 수용자의 처우에 관한 법률 시행령"
+      ]
+    },
+    "law-006521": {
+      "historical_names": [],
+      "seed_names": [
+        "교정공무원 복제규칙"
+      ]
+    },
+    "law-006524": {
+      "historical_names": [],
+      "seed_names": [
+        "교도관직무규칙"
+      ]
+    },
+    "law-009144": {
+      "historical_names": [],
+      "seed_names": [
+        "민영교도소 등의 설치·운영에 관한 법률 시행규칙"
+      ]
+    },
+    "law-009163": {
+      "historical_names": [],
+      "seed_names": [
+        "민영교도소 등의 설치·운영에 관한 법률 시행령"
+      ]
+    },
+    "law-010752": {
+      "historical_names": [],
+      "seed_names": [
+        "교정직공무원 임용시험의 체력검사에 관한 규칙"
+      ]
+    },
+    "law-010878": {
+      "historical_names": [],
+      "seed_names": [
+        "교도작업의 운영 및 특별회계에 관한 법률"
+      ]
+    },
+    "law-010883": {
+      "historical_names": [],
+      "seed_names": [
+        "형의 집행 및 수용자의 처우에 관한 법률 시행규칙"
+      ]
+    },
+    "law-011092": {
+      "historical_names": [],
+      "seed_names": [
+        "교도작업의 운영 및 특별회계에 관한 법률 시행령"
+      ]
+    },
+    "law-011097": {
+      "historical_names": [],
+      "seed_names": [
+        "교도작업의 운영 및 특별회계에 관한 법률 시행규칙"
+      ]
+    },
+    "law-011894": {
+      "historical_names": [],
+      "seed_names": [
+        "대한민국재향교정동우회법"
+      ]
+    },
+    "law-012347": {
+      "historical_names": [],
+      "seed_names": [
+        "교정공제회법"
+      ]
+    },
+    "law-012557": {
+      "historical_names": [],
+      "seed_names": [
+        "경비교도대 폐지에 따른 보상 등에 관한 법률"
+      ]
+    },
+    "law-012676": {
+      "historical_names": [],
+      "seed_names": [
+        "경비교도대 폐지에 따른 보상 등에 관한 법률 시행령"
+      ]
+    }
+  },
+  "persistent_event_hashes": {
+    "evt-00e585ada327d4ecc84d840e0685932e0466e9b4c621099cdc3c4632bcf7f93f": "cafd10d685d7112809b4091b5dd0e6740ac7e911e17890b9ecf704176543031a",
+    "evt-0119578f3c91c5fbbccb799f53714ab05a4f551f93cbf4bab9f017c6e3e6d980": "554b71146d93ec20cec8b13aeabdcff3541782ebc10a8e789d9712d15fec063f",
+    "evt-0ae1b4f3a94e06ab46b20f4f4662b75ed60a680dd5b619611990a4a139e499d8": "d7b3ea82927267eb51d0144954e6cb2df5def9d66ac42f8812fc426a96f94702",
+    "evt-148b744eb5e6f10011d07404a8f28bae3196a77b5f37813f05872790147ff571": "1df6b0f807f29961b5a344329514011cf249ac35d673732033f06d44a602d6ba",
+    "evt-15028709e4f921ff5e90c89af2a99f7e7e9ff20bad9489ef8901f3d6a83e9a2c": "a0fec168109b4cc39f51260c549a4f83320c7c89c475654f3f0459cb813d027a",
+    "evt-18869ca99f3cd419ad147adad5289d1a1bda797251272ac8c0d23a5df75e89be": "42465dcffab0ed15aaffb516faad7463e8df126770aedeb9cfac809720fa6cd2",
+    "evt-33969a4c0d9cae4e6306bab90cb98306d96c3d88414c0417fcd8d7bc6ad8f323": "9b874b44a95195fe94a5807d4b10ed3c8440753023ea8496d9acc8aedcfbf090",
+    "evt-34138ed31df372a1200f0995fdec26100b49cc590b0ec5b70bf9e7c883abe9df": "74cdb80d292bda94b4ebd4aa49be365f7b71511a93e3a1af925227e2cf61532f",
+    "evt-3ac17ec4da69c05486dadeebb142311e6a80c0cdfa13e903b3c4c672d5feb9db": "1897b2eabbc9aefdd36b45dc6e479a2bed908cbb6feb13c54cdba2e53ddd393f",
+    "evt-3c062754803bde13606e24949c587395602726935878f2d7edbfcafda2f3cbd6": "bce513e1e80c2909dd013034079a27326adc02958cc973e34b3bb9ccbac94085",
+    "evt-3eaf8d73699a5a4cf9c05d76b030183acd4f5c83dc52d6c98ffbcbb46f94c25a": "1112e3d4a0c0ec47dc5469996dcdaab3b0ae82baf46a873f9538fee9da27bfca",
+    "evt-40868a3fc080a828290f85425333d86f6925fc1bb90dca91321256474986d38d": "414b8ecdb22d2a2626aab46e04ae9c8aff27b20a5fe366132327f4ce6db23b3f",
+    "evt-425fef54098f2ee74b47d9afb9e0f333bac9c84e78af221060b36ac25ea579e2": "91bb461e1ff1fdec3ba6cc7e85115a7634dfdcf20e46043fe16aa7413f3831df",
+    "evt-47020f2b6ff0c7e27f297e7d2d467093b5b2d58a552a0bb7e7c9a0640a64997d": "a2d921e35e2f76b91d925eeaf694d12ff0e35c164a2deb850b74c4c7ee96c869",
+    "evt-490ec93ede065c91f02c831c4eed5435f7af6c0141e4dbfa3f808f3c46c45c5f": "4f9799754fe99a13f5b3487b765ac7f5c7b3cd59b2ea97276d4ad3883d7bed8d",
+    "evt-4919722c1a6cc56fc7455a3f001012a8828cd2fd1ac9e08409ecc2cf556a8579": "691ca2defda7b58820a2d9397b6601d9cbf997aced26ad6e679b2198871679e9",
+    "evt-4e127429f47ec7ef1090630e00b4b85904db0f4f340cc72ad773bf2b8fbe211c": "245f6e1a87904e811710981c78fce570019623d7e930ecc9b691a30de20a0321",
+    "evt-4fcc3fc82a379f38368656ce6183be49cccf596450f4210d6171d51612379229": "7a583b7d1ed41901902ab609e2d32a37d4d4d1a2281dd0f71228bf33c4978450",
+    "evt-506f319d01e49876f6661cba737816ea3b33152844e8bd2dcbd3eeb3002b8120": "94f2d6203ab6adc082b89c41f449e5f31ec8c5f50592341f5caec2a526a80ba7",
+    "evt-50adfb740f91cdaf579359919a370496c26cb2bbe5927d974c0cda633e90d48b": "9f1eba384d7585a3238c53716962b4390d95d45f1a528d5c0065de661c43180a",
+    "evt-50df78165e5db977408b58150121abc0bf761a577d7e615a6b531f7332712934": "85202b4764e735d461e33f88555aa507dc16efa166deb80d1170dfeeec28b93a",
+    "evt-52a5f7f83304b066a405623e2ee068a452cb59ff20ffe385e2b59f2f0c13f2eb": "5967e8b9ecf79d0d540ca00d9daf1f19e180e73b58b95c4573e473798ba7d692",
+    "evt-5724e43b8d168e6343610f33ada166797b048c9f94b583927ad9ea8762d90704": "bcf6339e1ee597ab4a0f85a5561201177272236c9b40ca66a924434de7fee9f3",
+    "evt-5d7f413d9da29c91a0ce04c401ee908a4776f68a34e6ad2c0b27e7954ba70d89": "5f762a5b3d52d75566faac7515b03069226f5084071f4fe9a68e172e14ddf63d",
+    "evt-6ad563f6e37edce49a02fae3aaceff86411e85e3810e1a1bea890e03840f36ff": "8867be34952c965743c2f870f34f7eddc2a30e5382fb6ad886eed8ed3844644f",
+    "evt-6b3a9dc0090ce43201be561faf782bf23c17ce9d2f5694cc902ecfd6dc90fcab": "ead291945f537d6f36c4221ceda660277b6a53a878a017aa20924f0ff7b04c8e",
+    "evt-6d5b137d043f644a2ee58bb4c8e52817b1ddad5e2bea7c06bb157719efe3ea49": "d48472de989316156eb5747dafe3b8c69be31a50f162aae45da8d7030a1ba5db",
+    "evt-734d46974a55d917045f8dd279e0e259fae40cb355272540b732e3b511bd2412": "24da4faed7ba8ae9fad04456a273ec2f47dd7c87fe8a3bdcf182b56aeb2cc9c0",
+    "evt-739da43b823fef53407132c2af303f932e6911e243bf8d04d2a6614f51442943": "13bbf541b92b16f213e718fafb0dc79e0a15e4330038b26048d26d9bc540675a",
+    "evt-74a7eece7043a687b22af8186b08ab946fa13ca581124a74a5b698ed21c0ec2b": "717e8c41f92b83ea57b8a2d78ca2a2a26c8904f6cc3ba71df1d08ea1fe4e7c45",
+    "evt-75b08fc898f9978e054a6a7bb62d15e7bdf130730a65d039abb88397f6e8db3c": "c09daa67a146ffca041be3e7d7cd5dec31ea37bae40ff17e7b723d83db115b73",
+    "evt-75b50e79d3117c6bde67af809210cc22de167a21621b6c0c80ed07e3a20288ab": "cf84bad08f25caf56a35d847a5fb00d6335d4723420f2d9577b887b3ed5511d8",
+    "evt-7a0f7c57c7f3feb35af5306d2d94b178421533b8b808a95e574a4b114bcaba21": "700244c2a264e64e495a0b4892ffdfc86b12a3f303f359440106097f99330044",
+    "evt-7e679128484d036813364401e8c8ff36385e4ff9fd6e918e92870899be1a2bc2": "5693f7cff75038e18b348077aeea51c6a124ce64073d7593909c81642dc75646",
+    "evt-7e971fbb919a8045ea0ebcfef61714e944b44b2a0b0664cb73e06a1135f52009": "037028718ff95209e1df0a0de7225d69aded7c2696a5369cd4b52759308d7a3a",
+    "evt-8367ee8446bf3a65b14f2d3d553ec8d38e4c31a543cb5745ccaa25df64fcc1d1": "062db368561b552c8426090337812c24079a60fbdcd62ed3bdbe1f69affa58ab",
+    "evt-8520b5ed2795f723b231914a9a5a71793bf0a365295dcddd5683bfd8b3915cff": "42cad893f8899a0e1d030b0c4e77b2dea2db0f8c574972dddef6d394c8b357ab",
+    "evt-85f48ca73e64bed85daed44af538e6b7bcf64a99dd88a0e42a26fda2f5ada435": "061ea83e5167dd376988533d6242e630307c2ffdb61f420a93cc080f91c41752",
+    "evt-88e14fe13012482246fd2df9ff318b8bae3f314328d7a3015b8dd777978c4cf0": "21f7b407bcadb1371a56f73c6f907005b4b0d2e2bcf97cb10416bcb5c20da38c",
+    "evt-8b551f9cf2e3e68fe3aefe37747d878a02e7abf7e2658d9faaaf58aa6de39a0f": "77307f8e77bc00ab26c92659fcbb1a3191e78101aad43b05326a269ae83106fb",
+    "evt-8f7a6180973e184ae70c01515e4888ef7a85672afcdb4533b33e87003b619df4": "f9db99060672c90e0fbb346d0955d0be91d38af3144b4e72fd358ec1cdf17b5e",
+    "evt-8fc7f93c9a5d1d03ca9acd955823ce371be0f90af4bbb1242edf2bfe26932b83": "d68d2f1c98d17bb4c9829ef938e447acd650a080bb7a793d38fe2fbc7f519c77",
+    "evt-914711fc01e7b3d225b977ca9a505139b94b75d53da7e7cf6b6523ba9ff1efe6": "3d1bb13337c640cac9ae701284e8f86d996a5d87a0d2747aab50bd11441d7a29",
+    "evt-93da594a49b1c8e9650891ea3c18a261739b246da7f749293bb0e890d7d8b40b": "4db5c16eb7c386e1c4992846184feb80a977fa3ff86dbf0a327d10e02bceae8d",
+    "evt-947b9ba85b331dd10920d5320957716d5406dbf398c87dc46b9a3316d049118d": "509b1c9a42b1360f711c76efcea7cd8a9b359908f3a2e415ba3fe0d2427909dc",
+    "evt-965d4ed47bbe4f12cb64bb682ba82209f0cbaf2ab17f3b276dd251162a12818a": "a0a6d66003777e6266d3dfe38b82d2d14fc8ae08b590d82f3a6c301586ec09cb",
+    "evt-982f2ac02b20ca68c33e5b50cc134f52e82bef164b4f1f1a109a66ac724881c7": "034604e9bbf40108cf32d57921cffe3d484907cdc81b5f74e233921cafe9987a",
+    "evt-9a3a848441a10a9528ac8725e20c0698877212972332995a3ebe2390ae82137c": "b234e7d942a9d6bd832f95c20ea8d4b03cf4d8f7f2ef53a667e1bfb1eedd4a16",
+    "evt-9c6e2daa987bab902198d68d8f7b3d588fa3373fd3bc30378a6d7366858226a9": "482171a61d54690a462fdda811e4a6c7a48001981648770274033a03c6a89bd1",
+    "evt-a43e3a07b714d860e57cdeb11d413c8782c2549b299e49e744fc788721ca5c65": "f9dd75b0234a735a9542dceb717691cf581d3fa139d4244a66829fcc29c0d2cb",
+    "evt-ac083a1d6287685ec8144f489df7fd02792f39df8683147919f5fd9e85e09ef5": "0e7e7493eb6530fa641b9e0d11396f7e949c0fe91ddb5997edee59f5dfd5180e",
+    "evt-acd216598827dc2183d2a576682a9182736a78ee8525e73d7b8132ecf98c016b": "9341bd76691dd9d20a843428e55bde041a498dcb4568b5529e42e056df8d699f",
+    "evt-af828d0a401e7a6fcd230e22802ee9f7f8d1c80eee7c9ca435db7cb8afca303c": "26c390aec8e9cd6ea2a90cdf290514fe8ee60694a4c25ed3eaf4d94d0566f838",
+    "evt-b5702aa3a6345807b24a58d91711a525642268888a5cec617260d5eb2d4ca064": "a61de8fd3da95de5057dd7d22324fe8c48a830356d16a6b978b20c22ce032dc2",
+    "evt-ba054e287058fb1e9126fd02f7cab9ea818295baf833bd1a85945d207b2f9b2c": "defce3eac68d18d103670d804fe3ada403b4e4eb7ac629f81ab5bf0bcafcb3d6",
+    "evt-bdf482e7827d6979792b361b768aec0cc04298395f6b76d32a0a784adccf3f22": "c17d59b06bc1b42f7319a2453dea9a5448552933a5754a893a76bfd5c5e08557",
+    "evt-be490a61854abbe5914745aebcec5d67d69fa3ca119863c12c293165741d18af": "350b5754235d370cde5c981571c869faf9fa08d6cae126ba4d52193e265ce4a8",
+    "evt-c74be6000549a124147e9a65eb212b93c2e17755cb1d788843c7ac9d698d0c0d": "2b2db4b0e066d1b5892e573cbb71ea4f6dbc1c21d4ba26abd23cd648f45a07a8",
+    "evt-c88e6e10de28124ec57696352bceee482d7442ef6be749e035edfae124297cc0": "5b66cdac5d11edf098342915a66271d3947f629a13c0a569ca715d96bfa14f39",
+    "evt-c891ebb5e0e03df640fac6bcb4bac2b3078286f3337cc6855372872a29e3d0f3": "3168c18fd9237ca577eb7c82a33f6bd51262f76e4153c3e9885633336b40e288",
+    "evt-c9ac4f3bc1956368b826ccae623c9e07797ca9a14aa47bf9c2ce6797e0666305": "a680f786c667c93d18f891be6bfcdf7f534d4b59948dc8194c5fcf559729c942",
+    "evt-cb8283eab5ce70b7fb2a09457032b9175f79edbf6bdd6d23181746f111e0c4c3": "1bff03c17ca06fd9b221a052d42e1ec0c0c425e4bf2656d2485cf1b65d445b7d",
+    "evt-cca0be92d5cfa672f9283cf0173396063c20f01450f20271523d2d794c9b014f": "7cbdef146cf6cc33decf59256ee48bb7398ef03e8402e6cf528a92d08de15c73",
+    "evt-d1c582eb0f4180b229805f6dbdac3ed27e032610e1177df18502a4cf655117f9": "ecc9e0d11aa05436003f724a39811ea4415342ac8b7f5ab14582ceb47914e181",
+    "evt-d3e5585361c54fea501fb91490d6b084150b93dbb6d06e871ebf8e8dd8ce2e8b": "06accd152dadf72f1b23dcd338415442c799de7327b0085781bef853c9dca68c",
+    "evt-d47c1690d521f37d2891583716bfe6294a3e7af7355cdc437e787f3cd23fd2d5": "a2a6c00daba9a43424e7518c1095631bd10f578f7a7b4b6790595d51719b1e4f",
+    "evt-d6d4ddbd7cc2e3bb0293377aeecf210030e14b63922b61b7c290df649046b420": "3b81ef372fe8ffb7e061b27ea3d0345b7a8ed2c9ad95b677b6bc8d59599267ea",
+    "evt-daaf95551ef32e8e9b5101326772ba2a35b0896e53df1eb405e5409ca758a10f": "36a873876d9054108500a404ce4727760291fe60c3bddf1e78743000dfe4d88f",
+    "evt-dc57af2aa6dfcd6957c90d2894b5e5c3e0ef957fe5c5e9c137acbec0dcfc0229": "88765cc8ed5401fd6b5484d5e613113f83570789a47163a6366d6634f3621b4e",
+    "evt-de47fa0827fd897054476d0312b5c14c37ba0c59559000de19cabb2badb108e7": "70cd7470f4ae4b548efec1a3b91c8c6d0c5fdf5574c1d9b15cbbbeda96da1572",
+    "evt-dfe92805c48d476e36c5c99c7e11ce21ab547ec3b825835c2d04e0c011fabefc": "bb5f74c821d135aa3680f5bed198b23122955b5e45fcfaec982e4fc3ff5b2879",
+    "evt-e3f628a175cb7ad849537bd7ba572262f6a7811a30670744a20f1ce2f390f6d6": "07e5e91f0adfd5b41745790f73cbfaa1779bc4aaf76ccf05293351fdd59500b9",
+    "evt-e754a1f16cdd51d77452d61ec882bb580770f8bed2125e92c6039425303d6788": "dd617a69f63a8589edee49daf518c32e5bd9cd2165a26056c55582cf5d930343",
+    "evt-e8f0ac5b9bd3132252877ab234437465e97dbc26d91e5643465050a19ee200bf": "1f604d92004fd7dcc5ea6c5d5df3a62046a0d19a4db3c16bd2f596426942356f",
+    "evt-ea42829c7a22cacc4f9374f1b2cf351239c86a39f68f4910b5d91532787ad361": "de0b0875fdca5f778eb87269e0418f693393f7e010a3c95d32e7f9737f9377f0",
+    "evt-ea6c88c0e120621cb3c2b35a6136465bbf26fbe57cb2a7ac57775e384a3697c1": "b1daa92315afd426cd5c1e063bfa03893c244e8c34be993194da16ebff3599fb",
+    "evt-faad187101694c437092101bf8532eb66e48aede3a47a7b2f4a18b43f3a6c7a9": "01d5df4d893614d6e5181e153f1a0d4333cbe2e5e8303afce74c8ab2401ae131",
+    "evt-fce7614d25fe0cf2562c32f356969c19bd1bb3c343c22dc834413fe5e669c26a": "9361da2a85d16bf786ec121b2251ded86618c9761216fd10ad53fd8507548e62",
+    "evt-fd4f8fea646ce7235c7da1677a0743e0d72888bc4bf736225b637eed22c43715": "8788bb2644f5dfaf6d1bad4cb2b7d8f9ba0654bcb03029e20118746d23f39dbf"
+  },
+  "previous_ids": [
+    "law-001668",
+    "law-010878",
+    "law-012347",
+    "law-011894",
+    "law-002027",
+    "law-012557",
+    "law-005630",
+    "law-011092",
+    "law-002049",
+    "law-004057",
+    "law-002608",
+    "law-009163",
+    "law-012676",
+    "law-010883",
+    "law-011097",
+    "law-006524",
+    "law-006521",
+    "law-010752",
+    "law-009144",
+    "admrul-61378",
+    "admrul-37730",
+    "admrul-32486",
+    "admrul-26424",
+    "admrul-59009",
+    "admrul-28763",
+    "admrul-37581",
+    "admrul-37580",
+    "admrul-32484",
+    "admrul-37579",
+    "admrul-37585",
+    "admrul-37584",
+    "admrul-37586",
+    "admrul-37588",
+    "admrul-28712",
+    "admrul-37587",
+    "admrul-32482",
+    "admrul-37589",
+    "admrul-28718",
+    "admrul-37590",
+    "admrul-36282",
+    "admrul-36283",
+    "admrul-37583",
+    "admrul-34791",
+    "admrul-32485",
+    "admrul-35334",
+    "admrul-37401",
+    "admrul-38225",
+    "admrul-37922",
+    "admrul-54074",
+    "admrul-2046965",
+    "admrul-40159",
+    "admrul-28644",
+    "admrul-28645",
+    "admrul-37037",
+    "admrul-56055",
+    "admrul-37575",
+    "admrul-32495",
+    "admrul-39881",
+    "admrul-37576",
+    "admrul-26678",
+    "admrul-46978",
+    "admrul-51868",
+    "admrul-26917",
+    "admrul-28558",
+    "admrul-28315",
+    "admrul-43058",
+    "admrul-37383",
+    "admrul-26465"
+  ]
+}

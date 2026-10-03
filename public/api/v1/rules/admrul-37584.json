@@ -211,6 +211,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170034885",
         "sequence": "0001",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170034881"
@@ -219,6 +220,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170034891",
         "sequence": "0002",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170034887"
@@ -227,6 +229,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170034897",
         "sequence": "0003",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170034893"
@@ -235,6 +238,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035143",
         "sequence": "0004",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035139"
@@ -243,6 +247,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035149",
         "sequence": "0005",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035145"
@@ -251,6 +256,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035155",
         "sequence": "0006",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035151"
@@ -259,6 +265,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035161",
         "sequence": "0007",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035157"
@@ -267,6 +274,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035167",
         "sequence": "0008",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035163"
@@ -275,6 +283,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035173",
         "sequence": "0009",
+        "status": "AVAILABLE",
         "title": "집중인성교육 효과성 평가",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035169"
@@ -283,6 +292,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035179",
         "sequence": "0010",
+        "status": "AVAILABLE",
         "title": "편지동봉물품 확인대장",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035175"
@@ -291,6 +301,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035185",
         "sequence": "0011",
+        "status": "AVAILABLE",
         "title": "편지수수 금지자 명부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035181"
@@ -299,6 +310,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035191",
         "sequence": "0012",
+        "status": "AVAILABLE",
         "title": "개인 편지표",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035187"
@@ -307,6 +319,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035197",
         "sequence": "0013",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035193"
@@ -315,6 +328,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035203",
         "sequence": "0014",
+        "status": "AVAILABLE",
         "title": "편지 전달 및 발송 불허대장",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035199"
@@ -323,6 +337,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035209",
         "sequence": "0015",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035205"
@@ -331,6 +346,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035215",
         "sequence": "0016",
+        "status": "AVAILABLE",
         "title": "성상 등 관리대장",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035211"
@@ -339,6 +355,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035221",
         "sequence": "0017",
+        "status": "AVAILABLE",
         "title": "수용자 성물 허가부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035217"
@@ -347,6 +364,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035227",
         "sequence": "0018",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035223"
@@ -355,6 +373,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035233",
         "sequence": "0019",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035229"
@@ -363,6 +382,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035239",
         "sequence": "0020",
+        "status": "AVAILABLE",
         "title": "교화상담부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035235"
@@ -371,6 +391,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035245",
         "sequence": "0021",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035241"
@@ -379,6 +400,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035251",
         "sequence": "0022",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035247"
@@ -387,6 +409,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035257",
         "sequence": "0023",
+        "status": "AVAILABLE",
         "title": "비치도서 열람 신청서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035253"
@@ -395,6 +418,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035263",
         "sequence": "0024",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035259"
@@ -403,6 +427,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035269",
         "sequence": "0025",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035265"
@@ -411,6 +436,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035275",
         "sequence": "0026",
+        "status": "AVAILABLE",
         "title": "개인도서 확인증",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035271"
@@ -419,6 +445,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035281",
         "sequence": "0027",
+        "status": "AVAILABLE",
         "title": "개인도서 열람 불허대장",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035277"
@@ -427,6 +454,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035287",
         "sequence": "0028",
+        "status": "AVAILABLE",
         "title": "주간방송 계획부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035283"
@@ -435,6 +463,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035293",
         "sequence": "0029",
+        "status": "AVAILABLE",
         "title": "교화방송 운영일지",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035289"
@@ -443,6 +472,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035299",
         "sequence": "0030",
+        "status": "AVAILABLE",
         "title": "계도 및 공지사항부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035295"
@@ -451,6 +481,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035305",
         "sequence": "0031",
+        "status": "AVAILABLE",
         "title": "집필물 외부제출 및 보관 허가부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035301"
@@ -459,6 +490,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035311",
         "sequence": "0032",
+        "status": "AVAILABLE",
         "title": "특별활동반 명부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035307"
@@ -467,6 +499,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035317",
         "sequence": "0033",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035313"
@@ -475,6 +508,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035323",
         "sequence": "0034",
+        "status": "AVAILABLE",
         "title": "사회복귀업무일지",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035319"
@@ -483,6 +517,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035329",
         "sequence": "0035",
+        "status": "AVAILABLE",
         "title": "교화행사 계획부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035325"
@@ -491,6 +526,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035335",
         "sequence": "0036",
+        "status": "AVAILABLE",
         "title": "교화행사 시행부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035331"
@@ -499,6 +535,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035341",
         "sequence": "0037",
+        "status": "AVAILABLE",
         "title": "간행물 배부대장",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035337"
@@ -507,6 +544,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035347",
         "sequence": "0038",
+        "status": "AVAILABLE",
         "title": "외부강사 초빙대장",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035343"
@@ -515,6 +553,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035353",
         "sequence": "0039",
+        "status": "AVAILABLE",
         "title": "석방 전 교육 시간표(예시)",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170035349"
@@ -702,7 +741,7 @@
     },
     "version_status": "CURRENT"
   },
-  "dataset_version": "ds-7805063f9c55bcd7d7616ee1e3d509f79cc0ee449489171391afacdbf9e30ed3",
+  "dataset_version": "ds-98bdc9ab4f0c49b90a76fe0a00c8efee2fdc7f7079c3cabc098c6da41ce1bc37",
   "rule": {
     "business_domains": [
       "교육·교화"
@@ -712,6 +751,7 @@
     "corrections_category": "예규",
     "current_name": "수용자 교육교화 운영지침",
     "detail_url": "/api/v1/rules/admrul-37584.json",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
     "metadata": {
       "amendment_type": "일부개정",
@@ -726,6 +766,24 @@
     },
     "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000285778",
     "primary_domain": "교육·교화",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "수용자"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000285778",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "수용자 교육교화 운영지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "수용자 교육교화 운영지침"
@@ -734,6 +792,6 @@
     "status": "CURRENT",
     "version_id": "2100000285778"
   },
-  "schema_version": "1.3",
+  "schema_version": "1.4",
   "upcoming": []
 }

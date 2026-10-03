@@ -1,13 +1,14 @@
-# 교정업무 변경 레이더 — Phase 1E
+# 교정업무 변경 레이더 — Phase 1F
 
 Python Law.go.kr pipeline and React Web W1. No Android app, Firebase deployment,
 OCR, attachment downloads or legal interpretations are implemented here.
 
-Current: production core remains 68. Phase 1E adds persistent exact-version
-change history and a recent 90-day feed. Main schema 1.3; immutable archives
-remain 1.1. No frontend edits or deployment are included. Web W3 can consume
-schema 1.3 separately. Future provenance/scope expansion requires 1.4.
-See docs/phase1e_contract.md and data/reports/phase1e.md.
+Current: the approved production registry expands from 68 to 106 API-trackable
+records. Main schema 1.4 adds factual provenance and the 보고 domain to the
+persistent history contract. Immutable archives remain 1.1 and existing event
+details retain 1.3. No frontend edits or deployment are included. Web W4 consumes
+schema 1.4 separately. See docs/phase1f_contract.md and
+data/reports/phase1f_expansion.md. Phase 1D audit evidence is preserved.
 
 Phase 1A: `python scripts/observe.py --runs 3` observes normal live syncs;
 `python scripts/verify.py` verifies recovery, contracts and secrets;
@@ -33,6 +34,16 @@ One-time history backfill: `python scripts/backfill_history.py`, then
 `python scripts/migrate_history.py` for an isolated rehearsal. After passing
 the backend checks, `python scripts/migrate_history.py --publish` explicitly
 generates the local schema 1.3 dataset. These commands do not deploy.
+
+Phase 1F release preparation: `python scripts/prepare_expansion.py` resolves the
+exact approved additions live and backfills their bounded history;
+`python scripts/configure_expansion.py` applies evidence-based domains and
+provenance; `python scripts/rehearse_expansion.py` validates the actual publication
+and recovery logic in isolation. After tests pass, the one-time
+`python scripts/production_sync.py --approved-expansion` performs the explicit
+approved 68 → 106 transition. Normal subsequent runs use
+`python scripts/production_sync.py`. The approval cannot be reused for later
+scope expansion. No command in this sequence deploys Firebase.
 
 Missing authentication stops with `WAITING_FOR_LAW_API_OC`. Networking must be
 permitted. Failures print only classified errors, never authenticated URLs or

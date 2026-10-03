@@ -1,0 +1,36 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "c674222be5343353c9ce86c04a52c15ed3ed41726dceb53d3238e6393d2b5768",
+      "effective_date": "2008-11-01",
+      "identifier": "2000000001694",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2000000001694",
+      "snapshot_url": "/api/v1/rules/admrul-27617/versions/2000000001694-2008-11-01-bb76ac5cb18a0081.json",
+      "version_id": "2000000001694"
+    },
+    "appendix_changes": [],
+    "before_version": null,
+    "canonical_id": "admrul-27617",
+    "change_type": "NEW_RULE",
+    "change_types": [
+      "NEW_RULE"
+    ],
+    "changed_article_count": 0,
+    "changed_articles": [],
+    "comparison_evidence": null,
+    "comparison_scope": "FULL_STRUCTURED_BODY",
+    "comparison_source": null,
+    "comparison_status": "COMPARISON_UNAVAILABLE",
+    "comparison_unavailable_reason": "BEFORE_VERSION_UNAVAILABLE",
+    "detected_at": "2026-10-03T11:27:41.976743+00:00",
+    "effective_date": "2008-11-01",
+    "event_id": "evt-3177d1e2e949c4660446b008696796a483057236bd837dac34a0645c0f2182e7",
+    "fallback_reason": "OFFICIAL_COMPARISON_UNAVAILABLE",
+    "official_old_new_available": false,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2000000001694",
+    "promulgation_or_issue_date": "2008-10-16",
+    "regulation_name": "법무부 소속 공무원의 비위 등 처리지침",
+    "regulation_type": "예규"
+  },
+  "schema_version": "1.4"
+}

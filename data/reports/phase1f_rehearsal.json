@@ -1,0 +1,26 @@
+{
+  "first": {
+    "dataset_version": "ds-f7b09aae617659800091a1966cade91c53088ef3b6472fb6cf9bd34bc01b8087",
+    "new_events": 0,
+    "persistent_new_events": 41,
+    "public_rewritten": true,
+    "result": "PUBLISHED"
+  },
+  "last_good_bytes_and_mtimes_preserved": true,
+  "old_history_retained": true,
+  "production_publication": false,
+  "second": {
+    "dataset_version": "ds-f7b09aae617659800091a1966cade91c53088ef3b6472fb6cf9bd34bc01b8087",
+    "new_events": 0,
+    "persistent_new_events": 0,
+    "public_rewritten": false,
+    "result": "NO_CHANGE"
+  },
+  "simulated_failure": "BLOCKED",
+  "validation": {
+    "dataset_version": "ds-f7b09aae617659800091a1966cade91c53088ef3b6472fb6cf9bd34bc01b8087",
+    "rule_count": 106,
+    "status": "PASS",
+    "validated_files": 470
+  }
+}

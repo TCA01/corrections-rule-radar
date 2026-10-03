@@ -1,4 +1,3 @@
-// Domain taxonomy from backend
 export const CONTROLLED_DOMAINS = [
   '수용·보안',
   '접견·외부교통',
@@ -14,15 +13,37 @@ export const CONTROLLED_DOMAINS = [
   '인사·조직',
   '정보화',
   '민영교도소',
+  '보고',
   '기타',
 ] as const;
 
 export type BusinessDomain = typeof CONTROLLED_DOMAINS[number];
 
-export type CorrectionsCategory = '법률' | '대통령령' | '법무부령' | '예규' | '훈령';
+export type CorrectionsCategory = '법률' | '대통령령' | '법무부령' | '예규' | '훈령' | '지침';
 export type RuleStatus = 'CURRENT' | 'REPEALED' | 'REVIEW';
 export type ClassificationStatus = 'REVIEW' | 'REVIEWED';
 export type SourceKind = 'law' | 'admrul';
+
+export type ScopeClass =
+  | 'OFFICIAL_CORRECTIONS_LIST'
+  | 'DIRECT_CORRECTIONS'
+  | 'CROSS_DOMAIN_CORRECTIONS'
+  | 'HISTORICAL_REPEALED';
+
+export interface RuleProvenance {
+  scope_class?: ScopeClass;
+  selection_basis?: string;
+  applies_to?: string[];
+  official_seed_name?: string | null;
+  official_seed_url?: string | null;
+  canonical_source_url?: string;
+  discovery_source?: string[];
+  scope_review_status?: string;
+  api_tracking_class?: 'API_TRACKABLE';
+  structured_body_source?: string;
+  history_source?: string;
+  appendix_metadata_source?: string;
+}
 
 export type ChangeType =
   | 'NEW_RULE'
@@ -66,7 +87,8 @@ export interface RuleSummary {
   metadata: RuleMetadata;
   official_source_url: string;
   detail_url: string;
-  provenance?: string | null;
+  domain_assignment_status?: string;
+  provenance?: RuleProvenance | string | null;
   selection_rationale?: string | null;
 }
 

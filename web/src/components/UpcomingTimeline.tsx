@@ -102,15 +102,11 @@ export const UpcomingTimeline: React.FC<UpcomingTimelineProps> = ({ events, onSe
 
                     <span className="badge badge-change-type">시행 예정</span>
 
-                    {rule.classification_status === 'REVIEW' || evt.business_domains.length === 0 ? (
-                      <span className="badge badge-domain-review">업무 분야 검토 중</span>
-                    ) : (
-                      evt.business_domains.map((dom) => (
-                        <span key={dom} className="badge badge-domain-reviewed">
-                          {dom}
-                        </span>
-                      ))
-                    )}
+                    {evt.business_domains.map((dom) => (
+                      <span key={dom} className="badge badge-domain-reviewed">
+                        {dom}
+                      </span>
+                    ))}
                   </div>
 
                   <div className="card-meta-right">

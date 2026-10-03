@@ -13,7 +13,7 @@ from pipeline.operations import now
 from pipeline.operations.metrics import Metrics
 from pipeline.normalize import digest
 from pipeline.snapshot import write_json
-from scripts.collect import run as collect
+from scripts.collect_core import run as collect
 from scripts.sync import sync,read,ROOT
 
 def public_fingerprint(root):

@@ -15,11 +15,11 @@ from datetime import timedelta
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'data/staging/phase1e_backfill.json'
 
-def run():
-    state=json.loads((ROOT/'data/registry/state.json').read_text(encoding='utf8'))
-    rows=json.loads((ROOT/'data/registry/rules.json').read_text(encoding='utf8'))
-    if len(rows)!=68 or set(state['seed_ids'])!={r['canonical_id'] for r in rows}: raise ValueError('CORE_SCOPE_MISMATCH')
-    metrics=Metrics(); client=LawClient(cache=ROOT/'data/raw_cache/phase1e',metrics=metrics)
+def run(*,state=None,rows=None,output=OUT,report='data/reports/phase1e_backfill.json',cache_name='phase1e'):
+    state=state or json.loads((ROOT/'data/registry/state.json').read_text(encoding='utf8'))
+    rows=rows or json.loads((ROOT/'data/registry/rules.json').read_text(encoding='utf8'))
+    if not {r['canonical_id'] for r in rows}<=set(state['seed_ids']): raise ValueError('CORE_SCOPE_MISMATCH')
+    metrics=Metrics(); client=LawClient(cache=ROOT/'data/raw_cache'/cache_name,metrics=metrics)
     start=time.monotonic(); at=now(); cutoff=(seoul_date()-timedelta(days=89)).isoformat()
     frozen=list(state['snapshots'].values())+[s for vs in state['future'].values() for s in vs]
     frozen+=[json.loads(p.read_text(encoding='utf8')) for p in (ROOT/'data/snapshots').rglob('*.json')]
@@ -74,9 +74,9 @@ def run():
             record['status']='REVIEW'; record['failures'].append({'code':exc.code if isinstance(exc,ApiError) else 'HISTORY_LIST_UNAVAILABLE'})
         result['records'].append(record)
         result.update({'finished_at':now(),'duration_seconds':round(time.monotonic()-start,3),'metrics':metrics.report()})
-        write_json(OUT,result)
+        write_json(output,result)
         print(cid+' '+record['status']+' pairs='+str(len(result['pairs'])),flush=True)
-    write_json(ROOT/'data/reports/phase1e_backfill.json',{k:v for k,v in result.items() if k not in ('snapshots','pairs')})
+    write_json(ROOT/report,{k:v for k,v in result.items() if k not in ('snapshots','pairs')})
     return result
 
 if __name__=='__main__': run()

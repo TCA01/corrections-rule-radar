@@ -31,7 +31,11 @@ def expanded_collection():
         row.update({'current_name':meta['name'],'version_id':s['version_id'],'current_effective_date':meta['effective_date'],'official_source':s['official_source_url']})
         rows.append(row); snapshots[cid]=s; future[cid]=r['future_effective_capability']['future_versions']
         resolution.append({'canonical_id':cid,'status':'RESOLVED'})
-    return {'complete':True,'registry':rows,'snapshots':snapshots,'future':future,'resolution':resolution}
+    from pipeline.registry.provenance import apply_provenance
+    from pipeline.registry.domains import apply_domains
+    collection={'complete':True,'registry':rows,'snapshots':snapshots,'future':future,'resolution':resolution}
+    collection=apply_provenance(collection,load(ROOT/'data/registry/provenance.json'))
+    return apply_domains(collection,load(ROOT/'data/registry/business_domains.json'))
 
 def public_fingerprint(root):
     return {str(p.relative_to(root)):[digest(p.read_text(encoding='utf-8')),p.stat().st_mtime_ns] for p in (Path(root)/'public/api/v1').rglob('*.json')}
@@ -126,7 +130,7 @@ class Phase1DAuditTests(unittest.TestCase):
     def test_expanded_success_failure_no_change_recovery(self):
         collection=expanded_collection(); before_production=fingerprint()
         OUT.mkdir(parents=True,exist_ok=True)
-        with tempfile.TemporaryDirectory(prefix='rehearsal-',dir=OUT) as tmp,patch.object(sync,'ROOT',Path(tmp)),patch('pipeline.publication.SCHEMA_VERSION','1.3'),patch('pipeline.publication.validate_contract',side_effect=proposed_13_validate):
+        with tempfile.TemporaryDirectory(prefix='rehearsal-',dir=OUT) as tmp,patch.object(sync,'ROOT',Path(tmp)),patch('pipeline.publication.SCHEMA_VERSION','1.4'),patch('pipeline.publication.validate_contract',side_effect=proposed_13_validate):
             first=sync.sync(collection); self.assertEqual(first['result'],'PUBLISHED')
             good=public_fingerprint(Path(tmp)); state=load(Path(tmp)/'data/registry/state.json'); health=load(Path(tmp)/'data/ops/health.json')
             broken=copy.deepcopy(collection); bad=next(r['canonical_id'] for r in eligible_records() if r['group']=='NEW_39')
@@ -141,14 +145,19 @@ class Phase1DAuditTests(unittest.TestCase):
             self.assertEqual(second['result'],'NO_CHANGE'); self.assertEqual(third['result'],'NO_CHANGE')
             self.assertEqual(second['new_events'],0); self.assertEqual(third['new_events'],0)
             self.assertEqual(public_fingerprint(Path(tmp)),good)
-            write_json(OUT/'expanded_rehearsal.json',{'record_count':len(collection['registry']),'transitions':[first['result'],'BLOCKED',second['result'],third['result']],'one_rule_failure_isolated':True,'last_good_preserved':True,'public_bytes_and_mtimes_preserved':True,'events_after_repeats':len(load(Path(tmp)/'data/registry/events.json')),'mode':'ISOLATED_TEMP_DIRECTORY; PROPOSED_1.3_CATEGORY_VERSION_COMPATIBILITY; NO PRODUCTION PUBLICATION','provenance_migration_tested':False,'dataset_version':first['dataset_version']})
+            write_json(ROOT/'data/reports/phase1f_legacy_rehearsal.json',{'record_count':len(collection['registry']),'transitions':[first['result'],'BLOCKED',second['result'],third['result']],'one_rule_failure_isolated':True,'last_good_preserved':True,'public_bytes_and_mtimes_preserved':True,'events_after_repeats':len(load(Path(tmp)/'data/registry/events.json')),'mode':'ISOLATED_TEMP_DIRECTORY; ACTIVE_1.4_CONTRACT; NO PRODUCTION PUBLICATION','dataset_version':first['dataset_version']})
         self.assertEqual(before_production,fingerprint())
 
-    def test_frozen_12_rejects_expanded_rule_kind_fail_closed(self):
-        from pipeline.validation import validate_contract
+    def test_frozen_13_rejects_expanded_rule_kind_fail_closed(self):
+        from jsonschema import Draft202012Validator
         from jsonschema.exceptions import ValidationError
         _,files=build_contract(expanded_collection(),[],'2026-10-03T00:00:00+00:00')
-        with self.assertRaises(ValidationError): validate_contract('rule',files['rules/admrul-2036599.json'][1])
+        value=copy.deepcopy(files['rules/admrul-2036599.json'][1]); value['schema_version']='1.3'
+        value['rule'].pop('provenance'); value['rule'].pop('domain_assignment_status')
+        for s in [value['current']]+value['upcoming']:
+            for a in s['appendices']: a.pop('status',None)
+        schema=load(ROOT/'tests/fixtures/phase1e_rule.schema.json')
+        with self.assertRaises(ValidationError): Draft202012Validator(schema).validate(value)
 
     def test_metadata_only_changes_change_dataset_identity(self):
         collection=expanded_collection(); original,_=build_contract(collection,[],'2026-10-03T00:00:00+00:00')

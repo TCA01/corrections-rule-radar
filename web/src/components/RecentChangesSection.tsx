@@ -85,7 +85,7 @@ export const RecentChangesSection: React.FC<RecentChangesSectionProps> = ({
                   historical_names: [],
                   corrections_category: (evt.regulation_type as any) || '법률',
                   business_domains: [],
-                  classification_status: 'REVIEW' as const,
+                  classification_status: 'REVIEWED' as const,
                   primary_domain: null,
                   secondary_domains: [],
                   status: 'CURRENT' as const,
@@ -107,7 +107,7 @@ export const RecentChangesSection: React.FC<RecentChangesSectionProps> = ({
 
                 const isLaw = rule.source_kind === 'law';
                 const statusBadge = rule.status === 'REPEALED' ? '폐지' : '현행';
-                const domains = rule.business_domains.length > 0 ? rule.business_domains.join(', ') : '검토중';
+                const domains = rule.business_domains.length > 0 ? rule.business_domains.join(', ') : '-';
 
                 const regName = evt.regulation_name || (evt as any).rule_name || rule.current_name;
                 const regType = evt.regulation_type || (evt as any).corrections_category || rule.corrections_category;

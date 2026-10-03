@@ -1,0 +1,36 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "6180c345a9cc04df9ad98f862cc30ed3f23994c2cfd0f0ec918bbf086710dff0",
+      "effective_date": "2021-01-01",
+      "identifier": "2100000195809",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000195809",
+      "snapshot_url": "/api/v1/rules/admrul-75221/versions/2100000195809-2021-01-01-85183626d05ada64.json",
+      "version_id": "2100000195809"
+    },
+    "appendix_changes": [],
+    "before_version": null,
+    "canonical_id": "admrul-75221",
+    "change_type": "NEW_RULE",
+    "change_types": [
+      "NEW_RULE"
+    ],
+    "changed_article_count": 0,
+    "changed_articles": [],
+    "comparison_evidence": null,
+    "comparison_scope": "FULL_STRUCTURED_BODY",
+    "comparison_source": null,
+    "comparison_status": "COMPARISON_UNAVAILABLE",
+    "comparison_unavailable_reason": "BEFORE_VERSION_UNAVAILABLE",
+    "detected_at": "2026-10-03T11:27:41.976743+00:00",
+    "effective_date": "2021-01-01",
+    "event_id": "evt-4ee3a3f69174b40e45e1cb3a6c896c1c8aedf4f83038f0c4f0347a52c841a008",
+    "fallback_reason": "OFFICIAL_COMPARISON_UNAVAILABLE",
+    "official_old_new_available": false,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000195809",
+    "promulgation_or_issue_date": "2020-12-21",
+    "regulation_name": "지방교정청등의 조직 및 정원관리에 관한 규정",
+    "regulation_type": "훈령"
+  },
+  "schema_version": "1.4"
+}

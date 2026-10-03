@@ -14,6 +14,7 @@ import {
   getFactualDescription,
   getStatusBadge,
   getClassificationBadge,
+  getScopeClassLabel,
   isRemovedAppendix,
 } from '../utils/format';
 
@@ -122,10 +123,18 @@ describe('Format & Badge Utilities', () => {
   it('returns appropriate status badges', () => {
     expect(getStatusBadge('CURRENT').text).toBe('현행');
     expect(getStatusBadge('REPEALED').text).toBe('폐지');
-    expect(getStatusBadge('REVIEW').text).toBe('검토 중');
 
-    expect(getClassificationBadge('REVIEW', []).text).toBe('업무 분야 검토 중');
     expect(getClassificationBadge('REVIEWED', ['의료']).text).toBe('의료');
+    expect(getClassificationBadge('REVIEWED', ['의료', '보고']).text).toBe('의료, 보고');
+    expect(getClassificationBadge('REVIEWED', []).text).toBe('기타');
+  });
+
+  it('returns human-friendly Korean labels for scope classes', () => {
+    expect(getScopeClassLabel('OFFICIAL_CORRECTIONS_LIST')).toBe('교정본부 공식 목록');
+    expect(getScopeClassLabel('DIRECT_CORRECTIONS')).toBe('교정 직접 관련');
+    expect(getScopeClassLabel('CROSS_DOMAIN_CORRECTIONS')).toBe('공통 적용 규정');
+    expect(getScopeClassLabel('HISTORICAL_REPEALED')).toBe('폐지·연혁 규정');
+    expect(getScopeClassLabel(undefined)).toBeNull();
   });
 });
 

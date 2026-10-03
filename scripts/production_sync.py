@@ -14,16 +14,31 @@ from scripts.discovery_scan import run as discover
 from scripts.sync import sync,read,ROOT
 from scripts.observe import public_fingerprint,semantic_hashes
 from pipeline.law_api.comparisons import prepare
+from pipeline.law_api.revalidation import revalidate
 
-def run(*,discovery=False,full_audit=False):
+def run(*,discovery=False,full_audit=False,approved_expansion=False):
     at=now(); start=time.monotonic(); metrics=Metrics(); previous=read('data/ops/health.json',{})
     before=public_fingerprint(ROOT); previous_state=read('data/registry/state.json',{}); previous_events=read('data/registry/events.json',[])
     write_json(ROOT/'data/reports/production_sync.json',{'result':'RUNNING','started_at':at,'last_good_dataset_version':previous.get('last_dataset_version')})
     collection=None; error=None
     try:
-        collection=discover(metrics=metrics,full_audit=full_audit) if discovery or full_audit else None
-        collection=collection or collect_core(metrics=metrics,quiet=True)
+        discovery_error=None
+        if discovery or full_audit:
+            try: discover(metrics=metrics,full_audit=full_audit)
+            except Exception: discovery_error='DISCOVERY_MONITOR_UNAVAILABLE'
+        if approved_expansion:
+            from scripts.prepare_expansion import inputs
+            state,rows,approval=inputs()
+            collection=collect_core(metrics=metrics,quiet=True,state=state,trusted=rows)
+            collection['approved_expansion']='PHASE1F'
+            collection['history_backfill']=read('data/staging/phase1f_backfill.json',{})
+        else: collection=collect_core(metrics=metrics,quiet=True)
+        if full_audit:
+            checked=revalidate(collection,metrics=metrics)
+            write_json(ROOT/'data/reports/full_id_revalidation.json',{'count':len(checked),'records':checked,'status':'PASS'})
+        staged=collection.get('history_backfill')
         prepare(collection,previous_state,read('data/registry/change_history.json',[]),metrics=metrics)
+        if staged: collection['history_backfill']=staged
         result=sync(collection)
         if result['result']=='BLOCKED': error=result.get('reason','INCOMPLETE_COLLECTION')
     except Exception as exc:
@@ -36,11 +51,12 @@ def run(*,discovery=False,full_audit=False):
     counts['failure_count']=counts['review_count']
     report={**result,'started_at':at,'finished_at':now(),'duration_seconds':round(time.monotonic()-start,6),**metrics.report(),**counts,'error_summary':{'code':error} if error else {},'mode':'WEEKLY_FULL_AUDIT' if full_audit else 'CORE_WITH_DAILY_DISCOVERY' if discovery else 'CORE_STABLE_IDS','last_good_dataset_version':ops.get('last_dataset_version')}
     report.update({'public_bytes_and_mtimes_identical':before==public_fingerprint(ROOT),'snapshot_hashes_identical':semantic_hashes(previous_state)==semantic_hashes(read('data/registry/state.json',{})),'event_ids_identical':[e['event_id'] for e in previous_events]==[e['event_id'] for e in read('data/registry/events.json',[])]})
+    report['discovery_monitor_error']=locals().get('discovery_error')
     ops.update({'last_attempt':at,'duration_seconds':report['duration_seconds'],**metrics.report(),**counts})
     write_json(ROOT/'data/ops/health.json',ops); write_json(ROOT/'data/reports/production_sync.json',report)
     write_json(ROOT/'data/reports/production'/(at[:19].replace(':','').replace('-','')+'.json'),report)
     return report
 def main():
-    parser=argparse.ArgumentParser(); parser.add_argument('--discovery',action='store_true'); parser.add_argument('--full-audit',action='store_true'); args=parser.parse_args()
-    report=run(discovery=args.discovery,full_audit=args.full_audit); print(json.dumps(report,ensure_ascii=False)); return int(report['result']=='BLOCKED')
+    parser=argparse.ArgumentParser(); parser.add_argument('--discovery',action='store_true'); parser.add_argument('--full-audit',action='store_true'); parser.add_argument('--approved-expansion',action='store_true'); args=parser.parse_args()
+    report=run(discovery=args.discovery,full_audit=args.full_audit,approved_expansion=args.approved_expansion); print(json.dumps(report,ensure_ascii=False)); return int(report['result']=='BLOCKED')
 if __name__=='__main__': sys.exit(main())

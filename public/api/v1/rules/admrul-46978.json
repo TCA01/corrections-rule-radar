@@ -400,6 +400,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=137313011",
         "sequence": "0001",
+        "status": "AVAILABLE",
         "title": "징계자 등에 대한 승진심사 불이익 기준",
         "type": "별표",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=137313007"
@@ -408,6 +409,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=137313017",
         "sequence": "0002",
+        "status": "AVAILABLE",
         "title": "고충전보 점수표",
         "type": "별표",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=137313013"
@@ -416,6 +418,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=137313023",
         "sequence": "0003",
+        "status": "AVAILABLE",
         "title": "문책전보 기준",
         "type": "별표",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=137313019"
@@ -571,7 +574,7 @@
     },
     "version_status": "CURRENT"
   },
-  "dataset_version": "ds-7805063f9c55bcd7d7616ee1e3d509f79cc0ee449489171391afacdbf9e30ed3",
+  "dataset_version": "ds-98bdc9ab4f0c49b90a76fe0a00c8efee2fdc7f7079c3cabc098c6da41ce1bc37",
   "rule": {
     "business_domains": [
       "인사·조직"
@@ -581,6 +584,7 @@
     "corrections_category": "훈령",
     "current_name": "교정공무원 인사운영 규칙",
     "detail_url": "/api/v1/rules/admrul-46978.json",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
     "metadata": {
       "amendment_type": "일부개정",
@@ -595,6 +599,25 @@
     },
     "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000234486",
     "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정직 공무원",
+        "교정공무원"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000234486",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "교정공무원 인사운영 규칙",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "교정공무원 인사운영 규칙"
@@ -603,6 +626,6 @@
     "status": "CURRENT",
     "version_id": "2100000234486"
   },
-  "schema_version": "1.3",
+  "schema_version": "1.4",
   "upcoming": []
 }

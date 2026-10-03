@@ -1,0 +1,36 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "d7df0a86e359eccddb36e6063702b3aba2885fe194345af3edc57cbd40955f50",
+      "effective_date": "2024-12-02",
+      "identifier": "2100000254240",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000254240",
+      "snapshot_url": "/api/v1/rules/admrul-91035/versions/2100000254240-2024-12-02-5e50ee1ce0693e7e.json",
+      "version_id": "2100000254240"
+    },
+    "appendix_changes": [],
+    "before_version": null,
+    "canonical_id": "admrul-91035",
+    "change_type": "NEW_RULE",
+    "change_types": [
+      "NEW_RULE"
+    ],
+    "changed_article_count": 0,
+    "changed_articles": [],
+    "comparison_evidence": null,
+    "comparison_scope": "FULL_STRUCTURED_BODY",
+    "comparison_source": null,
+    "comparison_status": "COMPARISON_UNAVAILABLE",
+    "comparison_unavailable_reason": "BEFORE_VERSION_UNAVAILABLE",
+    "detected_at": "2026-10-03T11:27:41.976743+00:00",
+    "effective_date": "2024-12-02",
+    "event_id": "evt-e8fd003c12e34395cb584d403417a12831fb5b71f861cde315dcbad9d4b2e253",
+    "fallback_reason": "OFFICIAL_COMPARISON_UNAVAILABLE",
+    "official_old_new_available": false,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000254240",
+    "promulgation_or_issue_date": "2024-12-02",
+    "regulation_name": "교정본부 의장대·악대 운영규정",
+    "regulation_type": "훈령"
+  },
+  "schema_version": "1.4"
+}

@@ -193,6 +193,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150441577",
         "sequence": "0001",
+        "status": "AVAILABLE",
         "title": "분류센터 대상자 선정관련 구체적 죄명(제12조제1항 관련)",
         "type": "별표",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150441573"
@@ -201,6 +202,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150441593",
         "sequence": "0001",
+        "status": "AVAILABLE",
         "title": "수형자 다면적 평가서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150441585"
@@ -209,6 +211,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150441583",
         "sequence": "0002",
+        "status": "AVAILABLE",
         "title": "정밀분류심사 제외 대상자 유형(제13조 관련)",
         "type": "별표",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150441579"
@@ -217,6 +220,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150441599",
         "sequence": "0002",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150441595"
@@ -225,6 +229,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150441605",
         "sequence": "0003",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150441601"
@@ -233,6 +238,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150441611",
         "sequence": "0004",
+        "status": "AVAILABLE",
         "title": "분류센터 심사완료자 이송신청서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150441607"
@@ -241,6 +247,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150441617",
         "sequence": "0005",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150441613"
@@ -249,6 +256,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150441623",
         "sequence": "0006",
+        "status": "AVAILABLE",
         "title": "재범위험성평가위원회 회의자료",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150441619"
@@ -257,6 +265,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150441633",
         "sequence": "0007",
+        "status": "AVAILABLE",
         "title": "재범위험성평가위원회 회의록",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=150441625"
@@ -387,7 +396,7 @@
     },
     "version_status": "CURRENT"
   },
-  "dataset_version": "ds-7805063f9c55bcd7d7616ee1e3d509f79cc0ee449489171391afacdbf9e30ed3",
+  "dataset_version": "ds-98bdc9ab4f0c49b90a76fe0a00c8efee2fdc7f7079c3cabc098c6da41ce1bc37",
   "rule": {
     "business_domains": [
       "분류·가석방"
@@ -397,6 +406,7 @@
     "corrections_category": "예규",
     "current_name": "분류센터 운영지침",
     "detail_url": "/api/v1/rules/admrul-54074.json",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
     "metadata": {
       "amendment_type": "일부개정",
@@ -411,6 +421,26 @@
     },
     "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000256922",
     "primary_domain": "분류·가석방",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "수용자",
+        "수형자",
+        "교정시설"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000256922",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "분류센터 운영지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "분류센터 운영지침"
@@ -419,6 +449,6 @@
     "status": "CURRENT",
     "version_id": "2100000256922"
   },
-  "schema_version": "1.3",
+  "schema_version": "1.4",
   "upcoming": []
 }

@@ -16,11 +16,32 @@
     "corrections_category": "법률",
     "current_effective_date": "2026-10-02",
     "current_name": "형의 집행 및 수용자의 처우에 관한 법률",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "001668",
     "official_source": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290191",
     "primary_domain": "수용·보안",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "수용자",
+        "수형자",
+        "교정시설"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290191",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "형의 집행 및 수용자의 처우에 관한 법률",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2534/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 법령 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [
       "접견·외부교통",
       "보관금품",
@@ -47,11 +68,30 @@
     "corrections_category": "법률",
     "current_effective_date": "2013-04-05",
     "current_name": "교도작업의 운영 및 특별회계에 관한 법률",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "010878",
     "official_source": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=138747",
     "primary_domain": "작업·직업훈련",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정본부 및 소속기관(공식 목록·담당 부서 근거)"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=138747",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "교도작업의 운영 및 특별회계에 관한 법률",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2534/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 법령 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "교도작업의 운영 및 특별회계에 관한 법률"
@@ -70,11 +110,30 @@
     "corrections_category": "법률",
     "current_effective_date": "2020-10-20",
     "current_name": "교정공제회법",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "012347",
     "official_source": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=222423",
     "primary_domain": "급식·복지",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정공무원"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=222423",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "교정공제회법",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2534/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 법령 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [
       "인사·조직"
     ],
@@ -94,11 +153,30 @@
     "corrections_category": "법률",
     "current_effective_date": "2013-07-30",
     "current_name": "대한민국재향교정동우회법",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "011894",
     "official_source": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=142443",
     "primary_domain": "기타",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정본부 및 소속기관(공식 목록·담당 부서 근거)"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=142443",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "대한민국재향교정동우회법",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2534/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 법령 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "대한민국재향교정동우회법"
@@ -117,11 +195,32 @@
     "corrections_category": "법률",
     "current_effective_date": "2026-01-02",
     "current_name": "민영교도소 등의 설치ㆍ운영에 관한 법률",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "002027",
     "official_source": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=276277",
     "primary_domain": "민영교도소",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "수용자",
+        "교도소",
+        "민영교도소"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=276277",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "민영교도소 등의 설치·운영에 관한 법률",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2534/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 법령 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [
       "수용·보안"
     ],
@@ -141,11 +240,31 @@
     "corrections_category": "법률",
     "current_effective_date": "2016-11-30",
     "current_name": "경비교도대 폐지에 따른 보상 등에 관한 법률",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "012557",
     "official_source": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=183520",
     "primary_domain": "급식·복지",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정시설",
+        "경비교도"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=183520",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "경비교도대 폐지에 따른 보상 등에 관한 법률",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2534/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 법령 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "경비교도대 폐지에 따른 보상 등에 관한 법률"
@@ -171,11 +290,30 @@
     "corrections_category": "대통령령",
     "current_effective_date": "2026-10-02",
     "current_name": "형의 집행 및 수용자의 처우에 관한 법률 시행령",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "005630",
     "official_source": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290535",
     "primary_domain": "수용·보안",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "수용자"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290535",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "형의 집행 및 수용자의 처우에 관한 법률 시행령",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2534/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 법령 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [
       "접견·외부교통",
       "보관금품",
@@ -202,11 +340,30 @@
     "corrections_category": "대통령령",
     "current_effective_date": "2010-10-22",
     "current_name": "교도작업의 운영 및 특별회계에 관한 법률 시행령",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "011092",
     "official_source": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=106754",
     "primary_domain": "작업·직업훈련",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정본부 및 소속기관(공식 목록·담당 부서 근거)"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=106754",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "교도작업의 운영 및 특별회계에 관한 법률 시행령",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2534/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 법령 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "교도작업의 운영 및 특별회계에 관한 법률 시행령"
@@ -224,11 +381,30 @@
     "corrections_category": "대통령령",
     "current_effective_date": "2026-10-02",
     "current_name": "가석방자관리규정",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "002049",
     "official_source": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290173",
     "primary_domain": "분류·가석방",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정본부 및 소속기관(공식 목록·담당 부서 근거)"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290173",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "가석방자 관리규정",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2534/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 법령 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "가석방자 관리규정"
@@ -246,11 +422,30 @@
     "corrections_category": "대통령령",
     "current_effective_date": "2026-10-02",
     "current_name": "수형자 등 호송 규정",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "004057",
     "official_source": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290453",
     "primary_domain": "수용·보안",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "수형자"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290453",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "수형자 등 호송 규정",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2534/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 법령 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "수형자 등 호송 규정"
@@ -268,11 +463,30 @@
     "corrections_category": "대통령령",
     "current_effective_date": "2026-09-01",
     "current_name": "교정직공무원 승진임용 규정",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "002608",
     "official_source": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=289135",
     "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정직 공무원"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=289135",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "교정직공무원 승진임용 규정",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2534/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 법령 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "교정직공무원 승진임용 규정"
@@ -290,11 +504,31 @@
     "corrections_category": "대통령령",
     "current_effective_date": "2025-05-27",
     "current_name": "민영교도소 등의 설치ㆍ운영에 관한 법률 시행령",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "009163",
     "official_source": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=271285",
     "primary_domain": "민영교도소",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교도소",
+        "민영교도소"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=271285",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "민영교도소 등의 설치·운영에 관한 법률 시행령",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2534/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 법령 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "민영교도소 등의 설치·운영에 관한 법률 시행령"
@@ -312,11 +546,30 @@
     "corrections_category": "대통령령",
     "current_effective_date": "2024-04-16",
     "current_name": "경비교도대 폐지에 따른 보상 등에 관한 법률 시행령",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "012676",
     "official_source": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=261779",
     "primary_domain": "급식·복지",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "경비교도"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=261779",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "경비교도대 폐지에 따른 보상 등에 관한 법률 시행령",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2534/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 법령 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "경비교도대 폐지에 따른 보상 등에 관한 법률 시행령"
@@ -343,11 +596,30 @@
     "corrections_category": "법무부령",
     "current_effective_date": "2026-10-02",
     "current_name": "형의 집행 및 수용자의 처우에 관한 법률 시행규칙",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "010883",
     "official_source": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290561",
     "primary_domain": "수용·보안",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "수용자"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290561",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "형의 집행 및 수용자의 처우에 관한 법률 시행규칙",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2534/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 법령 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [
       "접견·외부교통",
       "보관금품",
@@ -375,11 +647,30 @@
     "corrections_category": "법무부령",
     "current_effective_date": "2015-11-25",
     "current_name": "교도작업의 운영 및 특별회계에 관한 법률 시행규칙",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "011097",
     "official_source": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=176754",
     "primary_domain": "작업·직업훈련",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정본부 및 소속기관(공식 목록·담당 부서 근거)"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=176754",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "교도작업의 운영 및 특별회계에 관한 법률 시행규칙",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2534/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 법령 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "교도작업의 운영 및 특별회계에 관한 법률 시행규칙"
@@ -398,11 +689,31 @@
     "corrections_category": "법무부령",
     "current_effective_date": "2025-04-22",
     "current_name": "교도관직무규칙",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "006524",
     "official_source": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=270769",
     "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교도관",
+        "수용자"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=270769",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "교도관직무규칙",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2534/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 법령 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [
       "수용·보안"
     ],
@@ -422,11 +733,30 @@
     "corrections_category": "법무부령",
     "current_effective_date": "2024-01-03",
     "current_name": "교정공무원 복제규칙",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "006521",
     "official_source": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=258001",
     "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정공무원"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=258001",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "교정공무원 복제규칙",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2534/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 법령 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "교정공무원 복제규칙"
@@ -444,11 +774,30 @@
     "corrections_category": "법무부령",
     "current_effective_date": "2015-11-25",
     "current_name": "교정직공무원 임용시험의 체력검사에 관한 규칙",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "010752",
     "official_source": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=176755",
     "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정직 공무원"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=176755",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "교정직공무원 임용시험의 체력검사에 관한 규칙",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2534/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 법령 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "교정직공무원 임용시험의 체력검사에 관한 규칙"
@@ -466,11 +815,31 @@
     "corrections_category": "법무부령",
     "current_effective_date": "2025-05-27",
     "current_name": "민영교도소 등의 설치ㆍ운영에 관한 법률 시행규칙",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "009144",
     "official_source": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=271415",
     "primary_domain": "민영교도소",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교도소",
+        "민영교도소"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=271415",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "민영교도소 등의 설치·운영에 관한 법률 시행규칙",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2534/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 법령 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "민영교도소 등의 설치·운영에 관한 법률 시행규칙"
@@ -488,11 +857,30 @@
     "corrections_category": "예규",
     "current_effective_date": "2017-12-29",
     "current_name": "교정공무원 기관장(葬)에 관한 규정",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "61378",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000108059",
     "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정공무원"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000108059",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "교정공무원 기관장에 관한 규정",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "교정공무원 기관장에 관한 규정"
@@ -511,11 +899,30 @@
     "corrections_category": "예규",
     "current_effective_date": "2026-04-10",
     "current_name": "교정공무원 상호부조회 규정",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "37730",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000277210",
     "primary_domain": "급식·복지",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정공무원"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000277210",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "교정공무원 상호부조회 규정",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [
       "인사·조직"
     ],
@@ -535,13 +942,32 @@
     "corrections_category": "예규",
     "current_effective_date": "2024-11-04",
     "current_name": "교정관련 영화·방송등 제작지원 지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [
       "교정관련 영화·방송드라마 제작지원 지침"
     ],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "32486",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000249032",
     "primary_domain": "기타",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정본부 및 소속기관(공식 목록·담당 부서 근거)"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000249032",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "교정관련 영화·방송드라마 제작지원 지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "교정관련 영화·방송드라마 제작지원 지침"
@@ -559,11 +985,30 @@
     "corrections_category": "예규",
     "current_effective_date": "2020-06-08",
     "current_name": "교정기관 간판게시 및 교정직제 영문표기에 관한 지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "26424",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000189927",
     "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정본부 및 소속기관(공식 목록·담당 부서 근거)"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000189927",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "교정기관 간판게시 및 교정직제 영문표기에 관한 지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "HISTORICAL_REPEALED",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록; 공식 폐지 이력을 보존",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "교정기관 간판게시 및 교정직제 영문표기에 관한 지침"
@@ -581,11 +1026,30 @@
     "corrections_category": "예규",
     "current_effective_date": "2026-02-09",
     "current_name": "교정민원콜센터 운영규정",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "59009",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000274270",
     "primary_domain": "민원",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정본부 및 소속기관(공식 목록·담당 부서 근거)"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000274270",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "교정민원콜센터 운영규정",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "교정민원콜센터 운영규정"
@@ -604,11 +1068,30 @@
     "corrections_category": "예규",
     "current_effective_date": "2022-04-01",
     "current_name": "교정사고 유형별 문책기준 지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "28763",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000210483",
     "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정본부 및 소속기관(공식 목록·담당 부서 근거)"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000210483",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "교정사고 유형별 문책기준 지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [
       "수용·보안"
     ],
@@ -628,11 +1111,30 @@
     "corrections_category": "예규",
     "current_effective_date": "2019-05-21",
     "current_name": "교정직공무원 임용시험의 체력검사 평가종목별 측정방법에 관한 규정",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "37581",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000178657",
     "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정직 공무원"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000178657",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "교정직공무원 임용시험의 체력검사 평가종목별 측정방법에 관한 규정",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "교정직공무원 임용시험의 체력검사 평가종목별 측정방법에 관한 규정"
@@ -652,11 +1154,32 @@
     "corrections_category": "예규",
     "current_effective_date": "2019-07-01",
     "current_name": "순회점검반 운영지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "37580",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000180063",
     "primary_domain": "수용·보안",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "수용자",
+        "교도소",
+        "구치소"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000180063",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "순회점검반 운영지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [
       "인권·청원",
       "인사·조직"
@@ -669,17 +1192,38 @@
     "version_id": "2100000180063"
   },
   {
-    "business_domains": [],
+    "business_domains": [
+      "보고"
+    ],
     "canonical_id": "admrul-32484",
-    "classification_status": "REVIEW",
+    "classification_status": "REVIEWED",
     "corrections_category": "예규",
     "current_effective_date": "2013-10-15",
     "current_name": "현황작성 및 보고요령 지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "32484",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2000000025796",
-    "primary_domain": null,
+    "primary_domain": "보고",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정본부 및 소속기관(공식 목록·담당 부서 근거)"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2000000025796",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "현황작성 및 보고요령 지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록; 교정기획과 소관 순시·순회점검 현황 보고",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "현황작성 및 보고요령 지침"
@@ -697,11 +1241,31 @@
     "corrections_category": "예규",
     "current_effective_date": "2019-08-27",
     "current_name": "휴가일수 계산 자체 기준 지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "37579",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000181661",
     "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교도소",
+        "구치소"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000181661",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "휴가일수 계산 자체 기준 지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "휴가일수 계산 자체 기준 지침"
@@ -722,11 +1286,31 @@
     "corrections_category": "예규",
     "current_effective_date": "2023-03-14",
     "current_name": "교정위원 운영지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "37585",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000220730",
     "primary_domain": "교육·교화",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "수용자",
+        "교정위원"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000220730",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "교정위원 운영지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [
       "작업·직업훈련",
       "급식·복지",
@@ -748,11 +1332,30 @@
     "corrections_category": "예규",
     "current_effective_date": "2026-10-02",
     "current_name": "수용자 교육교화 운영지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "37584",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000285778",
     "primary_domain": "교육·교화",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "수용자"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000285778",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "수용자 교육교화 운영지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "수용자 교육교화 운영지침"
@@ -771,11 +1374,30 @@
     "corrections_category": "예규",
     "current_effective_date": "2025-03-12",
     "current_name": "수용자 사회복귀지원 등에 관한 지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "37586",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000255630",
     "primary_domain": "교육·교화",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "수용자"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000255630",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "수용자 사회복귀지원 등에 관한 지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [
       "접견·외부교통"
     ],
@@ -796,13 +1418,33 @@
     "corrections_category": "예규",
     "current_effective_date": "2024-01-03",
     "current_name": "교도관·대체복무요원 급식관리지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [
       "교도관 급양관리지침"
     ],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "37588",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000234494",
     "primary_domain": "급식·복지",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교도관",
+        "교정시설"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000234494",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "교도관 급양관리 지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [
       "인사·조직"
     ],
@@ -822,13 +1464,32 @@
     "corrections_category": "예규",
     "current_effective_date": "2025-01-02",
     "current_name": "교정기관 공무용 차량 관리 지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [
       "교정기관 공용차량 관리 지침"
     ],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "28712",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000250524",
     "primary_domain": "기타",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정본부 및 소속기관(공식 목록·담당 부서 근거)"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000250524",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "교정기관 공용차량 관리 지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "교정기관 공용차량 관리 지침"
@@ -847,11 +1508,30 @@
     "corrections_category": "예규",
     "current_effective_date": "2023-12-01",
     "current_name": "비상대기숙소 관리지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "37587",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000232102",
     "primary_domain": "급식·복지",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정본부 및 소속기관(공식 목록·담당 부서 근거)"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000232102",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "비상대기숙소 관리지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [
       "인사·조직"
     ],
@@ -871,11 +1551,30 @@
     "corrections_category": "예규",
     "current_effective_date": "2017-08-17",
     "current_name": "사망수용자 장례비 지급 지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "32482",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000093894",
     "primary_domain": "급식·복지",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "수용자"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000093894",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "사망수용자 장례비 지급 지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "사망수용자 장례비 지급 지침"
@@ -893,13 +1592,32 @@
     "corrections_category": "예규",
     "current_effective_date": "2024-01-03",
     "current_name": "수용자 급식관리지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [
       "수용자 급양관리지침"
     ],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "37589",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000234496",
     "primary_domain": "급식·복지",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "수용자"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000234496",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "수용자 급양관리 지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "수용자 급양관리 지침"
@@ -917,11 +1635,30 @@
     "corrections_category": "예규",
     "current_effective_date": "2025-01-02",
     "current_name": "수용자 피복관리 및 제작·운용에 관한 지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "28718",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000252600",
     "primary_domain": "급식·복지",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "수용자"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000252600",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "수용자 피복관리 및 제작·운용에 관한 지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "수용자 피복관리 및 제작·운용에 관한 지침"
@@ -939,13 +1676,33 @@
     "corrections_category": "예규",
     "current_effective_date": "2025-01-02",
     "current_name": "보관금품 관리지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [
       "영치금품 관리지침"
     ],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "37590",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000252598",
     "primary_domain": "보관금품",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "수용자",
+        "교정시설"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000252598",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "영치금품 관리지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "영치금품 관리지침"
@@ -963,11 +1720,30 @@
     "corrections_category": "예규",
     "current_effective_date": "2026-10-01",
     "current_name": "교도작업운영지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "36282",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000285400",
     "primary_domain": "작업·직업훈련",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "수용자"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000285400",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "교도작업운영지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "교도작업운영지침"
@@ -985,13 +1761,33 @@
     "corrections_category": "예규",
     "current_effective_date": "2026-10-01",
     "current_name": "교도작업특별회계운영지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [
       "교도작업특별회계 운영지침"
     ],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "36283",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000285404",
     "primary_domain": "작업·직업훈련",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "수용자",
+        "피보호감호자"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000285404",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "교도작업특별회계 운영지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "교도작업특별회계 운영지침"
@@ -1009,11 +1805,31 @@
     "corrections_category": "예규",
     "current_effective_date": "2025-06-30",
     "current_name": "수형자 직업능력개발훈련 운영지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "37583",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000260706",
     "primary_domain": "작업·직업훈련",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "수용자",
+        "수형자"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000260706",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "수형자 직업능력개발훈련 운영지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "수형자 직업능력개발훈련 운영지침"
@@ -1032,11 +1848,31 @@
     "corrections_category": "예규",
     "current_effective_date": "2025-02-12",
     "current_name": "수형자 취업 및 창업지원 업무 지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "34791",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000254464",
     "primary_domain": "작업·직업훈련",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "수용자",
+        "수형자"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000254464",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "수형자 취업 및 창업지원 업무지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [
       "교육·교화"
     ],
@@ -1057,11 +1893,30 @@
     "corrections_category": "예규",
     "current_effective_date": "2025-02-12",
     "current_name": "전문경력관 직업능력개발훈련교사 임용 규정",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "32485",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000254466",
     "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정본부 및 소속기관(공식 목록·담당 부서 근거)"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000254466",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "전문경력관 직업능력개발훈련교사 임용 규정",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [
       "작업·직업훈련"
     ],
@@ -1081,11 +1936,30 @@
     "corrections_category": "예규",
     "current_effective_date": "2026-03-30",
     "current_name": "가석방 업무지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "35334",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000276392",
     "primary_domain": "분류·가석방",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정본부 및 소속기관(공식 목록·담당 부서 근거)"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000276392",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "가석방 업무지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "가석방 업무지침"
@@ -1103,11 +1977,30 @@
     "corrections_category": "예규",
     "current_effective_date": "2026-03-30",
     "current_name": "가석방심사위원회 운영지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "37401",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000276340",
     "primary_domain": "분류·가석방",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정본부 및 소속기관(공식 목록·담당 부서 근거)"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000276340",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "가석방심사위원회 운영지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "가석방심사위원회 운영지침"
@@ -1126,11 +2019,32 @@
     "corrections_category": "예규",
     "current_effective_date": "2024-07-01",
     "current_name": "교정시설 경비등급별 수형자의 처우 등에 관한 지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "38225",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000243146",
     "primary_domain": "분류·가석방",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "수용자",
+        "수형자",
+        "교정시설"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000243146",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "교정시설 경비등급별 수형자의 처우 등에 관한 지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [
       "수용·보안"
     ],
@@ -1150,11 +2064,31 @@
     "corrections_category": "예규",
     "current_effective_date": "2025-01-20",
     "current_name": "민영교도소 운영경비 회계 등에 관한 지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "37922",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000253510",
     "primary_domain": "민영교도소",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교도소",
+        "민영교도소"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000253510",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "민영교도소 운영경비 회계 등에 관한 지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "민영교도소 운영경비 회계 등에 관한 지침"
@@ -1172,11 +2106,32 @@
     "corrections_category": "예규",
     "current_effective_date": "2025-04-01",
     "current_name": "분류센터 운영지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "54074",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000256922",
     "primary_domain": "분류·가석방",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "수용자",
+        "수형자",
+        "교정시설"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000256922",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "분류센터 운영지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "분류센터 운영지침"
@@ -1195,11 +2150,31 @@
     "corrections_category": "예규",
     "current_effective_date": "2025-03-01",
     "current_name": "분류처우 업무지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "2046965",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000255778",
     "primary_domain": "분류·가석방",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "수용자",
+        "수형자"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000255778",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "분류처우 업무지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [
       "수용·보안"
     ],
@@ -1220,13 +2195,33 @@
     "corrections_category": "예규",
     "current_effective_date": "2024-07-01",
     "current_name": "소년수형자 처우 등에 관한 지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [
       "소년교도소 운영지침"
     ],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "40159",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000243132",
     "primary_domain": "수용·보안",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "수용자",
+        "수형자"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000243132",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "소년교도소 운영지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [
       "교육·교화"
     ],
@@ -1246,11 +2241,31 @@
     "corrections_category": "예규",
     "current_effective_date": "2025-07-01",
     "current_name": "수용자 인권업무 처리지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "28644",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000260276",
     "primary_domain": "인권·청원",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "수용자",
+        "교정시설"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000260276",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "수용자 인권업무 처리지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "수용자 인권업무 처리지침"
@@ -1268,11 +2283,31 @@
     "corrections_category": "예규",
     "current_effective_date": "2023-12-31",
     "current_name": "수용자 청원 처리지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "28645",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000233322",
     "primary_domain": "인권·청원",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "수용자",
+        "지방교정청"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000233322",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "수용자 청원 처리지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "수용자 청원 처리지침"
@@ -1290,11 +2325,30 @@
     "corrections_category": "예규",
     "current_effective_date": "2024-12-31",
     "current_name": "수용자 의료관리지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "37037",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000251988",
     "primary_domain": "의료",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "수용자"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000251988",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "수용자 의료관리지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "수용자 의료관리지침"
@@ -1312,13 +2366,32 @@
     "corrections_category": "예규",
     "current_effective_date": "2026-04-01",
     "current_name": "심리치료 업무지침 ",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [
       "심리치료 업무지침"
     ],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "56055",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000276308",
     "primary_domain": "심리치료",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "수용자"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000276308",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "심리치료업무지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "심리치료업무지침"
@@ -1336,11 +2409,30 @@
     "corrections_category": "훈령",
     "current_effective_date": "2013-06-21",
     "current_name": "교정기 규정",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "37575",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2000000024378",
     "primary_domain": "기타",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정본부 및 소속기관(공식 목록·담당 부서 근거)"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2000000024378",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "교정기 규정",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "교정기 규정"
@@ -1359,11 +2451,33 @@
     "corrections_category": "훈령",
     "current_effective_date": "2021-03-02",
     "current_name": "수용자 자비구매물품의 공급에 관한 지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "32495",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000198614",
     "primary_domain": "급식·복지",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "수용자",
+        "교도소",
+        "구치소",
+        "교정시설"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000198614",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "수용자 자비구매물품의 공급에 관한 지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [
       "보관금품"
     ],
@@ -1383,11 +2497,30 @@
     "corrections_category": "훈령",
     "current_effective_date": "2017-06-20",
     "current_name": "교정공무원기장 등 수여 및 패용에 관한 규정",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "39881",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000090194",
     "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정공무원"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000090194",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "교정공무원기장 등 수여 및 패용에 관한 규정",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "교정공무원기장 등 수여 및 패용에 관한 규정"
@@ -1405,11 +2538,30 @@
     "corrections_category": "훈령",
     "current_effective_date": "2017-01-01",
     "current_name": "수용자 급식관리위원회 운영지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "37576",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000071879",
     "primary_domain": "급식·복지",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "수용자"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000071879",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "수용자 급식관리위원회 운영지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "수용자 급식관리위원회 운영지침"
@@ -1427,11 +2579,30 @@
     "corrections_category": "훈령",
     "current_effective_date": "2005-09-01",
     "current_name": "교정의 날 규칙",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "26678",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2000000000735",
     "primary_domain": "기타",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정본부 및 소속기관(공식 목록·담당 부서 근거)"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2000000000735",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "교정의 날 규칙",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "교정의 날 규칙"
@@ -1449,11 +2620,31 @@
     "corrections_category": "훈령",
     "current_effective_date": "2024-02-01",
     "current_name": "교정공무원 인사운영 규칙",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "46978",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000234486",
     "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정직 공무원",
+        "교정공무원"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000234486",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "교정공무원 인사운영 규칙",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "교정공무원 인사운영 규칙"
@@ -1463,17 +2654,40 @@
     "version_id": "2100000234486"
   },
   {
-    "business_domains": [],
+    "business_domains": [
+      "보고"
+    ],
     "canonical_id": "admrul-51868",
-    "classification_status": "REVIEW",
+    "classification_status": "REVIEWED",
     "corrections_category": "훈령",
     "current_effective_date": "2022-07-01",
     "current_name": "교정본부 보고사무지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "51868",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000211709",
-    "primary_domain": null,
+    "primary_domain": "보고",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "지방교정청",
+        "교도소",
+        "구치소"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000211709",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "교정본부 보고사무지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록; 지방교정청·교도소·구치소 보고사무에 적용",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "교정본부 보고사무지침"
@@ -1491,11 +2705,30 @@
     "corrections_category": "훈령",
     "current_effective_date": "2023-10-19",
     "current_name": "교정공무원 예절 규정",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "26917",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000230588",
     "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정공무원"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000230588",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "교정공무원 예절 규정",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "HISTORICAL_REPEALED",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록; 공식 폐지 이력을 보존",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "교정공무원 예절 규정"
@@ -1514,13 +2747,32 @@
     "corrections_category": "훈령",
     "current_effective_date": "2025-01-02",
     "current_name": "교정공무원 지급품에 관한 지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [
       "교도관 급여품 및 대여품 지침"
     ],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "28558",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000252596",
     "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정공무원"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000252596",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "교도관 급여품 및 대여품 지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [
       "급식·복지"
     ],
@@ -1540,11 +2792,30 @@
     "corrections_category": "훈령",
     "current_effective_date": "2016-02-01",
     "current_name": "교정행정정보화업무지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "28315",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000038844",
     "primary_domain": "정보화",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정본부 및 소속기관(공식 목록·담당 부서 근거)"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000038844",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "교정행정정보화업무지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "교정행정정보화업무지침"
@@ -1562,11 +2833,30 @@
     "corrections_category": "훈령",
     "current_effective_date": "2026-05-01",
     "current_name": "경비교도 보상 등에 관한 지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "43058",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000278360",
     "primary_domain": "급식·복지",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "경비교도"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000278360",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "경비교도 보상 등에 관한 지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "경비교도 보상 등에 관한 지침"
@@ -1585,11 +2875,30 @@
     "corrections_category": "훈령",
     "current_effective_date": "2024-07-01",
     "current_name": "피보호감호자 분류처우 업무지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "37383",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000243144",
     "primary_domain": "분류·가석방",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "피보호감호자"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000243144",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "피보호감호자 분류처우 업무지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [
       "수용·보안"
     ],
@@ -1609,11 +2918,32 @@
     "corrections_category": "훈령",
     "current_effective_date": "2024-01-01",
     "current_name": "교도소와 소년원 및 외국인보호소 등 의무관 임상연구비 지급지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
-    "last_verified_at": "2026-10-03T04:01:45.014271+00:00",
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
     "law_or_rule_identifier": "26465",
     "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000230792",
     "primary_domain": "의료",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교도소",
+        "구치소",
+        "의무관"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000230792",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "교도소와 소년원 및 외국인보호소 등 의무관 임상연구비 지급지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록; 목적조문에 교도소·구치소 의무관의 임상연구비 명시",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "교도소와 소년원 및 외국인보호소 등 의무관 임상연구비 지급지침"
@@ -1621,5 +2951,1587 @@
     "source_kind": "admrul",
     "status": "CURRENT",
     "version_id": "2100000230792"
+  },
+  {
+    "business_domains": [
+      "인사·조직"
+    ],
+    "canonical_id": "admrul-2036599",
+    "classification_status": "REVIEWED",
+    "corrections_category": "지침",
+    "current_effective_date": "2023-02-10",
+    "current_name": "법무부 교육훈련시간 승진반영제도 운영지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
+    "historical_names": [],
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
+    "law_or_rule_identifier": "2036599",
+    "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000219484",
+    "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정직 공무원",
+        "법무부 일반직 공무원"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000219484",
+      "discovery_source": [
+        "LAW_API_MINISTRY",
+        "LAW_API_KEYWORD"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": null,
+      "official_seed_url": null,
+      "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "법무부 일반직 4급 이하 교육훈련시간 승진반영; 본문 교정직 훈련시간 기준 명시",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
+    "secondary_domains": [],
+    "seed_names": [],
+    "source_kind": "admrul",
+    "status": "CURRENT",
+    "version_id": "2100000219484"
+  },
+  {
+    "business_domains": [
+      "보고",
+      "수용·보안"
+    ],
+    "canonical_id": "admrul-2078078",
+    "classification_status": "REVIEWED",
+    "corrections_category": "훈령",
+    "current_effective_date": "2025-01-06",
+    "current_name": "교정 종합상황실 운영 규정",
+    "domain_assignment_status": "EVIDENCE_BASED",
+    "historical_names": [],
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
+    "law_or_rule_identifier": "2078078",
+    "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000252910",
+    "primary_domain": "보고",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정본부",
+        "지방교정청",
+        "교정기관 종합상황실"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000252910",
+      "discovery_source": [
+        "LAW_API_MINISTRY",
+        "LAW_API_KEYWORD"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": null,
+      "official_seed_url": null,
+      "scope_class": "DIRECT_CORRECTIONS",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부·지방교정청·소속기관 종합상황실 설치·운영; 핵심법 체계도 연결",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
+    "secondary_domains": [
+      "수용·보안"
+    ],
+    "seed_names": [],
+    "source_kind": "admrul",
+    "status": "CURRENT",
+    "version_id": "2100000252910"
+  },
+  {
+    "business_domains": [
+      "인사·조직"
+    ],
+    "canonical_id": "admrul-26402",
+    "classification_status": "REVIEWED",
+    "corrections_category": "훈령",
+    "current_effective_date": "2026-09-11",
+    "current_name": "법무부 공무원 행동강령",
+    "domain_assignment_status": "EVIDENCE_BASED",
+    "historical_names": [],
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
+    "law_or_rule_identifier": "26402",
+    "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000284892",
+    "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정직 공무원",
+        "법무부 소속 공무원"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000284892",
+      "discovery_source": [
+        "LAW_API_MINISTRY",
+        "LAW_API_KEYWORD"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": null,
+      "official_seed_url": null,
+      "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "제3조 법무부 본부·소속기관 공무원에 적용하는 청렴·행동기준",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
+    "secondary_domains": [],
+    "seed_names": [],
+    "source_kind": "admrul",
+    "status": "CURRENT",
+    "version_id": "2100000284892"
+  },
+  {
+    "business_domains": [
+      "인사·조직"
+    ],
+    "canonical_id": "admrul-27435",
+    "classification_status": "REVIEWED",
+    "corrections_category": "훈령",
+    "current_effective_date": "2022-09-05",
+    "current_name": "법무·검찰공무원의 부조리신고등에 대한 보상 및 포상 지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
+    "historical_names": [],
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
+    "law_or_rule_identifier": "27435",
+    "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000214353",
+    "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "법무부 소속 공무원"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000214353",
+      "discovery_source": [
+        "LAW_API_MINISTRY",
+        "LAW_API_KEYWORD"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": null,
+      "official_seed_url": null,
+      "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "법무·검찰공무원 부조리 신고·처리 및 보상·포상 절차",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
+    "secondary_domains": [],
+    "seed_names": [],
+    "source_kind": "admrul",
+    "status": "CURRENT",
+    "version_id": "2100000214353"
+  },
+  {
+    "business_domains": [
+      "인사·조직"
+    ],
+    "canonical_id": "admrul-27439",
+    "classification_status": "REVIEWED",
+    "corrections_category": "훈령",
+    "current_effective_date": "2020-08-25",
+    "current_name": "법무부 자체감사규정",
+    "domain_assignment_status": "EVIDENCE_BASED",
+    "historical_names": [],
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
+    "law_or_rule_identifier": "27439",
+    "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000192262",
+    "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정기관 감사 담당자"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000192262",
+      "discovery_source": [
+        "LAW_API_MINISTRY",
+        "LAW_API_KEYWORD"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": null,
+      "official_seed_url": null,
+      "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "법무부 감사 대상 소속기관에 교정기관이 포함되는 자체감사 절차",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
+    "secondary_domains": [],
+    "seed_names": [],
+    "source_kind": "admrul",
+    "status": "CURRENT",
+    "version_id": "2100000192262"
+  },
+  {
+    "business_domains": [
+      "인사·조직",
+      "급식·복지"
+    ],
+    "canonical_id": "admrul-27525",
+    "classification_status": "REVIEWED",
+    "corrections_category": "훈령",
+    "current_effective_date": "2015-02-10",
+    "current_name": "공무원 특수지근무수당 지급대상기관과 그 등급별 지급대상자의 범위에 관한 규칙",
+    "domain_assignment_status": "EVIDENCE_BASED",
+    "historical_names": [
+      "공무원특수지근무수당지급대상기관과그등급별지급대상자의범위에관한규칙"
+    ],
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
+    "law_or_rule_identifier": "27525",
+    "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000013715",
+    "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교도소·구치소 공무원"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000013715",
+      "discovery_source": [
+        "LAW_API_MINISTRY",
+        "LAW_API_KEYWORD"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": null,
+      "official_seed_url": null,
+      "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "목적조문에 교도소·구치소의 특수지근무수당 지급 대상 범위 명시",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
+    "secondary_domains": [
+      "급식·복지"
+    ],
+    "seed_names": [],
+    "source_kind": "admrul",
+    "status": "CURRENT",
+    "version_id": "2100000013715"
+  },
+  {
+    "business_domains": [
+      "인사·조직"
+    ],
+    "canonical_id": "admrul-27617",
+    "classification_status": "REVIEWED",
+    "corrections_category": "예규",
+    "current_effective_date": "2008-11-01",
+    "current_name": "법무부 소속 공무원의 비위 등 처리지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
+    "historical_names": [],
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
+    "law_or_rule_identifier": "27617",
+    "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2000000001694",
+    "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "법무부 소속 공무원"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2000000001694",
+      "discovery_source": [
+        "LAW_API_MINISTRY",
+        "LAW_API_KEYWORD"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": null,
+      "official_seed_url": null,
+      "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "법무부 소속 공무원의 범죄·비위에 대한 징계 처리 기준·절차",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
+    "secondary_domains": [],
+    "seed_names": [],
+    "source_kind": "admrul",
+    "status": "CURRENT",
+    "version_id": "2000000001694"
+  },
+  {
+    "business_domains": [
+      "인사·조직",
+      "기타"
+    ],
+    "canonical_id": "admrul-29857",
+    "classification_status": "REVIEWED",
+    "corrections_category": "훈령",
+    "current_effective_date": "2025-06-18",
+    "current_name": "법무부 소관 회계 관계공무원의 관직지정과 임명권 위임에 관한 규정",
+    "domain_assignment_status": "EVIDENCE_BASED",
+    "historical_names": [],
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
+    "law_or_rule_identifier": "29857",
+    "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000260472",
+    "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정기관 회계 담당자",
+        "지방교정청장"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000260472",
+      "discovery_source": [
+        "LAW_API_MINISTRY",
+        "LAW_API_KEYWORD"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": null,
+      "official_seed_url": null,
+      "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "회계 관계공무원 관직·임명권 위임; 제4조 지방교정청장 대리자 임명 명시",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
+    "secondary_domains": [
+      "기타"
+    ],
+    "seed_names": [],
+    "source_kind": "admrul",
+    "status": "CURRENT",
+    "version_id": "2100000260472"
+  },
+  {
+    "business_domains": [
+      "기타"
+    ],
+    "canonical_id": "admrul-32125",
+    "classification_status": "REVIEWED",
+    "corrections_category": "훈령",
+    "current_effective_date": "2024-11-04",
+    "current_name": "시설공사 검사업무규칙",
+    "domain_assignment_status": "EVIDENCE_BASED",
+    "historical_names": [],
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
+    "law_or_rule_identifier": "32125",
+    "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000249038",
+    "primary_domain": "기타",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정기관 시설공사 담당자"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000249038",
+      "discovery_source": [
+        "LAW_API_MINISTRY",
+        "LAW_API_KEYWORD"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": null,
+      "official_seed_url": null,
+      "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "제1·2조 법무부·소속기관 시설공사 검사 절차; 민영교도소법 체계도 연결로 시설 발주 업무의 실질 관련성 확인",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
+    "secondary_domains": [],
+    "seed_names": [],
+    "source_kind": "admrul",
+    "status": "CURRENT",
+    "version_id": "2100000249038"
+  },
+  {
+    "business_domains": [
+      "수용·보안"
+    ],
+    "canonical_id": "admrul-35611",
+    "classification_status": "REVIEWED",
+    "corrections_category": "예규",
+    "current_effective_date": "2024-06-03",
+    "current_name": "미결수용인 분리수용 협조(공범표시)",
+    "domain_assignment_status": "EVIDENCE_BASED",
+    "historical_names": [],
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
+    "law_or_rule_identifier": "35611",
+    "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000241876",
+    "primary_domain": "수용·보안",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "구치소 수용 담당자",
+        "미결수용인"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000241876",
+      "discovery_source": [
+        "LAW_API_MINISTRY",
+        "LAW_API_KEYWORD"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": null,
+      "official_seed_url": null,
+      "scope_class": "DIRECT_CORRECTIONS",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "형집행법 제81조·시행령 제100조의 미결수용인 분리수용 협조·공범표시 규정",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
+    "secondary_domains": [],
+    "seed_names": [],
+    "source_kind": "admrul",
+    "status": "CURRENT",
+    "version_id": "2100000241876"
+  },
+  {
+    "business_domains": [
+      "인사·조직"
+    ],
+    "canonical_id": "admrul-37000",
+    "classification_status": "REVIEWED",
+    "corrections_category": "훈령",
+    "current_effective_date": "2025-02-21",
+    "current_name": "법무부 소속 공무원 보직관리기준",
+    "domain_assignment_status": "EVIDENCE_BASED",
+    "historical_names": [],
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
+    "law_or_rule_identifier": "37000",
+    "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000254850",
+    "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정직 공무원",
+        "법무부 소속 일반직 공무원"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000254850",
+      "discovery_source": [
+        "LAW_API_MINISTRY",
+        "LAW_API_KEYWORD"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": null,
+      "official_seed_url": null,
+      "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "제2조 법무부·소속기관 3급 이하 일반직 공무원의 보직관리 기준",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
+    "secondary_domains": [],
+    "seed_names": [],
+    "source_kind": "admrul",
+    "status": "CURRENT",
+    "version_id": "2100000254850"
+  },
+  {
+    "business_domains": [
+      "인사·조직"
+    ],
+    "canonical_id": "admrul-37001",
+    "classification_status": "REVIEWED",
+    "corrections_category": "훈령",
+    "current_effective_date": "2024-08-12",
+    "current_name": "법무부소속 공무원 임용권 및 임용시험실시권 위임규칙",
+    "domain_assignment_status": "EVIDENCE_BASED",
+    "historical_names": [
+      "법무부소속 공무원 임용권 및 임용시험실시권 위임규칙 "
+    ],
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
+    "law_or_rule_identifier": "37001",
+    "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000245882",
+    "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정기관 임용·시험 담당자"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000245882",
+      "discovery_source": [
+        "LAW_API_MINISTRY",
+        "LAW_API_KEYWORD"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": null,
+      "official_seed_url": null,
+      "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정직공무원승진임용규정을 명시하는 소속기관 임용권·시험권 위임",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
+    "secondary_domains": [],
+    "seed_names": [],
+    "source_kind": "admrul",
+    "status": "CURRENT",
+    "version_id": "2100000245882"
+  },
+  {
+    "business_domains": [
+      "인권·청원"
+    ],
+    "canonical_id": "admrul-37470",
+    "classification_status": "REVIEWED",
+    "corrections_category": "훈령",
+    "current_effective_date": "2011-09-08",
+    "current_name": "인권침해 사건 조사·처리 및 구금·보호시설의 실태조사에 관한 규칙 시행세칙",
+    "domain_assignment_status": "EVIDENCE_BASED",
+    "historical_names": [
+      "인권침해사건조사및처리규칙 시행세칙"
+    ],
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
+    "law_or_rule_identifier": "37470",
+    "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2000000017011",
+    "primary_domain": "인권·청원",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정시설",
+        "인권업무 담당자"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2000000017011",
+      "discovery_source": [
+        "LAW_API_MINISTRY",
+        "LAW_API_KEYWORD"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": null,
+      "official_seed_url": null,
+      "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "법무부 구금·보호시설 인권침해 조사 및 실태조사 세부 절차",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
+    "secondary_domains": [],
+    "seed_names": [],
+    "source_kind": "admrul",
+    "status": "CURRENT",
+    "version_id": "2000000017011"
+  },
+  {
+    "business_domains": [
+      "인사·조직",
+      "교육·교화",
+      "작업·직업훈련"
+    ],
+    "canonical_id": "admrul-37556",
+    "classification_status": "REVIEWED",
+    "corrections_category": "훈령",
+    "current_effective_date": "2022-07-07",
+    "current_name": "연구업무수당 지급규칙",
+    "domain_assignment_status": "EVIDENCE_BASED",
+    "historical_names": [],
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
+    "law_or_rule_identifier": "37556",
+    "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000212345",
+    "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교도소 교육 담당 공무원",
+        "직업훈련교사"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000212345",
+      "discovery_source": [
+        "LAW_API_MINISTRY",
+        "LAW_API_KEYWORD"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": null,
+      "official_seed_url": null,
+      "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "목적조문에 교도소 등 교육 담당 공무원·직업훈련교사 연구업무수당 명시",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
+    "secondary_domains": [
+      "교육·교화",
+      "작업·직업훈련"
+    ],
+    "seed_names": [],
+    "source_kind": "admrul",
+    "status": "CURRENT",
+    "version_id": "2100000212345"
+  },
+  {
+    "business_domains": [
+      "인사·조직",
+      "민원"
+    ],
+    "canonical_id": "admrul-37578",
+    "classification_status": "REVIEWED",
+    "corrections_category": "훈령",
+    "current_effective_date": "2019-02-28",
+    "current_name": "민원담당공무원 수당지급 규칙",
+    "domain_assignment_status": "EVIDENCE_BASED",
+    "historical_names": [],
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
+    "law_or_rule_identifier": "37578",
+    "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000176439",
+    "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정기관 민원 담당 공무원"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000176439",
+      "discovery_source": [
+        "LAW_API_MINISTRY",
+        "LAW_API_KEYWORD"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": null,
+      "official_seed_url": null,
+      "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "법무부·소속기관 민원 담당 공무원의 수당 지급 기준",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
+    "secondary_domains": [
+      "민원"
+    ],
+    "seed_names": [],
+    "source_kind": "admrul",
+    "status": "CURRENT",
+    "version_id": "2100000176439"
+  },
+  {
+    "business_domains": [
+      "인사·조직",
+      "인권·청원"
+    ],
+    "canonical_id": "admrul-38684",
+    "classification_status": "REVIEWED",
+    "corrections_category": "훈령",
+    "current_effective_date": "2024-10-08",
+    "current_name": "법무부 성희롱·성폭력·스토킹 예방 및 처리지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
+    "historical_names": [
+      "법무부 성희롱·성폭력 예방 및 처리지침"
+    ],
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
+    "law_or_rule_identifier": "38684",
+    "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000256214",
+    "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정기관 직원",
+        "고충 처리 담당자"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000256214",
+      "discovery_source": [
+        "LAW_API_MINISTRY",
+        "LAW_API_KEYWORD"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": null,
+      "official_seed_url": null,
+      "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "법무부·소속기관 성희롱·성폭력·스토킹 예방·처리 절차",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
+    "secondary_domains": [
+      "인권·청원"
+    ],
+    "seed_names": [],
+    "source_kind": "admrul",
+    "status": "CURRENT",
+    "version_id": "2100000256214"
+  },
+  {
+    "business_domains": [
+      "인사·조직"
+    ],
+    "canonical_id": "admrul-38793",
+    "classification_status": "REVIEWED",
+    "corrections_category": "훈령",
+    "current_effective_date": "2014-07-23",
+    "current_name": "법무부 소속 공무원 등의 직무관련 범죄 고발지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
+    "historical_names": [],
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
+    "law_or_rule_identifier": "38793",
+    "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000004206",
+    "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "법무부 소속 공무원"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000004206",
+      "discovery_source": [
+        "LAW_API_MINISTRY",
+        "LAW_API_KEYWORD"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": null,
+      "official_seed_url": null,
+      "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "법무부 소속 공무원 직무 관련 범죄의 고발 대상·절차",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
+    "secondary_domains": [],
+    "seed_names": [],
+    "source_kind": "admrul",
+    "status": "CURRENT",
+    "version_id": "2100000004206"
+  },
+  {
+    "business_domains": [
+      "인사·조직"
+    ],
+    "canonical_id": "admrul-54232",
+    "classification_status": "REVIEWED",
+    "corrections_category": "예규",
+    "current_effective_date": "2022-09-05",
+    "current_name": "법무부 청탁금지법 관련 사무 처리지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
+    "historical_names": [],
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
+    "law_or_rule_identifier": "54232",
+    "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000214354",
+    "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "법무부 소속 공무원",
+        "청탁방지 담당자"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000214354",
+      "discovery_source": [
+        "LAW_API_MINISTRY",
+        "LAW_API_KEYWORD"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": null,
+      "official_seed_url": null,
+      "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "법무부 청탁금지법 사무 처리 및 담당 책임 절차",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
+    "secondary_domains": [],
+    "seed_names": [],
+    "source_kind": "admrul",
+    "status": "CURRENT",
+    "version_id": "2100000214354"
+  },
+  {
+    "business_domains": [
+      "인사·조직"
+    ],
+    "canonical_id": "admrul-64876",
+    "classification_status": "REVIEWED",
+    "corrections_category": "예규",
+    "current_effective_date": "2026-01-01",
+    "current_name": "법무부 맞춤형복지제도 운영지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
+    "historical_names": [],
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
+    "law_or_rule_identifier": "64876",
+    "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000270682",
+    "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정직 공무원",
+        "지방교정청장"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000270682",
+      "discovery_source": [
+        "LAW_API_MINISTRY",
+        "LAW_API_KEYWORD"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": null,
+      "official_seed_url": null,
+      "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "제2조 지방교정청장 운영 및 제3조 법무부 소속 공무원 복지 적용 명시",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
+    "secondary_domains": [],
+    "seed_names": [],
+    "source_kind": "admrul",
+    "status": "CURRENT",
+    "version_id": "2100000270682"
+  },
+  {
+    "business_domains": [
+      "인사·조직"
+    ],
+    "canonical_id": "admrul-66785",
+    "classification_status": "REVIEWED",
+    "corrections_category": "훈령",
+    "current_effective_date": "2022-07-21",
+    "current_name": "법무부와 그 소속기관의 보통징계위원회 설치 및 운영에 관한 규정",
+    "domain_assignment_status": "EVIDENCE_BASED",
+    "historical_names": [],
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
+    "law_or_rule_identifier": "66785",
+    "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000214168",
+    "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정기관 6급 이하 공무원",
+        "징계 담당자"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000214168",
+      "discovery_source": [
+        "LAW_API_MINISTRY",
+        "LAW_API_KEYWORD"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": null,
+      "official_seed_url": null,
+      "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "제2조 6급 이하 공무원, 제3·4조 교정기관 및 지방교정청 징계위원회 관할 명시",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
+    "secondary_domains": [],
+    "seed_names": [],
+    "source_kind": "admrul",
+    "status": "CURRENT",
+    "version_id": "2100000214168"
+  },
+  {
+    "business_domains": [
+      "인사·조직"
+    ],
+    "canonical_id": "admrul-68106",
+    "classification_status": "REVIEWED",
+    "corrections_category": "예규",
+    "current_effective_date": "2022-07-18",
+    "current_name": "법무부 고충업무처리지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
+    "historical_names": [],
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
+    "law_or_rule_identifier": "68106",
+    "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000213074",
+    "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정기관 직원",
+        "고충심사 담당자"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000213074",
+      "discovery_source": [
+        "LAW_API_MINISTRY",
+        "LAW_API_KEYWORD"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": null,
+      "official_seed_url": null,
+      "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "법무부 소속 직원 고충심사 절차; 본문 지방교정청·교도소·구치소 고충심사위원회 명시",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
+    "secondary_domains": [],
+    "seed_names": [],
+    "source_kind": "admrul",
+    "status": "CURRENT",
+    "version_id": "2100000213074"
+  },
+  {
+    "business_domains": [
+      "인사·조직"
+    ],
+    "canonical_id": "admrul-69673",
+    "classification_status": "REVIEWED",
+    "corrections_category": "훈령",
+    "current_effective_date": "2023-10-16",
+    "current_name": "법무부 적극행정공무원의 징계절차에서의 소명 또는 소송 등에 관한 지원 지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
+    "historical_names": [],
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
+    "law_or_rule_identifier": "69673",
+    "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000230450",
+    "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "법무부 소속 공무원"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000230450",
+      "discovery_source": [
+        "LAW_API_MINISTRY",
+        "LAW_API_KEYWORD"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": null,
+      "official_seed_url": null,
+      "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "적극행정 관련 징계 소명 및 형사·민사 소송 지원 절차",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
+    "secondary_domains": [],
+    "seed_names": [],
+    "source_kind": "admrul",
+    "status": "CURRENT",
+    "version_id": "2100000230450"
+  },
+  {
+    "business_domains": [
+      "인사·조직"
+    ],
+    "canonical_id": "admrul-74433",
+    "classification_status": "REVIEWED",
+    "corrections_category": "훈령",
+    "current_effective_date": "2025-12-03",
+    "current_name": "대체역 복무관리규칙",
+    "domain_assignment_status": "EVIDENCE_BASED",
+    "historical_names": [],
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
+    "law_or_rule_identifier": "74433",
+    "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268562",
+    "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정기관 대체복무 담당자",
+        "대체복무요원"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000268562",
+      "discovery_source": [
+        "LAW_API_MINISTRY",
+        "LAW_API_KEYWORD"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": null,
+      "official_seed_url": null,
+      "scope_class": "DIRECT_CORRECTIONS",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정기획과 소관; 제12조의2 지방교정청장 승인권한 및 교정기관 대체복무 관리 본문 근거",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
+    "secondary_domains": [],
+    "seed_names": [],
+    "source_kind": "admrul",
+    "status": "CURRENT",
+    "version_id": "2100000268562"
+  },
+  {
+    "business_domains": [
+      "인사·조직"
+    ],
+    "canonical_id": "admrul-74434",
+    "classification_status": "REVIEWED",
+    "corrections_category": "훈령",
+    "current_effective_date": "2023-12-28",
+    "current_name": "대체복무요원 교육규칙",
+    "domain_assignment_status": "EVIDENCE_BASED",
+    "historical_names": [],
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
+    "law_or_rule_identifier": "74434",
+    "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000233732",
+    "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "대체복무 교육센터",
+        "교육운영관"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000233732",
+      "discovery_source": [
+        "LAW_API_MINISTRY",
+        "LAW_API_KEYWORD"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": null,
+      "official_seed_url": null,
+      "scope_class": "DIRECT_CORRECTIONS",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정기획과 소관; 대체복무 교육운영관·교육센터 학사 및 복무 관리",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
+    "secondary_domains": [],
+    "seed_names": [],
+    "source_kind": "admrul",
+    "status": "CURRENT",
+    "version_id": "2100000233732"
+  },
+  {
+    "business_domains": [
+      "인사·조직"
+    ],
+    "canonical_id": "admrul-75221",
+    "classification_status": "REVIEWED",
+    "corrections_category": "훈령",
+    "current_effective_date": "2021-01-01",
+    "current_name": "지방교정청등의 조직 및 정원관리에 관한 규정",
+    "domain_assignment_status": "EVIDENCE_BASED",
+    "historical_names": [],
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
+    "law_or_rule_identifier": "75221",
+    "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000195809",
+    "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "지방교정청",
+        "교도소",
+        "구치소"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000195809",
+      "discovery_source": [
+        "LAW_API_MINISTRY",
+        "LAW_API_KEYWORD"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": null,
+      "official_seed_url": null,
+      "scope_class": "DIRECT_CORRECTIONS",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "지방교정청·교도소·구치소 조직 및 정원 운영·관리 기준",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
+    "secondary_domains": [],
+    "seed_names": [],
+    "source_kind": "admrul",
+    "status": "CURRENT",
+    "version_id": "2100000195809"
+  },
+  {
+    "business_domains": [
+      "인사·조직"
+    ],
+    "canonical_id": "admrul-77216",
+    "classification_status": "REVIEWED",
+    "corrections_category": "훈령",
+    "current_effective_date": "2021-04-27",
+    "current_name": "법무부 공무원의 주식 거래 제한에 관한 지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
+    "historical_names": [],
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
+    "law_or_rule_identifier": "77216",
+    "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000200518",
+    "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "법무부 소속 공무원"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000200518",
+      "discovery_source": [
+        "LAW_API_MINISTRY",
+        "LAW_API_KEYWORD"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": null,
+      "official_seed_url": null,
+      "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "법무부 및 소속기관 공무원의 직무 관련 주식 거래 준수사항",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
+    "secondary_domains": [],
+    "seed_names": [],
+    "source_kind": "admrul",
+    "status": "CURRENT",
+    "version_id": "2100000200518"
+  },
+  {
+    "business_domains": [
+      "교육·교화",
+      "인사·조직"
+    ],
+    "canonical_id": "admrul-78303",
+    "classification_status": "REVIEWED",
+    "corrections_category": "훈령",
+    "current_effective_date": "2026-09-21",
+    "current_name": "교정직 공무원의 교정교육 전문 강사 자격인정 및 절차에 관한 규정",
+    "domain_assignment_status": "EVIDENCE_BASED",
+    "historical_names": [],
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
+    "law_or_rule_identifier": "78303",
+    "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000285184",
+    "primary_domain": "교육·교화",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정직 공무원",
+        "교정교육 전문 강사"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000285184",
+      "discovery_source": [
+        "LAW_API_MINISTRY",
+        "LAW_API_KEYWORD"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": null,
+      "official_seed_url": null,
+      "scope_class": "DIRECT_CORRECTIONS",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "형집행법 제64조·시행규칙 제119조의2에 따른 교정직 전문강사 자격인정",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
+    "secondary_domains": [
+      "인사·조직"
+    ],
+    "seed_names": [],
+    "source_kind": "admrul",
+    "status": "CURRENT",
+    "version_id": "2100000285184"
+  },
+  {
+    "business_domains": [
+      "의료"
+    ],
+    "canonical_id": "admrul-83074",
+    "classification_status": "REVIEWED",
+    "corrections_category": "훈령",
+    "current_effective_date": "2025-09-01",
+    "current_name": "법무부 교정시설 감염병관리지원단 운영 규정",
+    "domain_assignment_status": "EVIDENCE_BASED",
+    "historical_names": [],
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
+    "law_or_rule_identifier": "83074",
+    "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000263134",
+    "primary_domain": "의료",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정시설",
+        "감염병관리지원단"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000263134",
+      "discovery_source": [
+        "LAW_API_MINISTRY",
+        "LAW_API_KEYWORD"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": null,
+      "official_seed_url": null,
+      "scope_class": "DIRECT_CORRECTIONS",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정시설 감염병 대응 정책·제도 자문 지원단의 구성·운영 규정",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
+    "secondary_domains": [],
+    "seed_names": [],
+    "source_kind": "admrul",
+    "status": "CURRENT",
+    "version_id": "2100000263134"
+  },
+  {
+    "business_domains": [
+      "인사·조직"
+    ],
+    "canonical_id": "admrul-84204",
+    "classification_status": "REVIEWED",
+    "corrections_category": "훈령",
+    "current_effective_date": "2023-01-09",
+    "current_name": "법무부 공무원의 부동산 신규취득 제한에 관한 지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
+    "historical_names": [],
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
+    "law_or_rule_identifier": "84204",
+    "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000218145",
+    "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "법무부 소속 공무원"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000218145",
+      "discovery_source": [
+        "LAW_API_MINISTRY",
+        "LAW_API_KEYWORD"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": null,
+      "official_seed_url": null,
+      "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "법무부 및 소속기관 공무원의 직무 관련 부동산 신규취득 제한",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
+    "secondary_domains": [],
+    "seed_names": [],
+    "source_kind": "admrul",
+    "status": "CURRENT",
+    "version_id": "2100000218145"
+  },
+  {
+    "business_domains": [
+      "인사·조직"
+    ],
+    "canonical_id": "admrul-84831",
+    "classification_status": "REVIEWED",
+    "corrections_category": "예규",
+    "current_effective_date": "2026-08-27",
+    "current_name": "교정직제 영어 명칭 등에 관한 지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
+    "historical_names": [],
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
+    "law_or_rule_identifier": "84831",
+    "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000284368",
+    "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정기관"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000284368",
+      "discovery_source": [
+        "LAW_API_MINISTRY",
+        "LAW_API_KEYWORD"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": null,
+      "official_seed_url": null,
+      "scope_class": "DIRECT_CORRECTIONS",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부·지방교정청·교도소·구치소 영어 명칭과 간판 규정",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
+    "secondary_domains": [],
+    "seed_names": [],
+    "source_kind": "admrul",
+    "status": "CURRENT",
+    "version_id": "2100000284368"
+  },
+  {
+    "business_domains": [
+      "인사·조직"
+    ],
+    "canonical_id": "admrul-86352",
+    "classification_status": "REVIEWED",
+    "corrections_category": "훈령",
+    "current_effective_date": "2026-03-26",
+    "current_name": "교정정책자문위원회 운영규정",
+    "domain_assignment_status": "EVIDENCE_BASED",
+    "historical_names": [
+      "교정정책자문위원회 운영 규정"
+    ],
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
+    "law_or_rule_identifier": "86352",
+    "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000276408",
+    "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정본부",
+        "교정기관"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000276408",
+      "discovery_source": [
+        "LAW_API_MINISTRY",
+        "LAW_API_KEYWORD"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": null,
+      "official_seed_url": null,
+      "scope_class": "DIRECT_CORRECTIONS",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정정책자문위원회와 교정기관 자문위원회의 구성·운영 규정",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
+    "secondary_domains": [],
+    "seed_names": [],
+    "source_kind": "admrul",
+    "status": "CURRENT",
+    "version_id": "2100000276408"
+  },
+  {
+    "business_domains": [
+      "수용·보안"
+    ],
+    "canonical_id": "admrul-86499",
+    "classification_status": "REVIEWED",
+    "corrections_category": "훈령",
+    "current_effective_date": "2024-11-01",
+    "current_name": "교정특별사법경찰 운영규정",
+    "domain_assignment_status": "EVIDENCE_BASED",
+    "historical_names": [],
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
+    "law_or_rule_identifier": "86499",
+    "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000249288",
+    "primary_domain": "수용·보안",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정특별사법경찰"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000249288",
+      "discovery_source": [
+        "LAW_API_MINISTRY",
+        "LAW_API_KEYWORD"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": null,
+      "official_seed_url": null,
+      "scope_class": "DIRECT_CORRECTIONS",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정 담당 특별사법경찰 직무 수행; 법무부 특별점검팀 소관",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
+    "secondary_domains": [],
+    "seed_names": [],
+    "source_kind": "admrul",
+    "status": "CURRENT",
+    "version_id": "2100000249288"
+  },
+  {
+    "business_domains": [
+      "수용·보안",
+      "인사·조직"
+    ],
+    "canonical_id": "admrul-87003",
+    "classification_status": "REVIEWED",
+    "corrections_category": "훈령",
+    "current_effective_date": "2023-11-01",
+    "current_name": "교도관 훈련에 관한 규칙",
+    "domain_assignment_status": "EVIDENCE_BASED",
+    "historical_names": [],
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
+    "law_or_rule_identifier": "87003",
+    "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000230968",
+    "primary_domain": "수용·보안",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교도관"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000230968",
+      "discovery_source": [
+        "LAW_API_MINISTRY",
+        "LAW_API_KEYWORD"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": null,
+      "official_seed_url": null,
+      "scope_class": "DIRECT_CORRECTIONS",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "형집행법·교도관직무규칙에 따른 교정사고 대응·장비 훈련 규정",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
+    "secondary_domains": [
+      "인사·조직"
+    ],
+    "seed_names": [],
+    "source_kind": "admrul",
+    "status": "CURRENT",
+    "version_id": "2100000230968"
+  },
+  {
+    "business_domains": [
+      "인사·조직"
+    ],
+    "canonical_id": "admrul-89409",
+    "classification_status": "REVIEWED",
+    "corrections_category": "훈령",
+    "current_effective_date": "2024-06-11",
+    "current_name": "법무부 공무원의 가상자산 보유 제한에 관한 지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
+    "historical_names": [],
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
+    "law_or_rule_identifier": "89409",
+    "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000242426",
+    "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "법무부 소속 공무원"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000242426",
+      "discovery_source": [
+        "LAW_API_MINISTRY",
+        "LAW_API_KEYWORD"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": null,
+      "official_seed_url": null,
+      "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "법무부 및 소속기관 공무원·이해관계자의 직무 관련 가상자산 보유 제한",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
+    "secondary_domains": [],
+    "seed_names": [],
+    "source_kind": "admrul",
+    "status": "CURRENT",
+    "version_id": "2100000242426"
+  },
+  {
+    "business_domains": [
+      "인사·조직"
+    ],
+    "canonical_id": "admrul-91035",
+    "classification_status": "REVIEWED",
+    "corrections_category": "훈령",
+    "current_effective_date": "2024-12-02",
+    "current_name": "교정본부 의장대·악대 운영규정",
+    "domain_assignment_status": "EVIDENCE_BASED",
+    "historical_names": [],
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
+    "law_or_rule_identifier": "91035",
+    "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000254240",
+    "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정본부 의장대·악대"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000254240",
+      "discovery_source": [
+        "LAW_API_MINISTRY",
+        "LAW_API_KEYWORD"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": null,
+      "official_seed_url": null,
+      "scope_class": "DIRECT_CORRECTIONS",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 의장대·악대 편성 및 운영을 목적조문에서 규정",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
+    "secondary_domains": [],
+    "seed_names": [],
+    "source_kind": "admrul",
+    "status": "CURRENT",
+    "version_id": "2100000254240"
+  },
+  {
+    "business_domains": [
+      "심리치료",
+      "교육·교화"
+    ],
+    "canonical_id": "admrul-97044",
+    "classification_status": "REVIEWED",
+    "corrections_category": "예규",
+    "current_effective_date": "2026-05-18",
+    "current_name": "중독재활 업무지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
+    "historical_names": [],
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
+    "law_or_rule_identifier": "97044",
+    "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000278766",
+    "primary_domain": "심리치료",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "마약류수용자",
+        "알코올 관련사범",
+        "교정시설 재활 담당자"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000278766",
+      "discovery_source": [
+        "LAW_API_MINISTRY",
+        "LAW_API_KEYWORD"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": null,
+      "official_seed_url": null,
+      "scope_class": "DIRECT_CORRECTIONS",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "형집행법 제64조에 따른 마약류수용자·알코올 관련사범 중독재활 및 사회복귀 지원",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
+    "secondary_domains": [
+      "교육·교화"
+    ],
+    "seed_names": [],
+    "source_kind": "admrul",
+    "status": "CURRENT",
+    "version_id": "2100000278766"
+  },
+  {
+    "business_domains": [
+      "인사·조직"
+    ],
+    "canonical_id": "admrul-97483",
+    "classification_status": "REVIEWED",
+    "corrections_category": "훈령",
+    "current_effective_date": "2026-06-25",
+    "current_name": "자율기구 \"교정미래혁신단\" 설치 및 운영에 관한 규정",
+    "domain_assignment_status": "EVIDENCE_BASED",
+    "historical_names": [],
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
+    "law_or_rule_identifier": "97483",
+    "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000280640",
+    "primary_domain": "인사·조직",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정미래혁신단"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000280640",
+      "discovery_source": [
+        "LAW_API_MINISTRY",
+        "LAW_API_KEYWORD"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": null,
+      "official_seed_url": null,
+      "scope_class": "DIRECT_CORRECTIONS",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정기획과 소관 교정미래혁신단 설치·운영 규정",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
+    "secondary_domains": [],
+    "seed_names": [],
+    "source_kind": "admrul",
+    "status": "CURRENT",
+    "version_id": "2100000280640"
+  },
+  {
+    "business_domains": [
+      "기타"
+    ],
+    "canonical_id": "admrul-98096",
+    "classification_status": "REVIEWED",
+    "corrections_category": "예규",
+    "current_effective_date": "2026-08-28",
+    "current_name": "공모에 의한 교정시설 조성 입지 선정 평가지침",
+    "domain_assignment_status": "EVIDENCE_BASED",
+    "historical_names": [],
+    "last_verified_at": "2026-10-03T11:25:21.168801+00:00",
+    "law_or_rule_identifier": "98096",
+    "official_source": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000284462",
+    "primary_domain": "기타",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "교정시설 조성 담당자"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000284462",
+      "discovery_source": [
+        "LAW_API_MINISTRY",
+        "LAW_API_KEYWORD"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": null,
+      "official_seed_url": null,
+      "scope_class": "DIRECT_CORRECTIONS",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정시설 조성 부지 공모 평가를 목적조문에서 규정",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
+    "secondary_domains": [],
+    "seed_names": [],
+    "source_kind": "admrul",
+    "status": "CURRENT",
+    "version_id": "2100000284462"
   }
 ]

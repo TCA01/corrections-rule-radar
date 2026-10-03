@@ -216,11 +216,7 @@ export const GlobalSearch: React.FC<GlobalSearchProps> = ({ rules, onSelectRule 
                         </div>
 
                         <div className="search-result-meta">
-                          {rule.classification_status === 'REVIEW' || rule.business_domains.length === 0 ? (
-                            <span className="domain-label review">분야 검토중</span>
-                          ) : (
-                            <span className="domain-label">{primaryDomain}</span>
-                          )}
+                          <span className="domain-label">{primaryDomain || rule.business_domains[0] || '-'}</span>
                           <span className="effective-label">
                             {rule.metadata.effective_date || '-'}
                           </span>

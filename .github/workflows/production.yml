@@ -9,6 +9,10 @@ on:
         description: Full official outgoing-link identity audit
         type: boolean
         default: false
+      force_deploy:
+        description: Force rehearsal deploy of last-good validated state without legal change mutation
+        type: boolean
+        default: false
 concurrency:
   group: production-state-and-hosting
   cancel-in-progress: false
@@ -27,6 +31,14 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Restore opaque discovery fingerprints and pending review queue
+        uses: actions/cache@v4
+        with:
+          path: |
+            data/ops/discovery_pages.json
+            data/reports/discovery_candidates_api.json
+          key: ${{ runner.os }}-discovery-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: ${{ runner.os }}-discovery-
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
@@ -50,6 +62,8 @@ jobs:
         run: npm test --prefix web
       - name: Stage allowlisted state or heartbeat
         id: state
+        env:
+          FORCE_DEPLOY: ${{ inputs.force_deploy }}
         run: python scripts/generated_commit.py
       - name: Build web candidate
         if: steps.state.outputs.deploy_needed == 'true'
@@ -95,6 +109,9 @@ jobs:
             data/reports/production_sync.json
             data/reports/core_resolution.json
             data/reports/discovery_scan.json
+            data/reports/discovery_candidates_api.json
+            data/reports/full_id_revalidation.json
+            data/reports/domain_fallback.json
             data/reports/tests.json
             data/reports/firebase_artifact.json
             data/ops/health.json

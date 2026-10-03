@@ -1,0 +1,36 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "c8ac2aae405eae1a3fb8c767f00883a32565fa271de974e6889bf8e7b482d676",
+      "effective_date": "2026-08-28",
+      "identifier": "2100000284462",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000284462",
+      "snapshot_url": "/api/v1/rules/admrul-98096/versions/2100000284462-2026-08-28-ac82501853070cf1.json",
+      "version_id": "2100000284462"
+    },
+    "appendix_changes": [],
+    "before_version": null,
+    "canonical_id": "admrul-98096",
+    "change_type": "NEW_RULE",
+    "change_types": [
+      "NEW_RULE"
+    ],
+    "changed_article_count": 0,
+    "changed_articles": [],
+    "comparison_evidence": null,
+    "comparison_scope": "FULL_STRUCTURED_BODY",
+    "comparison_source": null,
+    "comparison_status": "COMPARISON_UNAVAILABLE",
+    "comparison_unavailable_reason": "BEFORE_VERSION_UNAVAILABLE",
+    "detected_at": "2026-10-03T11:27:41.976743+00:00",
+    "effective_date": "2026-08-28",
+    "event_id": "evt-0220f614bcac3173026923186e89ab1581abe9552817c15c5b02f27fbfeae7c8",
+    "fallback_reason": "OFFICIAL_COMPARISON_UNAVAILABLE",
+    "official_old_new_available": false,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000284462",
+    "promulgation_or_issue_date": "2026-08-28",
+    "regulation_name": "공모에 의한 교정시설 조성 입지 선정 평가지침",
+    "regulation_type": "예규"
+  },
+  "schema_version": "1.4"
+}

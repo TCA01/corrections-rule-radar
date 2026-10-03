@@ -9,8 +9,10 @@ def apply_domains(collection,domain_registry):
         cid=rule['canonical_id']; mapping=mappings.get(cid); snapshot=result['snapshots'][cid]
         basis=mapping['classification_basis'] if mapping else {}
         verified=bool(mapping and mapping['review_status']=='REVIEWED' and mapping['current_name']==snapshot['metadata']['name'] and basis.get('body_hash')==snapshot['hashes']['body_hash'] and basis.get('metadata_hash')==snapshot['hashes']['metadata_hash'])
-        rule['primary_domain']=mapping['primary_domain'] if verified else None
+        fallback=domain_registry.get('fallback_policy')=='OTHER_WITH_INTERNAL_LOW_CONFIDENCE'
+        rule['primary_domain']=mapping['primary_domain'] if verified else '기타' if fallback else None
         rule['secondary_domains']=mapping['secondary_domains'] if verified else []
-        rule['business_domains']=([rule['primary_domain']]+rule['secondary_domains']) if verified else []
-        rule['classification_status']='REVIEWED' if verified else 'REVIEW'
+        rule['business_domains']=([rule['primary_domain']]+rule['secondary_domains']) if verified or fallback else []
+        rule['classification_status']='REVIEWED' if verified or fallback else 'REVIEW'
+        if fallback: rule['domain_assignment_status']='EVIDENCE_BASED' if verified else 'FALLBACK'
     return result

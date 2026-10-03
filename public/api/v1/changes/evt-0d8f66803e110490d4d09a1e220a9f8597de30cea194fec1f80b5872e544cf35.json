@@ -1,0 +1,95 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "59a05d45e1ac2afedccf2d4e57a0ee2eda1f49bedb4786d1467ccd90511a8327",
+      "effective_date": "2014-07-23",
+      "identifier": "2100000004206",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000004206",
+      "snapshot_url": "/api/v1/rules/admrul-38793/versions/2100000004206-2014-07-23-51e464699f91a160.json",
+      "version_id": "2100000004206"
+    },
+    "appendix_changes": [
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0001",
+          "title": "범죄혐의사실발생 및 진행상황보고서",
+          "type": "서식",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=118955033"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0001",
+          "title": "범죄혐의 사실발생 및 진행상황보고서",
+          "type": "서식",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=8538095"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      }
+    ],
+    "before_version": {
+      "body_hash": "ea42fcd21bc3a60270b3403d3ecaa235c6dbc0256fce9481382880cb3c320450",
+      "effective_date": "2012-02-03",
+      "identifier": "2000000018336",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2000000018336",
+      "snapshot_url": "/api/v1/rules/admrul-38793/versions/2000000018336-2012-02-03-27e05d3497e09d88.json",
+      "version_id": "2000000018336"
+    },
+    "canonical_id": "admrul-38793",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "APPENDIX_METADATA_CHANGED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 2,
+    "changed_articles": [
+      {
+        "after_text": "제1조(목적) 이 지침은 「공무원의 직무관련 범죄 고발지침」(국무총리훈령 제305호, 1994. 11. 24.) 및 「법무부 자체감사규정」 제19조 제1항의 규정에 의하여 법무부 소속 공무원(검찰청 제외) 및 산하단체 임ㆍ직원이 그 직무와 관련하여 범죄행위를 한 경우에 고발할 대상과 절차 등을 정하여 이행함으로써 깨끗한 공직사회를 만드는 것을 목적으로 한다.",
+        "article_key": "article-1",
+        "article_number": "1",
+        "article_title": "제1조(목적)",
+        "before_text": "제1조(목적) 이 지침은 공무원의 직무관련 범죄 고발지침(국무총리훈령 제305호, 1994. 11. 24.) 및 법무부 자체감사규정 제19조 제1항의 규정에 의하여 법무부 소속 공무원(검찰청 제외) 및 산하단체 임ㆍ직원이 그 직무와 관련하여 범죄행위를 한 경우에 고발할 대상과 절차 등을 정하여 이행함으로써 깨끗한 공직사회를 만드는 것을 목적으로 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2014-07-23"
+      },
+      {
+        "after_text": "제4조(고발의 결정) ① (현행과 같음)\n② 위 제1항의 사항 중 다음 각 호의 경우에는 고발을 원칙으로 한다.\n1. 금품수수 관련\n2. ∼ 4. (현행과 같음)",
+        "article_key": "article-4",
+        "article_number": "4",
+        "article_title": "제4조(고발의 결정)",
+        "before_text": "제4조(고발의 결정) ① (생  략)\n② 위 제1항의 사항 중 다음 각 호의 경우에는 고발을 원칙으로 한다.\n1. 금품수수 관련\n2. ∼ 4. (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2014-07-23"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "2e8cdfb71fcad4fbab4c151c718779837a9402782cac5c50143029ff79bb143a",
+      "credential_redacted": false,
+      "raw_sha256": "8bc39f9e3e62122464994f0de41a07b21f15da35c44828ab51e4688031e9bc11",
+      "request": {
+        "ID": "2100000004206",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "8bc39f9e3e62122464994f0de41a07b21f15da35c44828ab51e4688031e9bc11"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T11:27:41.976743+00:00",
+    "effective_date": "2014-07-23",
+    "event_id": "evt-0d8f66803e110490d4d09a1e220a9f8597de30cea194fec1f80b5872e544cf35",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000004206",
+    "promulgation_or_issue_date": "2014-07-23",
+    "regulation_name": "법무부 소속 공무원 등의 직무관련 범죄 고발지침",
+    "regulation_type": "훈령"
+  },
+  "schema_version": "1.4"
+}

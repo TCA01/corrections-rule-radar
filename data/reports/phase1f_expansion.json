@@ -1,0 +1,210 @@
+{
+  "api_limited_production": 0,
+  "api_trackable_production": 106,
+  "approved_additions": 38,
+  "average_live_runtime_seconds": 147.953,
+  "backend_tests": {
+    "errors": 0,
+    "failure_test_ids": [],
+    "failures": 0,
+    "passed": true,
+    "public_contract": {
+      "failed_files": [],
+      "status": "PASS",
+      "validated_file_count": 470
+    },
+    "secret_scan": {
+      "file_count": 0,
+      "files": [],
+      "status": "PASS"
+    },
+    "tests": 130
+  },
+  "business_domain_coverage": 106,
+  "comparison_sources": {
+    "LAWGO_ADMIN_OLD_NEW": 71,
+    "LAWGO_OLD_NEW": 17,
+    "STRUCTURED_SNAPSHOT_DIFF": 12,
+    "UNAVAILABLE": 20
+  },
+  "comparison_unavailable": 20,
+  "cross_domain_added": 23,
+  "current": 104,
+  "direct_corrections_added": 15,
+  "domain_distribution_primary": {
+    "교육·교화": 4,
+    "급식·복지": 12,
+    "기타": 7,
+    "민영교도소": 4,
+    "민원": 1,
+    "보고": 3,
+    "보관금품": 1,
+    "분류·가석방": 7,
+    "수용·보안": 9,
+    "심리치료": 2,
+    "의료": 3,
+    "인권·청원": 3,
+    "인사·조직": 42,
+    "작업·직업훈련": 7,
+    "정보화": 1
+  },
+  "domain_review_pending": 0,
+  "events_with_changed_articles": 98,
+  "events_with_comparison": 100,
+  "fail_closed": "PASS",
+  "final_tracked": 106,
+  "firebase_deployed": false,
+  "first_run": "CHANGED",
+  "frontend_modified": false,
+  "historical_repealed": 2,
+  "history_backfill": {
+    "api_calls": 108,
+    "duration_seconds": 124.812,
+    "events_added": 41,
+    "initial_enactment_without_predecessor": 12,
+    "pairs": 41,
+    "passed": 38,
+    "predecessor_pairs": 29,
+    "rules": 38
+  },
+  "known_limitations": [
+    "20 events have no available predecessor/comparison; official omissions are preserved, with no fabricated differences.",
+    "Backfill covers the recent 90-day window and current predecessor, not every historical revision.",
+    "Administrative future versions are detected where the official stable-ID API exposes them; unpublished future versions cannot be exhaustively enumerated.",
+    "7 primary 기타 assignments have lower domain confidence; scope approval and API eligibility remain approved.",
+    "Requested report-domain IDs have different official current titles; stable IDs and official titles are preserved.",
+    "Opaque page hashes may change for non-regulation content, causing extra API discovery queries. No candidate is automatically admitted.",
+    "Hosted GitHub Actions, Firebase deployment, Web W4 consumption and final unattended E2E have not been executed in this phase."
+  ],
+  "last_good": "PASS",
+  "live_runs": [
+    {
+      "api_request_count": 128,
+      "api_response_seconds": 58.59,
+      "average_api_response_seconds": 0.457734,
+      "dataset_version": "ds-98bdc9ab4f0c49b90a76fe0a00c8efee2fdc7f7079c3cabc098c6da41ce1bc37",
+      "discovery_monitor_error": null,
+      "duration_seconds": 154.625,
+      "error_summary": {},
+      "event_ids_identical": true,
+      "failure_count": 0,
+      "finished_at": "2026-10-03T11:27:55.079422+00:00",
+      "last_good_dataset_version": "ds-98bdc9ab4f0c49b90a76fe0a00c8efee2fdc7f7079c3cabc098c6da41ce1bc37",
+      "mode": "CORE_STABLE_IDS",
+      "new_events": 0,
+      "persistent_new_events": 41,
+      "public_bytes_and_mtimes_identical": false,
+      "public_page_request_count": 0,
+      "public_page_response_seconds": 0.0,
+      "public_rewritten": true,
+      "result": "PUBLISHED",
+      "retry_count": 0,
+      "review_count": 0,
+      "snapshot_hashes_identical": false,
+      "started_at": "2026-10-03T11:25:20.451695+00:00",
+      "success_count": 106,
+      "total_http_request_count": 128,
+      "transport_error_summary": {}
+    },
+    {
+      "api_request_count": 128,
+      "api_response_seconds": 56.469,
+      "average_api_response_seconds": 0.441164,
+      "dataset_version": "ds-98bdc9ab4f0c49b90a76fe0a00c8efee2fdc7f7079c3cabc098c6da41ce1bc37",
+      "discovery_monitor_error": null,
+      "duration_seconds": 141.281,
+      "error_summary": {},
+      "event_ids_identical": true,
+      "failure_count": 0,
+      "finished_at": "2026-10-03T11:34:20.336972+00:00",
+      "last_good_dataset_version": "ds-98bdc9ab4f0c49b90a76fe0a00c8efee2fdc7f7079c3cabc098c6da41ce1bc37",
+      "mode": "CORE_STABLE_IDS",
+      "new_events": 0,
+      "persistent_new_events": 0,
+      "public_bytes_and_mtimes_identical": true,
+      "public_page_request_count": 0,
+      "public_page_response_seconds": 0.0,
+      "public_rewritten": false,
+      "result": "NO_CHANGE",
+      "retry_count": 0,
+      "review_count": 0,
+      "snapshot_hashes_identical": true,
+      "started_at": "2026-10-03T11:31:59.050065+00:00",
+      "success_count": 106,
+      "total_http_request_count": 128,
+      "transport_error_summary": {}
+    }
+  ],
+  "lower_confidence_other": 7,
+  "next_step": "Web W4 schema 1.4 integration and final unattended-operation E2E.",
+  "persistent_change_events": 120,
+  "phase": "PHASE 1F PRODUCTION EXPANSION",
+  "previous_core": 68,
+  "protected_files": {
+    "archives": 170,
+    "frontend": 23,
+    "old_event_details": 79,
+    "phase1d_evidence": 11
+  },
+  "protected_files_failures": [],
+  "provenance_coverage": 106,
+  "ready_for_web_w4": true,
+  "recent_90_day_events": 14,
+  "removed_appendix_normalization": {
+    "current_removed_count": 73,
+    "raw_metadata_preserved": true,
+    "status": "PASS"
+  },
+  "report_domain": {
+    "admrul-32484": {
+      "domains": [
+        "보고"
+      ],
+      "official_current_name": "현황작성 및 보고요령 지침"
+    },
+    "admrul-51868": {
+      "domains": [
+        "보고"
+      ],
+      "official_current_name": "교정본부 보고사무지침"
+    }
+  },
+  "review_production": 0,
+  "scheduled_rehearsal": {
+    "full_id_revalidation_count": 106,
+    "full_id_revalidation_status": "PASS",
+    "report": {
+      "api_request_count": 238,
+      "api_response_seconds": 101.204,
+      "average_api_response_seconds": 0.425227,
+      "dataset_version": "ds-98bdc9ab4f0c49b90a76fe0a00c8efee2fdc7f7079c3cabc098c6da41ce1bc37",
+      "discovery_monitor_error": null,
+      "duration_seconds": 262.656,
+      "error_summary": {},
+      "event_ids_identical": true,
+      "failure_count": 0,
+      "finished_at": "2026-10-03T11:44:22.586056+00:00",
+      "last_good_dataset_version": "ds-98bdc9ab4f0c49b90a76fe0a00c8efee2fdc7f7079c3cabc098c6da41ce1bc37",
+      "mode": "WEEKLY_FULL_AUDIT",
+      "new_events": 0,
+      "persistent_new_events": 0,
+      "public_bytes_and_mtimes_identical": true,
+      "public_page_request_count": 2,
+      "public_page_response_seconds": 1.641,
+      "public_rewritten": false,
+      "result": "NO_CHANGE",
+      "retry_count": 0,
+      "review_count": 0,
+      "snapshot_hashes_identical": true,
+      "started_at": "2026-10-03T11:39:59.927590+00:00",
+      "success_count": 106,
+      "total_http_request_count": 240,
+      "transport_error_summary": {}
+    },
+    "scope": "LOCAL_SAME_SCHEDULED_ENTRYPOINT_NOT_HOSTED_ACTIONS"
+  },
+  "schema": "1.4",
+  "second_run": "NO_CHANGE",
+  "selection_basis_coverage": 106,
+  "upcoming_events": 1
+}

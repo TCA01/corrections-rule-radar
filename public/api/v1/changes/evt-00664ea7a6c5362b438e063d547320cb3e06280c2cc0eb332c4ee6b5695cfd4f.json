@@ -1,0 +1,86 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "b0a83be411bc054259d4bcc7b8854fc1b1749e0a98211fa5b0e8316abe7ee751",
+      "effective_date": "2026-09-21",
+      "identifier": "2100000285184",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000285184",
+      "snapshot_url": "/api/v1/rules/admrul-78303/versions/2100000285184-2026-09-21-bb7f0687727b70d4.json",
+      "version_id": "2100000285184"
+    },
+    "appendix_changes": [
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169384303",
+          "sequence": "0006",
+          "title": "응시 자격 관련 학위 및 자격증",
+          "type": "별표",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169384299"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=140240723",
+          "sequence": "0006",
+          "title": "응시 자격 관련 자격증 및 학위",
+          "type": "별표",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=140240719"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      }
+    ],
+    "before_version": {
+      "body_hash": "2e83bdc6e55fca48b95014df68ef83019a200e5fe653b008acf2760a7b6b8c30",
+      "effective_date": "2024-05-03",
+      "identifier": "2100000240368",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000240368",
+      "snapshot_url": "/api/v1/rules/admrul-78303/versions/2100000240368-2024-05-03-da97a5d98aec4ed0.json",
+      "version_id": "2100000240368"
+    },
+    "canonical_id": "admrul-78303",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "APPENDIX_METADATA_CHANGED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 1,
+    "changed_articles": [
+      {
+        "after_text": "제9조(강사 자격의 등급 및 응시 자격) ① (현행과 같음)\n② 교정교육 전문 강사 1급에 응시하려는 자는 다음 각 호의 요건 중 어느 하나를 갖춰야 한다.\n1. 교정교육 전문 강사 2급 자격 취득 후 3년이 경과하고, 강의 누적 시간이 50시간 이상(단, 수용자 대상 강의 30시간 이상 포함)인 사람\n2. 교정직 경력 5년 이상인 사람으로서, 별표6의 관련 분야 박사학위를 취득한 사람\n③ 교정교육 전문 강사 2급에 응시하려는 사람은 다음 각 호의 요건 중 어느 하나를 갖춰야 한다.\n1. 교정기관에서 3회기 이상의 연속성을 가진 구조화된 교육ㆍ수강 프로그램을 15시간 이상 강의 또는 집행한 경력이 있는 사람\n2. 교정직 공무원 경력 5년 이상인 사람으로서, 별표6의 관련 분야 석사학위 또는 자격증을 취득한 사람\n3. 교정직 공무원 경력 5년 이상인 사람으로서, 강사로서 역량이 객관적 자료로 인정되어 소속 교정기관의 장(법무부는 교정본부장, 법무연수원은 교정연수부장) 추천을 받은 사람",
+        "article_key": "article-9",
+        "article_number": "9",
+        "article_title": "제9조(강사 자격의 등급 및 응시 자격)",
+        "before_text": "제9조(강사 자격의 등급 및 응시 자격) ① (생  략)\n② 교정교육 전문 강사 1급에 응시하려는 자는 다음 각 호의 요건 중 어느 하나를 갖춰야 한다.\n1. 교정교육 전문 강사 2급 자격 취득 후 3년이 경과하고 강의 누적 시간이 50시간 이상인 사람(단, 강의 시간 중 최소 30시간은 교정기관 수용자를 대상으로 하여야 하며, 그 외 직원 또는 일반인 대상 각종 강의 실적을 포함한다.)\n2. 교정교육 전문 강사 2급 자격 취득 후 3년이 경과하고 제4조에 따른 관련 분야 박사학위 취득자(단, 교정기관 수용자 상대 교육 시간이 최소 15시간 이상)\n③ 교정교육 전문 강사 2급에 응시하려는 자는 다음 각 호의 요건 중 어느 하나를 갖춰야 한다.\n1. 3회기 이상 연속성을 가진 구조화된 교육ㆍ수강 프로그램을 최소 15시간 이상 교정기관에서 강의 또는 집행한 경력\n2. 교정직 공무원 경력 5년 이상인 자로서 별표6의 관련 자격증 소지자 또는 관련 석사학위 소지자\n3. 교정직 공무원 경력 5년 이상 및 강사로서 교육 역량이 뛰어나고 객관적 자료로 인정되어 부서장 및 기관장(법무부는 교정본부장, 법무연수원은 교정연수부장) 추천을 받은 자",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-09-21"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "1ad552859945ac6c7a7964c2f63078f9454dd94abe67096c64d391092439d148",
+      "credential_redacted": false,
+      "raw_sha256": "31bb4955be3e50ca4cbe5112eb4884f75f927764848eaa8c698eb4c5849ae733",
+      "request": {
+        "ID": "2100000285184",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "31bb4955be3e50ca4cbe5112eb4884f75f927764848eaa8c698eb4c5849ae733"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T11:27:41.976743+00:00",
+    "effective_date": "2026-09-21",
+    "event_id": "evt-00664ea7a6c5362b438e063d547320cb3e06280c2cc0eb332c4ee6b5695cfd4f",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000285184",
+    "promulgation_or_issue_date": "2026-09-21",
+    "regulation_name": "교정직 공무원의 교정교육 전문 강사 자격인정 및 절차에 관한 규정",
+    "regulation_type": "훈령"
+  },
+  "schema_version": "1.4"
+}

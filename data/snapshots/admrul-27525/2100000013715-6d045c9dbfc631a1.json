@@ -1,0 +1,75 @@
+{
+  "appendices": [
+    {
+      "branch": "00",
+      "pdf_url": null,
+      "sequence": "0000",
+      "title": "공무원 특수지근무수당 지급대상기관과 그 등급별 지급대상자의 범위",
+      "type": "별표",
+      "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=19563701"
+    }
+  ],
+  "attachments": [
+    {
+      "title": "['976-공무원_특수지근무수당_지급대상기관과_그_등급별_지급대상자의_범위에_관한_규칙_일부개정안(등재용)[1].hwp', '976-공무원_특수지근무수당_지급대상기관과_그_등급별_지급대상자의_범위에_관한_규칙_일부개정안(등재용)[1].pdf']",
+      "type": "OFFICIAL_ATTACHMENT",
+      "url": "https://www.law.go.kr/['http:/law.go.kr/flDownload.do?flSeq=163874107%27%2C+%27http%3A%2F%2Flaw.go.kr%2FflDownload.do%3FflSeq%3D163874111%27%5D"
+    }
+  ],
+  "body": {
+    "addenda": {
+      "부칙공포번호": [
+        "575",
+        "628",
+        "976"
+      ],
+      "부칙공포일자": [
+        "20070101",
+        "20080618",
+        "20150210"
+      ],
+      "부칙내용": [
+        "부칙 이 규칙은 2007년 1월 1일부터 시행한다.",
+        "부칙 이 규칙은 공포한 날부터 시행하되, 화성외국인보호소 및 춘천출입국관리사무소 고성출장소에 관한 개정규정은 2005년 1월 1일부터, 청주외국인보호소에 관한 개정규정은 2005년 9월 27일부터 적용한다.",
+        "부칙 제1조(시행일) 이 규칙은 공포한 날부터 시행한다.제2조(일반적 적용례) 이 규칙은 2015년 1월 1일 이후 지급하는 특수지근무수당부터 적용한다."
+      ]
+    },
+    "articles": [
+      "제1조 (목적) 이 규칙은 공무원 특수지근무수당 지급대상 지역 및 기관과  그 등급별 구분에 관한 규칙 제2조제2항 별표2의 규정에 의하여 교도소, 구치소, 소년원, 소년분류심사원, 치료감호소, 외국인보호소, 출입국관리사무소의 등급별 수당지급대상자의 범위를 규정함을 목적으로 한다.",
+      "제2조 (등급별 수당지급대상자의 범위) 교도소, 구치소,  소년원, 소년분류심사원, 치료감호소, 외국인보호소, 출입국관리사무소의 등급별 수당지급대상자의 범위는 \"별표”와 같다."
+    ]
+  },
+  "canonical_id": "admrul-27525",
+  "evidence": {
+    "cache_key": "636b4b086c45f2bfb7ead12bdf0d82a4bbfb337f6fec3c9835971033a921d87a",
+    "credential_redacted": false,
+    "raw_sha256": "60b7e14f31c6f530ea17c22a55f36d56017b38ab43d8a476ec8aa6b45b15b301",
+    "request": {
+      "LID": "27525",
+      "target": "admrul",
+      "type": "JSON"
+    },
+    "stored_sha256": "60b7e14f31c6f530ea17c22a55f36d56017b38ab43d8a476ec8aa6b45b15b301"
+  },
+  "hashes": {
+    "appendix_hash": "4d93c8e6f1c127ee199854dc06be5b8ba1941d1fde8c32b678be800e4d6d2a18",
+    "attachment_link_hash": "8c50d7f8b48ddb8ec82c1c46d86255366975813f791a0d25727ab16f6fedead7",
+    "body_hash": "49f68e24146334901fffda766fdaac5cb858af80e42c0b8aaf251a4debec9b82",
+    "metadata_hash": "69d1366d4d60ba82605243c241d1e00a84ed3eeffe0395b2ff085903321e2ea1"
+  },
+  "metadata": {
+    "amendment_type": "일부개정",
+    "department": "법무부(혁신행정담당관)",
+    "effective_date": "2015-02-10",
+    "issue_date": "2015-02-10",
+    "issue_number": "976",
+    "ministry": "법무부",
+    "name": "공무원 특수지근무수당 지급대상기관과 그 등급별 지급대상자의 범위에 관한 규칙",
+    "official_state": "Y",
+    "rule_type": "훈령"
+  },
+  "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000013715",
+  "source_kind": "admrul",
+  "stable_identifier": "27525",
+  "version_id": "2100000013715"
+}

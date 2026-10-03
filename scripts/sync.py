@@ -14,6 +14,8 @@ from pipeline.discovery import candidate
 from pipeline.registry.domains import apply_domains
 from pipeline.diff.history import make_event,merge,identity
 from pipeline.publication.versions import url
+from pipeline.registry.approval import verify_expansion
+from pipeline.registry.provenance import apply_provenance
 
 ROOT=Path(__file__).resolve().parents[1]
 def read(path,default):
@@ -28,7 +30,8 @@ def sync(collection):
     state=read('data/registry/state.json',None); events=read('data/registry/events.json',[])
     if state:
         previous_ids=set(state['seed_ids']); actual_ids=set(collection['snapshots'])
-        if previous_ids!=actual_ids:
+        expanded=previous_ids!=actual_ids and verify_expansion(ROOT,state,collection)
+        if previous_ids!=actual_ids and not expanded:
             pending=seed_events(previous_ids,actual_ids,{**state['snapshots'],**collection['snapshots']},at)
             discoveries=[candidate(cid,collection['snapshots'][cid]['metadata']['name'],collection['snapshots'][cid]['official_source_url'],'CORRECTIONS_SEED') for cid in sorted(actual_ids-previous_ids)]
             write_json(ROOT/'data/reports/pending_seed_events.json',pending)
@@ -46,12 +49,17 @@ def sync(collection):
                 if prior['current_name']!=row['current_name']: old_names.append(prior['current_name'])
                 row['historical_names']=list(dict.fromkeys(n for n in old_names if n!=row['current_name']))
     added=[]
+    collection=apply_provenance(collection,read('data/registry/provenance.json',None))
     collection=apply_domains(collection,read('data/registry/business_domains.json',None))
+    fallback=[{'canonical_id':r['canonical_id'],'current_name':r['current_name'],'primary_domain':'기타','reason':'APPROVED_MAPPING_CONTENT_CHANGED_OR_MISSING'} for r in collection['registry'] if r.get('domain_assignment_status')=='FALLBACK']
+    write_json(ROOT/'data/reports/domain_fallback.json',{'records':fallback,'count':len(fallback)})
     if state:
         for cid,new in collection['snapshots'].items():
-            added+=compare(state['snapshots'].get(cid),new,at,repeal_evidence=new.get('repeal_evidence'))
+            # Inclusion in the approved scope establishes a current baseline;
+            # it is not evidence that a legal amendment happened today.
+            if cid in state['snapshots']: added+=compare(state['snapshots'][cid],new,at,repeal_evidence=new.get('repeal_evidence'))
             added+=future_events(state.get('future',{}).get(cid,[]),collection['future'].get(cid,[]),at)
-        added+=seed_events(state['seed_ids'],list(collection['snapshots']),{**state['snapshots'],**collection['snapshots']},at)
+        # Scope expansion is provenance, not a legal-change event.
     else:
         # First current dataset is a baseline, not a flood of fake amendments.
         for versions in collection['future'].values(): added+=future_events([],versions,at)
@@ -64,6 +72,9 @@ def sync(collection):
     previous_persistent_ids={e['event_id'] for e in persistent}
     candidates=[]; staged=collection.get('history_backfill',{})
     history+=staged.get('snapshots',[])
+    for row in collection['registry']:
+        prior_names=[s['metadata']['name'] for s in staged.get('snapshots',[]) if s['canonical_id']==row['canonical_id'] and s['metadata']['name']!=row['current_name']]
+        row['historical_names']=list(dict.fromkeys(row['historical_names']+sorted(set(prior_names))))
     for pair in staged.get('pairs',[]):
         new=pair['after']
         original=[e['detected_at'] for e in events if e['canonical_id']==new['canonical_id'] and e['new_version']==new['version_id'] and e['effective_date']==new['metadata']['effective_date']]
@@ -112,7 +123,7 @@ def sync(collection):
 def main():
     parser=argparse.ArgumentParser(); parser.add_argument('--from-collected',action='store_true'); args=parser.parse_args()
     if not args.from_collected:
-        from scripts.collect import run
+        from scripts.collect_core import run
         try: run()
         except Exception:
             ops=read('data/ops/health.json',{})

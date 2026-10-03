@@ -1,0 +1,82 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "f94360c2464d090b77d880df2b5307a16a9815bf9314045ff8f6389bab8aad62",
+      "effective_date": "2023-10-16",
+      "identifier": "2100000230450",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000230450",
+      "snapshot_url": "/api/v1/rules/admrul-69673/versions/2100000230450-2023-10-16-9b8687eb48e056d9.json",
+      "version_id": "2100000230450"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "dae6a814b530f13c1af0aa8560b4620f485d233a3a718e77504f35d8f703408a",
+      "effective_date": "2020-12-11",
+      "identifier": "2100000195532",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000195532",
+      "snapshot_url": "/api/v1/rules/admrul-69673/versions/2100000195532-2020-12-11-ab7156d50f45195a.json",
+      "version_id": "2100000195532"
+    },
+    "canonical_id": "admrul-69673",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 3,
+    "changed_articles": [
+      {
+        "after_text": "제1조(목적) 이 지침은 「적극행정 운영규정」(이하 “영”이라 한다)에서 정한 다음 각 호에 관한 세부사항 및 절차 등을 정함을 목적으로 한다.\n1. (현행과 같음)\n2. 영 제18조 제2항 제2호에 따른 공무원(퇴직한 공무원을 포함한다)의 고소ㆍ고발 등 형사사건 지원\n3. 영 제18조 제3항에 따른 공무원(퇴직한 공무원을 포함한다)의 민사상 책임과 관련된 소송 지원",
+        "article_key": "article-1",
+        "article_number": "1",
+        "article_title": "제1조(목적)",
+        "before_text": "제1조(목적) 이 지침은 「적극행정 운영규정」(이하 “영”이라 한다)에서 정한 다음 각 호에 관한 세부사항 및 절차 등을 정함을 목적으로 한다.”\n1. (생  략)\n2. 영 제18조 제2항 제2호에 따른 공무원의 고소ㆍ고발 등 형사사건 지원\n3. 영 제18조 제3항에 따른 공무원의 민사상 책임과 관련된 소송 지원",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-10-16"
+      },
+      {
+        "after_text": "제6조(변호인ㆍ소송대리인 보수의 지원) ① 법무부장관은 소속 공무원이 적극행정으로 인해 징계의결등 요구가 된 경우 또는 고소ㆍ고발 및 민사상 책임과 관련된 소송을 당한 경우 위원회 심의를 거쳐, 다음 각 호의 범위 내에서 변호인 또는 소송대리인 선임비용을 지원한다.\n1. ∼ 3. (현행과 같음)\n②·③ (현행과 같음)",
+        "article_key": "article-6",
+        "article_number": "6",
+        "article_title": "제6조(변호인ㆍ소송대리인 보수의 지원)",
+        "before_text": "제6조(변호인ㆍ소송대리인 보수의 지원) ① 법무부장관은 소속 공무원이 적극행정으로 인해 징계의결등 요구가 된 경우 또는 고소ㆍ고발 및 민사상 책임과 관련된 소송을 당한 경우 위원회 심의를 거쳐, 다음 각 호의 범위 내에서 변호인 또는 소송대리인 선임비용을 지원할 수 있다.\n1. ∼ 3. (생  략)\n②·③ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-10-16"
+      },
+      {
+        "after_text": "제17조(퇴직공무원에 대한 적용) (현행과 같음)",
+        "article_key": "article-17",
+        "article_number": "17",
+        "article_title": "제17조(퇴직공무원에 대한 적용)",
+        "before_text": "제17조(퇴직 공무원에 대한 적용) (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-10-16"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "b1a6066c0403c235b91036ee436a54ebf186b86214872ce53492914dd0814c60",
+      "credential_redacted": false,
+      "raw_sha256": "450405b094de9c45423b3064913edc761821b451e953bac30e59f8b6c4daeb00",
+      "request": {
+        "ID": "2100000230450",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "450405b094de9c45423b3064913edc761821b451e953bac30e59f8b6c4daeb00"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T11:27:41.976743+00:00",
+    "effective_date": "2023-10-16",
+    "event_id": "evt-9c8f20510d2c8ca5bde32ae198bf403456ec5e088e85df953ef1b8f26c1fe635",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000230450",
+    "promulgation_or_issue_date": "2023-10-16",
+    "regulation_name": "법무부 적극행정공무원의 징계절차에서의 소명 또는 소송 등에 관한 지원 지침",
+    "regulation_type": "훈령"
+  },
+  "schema_version": "1.4"
+}

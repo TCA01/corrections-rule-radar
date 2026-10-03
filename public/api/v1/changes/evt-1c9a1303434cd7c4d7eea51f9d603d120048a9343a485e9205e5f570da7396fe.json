@@ -1,0 +1,96 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "49f68e24146334901fffda766fdaac5cb858af80e42c0b8aaf251a4debec9b82",
+      "effective_date": "2015-02-10",
+      "identifier": "2100000013715",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000013715",
+      "snapshot_url": "/api/v1/rules/admrul-27525/versions/2100000013715-2015-02-10-f071f73b806bec80.json",
+      "version_id": "2100000013715"
+    },
+    "appendix_changes": [
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0000",
+          "title": "공무원 특수지근무수당 지급대상기관과 그 등급별 지급대상자의 범위",
+          "type": "별표",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=19563701"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": null,
+          "sequence": "0000",
+          "title": "공무원특수지근무수당지급대상기관과그등급별지급대상자의범위",
+          "type": "별표",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=5183750"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      }
+    ],
+    "before_version": {
+      "body_hash": "1e5f416124407b0ad2c9ead1004b1d28e782c4161bffa023dad237c68cbec0f4",
+      "effective_date": "2008-06-18",
+      "identifier": "2000000001599",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2000000001599",
+      "snapshot_url": "/api/v1/rules/admrul-27525/versions/2000000001599-2008-06-18-9d85bc4031a6ba18.json",
+      "version_id": "2000000001599"
+    },
+    "canonical_id": "admrul-27525",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "RULE_RENAMED",
+      "APPENDIX_METADATA_CHANGED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 2,
+    "changed_articles": [
+      {
+        "after_text": "제1조(목적) 이 규칙은 공무원 특수지근무수당 지급대상 지역 및 기관과  그 등급별 구분에 관한 규칙 제2조제2항 별표2의 규정에 의하여 교도소, 구치소, 소년원, 소년분류심사원, 치료감호소, 외국인보호소, 출입국관리사무소의 등급별 수당지급대상자의 범위를 규정함을 목적으로 한다.",
+        "article_key": "article-1",
+        "article_number": "1",
+        "article_title": "제1조(목적)",
+        "before_text": "제1조(목적) 이 규칙은 공무원 특수지근무수당 지급대상기관과 그 등급별 지급대상자의 범위에관한규칙 제2조제2항 별표2의 규정에 의하여 교도소, 구치소, , 소년원, 소년분류심사원, 치료감호소, 외국인보호소, 출입국관리사무소의 등급별 수당지급대상자의 범위를 규정함을 목적으로 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2015-02-10"
+      },
+      {
+        "after_text": "제2조(등급별 수당지급대상자의 범위) 교도소, 구치소,  소년원, 소년분류심사원, 치료감호소, 외국인보호소, 출입국관리사무소의 등급별 수당지급대상자의 범위는 “별표”와 같다.”",
+        "article_key": "article-2",
+        "article_number": "2",
+        "article_title": "제2조(등급별 수당지급대상자의 범위)",
+        "before_text": "제2조(등급별 수당지급대상자의 범위) 교도소, 구치소, , 소년원, 소년분류심사원, 치료감호소, 외국인보호소, 출입국관리사무소의 등급별 수당지급대상자의 범위는 “별표”와 같다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2015-02-10"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "8a914148235838e87f64ed8c5275752deaf896856c2cec72ccf454d6d4eea297",
+      "credential_redacted": false,
+      "raw_sha256": "6416b4baa471cc7fecff35ed7f96e06cccf963792ea6ed1e88b87a544119cf3b",
+      "request": {
+        "ID": "2100000013715",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "6416b4baa471cc7fecff35ed7f96e06cccf963792ea6ed1e88b87a544119cf3b"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T11:27:41.976743+00:00",
+    "effective_date": "2015-02-10",
+    "event_id": "evt-1c9a1303434cd7c4d7eea51f9d603d120048a9343a485e9205e5f570da7396fe",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000013715",
+    "promulgation_or_issue_date": "2015-02-10",
+    "regulation_name": "공무원 특수지근무수당 지급대상기관과 그 등급별 지급대상자의 범위에 관한 규칙",
+    "regulation_type": "훈령"
+  },
+  "schema_version": "1.4"
+}

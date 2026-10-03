@@ -1,8 +1,10 @@
 # API v1 freeze candidate — schema 1.1
 
 Historical Phase 1A candidate. Phase 1B deliberately migrates the active main
-contract to 1.2. Phase 1E now upgrades the active main contract to 1.3 for
-persistent history; immutable archives retain 1.1. See phase1e_contract.md.
+contract to 1.2. Phase 1E upgraded it to 1.3 for persistent history; Phase 1F
+now upgrades the active main contract to 1.4 for the approved 106-record scope,
+provenance and 보고 domain. Immutable archives retain 1.1; existing event details
+retain 1.3. See phase1f_contract.md.
 
 API_V1_CANDIDATE = true. This is a data contract candidate for React Web and
 Kotlin/Compose, not a deployed service or implemented client. Phase 1A explicitly

@@ -1,0 +1,36 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "d90ec25b3afa6b358d71592aa96ea02f902876e012452fdba349926cc7592f87",
+      "effective_date": "2026-06-25",
+      "identifier": "2100000280640",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000280640",
+      "snapshot_url": "/api/v1/rules/admrul-97483/versions/2100000280640-2026-06-25-2eb03d3d66b6d941.json",
+      "version_id": "2100000280640"
+    },
+    "appendix_changes": [],
+    "before_version": null,
+    "canonical_id": "admrul-97483",
+    "change_type": "NEW_RULE",
+    "change_types": [
+      "NEW_RULE"
+    ],
+    "changed_article_count": 0,
+    "changed_articles": [],
+    "comparison_evidence": null,
+    "comparison_scope": "FULL_STRUCTURED_BODY",
+    "comparison_source": null,
+    "comparison_status": "COMPARISON_UNAVAILABLE",
+    "comparison_unavailable_reason": "BEFORE_VERSION_UNAVAILABLE",
+    "detected_at": "2026-10-03T11:27:41.976743+00:00",
+    "effective_date": "2026-06-25",
+    "event_id": "evt-b5dd65a2241ad86210f0c993de865f59aeb553b8d3be1b8178b58b77cbd4d255",
+    "fallback_reason": "OFFICIAL_COMPARISON_UNAVAILABLE",
+    "official_old_new_available": false,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000280640",
+    "promulgation_or_issue_date": "2026-06-25",
+    "regulation_name": "자율기구 \"교정미래혁신단\" 설치 및 운영에 관한 규정",
+    "regulation_type": "훈령"
+  },
+  "schema_version": "1.4"
+}

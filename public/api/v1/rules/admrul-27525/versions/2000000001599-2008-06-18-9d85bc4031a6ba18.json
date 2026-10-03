@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.1",
+  "version": {
+    "appendices": [
+      {
+        "branch": "00",
+        "pdf_url": null,
+        "sequence": "0000",
+        "title": "공무원특수지근무수당지급대상기관과그등급별지급대상자의범위",
+        "type": "별표",
+        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=5183750"
+      }
+    ],
+    "attachments": [
+      {
+        "title": "★특수지수당규칙개정안(200800618).hwp",
+        "type": "OFFICIAL_ATTACHMENT",
+        "url": "https://law.go.kr/flDownload.do?flSeq=1731845"
+      }
+    ],
+    "body": {
+      "addenda": {
+        "부칙공포번호": "628",
+        "부칙공포일자": "20080618",
+        "부칙내용": "부칙 이 규칙은 공포한 날부터 시행하되, 화성외국인보호소 및 춘천출입국관리사무소 고성출장소에 관한 개정규정은 2005년 1월 1일부터, 청주외국인보호소에 관한 개정규정은 2005년 9월 27일부터 적용한다."
+      },
+      "articles": [
+        "제1조 (목적) 이 규칙은 공무원 특수지근무수당 지급대상기관과 그 등급별 지급대상자의 범위에관한규칙 제2조제2항 별표2의 규정에 의하여 교도소, 구치소, , 소년원, 소년분류심사원, 치료감호소, 외국인보호소, 출입국관리사무소의 등급별 수당지급대상자의 범위를 규정함을 목적으로 한다.",
+        "제2조 (등급별 수당지급대상자의 범위) 교도소, 구치소, , 소년원, 소년분류심사원, 치료감호소, 외국인보호소, 출입국관리사무소의 등급별 수당지급대상자의 범위는 \"별표\"와 같다."
+      ]
+    },
+    "canonical_id": "admrul-27525",
+    "hashes": {
+      "appendix_hash": "e02924bc2f6b0d3c548b819db3b5f399d54d72757fb190ab4dc31eb0c126acb8",
+      "attachment_link_hash": "27c82380eb12bd51ccd8b96172de3ee01e2f3acf4624466a5f5ea9fbcc0877a4",
+      "body_hash": "1e5f416124407b0ad2c9ead1004b1d28e782c4161bffa023dad237c68cbec0f4",
+      "metadata_hash": "ef3658094cb3bd76f8f8e61958d8031d2ea6f6ff84dd00eaa8f33462cb947889"
+    },
+    "metadata": {
+      "amendment_type": "일부개정",
+      "department": "법무부(혁신행정담당관)",
+      "effective_date": "2008-06-18",
+      "issue_date": "2008-06-18",
+      "issue_number": "628",
+      "ministry": "법무부",
+      "name": "공무원특수지근무수당지급대상기관과그등급별지급대상자의범위에관한규칙",
+      "official_state": "N",
+      "rule_type": "훈령"
+    },
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2000000001599",
+    "source_kind": "admrul",
+    "stable_identifier": "27525",
+    "version_id": "2000000001599",
+    "version_reference": {
+      "effective_date": "2008-06-18",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2000000001599",
+      "snapshot_url": "/api/v1/rules/admrul-27525/versions/2000000001599-2008-06-18-9d85bc4031a6ba18.json",
+      "version_id": "2000000001599"
+    },
+    "version_status": "ARCHIVE"
+  }
+}

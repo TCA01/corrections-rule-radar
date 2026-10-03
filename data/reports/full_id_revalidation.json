@@ -1,0 +1,2232 @@
+{
+  "count": 106,
+  "records": [
+    {
+      "canonical_id": "law-001668",
+      "evidence": [
+        {
+          "cache_key": "e4cc94f48d2806a00bfbea93467a86e80ec5ac105314da28a309f1ebe503e9f4",
+          "credential_redacted": true,
+          "raw_sha256": "6f947bb5975f4bbdcf1b9474b35275ac3b3411ea526cef97c09ac9b43593289b",
+          "request": {
+            "LID": "001668",
+            "display": 100,
+            "nw": "1,2,3",
+            "page": 1,
+            "target": "eflaw",
+            "type": "JSON"
+          },
+          "stored_sha256": "b2c72af6f31df22eeae5b3018e31abb6840fa3af54e095eb0e59c4ad64e852fd"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "290191"
+    },
+    {
+      "canonical_id": "law-010878",
+      "evidence": [
+        {
+          "cache_key": "05b1c3cbb451ece2d6c9a89781d2affb66669fc79a6731789b4e07dd55f44249",
+          "credential_redacted": true,
+          "raw_sha256": "8e1d79f97188be4579545b0569bef0f2a261e35d144867db8a3abd5aaf3aefb5",
+          "request": {
+            "LID": "010878",
+            "display": 100,
+            "nw": "1,2,3",
+            "page": 1,
+            "target": "eflaw",
+            "type": "JSON"
+          },
+          "stored_sha256": "e15e5e8f24de826b1c71bb0a298980a34805c41cb219337d3e831c0e00015ea1"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "138747"
+    },
+    {
+      "canonical_id": "law-012347",
+      "evidence": [
+        {
+          "cache_key": "09daaad280be2dc199d1de76d6ca2dea64be2866afe2080c07dbc5e1a39eb037",
+          "credential_redacted": true,
+          "raw_sha256": "ae5161971ed7b310c230dd690b54fe855dd2bb2aba028a1084fcb2eacb8ed3ee",
+          "request": {
+            "LID": "012347",
+            "display": 100,
+            "nw": "1,2,3",
+            "page": 1,
+            "target": "eflaw",
+            "type": "JSON"
+          },
+          "stored_sha256": "8c082f2d4e28bb9ef4f7a1c61e17df1eec61078423e2a8f7f892653f27043e43"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "222423"
+    },
+    {
+      "canonical_id": "law-011894",
+      "evidence": [
+        {
+          "cache_key": "46922acc7c0436b111f8b2bf8f855604173809e09cc7357387b89d198cb5f175",
+          "credential_redacted": true,
+          "raw_sha256": "bcb788340ea266d73f5efe600ae13089f9a59425387ed0a91da0c6e99a44023f",
+          "request": {
+            "LID": "011894",
+            "display": 100,
+            "nw": "1,2,3",
+            "page": 1,
+            "target": "eflaw",
+            "type": "JSON"
+          },
+          "stored_sha256": "dbdbe1045b1b72423ff79315233f84e458371741ebdde8df0a73becd32340893"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "142443"
+    },
+    {
+      "canonical_id": "law-002027",
+      "evidence": [
+        {
+          "cache_key": "7b738dbbf574b869e25e0767dd7e211565d79c367523e0a710776cd45f0ff58e",
+          "credential_redacted": true,
+          "raw_sha256": "f97bebc1075000e8be4ccb3932995baaa9b9cbf9e2988b66480c94f3334b0284",
+          "request": {
+            "LID": "002027",
+            "display": 100,
+            "nw": "1,2,3",
+            "page": 1,
+            "target": "eflaw",
+            "type": "JSON"
+          },
+          "stored_sha256": "80c516011568e7f8e73465203f62463e2ca281f0647e50cb9badc02301582b80"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "276277"
+    },
+    {
+      "canonical_id": "law-012557",
+      "evidence": [
+        {
+          "cache_key": "3998e3536ac3f722eaf3aadb215cb28fe15608998f46ceb5e38e20ad3231e680",
+          "credential_redacted": true,
+          "raw_sha256": "b2bb58b6179290a03c2691e625d71d7218b72dd3012a6abf96c0a4d65e833932",
+          "request": {
+            "LID": "012557",
+            "display": 100,
+            "nw": "1,2,3",
+            "page": 1,
+            "target": "eflaw",
+            "type": "JSON"
+          },
+          "stored_sha256": "827e1d0d07222210b94e1d6305965954ffc68adea4dadd3df653d5bfe1b4bf9d"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "183520"
+    },
+    {
+      "canonical_id": "law-005630",
+      "evidence": [
+        {
+          "cache_key": "3bd4e2583a94d13386210f5e5604c857430f1c156adbf78c7698ea61489dc7e8",
+          "credential_redacted": true,
+          "raw_sha256": "27ab762df63a9b9ba18b694335fc6e984ef7f20901d54361dab15a4aee19d93a",
+          "request": {
+            "LID": "005630",
+            "display": 100,
+            "nw": "1,2,3",
+            "page": 1,
+            "target": "eflaw",
+            "type": "JSON"
+          },
+          "stored_sha256": "1525c52b594bcdd766ee0c69adf14f4a93948d30a35b487e1ba04cf2e07ab673"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "290535"
+    },
+    {
+      "canonical_id": "law-011092",
+      "evidence": [
+        {
+          "cache_key": "20f67600a06cd6923af473577b91e7305046c7894037fd766c8186c4fe1a4e1b",
+          "credential_redacted": true,
+          "raw_sha256": "cf1c351d0864e3582cb7622c04435e040ed8ccf6672a9ca2d7f42adf7d8481ed",
+          "request": {
+            "LID": "011092",
+            "display": 100,
+            "nw": "1,2,3",
+            "page": 1,
+            "target": "eflaw",
+            "type": "JSON"
+          },
+          "stored_sha256": "9ab7471f101ac281dddc312c05011353a437914b770959442dde23f3288d44c1"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "106754"
+    },
+    {
+      "canonical_id": "law-002049",
+      "evidence": [
+        {
+          "cache_key": "2979a7267aac05049679df496e36bf83103cf2762fed1d91cfa588c9c5ca4e39",
+          "credential_redacted": true,
+          "raw_sha256": "78ae85de144ea33e914670e821b5d4d7909967fc1456f45db81c0f8d8c0dfba8",
+          "request": {
+            "LID": "002049",
+            "display": 100,
+            "nw": "1,2,3",
+            "page": 1,
+            "target": "eflaw",
+            "type": "JSON"
+          },
+          "stored_sha256": "8ce8fc1e7a0afed07c6d32bf7148b8d04e1a677aee6cc4a0d157c86076ab4b32"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "290173"
+    },
+    {
+      "canonical_id": "law-004057",
+      "evidence": [
+        {
+          "cache_key": "a97002f6078db4dec3cbe6b0fa9e97e2979bea52147f3e727b354d89656accf6",
+          "credential_redacted": true,
+          "raw_sha256": "288a6c1674a2616750e558b02ce26bc1ce243dbf7fd256db22f6ee0111a236b7",
+          "request": {
+            "LID": "004057",
+            "display": 100,
+            "nw": "1,2,3",
+            "page": 1,
+            "target": "eflaw",
+            "type": "JSON"
+          },
+          "stored_sha256": "399b13991daafd41ba486371ab144394efc7583f603f75554e503f17f340a471"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "290453"
+    },
+    {
+      "canonical_id": "law-002608",
+      "evidence": [
+        {
+          "cache_key": "615076cb74ca24f95819105673b4e97b9d6d0d853e814b69b6fafef1d7f64a58",
+          "credential_redacted": true,
+          "raw_sha256": "fa8ab2137ad00b4603345dc1ff5f64f7cb986c08253b8f2ce92557584883a251",
+          "request": {
+            "LID": "002608",
+            "display": 100,
+            "nw": "1,2,3",
+            "page": 1,
+            "target": "eflaw",
+            "type": "JSON"
+          },
+          "stored_sha256": "f945dfb79e7c00b9fa40d6a27cf9137faa138aadedce214c7f8f14c5d4ae9f87"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "289135"
+    },
+    {
+      "canonical_id": "law-009163",
+      "evidence": [
+        {
+          "cache_key": "879e5ada11dc6c19d7eadd197226919349a43bce4c30589f95e7b3df08728b26",
+          "credential_redacted": true,
+          "raw_sha256": "afef453b76017f269f1881981ce01955381247559909a01b2931905ab29ee19a",
+          "request": {
+            "LID": "009163",
+            "display": 100,
+            "nw": "1,2,3",
+            "page": 1,
+            "target": "eflaw",
+            "type": "JSON"
+          },
+          "stored_sha256": "f2b363fa9e6b510a58f61c5620bef6037bbbb0c71a6236485210db871fa6ab9f"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "271285"
+    },
+    {
+      "canonical_id": "law-012676",
+      "evidence": [
+        {
+          "cache_key": "deafb23c3fb4e7885e2840c5233da2d2974c7bf5b43b286f978e09a397daaac2",
+          "credential_redacted": true,
+          "raw_sha256": "3d8d943f34e5d4271edd511b9a36ab1bc579028591202d2a8cfa794a1ebd9008",
+          "request": {
+            "LID": "012676",
+            "display": 100,
+            "nw": "1,2,3",
+            "page": 1,
+            "target": "eflaw",
+            "type": "JSON"
+          },
+          "stored_sha256": "5d4e348c436d7da208a3e4ffd1ba5a592816bd1fd3b1eea068edc9c1b86bc86d"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "261779"
+    },
+    {
+      "canonical_id": "law-010883",
+      "evidence": [
+        {
+          "cache_key": "a29c2ad86b007e9695990d22a1f47e89689561150c5598201b626824ec14679a",
+          "credential_redacted": true,
+          "raw_sha256": "7d325e4ecdfc18e5184f6e077c664c5896573de29b454c11371e4d1ee6bcf502",
+          "request": {
+            "LID": "010883",
+            "display": 100,
+            "nw": "1,2,3",
+            "page": 1,
+            "target": "eflaw",
+            "type": "JSON"
+          },
+          "stored_sha256": "328288044718a6f91fe2815cad88797e92c540687038e28335c6e9afafc956b8"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "290561"
+    },
+    {
+      "canonical_id": "law-011097",
+      "evidence": [
+        {
+          "cache_key": "124d455fb3d164238b46bc47815396a0dbe531b3c67d1e167766b3702f26367c",
+          "credential_redacted": true,
+          "raw_sha256": "8b4ad8ff3da23f45a969d4479346fa53945182b5854045e0cb3e13b4f2a62427",
+          "request": {
+            "LID": "011097",
+            "display": 100,
+            "nw": "1,2,3",
+            "page": 1,
+            "target": "eflaw",
+            "type": "JSON"
+          },
+          "stored_sha256": "5871a3d5a40cfd82b157673913c59e6f0dc68517fec805ed597302e5586b0aa7"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "176754"
+    },
+    {
+      "canonical_id": "law-006524",
+      "evidence": [
+        {
+          "cache_key": "fc63adcbacdae17b4b2d638c40f91de15db29f64c31cb221dd2afdd592ecca37",
+          "credential_redacted": true,
+          "raw_sha256": "87d2ccf481798a24d3fa3d1eb1675749078f3dee873731df580fd3d0eec66765",
+          "request": {
+            "LID": "006524",
+            "display": 100,
+            "nw": "1,2,3",
+            "page": 1,
+            "target": "eflaw",
+            "type": "JSON"
+          },
+          "stored_sha256": "8eae3106a0c1193f39f38873770fdf780f6e4ac4c25969b18f09ed74c4adfb93"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "270769"
+    },
+    {
+      "canonical_id": "law-006521",
+      "evidence": [
+        {
+          "cache_key": "b394957488206ef69e9c2242b545143b252b76974012898ddf5109d729365f3c",
+          "credential_redacted": true,
+          "raw_sha256": "a2af0858477be28ecc00c4b65359cb94d6bee137c0c07a1a9ba2bc75b268a6fd",
+          "request": {
+            "LID": "006521",
+            "display": 100,
+            "nw": "1,2,3",
+            "page": 1,
+            "target": "eflaw",
+            "type": "JSON"
+          },
+          "stored_sha256": "5556d0549deedbb64fcf4b78762ddccd2ec4061acaad439be373e609b0eee213"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "258001"
+    },
+    {
+      "canonical_id": "law-010752",
+      "evidence": [
+        {
+          "cache_key": "37c282ce4689bfe9fa500d1ec46b84ab777b694951beb18b146ccec6cad03469",
+          "credential_redacted": true,
+          "raw_sha256": "7a86a10d036f9cae036b732d8615c905d650a88dd04e18db446e43b757c94492",
+          "request": {
+            "LID": "010752",
+            "display": 100,
+            "nw": "1,2,3",
+            "page": 1,
+            "target": "eflaw",
+            "type": "JSON"
+          },
+          "stored_sha256": "5f219441f19eb2523e5d53633d4052e553fc816204c3e364b0dae5eda2d20c60"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "176755"
+    },
+    {
+      "canonical_id": "law-009144",
+      "evidence": [
+        {
+          "cache_key": "fef4801993d72ff344acea35a445c336f2c64c1bc1428a282f0c8e42857d5dfa",
+          "credential_redacted": true,
+          "raw_sha256": "81703a463c4407b5fc52b8c04d2ccb115d8f708b8c8b717b4ad391344ce786aa",
+          "request": {
+            "LID": "009144",
+            "display": 100,
+            "nw": "1,2,3",
+            "page": 1,
+            "target": "eflaw",
+            "type": "JSON"
+          },
+          "stored_sha256": "6bddde9afd0488a1e76fe510fd7b6205916d90b03f8e7da9b7fc150f66a6be84"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "271415"
+    },
+    {
+      "canonical_id": "admrul-61378",
+      "evidence": [
+        {
+          "cache_key": "73e970cce9130085efaf646dc94999f7f434805b1ea02d739f9f8eff25d5e4ed",
+          "credential_redacted": true,
+          "raw_sha256": "7a36d79ac1b07b3428accfc01accbe380e3d595b16e3c1262af6fa542b2b621a",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "교정공무원 기관장(葬)에 관한 규정",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "c3a10f4f96042c495683d63a2cdff18709d761d0b51dfae49cc1beaea0aa1f0e"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000108059"
+    },
+    {
+      "canonical_id": "admrul-37730",
+      "evidence": [
+        {
+          "cache_key": "22ef574db79506fcc98f1c89d0faed98d1e8161d1c8770be2e944f6cd4bbdc03",
+          "credential_redacted": true,
+          "raw_sha256": "2aada3702fee69626fad56a48e15594216de6f2062520f447f88dc85fd500b13",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "교정공무원 상호부조회 규정",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "aba97229a9c14b6748256d992dd4b9d60ff98a3db9182ff2bd3185932e8be387"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000277210"
+    },
+    {
+      "canonical_id": "admrul-32486",
+      "evidence": [
+        {
+          "cache_key": "7c2e19a4594d0d2ef39be85c3562511e8f93e7eae9119d4e3f70dbf944c5a3a0",
+          "credential_redacted": true,
+          "raw_sha256": "52327c809a0a84a0535f84c0a819b32cab884ba1bf095534c2b0577c6ef0fcde",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "교정관련 영화·방송등 제작지원 지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "86a6050103f3b919b18bfc622cbe64302823610569197b81220564c288c19da4"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000249032"
+    },
+    {
+      "canonical_id": "admrul-26424",
+      "evidence": [
+        {
+          "cache_key": "28f48558d635895427d92224b9b80a49dc65df297e74f9f558d7c1eee14ac95a",
+          "credential_redacted": true,
+          "raw_sha256": "49ae190c629976659fecbd21f247c8432693030c7872d95a5fa24dd931c03014",
+          "request": {
+            "display": 100,
+            "nw": 2,
+            "page": 1,
+            "query": "교정기관 간판게시 및 교정직제 영문표기에 관한 지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "0f4ef8555044c2130fec52970308183419d9ee90fc299cc8a47a7a0182d96cf1"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000189927"
+    },
+    {
+      "canonical_id": "admrul-59009",
+      "evidence": [
+        {
+          "cache_key": "5929617ad11e232cbfa28238ef4c94be7d3cf9dbd8ba298cd7a6603eab017d79",
+          "credential_redacted": true,
+          "raw_sha256": "8493271be8e42177fd666eae6a68f7ee358b99f2fd27c76474f9de071750c19f",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "교정민원콜센터 운영규정",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "38a0cb702c7c8cec17873431987d3aa439a86a06c143d4bfbde1d4573cc4c779"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000274270"
+    },
+    {
+      "canonical_id": "admrul-28763",
+      "evidence": [
+        {
+          "cache_key": "dba37ef1e42ddd3db82ed05aad7886fc37a7a7162100b56d98e30b70ab40c6a7",
+          "credential_redacted": true,
+          "raw_sha256": "8ea07b8f066aedc662a2e9d5ba554414963d81a128e11b237f882a41a32c0300",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "교정사고 유형별 문책기준 지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "01a77a7675385bc0bb88cdd070410b4fc5304acc748b38046e1a21609602f262"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000210483"
+    },
+    {
+      "canonical_id": "admrul-37581",
+      "evidence": [
+        {
+          "cache_key": "a9acc7a327e381e7f79940d34ddc58f677da3e0daae376e0b3f1ac56a85fcb17",
+          "credential_redacted": true,
+          "raw_sha256": "7db94e74ed7213ccbec3a8f9f2da16370577f9d1a70392b932c709e82c45bc96",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "교정직공무원 임용시험의 체력검사 평가종목별 측정방법에 관한 규정",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "afe5d5d8fa6501ee7a53be25e0513284f39bef9362cc336e94c90926cb997241"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000178657"
+    },
+    {
+      "canonical_id": "admrul-37580",
+      "evidence": [
+        {
+          "cache_key": "84b2240c61367851d6a5c561d797316167d6746cec9c9298b01c835a78bc2dcf",
+          "credential_redacted": true,
+          "raw_sha256": "0ac47a84bbb82b707c66b181c7a5cc086af5054e4f254e13c93d0530ac8b1d51",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "순회점검반 운영지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "538e3b823702bee9e63a19067279a19b47999628517a30296cd71821f82e7ac6"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000180063"
+    },
+    {
+      "canonical_id": "admrul-32484",
+      "evidence": [
+        {
+          "cache_key": "56daed624864c5d139273e521f1596b62484e3776b7c1364993402ba7b12311a",
+          "credential_redacted": true,
+          "raw_sha256": "9d55d84bbe55f93e78169a95a23fdfa1dadc0467941180b8d8ca4237f5e3ba7e",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "현황작성 및 보고요령 지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "25e97c6ff22ae768d3f59825dfe5caeaae5a0aecfab2cf17e8d59c0c8a9fd5f7"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2000000025796"
+    },
+    {
+      "canonical_id": "admrul-37579",
+      "evidence": [
+        {
+          "cache_key": "223a566146c3707e8d190f35cbf567b04f54d26f0e87c5a026095bd99a58226e",
+          "credential_redacted": true,
+          "raw_sha256": "412c07aad1b4e30c711ed66a9d274f4c075dec68b6893b366c90f4f4e0133b19",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "휴가일수 계산 자체 기준 지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "14324c12a7fe3bdb19c7eb6328e405a54bb8ccbde81f63a993e465e31e5821d7"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000181661"
+    },
+    {
+      "canonical_id": "admrul-37585",
+      "evidence": [
+        {
+          "cache_key": "0ca650fca5ead9e93ecc741c58529edc861868b6c7911b01e3f32923101b75b8",
+          "credential_redacted": true,
+          "raw_sha256": "c70f53d309ddbe78129812fa8f28330ec3ffd6c259708fdc610a041c381b7406",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "교정위원 운영지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "5919190d050b02d232c839ff2dc21f1486be5a1f8a52b91e2f5340725e1125af"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000220730"
+    },
+    {
+      "canonical_id": "admrul-37584",
+      "evidence": [
+        {
+          "cache_key": "d97880162ac878b1f7c23078612ae4609ff101ff1e842cc0875b5596e9644090",
+          "credential_redacted": true,
+          "raw_sha256": "fbf24a5704ad799c6620e40107890e9054d8a75feaec2e51801111780ff091a6",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "수용자 교육교화 운영지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "3c8ca65d3f4fc5d4c4d6384c68cabfa02c09ed5b5e7152c9024de5a545cd55af"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000285778"
+    },
+    {
+      "canonical_id": "admrul-37586",
+      "evidence": [
+        {
+          "cache_key": "c28d85ae73c03180f295c8b5b74bd8b3a983fb8fa8c783cbdc469b615a942838",
+          "credential_redacted": true,
+          "raw_sha256": "b685cd613dc71478d41d9748da9668209c6fb599d7a9ee3bc2dcc078e58fb4b7",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "수용자 사회복귀지원 등에 관한 지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "b826a81fe8dbf8aacc49b70b372edce5ae8d75e141b5c9aac726876eaa2ba09a"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000255630"
+    },
+    {
+      "canonical_id": "admrul-37588",
+      "evidence": [
+        {
+          "cache_key": "34d2ea296bd580f9e927f0de11895069ac00da5f70613d5e0f0fb8858bd110d6",
+          "credential_redacted": true,
+          "raw_sha256": "e590fe2233b71b2e90690ae8d9a6ce5168f95deb278b4b80c047949b2fbc935c",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "교도관·대체복무요원 급식관리지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "6b6e2a360466b3f69ea33c9322ac46294ce2dfea19eb48faef45e508b21ebc2d"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000234494"
+    },
+    {
+      "canonical_id": "admrul-28712",
+      "evidence": [
+        {
+          "cache_key": "837f59e265270e4c36e2b4baaf161f47ac57888ac71fc222e1a788ecb51b42ca",
+          "credential_redacted": true,
+          "raw_sha256": "10ac653e6af1697cef2f15598ec9c74488627a3f247db23eb31694e661320c2e",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "교정기관 공무용 차량 관리 지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "b785b36866b8af71e15e47e00ad85638239408dd25f35d53cc46476bc16b6d16"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000250524"
+    },
+    {
+      "canonical_id": "admrul-37587",
+      "evidence": [
+        {
+          "cache_key": "c824a776f6c05a1f9e373812d9fe905924eb9ccafbe0a6bc4562138d6a738698",
+          "credential_redacted": true,
+          "raw_sha256": "11b872c44303c705e2171cd892be61f83f6244afbdea2ba3fcf9c3bf010dea3f",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "비상대기숙소 관리지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "b3633992e1ac204d45e4594876f3a306b5ca9145c2e38b9852988563c69fe362"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000232102"
+    },
+    {
+      "canonical_id": "admrul-32482",
+      "evidence": [
+        {
+          "cache_key": "d246590360e75d92bd969ef5cdba2c07cf5286193e78b3634fe120c08b695e4b",
+          "credential_redacted": true,
+          "raw_sha256": "b1e54b9283b85681a182b4c335039c2bd7e3d4644af9352a2d8a39bcbd209a01",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "사망수용자 장례비 지급 지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "cc3db98c7b113278511e36cd23c59789d75ba64fef191ebb8a927b6840963036"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000093894"
+    },
+    {
+      "canonical_id": "admrul-37589",
+      "evidence": [
+        {
+          "cache_key": "57362a674cc36ce636763a9fc63027abf28ff9a677c9b9171807eeef52cb43bd",
+          "credential_redacted": true,
+          "raw_sha256": "60f3f60b7ee587ae642515f08e1ab4ef73355e2931e9d59303bd2733dc7b9197",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "수용자 급식관리지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "885c722283e699092920adae06dffb5c7afa480a46f92524f6dae02ac86f8795"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000234496"
+    },
+    {
+      "canonical_id": "admrul-28718",
+      "evidence": [
+        {
+          "cache_key": "2b1b6e082c1baff1422bd3c9612cc14f08ce8003970b19d80b1650a85f1105ff",
+          "credential_redacted": true,
+          "raw_sha256": "a6a2f43f9e68b98d138edb0eaa8b247f5a7a059796e4c78b54526cb187d88aa7",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "수용자 피복관리 및 제작·운용에 관한 지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "5c9b8151a8c6a90b0a519b3b257b20516151e3bf43926acd1c88615a10465f2a"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000252600"
+    },
+    {
+      "canonical_id": "admrul-37590",
+      "evidence": [
+        {
+          "cache_key": "a65bd987762f4be5c5245ae74415db494939619210c2e074ce38a8be255aeb75",
+          "credential_redacted": true,
+          "raw_sha256": "2a4cc0e10a5222020152bc473712c97341b5168448f73568402cde25e4938551",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "보관금품 관리지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "d821b17624d3268754fe47eb965989c3946abb16ba7f18fef347148477d0731e"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000252598"
+    },
+    {
+      "canonical_id": "admrul-36282",
+      "evidence": [
+        {
+          "cache_key": "385c73daabdf9d529d862c0a3ba4947d6f08e6a6048393c4a9e5d69ddaef1525",
+          "credential_redacted": true,
+          "raw_sha256": "855cd8a18f98c6414d3bfaf3c00827c52b1432daae8270ac8b4eb1dd34a92d58",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "교도작업운영지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "57669a0cf80f261dcf82d06859b369e33c4b2ec94670fcae7c26398a1295a8e2"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000285400"
+    },
+    {
+      "canonical_id": "admrul-36283",
+      "evidence": [
+        {
+          "cache_key": "6be44867a69cea54e6ab2e6c9464cffa322bbfde580153a1ef9df257b26260ff",
+          "credential_redacted": true,
+          "raw_sha256": "4fe9f98c21a986e3bec8c48bb72ba09fd5a1ef97e6d6614e21e55bcd47bbd9e3",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "교도작업특별회계운영지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "65070d3aaeab47999279917e7242c5a446ce7bf7a26fa02463a8478992a5d83c"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000285404"
+    },
+    {
+      "canonical_id": "admrul-37583",
+      "evidence": [
+        {
+          "cache_key": "aa56b053da375bfcfabca9a4627ce9efa75a05ef741eb74cae208c28a9513bc6",
+          "credential_redacted": true,
+          "raw_sha256": "6971fd5ddb4b618b3c35e32d91aedd60a4e38965cae8e7a7a605b0ab1acda158",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "수형자 직업능력개발훈련 운영지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "4444cee72d4a8051377848ef939e702a6cf961d76b519fe57c291b747d88d9d0"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000260706"
+    },
+    {
+      "canonical_id": "admrul-34791",
+      "evidence": [
+        {
+          "cache_key": "47840635f84622c7d21e9d1b8263ef6a5e8ba8338c0a1ba2b066fca7ecc9df12",
+          "credential_redacted": true,
+          "raw_sha256": "5aea4bf0a4a6ec4ddea1995f54ce1eeb788b6c81714d65944d86a721f420bee2",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "수형자 취업 및 창업지원 업무 지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "13c4daa4c72242439d32b7e25312859956b6b0620b74a0946b813f4ca6250238"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000254464"
+    },
+    {
+      "canonical_id": "admrul-32485",
+      "evidence": [
+        {
+          "cache_key": "6dc28baf287afdc8677ca07956e1075c730c4df19392aa714bfd91205df932b3",
+          "credential_redacted": true,
+          "raw_sha256": "77218dc9e33a43143ae8b5cc6bad201ba78d02c4a2d86bc22f6a5b15cdd6ffbc",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "전문경력관 직업능력개발훈련교사 임용 규정",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "f6a05a2051d5eed0029c7ae7ff752931013872a62c34d63d5dc57c4867e0304b"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000254466"
+    },
+    {
+      "canonical_id": "admrul-35334",
+      "evidence": [
+        {
+          "cache_key": "2c42359989bcc48a63d0e4b3f262736e7dcff62c6436e4bfffb675749c6b3d87",
+          "credential_redacted": true,
+          "raw_sha256": "65e217281b1597e29414b4e54347402f0fb56f942baed6cda24b3d5b14d0e91c",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "가석방 업무지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "0eddc5328052212e2fdd3139dbe9b0af60db7a7b35c93951c210c815e588e4e0"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000276392"
+    },
+    {
+      "canonical_id": "admrul-37401",
+      "evidence": [
+        {
+          "cache_key": "0c97c3abc51723bbd23366f0f8d2a6871955aba9f338780fd83f9e4eca8c9f78",
+          "credential_redacted": true,
+          "raw_sha256": "af5854a32d04e232a637a366f720756853e03a79275cc0e4bec6beea1da35613",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "가석방심사위원회 운영지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "66a8d69bd7904050fd051d81bbdb78c666e81f2a3ae97c11a1ed9463d6b820f2"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000276340"
+    },
+    {
+      "canonical_id": "admrul-38225",
+      "evidence": [
+        {
+          "cache_key": "88886ed548b91940db02404cfd36bbe803c2bc41286dbf5ccb8912f5370ad480",
+          "credential_redacted": true,
+          "raw_sha256": "af38d1ab0e8dfe79424ec58b2948a3a9b8b51c171b9c71f87b02d5e55ad75d68",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "교정시설 경비등급별 수형자의 처우 등에 관한 지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "386534540a986775182d8d630d4459bb26db430cbdadadb0aef92e4c8a39ab71"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000243146"
+    },
+    {
+      "canonical_id": "admrul-37922",
+      "evidence": [
+        {
+          "cache_key": "e870aa6de8b7dc55a49c378337be6cc335c6d149612febc478a64e3e8397822c",
+          "credential_redacted": true,
+          "raw_sha256": "cb766425465bc3f6e5933236cc1e47ef54c416e66ac73a18d73b8309f4105b09",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "민영교도소 운영경비 회계 등에 관한 지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "56fdb8a45764a927fbcf07ae59b07a10875982f7338cd1ab2b3ae785acdf41cf"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000253510"
+    },
+    {
+      "canonical_id": "admrul-54074",
+      "evidence": [
+        {
+          "cache_key": "df31f9d47069a5f835ec62b08993b32721da8aae0aadba979522e78139255b48",
+          "credential_redacted": true,
+          "raw_sha256": "b3a6cea89fbb639746e9856be2ef8294af241b16b44dc19ccf675b8d774ca8cc",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "분류센터 운영지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "868083dadade121d022fb09ce328615574c4f0f2fdef381b28c8f4876e498640"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000256922"
+    },
+    {
+      "canonical_id": "admrul-2046965",
+      "evidence": [
+        {
+          "cache_key": "d812050f5a2cd4d98a0300a786d85ef6818ef8bdc97662f4a1c682c2f3ed38c2",
+          "credential_redacted": true,
+          "raw_sha256": "15eb3196ee6465908db36657a02c91e12c186e69feaf1ae94e6fa0ceef82ffbd",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "분류처우 업무지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "7e90e4b4d9fbe866d626f6fb0ed431a303a5f8d0a49d8e9dca4937f4f17863d3"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000255778"
+    },
+    {
+      "canonical_id": "admrul-40159",
+      "evidence": [
+        {
+          "cache_key": "3a109e4de10e0b647900f2791e9892a0f31d3d384153ae0413aa61983458c8fd",
+          "credential_redacted": true,
+          "raw_sha256": "5c89b05c20a99c7c2dcf779416216e8fbf507485e16b0e75fee7ceede202b551",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "소년수형자 처우 등에 관한 지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "3f2dd12ab89127ede78f09e3b7249026e4cee5b31a54e85411d5f569aeab2458"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000243132"
+    },
+    {
+      "canonical_id": "admrul-28644",
+      "evidence": [
+        {
+          "cache_key": "bfd79a6f3d2237ae2bbd01e1fd99f4a6087fabc1e9d32d78aa2adb57fe14fa6b",
+          "credential_redacted": true,
+          "raw_sha256": "5cd3e20d288c96db4064b363e00777f8d0b26b867fe6c6b2785f7e187d21ec75",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "수용자 인권업무 처리지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "04eb6517ea1a654e0583533eb4a7df0077e36b9bbceb19e347994df6dc2a9051"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000260276"
+    },
+    {
+      "canonical_id": "admrul-28645",
+      "evidence": [
+        {
+          "cache_key": "d178ee770e7711212bec86fc26e73dbe75926e8515791f1266e19b35eb4855ab",
+          "credential_redacted": true,
+          "raw_sha256": "b9eda2e3b399539954c9f66d4ca5a8c5aec1455cb6b6d78ffd6f8fb8768e15cd",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "수용자 청원 처리지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "f00fb106d9b1306090f54b0676d78cddb0ab080401826d24ac97b10efd25e521"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000233322"
+    },
+    {
+      "canonical_id": "admrul-37037",
+      "evidence": [
+        {
+          "cache_key": "bdc8cd560c6e8d6cdad73b610a65228fa8dfa10118cb3bc93b4b15908a8596c2",
+          "credential_redacted": true,
+          "raw_sha256": "92f1328f8c8006fdd1f8095d0685e28e6ef17f352c027549239773afc931d5e5",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "수용자 의료관리지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "761cf2151f7f837c1d1fd713d35d4f81085159b1fb49f7e730c7af0839b1837b"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000251988"
+    },
+    {
+      "canonical_id": "admrul-56055",
+      "evidence": [
+        {
+          "cache_key": "51e25067f1de728899e46b6a24b7167fbdea8c4035ba4dd4d6162def83261a63",
+          "credential_redacted": true,
+          "raw_sha256": "4c0170731431093d6b7336d9a4f871b323ccbcf7dfa9f0d0de49459b2a3f02bf",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "심리치료 업무지침 ",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "7a1946247e9101296bdf1c146852f657cbd43d7ce3b1851418447e48a29784c6"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000276308"
+    },
+    {
+      "canonical_id": "admrul-37575",
+      "evidence": [
+        {
+          "cache_key": "9f337ffb11c58055b95b49224ebfc7ac2943bec1f278b3eba8df7a9d9e38daa2",
+          "credential_redacted": true,
+          "raw_sha256": "51e512af78fef18daf29b30d20e48146f2714bf0ce2d3b647a581703c56f4de3",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "교정기 규정",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "81809b3532d45a4bdbba6b3e3558e888fd9e03b0439ed363692143eae0722475"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2000000024378"
+    },
+    {
+      "canonical_id": "admrul-32495",
+      "evidence": [
+        {
+          "cache_key": "fe3ccd2dfd1c348f992fcccaf39fd634f3eb6bfe22cf283799a2b475ce65e316",
+          "credential_redacted": true,
+          "raw_sha256": "d9b5a1872b4dc9c2ffce329db116a5661a392efc49a940018169e23838f68905",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "수용자 자비구매물품의 공급에 관한 지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "e70e64e453184ba526609924d331e19cef755a53764dd215989b6dedcd330552"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000198614"
+    },
+    {
+      "canonical_id": "admrul-39881",
+      "evidence": [
+        {
+          "cache_key": "1742984c4960d0b29c0ec43a303f83fd944dff65ecded5e008de41d50f4b46e1",
+          "credential_redacted": true,
+          "raw_sha256": "40356446afb62f8cdc071157f00d05135b43085cbd1672498ab9d44b0ae1b5be",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "교정공무원기장 등 수여 및 패용에 관한 규정",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "71f814c9bda26c85aa9669382e61dcfa2801fe2b99ea09df4bf31495e6b314fc"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000090194"
+    },
+    {
+      "canonical_id": "admrul-37576",
+      "evidence": [
+        {
+          "cache_key": "5bcb5fb64ee822e8a8df17d35ecd76045f17e6166c8fe8a75b9a32a6fa0a723e",
+          "credential_redacted": true,
+          "raw_sha256": "afdf216bf29a9e4594eaa0cd9b594ed8eb5e22c4d0338b4aa7041e346aa59d44",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "수용자 급식관리위원회 운영지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "f5a3ec74573df2f6a96999782722b73e5ee07e9565b7f90386bf5a5568f921e5"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000071879"
+    },
+    {
+      "canonical_id": "admrul-26678",
+      "evidence": [
+        {
+          "cache_key": "d96ef8dfe350c915aaadf0b3d9217dda648a98fd819b874fe7b90d4a6ac2ea2f",
+          "credential_redacted": true,
+          "raw_sha256": "5dbf728b782d46f18c3c276f27f3e7701a5693e50c660c4be59fc8a0eb7a3abe",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "교정의 날 규칙",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "841e6c498b949ce40919a0d90684e79f55707d008364f5bf88a14463c0e767b5"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2000000000735"
+    },
+    {
+      "canonical_id": "admrul-46978",
+      "evidence": [
+        {
+          "cache_key": "383129268d34f5750c36da6ab7e6a1d804fb68b5d841c2372254eee98af91e77",
+          "credential_redacted": true,
+          "raw_sha256": "19726c0c7fbd981760c1f91fb80bb43b8e1b74115b5607d399afb1e050fcc8e4",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "교정공무원 인사운영 규칙",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "95d4fc740ff67b2228771d62a14d918d2a85a60710bcc819354ee778817e5e02"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000234486"
+    },
+    {
+      "canonical_id": "admrul-51868",
+      "evidence": [
+        {
+          "cache_key": "5861961ff255021974367dd3c20a00d00b0e8d56725a2fe17e65b18674737966",
+          "credential_redacted": true,
+          "raw_sha256": "6d8626c8dda0c021b1c4251375bcc4c915d77e16e15075615c2cb39d72bb2f21",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "교정본부 보고사무지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "7642bb3df48bea0371d85c7a9a0695add305c58a49bc4d49ae8fb44a6490f642"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000211709"
+    },
+    {
+      "canonical_id": "admrul-26917",
+      "evidence": [
+        {
+          "cache_key": "dbd8741269d9d3e81bdfac375fe380ebe4fe07522d8d309e6092a6591e4a6259",
+          "credential_redacted": true,
+          "raw_sha256": "3f582b6e8f997b15eebdb4a4f34653905623366ed1003ea1c84e371d3083f11d",
+          "request": {
+            "display": 100,
+            "nw": 2,
+            "page": 1,
+            "query": "교정공무원 예절 규정",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "288f91d9c0ac8142ca2316f9390d6fbaa2ba5fd96ce85967317113e33ee9463f"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000230588"
+    },
+    {
+      "canonical_id": "admrul-28558",
+      "evidence": [
+        {
+          "cache_key": "db65977ee718766871bc2652d25e6c744ddc7ffe7cf7f3545318619d354427ba",
+          "credential_redacted": true,
+          "raw_sha256": "682a82066de304837d93b64b80d0bf51fbb2f73ca8f18ede55a8e23fcb0b9efb",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "교정공무원 지급품에 관한 지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "a1a01e92245878adee8bb09355148898ab6207a0884557563e7664e9260319de"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000252596"
+    },
+    {
+      "canonical_id": "admrul-28315",
+      "evidence": [
+        {
+          "cache_key": "9c79d3537a3ddad2e4d7cb0602bc978641d9f10d063599647330e16ce9267c13",
+          "credential_redacted": true,
+          "raw_sha256": "8207483c5cb499be5db0d9a8615bf68b04f4457ca9d83bdfed139a7dcd1fdd61",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "교정행정정보화업무지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "3de1aa27f415b403254eae327648de2fc5d6e09abb81441274a4a5df09c9562d"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000038844"
+    },
+    {
+      "canonical_id": "admrul-43058",
+      "evidence": [
+        {
+          "cache_key": "4871f9b5cd4450bac48b92dd2f609d8fc383ee15324e7d97b246ea10d3745dc0",
+          "credential_redacted": true,
+          "raw_sha256": "bab1b87431eb354dd91a00e95f8493710d14fdf97132f6e236aa4c72f7093122",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "경비교도 보상 등에 관한 지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "54a5fc1189c97fc5fbe857961ffd80a76ee1d687e709dc5aeb000a6f169ec7ae"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000278360"
+    },
+    {
+      "canonical_id": "admrul-37383",
+      "evidence": [
+        {
+          "cache_key": "84d918643c9c6c37b77cd125e5e9f47617593944d7d5d246619a8727405be370",
+          "credential_redacted": true,
+          "raw_sha256": "665939f1bbf966b33f13e0000117c1385d593fcb8cb210004cc33f0891d41c14",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "피보호감호자 분류처우 업무지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "4be51757fff7f14f56a592b884ded479838636d36b26e00b5d55d94ada637a20"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000243144"
+    },
+    {
+      "canonical_id": "admrul-26465",
+      "evidence": [
+        {
+          "cache_key": "6b06a5818c5b0eac7602a0e6daccaccf94203a053a5a92bb58908746b6b970d5",
+          "credential_redacted": true,
+          "raw_sha256": "5c3c83558072e987a7bfc0d1894f0dbe9b23331f063295daf331ea732e16fbf4",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "교도소와 소년원 및 외국인보호소 등 의무관 임상연구비 지급지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "d25e5175864db1f97f83bab1456d0828a4d34d176eccb380489a0d26cda905b0"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000230792"
+    },
+    {
+      "canonical_id": "admrul-2036599",
+      "evidence": [
+        {
+          "cache_key": "24f129967e4977672fc9e76650b38146ec4dd3fb2924a408ddda7ee2ede17ec1",
+          "credential_redacted": true,
+          "raw_sha256": "8d67ee0b214bd6f2fbc680a8c21a8355121029239c9a7eca8be431dae4e3d79e",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "법무부 교육훈련시간 승진반영제도 운영지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "629daeefbba91730931964f2691426ed8ea97d1765dd2935d2dc9f7a244d6ef2"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000219484"
+    },
+    {
+      "canonical_id": "admrul-2078078",
+      "evidence": [
+        {
+          "cache_key": "b6d0aa3d6a9c11daab9c800a8bf51e5e3e698ca7e2b8856d757bc846b714a912",
+          "credential_redacted": true,
+          "raw_sha256": "d04478095233afa6fa10ab6595683ba1f004b75abef8dc3c1e43599ee3434022",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "교정 종합상황실 운영 규정",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "26c632cee7ae831d4f504596fe46f77f06f384e1348c25ee9598c8ef5b2c90dd"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000252910"
+    },
+    {
+      "canonical_id": "admrul-26402",
+      "evidence": [
+        {
+          "cache_key": "be89c7143083e872e3d283d9ab57e3306fd1553ba62b22371707e2c2cf2d995d",
+          "credential_redacted": true,
+          "raw_sha256": "da3ad77a3c988002cdf0dc3d78f8d1680ebb22a346bb31e85b2e36f454206b04",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "법무부 공무원 행동강령",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "b84ce81236b8c9e4eaf6d0b194f87e4d344e84bd6187f52cb5a2d6f2ff92b6f3"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000284892"
+    },
+    {
+      "canonical_id": "admrul-27435",
+      "evidence": [
+        {
+          "cache_key": "dba0b38a6ed457ae9495d60a83679a07bb5cef7c83041e1125c436a66c56fbc1",
+          "credential_redacted": true,
+          "raw_sha256": "6822c597157728aec03b2e97b39536b80603213ae425d2574373c5c21aa99219",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "법무·검찰공무원의 부조리신고등에 대한 보상 및 포상 지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "a9a354beb58b54c00ab52a3ecc4485d78b08d9ca8f7af8fed04987c881437b7e"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000214353"
+    },
+    {
+      "canonical_id": "admrul-27439",
+      "evidence": [
+        {
+          "cache_key": "cce5fb54453f3e178f95dd223c02df913437a81521121cbd5fcf1d9b6993a653",
+          "credential_redacted": true,
+          "raw_sha256": "d7ec8dc5540cae55fcdab7d735a8776487fc62ea9ef61a20aa20f8a27cf9fa8a",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "법무부 자체감사규정",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "fabe13bae3600fb7635e8685a51e3ef0dd181bf5ac302401974e25d9f862a7a0"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000192262"
+    },
+    {
+      "canonical_id": "admrul-27525",
+      "evidence": [
+        {
+          "cache_key": "260c5ad2acc61449b0ac1f65ad719f61e19f0604c8ea4dc7a3ff93140284c11e",
+          "credential_redacted": true,
+          "raw_sha256": "f307d33f6acf40db46edd9a854d4d80e839e99f768d502d733f54b030a46245d",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "공무원 특수지근무수당 지급대상기관과 그 등급별 지급대상자의 범위에 관한 규칙",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "3977dd5ae4743df252c53530ec97932bb9939e337bbb794d56abebaa834d8a08"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000013715"
+    },
+    {
+      "canonical_id": "admrul-27617",
+      "evidence": [
+        {
+          "cache_key": "0c9db220eaaa125c53b0f77bdba74875fef6d6267691bc09af0061a4a995161c",
+          "credential_redacted": true,
+          "raw_sha256": "8f804e32a9310d4bf241c378cab0fa976d8eb64a0b1f2ea1cec905782ee2475e",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "법무부 소속 공무원의 비위 등 처리지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "62e5f598c03cdf69b8746eacf3415b26e1cfcb2e38c13a8a0ef7cc1f85ab6061"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2000000001694"
+    },
+    {
+      "canonical_id": "admrul-29857",
+      "evidence": [
+        {
+          "cache_key": "550b353287667df7a5f79fd763fd7cd6f6369c567a7c428d5d4518653155ab44",
+          "credential_redacted": true,
+          "raw_sha256": "3f347c1f273fd6f7cddc7a864536394fac5af484fe63df3ab0d80a12a3cc76ff",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "법무부 소관 회계 관계공무원의 관직지정과 임명권 위임에 관한 규정",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "00bd5ad2b80306355217735e14c4bf9d7ee7f3b7d5f39f556124789e80f5ae4d"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000260472"
+    },
+    {
+      "canonical_id": "admrul-32125",
+      "evidence": [
+        {
+          "cache_key": "59b17cd0187d06e2cc17b68410274dc16ea65b3787d5e4d4990a9229b90aacd9",
+          "credential_redacted": true,
+          "raw_sha256": "79bedb9f4bcfb398688813869a30ee63b906d71afb148cff417e706f6e4ffdd1",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "시설공사 검사업무규칙",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "7bd058c783226d89d09021119f1a669b945737b2e5ca4fa74292888168779ff4"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000249038"
+    },
+    {
+      "canonical_id": "admrul-35611",
+      "evidence": [
+        {
+          "cache_key": "5b8ecfea4a572b9689924d118bf1d3a0bc7cc2b13ad77db6f3fbca1e8f6c6341",
+          "credential_redacted": true,
+          "raw_sha256": "6ca8409a00ff530610c887ce722502c6466ed7e620baee9a3a4f0e39cd9d5bea",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "미결수용인 분리수용 협조(공범표시)",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "a06afdf674ab11d4a440b11e4f3fa8e33ecd8a57af88e7d10164bf4720f14366"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000241876"
+    },
+    {
+      "canonical_id": "admrul-37000",
+      "evidence": [
+        {
+          "cache_key": "56cc746bfe27167019b1bb9f76117de8e939d96f72a419d7a4c7632316c56b4f",
+          "credential_redacted": true,
+          "raw_sha256": "04bdbc5996f2f768ca34bde8fe120b47183c16042b9a6eda08f398008b724a89",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "법무부 소속 공무원 보직관리기준",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "de7785f0e1ca11d54881bab18da897c03906b131c89831a63afed59e2da0db7c"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000254850"
+    },
+    {
+      "canonical_id": "admrul-37001",
+      "evidence": [
+        {
+          "cache_key": "3420a90be1e4aa69c1015c58d2149dff5aac8705ba248c39f423bf13982706ce",
+          "credential_redacted": true,
+          "raw_sha256": "98460cb4e10a3c22d13a331004cd0b7e49b1191134347e35bcb5cb2840a5d011",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "법무부소속 공무원 임용권 및 임용시험실시권 위임규칙",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "3af454bb2ae1861aa1d15602b47773e8dde816a0aaa0812cbd3cb18724cde342"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000245882"
+    },
+    {
+      "canonical_id": "admrul-37470",
+      "evidence": [
+        {
+          "cache_key": "82d98b9c35d34c1a30599c05bbd9115b19424a4806da17cdfacafecd94964dc2",
+          "credential_redacted": true,
+          "raw_sha256": "25622851b81ae5afd8b438ddc02d82cc9cdb28d72732467b616dd9489c039b99",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "인권침해 사건 조사·처리 및 구금·보호시설의 실태조사에 관한 규칙 시행세칙",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "2dfa1fba7bf73e0f4ae8d835f5de07f09dbef2abde709bbbb8123f71b0f02cfe"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2000000017011"
+    },
+    {
+      "canonical_id": "admrul-37556",
+      "evidence": [
+        {
+          "cache_key": "927374971fa644f56859431a078562037cfbcda53891e35c3926536ceb365ee4",
+          "credential_redacted": true,
+          "raw_sha256": "cb7ea67087300018f73f4875bec13b46e6dc6bd3133dd2a1d4e6e2aba285a764",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "연구업무수당 지급규칙",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "fb56174c5a12e5dfe5a6665f811b326a2ee4eb92611bf20dd8514577289dde5f"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000212345"
+    },
+    {
+      "canonical_id": "admrul-37578",
+      "evidence": [
+        {
+          "cache_key": "6ee61d53bdac3f6063ce8cd84e5c385c2f65f73cb997a77b907fe2a1ada455ea",
+          "credential_redacted": true,
+          "raw_sha256": "0e2e6faae715f50aa4ec165fa263dc36f06a7d14fece230ff0b099db1562aacb",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "민원담당공무원 수당지급 규칙",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "19f95efc235370a414658d53f9af350fd75100a036619fb5171e8cc69c3b9ddf"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000176439"
+    },
+    {
+      "canonical_id": "admrul-38684",
+      "evidence": [
+        {
+          "cache_key": "118fe438d31c350b2f0f145e3e993dbdb440194dbb6b4a251f2b555caa5930f3",
+          "credential_redacted": true,
+          "raw_sha256": "9ff7655db5a8e9689c1e05a6aa849de420254c3413be9b004e8e189249c132e8",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "법무부 성희롱·성폭력·스토킹 예방 및 처리지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "8180a17408c3dee2211fb296c5f76a77930d8b38c68d43061a51c67470b3351e"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000256214"
+    },
+    {
+      "canonical_id": "admrul-38793",
+      "evidence": [
+        {
+          "cache_key": "714b6cd5b83e6e4b476f9bd83ead3ab4805088f587d2a913095c9e4a8ad0b4a9",
+          "credential_redacted": true,
+          "raw_sha256": "975b934523c4465d7d4f3bfa3714a6faf3538da7517324fe52948101d9cbeed2",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "법무부 소속 공무원 등의 직무관련 범죄 고발지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "7654049eb6f6b0a38f4b1393368854f93e84e76cc8395c5eee2d04f918640019"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000004206"
+    },
+    {
+      "canonical_id": "admrul-54232",
+      "evidence": [
+        {
+          "cache_key": "d6e5099153cf9f119f9a05a33ce9456118c4f6eb014c029cd98431f9d8654d33",
+          "credential_redacted": true,
+          "raw_sha256": "e4ec511614d226532a8c4c6aa05ab09eea1a37e9ecf8e000dd525f1e54d7ca41",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "법무부 청탁금지법 관련 사무 처리지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "453c3a8f68376e9d1861f8e82e1ea13a3951bd4e59f138b9787b09e7f64a16b3"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000214354"
+    },
+    {
+      "canonical_id": "admrul-64876",
+      "evidence": [
+        {
+          "cache_key": "2a6b0f73ea246f9ef880865e618b77ba7b835767f28664c35257f0049bd166cf",
+          "credential_redacted": true,
+          "raw_sha256": "354be40bab423b949ec988a938aa93d9800470b7331ae8fd7a8c222e2c47ee68",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "법무부 맞춤형복지제도 운영지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "4324a7bd41e165b8c13aff6a65b9611a5e3311e4ce73bebbc452bb677226954b"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000270682"
+    },
+    {
+      "canonical_id": "admrul-66785",
+      "evidence": [
+        {
+          "cache_key": "0cd8cef4163e45ac5583498652a4986eddfb9db99940f820ddb74141cadfe190",
+          "credential_redacted": true,
+          "raw_sha256": "85ce8cb9d4c484ffc4ed832f23ee02c4ca0f9f095790fb4daa957361ef5336a9",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "법무부와 그 소속기관의 보통징계위원회 설치 및 운영에 관한 규정",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "5f03e068b1b4e82abf9dd9c48aedfaa3f00cc129b567b6cb1884e9f561a123b9"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000214168"
+    },
+    {
+      "canonical_id": "admrul-68106",
+      "evidence": [
+        {
+          "cache_key": "66f4a38825fc53b23167f1e87654d34f89912723979cd53fb8bf865bd39a7e35",
+          "credential_redacted": true,
+          "raw_sha256": "7aa8f38ea0fcd7432760ea61028cfa57ff58261e1d05dc91a320c17aa8b8d1f5",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "법무부 고충업무처리지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "8549f79f38d48bec78b2df3717ad4962e23f7c122d90da66a5e21557b9908040"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000213074"
+    },
+    {
+      "canonical_id": "admrul-69673",
+      "evidence": [
+        {
+          "cache_key": "fad90d56d23bb4a278290cd0229ec5f3fc4e18459203ab2d9f56e47bae168e2a",
+          "credential_redacted": true,
+          "raw_sha256": "e1448767a9b645353ad97cb42630f76c63de97a7734e555b5d35111a26cac7ea",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "법무부 적극행정공무원의 징계절차에서의 소명 또는 소송 등에 관한 지원 지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "e8e71b0a7273a139bac51f446a1addb2ca0979bf0cc64960228dc8baa779af68"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000230450"
+    },
+    {
+      "canonical_id": "admrul-74433",
+      "evidence": [
+        {
+          "cache_key": "b817435c69fc053ab14da9d3fee32ce055a3b65129a7fed663fdbaeb68eb23f9",
+          "credential_redacted": true,
+          "raw_sha256": "2363552833caee9fa6f093d5e52a1cbca44c13948cf94b1106e7a859a80565de",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "대체역 복무관리규칙",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "edfe73ce03388872a0dc9ae056385715fe35592ae1a625a11c58d8747aba161c"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000268562"
+    },
+    {
+      "canonical_id": "admrul-74434",
+      "evidence": [
+        {
+          "cache_key": "d722d837bb247583f48f5a7a12aea0fffe3c72996780dce54345b2e6aae8e12e",
+          "credential_redacted": true,
+          "raw_sha256": "11e093115f652fe15a735fcc8cd808b4a9f7e94325a589babdee90c041847b17",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "대체복무요원 교육규칙",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "1f51563def8d0de754c39f06b49b6b1a69ae88a4ca4ab4666576e9bf881559c4"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000233732"
+    },
+    {
+      "canonical_id": "admrul-75221",
+      "evidence": [
+        {
+          "cache_key": "6c73fc2e8fdc343ea4813e966851159c3b6d7e5f473c12a6555f7591c4f0fd8c",
+          "credential_redacted": true,
+          "raw_sha256": "b2c4f8863f986faa0ba513ae5caee8c018641a55f2188f8872902a86e1254e77",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "지방교정청등의 조직 및 정원관리에 관한 규정",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "22621ea43ad197587ca18988be4c405d3c811cee325ccc500bdf7192bad85fc6"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000195809"
+    },
+    {
+      "canonical_id": "admrul-77216",
+      "evidence": [
+        {
+          "cache_key": "963c67021d2589df5bafeb2e8b9a23a89d465720e5a1300a8c84ea99fe801806",
+          "credential_redacted": true,
+          "raw_sha256": "0054c9b13cfda29b7fbf54089ab63010d4ff08a18a09efe647a4043a3788f0e8",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "법무부 공무원의 주식 거래 제한에 관한 지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "d8887458fbaa7c49d63ed39116817fe145cbb712011f4ea1be5767f257507940"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000200518"
+    },
+    {
+      "canonical_id": "admrul-78303",
+      "evidence": [
+        {
+          "cache_key": "2427fc94c579fc6bda8babc6e1e26dad13201d7f1971a5a767b5e97841b3e6ed",
+          "credential_redacted": true,
+          "raw_sha256": "b4042c64ea9a4beda058edcfaad20a23db2358a7c148ae5423ad259ebc87fa4d",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "교정직 공무원의 교정교육 전문 강사 자격인정 및 절차에 관한 규정",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "9bc73f9f3cfb5cc87d8032973bc6a273722461a40e0d2b61b388fb8ca182ed0c"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000285184"
+    },
+    {
+      "canonical_id": "admrul-83074",
+      "evidence": [
+        {
+          "cache_key": "36b81122e41156ed0c9db697643e20ffc660656bb16acb9b05f2b2963d0d8b75",
+          "credential_redacted": true,
+          "raw_sha256": "927b871d62116b0f39087d5d0e46b9606bd4257a373b11a72ee11f060cb737f0",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "법무부 교정시설 감염병관리지원단 운영 규정",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "7b852bdfd64cede44a2677b467666a5262ddc20c6ab2c941993140aa65e158f1"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000263134"
+    },
+    {
+      "canonical_id": "admrul-84204",
+      "evidence": [
+        {
+          "cache_key": "927452a02287c981ad7e1157fdbb8aa7cd6e8f10e0ca18b6c99b2c507ac8a9e8",
+          "credential_redacted": true,
+          "raw_sha256": "dcb534fc2f0e26e3123bc28b65e168e7ccad09fed243015e57b4c88f79e56add",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "법무부 공무원의 부동산 신규취득 제한에 관한 지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "092976ec45450316f575cb4aa1d18378bdc398a2196ef674e7db42eac25e1059"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000218145"
+    },
+    {
+      "canonical_id": "admrul-84831",
+      "evidence": [
+        {
+          "cache_key": "7673376fb1e51893d6171ea2a70d74f88601c994a2b367b4415a4025aa4d8c14",
+          "credential_redacted": true,
+          "raw_sha256": "f82a8ffdd7f411be00e2236c2c57c94242a948b49581ce3cb3bb8eacbd8b95de",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "교정직제 영어 명칭 등에 관한 지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "bc88f1ba703255e1d2cae9883879cc3d94f4af99f2377ca6ba651fb1cb3317f1"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000284368"
+    },
+    {
+      "canonical_id": "admrul-86352",
+      "evidence": [
+        {
+          "cache_key": "24c72dde76683dd51b606b06f5907a205f44ce8d65a46ac2841084c1ee3a22a1",
+          "credential_redacted": true,
+          "raw_sha256": "a749102fa4388a980c5fb0c35db79d46358345c29df9802c2b863c68b04a42f7",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "교정정책자문위원회 운영규정",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "82ad5f314bfb265246af2f89d33f79041ec449d055fff8d7031e35cdd1f377fd"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000276408"
+    },
+    {
+      "canonical_id": "admrul-86499",
+      "evidence": [
+        {
+          "cache_key": "bed3824e8206d935d10bd8dfbe71d88a81cc5af48dfae1bf5c04654160fdfbbd",
+          "credential_redacted": true,
+          "raw_sha256": "ffd7c632179189b239fc0f9529e459b6f98d75ebbe121ac97c3b0dcaba328b10",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "교정특별사법경찰 운영규정",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "0915d04064aba9a1a4c24f20e134c8f3a71069b22611c94c33e844916b2bb9c3"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000249288"
+    },
+    {
+      "canonical_id": "admrul-87003",
+      "evidence": [
+        {
+          "cache_key": "2af0b450df1ed0aa8c3f149cea520b582d2f987880234e6313d45c963c8297d9",
+          "credential_redacted": true,
+          "raw_sha256": "70bcffcac0efbb4000f6239dda97575aafe52194bee2c4b7f74d29cdc03ab82d",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "교도관 훈련에 관한 규칙",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "2d7a5c2b490f65c868978101cea16da12cda7fda1957b7e338d6a3c110e3a343"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000230968"
+    },
+    {
+      "canonical_id": "admrul-89409",
+      "evidence": [
+        {
+          "cache_key": "d9d94dc6dad2b6744967e8ad5b7b2384990ac6af35de8543d28af47731f27a87",
+          "credential_redacted": true,
+          "raw_sha256": "3503709eb14ad20d5e10e1999ae25e3d3ec44ffa3260816bcee3baa1a1195098",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "법무부 공무원의 가상자산 보유 제한에 관한 지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "6d4cfb08ab68d832264f93a5f05f1a17739a1d3a1765bb223dffea89ed95a0bb"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000242426"
+    },
+    {
+      "canonical_id": "admrul-91035",
+      "evidence": [
+        {
+          "cache_key": "87ce04c1561be79d2fd58b809a6e2784970107b33c6fe5f72224ae6f43c96920",
+          "credential_redacted": true,
+          "raw_sha256": "711659882357676489b4688e21679d924626726c7910aa1e8ef826c55c27ad66",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "교정본부 의장대·악대 운영규정",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "312f4d9fb54dc2d57537fecbfd070148ddb3a1ad1d24febcb8808be5cc723974"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000254240"
+    },
+    {
+      "canonical_id": "admrul-97044",
+      "evidence": [
+        {
+          "cache_key": "94985ca6142a6ba941d9fb1d9f5fe07421a7eb64bb33896e384dc7cd144aaef6",
+          "credential_redacted": true,
+          "raw_sha256": "ebd4b1983e13f5c1b3aa4a18fce2dd6b47abf9eefc8b9ac36f5eb6d4a9177a59",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "중독재활 업무지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "6576436a941666a208d5e485b52fec211b06dbde9e36aded6d8b3bd19fb4ef31"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000278766"
+    },
+    {
+      "canonical_id": "admrul-97483",
+      "evidence": [
+        {
+          "cache_key": "2bf29410223d9adb39e959b4c2e4fb7c21cf4b519308c61b9ea9c5c8109152ca",
+          "credential_redacted": true,
+          "raw_sha256": "5c09d5265ffd05f80b9ab95647fc303f96a1caa33398e3ed5837b5a4c4df1445",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "자율기구 \"교정미래혁신단\" 설치 및 운영에 관한 규정",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "90bcabfbb49773712001dbd77980a516511fd80bcffd7994f9bff3e36c71bdcc"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000280640"
+    },
+    {
+      "canonical_id": "admrul-98096",
+      "evidence": [
+        {
+          "cache_key": "3162e23f931df3332a02ba4e8e869aab8f8b437343665221328b2979de302a88",
+          "credential_redacted": true,
+          "raw_sha256": "160b479796264ae579f048aee7dcb61c65f36c7d5f76789e9bee01d98fcde750",
+          "request": {
+            "display": 100,
+            "nw": 1,
+            "page": 1,
+            "query": "공모에 의한 교정시설 조성 입지 선정 평가지침",
+            "target": "admrul",
+            "type": "JSON"
+          },
+          "stored_sha256": "272fb9bcfe34afec9c5a99b6358a28ebd54065f28d68c3602a558aa2868e8c7c"
+        }
+      ],
+      "status": "PASS",
+      "version_id": "2100000284462"
+    }
+  ],
+  "status": "PASS"
+}

@@ -1,0 +1,91 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "affef26a2e4109f89394b247eb34a67681acf30077f56233ddca681f41387121",
+      "effective_date": "2025-09-01",
+      "identifier": "2100000263134",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000263134",
+      "snapshot_url": "/api/v1/rules/admrul-83074/versions/2100000263134-2025-09-01-8b08f12dcdbb8cff.json",
+      "version_id": "2100000263134"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "193ce08c71c181d0243f8186691e6a9d63ef91255f2df9a6a69b12d578d401f4",
+      "effective_date": "2022-09-16",
+      "identifier": "2100000214520",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000214520",
+      "snapshot_url": "/api/v1/rules/admrul-83074/versions/2100000214520-2022-09-16-aa32ecbb188f0b9c.json",
+      "version_id": "2100000214520"
+    },
+    "canonical_id": "admrul-83074",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 4,
+    "changed_articles": [
+      {
+        "after_text": "제5조(지원단 회의 운영) ①·② (현행과 같음)\n③ 지원단 회의는 단장이 주재한다. 다만 불가피한 사유가 있을 때는 단장이 미리 지명한 위원이 주재할 수 있다.\n④ 교정본부장 등은 지원단 회의에 참석할 수 있다.",
+        "article_key": "article-5",
+        "article_number": "5",
+        "article_title": "제5조(지원단 회의 운영)",
+        "before_text": "제5조(지원단 회의 운영) ①·② (생  략)\n③ 지원단 회의는 단장이 주재한다. 다만 불가피한 사유가 있을 때는 위원 중 연장자가 대신하여 주재할 수 있다.\n④ 법무부 의료과장과 법무부 코로나19교정시설긴급대응단장은 지원단 회의에 참석할 수 있다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-09-01"
+      },
+      {
+        "after_text": "제6조(간사) ① (현행과 같음)\n② 간사는 법무부 의료과 소속 5급 이하 교도관으로 한다.",
+        "article_key": "article-6",
+        "article_number": "6",
+        "article_title": "제6조(간사)",
+        "before_text": "제6조(간사) ① (생  략)\n② 간사는 법무부 의료과 소속 5급 이상 교도관으로 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-09-01"
+      },
+      {
+        "after_text": "제8조(수당 등의 지급) 지원단 회의에 참석한 위원과 지원단 회의에 참석하여 발언하는 관계 전문가에 대해서는 수당과 여비를 지급할 수 있다.",
+        "article_key": "article-8",
+        "article_number": "8",
+        "article_title": "제8조(수당 등의 지급)",
+        "before_text": "제8조(수당 등의 지급) 지원단 회의에 참석한 위원과 지원단 회의에 참석하여 발언하는 공무원이 아닌 관계 전문가에 대해서는 수당과 여비를 지급할 수 있다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-09-01"
+      },
+      {
+        "after_text": "제12조(재검토기한) 법무부장관은 「훈령ㆍ예규의 발령 및 관리에 관한 규정」에 따라 이 규정에 대하여 2025년 9월 1일을 기준으로 매 3년이 되는 시점(매 3년째의 8월 31일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+        "article_key": "article-12",
+        "article_number": "12",
+        "article_title": "제12조(재검토기한)",
+        "before_text": "제12조(재검토기한) 법무부장관은 「훈령ㆍ예규의 발령 및 관리에 관한 규정」에 따라 이 규정에 대하여 2022년 9월 1일을 기준으로 매 3년이 되는 시점(매 3년째의 12월 31일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2025-09-01"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "ba99dabf1107b2fffd56f433f92f7c0b76d3fdd1b75bc6a15aeae5185462f33d",
+      "credential_redacted": false,
+      "raw_sha256": "91dd689bd3dc5bbe6bb1504b3869888db8ec9bd0215ca14cdf53aab77f26dfdc",
+      "request": {
+        "ID": "2100000263134",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "91dd689bd3dc5bbe6bb1504b3869888db8ec9bd0215ca14cdf53aab77f26dfdc"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T11:27:41.976743+00:00",
+    "effective_date": "2025-09-01",
+    "event_id": "evt-92da2f0bba82983daf2546bb7a40c8600c0625b8f3171085168ccd1d22fb480f",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000263134",
+    "promulgation_or_issue_date": "2025-08-19",
+    "regulation_name": "법무부 교정시설 감염병관리지원단 운영 규정",
+    "regulation_type": "훈령"
+  },
+  "schema_version": "1.4"
+}

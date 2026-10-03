@@ -1,0 +1,64 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "678841e16e04f4a042c345abcbb64fabf577293f44062f3f422f6af7a160a6c1",
+      "effective_date": "2019-02-28",
+      "identifier": "2100000176439",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000176439",
+      "snapshot_url": "/api/v1/rules/admrul-37578/versions/2100000176439-2019-02-28-b3b07257c9805d83.json",
+      "version_id": "2100000176439"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "ba4cf1584b85b98bee847cbed8b95820469681a3ae60620248c0a8fb0e063470",
+      "effective_date": "2017-01-17",
+      "identifier": "2100000073740",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000073740",
+      "snapshot_url": "/api/v1/rules/admrul-37578/versions/2100000073740-2017-01-17-ab9daf07ff564313.json",
+      "version_id": "2100000073740"
+    },
+    "canonical_id": "admrul-37578",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 1,
+    "changed_articles": [
+      {
+        "after_text": "제2조(지급대상) 수당은 별도로 설치된 민원실 또는 민원창구에서 민원 업무를 담당하며 상시로 직접 민원서류를 취급하는 다음 각 호의 공무원에게 소속기관의 장의 결정에 따라 예산의 범위에서 지급할 수 있다. 다만, 민원실의 장 및 과장 등 관리ㆍ감독자는 제외하고, 국가기관에 파견근무 중인 민원담당공무원의 수당에 대하여는 그 소속기관의 장이 「공무원보수 등의 업무지침」에 따라 지정한 자에게 지급한다.\n1. 법무부에서 다음 각 목의 민원업무를 처리하는 공무원\n가. (현행과 같음)\n나. 국민신문고 민원 총괄 담당자\n다. 인권침해 신고 접수 및 처리\n라. 아포스티유 발급\n2. (현행과 같음)\n3. 소년원ㆍ소년분류심사원ㆍ청소년비행예방센터 및 치료감호소에서 다음 각 목의 민원업무를 처리하는 공무원\n가. (현행과 같음)\n나. 보관금품(영치금품) 접수 및 환부\n다.·라. (현행과 같음)\n4. ∼ 6. (현행과 같음)",
+        "article_key": "article-2",
+        "article_number": "2",
+        "article_title": "제2조(지급대상)",
+        "before_text": "제2조(지급대상) 수당은 별도로 설치된 민원실 또는 민원창구에서 민원 업무를 담당하며 상시로 직접 민원서류를 취급하는 다음 각 호의 공무원에게 소속기관의 장의 결정에 따라 예산의 범위에서 지급할 수 있다. 다만, 민원실의 장 및 과장 등 관리ㆍ감독자는 제외하고, 국가기관에 파견근무 중인 민원담당공무원의 수당에 대하여는 그 소속기관의 장이 「공무원보수 등의 업무지침」에 따라 지정한 자에게 지급한다.\n1. 법무부에서 다음 각 목의 민원업무를 처리하는 공무원\n가. (생  략)\n나. 인권침해 신고 접수 및 처리\n다. 아포스티유 발급\n2. (생  략)\n3. 소년원ㆍ소년분류심사원ㆍ청소년비행예방센터 및 치료감호소에서 다음 각 목의 민원업무를 처리하는 공무원\n가. (생  략)\n나. 영치금품 접수 및 환부\n다.·라. (생  략)\n4. ∼ 6. (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2019-02-28"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "912e6ddc7fc2695aad34ec27d2d0f71ce5ccc640095dbbc49f885366bde65558",
+      "credential_redacted": false,
+      "raw_sha256": "eb9780fb02dccf3070e9b9c6094ab0a8b38a36255f953a49805409459369d0df",
+      "request": {
+        "ID": "2100000176439",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "eb9780fb02dccf3070e9b9c6094ab0a8b38a36255f953a49805409459369d0df"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T11:27:41.976743+00:00",
+    "effective_date": "2019-02-28",
+    "event_id": "evt-f2cbefa1ca3731f172b754013edd2b896a33af25d2bfe136b1f8ba657eeaab3d",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000176439",
+    "promulgation_or_issue_date": "2019-02-28",
+    "regulation_name": "민원담당공무원 수당지급 규칙",
+    "regulation_type": "훈령"
+  },
+  "schema_version": "1.4"
+}

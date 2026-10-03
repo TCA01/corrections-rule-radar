@@ -652,6 +652,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661479",
         "sequence": "0001",
+        "status": "AVAILABLE",
         "title": "고정자산 분류표",
         "type": "별표",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661475"
@@ -660,6 +661,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661713",
         "sequence": "0001",
+        "status": "AVAILABLE",
         "title": "고정자산관리상황부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661709"
@@ -668,6 +670,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661485",
         "sequence": "0002",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별표",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661481"
@@ -676,6 +679,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661719",
         "sequence": "0002",
+        "status": "AVAILABLE",
         "title": "고정자산대장",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661715"
@@ -684,6 +688,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661491",
         "sequence": "0003",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별표",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661487"
@@ -692,6 +697,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661725",
         "sequence": "0003",
+        "status": "AVAILABLE",
         "title": "물품 불용결정 승인 신청서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661721"
@@ -700,6 +706,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661497",
         "sequence": "0004",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별표",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661493"
@@ -708,6 +715,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661731",
         "sequence": "0004",
+        "status": "AVAILABLE",
         "title": "사료 및 제경비 사용 내역서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661727"
@@ -716,6 +724,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661663",
         "sequence": "0005",
+        "status": "AVAILABLE",
         "title": "작업별작업종목",
         "type": "별표",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661659"
@@ -724,6 +733,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661737",
         "sequence": "0005",
+        "status": "AVAILABLE",
         "title": "제품 및 재료 재평가 승인 신청서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661733"
@@ -732,6 +742,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661669",
         "sequence": "0006",
+        "status": "AVAILABLE",
         "title": "작업성적 등급 비율표",
         "type": "별표",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661665"
@@ -740,6 +751,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661743",
         "sequence": "0006",
+        "status": "AVAILABLE",
         "title": "평가손실(감) 내역서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661739"
@@ -748,6 +760,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661675",
         "sequence": "0007",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별표",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661671"
@@ -756,6 +769,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661749",
         "sequence": "0007",
+        "status": "AVAILABLE",
         "title": "제품 및 재료 평가손실(감) 결과 보고서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661745"
@@ -764,6 +778,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661683",
         "sequence": "0008",
+        "status": "AVAILABLE",
         "title": "작업장려금 증·감액 계산요령",
         "type": "별표",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661677"
@@ -772,6 +787,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661755",
         "sequence": "0008",
+        "status": "AVAILABLE",
         "title": "감가상각 완료 고정자산에 대한 평가조서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661751"
@@ -780,6 +796,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661689",
         "sequence": "0009",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별표",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661685"
@@ -788,6 +805,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661763",
         "sequence": "0009",
+        "status": "AVAILABLE",
         "title": "공별손익분석표",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661757"
@@ -796,6 +814,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661695",
         "sequence": "0010",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별표",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661691"
@@ -804,6 +823,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661769",
         "sequence": "0010",
+        "status": "AVAILABLE",
         "title": "작업성적 등급사정 신청서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661765"
@@ -812,6 +832,7 @@
         "branch": "01",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661775",
         "sequence": "0010",
+        "status": "AVAILABLE",
         "title": "작업등급편입신청서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661771"
@@ -820,6 +841,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661701",
         "sequence": "0011",
+        "status": "AVAILABLE",
         "title": "1일 근로지원 지급기준",
         "type": "별표",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661697"
@@ -828,6 +850,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661781",
         "sequence": "0011",
+        "status": "AVAILABLE",
         "title": "작업장려금 산출액대장",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661777"
@@ -836,6 +859,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661707",
         "sequence": "0012",
+        "status": "AVAILABLE",
         "title": "근로보상금 증·감액 계산요령",
         "type": "별표",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661703"
@@ -844,6 +868,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661787",
         "sequence": "0012",
+        "status": "AVAILABLE",
         "title": "작업장려금 예금자 명부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661783"
@@ -852,6 +877,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661793",
         "sequence": "0013",
+        "status": "AVAILABLE",
         "title": "작업장려금 예금관리대장",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661789"
@@ -860,6 +886,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661799",
         "sequence": "0014",
+        "status": "AVAILABLE",
         "title": "특별작업장려금 신청서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661795"
@@ -868,6 +895,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661805",
         "sequence": "0015",
+        "status": "AVAILABLE",
         "title": "특별작업장려금 지급심사부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661801"
@@ -876,6 +904,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661811",
         "sequence": "0016",
+        "status": "AVAILABLE",
         "title": "특별작업장려금 지급심사표",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661807"
@@ -884,6 +913,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661817",
         "sequence": "0017",
+        "status": "AVAILABLE",
         "title": "작업장려금 사용신청서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661813"
@@ -892,6 +922,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661823",
         "sequence": "0018",
+        "status": "AVAILABLE",
         "title": "작업장려금 예금인계서(보관용)",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661819"
@@ -900,6 +931,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661829",
         "sequence": "0019",
+        "status": "AVAILABLE",
         "title": "작업장려금 예금인계서(발부용)",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661825"
@@ -908,6 +940,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661835",
         "sequence": "0020",
+        "status": "AVAILABLE",
         "title": "작업장려금 예금영수증(회수용)",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661831"
@@ -916,6 +949,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661841",
         "sequence": "0021",
+        "status": "AVAILABLE",
         "title": "유류금 명부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661837"
@@ -924,6 +958,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661847",
         "sequence": "0022",
+        "status": "AVAILABLE",
         "title": "작업장려금 지급누락자명부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661843"
@@ -932,6 +967,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661853",
         "sequence": "0023",
+        "status": "AVAILABLE",
         "title": "근로일과표",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661849"
@@ -940,6 +976,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661859",
         "sequence": "0024",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661855"
@@ -948,6 +985,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661865",
         "sequence": "0025",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661861"
@@ -956,6 +994,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661871",
         "sequence": "0026",
+        "status": "AVAILABLE",
         "title": "근로보상금통보서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661867"
@@ -964,6 +1003,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661877",
         "sequence": "0027",
+        "status": "AVAILABLE",
         "title": "근로보상금대장",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661873"
@@ -972,6 +1012,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661883",
         "sequence": "0028",
+        "status": "AVAILABLE",
         "title": "위로금 지급 승인 신청서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661879"
@@ -980,6 +1021,7 @@
         "branch": "02",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661889",
         "sequence": "0028",
+        "status": "AVAILABLE",
         "title": "위로금 가지급 승인 신청서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661885"
@@ -988,6 +1030,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661895",
         "sequence": "0029",
+        "status": "AVAILABLE",
         "title": "조위금 지급 승인 신청서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661891"
@@ -996,6 +1039,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661901",
         "sequence": "0030",
+        "status": "AVAILABLE",
         "title": "위로금(조위금) 대장",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661897"
@@ -1004,6 +1048,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661907",
         "sequence": "0031",
+        "status": "AVAILABLE",
         "title": "분개전표",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169661903"
@@ -1241,7 +1286,7 @@
     },
     "version_status": "CURRENT"
   },
-  "dataset_version": "ds-7805063f9c55bcd7d7616ee1e3d509f79cc0ee449489171391afacdbf9e30ed3",
+  "dataset_version": "ds-98bdc9ab4f0c49b90a76fe0a00c8efee2fdc7f7079c3cabc098c6da41ce1bc37",
   "rule": {
     "business_domains": [
       "작업·직업훈련"
@@ -1251,6 +1296,7 @@
     "corrections_category": "예규",
     "current_name": "교도작업특별회계운영지침",
     "detail_url": "/api/v1/rules/admrul-36283.json",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [
       "교도작업특별회계 운영지침"
     ],
@@ -1267,6 +1313,25 @@
     },
     "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000285404",
     "primary_domain": "작업·직업훈련",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "수용자",
+        "피보호감호자"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000285404",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "교도작업특별회계 운영지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "교도작업특별회계 운영지침"
@@ -1275,6 +1340,6 @@
     "status": "CURRENT",
     "version_id": "2100000285404"
   },
-  "schema_version": "1.3",
+  "schema_version": "1.4",
   "upcoming": []
 }

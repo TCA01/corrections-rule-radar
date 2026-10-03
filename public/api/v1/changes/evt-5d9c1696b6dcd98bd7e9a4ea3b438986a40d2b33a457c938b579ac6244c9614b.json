@@ -1,0 +1,95 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "56e2dd3fcf31cbd4ad2771429a3d5592f23380f5e01a2ecd4b1d4b76f017ae25",
+      "effective_date": "2023-10-19",
+      "identifier": "2100000230584",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000230584",
+      "snapshot_url": "/api/v1/rules/admrul-26402/versions/2100000230584-2023-10-19-9bc7b85c45149bba.json",
+      "version_id": "2100000230584"
+    },
+    "appendix_changes": [
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=133938985",
+          "sequence": "0003",
+          "title": "삭제",
+          "type": "별표",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=133938981"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=133905237",
+          "sequence": "0003",
+          "title": "음식물·경조사비·선물 등의 가액 범위",
+          "type": "별표",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=133905233"
+        },
+        "change_type": "APPENDIX_REMOVED",
+        "status": "REMOVED"
+      }
+    ],
+    "before_version": {
+      "body_hash": "9b3722080079f1022d2e62b53806187509c7b8587a07d7665d40cb9c21fde708",
+      "effective_date": "2023-06-02",
+      "identifier": "2100000224102",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000224102",
+      "snapshot_url": "/api/v1/rules/admrul-26402/versions/2100000224102-2023-06-02-29e2079e5b88a0f5.json",
+      "version_id": "2100000224102"
+    },
+    "canonical_id": "admrul-26402",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "APPENDIX_REMOVED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 2,
+    "changed_articles": [
+      {
+        "after_text": "제4조(공정한 직무수행을 해치는 지시에 대한 처리) ① 공무원은 상급자가 자기 또는 타인의 부당한 이익을 위하여 공정한 직무수행을 현저하게 해치는 지시를 하였을 때에는 그 사유를 별지 제1호 서식 또는 이에 상응하는 방법으로 그 상급자에게 소명하고 지시에 따르지 아니하거나 제27조에 따라 지정된 공무원 행동강령에 관한 업무를 담당하는 공무원(이하 “행동강령책임관”이라 한다)과 상담할 수 있다.\n② ∼ ⑤ (현행과 같음)",
+        "article_key": "article-4",
+        "article_number": "4",
+        "article_title": "제4조(공정한 직무수행을 해치는 지시에 대한 처리)",
+        "before_text": "제4조(공정한 직무수행을 해치는 지시에 대한 처리) ① 공무원은 상급자가 자기 또는 타인의 부당한 이익을 위하여 공정한 직무수행을 현저하게 해치는 지시를 하였을 때에는 그 사유를 별지 제1호 서식 또는 이에 상응하는 방법으로 그 상급자에게 소명하고 지시에 따르지 아니하거나 제29조에 따라 지정된 공무원 행동강령에 관한 업무를 담당하는 공무원(이하 “행동강령책임관”이라 한다)과 상담할 수 있다.\n② ∼ ⑤ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-10-19"
+      },
+      {
+        "after_text": "제16조(금품등의 수수 금지) ①·② (현행과 같음)\n③ 제18조의 외부강의등에 관한 사례금 또는 다음 각 호의 어느 하나에 해당하는 금품등은 제1항 또는 제2항에서 수수(收受)를 금지하는 금품등에 해당하지 아니한다.\n1. (현행과 같음)\n2. 원활한 직무수행 또는 사교ㆍ의례 또는 부조의 목적으로 제공되는 음식물ㆍ경조사비ㆍ선물 등으로서 「부정청탁 및 금품등 수수금지에 관한 법률 시행령」제17조 별표 1에서 정하는 가액 범위 안의 금품등\n3. ∼ 8. (현행과 같음)\n④ ∼ ⑥ (현행과 같음)",
+        "article_key": "article-16",
+        "article_number": "16",
+        "article_title": "제16조(금품등의 수수 금지)",
+        "before_text": "제16조(금품등의 수수 금지) ①·② (생  략)\n③ 제18조의 외부강의등에 관한 사례금 또는 다음 각 호의 어느 하나에 해당하는 금품등은 제1항 또는 제2항에서 수수(收受)를 금지하는 금품등에 해당하지 아니한다.\n1. (생  략)\n2. 원활한 직무수행 또는 사교ㆍ의례 또는 부조의 목적으로 제공되는 음식물ㆍ경조사비ㆍ선물 등으로서 별표 3에 따른 가액 범위 안의 금품등\n3. ∼ 8. (생  략)\n④ ∼ ⑥ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2023-10-19"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "e4779e12e7646b214a42c55bad66978d2f3f7d45b128924197fce53acfb144f4",
+      "credential_redacted": false,
+      "raw_sha256": "f2fd31a8c4dff4da3549fd361516bfb2971e20f9b7c90e2bb215b418e2940e2f",
+      "request": {
+        "ID": "2100000230584",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "f2fd31a8c4dff4da3549fd361516bfb2971e20f9b7c90e2bb215b418e2940e2f"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T11:27:41.976743+00:00",
+    "effective_date": "2023-10-19",
+    "event_id": "evt-5d9c1696b6dcd98bd7e9a4ea3b438986a40d2b33a457c938b579ac6244c9614b",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000230584",
+    "promulgation_or_issue_date": "2023-10-19",
+    "regulation_name": "법무부 공무원 행동강령",
+    "regulation_type": "훈령"
+  },
+  "schema_version": "1.4"
+}

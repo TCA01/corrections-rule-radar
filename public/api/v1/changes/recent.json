@@ -1,5 +1,5 @@
 {
-  "dataset_version": "ds-7805063f9c55bcd7d7616ee1e3d509f79cc0ee449489171391afacdbf9e30ed3",
+  "dataset_version": "ds-98bdc9ab4f0c49b90a76fe0a00c8efee2fdc7f7079c3cabc098c6da41ce1bc37",
   "date_basis": "EFFECTIVE_DATE_SEOUL",
   "events": [
     {
@@ -2378,6 +2378,150 @@
     },
     {
       "after_version": {
+        "body_hash": "b0a83be411bc054259d4bcc7b8854fc1b1749e0a98211fa5b0e8316abe7ee751",
+        "effective_date": "2026-09-21",
+        "identifier": "2100000285184",
+        "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000285184",
+        "snapshot_url": "/api/v1/rules/admrul-78303/versions/2100000285184-2026-09-21-bb7f0687727b70d4.json",
+        "version_id": "2100000285184"
+      },
+      "appendix_changes": [
+        {
+          "after_metadata": {
+            "branch": "00",
+            "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169384303",
+            "sequence": "0006",
+            "title": "응시 자격 관련 학위 및 자격증",
+            "type": "별표",
+            "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169384299"
+          },
+          "before_metadata": {
+            "branch": "00",
+            "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=140240723",
+            "sequence": "0006",
+            "title": "응시 자격 관련 자격증 및 학위",
+            "type": "별표",
+            "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=140240719"
+          },
+          "change_type": "APPENDIX_METADATA_CHANGED",
+          "status": "AVAILABLE"
+        }
+      ],
+      "before_version": {
+        "body_hash": "2e83bdc6e55fca48b95014df68ef83019a200e5fe653b008acf2760a7b6b8c30",
+        "effective_date": "2024-05-03",
+        "identifier": "2100000240368",
+        "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000240368",
+        "snapshot_url": "/api/v1/rules/admrul-78303/versions/2100000240368-2024-05-03-da97a5d98aec4ed0.json",
+        "version_id": "2100000240368"
+      },
+      "canonical_id": "admrul-78303",
+      "change_type": "RULE_AMENDED",
+      "change_types": [
+        "RULE_AMENDED",
+        "APPENDIX_METADATA_CHANGED",
+        "ARTICLE_CHANGED"
+      ],
+      "changed_article_count": 1,
+      "changed_articles": [
+        {
+          "after_text": "제9조(강사 자격의 등급 및 응시 자격) ① (현행과 같음)\n② 교정교육 전문 강사 1급에 응시하려는 자는 다음 각 호의 요건 중 어느 하나를 갖춰야 한다.\n1. 교정교육 전문 강사 2급 자격 취득 후 3년이 경과하고, 강의 누적 시간이 50시간 이상(단, 수용자 대상 강의 30시간 이상 포함)인 사람\n2. 교정직 경력 5년 이상인 사람으로서, 별표6의 관련 분야 박사학위를 취득한 사람\n③ 교정교육 전문 강사 2급에 응시하려는 사람은 다음 각 호의 요건 중 어느 하나를 갖춰야 한다.\n1. 교정기관에서 3회기 이상의 연속성을 가진 구조화된 교육ㆍ수강 프로그램을 15시간 이상 강의 또는 집행한 경력이 있는 사람\n2. 교정직 공무원 경력 5년 이상인 사람으로서, 별표6의 관련 분야 석사학위 또는 자격증을 취득한 사람\n3. 교정직 공무원 경력 5년 이상인 사람으로서, 강사로서 역량이 객관적 자료로 인정되어 소속 교정기관의 장(법무부는 교정본부장, 법무연수원은 교정연수부장) 추천을 받은 사람",
+          "article_key": "article-9",
+          "article_number": "9",
+          "article_title": "제9조(강사 자격의 등급 및 응시 자격)",
+          "before_text": "제9조(강사 자격의 등급 및 응시 자격) ① (생  략)\n② 교정교육 전문 강사 1급에 응시하려는 자는 다음 각 호의 요건 중 어느 하나를 갖춰야 한다.\n1. 교정교육 전문 강사 2급 자격 취득 후 3년이 경과하고 강의 누적 시간이 50시간 이상인 사람(단, 강의 시간 중 최소 30시간은 교정기관 수용자를 대상으로 하여야 하며, 그 외 직원 또는 일반인 대상 각종 강의 실적을 포함한다.)\n2. 교정교육 전문 강사 2급 자격 취득 후 3년이 경과하고 제4조에 따른 관련 분야 박사학위 취득자(단, 교정기관 수용자 상대 교육 시간이 최소 15시간 이상)\n③ 교정교육 전문 강사 2급에 응시하려는 자는 다음 각 호의 요건 중 어느 하나를 갖춰야 한다.\n1. 3회기 이상 연속성을 가진 구조화된 교육ㆍ수강 프로그램을 최소 15시간 이상 교정기관에서 강의 또는 집행한 경력\n2. 교정직 공무원 경력 5년 이상인 자로서 별표6의 관련 자격증 소지자 또는 관련 석사학위 소지자\n3. 교정직 공무원 경력 5년 이상 및 강사로서 교육 역량이 뛰어나고 객관적 자료로 인정되어 부서장 및 기관장(법무부는 교정본부장, 법무연수원은 교정연수부장) 추천을 받은 자",
+          "change_type": "MODIFIED",
+          "effective_date": "2026-09-21"
+        }
+      ],
+      "comparison_evidence": {
+        "cache_key": "1ad552859945ac6c7a7964c2f63078f9454dd94abe67096c64d391092439d148",
+        "credential_redacted": false,
+        "raw_sha256": "31bb4955be3e50ca4cbe5112eb4884f75f927764848eaa8c698eb4c5849ae733",
+        "request": {
+          "ID": "2100000285184",
+          "target": "admrulOldAndNew",
+          "type": "JSON"
+        },
+        "stored_sha256": "31bb4955be3e50ca4cbe5112eb4884f75f927764848eaa8c698eb4c5849ae733"
+      },
+      "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+      "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+      "comparison_status": "AVAILABLE",
+      "comparison_unavailable_reason": null,
+      "detected_at": "2026-10-03T11:27:41.976743+00:00",
+      "effective_date": "2026-09-21",
+      "event_id": "evt-00664ea7a6c5362b438e063d547320cb3e06280c2cc0eb332c4ee6b5695cfd4f",
+      "fallback_reason": null,
+      "official_old_new_available": true,
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000285184",
+      "promulgation_or_issue_date": "2026-09-21",
+      "regulation_name": "교정직 공무원의 교정교육 전문 강사 자격인정 및 절차에 관한 규정",
+      "regulation_type": "훈령"
+    },
+    {
+      "after_version": {
+        "body_hash": "c9da50152ed94b3291eb2f2eeb80dfd4eb271d3e4d848b644a3f5958e4ea64a8",
+        "effective_date": "2026-09-11",
+        "identifier": "2100000284892",
+        "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000284892",
+        "snapshot_url": "/api/v1/rules/admrul-26402/versions/2100000284892-2026-09-11-faaf64a9aef90e02.json",
+        "version_id": "2100000284892"
+      },
+      "appendix_changes": [],
+      "before_version": {
+        "body_hash": "56e2dd3fcf31cbd4ad2771429a3d5592f23380f5e01a2ecd4b1d4b76f017ae25",
+        "effective_date": "2023-10-19",
+        "identifier": "2100000230584",
+        "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000230584",
+        "snapshot_url": "/api/v1/rules/admrul-26402/versions/2100000230584-2023-10-19-9bc7b85c45149bba.json",
+        "version_id": "2100000230584"
+      },
+      "canonical_id": "admrul-26402",
+      "change_type": "RULE_AMENDED",
+      "change_types": [
+        "RULE_AMENDED",
+        "ARTICLE_CHANGED"
+      ],
+      "changed_article_count": 1,
+      "changed_articles": [
+        {
+          "after_text": "제2조(정의) 이 영에서 사용하는 용어의 뜻은 다음과 같다.\n1. ∼ 4. (현행과 같음)\n5. “가상자산”이란 「가상자산 이용자 보호 등에 관한 법률」 제2조제1호에 따른 가상자산을 말한다.",
+          "article_key": "article-2",
+          "article_number": "2",
+          "article_title": "제2조(정의)",
+          "before_text": "제2조(정의) 이 영에서 사용하는 용어의 뜻은 다음과 같다.\n1. ∼ 4. (생  략)\n5. “가상자산”이란 경제적 가치를 지닌 것으로서 전자적으로 거래 또는 이전될 수 있는 전자적 증표(그에 관한 일체의 권리를 포함한다)를 말한다. 다만, 다음 각 목의 어느 하나에 해당하는 것은 제외한다.   가. 화폐ㆍ재화ㆍ용역 등으로 교환될 수 없는 전자적 증표 또는 그 증표에 관한 정보로서 발행인이 사용처와 그 용도를 제한한 것   나. 「게임산업진흥에 관한 법률」 제32조제1항제7호에 따른 게임물의 이용을 통하여 획득한 유ㆍ무형의 결과물   다. 「전자금융거래법」 제2조제14호에 따른 선불전자지급수단 및 같은 조 제15호에 따른 전자화폐   라. 「주식ㆍ사채 등의 전자등록에 관한 법률」 제2조제4호에 따른 전자등록주식등   마. 「전자어음의 발행 및 유통에 관한 법률」 제2조제2호에 따른 전자어음   바. 「상법」 제862조에 따른 전자선하증권   사. 거래의 형태와 특성을 고려하여 「특정 금융거래정보의 보고 및 이용 등에 관한 법률 시행령」제4조로 정하는 것",
+          "change_type": "MODIFIED",
+          "effective_date": "2026-09-11"
+        }
+      ],
+      "comparison_evidence": {
+        "cache_key": "47b58eb7848fb60bffa65bb8aae66a12a9ad94ae79aa2398d7e4ceea3fb157ae",
+        "credential_redacted": false,
+        "raw_sha256": "07b1d1f689befd7e3371273b03b2d6175fa4846b416cae8f3577ae90c3c839ee",
+        "request": {
+          "ID": "2100000284892",
+          "target": "admrulOldAndNew",
+          "type": "JSON"
+        },
+        "stored_sha256": "07b1d1f689befd7e3371273b03b2d6175fa4846b416cae8f3577ae90c3c839ee"
+      },
+      "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+      "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+      "comparison_status": "AVAILABLE",
+      "comparison_unavailable_reason": null,
+      "detected_at": "2026-10-03T11:27:41.976743+00:00",
+      "effective_date": "2026-09-11",
+      "event_id": "evt-9db9b14e639110217b7d20612828ada45b484817c3eb435ac0774aab587a3313",
+      "fallback_reason": null,
+      "official_old_new_available": true,
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000284892",
+      "promulgation_or_issue_date": "2026-09-11",
+      "regulation_name": "법무부 공무원 행동강령",
+      "regulation_type": "훈령"
+    },
+    {
+      "after_version": {
         "body_hash": "c5bd809d9e1112b83476e5c02dee8465f2371153580053f525a53871b3aa381a",
         "effective_date": "2026-09-01",
         "identifier": "289135",
@@ -2454,6 +2598,127 @@
       "promulgation_or_issue_date": "2026-09-01",
       "regulation_name": "교정직공무원 승진임용 규정",
       "regulation_type": "대통령령"
+    },
+    {
+      "after_version": {
+        "body_hash": "c8ac2aae405eae1a3fb8c767f00883a32565fa271de974e6889bf8e7b482d676",
+        "effective_date": "2026-08-28",
+        "identifier": "2100000284462",
+        "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000284462",
+        "snapshot_url": "/api/v1/rules/admrul-98096/versions/2100000284462-2026-08-28-ac82501853070cf1.json",
+        "version_id": "2100000284462"
+      },
+      "appendix_changes": [],
+      "before_version": null,
+      "canonical_id": "admrul-98096",
+      "change_type": "NEW_RULE",
+      "change_types": [
+        "NEW_RULE"
+      ],
+      "changed_article_count": 0,
+      "changed_articles": [],
+      "comparison_evidence": null,
+      "comparison_scope": "FULL_STRUCTURED_BODY",
+      "comparison_source": null,
+      "comparison_status": "COMPARISON_UNAVAILABLE",
+      "comparison_unavailable_reason": "BEFORE_VERSION_UNAVAILABLE",
+      "detected_at": "2026-10-03T11:27:41.976743+00:00",
+      "effective_date": "2026-08-28",
+      "event_id": "evt-0220f614bcac3173026923186e89ab1581abe9552817c15c5b02f27fbfeae7c8",
+      "fallback_reason": "OFFICIAL_COMPARISON_UNAVAILABLE",
+      "official_old_new_available": false,
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000284462",
+      "promulgation_or_issue_date": "2026-08-28",
+      "regulation_name": "공모에 의한 교정시설 조성 입지 선정 평가지침",
+      "regulation_type": "예규"
+    },
+    {
+      "after_version": {
+        "body_hash": "0264f7426ed85f049f43bdc447149138e747243a4a535e43cc653151929592d9",
+        "effective_date": "2026-08-27",
+        "identifier": "2100000284368",
+        "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000284368",
+        "snapshot_url": "/api/v1/rules/admrul-84831/versions/2100000284368-2026-08-27-61ebc8c9ede6e031.json",
+        "version_id": "2100000284368"
+      },
+      "appendix_changes": [],
+      "before_version": {
+        "body_hash": "de77db529e921dad01908c92872526c6ba96c308c54a27a3d2f60c02cbca3e5a",
+        "effective_date": "2023-03-14",
+        "identifier": "2100000220774",
+        "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000220774",
+        "snapshot_url": "/api/v1/rules/admrul-84831/versions/2100000220774-2023-03-14-1d194e6b04321406.json",
+        "version_id": "2100000220774"
+      },
+      "canonical_id": "admrul-84831",
+      "change_type": "RULE_AMENDED",
+      "change_types": [
+        "RULE_AMENDED",
+        "ARTICLE_CHANGED"
+      ],
+      "changed_article_count": 4,
+      "changed_articles": [
+        {
+          "after_text": "제5조(교정조직의 영어 명칭) ① 법무부 교정본부에 두는 행정조직의 영어 명칭은 다음 각호와 같다.\n1. ∼ 10. (현행과 같음)\n11. 특별점검팀 : Special Inspection Team\n12. 마약사범재활팀 : Substance Abuse Rehabilitation Team\n13. 교화방송센터 : KCS Broadcasting Center\n② 지방교정청에 두는 행정조직의 영어 명칭은 다음 각호와 같다.\n1. ∼ 8. (현행과 같음)\n9. 광역특별사법경찰팀 : Regional Special Judicial Police Team\n③ 교정기관에 두는 행정조직의 영어 명칭은 다음 각호와 같다.\n1. ∼ 15. (현행과 같음)\n16. 특별사법경찰팀 : Special Judicial Police Team\n17. 마약사범재활과 : Substance Abuse Rehabilitation Division",
+          "article_key": "article-5",
+          "article_number": "5",
+          "article_title": "제5조(교정조직의 영어 명칭)",
+          "before_text": "제5조(교정조직의 영어 명칭) ① 법무부 교정본부에 두는 행정조직의 영어 명칭은 다음 각호와 같다.\n1. ∼ 10. (생  략)\n11. 특별점검단 : Special Inspection Unit\n12. 교화방송센터 : KCS Broadcasting Center\n② 지방교정청에 두는 행정조직의 영어 명칭은 다음 각호와 같다.\n1. ∼ 8. (생  략)\n9. 광역특별사법경찰대 : Regional Special Judicial PoliceSquad\n③ 교정기관에 두는 행정조직의 영어 명칭은 다음 각호와 같다.\n1. ∼ 15. (생  략)\n16. 특별사법경찰대 : Special Judicial Police Squad",
+          "change_type": "MODIFIED",
+          "effective_date": "2026-08-27"
+        },
+        {
+          "after_text": "제7조(교정직교도관 직급의 영어 명칭) 교정직교도관 직급의 영어 명칭은 다음 각호와 같다.\n1. ∼ 10. (현행과 같음)",
+          "article_key": "article-7",
+          "article_number": "7",
+          "article_title": "제7조(교정직교도관 직급의 영어 명칭)",
+          "before_text": "제7조(정복교도관 직급의 영어 명칭) 정복교도관 직급의 영어 명칭은 다음 각호와 같다.\n1. ∼ 10. (생  략)",
+          "change_type": "MODIFIED",
+          "effective_date": "2026-08-27"
+        },
+        {
+          "after_text": "제8조(교정직교도관 외 다른 교도관의 영문표기) ① 직업훈련교도관의 영어 명칭은 다음 각호와 같다.\n1. 직업능력개발훈련교사 : Vocational Training Officer\n② 기술직교도관의 영어 명칭은 다음 각호와 같다.\n1. (현행과 같음)\n2. 농업직 : Agricultural Officer\n3. 시설직 : Facility Maintenance Officer\n4. 전산직 : Information Technology Officer\n5. 방송통신직 : Broadcasting Technology Officer\n6. 운전직 : Driving Officer\n③ 보건위생직교도관의 영어 명칭은 다음 각호와 같다.\n1. 의무직 : Medical Care Officer\n2. 약무직 : Pharmacy Officer\n3. 간호직 : Nursing Officer\n4. 의료기술직 : Medical Technology Officer\n5. 식품위생직 : Food and Sanitation Officer\n④ 관리운영직교도관의 영어 명칭은 다음 각호와 같다.\n1. 건축운영직 : Architecture Operation Officer\n2. 통신운영직 : Communication Operation Officer\n3. 전기운영직 : Electricity Operation Officer\n4. 기계운영직 : Machinery Operation Officer\n5. 열관리운영직 : Heat Control Operation Officer\n6. 사무운영직 : Clerical Work Operation Officer\n⑤ 기록연구사의 영어 명칭은 다음 각호와 같다.  1. 기록연구사 : Archivist",
+          "article_key": "article-8",
+          "article_number": "8",
+          "article_title": "제8조(교정직교도관 외 다른 교도관의 영문표기)",
+          "before_text": "제8조(사복교도관 직렬의 영문표기) ① 직업훈련교도관 직렬의 영어 명칭은 다음 각호와 같다.\n1. 직업훈련교사 : Vocational Training Officer\n② 기술직교도관 직렬의 영어 명칭은 다음 각호와 같다.\n1. (생  략)\n2. 의료기술직 : Medical Technology Officer\n3. 식품위생직 : Food and Sanitation Officer\n4. 의무직 : Medical Care Officer\n5. 약무직 : Pharmacy Officer\n6. 간호직 : Nursing Officer\n③ 관리운영직교도관 직렬의 영어 명칭은 다음 각호와 같다.\n1. 건축운영직 : Architecture Operation Officer\n2. 통신운영직 : Communication Operation Officer\n3. 전기운영직 : Electricity Operation Officer\n4. 기계운영직 : Machinery Operation Officer\n5. 열관리운영직 : Heat Control Operation Officer\n④ 기록연구사의 영어 명칭은 다음 각호와 같다.\n1. 기록연구사 : Archivist",
+          "change_type": "MODIFIED",
+          "effective_date": "2026-08-27"
+        },
+        {
+          "after_text": "제9조(일반직 공무원 직급의 영어 명칭) ① 일반직 공무원 직급의 영어 명칭은 별표 3과 같다.",
+          "article_key": "article-9",
+          "article_number": "9",
+          "article_title": "제9조(일반직 공무원 직급의 영어 명칭)",
+          "before_text": "제9조(사복교도관 직급의 영어 명칭) ① 사복교도관 직급의 영어 명칭은 별표 3과 같다.",
+          "change_type": "MODIFIED",
+          "effective_date": "2026-08-27"
+        }
+      ],
+      "comparison_evidence": {
+        "cache_key": "a73a1e464d36706be9e218cb976e4c25c4f85d065ff062c2b24d340a5fc9722f",
+        "credential_redacted": false,
+        "raw_sha256": "da72eb9044156697383fb565cc2f3496977aef09c7e837a13bcd49e7a42f9d92",
+        "request": {
+          "ID": "2100000284368",
+          "target": "admrulOldAndNew",
+          "type": "JSON"
+        },
+        "stored_sha256": "da72eb9044156697383fb565cc2f3496977aef09c7e837a13bcd49e7a42f9d92"
+      },
+      "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+      "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+      "comparison_status": "AVAILABLE",
+      "comparison_unavailable_reason": null,
+      "detected_at": "2026-10-03T11:27:41.976743+00:00",
+      "effective_date": "2026-08-27",
+      "event_id": "evt-1ac4d883a137d3ea6a6c824f9539b5ff639bc24fadc37f7728327064d931eb0f",
+      "fallback_reason": null,
+      "official_old_new_available": true,
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000284368",
+      "promulgation_or_issue_date": "2026-08-27",
+      "regulation_name": "교정직제 영어 명칭 등에 관한 지침",
+      "regulation_type": "예규"
     },
     {
       "after_version": {
@@ -2574,6 +2839,6 @@
       "regulation_type": "법무부령"
     }
   ],
-  "schema_version": "1.3",
+  "schema_version": "1.4",
   "window_days": 90
 }

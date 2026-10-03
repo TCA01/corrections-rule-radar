@@ -10,10 +10,13 @@ from pipeline.validation import validate_contract,assert_schema_freeze
 from pipeline.publication.versions import index_snapshots,enrich_event,reference,url
 from pipeline.diff.articles import changed_articles
 
-SCHEMA_VERSION='1.3'
+SCHEMA_VERSION='1.4'
 
 def public_snapshot(s,status='HISTORICAL'):
-    return {**{k:s[k] for k in ('canonical_id','source_kind','stable_identifier','version_id','metadata','body','appendices','attachments','official_source_url','hashes')},'version_status':status,'version_reference':reference(s)}
+    from pipeline.normalize.appendices import appendix_status
+    result={**{k:s[k] for k in ('canonical_id','source_kind','stable_identifier','version_id','metadata','body','appendices','attachments','official_source_url','hashes')},'version_status':status,'version_reference':reference(s)}
+    if status!='ARCHIVE': result['appendices']=[{**a,'status':appendix_status(a)} for a in s['appendices']]
+    return result
 
 def build_contract(collection,events,published_at,history=None,persistent=None):
     summaries=[]; files={}; future=collection['future']
@@ -38,6 +41,7 @@ def build_contract(collection,events,published_at,history=None,persistent=None):
     for r in sorted(collection['registry'],key=lambda r:r['canonical_id']):
         cid=r['canonical_id']; s=collection['snapshots'][cid]
         summary={'canonical_id':cid,'source_kind':r['source_kind'],'current_name':r['current_name'],'seed_names':r['seed_names'],'historical_names':r['historical_names'],'corrections_category':r['corrections_category'],'business_domains':r['business_domains'],'primary_domain':r.get('primary_domain'),'secondary_domains':r.get('secondary_domains',[]),'classification_status':r['classification_status'],'status':r.get('status','CURRENT'),'version_id':s['version_id'],'metadata':s['metadata'],'official_source_url':s['official_source_url'],'detail_url':'/api/v1/rules/'+cid+'.json'}
+        summary.update({'provenance':r['provenance'],'domain_assignment_status':r.get('domain_assignment_status','EVIDENCE_BASED')})
         summaries.append(summary)
         prior=[v for v in index.values() if v['canonical_id']==cid and v['metadata']['effective_date']<s['metadata']['effective_date']]
         old=max(prior,key=lambda v:(v['metadata']['effective_date'],v['metadata']['issue_date'] or '',v['version_id'])) if prior else None
@@ -89,6 +93,11 @@ def publish(files,root):
         validate_contract(name,value); write_json(path,value)
         prior=output/rel
         if prior.is_file():
+            if name=='change':
+                retained=json.loads(prior.read_text(encoding='utf8'))
+                if retained['event']==value['event']:
+                    validate_contract('change',retained)
+                    shutil.copy2(prior,path)
             same=prior.read_bytes()==path.read_bytes()
             if name in ('version','change') and not same: raise ValueError('IMMUTABLE_ARTIFACT_DRIFT')
             if same: shutil.copy2(prior,path)

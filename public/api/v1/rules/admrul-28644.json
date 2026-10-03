@@ -76,6 +76,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=152960761",
         "sequence": "0001",
+        "status": "AVAILABLE",
         "title": "국가인권위원회/법무부 인권국 서면진정처리부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=152960757"
@@ -84,6 +85,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=152960769",
         "sequence": "0002",
+        "status": "AVAILABLE",
         "title": "국가인권위원회 면전진정 신청서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=152960763"
@@ -92,6 +94,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=152960775",
         "sequence": "0003",
+        "status": "AVAILABLE",
         "title": "국가인권위원회/법무부 인권국 면전진정처리부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=152960771"
@@ -100,6 +103,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=152960821",
         "sequence": "0004",
+        "status": "AVAILABLE",
         "title": "국가인권위원회/법무부 인권국 방문·조사 등록대장",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=152960777"
@@ -108,6 +112,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=152960829",
         "sequence": "0005",
+        "status": "AVAILABLE",
         "title": "국가인권위원회(진정취하서(조사불원서), 면전진정 철회서)",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=152960823"
@@ -213,7 +218,7 @@
     },
     "version_status": "CURRENT"
   },
-  "dataset_version": "ds-7805063f9c55bcd7d7616ee1e3d509f79cc0ee449489171391afacdbf9e30ed3",
+  "dataset_version": "ds-98bdc9ab4f0c49b90a76fe0a00c8efee2fdc7f7079c3cabc098c6da41ce1bc37",
   "rule": {
     "business_domains": [
       "인권·청원"
@@ -223,6 +228,7 @@
     "corrections_category": "예규",
     "current_name": "수용자 인권업무 처리지침",
     "detail_url": "/api/v1/rules/admrul-28644.json",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
     "metadata": {
       "amendment_type": "일부개정",
@@ -237,6 +243,25 @@
     },
     "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000260276",
     "primary_domain": "인권·청원",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "수용자",
+        "교정시설"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000260276",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "수용자 인권업무 처리지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "수용자 인권업무 처리지침"
@@ -245,6 +270,6 @@
     "status": "CURRENT",
     "version_id": "2100000260276"
   },
-  "schema_version": "1.3",
+  "schema_version": "1.4",
   "upcoming": []
 }

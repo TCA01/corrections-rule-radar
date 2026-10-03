@@ -13,9 +13,7 @@ import {
 } from '../types';
 
 describe('App End-to-End Integration Test with Production Fixtures', () => {
-  const publicDir = path.resolve(__dirname, '../../../tests/fixtures/web_baseline');
-
-  const prodPublicDir = path.resolve(__dirname, '../../../public/api/v1');
+  const publicDir = path.resolve(__dirname, '../../../public/api/v1');
 
   const manifestData: ManifestResponse = JSON.parse(
     fs.readFileSync(path.join(publicDir, 'manifest.json'), 'utf-8')
@@ -32,10 +30,9 @@ describe('App End-to-End Integration Test with Production Fixtures', () => {
   const latestData: ChangesResponse = JSON.parse(
     fs.readFileSync(path.join(publicDir, 'changes/latest.json'), 'utf-8')
   );
-  const recentDataRaw: any = fs.existsSync(path.join(publicDir, 'changes/recent.json'))
-    ? JSON.parse(fs.readFileSync(path.join(publicDir, 'changes/recent.json'), 'utf-8'))
-    : JSON.parse(fs.readFileSync(path.join(prodPublicDir, 'changes/recent.json'), 'utf-8'));
-  const recentData: any = { ...recentDataRaw, dataset_version: manifestData.dataset_version };
+  const recentData: any = JSON.parse(
+    fs.readFileSync(path.join(publicDir, 'changes/recent.json'), 'utf-8')
+  );
   const lawDetailData: RuleDetailResponse = JSON.parse(
     fs.readFileSync(path.join(publicDir, 'rules/law-001668.json'), 'utf-8')
   );

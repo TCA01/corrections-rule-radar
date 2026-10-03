@@ -1,0 +1,36 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "de77db529e921dad01908c92872526c6ba96c308c54a27a3d2f60c02cbca3e5a",
+      "effective_date": "2023-03-14",
+      "identifier": "2100000220774",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000220774",
+      "snapshot_url": "/api/v1/rules/admrul-84831/versions/2100000220774-2023-03-14-1d194e6b04321406.json",
+      "version_id": "2100000220774"
+    },
+    "appendix_changes": [],
+    "before_version": null,
+    "canonical_id": "admrul-84831",
+    "change_type": "NEW_RULE",
+    "change_types": [
+      "NEW_RULE"
+    ],
+    "changed_article_count": 0,
+    "changed_articles": [],
+    "comparison_evidence": null,
+    "comparison_scope": "FULL_STRUCTURED_BODY",
+    "comparison_source": null,
+    "comparison_status": "COMPARISON_UNAVAILABLE",
+    "comparison_unavailable_reason": "BEFORE_VERSION_UNAVAILABLE",
+    "detected_at": "2026-10-03T11:27:41.976743+00:00",
+    "effective_date": "2023-03-14",
+    "event_id": "evt-7b4b07307472500a473ec4cf6cef1d36a356d71a2e7b4f097c9471dfcebe6d39",
+    "fallback_reason": "OFFICIAL_COMPARISON_UNAVAILABLE",
+    "official_old_new_available": false,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000220774",
+    "promulgation_or_issue_date": "2023-03-14",
+    "regulation_name": "교정직제 영어 명칭 등에 관한 지침",
+    "regulation_type": "예규"
+  },
+  "schema_version": "1.4"
+}

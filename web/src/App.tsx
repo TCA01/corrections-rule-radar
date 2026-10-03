@@ -68,7 +68,7 @@ export const App: React.FC = () => {
     }
   }, [selectedDomains]);
 
-  // Load initial dataset (Schema 1.3)
+  // Load initial dataset (Schema 1.4)
   const loadData = async () => {
     setLoading(true);
     setError(null);
@@ -77,10 +77,14 @@ export const App: React.FC = () => {
         api.getManifest(),
         api.getHealth().catch(() => null),
         api.getRules(),
-        api.getUpcomingChanges().catch(() => ({ schema_version: '1.3', dataset_version: '', events: [] })),
-        api.getRecentChanges().catch(() => ({ schema_version: '1.3', dataset_version: '', window_days: 90, date_basis: '', events: [] })),
-        api.getLatestChanges().catch(() => ({ schema_version: '1.3', dataset_version: '', events: [] })),
+        api.getUpcomingChanges().catch(() => ({ schema_version: '1.4', dataset_version: '', events: [] })),
+        api.getRecentChanges().catch(() => ({ schema_version: '1.4', dataset_version: '', window_days: 90, date_basis: '', events: [] })),
+        api.getLatestChanges().catch(() => ({ schema_version: '1.4', dataset_version: '', events: [] })),
       ]);
+
+      if (manifestData.schema_version !== '1.4') {
+        throw new ApiError(`지원되지 않는 스키마 버전입니다: ${manifestData.schema_version} (요구 버전: 1.4)`);
+      }
 
       if (
         [healthData, rulesData, upcomingData, recentData, latestData].some(

@@ -1,0 +1,59 @@
+{
+  "classified": 106,
+  "low_confidence": [
+    {
+      "canonical_id": "law-011894",
+      "current_name": "대한민국재향교정동우회법",
+      "primary_domain": "기타",
+      "reason": "공식 제목·본문의 업무 주제를 현재 통제 업무분야에 직접 연결하기 어려워 기타로 분류. 법적 적용 판단이 아님."
+    },
+    {
+      "canonical_id": "admrul-32486",
+      "current_name": "교정관련 영화·방송등 제작지원 지침",
+      "primary_domain": "기타",
+      "reason": "공식 제목·본문의 업무 주제를 현재 통제 업무분야에 직접 연결하기 어려워 기타로 분류. 법적 적용 판단이 아님."
+    },
+    {
+      "canonical_id": "admrul-28712",
+      "current_name": "교정기관 공무용 차량 관리 지침",
+      "primary_domain": "기타",
+      "reason": "공식 제목·본문의 업무 주제를 현재 통제 업무분야에 직접 연결하기 어려워 기타로 분류. 법적 적용 판단이 아님."
+    },
+    {
+      "canonical_id": "admrul-37575",
+      "current_name": "교정기 규정",
+      "primary_domain": "기타",
+      "reason": "공식 제목·본문의 업무 주제를 현재 통제 업무분야에 직접 연결하기 어려워 기타로 분류. 법적 적용 판단이 아님."
+    },
+    {
+      "canonical_id": "admrul-26678",
+      "current_name": "교정의 날 규칙",
+      "primary_domain": "기타",
+      "reason": "공식 제목·본문의 업무 주제를 현재 통제 업무분야에 직접 연결하기 어려워 기타로 분류. 법적 적용 판단이 아님."
+    },
+    {
+      "canonical_id": "admrul-32125",
+      "current_name": "시설공사 검사업무규칙",
+      "primary_domain": "기타",
+      "reason": "공식 제목·본문의 업무 주제를 현재 통제 업무분야에 직접 연결하기 어려워 기타로 분류. 법적 적용 판단이 아님."
+    },
+    {
+      "canonical_id": "admrul-98096",
+      "current_name": "공모에 의한 교정시설 조성 입지 선정 평가지침",
+      "primary_domain": "기타",
+      "reason": "공식 제목·본문의 업무 주제를 현재 통제 업무분야에 직접 연결하기 어려워 기타로 분류. 법적 적용 판단이 아님."
+    }
+  ],
+  "requested_id_title_notes": [
+    {
+      "canonical_id": "admrul-32484",
+      "decision": "보고 assignment follows the explicitly requested stable ID; no title-based re-keying",
+      "official_current_name": "현황작성 및 보고요령 지침"
+    },
+    {
+      "canonical_id": "admrul-51868",
+      "decision": "보고 assignment follows the explicitly requested stable ID; no title-based re-keying",
+      "official_current_name": "교정본부 보고사무지침"
+    }
+  ]
+}

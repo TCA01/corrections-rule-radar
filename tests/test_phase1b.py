@@ -107,14 +107,12 @@ class Phase1BTests(unittest.TestCase):
             write_json(Path(tmp)/'data/registry/state.json',{'seed_ids':list(collection['snapshots']),'snapshots':collection['snapshots']}); write_json(Path(tmp)/'data/registry/rules.json',collection['registry']); client.return_value.fetch.return_value=({}, {})
             result=collect_core.run(); self.assertEqual(result['registry'],[]); self.assertEqual(result['resolution'][0]['review_reason'],'CANONICAL_ID_MISMATCH')
     def test_discovery_unchanged_tables_no_full_resolution_changed_tables_audited(self):
-        seed=load(ROOT/'data/seed/corrections.json')
-        groups={k:[e for e in seed['entries'] if e['source_kind']==k] for k in ('law','admrul')}
-        def parse(html,kind,at): return groups[kind],{}
-        with tempfile.TemporaryDirectory() as tmp,patch.object(discovery_scan,'ROOT',Path(tmp)),patch.object(discovery_scan,'public_page',return_value=''),patch.object(discovery_scan,'parse_seed',side_effect=parse),patch.object(discovery_scan,'full_collect',return_value={'full':True}) as full:
-            write_json(Path(tmp)/'data/seed/corrections.json',seed)
-            self.assertIsNone(discovery_scan.run()); full.assert_not_called()
-            groups['admrul'][0]['seed_name']+=' changed'
-            self.assertEqual(discovery_scan.run(),{'full':True}); full.assert_called_once()
+        with tempfile.TemporaryDirectory() as tmp,patch.object(discovery_scan,'ROOT',Path(tmp)),patch.object(discovery_scan,'public_page',return_value=b'opaque bytes'),patch.object(discovery_scan,'api_discovery',return_value={'api_candidates_pending':1}) as discover:
+            self.assertIsNone(discovery_scan.run()); discover.assert_called_once(); discover.reset_mock()
+            self.assertIsNone(discovery_scan.run()); discover.assert_not_called()
+            with patch.object(discovery_scan,'public_page',return_value=b'changed bytes'):
+                self.assertIsNone(discovery_scan.run()); discover.assert_called_once()
+            self.assertFalse(load(Path(tmp)/'data/reports/discovery_scan.json')['production_membership_changed'])
     def test_schedule_daily_and_weekly_audit(self):
         self.assertEqual(policy('37 11 * * *',day=date(2026,10,4)),{'discovery':False,'full_audit':False})
         self.assertEqual(policy('37 23 * * *',day=date(2026,10,4)),{'discovery':True,'full_audit':True})

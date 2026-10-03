@@ -1,0 +1,101 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "e3a81e471c1bccb0668eacf066c5f0ffcd6c6dfae0e47e9c53634dbeafe4c270",
+      "effective_date": "2026-01-01",
+      "identifier": "2100000270682",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000270682",
+      "snapshot_url": "/api/v1/rules/admrul-64876/versions/2100000270682-2026-01-01-5d3e957bd558e6d2.json",
+      "version_id": "2100000270682"
+    },
+    "appendix_changes": [
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=160974059",
+          "sequence": "0005",
+          "title": "난임지원 복지점수 신청서",
+          "type": "별표",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=160974055"
+        },
+        "before_metadata": null,
+        "change_type": "APPENDIX_ADDED",
+        "status": "AVAILABLE"
+      },
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=160974065",
+          "sequence": "0006",
+          "title": "맞춤형 복지점수 신청서",
+          "type": "별표",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=160974061"
+        },
+        "before_metadata": null,
+        "change_type": "APPENDIX_ADDED",
+        "status": "AVAILABLE"
+      }
+    ],
+    "before_version": {
+      "body_hash": "364f45ec861808c9554cafd79d7054fc9fb24d001dc38bda5e27c7c5747af293",
+      "effective_date": "2018-10-04",
+      "identifier": "2100000159129",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000159129",
+      "snapshot_url": "/api/v1/rules/admrul-64876/versions/2100000159129-2018-10-04-507d2f46ee8c3522.json",
+      "version_id": "2100000159129"
+    },
+    "canonical_id": "admrul-64876",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "APPENDIX_ADDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 2,
+    "changed_articles": [
+      {
+        "after_text": "제3조(적용 범위) ① (현행과 같음)\n② 법무부와 그 소속기관에 근무하는 기간제 및 무기계약근로자는 「법무부 공무직 등 근로자 관리지침」에 따라 예산의 범위 내에서 적용할 수 있다.",
+        "article_key": "article-3",
+        "article_number": "3",
+        "article_title": "제3조(적용 범위)",
+        "before_text": "제3조(적용 범위) ① (생  략)\n② 법무부와 그 소속기관에 근무하는 기간제 및 무기계약근로자는 「법무부 기간제 및 무기계약근로자 관리지침」에 따라 예산의 범위 내에서 적용할 수 있다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-01-01"
+      },
+      {
+        "after_text": "제9조(단체보험 사전선택) ① (현행과 같음)\n②소속 직원이 기본항목(단체보험)을 지정한 기한 내에 선택하지 아니한 때에는 최저수준에 해당하는 안을 선택한 것으로 처리한다.\n③ 각 운영기관의 장의 협의를 통하여 각 운영기관의 다음연도 보험항목을 통일할 수 있다.",
+        "article_key": "article-9",
+        "article_number": "9",
+        "article_title": "제9조(단체보험 사전선택)",
+        "before_text": "제9조(단체보험 사전선택) ① (생  략)\n②소속 직원이 기본항목(단체보험)을 지정한 기한 내에 선택하지 아니한 때에는 최저수준에 해당하는 안을 선택한 것으로 처리한다. 다만, 휴직자 및 6개월 이상 국외에 파견중인 공무원에 대하여는 최대수준에 해당하는 안(본인 생명ㆍ상해보험, 본인 의료비보장 보험, 2대질병진단비, 암진단비에 한함)을 선택한 것으로 처리할 수 있다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-01-01"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "31c036188d454337a4cfa62d56acec3617106b7332c586390cd7767ce9eb93dc",
+      "credential_redacted": false,
+      "raw_sha256": "769fea126734280946aad9a28f786939602ee91aa77f634c8f00d0052e758ee2",
+      "request": {
+        "ID": "2100000270682",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "769fea126734280946aad9a28f786939602ee91aa77f634c8f00d0052e758ee2"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T11:27:41.976743+00:00",
+    "effective_date": "2026-01-01",
+    "event_id": "evt-465dfadc443c469016343effc5a85daf76c9c7d73d065aa1b712ec2de341d6ce",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000270682",
+    "promulgation_or_issue_date": "2026-01-01",
+    "regulation_name": "법무부 맞춤형복지제도 운영지침",
+    "regulation_type": "예규"
+  },
+  "schema_version": "1.4"
+}

@@ -931,6 +931,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659869",
         "sequence": "0001",
+        "status": "AVAILABLE",
         "title": "물품발송원장",
         "type": "별표",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659865"
@@ -939,6 +940,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659899",
         "sequence": "0001",
+        "status": "AVAILABLE",
         "title": "직영작업 승인신청서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659895"
@@ -947,6 +949,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659875",
         "sequence": "0002",
+        "status": "AVAILABLE",
         "title": "평상복의 종류",
         "type": "별표",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659871"
@@ -955,6 +958,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659905",
         "sequence": "0002",
+        "status": "AVAILABLE",
         "title": "위탁작업 승인신청서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659901"
@@ -963,6 +967,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659881",
         "sequence": "0003",
+        "status": "AVAILABLE",
         "title": "검사필증",
         "type": "별표",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659877"
@@ -971,6 +976,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659911",
         "sequence": "0003",
+        "status": "AVAILABLE",
         "title": "노무작업 승인신청서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659907"
@@ -979,6 +985,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659887",
         "sequence": "0004",
+        "status": "AVAILABLE",
         "title": "제안등급 심사기준표",
         "type": "별표",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659883"
@@ -987,6 +994,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659917",
         "sequence": "0004",
+        "status": "AVAILABLE",
         "title": "도급작업 승인신청서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659913"
@@ -995,6 +1003,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659893",
         "sequence": "0005",
+        "status": "AVAILABLE",
         "title": "교도관 및 수형자 포상기준표",
         "type": "별표",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659889"
@@ -1003,6 +1012,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659923",
         "sequence": "0005",
+        "status": "AVAILABLE",
         "title": "작업폐지 보고서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659919"
@@ -1011,6 +1021,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659929",
         "sequence": "0006",
+        "status": "AVAILABLE",
         "title": "작업중지 보고서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659925"
@@ -1019,6 +1030,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659935",
         "sequence": "0007",
+        "status": "AVAILABLE",
         "title": "시험작업 보고서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659931"
@@ -1027,6 +1039,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659941",
         "sequence": "0008",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659937"
@@ -1035,6 +1048,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659949",
         "sequence": "0009",
+        "status": "AVAILABLE",
         "title": "일일취업인원현황",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659943"
@@ -1043,6 +1057,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659957",
         "sequence": "0010",
+        "status": "AVAILABLE",
         "title": "월분 교도작업운영현황보고",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659951"
@@ -1051,6 +1066,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659963",
         "sequence": "0011",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659959"
@@ -1059,6 +1075,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659969",
         "sequence": "0012",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659965"
@@ -1067,6 +1084,7 @@
         "branch": "02",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659975",
         "sequence": "0012",
+        "status": "AVAILABLE",
         "title": "직영작업 생산계획서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659971"
@@ -1075,6 +1093,7 @@
         "branch": "03",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659981",
         "sequence": "0012",
+        "status": "AVAILABLE",
         "title": "위탁작업 생산계획서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659977"
@@ -1083,6 +1102,7 @@
         "branch": "04",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659987",
         "sequence": "0012",
+        "status": "AVAILABLE",
         "title": "도급작업 계획서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659983"
@@ -1091,6 +1111,7 @@
         "branch": "05",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659993",
         "sequence": "0012",
+        "status": "AVAILABLE",
         "title": "직영작업 생산결과서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659989"
@@ -1099,6 +1120,7 @@
         "branch": "06",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659999",
         "sequence": "0012",
+        "status": "AVAILABLE",
         "title": "위탁작업 생산결과서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169659995"
@@ -1107,6 +1129,7 @@
         "branch": "07",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660005",
         "sequence": "0012",
+        "status": "AVAILABLE",
         "title": "도급작업 결과서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660001"
@@ -1115,6 +1138,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660011",
         "sequence": "0013",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660007"
@@ -1123,6 +1147,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660017",
         "sequence": "0014",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660013"
@@ -1131,6 +1156,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660023",
         "sequence": "0015",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660019"
@@ -1139,6 +1165,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660029",
         "sequence": "0016",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660025"
@@ -1147,6 +1174,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660035",
         "sequence": "0017",
+        "status": "AVAILABLE",
         "title": "작업재료수불부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660031"
@@ -1155,6 +1183,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660041",
         "sequence": "0018",
+        "status": "AVAILABLE",
         "title": "생산품출고명령원부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660037"
@@ -1163,6 +1192,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660047",
         "sequence": "0019",
+        "status": "AVAILABLE",
         "title": "물품출문증",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660043"
@@ -1171,6 +1201,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660057",
         "sequence": "0020",
+        "status": "AVAILABLE",
         "title": "위탁작업계약서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660049"
@@ -1179,6 +1210,7 @@
         "branch": "02",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660063",
         "sequence": "0020",
+        "status": "AVAILABLE",
         "title": "위탁(외부통근)작업 계약변경 현황",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660059"
@@ -1187,6 +1219,7 @@
         "branch": "03",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660069",
         "sequence": "0020",
+        "status": "AVAILABLE",
         "title": "위탁(외부통근)작업 재계약 승인신청서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660065"
@@ -1195,6 +1228,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660075",
         "sequence": "0021",
+        "status": "AVAILABLE",
         "title": "위탁작업 시설·기계·기구 및 재료 검사부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660071"
@@ -1203,6 +1237,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660081",
         "sequence": "0022",
+        "status": "AVAILABLE",
         "title": "작업계획(실적)서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660077"
@@ -1211,6 +1246,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660087",
         "sequence": "0023",
+        "status": "AVAILABLE",
         "title": "외부기업통근작업 대상자명단",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660083"
@@ -1219,6 +1255,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660093",
         "sequence": "0024",
+        "status": "AVAILABLE",
         "title": "취업동의서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660089"
@@ -1227,6 +1264,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660099",
         "sequence": "0025",
+        "status": "AVAILABLE",
         "title": "상호보호서약서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660095"
@@ -1235,6 +1273,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660105",
         "sequence": "0026",
+        "status": "AVAILABLE",
         "title": "외부기업통근작업 일지",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660101"
@@ -1243,6 +1282,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660115",
         "sequence": "0027",
+        "status": "AVAILABLE",
         "title": "외부기업통근작업계약서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660107"
@@ -1251,6 +1291,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660121",
         "sequence": "0028",
+        "status": "AVAILABLE",
         "title": "개방지역작업장통근작업 대상자명단",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660117"
@@ -1259,6 +1300,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660127",
         "sequence": "0029",
+        "status": "AVAILABLE",
         "title": "취업동의서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660123"
@@ -1267,6 +1309,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660137",
         "sequence": "0030",
+        "status": "AVAILABLE",
         "title": "개방지역작업장통근작업계약서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660129"
@@ -1275,6 +1318,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660143",
         "sequence": "0031",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660139"
@@ -1283,6 +1327,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660149",
         "sequence": "0032",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660145"
@@ -1291,6 +1336,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660155",
         "sequence": "0033",
+        "status": "AVAILABLE",
         "title": "취업동의서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660151"
@@ -1299,6 +1345,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660161",
         "sequence": "0034",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660157"
@@ -1307,6 +1354,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660167",
         "sequence": "0035",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660163"
@@ -1315,6 +1363,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660173",
         "sequence": "0036",
+        "status": "AVAILABLE",
         "title": "생산기록부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660169"
@@ -1323,6 +1372,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660179",
         "sequence": "0037",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660175"
@@ -1331,6 +1381,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660185",
         "sequence": "0038",
+        "status": "AVAILABLE",
         "title": "교도작업제품검사대장",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660181"
@@ -1339,6 +1390,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660191",
         "sequence": "0039",
+        "status": "AVAILABLE",
         "title": "교도작업제품 평가부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660187"
@@ -1347,6 +1399,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660197",
         "sequence": "0040",
+        "status": "AVAILABLE",
         "title": "전시제품 판매현황",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660193"
@@ -1355,6 +1408,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660203",
         "sequence": "0041",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660199"
@@ -1363,6 +1417,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660209",
         "sequence": "0042",
+        "status": "AVAILABLE",
         "title": "교도작업(교도관) 제안서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660205"
@@ -1371,6 +1426,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660215",
         "sequence": "0043",
+        "status": "AVAILABLE",
         "title": "교도작업(수형자) 제안서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660211"
@@ -1379,6 +1435,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660221",
         "sequence": "0044",
+        "status": "AVAILABLE",
         "title": "제안관리기록부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660217"
@@ -1387,6 +1444,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660227",
         "sequence": "0045",
+        "status": "AVAILABLE",
         "title": "제안(교도관) 심사표",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660223"
@@ -1395,6 +1453,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660233",
         "sequence": "0046",
+        "status": "AVAILABLE",
         "title": "제안(수형자) 심사표",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660229"
@@ -1403,6 +1462,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660239",
         "sequence": "0047",
+        "status": "AVAILABLE",
         "title": "제안실시 평가서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660235"
@@ -1763,7 +1823,7 @@
     },
     "version_status": "CURRENT"
   },
-  "dataset_version": "ds-7805063f9c55bcd7d7616ee1e3d509f79cc0ee449489171391afacdbf9e30ed3",
+  "dataset_version": "ds-98bdc9ab4f0c49b90a76fe0a00c8efee2fdc7f7079c3cabc098c6da41ce1bc37",
   "rule": {
     "business_domains": [
       "작업·직업훈련"
@@ -1773,6 +1833,7 @@
     "corrections_category": "예규",
     "current_name": "교도작업운영지침",
     "detail_url": "/api/v1/rules/admrul-36282.json",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
     "metadata": {
       "amendment_type": "일부개정",
@@ -1787,6 +1848,24 @@
     },
     "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000285400",
     "primary_domain": "작업·직업훈련",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "수용자"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000285400",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "교도작업운영지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "교도작업운영지침"
@@ -1795,6 +1874,6 @@
     "status": "CURRENT",
     "version_id": "2100000285400"
   },
-  "schema_version": "1.3",
+  "schema_version": "1.4",
   "upcoming": []
 }

@@ -211,6 +211,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=149011743",
         "sequence": "0001",
+        "status": "AVAILABLE",
         "title": "취업전담반 운영일지",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=149011739"
@@ -219,6 +220,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=149011749",
         "sequence": "0002",
+        "status": "AVAILABLE",
         "title": "취업 및 창업지원 실적부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=149011745"
@@ -227,6 +229,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=149011755",
         "sequence": "0003",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=149011751"
@@ -235,6 +238,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=149011763",
         "sequence": "0004",
+        "status": "AVAILABLE",
         "title": "개인정보의 수집·이용·제공에 관한 동의서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=149011757"
@@ -243,6 +247,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=149011769",
         "sequence": "0005",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=149011765"
@@ -251,6 +256,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=149011775",
         "sequence": "0006",
+        "status": "AVAILABLE",
         "title": "취업·창업교육 수료자 명단",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=149011771"
@@ -259,6 +265,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=149011781",
         "sequence": "0007",
+        "status": "AVAILABLE",
         "title": "취업·창업교육 만족도 조사 결과",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=149011777"
@@ -267,6 +274,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=149011787",
         "sequence": "0008",
+        "status": "AVAILABLE",
         "title": "개인별 취업 및 창업지원계획",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=149011783"
@@ -275,6 +283,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=149011793",
         "sequence": "0009",
+        "status": "AVAILABLE",
         "title": "출소 후 취업 및 창업지원 동의서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=149011789"
@@ -383,7 +392,7 @@
     },
     "version_status": "CURRENT"
   },
-  "dataset_version": "ds-7805063f9c55bcd7d7616ee1e3d509f79cc0ee449489171391afacdbf9e30ed3",
+  "dataset_version": "ds-98bdc9ab4f0c49b90a76fe0a00c8efee2fdc7f7079c3cabc098c6da41ce1bc37",
   "rule": {
     "business_domains": [
       "작업·직업훈련",
@@ -394,6 +403,7 @@
     "corrections_category": "예규",
     "current_name": "수형자 취업 및 창업지원 업무 지침",
     "detail_url": "/api/v1/rules/admrul-34791.json",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [],
     "metadata": {
       "amendment_type": "일부개정",
@@ -408,6 +418,25 @@
     },
     "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000254464",
     "primary_domain": "작업·직업훈련",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "수용자",
+        "수형자"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000254464",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "수형자 취업 및 창업지원 업무지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [
       "교육·교화"
     ],
@@ -418,6 +447,6 @@
     "status": "CURRENT",
     "version_id": "2100000254464"
   },
-  "schema_version": "1.3",
+  "schema_version": "1.4",
   "upcoming": []
 }

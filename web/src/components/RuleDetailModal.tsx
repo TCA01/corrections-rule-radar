@@ -8,7 +8,7 @@ import {
 import { api, ApiError } from '../services/api';
 import { formatDotDate } from '../utils/date';
 import { displayArticleDiffs, computeWordDiff } from '../utils/diff';
-import { isRemovedAppendix } from '../utils/format';
+import { isRemovedAppendix, getScopeClassLabel } from '../utils/format';
 import {
   X,
   ExternalLink,
@@ -210,9 +210,20 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({
 
   const appendices = detail?.current.appendices || [];
 
-  // Check if provenance exists in backend data (Section 22)
+  // Check if provenance exists in backend data (Section 5 & 6)
   const effectiveRule = detail?.rule || rule;
-  const hasProvenance = Boolean(effectiveRule.provenance || effectiveRule.selection_rationale);
+  const provObj =
+    typeof effectiveRule.provenance === 'object' && effectiveRule.provenance !== null
+      ? (effectiveRule.provenance as import('../types').RuleProvenance)
+      : null;
+  const selectionBasis =
+    provObj?.selection_basis ||
+    (typeof effectiveRule.provenance === 'string' ? effectiveRule.provenance : '') ||
+    effectiveRule.selection_rationale ||
+    '';
+  const appliesTo = provObj?.applies_to || [];
+  const scopeClassLabel = getScopeClassLabel(provObj?.scope_class);
+  const hasProvenance = Boolean(selectionBasis || appliesTo.length > 0 || scopeClassLabel);
 
   return (
     <div
@@ -235,15 +246,11 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({
               <span className={`badge ${rule.status === 'REPEALED' ? 'badge-repealed' : 'badge-current'}`}>
                 {rule.status === 'REPEALED' ? '폐지' : '현행'}
               </span>
-              {rule.classification_status === 'REVIEW' || rule.business_domains.length === 0 ? (
-                <span className="badge badge-domain-review">검토중</span>
-              ) : (
-                rule.business_domains.map((dom) => (
-                  <span key={dom} className="badge badge-domain-reviewed">
-                    {dom}
-                  </span>
-                ))
-              )}
+              {rule.business_domains.map((dom) => (
+                <span key={dom} className="badge badge-domain-reviewed">
+                  {dom}
+                </span>
+              ))}
             </div>
 
             <button
@@ -346,13 +353,28 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({
             </div>
           </div>
 
-          {/* Provenance Slot: Section 22 (Rendered ONLY if backend data provides it) */}
+          {/* Provenance Slot: Section 5 & 6 */}
           {hasProvenance && (
             <div className="detail-section provenance-section">
-              <h3 className="detail-section-title">선정 근거</h3>
-              <p className="provenance-text">
-                {effectiveRule.selection_rationale || effectiveRule.provenance}
-              </p>
+              <div className="provenance-header-row" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '0.4rem' }}>
+                <h3 className="detail-section-title" style={{ margin: 0 }}>선정 근거</h3>
+                {scopeClassLabel && (
+                  <span className="badge badge-scope-class" style={{ fontSize: '0.75rem', color: 'var(--color-text-muted)' }}>
+                    {scopeClassLabel}
+                  </span>
+                )}
+              </div>
+              {selectionBasis ? (
+                <p className="provenance-text" style={{ margin: '0 0 0.5rem 0', lineHeight: 1.6 }}>
+                  {selectionBasis}
+                </p>
+              ) : null}
+              {appliesTo.length > 0 ? (
+                <div className="provenance-applies-to" style={{ fontSize: '0.8125rem', color: 'var(--color-text-muted)' }}>
+                  <span style={{ fontWeight: 600, marginRight: '0.5rem' }}>관련 대상</span>
+                  <span>{appliesTo.join(' · ')}</span>
+                </div>
+              ) : null}
             </div>
           )}
 

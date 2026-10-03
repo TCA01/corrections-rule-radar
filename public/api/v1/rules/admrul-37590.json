@@ -58,6 +58,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106421",
         "sequence": "0001",
+        "status": "AVAILABLE",
         "title": "보관금 초과 안내문",
         "type": "별표",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106417"
@@ -66,6 +67,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106493",
         "sequence": "0001",
+        "status": "AVAILABLE",
         "title": "보관금대장",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106489"
@@ -74,6 +76,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106427",
         "sequence": "0002",
+        "status": "REMOVED",
         "title": "삭제",
         "type": "별표",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106423"
@@ -82,6 +85,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106499",
         "sequence": "0002",
+        "status": "AVAILABLE",
         "title": "보관금관리부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106495"
@@ -90,6 +94,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106439",
         "sequence": "0003",
+        "status": "AVAILABLE",
         "title": "수용자 1인의 보관품 허가기준",
         "type": "별표",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106429"
@@ -98,6 +103,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106505",
         "sequence": "0003",
+        "status": "AVAILABLE",
         "title": "보관금 접수신청서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106501"
@@ -106,6 +112,7 @@
         "branch": "02",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106445",
         "sequence": "0003",
+        "status": "AVAILABLE",
         "title": "외부반입 제한 물품 종류(25개 품목) ",
         "type": "별표",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106441"
@@ -114,6 +121,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106451",
         "sequence": "0004",
+        "status": "AVAILABLE",
         "title": "보관품가방 규격(용량)",
         "type": "별표",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106447"
@@ -122,6 +130,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106511",
         "sequence": "0004",
+        "status": "AVAILABLE",
         "title": "보관금 (접수,반환)원",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106507"
@@ -130,6 +139,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106457",
         "sequence": "0005",
+        "status": "AVAILABLE",
         "title": "보관품 초과 안내문",
         "type": "별표",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106453"
@@ -138,6 +148,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106517",
         "sequence": "0005",
+        "status": "AVAILABLE",
         "title": "보관금 초과보관 허가대장",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106513"
@@ -146,6 +157,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106463",
         "sequence": "0006",
+        "status": "AVAILABLE",
         "title": "보관품 폐기 안내문",
         "type": "별표",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106459"
@@ -154,6 +166,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106523",
         "sequence": "0006",
+        "status": "AVAILABLE",
         "title": "보관금 사용신청 및 전달서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106519"
@@ -162,6 +175,7 @@
         "branch": "02",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106529",
         "sequence": "0006",
+        "status": "AVAILABLE",
         "title": "자비 물품 구매 신청서(IMR 카드)",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106525"
@@ -170,6 +184,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106469",
         "sequence": "0007",
+        "status": "AVAILABLE",
         "title": "불허휴대품 반환 안내문",
         "type": "별표",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106465"
@@ -178,6 +193,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106535",
         "sequence": "0007",
+        "status": "AVAILABLE",
         "title": "보관금 일계표",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106531"
@@ -186,6 +202,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106475",
         "sequence": "0008",
+        "status": "AVAILABLE",
         "title": "불허휴대품 폐기 안내문",
         "type": "별표",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106471"
@@ -194,6 +211,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106541",
         "sequence": "0008",
+        "status": "AVAILABLE",
         "title": "일시보관금품 관리부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106537"
@@ -202,6 +220,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106481",
         "sequence": "0009",
+        "status": "AVAILABLE",
         "title": "보관금 온라인뱅킹시스템 운영에 관한 사항",
         "type": "별표",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106477"
@@ -210,6 +229,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106547",
         "sequence": "0009",
+        "status": "AVAILABLE",
         "title": "유류금품 정리부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106543"
@@ -218,6 +238,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106487",
         "sequence": "0010",
+        "status": "AVAILABLE",
         "title": "외부물품 반입허가 절차",
         "type": "별표",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106483"
@@ -226,6 +247,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106553",
         "sequence": "0010",
+        "status": "AVAILABLE",
         "title": "석방 후 보관금품 미지급자 명부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106549"
@@ -234,6 +256,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106559",
         "sequence": "0011",
+        "status": "AVAILABLE",
         "title": "보관품대장",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106555"
@@ -242,6 +265,7 @@
         "branch": "02",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106565",
         "sequence": "0011",
+        "status": "AVAILABLE",
         "title": "신입(이입)자 휴대품 즉시반환 신청서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106561"
@@ -250,6 +274,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106571",
         "sequence": "0012",
+        "status": "AVAILABLE",
         "title": "보관품 (접수전달, 반환) 신청서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106567"
@@ -258,6 +283,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106577",
         "sequence": "0013",
+        "status": "AVAILABLE",
         "title": "보관품 (접수전달, 반환)원",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106573"
@@ -266,6 +292,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106583",
         "sequence": "0014",
+        "status": "AVAILABLE",
         "title": "보관품 접수전달 및 검사부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106579"
@@ -274,6 +301,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106589",
         "sequence": "0015",
+        "status": "AVAILABLE",
         "title": "특별보관품 등록부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106585"
@@ -282,6 +310,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106595",
         "sequence": "0016",
+        "status": "AVAILABLE",
         "title": "특별보관품 봉투",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106591"
@@ -290,6 +319,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106601",
         "sequence": "0017",
+        "status": "AVAILABLE",
         "title": "보관품 사용,반납 및 폐기표",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106597"
@@ -298,6 +328,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106607",
         "sequence": "0018",
+        "status": "AVAILABLE",
         "title": "보관품 폐기부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106603"
@@ -306,6 +337,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106613",
         "sequence": "0019",
+        "status": "AVAILABLE",
         "title": "보관품 인계서 원부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106609"
@@ -314,6 +346,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106619",
         "sequence": "0020",
+        "status": "AVAILABLE",
         "title": "초과 보관금품[불허휴대품] 처리대장",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106615"
@@ -322,6 +355,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106625",
         "sequence": "0021",
+        "status": "AVAILABLE",
         "title": "보관금 검사조서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106621"
@@ -330,6 +364,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106631",
         "sequence": "0022",
+        "status": "AVAILABLE",
         "title": "보관품 검사조서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106627"
@@ -338,6 +373,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106637",
         "sequence": "0023",
+        "status": "AVAILABLE",
         "title": " 외부물품 반입허가 신청서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106633"
@@ -346,6 +382,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106643",
         "sequence": "0024",
+        "status": "AVAILABLE",
         "title": "외부물품 반입허가자 명부",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106639"
@@ -354,6 +391,7 @@
         "branch": "00",
         "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106649",
         "sequence": "0025",
+        "status": "AVAILABLE",
         "title": "불부합사유서",
         "type": "별지",
         "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=148106645"
@@ -491,7 +529,7 @@
     },
     "version_status": "CURRENT"
   },
-  "dataset_version": "ds-7805063f9c55bcd7d7616ee1e3d509f79cc0ee449489171391afacdbf9e30ed3",
+  "dataset_version": "ds-98bdc9ab4f0c49b90a76fe0a00c8efee2fdc7f7079c3cabc098c6da41ce1bc37",
   "rule": {
     "business_domains": [
       "보관금품"
@@ -501,6 +539,7 @@
     "corrections_category": "예규",
     "current_name": "보관금품 관리지침",
     "detail_url": "/api/v1/rules/admrul-37590.json",
+    "domain_assignment_status": "EVIDENCE_BASED",
     "historical_names": [
       "영치금품 관리지침"
     ],
@@ -517,6 +556,25 @@
     },
     "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000252598",
     "primary_domain": "보관금품",
+    "provenance": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "수용자",
+        "교정시설"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000252598",
+      "discovery_source": [
+        "CORRECTIONS_PAGE"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": "영치금품 관리지침",
+      "official_seed_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "scope_class": "OFFICIAL_CORRECTIONS_LIST",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "교정본부 공식 행정규칙 현황 수록",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "secondary_domains": [],
     "seed_names": [
       "영치금품 관리지침"
@@ -525,6 +583,6 @@
     "status": "CURRENT",
     "version_id": "2100000252598"
   },
-  "schema_version": "1.3",
+  "schema_version": "1.4",
   "upcoming": []
 }

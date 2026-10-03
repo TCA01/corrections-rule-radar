@@ -68,21 +68,34 @@ export function getStatusBadge(status: RuleStatus): { text: string; className: s
       return { text: '현행', className: 'badge-current' };
     case 'REPEALED':
       return { text: '폐지', className: 'badge-repealed' };
-    case 'REVIEW':
-      return { text: '검토 중', className: 'badge-review' };
     default:
       return { text: status, className: 'badge-default' };
   }
 }
 
 export function getClassificationBadge(
-  classification: ClassificationStatus,
+  _classification: ClassificationStatus,
   domains: string[]
 ): { text: string; className: string } {
-  if (classification === 'REVIEW' || domains.length === 0) {
-    return { text: '업무 분야 검토 중', className: 'badge-domain-review' };
+  if (domains.length === 0) {
+    return { text: '기타', className: 'badge-domain-reviewed' };
   }
   return { text: domains.join(', '), className: 'badge-domain-reviewed' };
+}
+
+export function getScopeClassLabel(scopeClass?: string | null): string | null {
+  switch (scopeClass) {
+    case 'OFFICIAL_CORRECTIONS_LIST':
+      return '교정본부 공식 목록';
+    case 'DIRECT_CORRECTIONS':
+      return '교정 직접 관련';
+    case 'CROSS_DOMAIN_CORRECTIONS':
+      return '공통 적용 규정';
+    case 'HISTORICAL_REPEALED':
+      return '폐지·연혁 규정';
+    default:
+      return null;
+  }
 }
 
 export function isRemovedAppendix(

@@ -1,0 +1,73 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "55049a53cc76f64d2af13188371039fc8efa602e19df7c22f97b3b1ff14a4af2",
+      "effective_date": "2022-07-07",
+      "identifier": "2100000212345",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000212345",
+      "snapshot_url": "/api/v1/rules/admrul-37556/versions/2100000212345-2022-07-07-6e92a91a55c65811.json",
+      "version_id": "2100000212345"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "8a508e94ffd1a44252a71b199f4a0ab44a316279055d8623eee533270cef0907",
+      "effective_date": "2019-08-30",
+      "identifier": "2100000181905",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000181905",
+      "snapshot_url": "/api/v1/rules/admrul-37556/versions/2100000181905-2019-08-30-ad4b7d5ad05f91b8.json",
+      "version_id": "2100000181905"
+    },
+    "canonical_id": "admrul-37556",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 2,
+    "changed_articles": [
+      {
+        "after_text": "제3조(지급범위) 수당은 다음 각 호 중 하나에 해당하는 자에게 지급된다.\n1. 소년원 및 소년분류심사원 소속 공무원으로서 초등학교 또는 중등학교과정의 교육을 담당하는 자와 직업훈련을 담당하는 자\n2. 교도소 및 구치소 소속 공무원으로서 초등학교 또는 중등학교 과정의 교육을 담당하는 자와 직업훈련을 담당하는 자\n3. (현행과 같음)\n4. 국립법무병원 소속 공무원으로서 초등학교 또는 중등학교 과정의 교육을 담당하는 자와 직업훈련을 담당하는 자",
+        "article_key": "article-3",
+        "article_number": "3",
+        "article_title": "제3조(지급범위)",
+        "before_text": "제3조(지급범위) 수당은 다음 각 호 중 하나에 해당하는 자에게 지급된다.\n1. 소년원 및 소년분류심사원 소속 보호직, 전문경력관 및 임기제 공무원으로서 초등학교 또는 중등학교과정의 교육을 담당하는 자와 직업훈련을 담당하는 직업훈련교사\n2. 교도소 및 구치소 소속 교정직, 전문경력관 및 임기제 공무원으로서 초등학교 또는 중등학교 과정의 교육을 담당하는 자와 직업훈련을 담당하는 직업훈련교사\n3. (생  략)\n4. 치료감호소 소속 보호직, 전문경력관 및 임기제 공무원으로서 초등학교 또는 중등학교 과정의 교육을 담당하는 자와 직업훈련을 담당하는 직업훈련교사",
+        "change_type": "MODIFIED",
+        "effective_date": "2022-07-07"
+      },
+      {
+        "after_text": "제5조(재검토기한) 법무부장관은 「훈령ㆍ예규 등의 발령 및 관리에 관한 규정」에 따라 이 훈령에 대하여 2023년 1월 1일 기준으로 매 3년이 되는 시점(매 3년째의 12월 31일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+        "article_key": "article-5",
+        "article_number": "5",
+        "article_title": "제5조(재검토기한)",
+        "before_text": "제5조(재검토기한) 법무부장관은 「훈령ㆍ예규 등의 발령 및 관리에 관한 규정」에 따라 이 훈령에 대하여 2020년 1월 1일 기준으로 매 3년이 되는 시점(매 3년째의 12월 31일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2022-07-07"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "9358fd7520844137952faf198d69916863884f0caef8277791decd888a0da4de",
+      "credential_redacted": false,
+      "raw_sha256": "e2bf873fa2e2acfa7c79b65e76b2060f68d3b2bf8eeda7e2cd8f3fedf333cade",
+      "request": {
+        "ID": "2100000212345",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "e2bf873fa2e2acfa7c79b65e76b2060f68d3b2bf8eeda7e2cd8f3fedf333cade"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T11:27:41.976743+00:00",
+    "effective_date": "2022-07-07",
+    "event_id": "evt-35f127060f37f668bcb450fc8f22407420a656ffa05071e5a0b8f4c819684819",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000212345",
+    "promulgation_or_issue_date": "2022-06-22",
+    "regulation_name": "연구업무수당 지급규칙",
+    "regulation_type": "훈령"
+  },
+  "schema_version": "1.4"
+}

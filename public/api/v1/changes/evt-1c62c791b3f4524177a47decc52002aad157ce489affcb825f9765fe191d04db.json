@@ -1,0 +1,65 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "e9c0518e3a21a1ed2d3fee8a0f1494cfff2dca23e9833d1a306cafb10f1a89ac",
+      "effective_date": "2024-08-12",
+      "identifier": "2100000245882",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000245882",
+      "snapshot_url": "/api/v1/rules/admrul-37001/versions/2100000245882-2024-08-12-72428cbf93e972ba.json",
+      "version_id": "2100000245882"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "a5810f3e5a4667a2de07d17c868c44b74434b68ff441dd17bf3ebb14f83d7de7",
+      "effective_date": "2022-12-01",
+      "identifier": "2100000216385",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000216385",
+      "snapshot_url": "/api/v1/rules/admrul-37001/versions/2100000216385-2022-12-01-a2164ee52809b56b.json",
+      "version_id": "2100000216385"
+    },
+    "canonical_id": "admrul-37001",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "RULE_RENAMED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 1,
+    "changed_articles": [
+      {
+        "after_text": "제3조(임용권 및 시험실시권의 위임) ① (현행과 같음)\n② 법무연수원장에게 다음 각 호의 권한을 위임한다.\n1. (현행과 같음)\n2. 법무연수원 소속 행정직군(방호직), 과학기술직군(운전직) 6급 및 7급 공무원의 임용권\n3.·4. (현행과 같음)\n③ ∼ ⑤ (현행과 같음)\n⑥ 서울ㆍ대구ㆍ부산ㆍ광주ㆍ대전ㆍ수원보호관찰소장에게 다음 각 호의 권한을 위임한다.\n1. 서울ㆍ대구ㆍ부산ㆍ광주ㆍ대전ㆍ수원보호관찰심사위원회 소속 관리운영직군 공무원의 임용권\n⑦ 보호관찰소장 또는 위치추적관제센터장에게 다음 각 호의 권한을 위임한다.\n1. 보호관찰소(지소는 본소에 포함된다. 이하 같다) 또는 위치추적관제센터 소속 8급 이하 및 관리운영직군 공무원의 임용권(보호직 8급 승진임용은 제외한다)\n2. 보호관찰소 또는 위치추적관제센터 소속 행정직군(방호직), 과학기술직군(전산직 제외) 6급 및 7급 공무원의 임용권\n3. 보호관찰소 또는 위치추적관제센터 소속 6급 및 7급 공무원의 소내 전보권\n4. 보호관찰소 또는 위치추적관제센터 소속 8급 이하 공무원의 시험실시권\n⑧ 소년원장 또는 소년분류심사원장에게 다음 각 호의 권한을 위임한다.\n1. (현행과 같음)\n2. 소년원 또는 소년분류심사원 소속 행정직군(방호직), 과학기술직군 6급 및 7급 공무원의 임용권\n3.·4. (현행과 같음)\n⑨ 국립법무병원장에게 다음 각 호의 권한을 위임한다.\n1. (현행과 같음)\n2. 국립법무병원 소속 행정직군(방호직), 과학기술직군(운전ㆍ조리ㆍ간호조무ㆍ식품위생ㆍ방송통신ㆍ공업ㆍ시설직) 6급 및 7급 공무원의 임용권\n3. (현행과 같음)\n4. 국립법무병원 소속 6급 및 7급 공무원의 원내 전보권\n⑩ 지방교정청장에게 다음 각 호의 권한을 위임한다.\n1. 지방교정청 및 그 관할기관 소속 6급ㆍ7급 및 8급 공무원의 임용권(전산직 6ㆍ7급 및 관리운영직군 공무원 제외)\n2. ∼ 5. (현행과 같음)\n⑪ (현행과 같음)\n⑫ 출입국ㆍ외국인청장, 출입국ㆍ외국인사무소장, 외국인보호소장 및 출입국ㆍ외국인지원센터장에게 다음 각 호의 권한을 위임한다.\n1. (현행과 같음)\n2. 출입국ㆍ외국인청, 출입국ㆍ외국인사무소, 외국인보호소 및 출입국ㆍ외국인지원센터 소속 행정직군(방호직), 과학기술직군(전산직 제외) 6급 및 7급 공무원의 임용권\n3.·4. (현행과 같음)\n⑬·⑭ (현행과 같음)",
+        "article_key": "article-3",
+        "article_number": "3",
+        "article_title": "제3조(임용권 및 시험실시권의 위임)",
+        "before_text": "제3조(임용권 및 시험실시권의 위임) ① (생  략)\n② 법무연수원장에게 다음 각 호의 권한을 위임한다.\n1. (생  략)\n2. 법무연수원 소속 행정직군(방호직), 기술직군(운전직) 6급 및 7급 공무원의 임용권\n3.·4. (생  략)\n③ ∼ ⑤ (생  략)\n⑥ 서울ㆍ대구ㆍ부산ㆍ광주ㆍ대전보호관찰소장에게 다음 각 호의 권한을 위임한다.\n1. 서울ㆍ대구ㆍ부산ㆍ광주ㆍ대전보호관찰심사위원회 소속 관리운영직군 공무원의 임용권\n⑦ 보호관찰소장에게 다음 각 호의 권한을 위임한다.\n1. 보호관찰소(지소는 본소에 포함된다. 이하 같다) 소속 8급 이하 및 관리운영직군 공무원의 임용권(보호직 8급 승진임용은 제외한다)\n2. 보호관찰소 소속 행정직군(방호직), 기술직군(전산직 제외) 6급 및 7급 공무원의 임용권\n3. 보호관찰소 소속 6급 및 7급 공무원의 소내 전보권\n4. 보호관찰소 소속 8급 이하 공무원의 시험실시권\n⑧ 소년원장 또는 소년분류심사원장에게 다음 각 호의 권한을 위임한다.\n1. (생  략)\n2. 소년원 또는 소년분류심사원 소속 행정직군(방호직), 기술직군6급 및 7급 공무원의 임용권\n3.·4. (생  략)\n⑨ 국립법무병원장에게 다음 각 호의 권한을 위임한다.\n1. (생  략)\n2. 국립법무병원 소속 행정직군(방호직), 기술직군(운전ㆍ조리ㆍ간호조무ㆍ식품위생ㆍ방송통신ㆍ공업ㆍ시설직) 6급 및 7급 공무원의 임용권\n3. (생  략)\n4. 국립법무병원 소속 6급 및 7급 공무원의 소내 전보권\n⑩ 지방교정청장에게 다음 각 호의 권한을 위임한다.\n1. 지방교정청 및 그 관할기관 소속 6급ㆍ7급 및 8급 공무원의 임용권(관리운영직군 공무원 제외)\n2. ∼ 5. (생  략)\n⑪ (생  략)\n⑫ 출입국ㆍ외국인청장, 출입국ㆍ외국인사무소장, 외국인보호소장 및 출입국ㆍ외국인지원센터장에게 다음 각 호의 권한을 위임한다.\n1. (생  략)\n2. 출입국ㆍ외국인청, 출입국ㆍ외국인사무소, 외국인보호소 및 출입국ㆍ외국인지원센터 소속 행정직군(방호직), 기술직군(전산직 제외) 6급 및 7급 공무원의 임용권\n3.·4. (생  략)\n⑬·⑭ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-08-12"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "8f242b16c2d9c112fcfb4fdfbc8fd5a9b11f2e2203f5492d0932c580372e5e3a",
+      "credential_redacted": false,
+      "raw_sha256": "f2ea256a6be1fc01ecc5a61c2917e8bd6ab32be80bea6890585da523d1afa8ca",
+      "request": {
+        "ID": "2100000245882",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "f2ea256a6be1fc01ecc5a61c2917e8bd6ab32be80bea6890585da523d1afa8ca"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T11:27:41.976743+00:00",
+    "effective_date": "2024-08-12",
+    "event_id": "evt-1c62c791b3f4524177a47decc52002aad157ce489affcb825f9765fe191d04db",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000245882",
+    "promulgation_or_issue_date": "2024-08-12",
+    "regulation_name": "법무부소속 공무원 임용권 및 임용시험실시권 위임규칙",
+    "regulation_type": "훈령"
+  },
+  "schema_version": "1.4"
+}

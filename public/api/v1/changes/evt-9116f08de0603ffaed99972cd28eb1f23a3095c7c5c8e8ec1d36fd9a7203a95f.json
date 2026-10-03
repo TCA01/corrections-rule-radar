@@ -1,0 +1,36 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "755fde92a6bf988b594d0b3a566d4f2abe258d3ec522141a27c29c0ef7b5bb19",
+      "effective_date": "2021-04-27",
+      "identifier": "2100000200518",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000200518",
+      "snapshot_url": "/api/v1/rules/admrul-77216/versions/2100000200518-2021-04-27-b221bfb90a36225a.json",
+      "version_id": "2100000200518"
+    },
+    "appendix_changes": [],
+    "before_version": null,
+    "canonical_id": "admrul-77216",
+    "change_type": "NEW_RULE",
+    "change_types": [
+      "NEW_RULE"
+    ],
+    "changed_article_count": 0,
+    "changed_articles": [],
+    "comparison_evidence": null,
+    "comparison_scope": "FULL_STRUCTURED_BODY",
+    "comparison_source": null,
+    "comparison_status": "COMPARISON_UNAVAILABLE",
+    "comparison_unavailable_reason": "BEFORE_VERSION_UNAVAILABLE",
+    "detected_at": "2026-10-03T11:27:41.976743+00:00",
+    "effective_date": "2021-04-27",
+    "event_id": "evt-9116f08de0603ffaed99972cd28eb1f23a3095c7c5c8e8ec1d36fd9a7203a95f",
+    "fallback_reason": "OFFICIAL_COMPARISON_UNAVAILABLE",
+    "official_old_new_available": false,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000200518",
+    "promulgation_or_issue_date": "2021-04-27",
+    "regulation_name": "법무부 공무원의 주식 거래 제한에 관한 지침",
+    "regulation_type": "훈령"
+  },
+  "schema_version": "1.4"
+}

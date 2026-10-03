@@ -95,16 +95,16 @@ const mockAliasRule: RuleSummary = {
   detail_url: '/api/v1/rules/admrul-28558.json',
 };
 
-const mockReviewDomainRule: RuleSummary = {
+const mockReportDomainRule: RuleSummary = {
   canonical_id: 'admrul-32484',
   source_kind: 'admrul',
   current_name: '현황작성 및 보고요령 지침',
   seed_names: ['현황작성 및 보고요령 지침'],
   historical_names: [],
   corrections_category: '훈령',
-  business_domains: [],
-  classification_status: 'REVIEW',
-  primary_domain: null,
+  business_domains: ['보고'],
+  classification_status: 'REVIEWED',
+  primary_domain: '보고',
   secondary_domains: [],
   status: 'CURRENT',
   version_id: '2100000100000',
@@ -230,7 +230,7 @@ describe('UpcomingTimeline Component', () => {
 });
 
 describe('RegulationDirectory Component', () => {
-  const rulesList = [mockRule, mockRepealedRule, mockAliasRule, mockReviewDomainRule];
+  const rulesList = [mockRule, mockRepealedRule, mockAliasRule, mockReportDomainRule];
 
   it('excludes repealed rules by default and includes them when toggle is checked', () => {
     render(<RegulationDirectory rules={rulesList} onSelectRule={vi.fn()} />);
@@ -258,14 +258,14 @@ describe('RegulationDirectory Component', () => {
     expect(screen.getByText('이전 명칭:')).toBeInTheDocument();
   });
 
-  it('displays REVIEW domain rules with "업무 분야 검토 중" and remains searchable', () => {
+  it('displays 보고 domain rules correctly and remains searchable', () => {
     render(<RegulationDirectory rules={rulesList} onSelectRule={vi.fn()} />);
 
     const searchInput = screen.getByLabelText('규정명 및 이전 명칭 검색');
     fireEvent.change(searchInput, { target: { value: '현황작성' } });
 
     expect(screen.getByText('현황작성 및 보고요령 지침')).toBeInTheDocument();
-    expect(screen.getAllByText('업무 분야 검토 중').length).toBeGreaterThanOrEqual(1);
+    expect(screen.getAllByText('보고').length).toBeGreaterThanOrEqual(1);
   });
 });
 
@@ -274,14 +274,14 @@ describe('Header Component', () => {
     render(
       <Header
         health={{
-          schema_version: '1.3',
+          schema_version: '1.4',
           dataset_version: 'ds-1',
           health_scope: 'PUBLISHED_DATASET',
           publication_status: 'HEALTHY',
           status: 'HEALTHY',
-          rule_count: 68,
+          rule_count: 106,
           review_count: 0,
-          classification_review_count: 2,
+          classification_review_count: 0,
           last_successful_sync: '2026-10-03T02:55:26Z',
         }}
       />
@@ -296,14 +296,14 @@ describe('Header Component', () => {
     render(
       <Header
         health={{
-          schema_version: '1.3',
+          schema_version: '1.4',
           dataset_version: 'ds-1',
           health_scope: 'PUBLISHED_DATASET',
           publication_status: 'DEGRADED',
           status: 'DEGRADED',
-          rule_count: 68,
+          rule_count: 106,
           review_count: 0,
-          classification_review_count: 2,
+          classification_review_count: 0,
           last_successful_sync: '2026-10-03T02:55:26Z',
         }}
       />
@@ -582,7 +582,7 @@ describe('RuleDetailModal Component', () => {
 
   it('does NOT render provenance section when rule has no provenance or selection rationale', async () => {
     vi.spyOn(api, 'getRuleDetail').mockResolvedValue({
-      schema_version: '1.2',
+      schema_version: '1.4',
       dataset_version: '2026-10-03',
       rule: { ...mockRule, provenance: null, selection_rationale: null },
       current: {
@@ -619,11 +619,15 @@ describe('RuleDetailModal Component', () => {
   it('renders provenance section when provenance data is provided by backend', async () => {
     const ruleWithProvenance: RuleSummary = {
       ...mockRule,
-      provenance: '교정시설 운영 및 수용자 처우의 기본 근거 법률',
+      provenance: {
+        selection_basis: '교정시설 운영 및 수용자 처우의 기본 근거 법률',
+        applies_to: ['교정공무원', '수용자'],
+        scope_class: 'OFFICIAL_CORRECTIONS_LIST',
+      },
     };
 
     vi.spyOn(api, 'getRuleDetail').mockResolvedValue({
-      schema_version: '1.2',
+      schema_version: '1.4',
       dataset_version: '2026-10-03',
       rule: ruleWithProvenance,
       current: {
@@ -654,7 +658,9 @@ describe('RuleDetailModal Component', () => {
       expect(screen.getByText('선정 근거')).toBeInTheDocument();
     });
 
+    expect(screen.getByText('교정본부 공식 목록')).toBeInTheDocument();
     expect(screen.getByText('교정시설 운영 및 수용자 처우의 기본 근거 법률')).toBeInTheDocument();
+    expect(screen.getByText('교정공무원 · 수용자')).toBeInTheDocument();
   });
 
   it('suppresses download and preview actions for deleted appendices even when historical URLs exist (Web W3.1a)', async () => {

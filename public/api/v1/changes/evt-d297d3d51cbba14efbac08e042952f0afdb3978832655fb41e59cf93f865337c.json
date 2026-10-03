@@ -1,0 +1,36 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "40f359b5278b3e66941c3e176cc5d4db36cae23776178e4e3e71238e1716188c",
+      "effective_date": "2024-06-11",
+      "identifier": "2100000242426",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000242426",
+      "snapshot_url": "/api/v1/rules/admrul-89409/versions/2100000242426-2024-06-11-afecddbcd69e3054.json",
+      "version_id": "2100000242426"
+    },
+    "appendix_changes": [],
+    "before_version": null,
+    "canonical_id": "admrul-89409",
+    "change_type": "NEW_RULE",
+    "change_types": [
+      "NEW_RULE"
+    ],
+    "changed_article_count": 0,
+    "changed_articles": [],
+    "comparison_evidence": null,
+    "comparison_scope": "FULL_STRUCTURED_BODY",
+    "comparison_source": null,
+    "comparison_status": "COMPARISON_UNAVAILABLE",
+    "comparison_unavailable_reason": "BEFORE_VERSION_UNAVAILABLE",
+    "detected_at": "2026-10-03T11:27:41.976743+00:00",
+    "effective_date": "2024-06-11",
+    "event_id": "evt-d297d3d51cbba14efbac08e042952f0afdb3978832655fb41e59cf93f865337c",
+    "fallback_reason": "OFFICIAL_COMPARISON_UNAVAILABLE",
+    "official_old_new_available": false,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000242426",
+    "promulgation_or_issue_date": "2024-06-11",
+    "regulation_name": "법무부 공무원의 가상자산 보유 제한에 관한 지침",
+    "regulation_type": "훈령"
+  },
+  "schema_version": "1.4"
+}
