@@ -4,11 +4,11 @@ import {
   RuleDetailResponse,
   ChangedArticleDiff,
   PersistentChangeEvent,
-  AppendixItem,
 } from '../types';
 import { api, ApiError } from '../services/api';
 import { formatDotDate } from '../utils/date';
 import { displayArticleDiffs, computeWordDiff } from '../utils/diff';
+import { isRemovedAppendix } from '../utils/format';
 import {
   X,
   ExternalLink,
@@ -58,15 +58,7 @@ function isDownloadResource(url: string | null): boolean {
   );
 }
 
-function isDeletedAppendix(app: AppendixItem): boolean {
-  const status = (app.status || '').toUpperCase();
-  return (
-    app.is_deleted === true ||
-    status === 'REMOVED' ||
-    status === 'DELETED' ||
-    status === '삭제'
-  );
-}
+
 
 export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({
   rule,
@@ -579,7 +571,7 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({
               </h3>
               <div className="appendices-list">
                 {appendices.map((app, idx) => {
-                  const isDeleted = isDeletedAppendix(app);
+                  const isDeleted = isRemovedAppendix(app);
                   const isDownload = isDownloadResource(app.url);
                   const isPdfPreview = Boolean(app.pdf_url && !isDownloadResource(app.pdf_url));
 
@@ -589,7 +581,10 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({
                         <FileSpreadsheet size={16} />
                       </div>
                       <div className="appendix-info">
-                        <span className="appendix-title">{app.title || `별표·서식 제${app.sequence}호`}</span>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                          <span className="appendix-title">{app.title || `별표·서식 제${app.sequence}호`}</span>
+                          {isDeleted && <span className="badge badge-repealed">삭제</span>}
+                        </div>
                         <span className="appendix-meta">
                           {app.type || '별표/서식'} {app.sequence ? `(제${app.sequence}호)` : ''}
                         </span>

@@ -9,6 +9,7 @@ import {
   RecentChangesResponse,
   RuleDetailResponse,
 } from '../types';
+import { isRemovedAppendix } from '../utils/format';
 
 describe('Production Data Smoke Test (public/api/v1/)', () => {
   const publicDir = path.resolve(__dirname, '../../../public/api/v1');
@@ -169,5 +170,59 @@ describe('Production Data Smoke Test (public/api/v1/)', () => {
     const firstAppendix = data.current.appendices[0];
     expect(firstAppendix.url).toMatch(/^https:\/\/(www\.)?law\.go\.kr\//);
     expect(firstAppendix.title).toBeTruthy();
+  });
+
+  it('verifies real deleted appendices in production data are correctly detected by isRemovedAppendix (Web W3.1a)', () => {
+    // 1. admrul-34791: sequence 0003, 0005 (title: '삭제', has historical download url)
+    const raw34791 = fs.readFileSync(path.join(publicDir, 'rules/admrul-34791.json'), 'utf-8');
+    const data34791: RuleDetailResponse = JSON.parse(raw34791);
+    const app34791_0003 = data34791.current.appendices.find((a) => a.sequence === '0003');
+    expect(app34791_0003).toBeDefined();
+    expect(app34791_0003!.title).toBe('삭제');
+    expect(app34791_0003!.url).toMatch(/flDownload\.do/);
+    expect(isRemovedAppendix(app34791_0003)).toBe(true);
+
+    const app34791_0005 = data34791.current.appendices.find((a) => a.sequence === '0005');
+    expect(app34791_0005).toBeDefined();
+    expect(app34791_0005!.title).toBe('삭제');
+    expect(isRemovedAppendix(app34791_0005)).toBe(true);
+
+    // 2. admrul-36282: sequence 0008 (title: '삭제', has historical download url)
+    const raw36282 = fs.readFileSync(path.join(publicDir, 'rules/admrul-36282.json'), 'utf-8');
+    const data36282: RuleDetailResponse = JSON.parse(raw36282);
+    const app36282_0008 = data36282.current.appendices.find((a) => a.sequence === '0008');
+    expect(app36282_0008).toBeDefined();
+    expect(app36282_0008!.title).toBe('삭제');
+    expect(app36282_0008!.url).toMatch(/flDownload\.do/);
+    expect(isRemovedAppendix(app36282_0008)).toBe(true);
+
+    // 3. admrul-37584: sequence 0005 (title: '삭제', has historical download url)
+    const raw37584 = fs.readFileSync(path.join(publicDir, 'rules/admrul-37584.json'), 'utf-8');
+    const data37584: RuleDetailResponse = JSON.parse(raw37584);
+    const app37584_0005 = data37584.current.appendices.find((a) => a.sequence === '0005');
+    expect(app37584_0005).toBeDefined();
+    expect(app37584_0005!.title).toBe('삭제');
+    expect(app37584_0005!.url).toMatch(/flDownload\.do/);
+    expect(isRemovedAppendix(app37584_0005)).toBe(true);
+
+    // 4. law-002049: sequence 0004 (title: '삭제 <2016.1.22.>' / '삭제 &lt;2016.1.22.&gt;', has historical download url)
+    const raw2049 = fs.readFileSync(path.join(publicDir, 'rules/law-002049.json'), 'utf-8');
+    const data2049: RuleDetailResponse = JSON.parse(raw2049);
+    const app2049_0004 = data2049.current.appendices.find((a) => a.sequence === '0004');
+    expect(app2049_0004).toBeDefined();
+    expect(app2049_0004!.title).toMatch(/^삭제/);
+    expect(app2049_0004!.url).toMatch(/flDownload\.do/);
+    expect(isRemovedAppendix(app2049_0004)).toBe(true);
+
+    // 5. Active downloadable appendix: admrul-2046965 sequence 0001 (별지 수형자 분류처우심사표)
+    const raw2046965 = fs.readFileSync(path.join(publicDir, 'rules/admrul-2046965.json'), 'utf-8');
+    const data2046965: RuleDetailResponse = JSON.parse(raw2046965);
+    const appActive = data2046965.current.appendices.find(
+      (a) => a.sequence === '0001' && a.type === '별지'
+    );
+    expect(appActive).toBeDefined();
+    expect(appActive!.title).toBe('수형자 분류처우심사표');
+    expect(appActive!.url).toMatch(/flDownload\.do/);
+    expect(isRemovedAppendix(appActive)).toBe(false);
   });
 });

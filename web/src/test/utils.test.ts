@@ -14,6 +14,7 @@ import {
   getFactualDescription,
   getStatusBadge,
   getClassificationBadge,
+  isRemovedAppendix,
 } from '../utils/format';
 
 
@@ -192,6 +193,66 @@ describe('Korean Legal Word Diff & Tokenization', () => {
       { type: 'added', text: '분기별' },
       { type: 'unchanged', text: ' 1회 점검하여야 한다.' },
     ]);
+  });
+});
+
+describe('isRemovedAppendix Predicate', () => {
+  it('returns false for null or undefined input', () => {
+    expect(isRemovedAppendix(null)).toBe(false);
+    expect(isRemovedAppendix(undefined)).toBe(false);
+  });
+
+  it('detects is_deleted === true flag', () => {
+    expect(isRemovedAppendix({ is_deleted: true, title: '어떤 서식' })).toBe(true);
+  });
+
+  it('detects removed/deleted statuses regardless of casing', () => {
+    expect(isRemovedAppendix({ status: 'REMOVED', title: '양식' })).toBe(true);
+    expect(isRemovedAppendix({ status: 'removed', title: '양식' })).toBe(true);
+    expect(isRemovedAppendix({ status: 'DELETED', title: '양식' })).toBe(true);
+    expect(isRemovedAppendix({ status: '삭제', title: '양식' })).toBe(true);
+    expect(isRemovedAppendix({ status: 'APPENDIX_REMOVED', title: '양식' })).toBe(true);
+  });
+
+  it('detects change_type of appendix removal', () => {
+    expect(isRemovedAppendix({ change_type: 'APPENDIX_REMOVED', title: '양식' })).toBe(true);
+    expect(isRemovedAppendix({ change_type: 'DELETED', title: '양식' })).toBe(true);
+  });
+
+  it('detects Law.go.kr deleted titles with various delimiters', () => {
+    expect(isRemovedAppendix({ title: '삭제' })).toBe(true);
+    expect(isRemovedAppendix({ title: '삭제 <2016.1.22.>' })).toBe(true);
+    expect(isRemovedAppendix({ title: '삭제 &lt;2016.1.22.&gt;' })).toBe(true);
+    expect(isRemovedAppendix({ title: '삭제<2016.1.22.>' })).toBe(true);
+    expect(isRemovedAppendix({ title: '[삭제]' })).toBe(true);
+    expect(isRemovedAppendix({ title: '(삭제)' })).toBe(true);
+    expect(isRemovedAppendix({ title: '[삭제 2016.1.22.]' })).toBe(true);
+    expect(isRemovedAppendix({ title: '(삭제 2016.1.22.)' })).toBe(true);
+    expect(isRemovedAppendix({ title: '삭제(2016.1.22.)' })).toBe(true);
+    expect(isRemovedAppendix({ title: '삭제[2016.1.22.]' })).toBe(true);
+    expect(isRemovedAppendix({ title: '삭제&lt;2016.1.22.&gt;' })).toBe(true);
+  });
+
+  it('returns false for active non-deleted items even with similar words', () => {
+    expect(
+      isRemovedAppendix({
+        title: '수형자 분류처우심사표',
+        status: 'AVAILABLE',
+        url: 'https://www.law.go.kr/LSW/flDownload.do?flSeq=149617249',
+      })
+    ).toBe(false);
+    expect(
+      isRemovedAppendix({
+        title: '작업폐지 보고서',
+        url: 'https://www.law.go.kr/LSW/flDownload.do?flSeq=123',
+      })
+    ).toBe(false);
+    expect(
+      isRemovedAppendix({
+        title: '분류심사 제외 및 유예사유 소멸된 자의 분류심사',
+        url: 'https://www.law.go.kr/LSW/flDownload.do?flSeq=124',
+      })
+    ).toBe(false);
   });
 });
 

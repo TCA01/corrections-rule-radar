@@ -1,4 +1,4 @@
-import { ChangeType, RuleStatus, ClassificationStatus } from '../types';
+import { ChangeType, RuleStatus, ClassificationStatus, AppendixItem } from '../types';
 
 export function getChangeTypeLabel(changeType: ChangeType): string {
   switch (changeType) {
@@ -83,4 +83,44 @@ export function getClassificationBadge(
     return { text: '업무 분야 검토 중', className: 'badge-domain-review' };
   }
   return { text: domains.join(', '), className: 'badge-domain-reviewed' };
+}
+
+export function isRemovedAppendix(
+  item:
+    | AppendixItem
+    | {
+        title?: string | null;
+        status?: string | null;
+        change_type?: string | null;
+        is_deleted?: boolean | null;
+      }
+    | null
+    | undefined
+): boolean {
+  if (!item) return false;
+  if (item.is_deleted === true) return true;
+  const status = (item.status || '').trim().toUpperCase();
+  if (
+    status === 'REMOVED' ||
+    status === 'DELETED' ||
+    status === '삭제' ||
+    status === 'APPENDIX_REMOVED'
+  ) {
+    return true;
+  }
+  const changeType = ((item as { change_type?: string }).change_type || '')
+    .trim()
+    .toUpperCase();
+  if (
+    changeType === 'APPENDIX_REMOVED' ||
+    changeType === 'DELETED' ||
+    changeType === 'REMOVED' ||
+    changeType === '삭제'
+  ) {
+    return true;
+  }
+  const rawTitle = (item.title || '').trim();
+  if (rawTitle === '삭제') return true;
+  if (/^(\[|\()?삭제([\s(\[<\]\)>]|&lt;|$)/i.test(rawTitle)) return true;
+  return false;
 }

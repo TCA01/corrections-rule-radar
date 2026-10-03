@@ -656,6 +656,121 @@ describe('RuleDetailModal Component', () => {
 
     expect(screen.getByText('교정시설 운영 및 수용자 처우의 기본 근거 법률')).toBeInTheDocument();
   });
+
+  it('suppresses download and preview actions for deleted appendices even when historical URLs exist (Web W3.1a)', async () => {
+    vi.spyOn(api, 'getRuleDetail').mockResolvedValue({
+      schema_version: '1.3',
+      dataset_version: 'ds-w31a',
+      rule: mockRule,
+      current: {
+        canonical_id: 'law-001668',
+        source_kind: 'law',
+        stable_identifier: '001668',
+        version_id: '1',
+        version_status: 'CURRENT',
+        version_reference: {
+          version_id: '1',
+          effective_date: '2026-10-02',
+          snapshot_url: '/api/v1/snapshot1.json',
+          official_source_url: 'https://www.law.go.kr',
+        },
+        metadata: mockRule.metadata,
+        official_source_url: 'https://www.law.go.kr',
+        appendices: [
+          // 1. Title '삭제' with historical download URL (e.g. admrul-34791)
+          {
+            branch: '00',
+            sequence: '0003',
+            title: '삭제',
+            type: '서식',
+            url: 'https://www.law.go.kr/LSW/flDownload.do?flSeq=149011751',
+            pdf_url: 'https://www.law.go.kr/LSW/flDownload.do?flSeq=149011755',
+          },
+          // 2. Title '삭제 <2016.1.22.>' with historical download URL (e.g. law-002049)
+          {
+            branch: '00',
+            sequence: '0004',
+            title: '삭제 <2016.1.22.>',
+            type: '서식',
+            url: 'https://www.law.go.kr/LSW/flDownload.do?flSeq=169563701',
+            pdf_url: 'https://www.law.go.kr/LSW/flDownload.do?flSeq=169563703',
+          },
+          // 3. Status REMOVED with historical URL (e.g. from history changes)
+          {
+            branch: '00',
+            sequence: '0005',
+            title: '피보호감호자분류처우심사표',
+            type: '서식',
+            url: 'https://www.law.go.kr/LSW/flDownload.do?flSeq=99999',
+            pdf_url: null,
+            status: 'REMOVED',
+          },
+          // 4. is_deleted: true with historical preview URL
+          {
+            branch: '00',
+            sequence: '0006',
+            title: '구 서식',
+            type: '서식',
+            url: 'https://www.law.go.kr/viewForm.do?seq=888',
+            pdf_url: null,
+            is_deleted: true,
+          },
+          // 5. Active downloadable appendix (e.g. admrul-2046965)
+          {
+            branch: '00',
+            sequence: '0001',
+            title: '수형자 분류처우심사표',
+            type: '별지',
+            url: 'https://www.law.go.kr/LSW/flDownload.do?flSeq=149617249',
+            pdf_url: null,
+          },
+          // 6. Active previewable appendix
+          {
+            branch: '00',
+            sequence: '0002',
+            title: '수용기록 웹 서식',
+            type: '별표',
+            url: 'https://www.law.go.kr/viewForm.do?seq=777',
+            pdf_url: null,
+          },
+        ],
+        attachments: [],
+        body: { articles: { 조문단위: [] }, addenda: {} },
+        hashes: { appendix_hash: 'h1', attachment_link_hash: 'h2', body_hash: 'h3', metadata_hash: 'h4' },
+      },
+      upcoming: [],
+    });
+
+    render(<RuleDetailModal rule={mockRule} onClose={vi.fn()} />);
+
+    await waitFor(() => {
+      expect(screen.getByText('관련 별표·서식 (6건)')).toBeInTheDocument();
+    });
+
+    // 1-4: Deleted appendices must display title and deleted notices
+    expect(screen.getByText('피보호감호자분류처우심사표')).toBeInTheDocument();
+    expect(screen.getByText('구 서식')).toBeInTheDocument();
+    expect(screen.getByText('삭제 <2016.1.22.>')).toBeInTheDocument();
+
+    const deletedNotices = screen.getAllByText('해당 개정에서 삭제된 서식');
+    expect(deletedNotices).toHaveLength(4);
+
+    const deletedBadges = screen.getAllByText('삭제');
+    expect(deletedBadges.length).toBeGreaterThanOrEqual(4);
+
+    // Active items must display titles and proper action links
+    expect(screen.getByText('수형자 분류처우심사표')).toBeInTheDocument();
+    expect(screen.getByText('수용기록 웹 서식')).toBeInTheDocument();
+
+    // Exactly 1 download link and 1 preview link across all 6 appendices!
+    const downloadLinks = screen.getAllByRole('link', { name: /다운로드/ });
+    expect(downloadLinks).toHaveLength(1);
+    expect(downloadLinks[0]).toHaveAttribute('href', 'https://www.law.go.kr/LSW/flDownload.do?flSeq=149617249');
+
+    const previewLinks = screen.getAllByRole('link', { name: /미리보기/ });
+    expect(previewLinks).toHaveLength(1);
+    expect(previewLinks[0]).toHaveAttribute('href', 'https://www.law.go.kr/viewForm.do?seq=777');
+  });
 });
 
 describe('GlobalSearch Component', () => {
