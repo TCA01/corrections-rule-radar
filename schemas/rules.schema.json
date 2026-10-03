@@ -1,0 +1,246 @@
+{
+  "$id": "urn:corrections-rule-radar:api:v1:rules",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "dataset_version": {
+      "pattern": "^ds-[a-f0-9]{64}$",
+      "type": "string"
+    },
+    "rules": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "business_domains": {
+            "items": {
+              "enum": [
+                "수용·보안",
+                "접견·외부교통",
+                "보관금품",
+                "분류·가석방",
+                "교육·교화",
+                "작업·직업훈련",
+                "급식·복지",
+                "의료",
+                "심리치료",
+                "인권·청원",
+                "민원",
+                "인사·조직",
+                "정보화",
+                "민영교도소",
+                "기타"
+              ]
+            },
+            "type": "array"
+          },
+          "canonical_id": {
+            "pattern": "^(law|admrul)-\\d+$",
+            "type": "string"
+          },
+          "classification_status": {
+            "enum": [
+              "REVIEW",
+              "REVIEWED"
+            ]
+          },
+          "corrections_category": {
+            "enum": [
+              "법률",
+              "대통령령",
+              "법무부령",
+              "예규",
+              "훈령"
+            ]
+          },
+          "current_name": {
+            "type": "string"
+          },
+          "detail_url": {
+            "pattern": "^/api/v1/rules/(law|admrul)-\\d+\\.json$",
+            "type": "string"
+          },
+          "historical_names": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "metadata": {
+            "additionalProperties": false,
+            "properties": {
+              "amendment_type": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "department": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "effective_date": {
+                "format": "date",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "issue_date": {
+                "format": "date",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "issue_number": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "ministry": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "name": {
+                "type": "string"
+              },
+              "official_state": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "rule_type": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "name",
+              "rule_type",
+              "issue_date",
+              "issue_number",
+              "effective_date",
+              "ministry",
+              "department",
+              "amendment_type",
+              "official_state"
+            ],
+            "type": "object"
+          },
+          "official_source_url": {
+            "format": "uri",
+            "pattern": "^https://(www\\.)?law\\.go\\.kr/",
+            "type": "string"
+          },
+          "primary_domain": {
+            "anyOf": [
+              {
+                "enum": [
+                  "수용·보안",
+                  "접견·외부교통",
+                  "보관금품",
+                  "분류·가석방",
+                  "교육·교화",
+                  "작업·직업훈련",
+                  "급식·복지",
+                  "의료",
+                  "심리치료",
+                  "인권·청원",
+                  "민원",
+                  "인사·조직",
+                  "정보화",
+                  "민영교도소",
+                  "기타"
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "secondary_domains": {
+            "items": {
+              "enum": [
+                "수용·보안",
+                "접견·외부교통",
+                "보관금품",
+                "분류·가석방",
+                "교육·교화",
+                "작업·직업훈련",
+                "급식·복지",
+                "의료",
+                "심리치료",
+                "인권·청원",
+                "민원",
+                "인사·조직",
+                "정보화",
+                "민영교도소",
+                "기타"
+              ]
+            },
+            "type": "array"
+          },
+          "seed_names": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "source_kind": {
+            "enum": [
+              "law",
+              "admrul"
+            ]
+          },
+          "status": {
+            "enum": [
+              "CURRENT",
+              "REPEALED",
+              "REVIEW"
+            ]
+          },
+          "version_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "canonical_id",
+          "source_kind",
+          "current_name",
+          "seed_names",
+          "historical_names",
+          "corrections_category",
+          "business_domains",
+          "classification_status",
+          "status",
+          "version_id",
+          "metadata",
+          "official_source_url",
+          "detail_url",
+          "primary_domain",
+          "secondary_domains"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "schema_version": {
+      "const": "1.2"
+    }
+  },
+  "required": [
+    "schema_version",
+    "dataset_version",
+    "rules"
+  ],
+  "title": "rules",
+  "type": "object"
+}

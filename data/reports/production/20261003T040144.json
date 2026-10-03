@@ -1,0 +1,23 @@
+{
+  "api_request_count": 90,
+  "api_response_seconds": 42.248,
+  "average_api_response_seconds": 0.469422,
+  "dataset_version": "ds-4a5e229877afb9b872ff40d086fe4c6a1227b41e365bf02f90bada072a3dc6d7",
+  "duration_seconds": 100.407,
+  "error_summary": {},
+  "failure_count": 0,
+  "finished_at": "2026-10-03T04:03:25.386348+00:00",
+  "last_good_dataset_version": "ds-4a5e229877afb9b872ff40d086fe4c6a1227b41e365bf02f90bada072a3dc6d7",
+  "mode": "CORE_STABLE_IDS",
+  "new_events": 0,
+  "public_page_request_count": 0,
+  "public_page_response_seconds": 0.0,
+  "public_rewritten": true,
+  "result": "PUBLISHED",
+  "retry_count": 0,
+  "review_count": 0,
+  "started_at": "2026-10-03T04:01:44.976391+00:00",
+  "success_count": 68,
+  "total_http_request_count": 90,
+  "transport_error_summary": {}
+}

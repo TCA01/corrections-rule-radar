@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.1",
+  "version": {
+    "appendices": [
+      {
+        "branch": "00",
+        "pdf_url": null,
+        "sequence": "0001",
+        "title": "교도관 급여품 지급기준표(제2조제1항 관련)",
+        "type": "별표",
+        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=42041013"
+      },
+      {
+        "branch": "00",
+        "pdf_url": null,
+        "sequence": "0002",
+        "title": "교도관 대여품 종류(제3조 관련)",
+        "type": "별표",
+        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=42041239"
+      }
+    ],
+    "attachments": [
+      {
+        "title": "['훈령 제1222호-교도관 급여품 및 대여품 지침 개정(안).hwp', '훈령 제1222호-교도관 급여품 및 대여품 지침.hwp']",
+        "type": "OFFICIAL_ATTACHMENT",
+        "url": "https://www.law.go.kr/['http:/law.go.kr/flDownload.do?flSeq=42034497%27%2C+%27http%3A%2F%2Flaw.go.kr%2FflDownload.do%3FflSeq%3D42034498%27%5D"
+      }
+    ],
+    "body": {
+      "addenda": {
+        "부칙공포번호": [
+          "878",
+          "1222"
+        ],
+        "부칙공포일자": [
+          "20121212",
+          "20190502"
+        ],
+        "부칙내용": [
+          "부칙 이 훈령은 2013년 1월 1일부터 시행한다.",
+          "부칙 이 훈령은 공포한 날부터 시행한다."
+        ]
+      },
+      "articles": [
+        "제1조(목적) 이 지침은 교정업무를 담당하는 교도관에게 그 직무수행을 위하여 급여하는 급여품과 대여하는 대여품에 관한 사항을 규정함을 목적으로 한다.",
+        "제2조(급여품 등) ① 교도관에 대한 급여품의 종류·수량 등 지급기준은 별표 1과 같다.② 삭제③ 법무부장관은 특히 필요하다고 인정할 때에는 급여품의 수량 등을 변경할 수 있다.④ 급여품은 현품으로 지급한다.⑤ 신규·승진 임용 되거나 복직된 교도관에게는 임용 또는 복직당시에 필요한 급여품과 대여품을 지급한다.",
+        "제3조(대여품의 종류) 교도관에 대한 대여품의 종류는 별표 2와 같다.",
+        "제4조(급여품 및 대여품의 보수) 급여품 및 대여품의 보수는 해당 물품을 지급받은 자의 부담으로 한다.",
+        "제5조(급여품 및 대여품의 재지급 등) ① 교도관이 급여품 및 대여품을 분실하거나 훼손한 때에는 특별한 사유가 없는 한 대품을 지급한다.② 교도관이 고의 또는 중대한 과실로 대여품을 분실하거나 훼손 한 때에는 그 대가를 변상하게 하여야 한다.③ 제2항에 따라 변상할 금액은 다음 년도에 배정할 피복 포인트에서 해당 피복 금액을 차감하는 것으로 한다.④ 삭제",
+        "제6조(대여품의 관리) ① 대여품은 품목, 수량, 대여기간 및 사용자 등을 대여품 대장에 작성·관리하여야 한다.② 교도관이 퇴직(사망 또는 징계처분에 의한 퇴직을 포함한다)하거나 다른 기관으로 전보되는 때에는 소속기관에 대여품을 반납하여야 한다.",
+        "제7조(시행세칙) 삭제",
+        "제8조(재검토기한) 「훈령·예규 등의 발령 및 관리에 관한 규정」에 따라 이 지침에 대하여 2019년 1월 1일 기준으로 매3년이 되는 시점(매 3년째의 12월 31일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다."
+      ]
+    },
+    "canonical_id": "admrul-28558",
+    "hashes": {
+      "appendix_hash": "90c9fb7d326db33f7abf6753d9f1d4147d9c66431db52116d4831654cc3cbe48",
+      "attachment_link_hash": "c9263e1deee99aec509a6ac1b62ff78d934259bd0056db0b84a0d6b685b16366",
+      "body_hash": "00d62abfeda214865141400dd8bdd43856e509f890caf122dc7385c0061f7621",
+      "metadata_hash": "a7b79c7073dd3979cfd61927874ac812e33761e83f15fc26793fae2087a794d9"
+    },
+    "metadata": {
+      "amendment_type": "일부개정",
+      "department": "법무부(복지과)",
+      "effective_date": "2019-05-02",
+      "issue_date": "2019-05-02",
+      "issue_number": "1222",
+      "ministry": "법무부",
+      "name": "교도관 급여품 및 대여품 지침",
+      "official_state": "N",
+      "rule_type": "훈령"
+    },
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000178255",
+    "source_kind": "admrul",
+    "stable_identifier": "28558",
+    "version_id": "2100000178255",
+    "version_reference": {
+      "effective_date": "2019-05-02",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000178255",
+      "snapshot_url": "/api/v1/rules/admrul-28558/versions/2100000178255-2019-05-02-cafadbaaeff3d876.json",
+      "version_id": "2100000178255"
+    },
+    "version_status": "ARCHIVE"
+  }
+}

@@ -1,0 +1,322 @@
+{
+  "$id": "urn:corrections-rule-radar:api:v1:changes",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "dataset_version": {
+      "pattern": "^ds-[a-f0-9]{64}$",
+      "type": "string"
+    },
+    "events": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "articles_compared_to": {
+            "anyOf": [
+              {
+                "additionalProperties": false,
+                "properties": {
+                  "effective_date": {
+                    "format": "date",
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "official_source_url": {
+                    "format": "uri",
+                    "pattern": "^https://(www\\.)?law\\.go\\.kr/",
+                    "type": "string"
+                  },
+                  "snapshot_url": {
+                    "pattern": "^/api/v1/rules/(law|admrul)-\\d+/versions/\\d+-\\d{4}-\\d{2}-\\d{2}-[a-f0-9]{16}\\.json$",
+                    "type": "string"
+                  },
+                  "version_id": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "version_id",
+                  "effective_date",
+                  "snapshot_url",
+                  "official_source_url"
+                ],
+                "type": "object"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "canonical_id": {
+            "pattern": "^(law|admrul)-\\d+$",
+            "type": "string"
+          },
+          "change_type": {
+            "enum": [
+              "NEW_RULE",
+              "RULE_RENAMED",
+              "RULE_AMENDED",
+              "FUTURE_EFFECTIVE_VERSION",
+              "EFFECTIVE_DATE_CHANGED",
+              "ARTICLE_CHANGED",
+              "APPENDIX_CHANGED",
+              "ATTACHMENT_CHANGED",
+              "RULE_REPEALED",
+              "RULE_REMOVED_FROM_CORRECTIONS_SEED",
+              "NEW_CORRECTIONS_SEED",
+              "DISCOVERY_CANDIDATE"
+            ]
+          },
+          "changed_articles": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "after_text": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "article_key": {
+                  "type": "string"
+                },
+                "article_number": {
+                  "type": "string"
+                },
+                "article_title": {
+                  "type": "string"
+                },
+                "before_text": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "change_type": {
+                  "enum": [
+                    "ADDED",
+                    "MODIFIED",
+                    "DELETED"
+                  ]
+                },
+                "effective_date": {
+                  "format": "date",
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "required": [
+                "article_key",
+                "article_number",
+                "article_title",
+                "change_type",
+                "before_text",
+                "after_text",
+                "effective_date"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "detected_at": {
+            "format": "date-time",
+            "type": "string"
+          },
+          "effective_date": {
+            "format": "date",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "event_id": {
+            "pattern": "^evt-[a-f0-9]{64}$",
+            "type": "string"
+          },
+          "evidence": {
+            "type": "object"
+          },
+          "new_hashes": {
+            "additionalProperties": false,
+            "properties": {
+              "appendix_hash": {
+                "pattern": "^[a-f0-9]{64}$",
+                "type": "string"
+              },
+              "attachment_link_hash": {
+                "pattern": "^[a-f0-9]{64}$",
+                "type": "string"
+              },
+              "body_hash": {
+                "pattern": "^[a-f0-9]{64}$",
+                "type": "string"
+              },
+              "metadata_hash": {
+                "pattern": "^[a-f0-9]{64}$",
+                "type": "string"
+              }
+            },
+            "required": [
+              "metadata_hash",
+              "body_hash",
+              "appendix_hash",
+              "attachment_link_hash"
+            ],
+            "type": "object"
+          },
+          "new_reference": {
+            "additionalProperties": false,
+            "properties": {
+              "effective_date": {
+                "format": "date",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "official_source_url": {
+                "format": "uri",
+                "pattern": "^https://(www\\.)?law\\.go\\.kr/",
+                "type": "string"
+              },
+              "snapshot_url": {
+                "pattern": "^/api/v1/rules/(law|admrul)-\\d+/versions/\\d+-\\d{4}-\\d{2}-\\d{2}-[a-f0-9]{16}\\.json$",
+                "type": "string"
+              },
+              "version_id": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "version_id",
+              "effective_date",
+              "snapshot_url",
+              "official_source_url"
+            ],
+            "type": "object"
+          },
+          "new_version": {
+            "type": "string"
+          },
+          "official_source_url": {
+            "format": "uri",
+            "pattern": "^https://(www\\.)?law\\.go\\.kr/",
+            "type": "string"
+          },
+          "old_hashes": {
+            "anyOf": [
+              {
+                "additionalProperties": false,
+                "properties": {
+                  "appendix_hash": {
+                    "pattern": "^[a-f0-9]{64}$",
+                    "type": "string"
+                  },
+                  "attachment_link_hash": {
+                    "pattern": "^[a-f0-9]{64}$",
+                    "type": "string"
+                  },
+                  "body_hash": {
+                    "pattern": "^[a-f0-9]{64}$",
+                    "type": "string"
+                  },
+                  "metadata_hash": {
+                    "pattern": "^[a-f0-9]{64}$",
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "metadata_hash",
+                  "body_hash",
+                  "appendix_hash",
+                  "attachment_link_hash"
+                ],
+                "type": "object"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "old_reference": {
+            "anyOf": [
+              {
+                "additionalProperties": false,
+                "properties": {
+                  "effective_date": {
+                    "format": "date",
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "official_source_url": {
+                    "format": "uri",
+                    "pattern": "^https://(www\\.)?law\\.go\\.kr/",
+                    "type": "string"
+                  },
+                  "snapshot_url": {
+                    "pattern": "^/api/v1/rules/(law|admrul)-\\d+/versions/\\d+-\\d{4}-\\d{2}-\\d{2}-[a-f0-9]{16}\\.json$",
+                    "type": "string"
+                  },
+                  "version_id": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "version_id",
+                  "effective_date",
+                  "snapshot_url",
+                  "official_source_url"
+                ],
+                "type": "object"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "old_version": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "event_id",
+          "canonical_id",
+          "change_type",
+          "old_version",
+          "new_version",
+          "effective_date",
+          "old_hashes",
+          "new_hashes",
+          "evidence",
+          "detected_at",
+          "official_source_url",
+          "old_reference",
+          "new_reference",
+          "changed_articles",
+          "articles_compared_to"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "schema_version": {
+      "const": "1.2"
+    }
+  },
+  "required": [
+    "schema_version",
+    "dataset_version",
+    "events"
+  ],
+  "title": "changes",
+  "type": "object"
+}

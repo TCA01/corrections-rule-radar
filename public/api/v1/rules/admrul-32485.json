@@ -1,0 +1,199 @@
+{
+  "articles_compared_to": {
+    "effective_date": "2017-04-22",
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000084189",
+    "snapshot_url": "/api/v1/rules/admrul-32485/versions/2100000084189-2017-04-22-8fcb0468e068cc15.json",
+    "version_id": "2100000084189"
+  },
+  "changed_articles": [
+    {
+      "after_text": "제1조(목적) 이 규정은 전문경력관 직업능력개발훈련교사(이하 \"직업훈련교사\"라 한다)의 임용시험 및 임용요건 등 직업훈련교사의 임용에 필요한 사항을 규정함을 목적으로 한다.",
+      "article_key": "article-1",
+      "article_number": "1",
+      "article_title": "제1조(목적)",
+      "before_text": "제1조(목적) 이 규정은 전문경력관 직업능력개발훈련교사(이하 직업훈련교사라 한다)의 임용시험 및 임용요건 등 직업훈련교사의 임용에 필요한 사항을 규정함을 목적으로 한다.",
+      "change_type": "MODIFIED",
+      "effective_date": "2025-02-12"
+    },
+    {
+      "after_text": "제2조(적용대상) 교정시설 또는 소년원, 국립법무병원에 근무하는 직업훈련교사의 임용에 관하여 관련 법령 및 공무원 임용규칙(인사혁신처 예규)에 따로 규정된 것을 제외하고는 이 규정에 따른다.",
+      "article_key": "article-2",
+      "article_number": "2",
+      "article_title": "제2조(적용대상)",
+      "before_text": "제2조(적용대상) 교정시설 또는 소년원, 치료감호소에 근무하는 직업훈련교사의 임용에 관하여 관련 법령 및 공무원 임용규칙(안전행정부 예규)에 따로 규정된 것을 제외하고는 이 규정에 의한다.",
+      "change_type": "MODIFIED",
+      "effective_date": "2025-02-12"
+    },
+    {
+      "after_text": "제3조(채용자격요건) 직업훈련교사의 응시자격 요건은 별표 1의 직위군 중 해당분야의 각 호 1 이상의 자격요건을 갖춘 자로 한다.",
+      "article_key": "article-3",
+      "article_number": "3",
+      "article_title": "제3조(채용자격요건)",
+      "before_text": "제3조(채용자격요건) 직업훈련교사의 응시자격 요건은 별표 1의 직위군 중 해당분야의 각 호 1이상의 자격요건을 갖춘 자로 한다.",
+      "change_type": "MODIFIED",
+      "effective_date": "2025-02-12"
+    },
+    {
+      "after_text": "제5조(나이) 직업훈련교사로 임용할 수 있는 자의 나이는 20세 이상으로 한다.",
+      "article_key": "article-5",
+      "article_number": "5",
+      "article_title": "제5조(나이)",
+      "before_text": "제5조(연령) 직업훈련교사로 임용할 수 있는 자의 연령은 20세 이상으로 한다.",
+      "change_type": "MODIFIED",
+      "effective_date": "2025-02-12"
+    },
+    {
+      "after_text": "제12조(시험위원 등에 대한 수당 지급) 시험위원 등에게는 예산의 범위 내에서 수당을 지급할 수 있다.",
+      "article_key": "article-12",
+      "article_number": "12",
+      "article_title": "제12조(시험위원 등에 대한 수당 지급)",
+      "before_text": "제12조(시험위원 등에 대한 수당 지급) 시험위원에 대하여는 예산의 범위 내에서 수당을 지급할 수 있다.",
+      "change_type": "MODIFIED",
+      "effective_date": "2025-02-12"
+    },
+    {
+      "after_text": "제13조(재검토기한) 법무부장관은「훈령ㆍ예규 등의 발령 및 관리에 관한 규정」에 따라 이 지침에 대하여 2020년 7월 1일 기준으로 매 3년이 되는 시점(매 3년째의 6월 30일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다.",
+      "article_key": "article-13",
+      "article_number": "13",
+      "article_title": "제13조(재검토기한)",
+      "before_text": "제13조(재검토기한) 법무부장관은「훈령·예규 등의 발령 및 관리에 관한 규정」(대통령훈령 제334호)에 따라 이 지침에 대하여 2017년 7월 1일 기준으로 매3년이 되는 시점(매 3년째의 6월 30일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다",
+      "change_type": "MODIFIED",
+      "effective_date": "2025-02-12"
+    }
+  ],
+  "current": {
+    "appendices": [
+      {
+        "branch": "00",
+        "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=149010091",
+        "sequence": "0001",
+        "title": "전문경력관 직업능력개발훈련교사 임용자격 요건(제3조 관련)",
+        "type": "별표",
+        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=149010087"
+      }
+    ],
+    "attachments": [
+      {
+        "title": "['「전문경력관 직업능력개발훈련교사 임용 규정」 일부개정(안) 사유서.hwp', '「전문경력관 직업능력개발훈련교사 임용 규정」 일부개정(안) 전문.hwp', '「전문경력관 직업능력개발훈련교사 임용 규정」 일부개정(안) 전문.pdf']",
+        "type": "OFFICIAL_ATTACHMENT",
+        "url": "https://www.law.go.kr/['http:/law.go.kr/flDownload.do?flSeq=149006359%27%2C+%27http%3A%2F%2Flaw.go.kr%2FflDownload.do%3FflSeq%3D149008883%27%2C+%27http%3A%2F%2Flaw.go.kr%2FflDownload.do%3FflSeq%3D149008887%27%5D"
+      }
+    ],
+    "body": {
+      "addenda": {
+        "부칙공포번호": [
+          "794",
+          "871",
+          "988",
+          "1017",
+          "1052",
+          "1045",
+          "1257",
+          "1362"
+        ],
+        "부칙공포일자": [
+          "20080506",
+          "20090821",
+          "20120126",
+          "20130422",
+          "20140422",
+          "20170422",
+          "20200608",
+          "20250212"
+        ],
+        "부칙내용": [
+          "부칙 제1조(시행일) 이 예규는 2008년 5월 6일부터 시행한다.제2조(진행 중인 시험에 관한 적용례) ① 이 예규 시행 당시 진행 중인 시험에 대하여는 종전의 규정을 적용한다. 다만, 시험실시기관의 장은 시험의 진행단계, 채용인원, 시험응시자의 수 그 밖의 사정을 감안하여 이 예규 시행 당시 진행 중인 시험에 대하여도 개정 규정을 적용할 수 있다.② 시험실시기관의 장은 제1항 단서에 따라 진행 중인 시험에 대하여 개정 규정을 적용하려는 때에는 시험의 공고를 다시 하여야 한다.",
+          "부칙 (시행일) 이 예규는 공포한 날로부터 시행한다.",
+          "부칙 제1조(시행일) 이 예규는 2012년 2월 1일부터 시행한다.제2조(경과조치) 종전의 예규에 의하여 시행된 사항은 이 예규에 의하여 시행된 것으로 본다.",
+          "부칙 (시행일) 이 예규는 2013년 4월 22일부터 시행한다.",
+          "부칙 (시행일) 이 규정은 공포한 날부터 시행한다.",
+          "부칙 제1조(시행일) 이 지침은 발령한 날로부터 시행한다.",
+          "부칙 제1조(시행일) 이 지침은 발령한 날로부터 시행한다.",
+          "부칙 제1조(시행일) 이 규정은 발령한 날로부터 시행한다."
+        ]
+      },
+      "articles": [
+        "제1장 총칙",
+        "제1조(목적) 이 규정은 전문경력관 직업능력개발훈련교사(이하 \"직업훈련교사\"라 한다)의 임용시험 및 임용요건 등 직업훈련교사의 임용에 필요한 사항을 규정함을 목적으로 한다.",
+        "제2조(적용대상) 교정시설 또는 소년원, 국립법무병원에 근무하는 직업훈련교사의 임용에 관하여 관련 법령 및 공무원 임용규칙(인사혁신처 예규)에 따로 규정된 것을 제외하고는 이 규정에 따른다.",
+        "제3조(채용자격요건) 직업훈련교사의 응시자격 요건은 별표 1의 직위군 중 해당분야의 각 호 1 이상의 자격요건을 갖춘 자로 한다.",
+        "제4조(채용방법) ① 직업훈련교사의 채용은 경력경쟁채용시험으로 한다.② 삭제",
+        "제5조(나이) 직업훈련교사로 임용할 수 있는 자의 나이는 20세 이상으로 한다.",
+        "제6조 삭제",
+        "제7조 삭제",
+        "제8조 삭제",
+        "제9조 삭제",
+        "제10조(경력경쟁채용의 방법) 직업훈련교사의 경력경쟁채용은 제3조의 자격요건을 구비한 자 중에서 당해 직무수행에 필요한 지식, 능력 및 적격성 등을 면접 또는 실기를 통하여 검정한 후 임용한다. 단, 법무부장관 또는 시험수임기관의 장이 필요하다고 인정할 때에는 고용노동부 장관이 고시하는 직업능력개발훈련교사의 자격 직종별 요구 자격증(채용과 동일직종에 한함)을 다수 취득한 자를 우대할 수 있다.",
+        "제11조(시험위원 등의 위촉 또는 임용) 시험실시기관의 장은 시험의 출제, 채점, 면접, 기타 시험 시행에 필요한 사항을 처리하기 위하여 다음 요건을 갖춘 자로 시험위원 등을 위촉 또는 임용한다.1. 당해 학과의 전문적인 지식이 있는 자2. 임용 예정직의 직무에 지식과 경험이 풍부한 자3. 시험출제에 관하여 상당한 지식 또는 경험이 있는 자",
+        "제12조(시험위원 등에 대한 수당 지급) 시험위원 등에게는 예산의 범위 내에서 수당을 지급할 수 있다.",
+        "제13조(재검토기한) 법무부장관은「훈령ㆍ예규 등의 발령 및 관리에 관한 규정」에 따라 이 지침에 대하여 2020년 7월 1일 기준으로 매 3년이 되는 시점(매 3년째의 6월 30일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다."
+      ]
+    },
+    "canonical_id": "admrul-32485",
+    "hashes": {
+      "appendix_hash": "219eef71f850c7ad07163799f4885aee3c74e6d257099e087461a74f4f45081f",
+      "attachment_link_hash": "f74142b918f9a546471d29edba8cd4f86df1cf1b49354ba3fddd2cf2d2c50491",
+      "body_hash": "ea2ddc83e1e640872836dac55ba549157ab477588e1eb44d83f166545dbfc845",
+      "metadata_hash": "b48ad8973aacb28c21cbbe2d1f86b85004c4510c7155b3fcf3a399b5e9c542cb"
+    },
+    "metadata": {
+      "amendment_type": "일부개정",
+      "department": "법무부(직업훈련과)",
+      "effective_date": "2025-02-12",
+      "issue_date": "2025-02-12",
+      "issue_number": "1362",
+      "ministry": "법무부",
+      "name": "전문경력관 직업능력개발훈련교사 임용 규정",
+      "official_state": "Y",
+      "rule_type": "예규"
+    },
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000254466",
+    "source_kind": "admrul",
+    "stable_identifier": "32485",
+    "version_id": "2100000254466",
+    "version_reference": {
+      "effective_date": "2025-02-12",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000254466",
+      "snapshot_url": "/api/v1/rules/admrul-32485/versions/2100000254466-2025-02-12-02f7784b842f98af.json",
+      "version_id": "2100000254466"
+    },
+    "version_status": "CURRENT"
+  },
+  "dataset_version": "ds-1f332f33e70a591d8c90bfcb93c615f2b4ab487c3cbafcd37d9442fc9da29e54",
+  "rule": {
+    "business_domains": [
+      "인사·조직",
+      "작업·직업훈련"
+    ],
+    "canonical_id": "admrul-32485",
+    "classification_status": "REVIEWED",
+    "corrections_category": "예규",
+    "current_name": "전문경력관 직업능력개발훈련교사 임용 규정",
+    "detail_url": "/api/v1/rules/admrul-32485.json",
+    "historical_names": [],
+    "metadata": {
+      "amendment_type": "일부개정",
+      "department": "법무부(직업훈련과)",
+      "effective_date": "2025-02-12",
+      "issue_date": "2025-02-12",
+      "issue_number": "1362",
+      "ministry": "법무부",
+      "name": "전문경력관 직업능력개발훈련교사 임용 규정",
+      "official_state": "Y",
+      "rule_type": "예규"
+    },
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000254466",
+    "primary_domain": "인사·조직",
+    "secondary_domains": [
+      "작업·직업훈련"
+    ],
+    "seed_names": [
+      "전문경력관 직업능력개발훈련교사 임용 규정"
+    ],
+    "source_kind": "admrul",
+    "status": "CURRENT",
+    "version_id": "2100000254466"
+  },
+  "schema_version": "1.2",
+  "upcoming": []
+}

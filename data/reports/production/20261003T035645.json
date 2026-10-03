@@ -1,0 +1,23 @@
+{
+  "api_request_count": 90,
+  "api_response_seconds": 41.034,
+  "average_api_response_seconds": 0.455933,
+  "dataset_version": "ds-814f3f194c093cbaad0f8fc0ebffc6774d1df0637d36cefaa8a6a845e97ecc9a",
+  "duration_seconds": 102.875,
+  "error_summary": {},
+  "failure_count": 0,
+  "finished_at": "2026-10-03T03:58:28.601418+00:00",
+  "last_good_dataset_version": "ds-814f3f194c093cbaad0f8fc0ebffc6774d1df0637d36cefaa8a6a845e97ecc9a",
+  "mode": "CORE_WITH_DAILY_DISCOVERY",
+  "new_events": 0,
+  "public_page_request_count": 2,
+  "public_page_response_seconds": 1.517,
+  "public_rewritten": true,
+  "result": "PUBLISHED",
+  "retry_count": 0,
+  "review_count": 0,
+  "started_at": "2026-10-03T03:56:45.721216+00:00",
+  "success_count": 68,
+  "total_http_request_count": 92,
+  "transport_error_summary": {}
+}

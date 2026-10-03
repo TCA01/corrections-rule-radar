@@ -1,0 +1,169 @@
+{
+  "articles_compared_to": null,
+  "changed_articles": [],
+  "current": {
+    "appendices": [
+      {
+        "branch": "00",
+        "pdf_url": null,
+        "sequence": "0001",
+        "title": "지방교정청·교도소·구치소 및 지소 旗",
+        "type": "별도",
+        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=14478531"
+      },
+      {
+        "branch": "00",
+        "pdf_url": null,
+        "sequence": "0002",
+        "title": "교정본부장 旗",
+        "type": "별도",
+        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=14478532"
+      },
+      {
+        "branch": "00",
+        "pdf_url": null,
+        "sequence": "0003",
+        "title": "고위공무원단 소속공무원(지방교정청장) 旗",
+        "type": "별도",
+        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=14478479"
+      },
+      {
+        "branch": "00",
+        "pdf_url": null,
+        "sequence": "0004",
+        "title": "고위공무원단 소속공무원(교정시설의 장) 旗",
+        "type": "별도",
+        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=14478533"
+      },
+      {
+        "branch": "00",
+        "pdf_url": null,
+        "sequence": "0005",
+        "title": "부이사관(교정시설의 장) 旗",
+        "type": "별도",
+        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=14478535"
+      },
+      {
+        "branch": "00",
+        "pdf_url": null,
+        "sequence": "0006",
+        "title": "서기관(4급 교정시설의 장) 旗",
+        "type": "별도",
+        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=14478480"
+      },
+      {
+        "branch": "00",
+        "pdf_url": null,
+        "sequence": "0007",
+        "title": "깃대",
+        "type": "별도",
+        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=14478481"
+      },
+      {
+        "branch": "00",
+        "pdf_url": null,
+        "sequence": "0008",
+        "title": "교정 旗 배열 요령",
+        "type": "별도",
+        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=14478537"
+      }
+    ],
+    "attachments": [
+      {
+        "title": "['(훈령 제902호)교정기 규정 개정문.hwp', '교정기규정.hwp', '(훈령 제902호)교정기 규정(전문).hwp']",
+        "type": "OFFICIAL_ATTACHMENT",
+        "url": "https://www.law.go.kr/['http:/law.go.kr/flDownload.do?flSeq=14471482%27%2C+%27http%3A%2F%2Flaw.go.kr%2FflDownload.do%3FflSeq%3D14471481%27%2C+%27http%3A%2F%2Flaw.go.kr%2FflDownload.do%3FflSeq%3D14471480%27%5D"
+      }
+    ],
+    "body": {
+      "addenda": {
+        "부칙공포번호": [
+          "688",
+          "790",
+          "902"
+        ],
+        "부칙공포일자": [
+          "20090529",
+          "20100801",
+          "20130621"
+        ],
+        "부칙내용": [
+          "부칙 (시행일) 이 규정은 공포한 날로부터 시행한다.",
+          "부칙 (시행일) 이 규정은 2010년 8월 1일부터 시행한다.",
+          "부칙 (시행일) 이 규정은 공포한 날로부터 시행한다."
+        ]
+      },
+      "articles": [
+        "제1조(목적) 이 규정은 교정기의 종류·제식·비치·게양 및 사용에 관한 사항을 규정함을 목적으로 한다.",
+        "제2조(종류) 교정기는 교정관서기, 교정본부장기 및 지휘관기로 구분한다.",
+        "제3조(비치) ① 교정기는 다음의 교정관서 및 지휘관실에 둔다.1. 교정관서기가. 지방교정청나. 교도소·구치소 및 그 지소2. 교정본부장기가. 교정본부장실3. 지휘관기가. 지방교정청장실나. 교도소장실, 구치소장실② 교정기는 깃대에 달아 집무실 책상후면 또는 적당한 위치에 세워두며 배열 순위 및 거리는【별도 8】과 같이 한다.③ 옥외에 게양하는 교정관서기는 국기의 크기에 맞추어 게양하여야 한다.",
+        "제4조(제식) 교정기의 제식은【별도 1】내지【별도 6】, 깃대의 제식은【별도 7】과 같이 한다.",
+        "제5조(사용) ① 교정관서기와 지휘관기는 의식 및 행사시에 그 식장에서 사용한다.② 각급 지휘관의 이·취임식 거행 시에는 반드시 지휘관기를 인계인수하여야 한다.",
+        "제6조(재검토기한) 삭제"
+      ]
+    },
+    "canonical_id": "admrul-37575",
+    "hashes": {
+      "appendix_hash": "6baa38f1bd3e2f7463522fc3df3fe87da1c45421b4bb1d61d23915bd689ea451",
+      "attachment_link_hash": "d8140208bf02c10d4ff238400dbf9d654dab35b6f25c971d01a2060ea0b4548e",
+      "body_hash": "55a8f6ea9b9f66fc97835210b345da4ba0d8c3a442620839c0996cc9322d56b2",
+      "metadata_hash": "3b6acf35f49fd5f88e36a919be2f19c5cac0b8328638144e68534c8b3fc908c3"
+    },
+    "metadata": {
+      "amendment_type": "일부개정",
+      "department": "법무부(교정기획과)",
+      "effective_date": "2013-06-21",
+      "issue_date": "2013-06-21",
+      "issue_number": "902",
+      "ministry": "법무부",
+      "name": "교정기 규정",
+      "official_state": "Y",
+      "rule_type": "훈령"
+    },
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2000000024378",
+    "source_kind": "admrul",
+    "stable_identifier": "37575",
+    "version_id": "2000000024378",
+    "version_reference": {
+      "effective_date": "2013-06-21",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2000000024378",
+      "snapshot_url": "/api/v1/rules/admrul-37575/versions/2000000024378-2013-06-21-7fbccd59bdae25c8.json",
+      "version_id": "2000000024378"
+    },
+    "version_status": "CURRENT"
+  },
+  "dataset_version": "ds-1f332f33e70a591d8c90bfcb93c615f2b4ab487c3cbafcd37d9442fc9da29e54",
+  "rule": {
+    "business_domains": [
+      "기타"
+    ],
+    "canonical_id": "admrul-37575",
+    "classification_status": "REVIEWED",
+    "corrections_category": "훈령",
+    "current_name": "교정기 규정",
+    "detail_url": "/api/v1/rules/admrul-37575.json",
+    "historical_names": [],
+    "metadata": {
+      "amendment_type": "일부개정",
+      "department": "법무부(교정기획과)",
+      "effective_date": "2013-06-21",
+      "issue_date": "2013-06-21",
+      "issue_number": "902",
+      "ministry": "법무부",
+      "name": "교정기 규정",
+      "official_state": "Y",
+      "rule_type": "훈령"
+    },
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2000000024378",
+    "primary_domain": "기타",
+    "secondary_domains": [],
+    "seed_names": [
+      "교정기 규정"
+    ],
+    "source_kind": "admrul",
+    "status": "CURRENT",
+    "version_id": "2000000024378"
+  },
+  "schema_version": "1.2",
+  "upcoming": []
+}

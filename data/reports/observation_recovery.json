@@ -1,0 +1,12 @@
+{
+  "api_health_restored": true,
+  "last_good_public_state_preserved": true,
+  "last_successful_sync_preserved_during_failure": true,
+  "mode": "SIMULATED_API_TIMEOUT_AFTER_SUCCESS",
+  "status": "PASS",
+  "transitions": [
+    "PUBLISHED",
+    "BLOCKED",
+    "NO_CHANGE"
+  ]
+}

@@ -1,0 +1,101 @@
+name: Production regulation sync
+on:
+  schedule:
+    - cron: '37 23 * * *' # 08:37 KST next calendar day
+    - cron: '37 11 * * *' # 20:37 KST
+  workflow_dispatch:
+    inputs:
+      full_audit:
+        description: Full official outgoing-link identity audit
+        type: boolean
+        default: false
+concurrency:
+  group: production-state-and-hosting
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  sync:
+    # Prepared only. Enable after repository, target and secrets are configured.
+    if: vars.PRODUCTION_PIPELINE_ENABLED == 'true' && github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+      - name: Install Python dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Install web dependencies
+        run: npm ci --prefix web
+      - name: Sync core and scheduled discovery
+        env:
+          LAW_API_OC: ${{ secrets.LAW_API_OC }}
+          SCHEDULE: ${{ github.event.schedule }}
+          FULL_AUDIT: ${{ inputs.full_audit }}
+        run: python scripts/scheduled_sync.py
+      - name: Validate and run all backend tests
+        env:
+          LAW_API_OC: ${{ secrets.LAW_API_OC }}
+        run: python scripts/verify.py
+      - name: Frontend tests
+        run: npm test --prefix web
+      - name: Stage allowlisted state or heartbeat
+        id: state
+        run: python scripts/generated_commit.py
+      - name: Build web candidate
+        if: steps.state.outputs.deploy_needed == 'true'
+        run: npm run build --prefix web
+      - name: Verify exact hosting artifact
+        if: steps.state.outputs.deploy_needed == 'true'
+        env:
+          LAW_API_OC: ${{ secrets.LAW_API_OC }}
+        run: python scripts/verify_artifact.py
+      - name: Commit trusted state before deployment
+        if: steps.state.outputs.commit_needed == 'true'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git diff --cached --quiet || git commit -m 'ops: update verified regulation state or idle heartbeat'
+          git push
+      - name: Deploy validated candidate to Firebase Hosting
+        if: steps.state.outputs.deploy_needed == 'true'
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: ${{ secrets.GITHUB_TOKEN }}
+          firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          projectId: ${{ vars.FIREBASE_PROJECT_ID }}
+          channelId: live
+      - name: Acknowledge deployed dataset for restart-safe retry
+        if: steps.state.outputs.deploy_needed == 'true'
+        env:
+          DATASET_VERSION: ${{ steps.state.outputs.dataset_version }}
+          FIREBASE_PROJECT_ID: ${{ vars.FIREBASE_PROJECT_ID }}
+        run: |
+          python scripts/verify_release.py
+          python scripts/generated_commit.py --ack-deployed "$DATASET_VERSION"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git diff --cached --quiet || git commit -m 'ops: acknowledge successful hosting release'
+          git push
+      - name: Retain safe operational reports including failures
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: production-operation-reports
+          path: |
+            data/reports/production_sync.json
+            data/reports/core_resolution.json
+            data/reports/discovery_scan.json
+            data/reports/tests.json
+            data/reports/firebase_artifact.json
+            data/ops/health.json
+          retention-days: 30

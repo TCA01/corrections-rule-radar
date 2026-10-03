@@ -1,0 +1,11 @@
+{
+  "classification_review_count": 2,
+  "dataset_version": "ds-1f332f33e70a591d8c90bfcb93c615f2b4ab487c3cbafcd37d9442fc9da29e54",
+  "health_scope": "PUBLISHED_DATASET",
+  "last_successful_sync": "2026-10-03T04:06:27.726319+00:00",
+  "publication_status": "PUBLISHED",
+  "review_count": 0,
+  "rule_count": 68,
+  "schema_version": "1.2",
+  "status": "OK"
+}

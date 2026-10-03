@@ -1,0 +1,58 @@
+{
+  "$id": "urn:corrections-rule-radar:api:v1:health",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "classification_review_count": {
+      "minimum": 0,
+      "type": "integer"
+    },
+    "dataset_version": {
+      "pattern": "^ds-[a-f0-9]{64}$",
+      "type": "string"
+    },
+    "health_scope": {
+      "const": "PUBLISHED_DATASET"
+    },
+    "last_successful_sync": {
+      "format": "date-time",
+      "type": "string"
+    },
+    "publication_status": {
+      "enum": [
+        "PUBLISHED",
+        "BLOCKED"
+      ]
+    },
+    "review_count": {
+      "minimum": 0,
+      "type": "integer"
+    },
+    "rule_count": {
+      "minimum": 0,
+      "type": "integer"
+    },
+    "schema_version": {
+      "const": "1.2"
+    },
+    "status": {
+      "enum": [
+        "OK",
+        "DEGRADED"
+      ]
+    }
+  },
+  "required": [
+    "schema_version",
+    "dataset_version",
+    "status",
+    "last_successful_sync",
+    "publication_status",
+    "rule_count",
+    "review_count",
+    "classification_review_count",
+    "health_scope"
+  ],
+  "title": "health",
+  "type": "object"
+}

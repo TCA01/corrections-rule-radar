@@ -1,0 +1,50 @@
+{
+  "$id": "urn:corrections-rule-radar:api:v1:manifest",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "API_V1_CANDIDATE": {
+      "const": true
+    },
+    "dataset_version": {
+      "pattern": "^ds-[a-f0-9]{64}$",
+      "type": "string"
+    },
+    "health_url": {
+      "const": "/api/v1/health.json"
+    },
+    "latest_changes_url": {
+      "const": "/api/v1/changes/latest.json"
+    },
+    "published_at": {
+      "format": "date-time",
+      "type": "string"
+    },
+    "rule_count": {
+      "minimum": 0,
+      "type": "integer"
+    },
+    "rules_url": {
+      "const": "/api/v1/rules.json"
+    },
+    "schema_version": {
+      "const": "1.2"
+    },
+    "upcoming_changes_url": {
+      "const": "/api/v1/changes/upcoming.json"
+    }
+  },
+  "required": [
+    "schema_version",
+    "dataset_version",
+    "published_at",
+    "rules_url",
+    "latest_changes_url",
+    "upcoming_changes_url",
+    "health_url",
+    "rule_count",
+    "API_V1_CANDIDATE"
+  ],
+  "title": "manifest",
+  "type": "object"
+}

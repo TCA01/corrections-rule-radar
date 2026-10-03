@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.1",
+  "version": {
+    "appendices": [],
+    "attachments": [
+      {
+        "title": "['예규 제1256호-교정기관 간판게시 및 교정직제 영문표기에 관한 지침 폐지.hwp', '예규 제1256호-교정기관 간판게시 및 교정직제 영문표기에 관한 지침 폐지.hwp']",
+        "type": "OFFICIAL_ATTACHMENT",
+        "url": "https://www.law.go.kr/['http:/law.go.kr/flDownload.do?flSeq=66721959%27%2C+%27http%3A%2F%2Flaw.go.kr%2FflDownload.do%3FflSeq%3D66721961%27%5D"
+      }
+    ],
+    "body": {
+      "addenda": {
+        "부칙공포번호": "1256",
+        "부칙공포일자": "20200608",
+        "부칙내용": "부칙 제1조(시행일) 이 예규는 발령한 날부터 시행한다."
+      },
+      "articles": "「교정기관 간판게시 및 교정직제 영문표기에 관한 지침」(법무부예규 제869호)을 폐지한다."
+    },
+    "canonical_id": "admrul-26424",
+    "hashes": {
+      "appendix_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "attachment_link_hash": "815c797853f7defea7c99ebfef576f3ad9c208c292abfc7df979c04dbc317f6c",
+      "body_hash": "2776dee34dd28cfe85363e039564cb00d65640467f5c13292e6e0add0d41a390",
+      "metadata_hash": "2c9a4adc768905096071974f18d917f2f0ea094b0a9a61b4d1c62684fa962889"
+    },
+    "metadata": {
+      "amendment_type": "폐지",
+      "department": "법무부(교정기획과)",
+      "effective_date": "2020-06-08",
+      "issue_date": "2020-06-08",
+      "issue_number": "1256",
+      "ministry": "법무부",
+      "name": "교정기관 간판게시 및 교정직제 영문표기에 관한 지침",
+      "official_state": "N",
+      "rule_type": "예규"
+    },
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000189927",
+    "source_kind": "admrul",
+    "stable_identifier": "26424",
+    "version_id": "2100000189927",
+    "version_reference": {
+      "effective_date": "2020-06-08",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000189927",
+      "snapshot_url": "/api/v1/rules/admrul-26424/versions/2100000189927-2020-06-08-0d785179e2658569.json",
+      "version_id": "2100000189927"
+    },
+    "version_status": "ARCHIVE"
+  }
+}

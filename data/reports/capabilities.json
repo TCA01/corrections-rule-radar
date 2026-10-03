@@ -1,0 +1,427 @@
+{
+  "ADMIN_APPENDICES": {
+    "evidence": {
+      "cache_key": "89d57ebf6fcbf1164a04e236d0c3f987661207acec5fc46171c6229c8757245b",
+      "credential_redacted": true,
+      "raw_sha256": "0ee5b4df90a3e34bf75683f7a401e1d6d9e49c9abd49426e5fefbce732a2e69b",
+      "request": {
+        "display": 100,
+        "query": "교도작업운영지침",
+        "search": 2,
+        "target": "admbyl",
+        "type": "JSON"
+      },
+      "stored_sha256": "2e9ced07710e9be060924c01f805cbbd8e4f49d34214411cb6b7d84b61eb1ee6"
+    },
+    "reason": null,
+    "request_endpoint": "lawSearch.do",
+    "response_fields": [
+      "admrulbyl",
+      "id",
+      "page",
+      "section",
+      "target",
+      "totalCnt",
+      "관련법령ID",
+      "관련행정규칙명",
+      "관련행정규칙일련번호",
+      "발령번호",
+      "발령일자",
+      "별표명",
+      "별표번호",
+      "별표서식파일링크",
+      "별표일련번호",
+      "별표종류",
+      "별표행정규칙상세링크",
+      "소관부처명",
+      "키워드",
+      "행정규칙종류"
+    ],
+    "root_fields": [
+      "키워드",
+      "page",
+      "target",
+      "totalCnt",
+      "section",
+      "admrulbyl"
+    ],
+    "status": "PASS"
+  },
+  "ADMIN_OLD_NEW": {
+    "evidence": {
+      "cache_key": "d8a0c39337ced150799be26f4fc493b93afe79cfa2a455c39446c830afed395c",
+      "credential_redacted": false,
+      "raw_sha256": "3b4adf50bb0d86639cbef84e2878781898225c35f0f0c6058c03198dc981feb1",
+      "request": {
+        "LID": "36282",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "3b4adf50bb0d86639cbef84e2878781898225c35f0f0c6058c03198dc981feb1"
+    },
+    "reason": null,
+    "request_endpoint": "lawService.do",
+    "response_fields": [
+      "content",
+      "no",
+      "구조문_기본정보",
+      "구조문목록",
+      "발령번호",
+      "발령일자",
+      "시행일자",
+      "신조문_기본정보",
+      "신조문목록",
+      "제개정구분명",
+      "조문",
+      "행정규칙ID",
+      "행정규칙명",
+      "행정규칙일련번호",
+      "행정규칙종류",
+      "현행여부"
+    ],
+    "root_fields": [
+      "신조문목록",
+      "구조문목록",
+      "구조문_기본정보",
+      "신조문_기본정보"
+    ],
+    "status": "PASS"
+  },
+  "ARTICLE_DAY_HISTORY": {
+    "evidence": {
+      "cache_key": "18e88d133b4705178957f0d6b81ba5c674fb2d275097d4448056a087b06a5588",
+      "credential_redacted": true,
+      "raw_sha256": "c7b4a9963d0487cfcfd896304ac59d1b06394d9367978321d77b5add0510583b",
+      "request": {
+        "ID": "001668",
+        "fromRegDt": "20260101",
+        "target": "lsJoHstInf",
+        "toRegDt": "20261003",
+        "type": "JSON"
+      },
+      "stored_sha256": "38e80555821239ecebc814076167f4230665d49dee56539eca64bc4bd34b2a2f"
+    },
+    "reason": null,
+    "request_endpoint": "lawSearch.do",
+    "response_fields": [
+      "id",
+      "jo",
+      "law",
+      "num",
+      "target",
+      "totalCnt",
+      "공포번호",
+      "공포일자",
+      "법령ID",
+      "법령구분명",
+      "법령명한글",
+      "법령일련번호",
+      "법령정보",
+      "변경사유",
+      "소관부처명",
+      "소관부처코드",
+      "시행일자",
+      "제개정구분명",
+      "조문개정일",
+      "조문링크",
+      "조문번호",
+      "조문변경이력상세링크",
+      "조문시행일",
+      "조문정보"
+    ],
+    "root_fields": [
+      "law",
+      "target",
+      "totalCnt"
+    ],
+    "status": "PASS"
+  },
+  "ARTICLE_HISTORY": {
+    "evidence": {
+      "cache_key": "bb15c1a78087b9c8fddf8b54749482596de871404f00c2099eb47baa6fcdca6e",
+      "credential_redacted": false,
+      "raw_sha256": "da44721b753e454f7d37cb50c1a389e52c1a567f9f3ba6d9d50cf266efc24023",
+      "request": {
+        "ID": "001668",
+        "JO": "000100",
+        "display": 100,
+        "target": "lsJoHstInf",
+        "type": "JSON"
+      },
+      "stored_sha256": "da44721b753e454f7d37cb50c1a389e52c1a567f9f3ba6d9d50cf266efc24023"
+    },
+    "reason": null,
+    "request_endpoint": "lawService.do",
+    "response_fields": [
+      "id",
+      "law",
+      "target",
+      "totalCnt",
+      "공포번호",
+      "공포일자",
+      "법령ID",
+      "법령구분명",
+      "법령명한글",
+      "법령일련번호",
+      "법령정보",
+      "변경사유",
+      "소관부처명",
+      "소관부처코드",
+      "시행일자",
+      "제개정구분명",
+      "조문링크",
+      "조문번호",
+      "조문변경일",
+      "조문정보"
+    ],
+    "root_fields": [
+      "law",
+      "법령ID",
+      "법령명한글",
+      "target",
+      "totalCnt"
+    ],
+    "status": "PASS"
+  },
+  "DELETION_HISTORY": {
+    "evidence": {
+      "cache_key": "09ebd95c9b73059d56853bb1db0d1e05e3b456fe5622a3100637d04ef5183085",
+      "credential_redacted": false,
+      "raw_sha256": "12311d5a45c29aab064e42ee4f3b5548a6d4b1e9b8b942a33e79498130e97407",
+      "request": {
+        "display": 100,
+        "frmDt": "20260101",
+        "knd": 2,
+        "target": "delHst",
+        "toDt": "20261003",
+        "type": "JSON"
+      },
+      "stored_sha256": "12311d5a45c29aab064e42ee4f3b5548a6d4b1e9b8b942a33e79498130e97407"
+    },
+    "reason": null,
+    "request_endpoint": "lawSearch.do",
+    "response_fields": [
+      "id",
+      "law",
+      "page",
+      "target",
+      "totalCnt",
+      "구분명",
+      "삭제일자",
+      "일련번호"
+    ],
+    "root_fields": [
+      "law",
+      "page",
+      "target",
+      "totalCnt"
+    ],
+    "status": "PASS"
+  },
+  "LAW_APPENDICES": {
+    "evidence": {
+      "cache_key": "e33ab076e2ed7087c447b6c70d94b2e2777783239aa93fb0ea4d12e368e0397b",
+      "credential_redacted": true,
+      "raw_sha256": "f5c7fec11399facfbf8b6bdeaeb1afbdbd8919a2e2929866feb65e52908c7750",
+      "request": {
+        "display": 100,
+        "query": "형의 집행 및 수용자의 처우에 관한 법률 시행규칙",
+        "search": 2,
+        "target": "licbyl",
+        "type": "JSON"
+      },
+      "stored_sha256": "5966a20cc391e1338130cf82752d8f8b34b2a49df611f2482fe0f2cc16c3f50c"
+    },
+    "reason": null,
+    "request_endpoint": "lawSearch.do",
+    "response_fields": [
+      "id",
+      "licbyl",
+      "numOfRows",
+      "page",
+      "resultCode",
+      "resultMsg",
+      "section",
+      "target",
+      "totalCnt",
+      "공포번호",
+      "공포일자",
+      "관련법령ID",
+      "관련법령명",
+      "관련법령일련번호",
+      "법령종류",
+      "별표명",
+      "별표번호",
+      "별표법령상세링크",
+      "별표서식PDF파일링크",
+      "별표서식파일링크",
+      "별표일련번호",
+      "별표종류",
+      "소관부처명",
+      "제개정구분명",
+      "키워드"
+    ],
+    "root_fields": [
+      "resultMsg",
+      "licbyl",
+      "키워드",
+      "page",
+      "resultCode",
+      "target",
+      "totalCnt",
+      "section",
+      "numOfRows"
+    ],
+    "status": "PASS"
+  },
+  "LAW_CHANGE_HISTORY": {
+    "evidence": {
+      "pages": [
+        {
+          "cache_key": "2356c3cff09b1c657bb16f9eb8924cbcfd369c5de0b34233242b826bc331276f",
+          "credential_redacted": true,
+          "raw_sha256": "85cec322ea711d38501141135bae62e5a27c8edc4dc4ca7c5904aa9434517e90",
+          "request": {
+            "display": 100,
+            "org": "1270000",
+            "page": 1,
+            "regDt": "20260929",
+            "target": "lsHstInf",
+            "type": "JSON"
+          },
+          "stored_sha256": "d8bea41c69af30b174540ca3ab8d17442b9627e7b5836891d4419a4232f6c507"
+        },
+        {
+          "cache_key": "0d026b7f8e253e6f64b57370d625bd9dfa2a91a7f639ba2695a79c47f9a6304d",
+          "credential_redacted": true,
+          "raw_sha256": "770e343c9038b161a1f7d05aa79db224a50bc24205714bafe397972038bc098c",
+          "request": {
+            "display": 100,
+            "org": "1270000",
+            "page": 2,
+            "regDt": "20260929",
+            "target": "lsHstInf",
+            "type": "JSON"
+          },
+          "stored_sha256": "7b09354167e99a32ece938dbd584103231beb68aae618e0eaed5a1360743a187"
+        }
+      ]
+    },
+    "reason": null,
+    "request_endpoint": "lawSearch.do",
+    "response_fields": [
+      "id",
+      "law",
+      "totalCnt",
+      "공포번호",
+      "공포일자",
+      "법령ID",
+      "법령구분명",
+      "법령명한글",
+      "법령상세링크",
+      "법령일련번호",
+      "소관부처명",
+      "소관부처코드",
+      "시행일자",
+      "자법타법여부",
+      "제개정구분명",
+      "현행연혁코드"
+    ],
+    "root_fields": [
+      "law",
+      "totalCnt"
+    ],
+    "status": "PASS"
+  },
+  "LAW_OLD_NEW": {
+    "evidence": {
+      "cache_key": "4f4dd1477e49f24ca4fe32dec8da31d500e12c79dca6a532eedc32b1f96723fa",
+      "credential_redacted": false,
+      "raw_sha256": "f713b7870754f16fc1c32b4b6f82fba857697f7814f39ecc1b34351e05d5dbce",
+      "request": {
+        "ID": "001668",
+        "target": "oldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "f713b7870754f16fc1c32b4b6f82fba857697f7814f39ecc1b34351e05d5dbce"
+    },
+    "reason": null,
+    "request_endpoint": "lawService.do",
+    "response_fields": [
+      "content",
+      "no",
+      "공포번호",
+      "공포일자",
+      "구조문_기본정보",
+      "구조문목록",
+      "법령ID",
+      "법령명",
+      "법령일련번호",
+      "법종구분",
+      "시행일자",
+      "신조문_기본정보",
+      "신조문목록",
+      "제개정구분명",
+      "조문",
+      "현행여부"
+    ],
+    "root_fields": [
+      "신조문목록",
+      "구조문목록",
+      "구조문_기본정보",
+      "신조문_기본정보"
+    ],
+    "status": "PASS"
+  },
+  "SYSTEM_MAP": {
+    "evidence": {
+      "cache_key": "09766abc08126e23b230bd2dd2cf0ac213187883634597f7b287dc55a2993af6",
+      "credential_redacted": false,
+      "raw_sha256": "f0457ea36247cb233891941d66056bb76620ebdb1b9d0135927ced0f79d057fb",
+      "request": {
+        "ID": "001668",
+        "target": "lsStmd",
+        "type": "JSON"
+      },
+      "stored_sha256": "f0457ea36247cb233891941d66056bb76620ebdb1b9d0135927ced0f79d057fb"
+    },
+    "reason": null,
+    "request_endpoint": "lawService.do",
+    "response_fields": [
+      "conlaw",
+      "content",
+      "id",
+      "공포번호",
+      "공포일자",
+      "관련법령",
+      "기본정보",
+      "발령번호",
+      "발령일자",
+      "법령ID",
+      "법령명",
+      "법령일련번호",
+      "법률",
+      "법종구분",
+      "법종구분코드",
+      "본문상세링크",
+      "상하위법",
+      "시행규칙",
+      "시행령",
+      "시행일자",
+      "예규",
+      "제개정구분",
+      "제개정구분코드",
+      "행정규칙",
+      "행정규칙ID",
+      "행정규칙명",
+      "행정규칙일련번호",
+      "훈령"
+    ],
+    "root_fields": [
+      "기본정보",
+      "관련법령",
+      "상하위법"
+    ],
+    "status": "PASS"
+  }
+}

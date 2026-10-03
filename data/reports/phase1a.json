@@ -1,0 +1,386 @@
+{
+  "android_contract_ready": true,
+  "api_calls_per_run": [
+    159,
+    159,
+    159,
+    159
+  ],
+  "api_v1_candidate": true,
+  "average_api_response_seconds": 0.473351,
+  "average_run_seconds": 199.332,
+  "core_rules": 68,
+  "current_real_examples": [
+    {
+      "canonical_id": "admrul-36282",
+      "comparison_event_types": [
+        "APPENDIX_CHANGED",
+        "ARTICLE_CHANGED",
+        "ATTACHMENT_CHANGED",
+        "EFFECTIVE_DATE_CHANGED",
+        "RULE_AMENDED"
+      ],
+      "current_effective_date": "2026-10-01",
+      "current_name": "교도작업운영지침",
+      "current_version_id": "2100000285400",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000285400",
+      "older_version_id": "2100000218879",
+      "upcoming_effective_dates": []
+    },
+    {
+      "canonical_id": "admrul-36283",
+      "comparison_event_types": [
+        "APPENDIX_CHANGED",
+        "ARTICLE_CHANGED",
+        "ATTACHMENT_CHANGED",
+        "EFFECTIVE_DATE_CHANGED",
+        "RULE_AMENDED",
+        "RULE_RENAMED"
+      ],
+      "current_effective_date": "2026-10-01",
+      "current_name": "교도작업특별회계운영지침",
+      "current_version_id": "2100000285404",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000285404",
+      "older_version_id": "2100000181864",
+      "upcoming_effective_dates": []
+    },
+    {
+      "canonical_id": "admrul-35334",
+      "comparison_event_types": [
+        "APPENDIX_CHANGED",
+        "ARTICLE_CHANGED",
+        "ATTACHMENT_CHANGED",
+        "EFFECTIVE_DATE_CHANGED",
+        "RULE_AMENDED"
+      ],
+      "current_effective_date": "2026-03-30",
+      "current_name": "가석방 업무지침",
+      "current_version_id": "2100000276392",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000276392",
+      "older_version_id": "2100000177619",
+      "upcoming_effective_dates": []
+    },
+    {
+      "canonical_id": "law-001668",
+      "comparison_event_types": [
+        "ARTICLE_CHANGED",
+        "EFFECTIVE_DATE_CHANGED",
+        "RULE_AMENDED"
+      ],
+      "current_effective_date": "2026-10-02",
+      "current_name": "형의 집행 및 수용자의 처우에 관한 법률",
+      "current_version_id": "290191",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290191",
+      "older_version_id": "246593",
+      "upcoming_effective_dates": [
+        "2026-12-24"
+      ]
+    }
+  ],
+  "dataset_version": "ds-f66124955d7cad3986953473199a887e472986f23e9fe91a628c1e3fd52df1b5",
+  "domain_classification": {
+    "classified": 66,
+    "multi_domain": 21,
+    "review": 2
+  },
+  "domain_distribution": {
+    "교육·교화": {
+      "primary_count": 3,
+      "related_membership_count": 8
+    },
+    "급식·복지": {
+      "primary_count": 12,
+      "related_membership_count": 17
+    },
+    "기타": {
+      "primary_count": 5,
+      "related_membership_count": 5
+    },
+    "민영교도소": {
+      "primary_count": 4,
+      "related_membership_count": 4
+    },
+    "민원": {
+      "primary_count": 1,
+      "related_membership_count": 1
+    },
+    "보관금품": {
+      "primary_count": 1,
+      "related_membership_count": 5
+    },
+    "분류·가석방": {
+      "primary_count": 7,
+      "related_membership_count": 10
+    },
+    "수용·보안": {
+      "primary_count": 6,
+      "related_membership_count": 12
+    },
+    "심리치료": {
+      "primary_count": 1,
+      "related_membership_count": 2
+    },
+    "의료": {
+      "primary_count": 2,
+      "related_membership_count": 6
+    },
+    "인권·청원": {
+      "primary_count": 2,
+      "related_membership_count": 6
+    },
+    "인사·조직": {
+      "primary_count": 14,
+      "related_membership_count": 19
+    },
+    "작업·직업훈련": {
+      "primary_count": 7,
+      "related_membership_count": 12
+    },
+    "접견·외부교통": {
+      "primary_count": 0,
+      "related_membership_count": 4
+    },
+    "정보화": {
+      "primary_count": 1,
+      "related_membership_count": 1
+    }
+  },
+  "fail_closed_recovery": "PASS",
+  "failure_context": "Three OFFICIAL_PAGE_FAILED attempts under restricted execution networking before permitted runs; zero API requests in those attempts. Retained, not omitted.",
+  "hash_stability": "PASS",
+  "live_failed_attempts": 3,
+  "next_step": "Review two pending domain mappings and arrange multi-day observation. Frontend implementation requires a subsequent request; no UI or Firebase deployment in Phase 1A.",
+  "no_change_consistency": "PASS",
+  "observation_runs": [
+    {
+      "api_request_count": 0,
+      "api_response_seconds": 0.0,
+      "average_api_response_seconds": null,
+      "change_count": 0,
+      "duration_seconds": 2.235,
+      "error_summary": {
+        "OFFICIAL_PAGE_FAILED": 1
+      },
+      "event_ids_identical": true,
+      "failure_count": 68,
+      "finished_at": "2026-10-03T02:41:53.004578+00:00",
+      "last_good_dataset_version": "ds-6dfa5a635d3fbfbf4d9399cd97d7d6f29a083daf80ea3c90430403ae184c025f",
+      "observation_status": "FAILED",
+      "public_bytes_and_mtimes_identical": true,
+      "public_page_request_count": 1,
+      "public_page_response_seconds": 2.094,
+      "publication_status": "BLOCKED",
+      "retry_count": 0,
+      "review_count": 0,
+      "run_id": "20261003T024150-dbeb0ae7",
+      "snapshot_hashes_identical": null,
+      "source": "LIVE_NORMAL_SYNC",
+      "started_at": "2026-10-03T02:41:50.780179+00:00",
+      "success_count": 0,
+      "total_http_request_count": 1,
+      "transport_error_summary": {
+        "OFFICIAL_PAGE_FAILED": 1
+      }
+    },
+    {
+      "api_request_count": 0,
+      "api_response_seconds": 0.0,
+      "average_api_response_seconds": null,
+      "change_count": 0,
+      "duration_seconds": 2.203,
+      "error_summary": {
+        "OFFICIAL_PAGE_FAILED": 1
+      },
+      "event_ids_identical": true,
+      "failure_count": 68,
+      "finished_at": "2026-10-03T02:41:55.211218+00:00",
+      "last_good_dataset_version": "ds-6dfa5a635d3fbfbf4d9399cd97d7d6f29a083daf80ea3c90430403ae184c025f",
+      "observation_status": "FAILED",
+      "public_bytes_and_mtimes_identical": true,
+      "public_page_request_count": 1,
+      "public_page_response_seconds": 2.062,
+      "publication_status": "BLOCKED",
+      "retry_count": 0,
+      "review_count": 0,
+      "run_id": "20261003T024153-17a3bb9d",
+      "snapshot_hashes_identical": null,
+      "source": "LIVE_NORMAL_SYNC",
+      "started_at": "2026-10-03T02:41:53.013579+00:00",
+      "success_count": 0,
+      "total_http_request_count": 1,
+      "transport_error_summary": {
+        "OFFICIAL_PAGE_FAILED": 1
+      }
+    },
+    {
+      "api_request_count": 0,
+      "api_response_seconds": 0.0,
+      "average_api_response_seconds": null,
+      "change_count": 0,
+      "duration_seconds": 2.203,
+      "error_summary": {
+        "OFFICIAL_PAGE_FAILED": 1
+      },
+      "event_ids_identical": true,
+      "failure_count": 68,
+      "finished_at": "2026-10-03T02:41:57.423396+00:00",
+      "last_good_dataset_version": "ds-6dfa5a635d3fbfbf4d9399cd97d7d6f29a083daf80ea3c90430403ae184c025f",
+      "observation_status": "FAILED",
+      "public_bytes_and_mtimes_identical": true,
+      "public_page_request_count": 1,
+      "public_page_response_seconds": 2.063,
+      "publication_status": "BLOCKED",
+      "retry_count": 0,
+      "review_count": 0,
+      "run_id": "20261003T024155-74250a10",
+      "snapshot_hashes_identical": null,
+      "source": "LIVE_NORMAL_SYNC",
+      "started_at": "2026-10-03T02:41:55.220732+00:00",
+      "success_count": 0,
+      "total_http_request_count": 1,
+      "transport_error_summary": {
+        "OFFICIAL_PAGE_FAILED": 1
+      }
+    },
+    {
+      "api_request_count": 159,
+      "api_response_seconds": 78.084,
+      "average_api_response_seconds": 0.491094,
+      "change_count": 0,
+      "duration_seconds": 200.125,
+      "error_summary": {},
+      "event_ids_identical": true,
+      "failure_count": 0,
+      "finished_at": "2026-10-03T02:45:40.051881+00:00",
+      "last_good_dataset_version": "ds-6dfa5a635d3fbfbf4d9399cd97d7d6f29a083daf80ea3c90430403ae184c025f",
+      "observation_status": "SUCCESS",
+      "public_bytes_and_mtimes_identical": true,
+      "public_page_request_count": 70,
+      "public_page_response_seconds": 55.661,
+      "publication_status": "NO_CHANGE",
+      "retry_count": 0,
+      "review_count": 0,
+      "run_id": "20261003T024219-a3f03815",
+      "snapshot_hashes_identical": true,
+      "source": "LIVE_NORMAL_SYNC",
+      "started_at": "2026-10-03T02:42:19.936582+00:00",
+      "success_count": 68,
+      "total_http_request_count": 229,
+      "transport_error_summary": {}
+    },
+    {
+      "api_request_count": 159,
+      "api_response_seconds": 75.013,
+      "average_api_response_seconds": 0.47178,
+      "change_count": 0,
+      "duration_seconds": 200.547,
+      "error_summary": {},
+      "event_ids_identical": true,
+      "failure_count": 0,
+      "finished_at": "2026-10-03T02:49:00.606898+00:00",
+      "last_good_dataset_version": "ds-6dfa5a635d3fbfbf4d9399cd97d7d6f29a083daf80ea3c90430403ae184c025f",
+      "observation_status": "SUCCESS",
+      "public_bytes_and_mtimes_identical": true,
+      "public_page_request_count": 70,
+      "public_page_response_seconds": 57.282,
+      "publication_status": "NO_CHANGE",
+      "retry_count": 0,
+      "review_count": 0,
+      "run_id": "20261003T024540-a503cf90",
+      "snapshot_hashes_identical": true,
+      "source": "LIVE_NORMAL_SYNC",
+      "started_at": "2026-10-03T02:45:40.063272+00:00",
+      "success_count": 68,
+      "total_http_request_count": 229,
+      "transport_error_summary": {}
+    },
+    {
+      "api_request_count": 159,
+      "api_response_seconds": 77.363,
+      "average_api_response_seconds": 0.48656,
+      "change_count": 0,
+      "duration_seconds": 198.406,
+      "error_summary": {},
+      "event_ids_identical": true,
+      "failure_count": 0,
+      "finished_at": "2026-10-03T02:52:19.025036+00:00",
+      "last_good_dataset_version": "ds-6dfa5a635d3fbfbf4d9399cd97d7d6f29a083daf80ea3c90430403ae184c025f",
+      "observation_status": "SUCCESS",
+      "public_bytes_and_mtimes_identical": true,
+      "public_page_request_count": 70,
+      "public_page_response_seconds": 52.99,
+      "publication_status": "NO_CHANGE",
+      "retry_count": 0,
+      "review_count": 0,
+      "run_id": "20261003T024900-1c3a1b0f",
+      "snapshot_hashes_identical": true,
+      "source": "LIVE_NORMAL_SYNC",
+      "started_at": "2026-10-03T02:49:00.616866+00:00",
+      "success_count": 68,
+      "total_http_request_count": 229,
+      "transport_error_summary": {}
+    },
+    {
+      "api_request_count": 159,
+      "api_response_seconds": 70.591,
+      "average_api_response_seconds": 0.443969,
+      "change_count": 0,
+      "duration_seconds": 198.25,
+      "error_summary": {},
+      "event_ids_identical": true,
+      "failure_count": 0,
+      "finished_at": "2026-10-03T02:59:19.265205+00:00",
+      "last_good_dataset_version": "ds-f66124955d7cad3986953473199a887e472986f23e9fe91a628c1e3fd52df1b5",
+      "observation_status": "SUCCESS",
+      "public_bytes_and_mtimes_identical": true,
+      "public_page_request_count": 70,
+      "public_page_response_seconds": 53.586,
+      "publication_status": "NO_CHANGE",
+      "retry_count": 0,
+      "review_count": 0,
+      "run_id": "20261003T025601-7cea8b01",
+      "snapshot_hashes_identical": true,
+      "source": "LIVE_NORMAL_SYNC",
+      "started_at": "2026-10-03T02:56:01.009136+00:00",
+      "success_count": 68,
+      "total_http_request_count": 229,
+      "transport_error_summary": {}
+    }
+  ],
+  "official_page_calls_per_run": [
+    70,
+    70,
+    70,
+    70
+  ],
+  "retry_count": 0,
+  "risks": [
+    "Same-session observations only; no multi-day soak or official quota guarantee.",
+    "Two broad reporting classifications await business-owner review; reviewed mappings are evidence review, not agency approval.",
+    "Future client compilation, hosting atomic release and separate live operational health remain untested."
+  ],
+  "schema_version": "1.1",
+  "successful_live_runs": 4,
+  "tests": {
+    "errors": 0,
+    "failure_test_ids": [],
+    "failures": 0,
+    "passed": true,
+    "public_contract": {
+      "failed_files": [],
+      "status": "PASS",
+      "validated_file_count": 142
+    },
+    "secret_scan": {
+      "file_count": 0,
+      "files": [],
+      "status": "PASS"
+    },
+    "tests": 53
+  },
+  "title": "PHASE 1A STABILITY & DOMAIN REVIEW",
+  "twice_daily_api_calls": 318,
+  "twice_daily_total_http_calls": 458,
+  "upstream_api_errors_in_successful_runs": 0,
+  "web_ready": true
+}

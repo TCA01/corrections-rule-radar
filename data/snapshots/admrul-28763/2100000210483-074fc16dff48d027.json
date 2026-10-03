@@ -1,0 +1,77 @@
+{
+  "appendices": [
+    {
+      "branch": "00",
+      "pdf_url": null,
+      "sequence": "0001",
+      "title": "교정사고 유형별 직원문책 기준표",
+      "type": "별표",
+      "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=114782351"
+    }
+  ],
+  "attachments": [
+    {
+      "title": "['2.「교정사고 유형별 문책기준 지침」개정안 전문(법무부예규 제1295호, 2022.4.1. 일부개정).hwp', '1.교정사고 유형별 문책기준 지침 일부개정안.hwp']",
+      "type": "OFFICIAL_ATTACHMENT",
+      "url": "https://www.law.go.kr/['http:/law.go.kr/flDownload.do?flSeq=114765465%27%2C+%27http%3A%2F%2Flaw.go.kr%2FflDownload.do%3FflSeq%3D114765467%27%5D"
+    }
+  ],
+  "body": {
+    "addenda": {
+      "부칙공포번호": [
+        "843",
+        "1173",
+        "1295"
+      ],
+      "부칙공포일자": [
+        "20081219",
+        "20171222",
+        "20220401"
+      ],
+      "부칙내용": [
+        "부칙 이 지침은 공포한 날부터 시행한다.",
+        "부칙 (시행일) 이 지침은 공포한 날부터 시행한다.",
+        "부칙 이 지침은 공포한 날부터 시행한다."
+      ]
+    },
+    "articles": [
+      "제1조(목적) 이 지침은 교정사고에 대한 문책기준을 마련하여 각 기관 간 문책의 형평성을 기하고 관련 직원의 불이익을 최소화하여 소신껏 일하는 풍토를 조성함에 목적을 둔다.",
+      "제2조(기본방침) 이 기준의 기본방침은 다음과 같다.1. 기존 공무원 징계관련 법령을 근간으로 하되, 교정업무의 특성에 맞는 주요 교정사고 유형별 문책기준 설정2. 교정사고 중심의 일률적 문책을 지양하고, 사고의 유형, 사고의 정도, 고의 및 과실여부 등 구체적 사안에 따라 문책기준 차별화3. 성실ㆍ적극적 업무수행 중 발생한 불가피한 사고는 최대한 관용조치하여 일선근무자의 위험부담 경감4. 고의, 현저한 직무태만 등으로 야기된 사고관련자는 중징계 함으로써 책임의식을 고취, 복무기강확립 및 교정사고 방지",
+      "제3조(유형별 문책기준) 교정사고 유형별 문책기준은 별표 1과 같다.",
+      "제4조(참작 사항) ① 별표 1의「교정사고 유형별 직원문책 기준표」에 명시되지 않은 사안은 유사한 사고유형의 처리기준을 참고하고「공무원징계령 시행규칙」에 따라 조치한다.② 개인별 구체적 징계양정은 사고의 유형, 사고의 정도, 과실의 경중, 사고가 공직 내외에 미치는 영향 등 종합적인 정황을 참작하여 결정한다.③ 사고관련 감독자는 사고의 내용, 연관정도, 피감독자 징계양정 등을 참작하여 그 문책기준을 결정한다.④ 그 밖에 징계운영에 관한 세부적인 사항은 공무원 징계관련 법령에 따라 처리한다."
+    ]
+  },
+  "canonical_id": "admrul-28763",
+  "evidence": {
+    "cache_key": "e5c8af20b843c39372ef89655dc9c45b84d9d8d547dd849cc99330e4fab91cdf",
+    "credential_redacted": false,
+    "raw_sha256": "92f3445167a3c2a9c02adf6da13ae51ef0724bfe29566807e0a1e6efce022db2",
+    "request": {
+      "LID": "28763",
+      "target": "admrul",
+      "type": "JSON"
+    },
+    "stored_sha256": "92f3445167a3c2a9c02adf6da13ae51ef0724bfe29566807e0a1e6efce022db2"
+  },
+  "hashes": {
+    "appendix_hash": "649c4c380379672ba05765cd456d8debcdf00fe1e94195f0affc3fb0fb69eac3",
+    "attachment_link_hash": "a421ab22b6e67b01c31d636321af1f93bb177710438b1f6a3147e5cf181d052b",
+    "body_hash": "2d90d372edaf1fde92472393600083fa4762bc357492e2dac6679d6bd362104b",
+    "metadata_hash": "e80fd244d89a3b1cae563064a33e5f04e126007bda3ea1a7db091ff58351533f"
+  },
+  "metadata": {
+    "amendment_type": "일부개정",
+    "department": "법무부(교정기획과)",
+    "effective_date": "2022-04-01",
+    "issue_date": "2022-04-01",
+    "issue_number": "1295",
+    "ministry": "법무부",
+    "name": "교정사고 유형별 문책기준 지침",
+    "official_state": "Y",
+    "rule_type": "예규"
+  },
+  "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000210483",
+  "source_kind": "admrul",
+  "stable_identifier": "28763",
+  "version_id": "2100000210483"
+}

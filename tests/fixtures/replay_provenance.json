@@ -1,0 +1,24 @@
+{
+  "admin_new": {
+    "cache_key": "cd9d8cb4926375f5780d18812b2f11bb841228dd14a9edb4ab0f82605628e5c7",
+    "credential_redacted": false,
+    "raw_sha256": "f2f223cd97b70023533c74dac51a35cf1ca89a3c1f41c394549b5b1ea7cdb26c",
+    "request": {
+      "LID": "36282",
+      "target": "admrul",
+      "type": "JSON"
+    },
+    "stored_sha256": "f2f223cd97b70023533c74dac51a35cf1ca89a3c1f41c394549b5b1ea7cdb26c"
+  },
+  "admin_old": {
+    "cache_key": "09537e74cdccc89fc6831dd0761995e002719088ec010df5b0633c4ac66072af",
+    "credential_redacted": false,
+    "raw_sha256": "b9537a65398f8fb4ed8386377ac34288680448169e1d4db1850c553347030801",
+    "request": {
+      "ID": "2100000218879",
+      "target": "admrul",
+      "type": "JSON"
+    },
+    "stored_sha256": "b9537a65398f8fb4ed8386377ac34288680448169e1d4db1850c553347030801"
+  }
+}

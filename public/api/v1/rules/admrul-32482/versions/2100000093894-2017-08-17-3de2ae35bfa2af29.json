@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.1",
+  "version": {
+    "appendices": [
+      {
+        "branch": "00",
+        "pdf_url": null,
+        "sequence": "0001",
+        "title": "사망수용자 표준장례비",
+        "type": "별표",
+        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=30923980"
+      },
+      {
+        "branch": "00",
+        "pdf_url": null,
+        "sequence": "0002",
+        "title": "사망수용자 장례비 내역",
+        "type": "별표",
+        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=30923982"
+      }
+    ],
+    "attachments": [
+      {
+        "title": "['예규 제1158호 - 사망수용자 장례비 지급 지침.hwp', '예규 제1158호 - 사망수용자 장례비 지급 지침 개정안.hwp']",
+        "type": "OFFICIAL_ATTACHMENT",
+        "url": "https://www.law.go.kr/['http:/law.go.kr/flDownload.do?flSeq=30919216%27%2C+%27http%3A%2F%2Flaw.go.kr%2FflDownload.do%3FflSeq%3D30919217%27%5D"
+      }
+    ],
+    "body": {
+      "addenda": {
+        "부칙공포번호": [
+          "829",
+          "868",
+          "1072",
+          "1158"
+        ],
+        "부칙공포일자": [
+          "20081219",
+          "20090820",
+          "20141215",
+          "20170817"
+        ],
+        "부칙내용": [
+          "부칙 (시행일) 이 지침은 「형의 집행 및 수용자의 처우에 관한 법률」이 시행되는 날부터 시행한다.",
+          "부칙 (시행일) 이 예규는 발령한 날부터 시행한다.",
+          "부칙 (시행일) 이 예규는 발령한 날부터 시행한다.",
+          "부칙 (시행일) 이 예규는 발령한 날부터 시행한다."
+        ]
+      },
+      "articles": [
+        "제1조 (목적) 이 지침은 「형의 집행 및 수용자의 처우에 관한 법률」제125조 및 제128조의 규정과 관련, 사망한 수용자의 장례에 관한 사항을 규정함을 목적으로 한다.",
+        "제2조 (장례비 지급 요건) 교도소·구치소 및 그 지소의 장(이하 ‘소장’이라 한다)은 사망한 수용자가 다음 각 호의 어느 하나에 해당하는 경우 장례비를 예산으로 지급할 수 있다.1. 사망한 수용자의 친족 등이 경제적 어려움 등으로 시신을 인도받을 수 없는 경우2. 예산으로 장례비를 지급하는 것이 타당하다고 판단하는 경우",
+        "제3조 (장례비용) ① 장례비용은 다음 각 호와 같다.1. 장례시설 사용료. 단, 조문객의 식사비용은 제외2. 장례 용품비3. 영구차 사용료4. 화장 비용5. 기타 장례를 위해 필요하다고 인정하는 비용② 장례비용은 별표 제1호 사망수용자 표준장례비를 기준하여 500만원 이내로 지급한다.",
+        "제4조 (장례비 지급 절차) ① 소장은 인수자의 경제적 사정 등을 감안, 장례비를 산정하여 지출 후 법무부장관에게 소요예산을 신청한다.② 500만원을 초과하여 장례비를 지급해야 할 경우 소장은 별표 제2호 서식에 따라 법무부장관에게 보고 후 승인을 받아 지급한다.③ 장례비는 장례관련 업체에 직접 지급하는 것을 원칙으로 한다.",
+        "제5조(재검토 기한) 「훈령·예규 등의 발령 및 관리에 관한 규정」(대통령훈령 제334호)에 따라 이 예규에 대하여 2018년 1월 1일 기준으로 매 3년이 되는 시점(매 3년째의 12월 31일까지를 말한다)마다 그 타당성을 검토하여 개선 등의 조치를 하여야 한다."
+      ]
+    },
+    "canonical_id": "admrul-32482",
+    "hashes": {
+      "appendix_hash": "26f342f66300b9a30767298017e409d4ac3dfcf7f3420dcd85d00b0b15898fda",
+      "attachment_link_hash": "cc71871797629ae58ef331be0960a0b75b352c1641a4f5a2447abc2857994794",
+      "body_hash": "7677f4ceced2f0d401258c7dd33a328569ac943b1d57eab3f5c431d5c398511c",
+      "metadata_hash": "705bbdb40ac6fca32782ba1de1181987f9f64f5974577a55c0d183d459d180cd"
+    },
+    "metadata": {
+      "amendment_type": "일부개정",
+      "department": "법무부(복지과)",
+      "effective_date": "2017-08-17",
+      "issue_date": "2017-08-17",
+      "issue_number": "1158",
+      "ministry": "법무부",
+      "name": "사망수용자 장례비 지급 지침",
+      "official_state": "Y",
+      "rule_type": "예규"
+    },
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000093894",
+    "source_kind": "admrul",
+    "stable_identifier": "32482",
+    "version_id": "2100000093894",
+    "version_reference": {
+      "effective_date": "2017-08-17",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000093894",
+      "snapshot_url": "/api/v1/rules/admrul-32482/versions/2100000093894-2017-08-17-3de2ae35bfa2af29.json",
+      "version_id": "2100000093894"
+    },
+    "version_status": "ARCHIVE"
+  }
+}

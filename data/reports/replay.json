@@ -1,0 +1,121 @@
+{
+  "admin": {
+    "canonical_id": "admrul-36282",
+    "event_types": [
+      "EFFECTIVE_DATE_CHANGED",
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED",
+      "APPENDIX_CHANGED",
+      "ATTACHMENT_CHANGED"
+    ],
+    "evidence": {
+      "cache_key": "09537e74cdccc89fc6831dd0761995e002719088ec010df5b0633c4ac66072af",
+      "credential_redacted": false,
+      "raw_sha256": "b9537a65398f8fb4ed8386377ac34288680448169e1d4db1850c553347030801",
+      "request": {
+        "ID": "2100000218879",
+        "target": "admrul",
+        "type": "JSON"
+      },
+      "stored_sha256": "b9537a65398f8fb4ed8386377ac34288680448169e1d4db1850c553347030801"
+    },
+    "status": "PASS"
+  },
+  "appendix": {
+    "canonical_id": "admrul-2046965",
+    "event_types": [
+      "EFFECTIVE_DATE_CHANGED",
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED",
+      "APPENDIX_CHANGED",
+      "ATTACHMENT_CHANGED"
+    ],
+    "evidence": {
+      "cache_key": "565f3dba8ec61b4d451ab9a76d3fee12e3aaa1906736176b0a5497e52b1f98c2",
+      "credential_redacted": false,
+      "raw_sha256": "9c963901c839501dbdc4fad4a08cd9415b1136c3e9a77d4d8ffae5e93fe01876",
+      "request": {
+        "ID": "2100000094389",
+        "target": "admrul",
+        "type": "JSON"
+      },
+      "stored_sha256": "9c963901c839501dbdc4fad4a08cd9415b1136c3e9a77d4d8ffae5e93fe01876"
+    },
+    "status": "PASS"
+  },
+  "future": {
+    "canonical_id": null,
+    "event_types": [
+      "FUTURE_EFFECTIVE_VERSION"
+    ],
+    "evidence": null,
+    "status": "PASS"
+  },
+  "law": {
+    "canonical_id": "law-001668",
+    "event_types": [
+      "EFFECTIVE_DATE_CHANGED",
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "evidence": {
+      "cache_key": "08836dcdd69b8266472e54a100c344e989f6a60eb26024f57a644d2577a734f6",
+      "credential_redacted": false,
+      "raw_sha256": "ce4c849ece8e41f1be08e28369fa8f2547fdf2ac6f0152174ac9cdfeaa98caac",
+      "request": {
+        "MST": "246593",
+        "efYd": "20221227",
+        "target": "eflaw",
+        "type": "JSON"
+      },
+      "stored_sha256": "ce4c849ece8e41f1be08e28369fa8f2547fdf2ac6f0152174ac9cdfeaa98caac"
+    },
+    "status": "PASS"
+  },
+  "rename": {
+    "canonical_id": "admrul-37590",
+    "event_types": [
+      "RULE_RENAMED",
+      "EFFECTIVE_DATE_CHANGED",
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED",
+      "APPENDIX_CHANGED",
+      "ATTACHMENT_CHANGED"
+    ],
+    "evidence": {
+      "cache_key": "8537934882e429b02ab18501770993fdf963af23b3c0c7b0715893e14ad0a053",
+      "credential_redacted": false,
+      "raw_sha256": "3915eb95a1a9459677c58407d109c3ba5af6ab93a40dde35d1ef2d184e197438",
+      "request": {
+        "ID": "2100000097312",
+        "target": "admrul",
+        "type": "JSON"
+      },
+      "stored_sha256": "3915eb95a1a9459677c58407d109c3ba5af6ab93a40dde35d1ef2d184e197438"
+    },
+    "status": "PASS"
+  },
+  "repeal": {
+    "canonical_id": "admrul-26424",
+    "event_types": [
+      "EFFECTIVE_DATE_CHANGED",
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED",
+      "APPENDIX_CHANGED",
+      "ATTACHMENT_CHANGED",
+      "RULE_REPEALED"
+    ],
+    "evidence": {
+      "cache_key": "98fde420de85790ac35bc0acfe5b251e7372f015e1b637b1af0ee188d6713a38",
+      "credential_redacted": false,
+      "raw_sha256": "2fe92d2da95a9b2eb33db06df40f8f76d205593c6e4b866e5e08240e09055aef",
+      "request": {
+        "ID": "2000000008540",
+        "target": "admrul",
+        "type": "JSON"
+      },
+      "stored_sha256": "2fe92d2da95a9b2eb33db06df40f8f76d205593c6e4b866e5e08240e09055aef"
+    },
+    "status": "PASS"
+  }
+}

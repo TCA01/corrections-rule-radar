@@ -1,0 +1,11 @@
+{
+  "api": {
+    "dataset_version": "ds-1f332f33e70a591d8c90bfcb93c615f2b4ab487c3cbafcd37d9442fc9da29e54",
+    "rule_count": 68,
+    "status": "PASS",
+    "validated_files": 181
+  },
+  "artifact_file_count": 184,
+  "secret_leak_count": 0,
+  "status": "PASS"
+}

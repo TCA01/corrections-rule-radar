@@ -1,0 +1,20 @@
+{
+  "basis": "LIVE_OFFICIAL_EVIDENCE_AND_OFFLINE_ADVERSARIAL_TESTS",
+  "decision": "GO",
+  "gates": {
+    "A": "PASS",
+    "B": "PASS",
+    "C": "PASS",
+    "D": "PASS",
+    "E": "PASS",
+    "F": "PASS",
+    "G": "PASS",
+    "H": "PASS",
+    "I": "PASS",
+    "J": "PASS",
+    "K": "PASS",
+    "L": "PASS",
+    "M": "PASS",
+    "N": "PASS"
+  }
+}

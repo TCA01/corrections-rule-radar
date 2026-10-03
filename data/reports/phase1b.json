@@ -1,0 +1,194 @@
+{
+  "activation_prerequisites": [
+    "Configure/push a default-branch GitHub repository and permit allowlisted bot commits.",
+    "Set LAW_API_OC and FIREBASE_SERVICE_ACCOUNT GitHub secrets.",
+    "Set intended FIREBASE_PROJECT_ID and verify Hosting service account permissions/default site.",
+    "Enable PRODUCTION_PIPELINE_ENABLED only after target/credentials review; hosted Actions/deployment are untested."
+  ],
+  "android_contract": "PASS",
+  "api_calls_after": {
+    "core_api_reduction_percent": 43.4,
+    "core_law_api": 90,
+    "core_official_pages": 0,
+    "daily_discovery_extra_pages": 2,
+    "full_weekly_audit_baseline_api_estimate": 159,
+    "full_weekly_audit_pages_estimate": 72
+  },
+  "api_calls_before": {
+    "duration_seconds": 199.332,
+    "law_api": 159,
+    "official_pages": 70,
+    "source": "Phase 1A measured full observations"
+  },
+  "archive_preservation": {
+    "files": 69,
+    "status": "PASS"
+  },
+  "backend_change_derivation": "PASS",
+  "backend_tests": {
+    "errors": 0,
+    "failure_test_ids": [],
+    "failures": 0,
+    "passed": true,
+    "public_contract": {
+      "failed_files": [],
+      "status": "PASS",
+      "validated_file_count": 181
+    },
+    "secret_scan": {
+      "file_count": 0,
+      "files": [],
+      "status": "PASS"
+    },
+    "tests": 71
+  },
+  "build": "PASS",
+  "dataset_version": "ds-1f332f33e70a591d8c90bfcb93c615f2b4ab487c3cbafcd37d9442fc9da29e54",
+  "deployment_performed": false,
+  "firebase_artifact": {
+    "api": {
+      "dataset_version": "ds-1f332f33e70a591d8c90bfcb93c615f2b4ab487c3cbafcd37d9442fc9da29e54",
+      "rule_count": 68,
+      "status": "PASS",
+      "validated_files": 181
+    },
+    "artifact_file_count": 184,
+    "secret_leak_count": 0,
+    "status": "PASS"
+  },
+  "firebase_cache_policy": "PASS",
+  "frontend_tests": {
+    "passed": 39,
+    "success": true,
+    "total": 39
+  },
+  "git_remote_configured": false,
+  "github_actions": "PASS",
+  "github_actions_scope": "STATIC_VALIDATION_ONLY; not executed on GitHub",
+  "heartbeat_30day": "PASS",
+  "immutable_archive_format": "1.1",
+  "last_good": "PASS",
+  "live_runs": [
+    {
+      "api_request_count": 90,
+      "api_response_seconds": 41.034,
+      "average_api_response_seconds": 0.455933,
+      "dataset_version": "ds-814f3f194c093cbaad0f8fc0ebffc6774d1df0637d36cefaa8a6a845e97ecc9a",
+      "duration_seconds": 102.875,
+      "error_summary": {},
+      "failure_count": 0,
+      "finished_at": "2026-10-03T03:58:28.601418+00:00",
+      "last_good_dataset_version": "ds-814f3f194c093cbaad0f8fc0ebffc6774d1df0637d36cefaa8a6a845e97ecc9a",
+      "mode": "CORE_WITH_DAILY_DISCOVERY",
+      "new_events": 0,
+      "public_page_request_count": 2,
+      "public_page_response_seconds": 1.517,
+      "public_rewritten": true,
+      "result": "PUBLISHED",
+      "retry_count": 0,
+      "review_count": 0,
+      "started_at": "2026-10-03T03:56:45.721216+00:00",
+      "success_count": 68,
+      "total_http_request_count": 92,
+      "transport_error_summary": {}
+    },
+    {
+      "api_request_count": 90,
+      "api_response_seconds": 42.248,
+      "average_api_response_seconds": 0.469422,
+      "dataset_version": "ds-4a5e229877afb9b872ff40d086fe4c6a1227b41e365bf02f90bada072a3dc6d7",
+      "duration_seconds": 100.407,
+      "error_summary": {},
+      "failure_count": 0,
+      "finished_at": "2026-10-03T04:03:25.386348+00:00",
+      "last_good_dataset_version": "ds-4a5e229877afb9b872ff40d086fe4c6a1227b41e365bf02f90bada072a3dc6d7",
+      "mode": "CORE_STABLE_IDS",
+      "new_events": 0,
+      "public_page_request_count": 0,
+      "public_page_response_seconds": 0.0,
+      "public_rewritten": true,
+      "result": "PUBLISHED",
+      "retry_count": 0,
+      "review_count": 0,
+      "started_at": "2026-10-03T04:01:44.976391+00:00",
+      "success_count": 68,
+      "total_http_request_count": 90,
+      "transport_error_summary": {}
+    },
+    {
+      "api_request_count": 90,
+      "api_response_seconds": 44.286,
+      "average_api_response_seconds": 0.492067,
+      "dataset_version": "ds-1f332f33e70a591d8c90bfcb93c615f2b4ab487c3cbafcd37d9442fc9da29e54",
+      "duration_seconds": 100.704,
+      "error_summary": {},
+      "event_ids_identical": true,
+      "failure_count": 0,
+      "finished_at": "2026-10-03T04:12:56.877734+00:00",
+      "last_good_dataset_version": "ds-1f332f33e70a591d8c90bfcb93c615f2b4ab487c3cbafcd37d9442fc9da29e54",
+      "mode": "CORE_WITH_DAILY_DISCOVERY",
+      "new_events": 0,
+      "public_bytes_and_mtimes_identical": true,
+      "public_page_request_count": 2,
+      "public_page_response_seconds": 1.516,
+      "public_rewritten": false,
+      "result": "NO_CHANGE",
+      "retry_count": 0,
+      "review_count": 0,
+      "snapshot_hashes_identical": true,
+      "started_at": "2026-10-03T04:11:16.184515+00:00",
+      "success_count": 68,
+      "total_http_request_count": 92,
+      "transport_error_summary": {}
+    },
+    {
+      "api_request_count": 90,
+      "api_response_seconds": 42.362,
+      "average_api_response_seconds": 0.470689,
+      "dataset_version": "ds-1f332f33e70a591d8c90bfcb93c615f2b4ab487c3cbafcd37d9442fc9da29e54",
+      "duration_seconds": 99.031,
+      "error_summary": {},
+      "event_ids_identical": true,
+      "failure_count": 0,
+      "finished_at": "2026-10-03T04:23:19.182199+00:00",
+      "last_good_dataset_version": "ds-1f332f33e70a591d8c90bfcb93c615f2b4ab487c3cbafcd37d9442fc9da29e54",
+      "mode": "CORE_STABLE_IDS",
+      "new_events": 0,
+      "public_bytes_and_mtimes_identical": true,
+      "public_page_request_count": 0,
+      "public_page_response_seconds": 0.0,
+      "public_rewritten": false,
+      "result": "NO_CHANGE",
+      "retry_count": 0,
+      "review_count": 0,
+      "snapshot_hashes_identical": true,
+      "started_at": "2026-10-03T04:21:40.143723+00:00",
+      "success_count": 68,
+      "total_http_request_count": 90,
+      "transport_error_summary": {}
+    }
+  ],
+  "no_change": "PASS",
+  "prepared_code_ready": true,
+  "ready_for_firebase_deployment": false,
+  "schema_version": "1.2",
+  "secret_leak": {
+    "file_count": 0,
+    "files": [],
+    "status": "PASS"
+  },
+  "seed_discovery_frequency": "Daily morning table scan; immediate full resolution on table changes; Sunday full outgoing-link identity audit. Hidden link-target drift may take up to a week absent outages.",
+  "stabilized_no_change_runs": 2,
+  "sync_cron": {
+    "kst": [
+      "08:37",
+      "20:37"
+    ],
+    "utc": [
+      "37 23 * * *",
+      "37 11 * * *"
+    ]
+  },
+  "timezone_contract": "PASS",
+  "title": "PHASE 1B PRODUCTION HARDENING"
+}

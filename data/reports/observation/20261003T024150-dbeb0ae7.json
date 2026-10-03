@@ -1,0 +1,30 @@
+{
+  "api_request_count": 0,
+  "api_response_seconds": 0.0,
+  "average_api_response_seconds": null,
+  "change_count": 0,
+  "duration_seconds": 2.235,
+  "error_summary": {
+    "OFFICIAL_PAGE_FAILED": 1
+  },
+  "event_ids_identical": true,
+  "failure_count": 68,
+  "finished_at": "2026-10-03T02:41:53.004578+00:00",
+  "last_good_dataset_version": "ds-6dfa5a635d3fbfbf4d9399cd97d7d6f29a083daf80ea3c90430403ae184c025f",
+  "observation_status": "FAILED",
+  "public_bytes_and_mtimes_identical": true,
+  "public_page_request_count": 1,
+  "public_page_response_seconds": 2.094,
+  "publication_status": "BLOCKED",
+  "retry_count": 0,
+  "review_count": 0,
+  "run_id": "20261003T024150-dbeb0ae7",
+  "snapshot_hashes_identical": null,
+  "source": "LIVE_NORMAL_SYNC",
+  "started_at": "2026-10-03T02:41:50.780179+00:00",
+  "success_count": 0,
+  "total_http_request_count": 1,
+  "transport_error_summary": {
+    "OFFICIAL_PAGE_FAILED": 1
+  }
+}

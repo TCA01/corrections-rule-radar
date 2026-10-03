@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.1",
+  "version": {
+    "appendices": [],
+    "attachments": [
+      {
+        "title": "교정의 날 규칙.hwp",
+        "type": "OFFICIAL_ATTACHMENT",
+        "url": "https://law.go.kr/flDownload.do?flSeq=1733266"
+      }
+    ],
+    "body": {
+      "addenda": {
+        "부칙공포번호": "526",
+        "부칙공포일자": "20050901",
+        "부칙내용": "부칙 이 규칙은 발령한 날부터 시행한다."
+      },
+      "articles": "10월 28일을 「교정의 날」로 한다.서기 1946년 교정의 날을 제1주년으로 한다."
+    },
+    "canonical_id": "admrul-26678",
+    "hashes": {
+      "appendix_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "attachment_link_hash": "0606d8d437c3acaa1cd88678e0ae2b4abddb9e6ea79a36babc5146d4185cb39c",
+      "body_hash": "a3f0a9173a1ff88dc2ad75e09dd7153cd1c02fbe70d44efedd06a48e6c3df177",
+      "metadata_hash": "42a78ee0ee33df6e9e6868a9679c85973e25d045367f270b06e880ea3cace12d"
+    },
+    "metadata": {
+      "amendment_type": "제정",
+      "department": "법무부(교정기획과)",
+      "effective_date": "2005-09-01",
+      "issue_date": "2005-09-01",
+      "issue_number": "526",
+      "ministry": "법무부",
+      "name": "교정의 날 규칙",
+      "official_state": "Y",
+      "rule_type": "훈령"
+    },
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2000000000735",
+    "source_kind": "admrul",
+    "stable_identifier": "26678",
+    "version_id": "2000000000735",
+    "version_reference": {
+      "effective_date": "2005-09-01",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2000000000735",
+      "snapshot_url": "/api/v1/rules/admrul-26678/versions/2000000000735-2005-09-01-755426a999673567.json",
+      "version_id": "2000000000735"
+    },
+    "version_status": "ARCHIVE"
+  }
+}
