@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { RuleSummary, BusinessDomain, CONTROLLED_DOMAINS } from '../types';
 import { formatDotDate } from '../utils/date';
-import { Search, Filter, BookOpen, ExternalLink, Eye, ChevronRight } from 'lucide-react';
+import { Search, Filter, ExternalLink, ChevronRight } from 'lucide-react';
 
 interface RegulationDirectoryProps {
   rules: RuleSummary[];
@@ -56,10 +56,10 @@ export const RegulationDirectory: React.FC<RegulationDirectoryProps> = ({ rules,
   }, [rules, includeRepealed, selectedCategory, selectedDomain, searchQuery]);
 
   return (
-    <section className="section-block" aria-labelledby="directory-heading">
-      <div className="section-header">
+    <section className="directory-section" aria-labelledby="directory-heading">
+      <div className="directory-header">
         <div className="section-title-wrap">
-          <BookOpen size={20} color="var(--color-primary-light)" aria-hidden="true" />
+          <span className="editorial-eyebrow">법령 색인</span>
           <h2 id="directory-heading" className="section-title">
             전체 규정 디렉터리
           </h2>
@@ -80,43 +80,45 @@ export const RegulationDirectory: React.FC<RegulationDirectoryProps> = ({ rules,
           />
         </div>
 
-        <select
-          className="control-select"
-          value={selectedCategory}
-          onChange={(e) => setSelectedCategory(e.target.value)}
-          aria-label="규정 유형 필터"
-        >
-          <option value="all">전체 유형</option>
-          <option value="법률">법률</option>
-          <option value="대통령령">대통령령</option>
-          <option value="법무부령">법무부령</option>
-          <option value="훈령">훈령</option>
-          <option value="예규">예규</option>
-        </select>
+        <div className="filter-selects-group">
+          <select
+            className="control-select"
+            value={selectedCategory}
+            onChange={(e) => setSelectedCategory(e.target.value)}
+            aria-label="규정 유형 필터"
+          >
+            <option value="all">전체 유형</option>
+            <option value="법률">법률</option>
+            <option value="대통령령">대통령령</option>
+            <option value="법무부령">법무부령</option>
+            <option value="훈령">훈령</option>
+            <option value="예규">예규</option>
+          </select>
 
-        <select
-          className="control-select"
-          value={selectedDomain}
-          onChange={(e) => setSelectedDomain(e.target.value)}
-          aria-label="업무 분야 필터"
-        >
-          <option value="all">전체 업무 분야</option>
-          {CONTROLLED_DOMAINS.map((dom) => (
-            <option key={dom} value={dom}>
-              {dom}
-            </option>
-          ))}
-          <option value="REVIEW">업무 분야 검토 중</option>
-        </select>
+          <select
+            className="control-select"
+            value={selectedDomain}
+            onChange={(e) => setSelectedDomain(e.target.value)}
+            aria-label="업무 분야 필터"
+          >
+            <option value="all">전체 업무 분야</option>
+            {CONTROLLED_DOMAINS.map((dom) => (
+              <option key={dom} value={dom}>
+                {dom}
+              </option>
+            ))}
+            <option value="REVIEW">업무 분야 검토 중</option>
+          </select>
 
-        <label className="repealed-toggle">
-          <input
-            type="checkbox"
-            checked={includeRepealed}
-            onChange={(e) => setIncludeRepealed(e.target.checked)}
-          />
-          <span>폐지 규정 포함</span>
-        </label>
+          <label className="repealed-toggle">
+            <input
+              type="checkbox"
+              checked={includeRepealed}
+              onChange={(e) => setIncludeRepealed(e.target.checked)}
+            />
+            <span>폐지 규정 포함</span>
+          </label>
+        </div>
       </div>
 
       {filteredRules.length === 0 ? (
@@ -125,97 +127,107 @@ export const RegulationDirectory: React.FC<RegulationDirectoryProps> = ({ rules,
           <p>검색 및 필터 조건에 부합하는 규정이 없습니다.</p>
         </div>
       ) : (
-        <div className="directory-list">
-          {filteredRules.map((rule) => {
-            const isRepealed = rule.status === 'REPEALED';
-            const aliasNames = Array.from(
-              new Set([...(rule.historical_names || []), ...(rule.seed_names || [])])
-            ).filter((name) => name !== rule.current_name);
+        <div className="directory-table" role="table" aria-label="규정 목록">
+          <div className="directory-table-header" role="row">
+            <span className="col-cat" role="columnheader">구분</span>
+            <span className="col-name" role="columnheader">규정명</span>
+            <span className="col-domain" role="columnheader">관련 분야</span>
+            <span className="col-date" role="columnheader">시행일자</span>
+            <span className="col-action" role="columnheader">상세</span>
+          </div>
 
-            return (
-              <div
-                key={rule.canonical_id}
-                className={`directory-row ${isRepealed ? 'repealed-row' : ''}`}
-              >
-                <div className="directory-row-main">
-                  <div className="directory-row-title-wrap">
+          <div className="directory-table-body" role="rowgroup">
+            {filteredRules.map((rule) => {
+              const isRepealed = rule.status === 'REPEALED';
+              const aliasNames = Array.from(
+                new Set([...(rule.historical_names || []), ...(rule.seed_names || [])])
+              ).filter((name) => name !== rule.current_name);
+
+              return (
+                <div
+                  key={rule.canonical_id}
+                  className={`directory-table-row ${isRepealed ? 'repealed' : ''}`}
+                  role="row"
+                  tabIndex={0}
+                  onClick={() => onSelectRule(rule)}
+                  onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && onSelectRule(rule)}
+                >
+                  <div className="col-cat" role="cell">
                     <span className={`badge ${rule.source_kind === 'law' ? 'badge-law' : 'badge-admin'}`}>
                       {rule.corrections_category}
                     </span>
-
                     {isRepealed && <span className="badge badge-repealed">폐지</span>}
-
-                    {rule.classification_status === 'REVIEW' || rule.business_domains.length === 0 ? (
-                      <span className="badge badge-domain-review">업무 분야 검토 중</span>
-                    ) : (
-                      rule.business_domains.map((dom) => (
-                        <span key={dom} className="badge badge-domain-reviewed">
-                          {dom}
-                        </span>
-                      ))
-                    )}
-
-                    <span
-                      className="directory-row-title"
-                      onClick={() => onSelectRule(rule)}
-                      role="button"
-                      tabIndex={0}
-                      onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && onSelectRule(rule)}
-                    >
-                      {rule.current_name}
-                    </span>
                   </div>
 
-                  {aliasNames.length > 0 && (
-                    <div className="stale-name-box">
-                      <span className="stale-name-label">이전 명칭:</span>
-                      <span>{aliasNames.join(', ')}</span>
-                      <span style={{ margin: '0 0.5rem', color: '#cbd5e1' }}>|</span>
-                      <span className="stale-name-label">현재:</span>
-                      <strong>{rule.current_name}</strong>
-                    </div>
-                  )}
-
-                  <div className="directory-row-meta">
-                    {rule.metadata.department && <span>소관: {rule.metadata.department}</span>}
-                    {rule.metadata.effective_date && (
-                      <span>
-                        시행일: {formatDotDate(rule.metadata.effective_date)}{' '}
-                        {rule.metadata.amendment_type && `(${rule.metadata.amendment_type})`}
+                  <div className="col-name" role="cell">
+                    <div className="directory-row-title-wrap">
+                      <span className="directory-row-title">
+                        {rule.current_name}
                       </span>
+                    </div>
+
+                    {aliasNames.length > 0 && (
+                      <div className="directory-alias-note">
+                        <span className="alias-label">이전 명칭:</span> {aliasNames.join(', ')}
+                      </div>
                     )}
-                    {rule.metadata.issue_number && <span>제{rule.metadata.issue_number}호</span>}
+
+                    <div className="directory-row-meta-sub">
+                      <span>{rule.metadata.ministry || '법무부'}</span>
+                      {rule.metadata.department && <span>· {rule.metadata.department}</span>}
+                    </div>
                   </div>
-                </div>
 
-                <div className="footer-actions" style={{ flexShrink: 0 }}>
-                  <button
-                    type="button"
-                    className="btn-detail"
-                    onClick={() => onSelectRule(rule)}
-                    aria-label={`${rule.current_name} 규정 상세 보기`}
-                  >
-                    <Eye size={14} aria-hidden="true" />
-                    <span>상세 보기</span>
-                    <ChevronRight size={14} aria-hidden="true" />
-                  </button>
+                  <div className="col-domain" role="cell">
+                    {rule.classification_status === 'REVIEW' || rule.business_domains.length === 0 ? (
+                      <span className="domain-label review">분야 검토중</span>
+                    ) : (
+                      <div className="domain-labels-wrap">
+                        {rule.business_domains.map((dom) => (
+                          <span key={dom} className="domain-label">
+                            {dom}
+                          </span>
+                        ))}
+                      </div>
+                    )}
+                  </div>
 
-                  {rule.official_source_url && (
+                  <div className="col-date" role="cell">
+                    <span className="date-text">{formatDotDate(rule.metadata.effective_date)}</span>
+                    {rule.metadata.amendment_type && (
+                      <span className="amend-type-text">{rule.metadata.amendment_type}</span>
+                    )}
+                  </div>
+
+                  <div className="col-action" role="cell">
+                    <button
+                      type="button"
+                      className="row-open-btn"
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        onSelectRule(rule);
+                      }}
+                      aria-label={`${rule.current_name} 조문 상세 보기`}
+                    >
+                      <span>조문</span>
+                      <ChevronRight size={14} />
+                    </button>
                     <a
                       href={rule.official_source_url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="btn-source"
-                      title="국가법령정보센터 공식 원문 열기"
+                      className="row-external-link"
+                      onClick={(e) => e.stopPropagation()}
+                      title="국가법령정보센터 공식 원문 보기"
+                      aria-label={`${rule.current_name} 국가법령정보센터 공식 원문 (새 창)`}
                     >
-                      <ExternalLink size={14} aria-hidden="true" />
-                      <span>원문</span>
+                      <ExternalLink size={14} />
                     </a>
-                  )}
+                  </div>
                 </div>
-              </div>
-            );
-          })}
+              );
+            })}
+          </div>
         </div>
       )}
     </section>

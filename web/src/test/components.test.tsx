@@ -6,6 +6,7 @@ import { UpcomingTimeline } from '../components/UpcomingTimeline';
 import { RegulationDirectory } from '../components/RegulationDirectory';
 import { Header } from '../components/Header';
 import { RuleDetailModal } from '../components/RuleDetailModal';
+import { GlobalSearch } from '../components/GlobalSearch';
 import { RuleSummary, DisplayChangeEvent, RuleDetailResponse } from '../types';
 import { api } from '../services/api';
 
@@ -228,7 +229,7 @@ describe('RegulationDirectory Component', () => {
 
     // Now repealed rule appears with '폐지' badge
     expect(screen.getByText('교정기관 간판게시 및 교정직제 영문표기에 관한 지침')).toBeInTheDocument();
-    expect(screen.getByText('폐지')).toBeInTheDocument();
+    expect(screen.getAllByText('폐지').length).toBeGreaterThanOrEqual(1);
   });
 
   it('searches by alias (e.g. 영치금품 finding 보관금품 관리지침)', () => {
@@ -382,10 +383,17 @@ describe('RuleDetailModal Component', () => {
     expect(screen.getByText('변경 조문 1개:')).toBeInTheDocument();
     expect(screen.getAllByText('제53조의2(태아의 보호 등)').length).toBeGreaterThanOrEqual(1);
 
-    // Check side-by-side comparison panels
+    // Default mode: [변경된 부분] (unified diff)
+    expect(screen.getByText('변경된 부분')).toBeInTheDocument();
+    expect(screen.getByText('전·후 전체 비교')).toBeInTheDocument();
+    expect(screen.getByText('종전')).toBeInTheDocument();
+    expect(screen.getByText('개정안')).toBeInTheDocument();
+
+    // Switch to [전·후 전체 비교] (split panels)
+    fireEvent.click(screen.getByText('전·후 전체 비교'));
     expect(screen.getByText('변경 전 (현행)')).toBeInTheDocument();
-    expect(screen.getByText('제53조의2 종전')).toBeInTheDocument();
     expect(screen.getByText('변경 후 (개정안)')).toBeInTheDocument();
+    expect(screen.getByText('제53조의2 종전')).toBeInTheDocument();
     expect(screen.getByText('제53조의2 개정안')).toBeInTheDocument();
 
     // Check appendices
@@ -397,5 +405,142 @@ describe('RuleDetailModal Component', () => {
     expect(
       screen.getByText(/본 서비스는 법령·행정규칙 변경사항을 업무 편의를 위해 정리한 참고 서비스입니다/)
     ).toBeInTheDocument();
+  });
+
+  it('does NOT render provenance section when rule has no provenance or selection rationale', async () => {
+    vi.spyOn(api, 'getRuleDetail').mockResolvedValue({
+      schema_version: '1.2',
+      dataset_version: '2026-10-03',
+      rule: { ...mockRule, provenance: null, selection_rationale: null },
+      current: {
+        canonical_id: 'law-001668',
+        source_kind: 'law',
+        stable_identifier: '001668',
+        version_id: '1',
+        version_status: 'CURRENT',
+        version_reference: {
+          version_id: '1',
+          effective_date: '2025-12-23',
+          snapshot_url: '/api/v1/snapshot.json',
+          official_source_url: 'https://www.law.go.kr',
+        },
+        metadata: mockRule.metadata,
+        official_source_url: 'https://www.law.go.kr',
+        appendices: [],
+        attachments: [],
+        body: { articles: { 조문단위: [] }, addenda: {} },
+        hashes: { appendix_hash: 'h1', attachment_link_hash: 'h2', body_hash: 'h3', metadata_hash: 'h4' },
+      },
+      upcoming: [],
+    });
+
+    render(<RuleDetailModal rule={mockRule} onClose={vi.fn()} />);
+
+    await waitFor(() => {
+      expect(screen.getByText('기본 규정 정보')).toBeInTheDocument();
+    });
+
+    expect(screen.queryByText('선정 근거')).not.toBeInTheDocument();
+  });
+
+  it('renders provenance section when provenance data is provided by backend', async () => {
+    const ruleWithProvenance: RuleSummary = {
+      ...mockRule,
+      provenance: '교정시설 운영 및 수용자 처우의 기본 근거 법률',
+    };
+
+    vi.spyOn(api, 'getRuleDetail').mockResolvedValue({
+      schema_version: '1.2',
+      dataset_version: '2026-10-03',
+      rule: ruleWithProvenance,
+      current: {
+        canonical_id: 'law-001668',
+        source_kind: 'law',
+        stable_identifier: '001668',
+        version_id: '1',
+        version_status: 'CURRENT',
+        version_reference: {
+          version_id: '1',
+          effective_date: '2025-12-23',
+          snapshot_url: '/api/v1/snapshot.json',
+          official_source_url: 'https://www.law.go.kr',
+        },
+        metadata: mockRule.metadata,
+        official_source_url: 'https://www.law.go.kr',
+        appendices: [],
+        attachments: [],
+        body: { articles: { 조문단위: [] }, addenda: {} },
+        hashes: { appendix_hash: 'h1', attachment_link_hash: 'h2', body_hash: 'h3', metadata_hash: 'h4' },
+      },
+      upcoming: [],
+    });
+
+    render(<RuleDetailModal rule={ruleWithProvenance} onClose={vi.fn()} />);
+
+    await waitFor(() => {
+      expect(screen.getByText('선정 근거')).toBeInTheDocument();
+    });
+
+    expect(screen.getByText('교정시설 운영 및 수용자 처우의 기본 근거 법률')).toBeInTheDocument();
+  });
+});
+
+describe('GlobalSearch Component', () => {
+  const searchRules: RuleSummary[] = [
+    mockRule,
+    mockRepealedRule,
+    {
+      ...mockRule,
+      canonical_id: 'admrul-99999',
+      current_name: '보관금품 관리지침',
+      seed_names: ['영치금품 관리지침'],
+      historical_names: ['영치금품 예규'],
+    },
+  ];
+
+  it('renders search input with shortcut hint and finds rules by current name', () => {
+    const onSelect = vi.fn();
+    render(<GlobalSearch rules={searchRules} onSelectRule={onSelect} />);
+
+    const input = screen.getByPlaceholderText(/법령·예규·훈령 또는 이전 명칭 검색/);
+    expect(input).toBeInTheDocument();
+    expect(screen.getByText('/')).toBeInTheDocument();
+
+    fireEvent.change(input, { target: { value: '형의 집행' } });
+    expect(screen.getByText('형의 집행 및 수용자의 처우에 관한 법률')).toBeInTheDocument();
+  });
+
+  it('finds rules by alias (e.g. 영치금품 -> 보관금품 관리지침)', () => {
+    const onSelect = vi.fn();
+    render(<GlobalSearch rules={searchRules} onSelectRule={onSelect} />);
+
+    const input = screen.getByPlaceholderText(/법령·예규·훈령 또는 이전 명칭 검색/);
+    fireEvent.change(input, { target: { value: '영치금품' } });
+
+    expect(screen.getByText('보관금품 관리지침')).toBeInTheDocument();
+    expect(screen.getByText('이전 명칭:')).toBeInTheDocument();
+    expect(screen.getByText(/영치금품 예규/)).toBeInTheDocument();
+  });
+
+  it('handles keyboard navigation (ArrowDown, Enter, Escape)', () => {
+    const onSelect = vi.fn();
+    render(<GlobalSearch rules={searchRules} onSelectRule={onSelect} />);
+
+    const input = screen.getByPlaceholderText(/법령·예규·훈령 또는 이전 명칭 검색/);
+    fireEvent.change(input, { target: { value: '지침' } });
+
+    // Expect 2 matching rules
+    expect(screen.getByText('교정기관 간판게시 및 교정직제 영문표기에 관한 지침')).toBeInTheDocument();
+    expect(screen.getByText('보관금품 관리지침')).toBeInTheDocument();
+
+    // Press ArrowDown to select first item, then Enter
+    fireEvent.keyDown(input, { key: 'ArrowDown' });
+    fireEvent.keyDown(input, { key: 'Enter' });
+
+    expect(onSelect).toHaveBeenCalled();
+
+    // Press Escape to close dropdown
+    fireEvent.keyDown(input, { key: 'Escape' });
+    expect(screen.queryByRole('listbox')).not.toBeInTheDocument();
   });
 });

@@ -144,9 +144,14 @@ describe('App End-to-End Integration Test with Production Fixtures', () => {
       expect(screen.getByText('추적 규정')).toBeInTheDocument();
     });
 
-    // Click demo button to open law-001668
-    const demoBtn = screen.getByText('최근 변경 사례 보기').closest('button')!;
-    fireEvent.click(demoBtn);
+    // Verify judge/competition demo wording is absent
+    expect(screen.queryByText('최근 변경 사례 보기')).not.toBeInTheDocument();
+    expect(screen.queryByText(/심사위원 30초/)).not.toBeInTheDocument();
+    expect(screen.queryByText(/30초 데모/)).not.toBeInTheDocument();
+
+    // Open law-001668 naturally via upcoming/directory card
+    const ruleItem = screen.getAllByText('형의 집행 및 수용자의 처우에 관한 법률')[0];
+    fireEvent.click(ruleItem);
 
     // Modal should open
     await waitFor(() => {
@@ -158,7 +163,11 @@ describe('App End-to-End Integration Test with Production Fixtures', () => {
       expect(screen.getByRole('heading', { name: /개정 조문 대비표/ })).toBeInTheDocument();
     });
 
-    // Check side-by-side comparison panels exist
+    // Check default unified mode and switch to split mode
+    expect(screen.getByText('변경된 부분')).toBeInTheDocument();
+    expect(screen.getByText('전·후 전체 비교')).toBeInTheDocument();
+
+    fireEvent.click(screen.getByText('전·후 전체 비교'));
     expect(screen.getAllByText('변경 전 (현행)').length).toBeGreaterThanOrEqual(1);
     expect(screen.getAllByText('변경 후 (개정안)').length).toBeGreaterThanOrEqual(1);
 

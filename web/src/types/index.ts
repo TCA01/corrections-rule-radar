@@ -66,6 +66,8 @@ export interface RuleSummary {
   metadata: RuleMetadata;
   official_source_url: string;
   detail_url: string;
+  provenance?: string | null;
+  selection_rationale?: string | null;
 }
 
 export interface RulesResponse {
@@ -257,4 +259,5 @@ export interface ChangedArticleDiff {
   after_text: string | null;
   is_new: boolean;
   is_deleted: boolean;
+  diff_chunks?: Array<{ type: 'unchanged' | 'deleted' | 'added'; text: string }>;
 }

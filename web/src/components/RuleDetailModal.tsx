@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef } from 'react';
 import { RuleSummary, RuleDetailResponse, ChangedArticleDiff } from '../types';
 import { api, ApiError } from '../services/api';
 import { formatDotDate } from '../utils/date';
-import { displayArticleDiffs } from '../utils/diff';
+import { displayArticleDiffs, computeWordDiff } from '../utils/diff';
 import {
   X,
   ExternalLink,
@@ -12,8 +12,9 @@ import {
   Calendar,
   Building2,
   Hash,
-  ArrowRight,
   FileText,
+  Split,
+  Eye,
 } from 'lucide-react';
 
 interface RuleDetailModalProps {
@@ -21,11 +22,14 @@ interface RuleDetailModalProps {
   onClose: () => void;
 }
 
+type DiffDisplayMode = 'unified' | 'split';
+
 export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({ rule, onClose }) => {
   const [detail, setDetail] = useState<RuleDetailResponse | null>(null);
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
   const [activeDiffKey, setActiveDiffKey] = useState<string | null>(null);
+  const [diffMode, setDiffMode] = useState<DiffDisplayMode>('unified'); // Default: 변경된 부분
 
   const diffRefs = useRef<Record<string, HTMLDivElement | null>>({});
 
@@ -77,7 +81,6 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({ rule, onClose 
 
   if (!rule) return null;
 
-  // Display the canonical backend comparison.
   const upcomingVersion = detail?.upcoming && detail.upcoming.length > 0 ? detail.upcoming[0] : null;
   const articleDiffs: ChangedArticleDiff[] =
     detail && upcomingVersion
@@ -97,7 +100,10 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({ rule, onClose 
   ).filter((name) => name !== rule.current_name);
 
   const appendices = detail?.current.appendices || [];
-  const attachments = detail?.current.attachments || [];
+
+  // Check if provenance exists in backend data
+  const effectiveRule = detail?.rule || rule;
+  const hasProvenance = Boolean(effectiveRule.provenance || effectiveRule.selection_rationale);
 
   return (
     <div
@@ -110,9 +116,10 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({ rule, onClose 
       }}
     >
       <div className="modal-content">
+        {/* Header */}
         <div className="modal-header">
           <div className="modal-title-group">
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', flexWrap: 'wrap' }}>
+            <div className="modal-badges-row">
               <span className={`badge ${rule.source_kind === 'law' ? 'badge-law' : 'badge-admin'}`}>
                 {rule.corrections_category}
               </span>
@@ -130,7 +137,9 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({ rule, onClose 
               )}
             </div>
 
-            <h2 id="rule-modal-title">{rule.current_name}</h2>
+            <h2 id="rule-modal-title" className="modal-rule-title">
+              {rule.current_name}
+            </h2>
           </div>
 
           <button
@@ -143,16 +152,17 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({ rule, onClose 
           </button>
         </div>
 
+        {/* Body */}
         <div className="modal-body">
           {/* Metadata Section */}
-          <div className="detail-section">
+          <div className="detail-section metadata-section">
             <h3 className="detail-section-title">기본 규정 정보</h3>
 
             {aliasNames.length > 0 && (
               <div className="stale-name-box">
                 <span className="stale-name-label">이전 명칭:</span>
-                <span>{aliasNames.join(', ')}</span>
-                <span style={{ margin: '0 0.5rem', color: '#cbd5e1' }}>|</span>
+                <span className="stale-name-value">{aliasNames.join(', ')}</span>
+                <span className="stale-divider">|</span>
                 <span className="stale-name-label">현재 명칭:</span>
                 <strong>{rule.current_name}</strong>
               </div>
@@ -161,7 +171,7 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({ rule, onClose 
             <div className="meta-grid">
               <div className="meta-item">
                 <span className="meta-label">
-                  <Building2 size={12} style={{ display: 'inline', marginRight: 4 }} />
+                  <Building2 size={13} aria-hidden="true" />
                   소관 부처 / 부서
                 </span>
                 <span className="meta-val">
@@ -172,7 +182,7 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({ rule, onClose 
 
               <div className="meta-item">
                 <span className="meta-label">
-                  <Calendar size={12} style={{ display: 'inline', marginRight: 4 }} />
+                  <Calendar size={13} aria-hidden="true" />
                   시행일자
                 </span>
                 <span className="meta-val">
@@ -183,7 +193,7 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({ rule, onClose 
 
               <div className="meta-item">
                 <span className="meta-label">
-                  <Calendar size={12} style={{ display: 'inline', marginRight: 4 }} />
+                  <Calendar size={13} aria-hidden="true" />
                   공포 / 발령일자
                 </span>
                 <span className="meta-val">{formatDotDate(rule.metadata.issue_date)}</span>
@@ -191,7 +201,7 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({ rule, onClose 
 
               <div className="meta-item">
                 <span className="meta-label">
-                  <Hash size={12} style={{ display: 'inline', marginRight: 4 }} />
+                  <Hash size={13} aria-hidden="true" />
                   발령번호
                 </span>
                 <span className="meta-val">
@@ -201,32 +211,66 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({ rule, onClose 
             </div>
           </div>
 
+          {/* Provenance Slot: Section 19 (Rendered ONLY if backend data provides it) */}
+          {hasProvenance && (
+            <div className="detail-section provenance-section">
+              <h3 className="detail-section-title">선정 근거</h3>
+              <p className="provenance-text">
+                {effectiveRule.selection_rationale || effectiveRule.provenance}
+              </p>
+            </div>
+          )}
+
           {/* Loading state */}
           {loading && (
-            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '2rem' }}>
-              <Loader2 className="animate-spin" size={24} style={{ marginRight: '0.5rem' }} />
+            <div className="detail-loading-state">
+              <Loader2 className="animate-spin" size={24} />
               <span>상세 조문 및 별표 데이터를 불러오는 중입니다...</span>
             </div>
           )}
 
           {/* Error state */}
           {error && (
-            <div className="empty-state" style={{ borderColor: '#fca5a5', backgroundColor: '#fff1f2' }}>
-              <AlertCircle size={24} color="#e11d48" style={{ margin: '0 auto' }} />
-              <p style={{ color: '#be123c' }}>{error}</p>
+            <div className="empty-state error" role="alert">
+              <AlertCircle size={24} color="#e11d48" />
+              <p>{error}</p>
             </div>
           )}
 
-          {/* Old/New Comparison Section */}
+          {/* Legal Diff Comparison Section */}
           {!loading && !error && upcomingVersion && articleDiffs.length > 0 && (
-            <div className="detail-section">
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}>
+            <div className="detail-section diff-section">
+              <div className="diff-header-bar">
                 <h3 className="detail-section-title">
                   {`개정 조문 대비표 (${upcomingVersion.metadata.effective_date} 시행 예정)`}
                 </h3>
+
+                {/* Diff Mode Selector: [변경된 부분] (DEFAULT) vs [전·후 전체 비교] */}
+                <div className="diff-mode-toggle" role="tablist" aria-label="조문 비교 방식 선택">
+                  <button
+                    type="button"
+                    role="tab"
+                    aria-selected={diffMode === 'unified'}
+                    className={`diff-mode-btn ${diffMode === 'unified' ? 'active' : ''}`}
+                    onClick={() => setDiffMode('unified')}
+                  >
+                    <Eye size={13} />
+                    <span>변경된 부분</span>
+                  </button>
+                  <button
+                    type="button"
+                    role="tab"
+                    aria-selected={diffMode === 'split'}
+                    className={`diff-mode-btn ${diffMode === 'split' ? 'active' : ''}`}
+                    onClick={() => setDiffMode('split')}
+                  >
+                    <Split size={13} />
+                    <span>전·후 전체 비교</span>
+                  </button>
+                </div>
               </div>
 
-              {/* Changed Articles Navigation */}
+              {/* Changed Articles Quick Navigation */}
               <div className="diff-nav-bar" role="navigation" aria-label="변경 조문 바로가기">
                 <span className="diff-nav-title">{`변경 조문 ${articleDiffs.length}개:`}</span>
                 <div className="diff-nav-pills">
@@ -243,35 +287,94 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({ rule, onClose 
                 </div>
               </div>
 
-              {/* Side-by-side (desktop) / Stacked (mobile) Comparison */}
+              {/* Diff Cards List */}
               <div className="diff-comparison-list">
-                {articleDiffs.map((diff) => (
-                  <div
-                    key={diff.article_key}
-                    ref={(el) => (diffRefs.current[diff.article_key] = el)}
-                    className="diff-card"
-                    style={{
-                      borderColor: activeDiffKey === diff.article_key ? 'var(--color-primary-light)' : undefined,
-                    }}
-                  >
-                    <div className="diff-card-header">
-                      <span className="diff-card-title">{diff.title}</span>
-                      <span className="badge badge-change-type">{diff.change_type}</span>
-                    </div>
+                {articleDiffs.map((diff) => {
+                  const chunks = diff.diff_chunks || computeWordDiff(diff.before_text, diff.after_text);
+                  const isModified = diff.change_type === '일부개정' || (!diff.is_new && !diff.is_deleted);
 
-                    <div className="diff-panels">
-                      <div className="diff-panel before">
-                        <span className="diff-panel-label">변경 전 (현행)</span>
-                        <div>{diff.before_text || '〔신설된 조문으로 종전 규정 없음〕'}</div>
+                  return (
+                    <div
+                      key={diff.article_key}
+                      ref={(el) => (diffRefs.current[diff.article_key] = el)}
+                      className={`diff-article-card ${diffMode}`}
+                      style={{
+                        borderColor: activeDiffKey === diff.article_key ? 'var(--color-accent-navy)' : undefined,
+                      }}
+                    >
+                      <div className="diff-card-header">
+                        <span className="diff-card-title">{diff.title}</span>
+                        <span className={`badge badge-change-type ${diff.is_new ? 'new' : diff.is_deleted ? 'deleted' : 'modified'}`}>
+                          {diff.change_type}
+                        </span>
                       </div>
 
-                      <div className="diff-panel after">
-                        <span className="diff-panel-label">변경 후 (개정안)</span>
-                        <div>{diff.after_text || '〔삭제됨〕'}</div>
-                      </div>
+                      {/* MODE 1: [변경된 부분] (DEFAULT UNIFIED DIFF) */}
+                      {diffMode === 'unified' && (
+                        <div className="unified-diff-view">
+                          {isModified ? (
+                            <div className="unified-diff-content legal-text-wrap">
+                              {chunks.map((chunk, cIdx) => {
+                                if (chunk.type === 'deleted') {
+                                  return (
+                                    <del key={cIdx} className="diff-token-del" title="삭제된 문구">
+                                      {chunk.text}
+                                    </del>
+                                  );
+                                }
+                                if (chunk.type === 'added') {
+                                  return (
+                                    <ins key={cIdx} className="diff-token-ins" title="추가된 문구">
+                                      {chunk.text}
+                                    </ins>
+                                  );
+                                }
+                                return (
+                                  <span key={cIdx} className="diff-token-context">
+                                    {chunk.text}
+                                  </span>
+                                );
+                              })}
+                            </div>
+                          ) : diff.is_new ? (
+                            <div className="unified-diff-content new-article legal-text-wrap">
+                              <div className="diff-status-notice new">신설 조문</div>
+                              <ins className="diff-token-ins full-text">
+                                {diff.after_text || '〔신설 규정 내용 없음〕'}
+                              </ins>
+                            </div>
+                          ) : (
+                            <div className="unified-diff-content deleted-article legal-text-wrap">
+                              <div className="diff-status-notice deleted">삭제 조문</div>
+                              <del className="diff-token-del full-text">
+                                {diff.before_text || '〔삭제된 조문 내용 없음〕'}
+                              </del>
+                            </div>
+                          )}
+                        </div>
+                      )}
+
+                      {/* MODE 2: [전·후 전체 비교] (SPLIT TWO COLUMNS) */}
+                      {diffMode === 'split' && (
+                        <div className="diff-panels">
+                          <div className="diff-panel before">
+                            <span className="diff-panel-label">변경 전 (현행)</span>
+                            <div className="legal-text-wrap">
+                              {diff.before_text || '〔신설된 조문으로 종전 규정 없음〕'}
+                            </div>
+                          </div>
+
+                          <div className="diff-panel after">
+                            <span className="diff-panel-label">변경 후 (개정안)</span>
+                            <div className="legal-text-wrap">
+                              {diff.after_text || '〔삭제됨〕'}
+                            </div>
+                          </div>
+                        </div>
+                      )}
                     </div>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             </div>
           )}
@@ -298,64 +401,28 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({ rule, onClose 
               <div className="appendices-list">
                 {appendices.map((app, idx) => (
                   <div key={`${app.sequence}-${idx}`} className="appendix-item">
-                    <div>
-                      <span className="badge badge-admin" style={{ marginRight: '0.5rem' }}>
-                        {app.type || '별표/서식'}
-                      </span>
+                    <div className="appendix-icon">
+                      <FileSpreadsheet size={16} />
+                    </div>
+                    <div className="appendix-info">
                       <span className="appendix-title">{app.title || `별표·서식 제${app.sequence}호`}</span>
+                      <span className="appendix-meta">
+                        {app.type || '별표/서식'} {app.sequence ? `(제${app.sequence}호)` : ''}
+                      </span>
                     </div>
-
-                    <div className="appendix-links">
-                      {app.url && (
-                        <a
-                          href={app.url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="btn-source"
-                          title="공식 다운로드 링크 (국가법령정보센터)"
-                        >
-                          <FileSpreadsheet size={13} aria-hidden="true" />
-                          <span>공식 다운로드</span>
-                        </a>
-                      )}
-                      {app.pdf_url && (
-                        <a
-                          href={app.pdf_url}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="btn-source"
-                          title="공식 PDF 보기"
-                        >
-                          <span>PDF</span>
-                        </a>
-                      )}
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
-
-          {/* Attachments Section */}
-          {!loading && !error && attachments.length > 0 && (
-            <div className="detail-section">
-              <h3 className="detail-section-title">
-                공식 첨부 자료 ({attachments.length}건)
-              </h3>
-              <div className="appendices-list">
-                {attachments.map((att, idx) => (
-                  <div key={idx} className="appendix-item">
-                    <span className="appendix-title">{att.title || '공식 개정 첨부물'}</span>
-                    {att.url && (
+                    {app.url ? (
                       <a
-                        href={att.url}
+                        href={app.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="btn-source"
+                        className="appendix-link"
+                        title="국가법령정보센터 공식 원문 보기"
                       >
-                        <ExternalLink size={13} aria-hidden="true" />
-                        <span>원문 첨부 열기</span>
+                        <span>원문 보기</span>
+                        <ExternalLink size={12} />
                       </a>
+                    ) : (
+                      <span className="appendix-no-link">링크 없음</span>
                     )}
                   </div>
                 ))}
@@ -363,28 +430,24 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({ rule, onClose 
             </div>
           )}
 
-          {/* Trust Notice and Official Link */}
-          <div className="notice-box">
-            <p>
-              <strong>출처: 법제처 국가법령정보센터</strong>
-            </p>
-            <p style={{ marginTop: '0.25rem' }}>
+          {/* Official Source Link & Trust Notice */}
+          <div className="detail-source-section">
+            <div className="detail-source-row">
+              <span className="source-label">출처: 법제처 국가법령정보센터</span>
+              <a
+                href={rule.official_source_url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="official-source-link"
+              >
+                <span>공식 원문 페이지 바로가기</span>
+                <ExternalLink size={14} />
+              </a>
+            </div>
+            <p className="detail-source-disclaimer">
               본 서비스는 법령·행정규칙 변경사항을 업무 편의를 위해 정리한 참고 서비스입니다.
               실제 업무 적용 시 국가법령정보센터의 공식 원문을 확인하세요.
             </p>
-            {rule.official_source_url && (
-              <p style={{ marginTop: '0.5rem' }}>
-                <a
-                  href={rule.official_source_url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{ display: 'inline-flex', alignItems: 'center', gap: '0.25rem', fontWeight: 600 }}
-                >
-                  <span>국가법령정보센터에서 {rule.current_name} 공식 전문 확인하기</span>
-                  <ArrowRight size={14} />
-                </a>
-              </p>
-            )}
           </div>
         </div>
       </div>

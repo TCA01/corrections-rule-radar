@@ -1,6 +1,6 @@
 import React from 'react';
 import { BusinessDomain, CONTROLLED_DOMAINS } from '../types';
-import { Briefcase, Check } from 'lucide-react';
+import { Check } from 'lucide-react';
 
 interface DomainSelectorProps {
   selectedDomains: BusinessDomain[];
@@ -23,15 +23,18 @@ export const DomainSelector: React.FC<DomainSelectorProps> = ({
     <section className="domain-section" aria-labelledby="domain-selector-heading">
       <div className="domain-header">
         <div className="domain-title-group">
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-            <Briefcase size={20} color="var(--color-primary-light)" aria-hidden="true" />
+          <div className="domain-title-row">
+            <span className="editorial-eyebrow">필터링</span>
             <h2 id="domain-selector-heading" className="domain-title">
               내 업무 분야
             </h2>
+            {selectedDomains.length > 0 && (
+              <span className="active-filter-badge">{selectedDomains.length}개 분야 선택됨</span>
+            )}
           </div>
-          <span className="domain-subtitle">
-            선택한 분야의 변경사항과 규정이 우선 필터링됩니다 (다중 선택 가능, 자동 저장)
-          </span>
+          <p className="domain-subtitle">
+            관련 업무 분야를 선택하면 해당 규정과 변경 사항만 선별하여 표시합니다.
+          </p>
         </div>
 
         <div className="domain-actions">
@@ -43,6 +46,7 @@ export const DomainSelector: React.FC<DomainSelectorProps> = ({
           >
             전체 선택
           </button>
+          <span className="action-divider">|</span>
           <button
             type="button"
             className="domain-action-btn"
@@ -54,7 +58,7 @@ export const DomainSelector: React.FC<DomainSelectorProps> = ({
         </div>
       </div>
 
-      <div className="domain-pills" role="group" aria-label="업무 분야 선택 필터">
+      <div className="domain-chips-grid" role="group" aria-label="업무 분야 선택 필터">
         {CONTROLLED_DOMAINS.map((domain) => {
           const isSelected = selectedDomains.includes(domain);
           const count = domainCounts[domain] || 0;
@@ -63,13 +67,15 @@ export const DomainSelector: React.FC<DomainSelectorProps> = ({
             <button
               key={domain}
               type="button"
-              className={`domain-pill ${isSelected ? 'active' : ''}`}
+              className={`domain-chip ${isSelected ? 'active' : ''}`}
               onClick={() => onToggleDomain(domain)}
               aria-pressed={isSelected}
             >
-              {isSelected && <Check size={14} aria-hidden="true" />}
-              <span>{domain}</span>
-              <span className="domain-pill-count">{count}</span>
+              <span className="chip-indicator" aria-hidden="true">
+                {isSelected && <Check size={12} strokeWidth={3} />}
+              </span>
+              <span className="chip-name">{domain}</span>
+              <span className="chip-count">{count}</span>
             </button>
           );
         })}

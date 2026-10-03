@@ -1,0 +1,631 @@
+{
+  "baseline_difference": 0,
+  "counts": {
+    "대통령령": 7,
+    "법률": 6,
+    "법무부령": 6,
+    "예규": 36,
+    "훈령": 13
+  },
+  "entries": [
+    {
+      "category": "법률",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2534/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": null,
+      "outgoing_url": "https://www.law.go.kr/법령/형의집행및수용자의처우에관한법률",
+      "seed_name": "형의 집행 및 수용자의 처우에 관한 법률",
+      "source_kind": "law"
+    },
+    {
+      "category": "법률",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2534/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": null,
+      "outgoing_url": "https://www.law.go.kr/법령/교도작업의운영및특별회계에관한법률",
+      "seed_name": "교도작업의 운영 및 특별회계에 관한 법률",
+      "source_kind": "law"
+    },
+    {
+      "category": "법률",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2534/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": null,
+      "outgoing_url": "https://www.law.go.kr/법령/교정공제회법",
+      "seed_name": "교정공제회법",
+      "source_kind": "law"
+    },
+    {
+      "category": "법률",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2534/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": null,
+      "outgoing_url": "https://www.law.go.kr/법령/대한민국재향교정동우회법",
+      "seed_name": "대한민국재향교정동우회법",
+      "source_kind": "law"
+    },
+    {
+      "category": "법률",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2534/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": null,
+      "outgoing_url": "https://www.law.go.kr/법령/민영교도소등의설치·운영에관한법률",
+      "seed_name": "민영교도소 등의 설치·운영에 관한 법률",
+      "source_kind": "law"
+    },
+    {
+      "category": "법률",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2534/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": null,
+      "outgoing_url": "https://www.law.go.kr/법령/경비교도대폐지에따른보상등에관한법률",
+      "seed_name": "경비교도대 폐지에 따른 보상 등에 관한 법률",
+      "source_kind": "law"
+    },
+    {
+      "category": "대통령령",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2534/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": null,
+      "outgoing_url": "https://www.law.go.kr/법령/형의집행및수용자의처우에관한법률시행령",
+      "seed_name": "형의 집행 및 수용자의 처우에 관한 법률 시행령",
+      "source_kind": "law"
+    },
+    {
+      "category": "대통령령",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2534/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": null,
+      "outgoing_url": "https://www.law.go.kr/법령/교도작업의운영및특별회계에관한법률시행령",
+      "seed_name": "교도작업의 운영 및 특별회계에 관한 법률 시행령",
+      "source_kind": "law"
+    },
+    {
+      "category": "대통령령",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2534/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": null,
+      "outgoing_url": "https://www.law.go.kr/법령/가석방자관리규정",
+      "seed_name": "가석방자 관리규정",
+      "source_kind": "law"
+    },
+    {
+      "category": "대통령령",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2534/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": null,
+      "outgoing_url": "https://www.law.go.kr/법령/수형자등호송규정",
+      "seed_name": "수형자 등 호송 규정",
+      "source_kind": "law"
+    },
+    {
+      "category": "대통령령",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2534/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": null,
+      "outgoing_url": "https://www.law.go.kr/법령/교정직공무원승진임용규정",
+      "seed_name": "교정직공무원 승진임용 규정",
+      "source_kind": "law"
+    },
+    {
+      "category": "대통령령",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2534/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": null,
+      "outgoing_url": "https://www.law.go.kr/법령/민영교도소등의설치·운영에관한법률시행령",
+      "seed_name": "민영교도소 등의 설치·운영에 관한 법률 시행령",
+      "source_kind": "law"
+    },
+    {
+      "category": "대통령령",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2534/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": null,
+      "outgoing_url": "https://www.law.go.kr/법령/경비교도대폐지에따른보상등에관한법률시행령",
+      "seed_name": "경비교도대 폐지에 따른 보상 등에 관한 법률 시행령",
+      "source_kind": "law"
+    },
+    {
+      "category": "법무부령",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2534/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": null,
+      "outgoing_url": "https://www.law.go.kr/법령/형의집행및수용자의처우에관한법률시행규칙",
+      "seed_name": "형의 집행 및 수용자의 처우에 관한 법률 시행규칙",
+      "source_kind": "law"
+    },
+    {
+      "category": "법무부령",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2534/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": null,
+      "outgoing_url": "https://www.law.go.kr/법령/교도작업의운영및특별회계에관한법률시행규칙",
+      "seed_name": "교도작업의 운영 및 특별회계에 관한 법률 시행규칙",
+      "source_kind": "law"
+    },
+    {
+      "category": "법무부령",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2534/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": null,
+      "outgoing_url": "https://www.law.go.kr/법령/교도관직무규칙",
+      "seed_name": "교도관직무규칙",
+      "source_kind": "law"
+    },
+    {
+      "category": "법무부령",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2534/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": null,
+      "outgoing_url": "https://www.law.go.kr/법령/교도관복제규칙",
+      "seed_name": "교정공무원 복제규칙",
+      "source_kind": "law"
+    },
+    {
+      "category": "법무부령",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2534/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": null,
+      "outgoing_url": "https://www.law.go.kr/법령/교정직공무원임용시험의체력검사에관한규칙",
+      "seed_name": "교정직공무원 임용시험의 체력검사에 관한 규칙",
+      "source_kind": "law"
+    },
+    {
+      "category": "법무부령",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2534/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": null,
+      "outgoing_url": "https://www.law.go.kr/법령/민영교도소등의설치·운영에관한법률시행규칙",
+      "seed_name": "민영교도소 등의 설치·운영에 관한 법률 시행규칙",
+      "source_kind": "law"
+    },
+    {
+      "category": "예규",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "교정기획과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/교정공무원기관장(葬)에관한규정/(1175,20171229)",
+      "seed_name": "교정공무원 기관장에 관한 규정",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "예규",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "교정기획과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/교정공무원상호부조회규정/(1144,20170414)",
+      "seed_name": "교정공무원 상호부조회 규정",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "예규",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "교정기획과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/교정관련영화·방송드라마제작지원지침/(1102,20151214)",
+      "seed_name": "교정관련 영화·방송드라마 제작지원 지침",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "예규",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "교정기획과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/교정기관간판게시및교정직제영문표기에관한지침/(869,20090821)",
+      "seed_name": "교정기관 간판게시 및 교정직제 영문표기에 관한 지침",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "예규",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "교정기획과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/교정민원콜센터운영규정/(1163,20170904)",
+      "seed_name": "교정민원콜센터 운영규정",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "예규",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "교정기획과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/교정사고유형별문책기준지침/(1173,20171222)",
+      "seed_name": "교정사고 유형별 문책기준 지침",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "예규",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "교정기획과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/교정직공무원임용시험의체력검사평가종목별측정방법에관한규정/(1225,20190521)",
+      "seed_name": "교정직공무원 임용시험의 체력검사 평가종목별 측정방법에 관한 규정",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "예규",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "교정기획과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/순회점검반운영지침/(1232,20190701)",
+      "seed_name": "순회점검반 운영지침",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "예규",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "교정기획과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/현황작성및보고요령지침/(1030,20131015)",
+      "seed_name": "현황작성 및 보고요령 지침",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "예규",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "교정기획과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/휴가일수계산자체기준지침/(1234,20190827)",
+      "seed_name": "휴가일수 계산 자체 기준 지침",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "예규",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "사회복지과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/교정위원운영지침/(1207,20190114)",
+      "seed_name": "교정위원 운영지침",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "예규",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "사회복지과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/수용자교육교화운영지침/(1208,20190121)",
+      "seed_name": "수용자 교육교화 운영지침",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "예규",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "사회복지과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/수용자사회복귀지원등에관한지침/(1222,20190425)",
+      "seed_name": "수용자 사회복귀지원 등에 관한 지침",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "예규",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "복지과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/교도관급양관리지침/(1205,20181226)",
+      "seed_name": "교도관 급양관리 지침",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "예규",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "복지과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/교정기관공용차량관리지침/(1157,20170817)",
+      "seed_name": "교정기관 공용차량 관리 지침",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "예규",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "복지과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/비상대기숙소관리지침/(1154,20170630)",
+      "seed_name": "비상대기숙소 관리지침",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "예규",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "복지과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/사망수용자장례비지급지침/(1158,20170817)",
+      "seed_name": "사망수용자 장례비 지급 지침",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "예규",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "복지과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/수용자급양관리지침/(1206,20181226)",
+      "seed_name": "수용자 급양관리 지침",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "예규",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "복지과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/수용자피복관리및제작·운용에관한지침/(1136,20170102)",
+      "seed_name": "수용자 피복관리 및 제작·운용에 관한 지침",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "예규",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "복지과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/영치금품관리지침/(1165,20170918)",
+      "seed_name": "영치금품 관리지침",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "예규",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "직업훈련과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/교도작업운영지침/(1235,20190902)",
+      "seed_name": "교도작업운영지침",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "예규",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "직업훈련과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/교도작업특별회계운영지침/(1236,20190902)",
+      "seed_name": "교도작업특별회계 운영지침",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "예규",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "직업훈련과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/수형자직업능력개발훈련운영지침/(1224,20190515)",
+      "seed_name": "수형자 직업능력개발훈련 운영지침",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "예규",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "직업훈련과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/수형자취업및창업지원업무지침/(1149,20170422)",
+      "seed_name": "수형자 취업 및 창업지원 업무지침",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "예규",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "직업훈련과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/전문경력관직업능력개발훈련교사임용규정/(1145,20170422)",
+      "seed_name": "전문경력관 직업능력개발훈련교사 임용 규정",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "예규",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "분류심사과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/가석방업무지침/(1215,20190415)",
+      "seed_name": "가석방 업무지침",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "예규",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "분류심사과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/가석방심사위원회운영지침/(1101,20160101)",
+      "seed_name": "가석방심사위원회 운영지침",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "예규",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "분류심사과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/교정시설경비등급별수형자의처우등에관한지침/(1193,20180702)",
+      "seed_name": "교정시설 경비등급별 수형자의 처우 등에 관한 지침",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "예규",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "분류심사과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/민영교도소운영경비회계등에관한지침/(1126,20160726)",
+      "seed_name": "민영교도소 운영경비 회계 등에 관한 지침",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "예규",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "분류심사과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/분류센터운영지침/(1171,20171205)",
+      "seed_name": "분류센터 운영지침",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "예규",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "분류심사과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/분류처우업무지침/(1161,20170817)",
+      "seed_name": "분류처우 업무지침",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "예규",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "분류심사과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/소년교도소운영지침/(1195,20180809)",
+      "seed_name": "소년교도소 운영지침",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "예규",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "분류심사과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/수용자인권업무처리지침/(1229,20190625)",
+      "seed_name": "수용자 인권업무 처리지침",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "예규",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "분류심사과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/수용자청원처리지침/(1176,20171229)",
+      "seed_name": "수용자 청원 처리지침",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "예규",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "의료과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/수용자의료관리지침/(1221,20190424)",
+      "seed_name": "수용자 의료관리지침",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "예규",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "심리치료과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/심리치료업무지침/(1237,20190904)",
+      "seed_name": "심리치료업무지침",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "훈령",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "교정기획과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/교정기규정/(902,20130621)",
+      "seed_name": "교정기 규정",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "훈령",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "교정기획과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/수용자자비구매물품의공급에관한지침/(1138,20180126)",
+      "seed_name": "수용자 자비구매물품의 공급에 관한 지침",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "훈령",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "교정기획과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/교정공무원기장등수여및패용에관한규정/(1110,20170620)",
+      "seed_name": "교정공무원기장 등 수여 및 패용에 관한 규정",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "훈령",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "교정기획과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/수용자급식관리위원회운영지침/(1087,20161230)",
+      "seed_name": "수용자 급식관리위원회 운영지침",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "훈령",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "교정기획과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/교정의날규칙/(526,20050901)",
+      "seed_name": "교정의 날 규칙",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "훈령",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "교정기획과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/교정공무원인사운영규칙/(1153,20180514)",
+      "seed_name": "교정공무원 인사운영 규칙",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "훈령",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "교정기획과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/교정본부보고사무지침/(1237,20190701)",
+      "seed_name": "교정본부 보고사무지침",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "훈령",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "교정기획과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/교정공무원예절규정/(1122,20171027)",
+      "seed_name": "교정공무원 예절 규정",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "훈령",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "복지과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/교도관급여품및대여품지침/(1222,20190502)",
+      "seed_name": "교도관 급여품 및 대여품 지침",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "훈령",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "보안과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/교정행정정보화업무지침/(1041,20160120)",
+      "seed_name": "교정행정정보화업무지침",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "훈령",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "보안과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/경비교도보상등에관한지침/(1178,20181112)",
+      "seed_name": "경비교도 보상 등에 관한 지침",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "훈령",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "분류심사과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/피보호감호자분류처우업무지침/(1200,20190201)",
+      "seed_name": "피보호감호자 분류처우 업무지침",
+      "source_kind": "admrul"
+    },
+    {
+      "category": "훈령",
+      "corrections_source_url": "https://www.corrections.go.kr/corrections/2535/subview.do",
+      "crawled_at": "2026-10-03T06:51:07.895293+00:00",
+      "department": "의료과",
+      "outgoing_url": "https://www.law.go.kr/행정규칙/교도소와소년원및외국인보호소등의무관임상연구비지급지침/(1126,20171129)",
+      "seed_name": "교도소와 소년원 및 외국인보호소 등 의무관 임상연구비 지급지침",
+      "source_kind": "admrul"
+    }
+  ],
+  "expected_baseline": {
+    "대통령령": 7,
+    "법률": 6,
+    "법무부령": 6,
+    "예규": 36,
+    "훈령": 13
+  }
+}

@@ -8,7 +8,7 @@ import {
   isWithinPastDays,
   isFutureDate,
 } from '../utils/date';
-import { displayArticleDiffs } from '../utils/diff';
+import { displayArticleDiffs, computeWordDiff, tokenizeLegalText } from '../utils/diff';
 import {
   getChangeTypeLabel,
   getFactualDescription,
@@ -127,3 +127,71 @@ describe('Format & Badge Utilities', () => {
     expect(getClassificationBadge('REVIEWED', ['의료']).text).toBe('의료');
   });
 });
+
+describe('Korean Legal Word Diff & Tokenization', () => {
+  it('tokenizes Korean legal phrases preserving article numbers and atomic words', () => {
+    const tokens = tokenizeLegalText('제53조의2(태아의 보호 등) 수용자가 임신한 경우');
+    expect(tokens).toEqual([
+      '제53조의2',
+      '(',
+      '태아의',
+      ' ',
+      '보호',
+      ' ',
+      '등',
+      ')',
+      ' ',
+      '수용자가',
+      ' ',
+      '임신한',
+      ' ',
+      '경우',
+    ]);
+  });
+
+  it('computes word/phrase diff without single-character fragmentation', () => {
+    const before = '수용자에게 1일 3회 식사를 지급한다.';
+    const after = '수용자에게 1일 3회 균형잡힌 식사를 지급한다.';
+
+    const chunks = computeWordDiff(before, after);
+    expect(chunks).toEqual([
+      { type: 'unchanged', text: '수용자에게 1일 3회' },
+      { type: 'added', text: ' 균형잡힌' },
+      { type: 'unchanged', text: ' 식사를 지급한다.' },
+    ]);
+  });
+
+  it('correctly detects pure deletion, pure addition, and unchanged text', () => {
+    // Pure addition (e.g., new article)
+    expect(computeWordDiff(null, '신설 조문 내용')).toEqual([
+      { type: 'added', text: '신설 조문 내용' },
+    ]);
+
+    // Pure deletion (e.g., deleted article)
+    expect(computeWordDiff('삭제된 조문 내용', null)).toEqual([
+      { type: 'deleted', text: '삭제된 조문 내용' },
+    ]);
+
+    // Unchanged
+    expect(computeWordDiff('동일한 규정 본문', '동일한 규정 본문')).toEqual([
+      { type: 'unchanged', text: '동일한 규정 본문' },
+    ]);
+
+    // Empty
+    expect(computeWordDiff(null, null)).toEqual([]);
+  });
+
+  it('handles word replacement cleanly', () => {
+    const before = '소장은 매월 1회 점검하여야 한다.';
+    const after = '소장은 분기별 1회 점검하여야 한다.';
+
+    const chunks = computeWordDiff(before, after);
+    expect(chunks).toEqual([
+      { type: 'unchanged', text: '소장은 ' },
+      { type: 'deleted', text: '매월' },
+      { type: 'added', text: '분기별' },
+      { type: 'unchanged', text: ' 1회 점검하여야 한다.' },
+    ]);
+  });
+});
+

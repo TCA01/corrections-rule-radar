@@ -11,13 +11,13 @@ import { api, ApiError } from './services/api';
 import { calculateDDay, isSameDay, isWithinPastDays } from './utils/date';
 import { getChangeTypeLabel, getFactualDescription } from './utils/format';
 import { Header } from './components/Header';
+import { GlobalSearch } from './components/GlobalSearch';
 import { SummaryCards } from './components/SummaryCards';
 import { DomainSelector } from './components/DomainSelector';
 import { ChangeFeed } from './components/ChangeFeed';
 import { UpcomingTimeline } from './components/UpcomingTimeline';
 import { RegulationDirectory } from './components/RegulationDirectory';
 import { RuleDetailModal } from './components/RuleDetailModal';
-import { DemoHighlight } from './components/DemoHighlight';
 import { NoticeFooter } from './components/NoticeFooter';
 import { AlertCircle, RefreshCw, Loader2 } from 'lucide-react';
 
@@ -75,9 +75,14 @@ export const App: React.FC = () => {
         api.getLatestChanges().catch(() => ({ schema_version: '1.2', dataset_version: '', events: [] })),
       ]);
 
-      if ([healthData, rulesData, upcomingData, latestData].some(data =>
-        data?.dataset_version && data.dataset_version !== manifestData.dataset_version
-      )) throw new ApiError('데이터 버전이 갱신 중입니다. 잠시 후 다시 시도하세요.');
+      if (
+        [healthData, rulesData, upcomingData, latestData].some(
+          (data) => data?.dataset_version && data.dataset_version !== manifestData.dataset_version
+        )
+      ) {
+        throw new ApiError('데이터 버전이 갱신 중입니다. 잠시 후 다시 시도하세요.');
+      }
+
       setHealth(healthData);
       setRules(rulesData.rules);
       setUpcomingChanges(upcomingData);
@@ -155,15 +160,13 @@ export const App: React.FC = () => {
       })
       .filter((e): e is DisplayChangeEvent => e !== null)
       .sort((a, b) => {
-        // Sort by effective date ascending
         const dateA = a.effective_date || '';
         const dateB = b.effective_date || '';
         return dateA.localeCompare(dateB);
       });
   }, [upcomingChanges, ruleMap]);
 
-  // Recent changes:
-  // Combines events from latest.json with rules from rules.json that took effect recently (last 30-60 days)
+  // Recent changes
   const recentEvents: DisplayChangeEvent[] = useMemo(() => {
     const list: DisplayChangeEvent[] = [];
     const seenRules = new Set<string>();
@@ -208,7 +211,6 @@ export const App: React.FC = () => {
       if (!effDate) continue;
 
       const dDayInfo = calculateDDay(effDate);
-      // If effective date is within past 45 days or today
       if (isWithinPastDays(effDate, 45) || dDayInfo.dDay === 0) {
         list.push({
           id: `rule-recent-${rule.canonical_id}`,
@@ -235,7 +237,6 @@ export const App: React.FC = () => {
       }
     }
 
-    // Sort descending by effective date
     return list.sort((a, b) => {
       const dateA = a.effective_date || '';
       const dateB = b.effective_date || '';
@@ -243,7 +244,7 @@ export const App: React.FC = () => {
     });
   }, [latestChanges, rules, ruleMap]);
 
-  // Today effective events: items with d_day === 0
+  // Today effective events
   const todayEvents = useMemo(() => {
     const list: DisplayChangeEvent[] = [];
     for (const e of [...upcomingEvents, ...recentEvents]) {
@@ -251,7 +252,6 @@ export const App: React.FC = () => {
         list.push(e);
       }
     }
-    // Also check all rules
     for (const r of rules) {
       if (r.metadata.effective_date && isSameDay(r.metadata.effective_date)) {
         if (!list.some((e) => e.canonical_id === r.canonical_id)) {
@@ -281,21 +281,16 @@ export const App: React.FC = () => {
     return list;
   }, [upcomingEvents, recentEvents, rules]);
 
-  // Dynamic summary card counts
+  // Dynamic summary counts
   const summaryCounts = useMemo(() => {
     const todayCount = todayEvents.length;
-
-    // Upcoming within 30 days
     const upcoming30Count = upcomingEvents.filter(
       (e) => e.d_day !== null && e.d_day > 0 && e.d_day <= 30
     ).length;
-
-    // Recent within 30 days
     const recent30Count = recentEvents.filter((e) => {
       if (!e.effective_date) return false;
       return isWithinPastDays(e.effective_date, 30);
     }).length;
-
     const totalTrackedCount = rules.length;
 
     return {
@@ -310,9 +305,7 @@ export const App: React.FC = () => {
   const filterBySelectedDomains = (eventList: DisplayChangeEvent[]) => {
     if (selectedDomains.length === 0) return eventList;
     return eventList.filter((evt) => {
-      // Check if any business domain matches
-      const hasDomainMatch = evt.business_domains.some((d) => selectedDomains.includes(d));
-      return hasDomainMatch;
+      return evt.business_domains.some((d) => selectedDomains.includes(d));
     });
   };
 
@@ -346,56 +339,23 @@ export const App: React.FC = () => {
     setSelectedDomains([]);
   };
 
-  // Demo selection: Law-001668 (future effective law) or first upcoming or first recent
-  const demoTargetUpcoming = upcomingEvents.length > 0 ? upcomingEvents[0] : null;
-  const demoTargetRule =
-    rules.find((r) => r.canonical_id === 'law-001668') ||
-    rules.find((r) => r.metadata.effective_date && r.metadata.effective_date.startsWith('2026-10')) ||
-    rules[0] ||
-    null;
-
-  const handleOpenDemo = () => {
-    if (demoTargetRule) {
-      setActiveRule(demoTargetRule);
-    }
-  };
-
   return (
     <div className="app-root">
-      <Header health={health} onOpenDemo={handleOpenDemo} />
+      {/* 1. Header */}
+      <Header health={health} />
 
-      <main className="container" role="main" style={{ paddingBottom: '3rem' }}>
+      <main className="container" role="main" style={{ paddingBottom: '4rem' }}>
         {/* Loading State */}
         {loading && (
-          <div
-            style={{
-              padding: '4rem 1rem',
-              textAlign: 'center',
-              display: 'flex',
-              flexDirection: 'column',
-              alignItems: 'center',
-              gap: '1rem',
-            }}
-          >
-            <Loader2 className="animate-spin" size={32} color="var(--color-primary-light)" />
-            <p style={{ fontSize: '1rem', color: 'var(--color-text-muted)' }}>
-              교정업무 규정 데이터(API v1)를 불러오고 있습니다...
-            </p>
+          <div className="main-loading-state">
+            <Loader2 className="animate-spin" size={32} />
+            <p>교정업무 규정 데이터(API v1)를 불러오고 있습니다...</p>
           </div>
         )}
 
         {/* Global Error State */}
         {error && !loading && (
-          <div
-            className="empty-state"
-            style={{
-              borderColor: '#fca5a5',
-              backgroundColor: '#fff1f2',
-              marginTop: '2rem',
-              padding: '2.5rem',
-            }}
-            role="alert"
-          >
+          <div className="empty-state error" role="alert">
             <AlertCircle size={32} color="#e11d48" style={{ margin: '0 auto 0.75rem' }} />
             <h2 style={{ fontSize: '1.125rem', color: '#9f1239', fontWeight: 700 }}>
               데이터를 불러오지 못했습니다
@@ -405,9 +365,8 @@ export const App: React.FC = () => {
             </p>
             <button
               type="button"
-              className="btn-detail"
+              className="btn-retry"
               onClick={loadData}
-              style={{ backgroundColor: '#be123c', color: 'white', borderColor: '#9f1239' }}
             >
               <RefreshCw size={14} style={{ marginRight: 6 }} />
               <span>다시 시도하기</span>
@@ -415,10 +374,16 @@ export const App: React.FC = () => {
           </div>
         )}
 
-        {/* Normal Content */}
+        {/* Normal Content: Target Hierarchy from Section 6 */}
         {!loading && !error && (
           <>
-            {/* Summary Cards */}
+            {/* 2. GLOBAL SEARCH (Prominent, immediately below header) */}
+            <GlobalSearch
+              rules={rules}
+              onSelectRule={(rule) => setActiveRule(rule)}
+            />
+
+            {/* 3. Concise Summary / Important Current Information Band */}
             <SummaryCards
               todayCount={summaryCounts.todayCount}
               upcoming30Count={summaryCounts.upcoming30Count}
@@ -426,14 +391,7 @@ export const App: React.FC = () => {
               totalTrackedCount={summaryCounts.totalTrackedCount}
             />
 
-            {/* 30-Second Demo Highlight */}
-            <DemoHighlight
-              upcomingEvent={demoTargetUpcoming}
-              latestRule={demoTargetRule}
-              onOpenDetail={(rule) => setActiveRule(rule)}
-            />
-
-            {/* Business Domain Selector */}
+            {/* 4. MY BUSINESS DOMAINS */}
             <DomainSelector
               selectedDomains={selectedDomains}
               onToggleDomain={handleToggleDomain}
@@ -442,7 +400,7 @@ export const App: React.FC = () => {
               domainCounts={domainCounts}
             />
 
-            {/* Priority A: 오늘 시행 */}
+            {/* 5. TODAY / UPCOMING */}
             {domainFilteredToday.length > 0 && (
               <ChangeFeed
                 title="오늘 시행"
@@ -453,13 +411,12 @@ export const App: React.FC = () => {
               />
             )}
 
-            {/* Priority B: 시행 예정 규정 타임라인 */}
             <UpcomingTimeline
               events={domainFilteredUpcoming}
               onSelectEvent={(evt) => setActiveRule(evt.rule_summary)}
             />
 
-            {/* Priority C: 최근 변경 */}
+            {/* 6. RECENT CHANGES */}
             <ChangeFeed
               title="최근 규정 변경 사항"
               badgeText={`${domainFilteredRecent.length}건`}
@@ -473,7 +430,7 @@ export const App: React.FC = () => {
               featuredStyle="recent"
             />
 
-            {/* Regulation Directory */}
+            {/* 7. ALL REGULATIONS DIRECTORY */}
             <RegulationDirectory
               rules={rules}
               onSelectRule={(rule) => setActiveRule(rule)}
@@ -490,7 +447,7 @@ export const App: React.FC = () => {
         />
       )}
 
-      {/* Trust & Source Notice Footer */}
+      {/* 8. Trust & Source Notice Footer */}
       <NoticeFooter />
     </div>
   );
