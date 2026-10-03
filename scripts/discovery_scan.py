@@ -17,11 +17,15 @@ URLS={'law':'https://www.corrections.go.kr/corrections/2534/subview.do','admrul'
 def public_page(url,metrics=None):
     if url not in URLS.values(): raise ValueError('UNTRUSTED_DISCOVERY_PAGE')
     start=time.monotonic(); error=None
+    import socket
+    old_timeout = socket.getdefaulttimeout()
+    socket.setdefaulttimeout(15)
     try:
-        with urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'CorrectionsRuleRadar/1.4'}),timeout=30) as response: return response.read()
+        with urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'CorrectionsRuleRadar/1.4'}),timeout=15) as response: return response.read()
     except Exception:
         error='DISCOVERY_PAGE_UNAVAILABLE'; raise ApiError(error) from None
     finally:
+        socket.setdefaulttimeout(old_timeout)
         if metrics: metrics.record('public_page',time.monotonic()-start,error)
 
 def api_discovery(metrics=None):

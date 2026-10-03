@@ -18,7 +18,9 @@ def run(*,metrics=None,quiet=False,state=None,trusted=None,output='data/staging/
     trusted=trusted or json.loads((ROOT/'data/registry/rules.json').read_text(encoding='utf-8'))
     if set(state['seed_ids'])!=set(r['canonical_id'] for r in trusted): raise ValueError('TRUSTED_REGISTRY_INCOMPLETE')
     client=LawClient(metrics=metrics); at=now(); snapshots={}; future={}; rows=[]; resolution=[]
-    for row in trusted:
+    for idx, row in enumerate(trusted, 1):
+        if idx % 20 == 0 or idx == len(trusted):
+            print(f"[collect_core] processing rule {idx}/{len(trusted)}...", file=sys.stderr, flush=True)
         cid=row['canonical_id']; stable=state['snapshots'][cid]['stable_identifier']; kind=row['source_kind']
         record={'canonical_id':cid,'seed_name':row['seed_names'][0] if row['seed_names'] else None,'status':'REVIEW','review_reason':None,'resolution_method':'TRUSTED_STABLE_ID'}
         try:

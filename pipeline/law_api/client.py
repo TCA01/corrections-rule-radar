@@ -90,6 +90,8 @@ class LawClient:
             if attempt and self.metrics: self.metrics.retry_count+=1
             self._last = time.monotonic()
             attempt_started=self._last; error_code=None
+            old_timeout = socket.getdefaulttimeout()
+            socket.setdefaulttimeout(self.timeout)
             try:
                 with self.opener.open(req, timeout=self.timeout) as response:
                     raw = response.read(30_000_000)
@@ -106,6 +108,7 @@ class LawClient:
                 error = ApiError("NETWORK_ERROR")
                 error_code=error.code
             finally:
+                socket.setdefaulttimeout(old_timeout)
                 if self.metrics: self.metrics.record('api',time.monotonic()-attempt_started,error_code)
             if attempt < self.retries:
                 time.sleep(2 ** attempt)

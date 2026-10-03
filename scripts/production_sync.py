@@ -24,24 +24,33 @@ def run(*,discovery=False,full_audit=False,approved_expansion=False):
     try:
         discovery_error=None
         if discovery or full_audit:
+            print(f"[production_sync] running discovery (full_audit={full_audit})...", file=sys.stderr, flush=True)
             try: discover(metrics=metrics,full_audit=full_audit)
-            except Exception: discovery_error='DISCOVERY_MONITOR_UNAVAILABLE'
+            except Exception as e:
+                discovery_error='DISCOVERY_MONITOR_UNAVAILABLE'
+                print(f"[production_sync] discovery monitor warning: {e}", file=sys.stderr, flush=True)
         if approved_expansion:
             from scripts.prepare_expansion import inputs
             state,rows,approval=inputs()
             collection=collect_core(metrics=metrics,quiet=True,state=state,trusted=rows)
             collection['approved_expansion']='PHASE1F'
             collection['history_backfill']=read('data/staging/phase1f_backfill.json',{})
-        else: collection=collect_core(metrics=metrics,quiet=True)
+        else:
+            print(f"[production_sync] collecting core regulations...", file=sys.stderr, flush=True)
+            collection=collect_core(metrics=metrics,quiet=True)
+            print(f"[production_sync] core regulations collected: {len(collection.get('registry', []))} rules", file=sys.stderr, flush=True)
         if full_audit:
+            print(f"[production_sync] running full id revalidation...", file=sys.stderr, flush=True)
             checked=revalidate(collection,metrics=metrics)
             write_json(ROOT/'data/reports/full_id_revalidation.json',{'count':len(checked),'records':checked,'status':'PASS'})
         staged=collection.get('history_backfill')
         prepare(collection,previous_state,read('data/registry/change_history.json',[]),metrics=metrics)
         if staged: collection['history_backfill']=staged
         result=sync(collection)
+        print(f"[production_sync] sync completed: {result.get('result')}", file=sys.stderr, flush=True)
         if result['result']=='BLOCKED': error=result.get('reason','INCOMPLETE_COLLECTION')
     except Exception as exc:
+        print(f"[production_sync] sync error: {exc}", file=sys.stderr, flush=True)
         error=exc.code if isinstance(exc,ApiError) else 'SYNC_FAILED'
         result={'result':'BLOCKED','new_events':0,'public_rewritten':False,'dataset_version':previous.get('last_dataset_version')}
     ops=read('data/ops/health.json',previous)
