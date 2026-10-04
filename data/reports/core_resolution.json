@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-03T11:40:05.580789+00:00",
+  "collected_at": "2026-10-03T23:48:53.529087+00:00",
   "complete": true,
   "entries": [
     {
@@ -845,6 +845,14 @@
     {
       "canonical_id": "admrul-98096",
       "current_name": "공모에 의한 교정시설 조성 입지 선정 평가지침",
+      "resolution_method": "TRUSTED_STABLE_ID",
+      "review_reason": null,
+      "seed_name": null,
+      "status": "RESOLVED"
+    },
+    {
+      "canonical_id": "law-001671",
+      "current_name": "형사소송법",
       "resolution_method": "TRUSTED_STABLE_ID",
       "review_reason": null,
       "seed_name": null,

@@ -1,0 +1,54 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "29dc48afbd45579232b783255f1ce81408ec4ad3e6e14e8e2efe3acf115c957f",
+      "effective_date": "2021-06-09",
+      "identifier": "223447",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=223447",
+      "snapshot_url": "/api/v1/rules/law-001671/versions/223447-2021-06-09-a1870422306b79a4.json",
+      "version_id": "223447"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "baab3a147fe7b2630150e5ab138b3d74afc95e7734754719420be5feec2a63c1",
+      "effective_date": "2021-01-01",
+      "identifier": "213829",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=213829",
+      "snapshot_url": "/api/v1/rules/law-001671/versions/213829-2021-01-01-0d9c0d1627bdb91e.json",
+      "version_id": "213829"
+    },
+    "canonical_id": "law-001671",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 1,
+    "changed_articles": [
+      {
+        "after_text": "제17조(제척의 원인) 법관은 다음 경우에는 직무집행에서 제척된다.\n1. 법관이 피해자인 때\n2. 법관이 피고인 또는 피해자의 친족 또는 친족관계가 있었던 자인 때\n3. 법관이 피고인 또는 피해자의 법정대리인, 후견감독인인 때\n4. 법관이 사건에 관하여 증인, 감정인, 피해자의 대리인으로 된 때\n5. 법관이 사건에 관하여 피고인의 대리인, 변호인, 보조인으로 된 때\n6. 법관이 사건에 관하여 검사 또는 사법경찰관의 직무를 행한 때\n7. 법관이 사건에 관하여 전심재판 또는 그 기초되는 조사, 심리에 관여한 때\n8. 법관이 사건에 관하여 피고인의 변호인이거나 피고인ㆍ피해자의 대리인인 법무법인, 법무법인(유한), 법무조합, 법률사무소, 「외국법자문사법」 제2조제9호에 따른 합작법무법인에서 퇴직한 날부터 2년이 지나지 아니한 때\n9. 법관이 피고인인 법인ㆍ기관ㆍ단체에서 임원 또는 직원으로 퇴직한 날부터 2년이 지나지 아니한 때",
+        "article_key": "article-17",
+        "article_number": "17",
+        "article_title": "제17조(제척의 원인)",
+        "before_text": "제17조(제척의 원인) 법관은 다음 경우에는 직무집행에서 제척된다.\n1. 법관이 피해자인 때\n2. 법관이 피고인 또는 피해자의 친족 또는 친족관계가 있었던 자인 때\n3. 법관이 피고인 또는 피해자의 법정대리인, 후견감독인인 때\n4. 법관이 사건에 관하여 증인, 감정인, 피해자의 대리인으로 된 때\n5. 법관이 사건에 관하여 피고인의 대리인, 변호인, 보조인으로 된 때\n6. 법관이 사건에 관하여 검사 또는 사법경찰관의 직무를 행한 때\n7. 법관이 사건에 관하여 전심재판 또는 그 기초되는 조사, 심리에 관여한 때",
+        "change_type": "MODIFIED",
+        "effective_date": "2021-06-09"
+      }
+    ],
+    "comparison_evidence": null,
+    "comparison_scope": "FULL_STRUCTURED_BODY",
+    "comparison_source": "STRUCTURED_SNAPSHOT_DIFF",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T23:48:12.107640+00:00",
+    "effective_date": "2021-06-09",
+    "event_id": "evt-d7eb0182540bfbce95166aa31d50eb78f83e2426a460f7524a7fc63f1d9dd004",
+    "fallback_reason": "OFFICIAL_COMPARISON_PAIR_OR_TEXT_UNAVAILABLE",
+    "official_old_new_available": false,
+    "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=223447",
+    "promulgation_or_issue_date": "2020-12-08",
+    "regulation_name": "형사소송법",
+    "regulation_type": "법률"
+  },
+  "schema_version": "1.4"
+}

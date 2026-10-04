@@ -1,0 +1,127 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "5f33711abe4bfb96146ce63e4e33b36e5e2e0007e48b879a0f91d7db8f6af0bb",
+      "effective_date": "2014-12-30",
+      "identifier": "165507",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=165507",
+      "snapshot_url": "/api/v1/rules/law-001671/versions/165507-2014-12-30-ee8e3f9355f20682.json",
+      "version_id": "165507"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "a912270fed0d6868179a2fd423a401fc343397dd1ca48a52a495a0d35c969caa",
+      "effective_date": "2014-10-15",
+      "identifier": "160763",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=160763",
+      "snapshot_url": "/api/v1/rules/law-001671/versions/160763-2014-10-15-bf20df258f7d00e5.json",
+      "version_id": "160763"
+    },
+    "canonical_id": "law-001671",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 8,
+    "changed_articles": [
+      {
+        "after_text": "제48조(조서의 작성방법) ① ∼ ⑦ (현행과 같음)",
+        "article_key": "article-48",
+        "article_number": "48",
+        "article_title": "제48조(조서의 작성방법)",
+        "before_text": "제48조(조서의 작성방식) ① ∼ ⑦ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2014-12-30"
+      },
+      {
+        "after_text": "제49조(검증 등의 조서) ① (현행과 같음)\n②검증조서에는 검증목적물의 현장을 명확하게 하기 위하여 도화나 사진을 첨부할 수 있다.\n③ (현행과 같음)",
+        "article_key": "article-49",
+        "article_number": "49",
+        "article_title": "제49조(검증 등의 조서)",
+        "before_text": "제49조(검증 등의 조서) ① (생  략)\n②검증조서에는 검증목적물의 현상을 명확하게 하기 위하여 도화나 사진을 첨부할 수 있다.\n③ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2014-12-30"
+      },
+      {
+        "after_text": "제111조(공무상 비밀과 압수) ①공무원 또는 공무원이었던 자가 소지 또는 보관하는 물건에 관하여는 본인 또는 그 해당 공무소가 직무상의 비밀에 관한 것임을 신고한 때에는 그 소속공무소 또는 당해 감독관공서의 승낙 없이는 압수하지 못한다.\n② (현행과 같음)",
+        "article_key": "article-111",
+        "article_number": "111",
+        "article_title": "제111조(공무상 비밀과 압수)",
+        "before_text": "제111조(공무상 비밀과 압수) ①공무원 또는 공무원이었던 자가 소지 또는 보관하는 물건에 관하여는 본인 또는 그 당해 공무소가 직무상의 비밀에 관한 것임을 신고한 때에는 그 소속공무소 또는 당해 감독관공서의 승낙 없이는 압수하지 못한다.\n② (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2014-12-30"
+      },
+      {
+        "after_text": "제194조의3(비용보상의 절차 등) ① (현행과 같음)\n②제1항에 따른 청구는 무죄판결이 확정된 사실을 안 날부터 3년, 무죄판결이 확정된 때부터 5년 이내에 하여야 한다.\n③ (현행과 같음)",
+        "article_key": "article-194의3",
+        "article_number": "194의3",
+        "article_title": "제194조의3(비용보상의 절차 등)",
+        "before_text": "제194조의3(비용보상의 절차 등) ① (생  략)\n②제1항에 따른 청구는 무죄판결이 확정된 날부터 6개월 이내에 하여야 한다.\n③ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2014-12-30"
+      },
+      {
+        "after_text": "제201조의2(구속영장 청구와 피의자 심문) ① ∼ ⑥ (현행과 같음)\n⑦피의자심문을 하는 경우 법원이 구속영장청구서ㆍ수사 관계 서류 및 증거물을 접수한 날부터 구속영장을 발부하여 검찰청에 반환한 날까지의 기간은 제202조 및 제203조의 적용에 있어서 그 구속기간에 이를 산입하지 아니한다.\n⑧ ∼ ⑩ (현행과 같음)",
+        "article_key": "article-201의2",
+        "article_number": "201의2",
+        "article_title": "제201조의2(구속영장 청구와 피의자 심문)",
+        "before_text": "제201조의2(구속영장 청구와 피의자 심문) ① ∼ ⑥ (생  략)\n⑦피의자심문을 하는 경우 법원이 구속영장청구서ㆍ수사 관계 서류 및 증거물을 접수한 날부터 구속영장을 발부하여 검찰청에 반환한 날까지의 기간은 제202조 및 제203조의 적용에 있어서 그 구속기간에 산입하지 아니한다.\n⑧ ∼ ⑩ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2014-12-30"
+      },
+      {
+        "after_text": "제361조의3(항소이유서와 답변서) ① (현행과 같음)\n②항소이유서의 제출을 받은 항소법원은 지체없이 부본 또는 등본을 상대방에게 송달하여야 한다.\n③·④ (현행과 같음)",
+        "article_key": "article-361의3",
+        "article_number": "361의3",
+        "article_title": "제361조의3(항소이유서와 답변서)",
+        "before_text": "제361조의3(항소이유서와 답변서) ① (생  략)\n②항소이유서의 제출을 받은 항소법원은 지체없이 그 부본 또는 등본을 상대방에게 송달하여야 한다.\n③·④ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2014-12-30"
+      },
+      {
+        "after_text": "제438조(재심의 심판) ① (현행과 같음)\n②다음 경우에는 제306조제1항, 제328조제1항제2호의 규정은 전항의 심판에 적용하지 아니한다.\n1. 사망자 또는 회복할 수 없는 심신장애인을 위하여 재심의 청구가 있는 때\n2. 유죄의 선고를 받은 자가 재심의 판결 전에 사망하거나 회복할 수 없는 심신장애인으로 된 때\n③·④ (현행과 같음)",
+        "article_key": "article-438",
+        "article_number": "438",
+        "article_title": "제438조(재심의 심판)",
+        "before_text": "제438조(재심의 심판) ① (생  략)\n②다음 경우에는 제306조제1항, 제328조제1항제2호의 규정은 전항의 심판에 적용하지 아니한다.\n1. 사망자 또는 회복할 수 없는 심신장애자를 위하여 재심의 청구가 있는 때\n2. 유죄의 선고를 받은 자가 재심의 판결 전에 사망하거나 회복할 수 없는 심신장애자로 된 때\n③·④ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2014-12-30"
+      },
+      {
+        "after_text": "제487조(소송비용의 집행면제의 신청) 소송비용부담의 재판을 받은 자가 빈곤으로 인하여 이를 완납할 수 없는 때에는 그 재판의 확정 후 10일 이내에 재판을 선고한 법원에 소송비용의 전부 또는 일부에 대한 재판의 집행면제를 신청할 수 있다.",
+        "article_key": "article-487",
+        "article_number": "487",
+        "article_title": "제487조(소송비용의 집행면제의 신청)",
+        "before_text": "제487조(소송비용의 집행면제의 신청) 소송비용부담의 재판을 받은 자가 빈곤하여 이를 완납할 수 없는 때에는 그 재판의 확정 후 10일 이내에 재판을 선고한 법원에 소송비용의 전부 또는 일부에 대한 재판의 집행면제를 신청할 수 있다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2014-12-30"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "f724ae68fdcfcaae1a1ba6cbc481d0a805a3f66777ef03889a82aee98f76b779",
+      "credential_redacted": false,
+      "raw_sha256": "56abf17fe1de20c10988bec526864ad0de9dc3928156ebaf644ce8020440c1c7",
+      "request": {
+        "MST": "165507",
+        "target": "oldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "56abf17fe1de20c10988bec526864ad0de9dc3928156ebaf644ce8020440c1c7"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T23:48:12.107640+00:00",
+    "effective_date": "2014-12-30",
+    "event_id": "evt-6d0148537d3bf2ee7321d28ed021cf7c514d754a5a0d266a3bba9938200e58e2",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=165507",
+    "promulgation_or_issue_date": "2014-12-30",
+    "regulation_name": "형사소송법",
+    "regulation_type": "법률"
+  },
+  "schema_version": "1.4"
+}

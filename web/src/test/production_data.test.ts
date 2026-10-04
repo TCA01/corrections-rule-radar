@@ -20,7 +20,7 @@ describe('Production Data Smoke Test (public/api/v1/)', () => {
 
     expect(data.schema_version).toBe('1.4');
     expect(data.API_V1_CANDIDATE).toBe(true);
-    expect(data.rule_count).toBe(106);
+    expect(data.rule_count).toBe(107);
     expect(data.rules_url).toBe('/api/v1/rules.json');
     expect(data.health_url).toBe('/api/v1/health.json');
     expect(data.latest_changes_url).toBe('/api/v1/changes/latest.json');
@@ -37,27 +37,27 @@ describe('Production Data Smoke Test (public/api/v1/)', () => {
     expect(data.schema_version).toBe('1.4');
     expect(data.status).toBe('OK');
     expect(data.health_scope).toBe('PUBLISHED_DATASET');
-    expect(data.rule_count).toBe(106);
+    expect(data.rule_count).toBe(107);
     expect(data.classification_review_count).toBe(0);
     expect(data.review_count).toBe(0);
     expect(data.last_successful_sync).toBeTruthy();
   });
 
-  it('verifies rules.json contains expected 106 core rules, 104 current, 2 repealed, zero review', () => {
+  it('verifies rules.json contains expected 107 core rules, 105 current, 2 repealed, zero review', () => {
     const raw = fs.readFileSync(path.join(publicDir, 'rules.json'), 'utf-8');
     const data: RulesResponse = JSON.parse(raw);
 
     expect(data.schema_version).toBe('1.4');
-    expect(data.rules.length).toBe(106);
+    expect(data.rules.length).toBe(107);
 
     const currentRules = data.rules.filter((r) => r.status === 'CURRENT');
     const repealedRules = data.rules.filter((r) => r.status === 'REPEALED');
-    expect(currentRules.length).toBe(104);
+    expect(currentRules.length).toBe(105);
     expect(repealedRules.length).toBe(2);
 
     const classified = data.rules.filter((r) => r.classification_status === 'REVIEWED');
     const review = data.rules.filter((r) => r.classification_status === 'REVIEW');
-    expect(classified.length).toBe(106);
+    expect(classified.length).toBe(107);
     expect(review.length).toBe(0);
 
     // Verify all rules have provenance with selection_basis and API_TRACKABLE
@@ -103,7 +103,11 @@ describe('Production Data Smoke Test (public/api/v1/)', () => {
 
     expect(data.schema_version).toBe('1.4');
     expect(data.window_days).toBe(90);
-    expect(data.events.length).toBe(14);
+    const history = JSON.parse(fs.readFileSync(path.join(publicDir, 'changes/history.json'), 'utf-8'));
+    const publishedDay = JSON.parse(fs.readFileSync(path.join(publicDir, 'manifest.json'), 'utf-8')).published_at;
+    const today = new Date(new Date(publishedDay).getTime() + 9 * 3600_000).toISOString().slice(0, 10);
+    const cutoff = new Date(new Date(today).getTime() - 89 * 86400_000).toISOString().slice(0, 10);
+    expect(data.events.map((e) => e.event_id)).toEqual(history.events.filter((e: any) => cutoff <= e.effective_date && e.effective_date <= today).map((e: any) => e.event_id));
 
     for (const evt of data.events) {
       expect(evt.event_id).toMatch(/^evt-[a-f0-9]{64}$/);

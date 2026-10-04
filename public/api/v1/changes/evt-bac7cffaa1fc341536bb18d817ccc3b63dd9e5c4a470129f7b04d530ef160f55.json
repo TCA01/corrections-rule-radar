@@ -1,0 +1,63 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "8dfd770868cb13128856935044246d7d8fe620907507603104be1d6bb5ba11de",
+      "effective_date": "2016-02-01",
+      "identifier": "173582",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=173582",
+      "snapshot_url": "/api/v1/rules/law-001671/versions/173582-2016-02-01-ca5d22c914a6d2d2.json",
+      "version_id": "173582"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "60f1448d4a7401acce69ffff4e37fc7909eaf6119c5e7aabe5158897f9dadf92",
+      "effective_date": "2016-01-06",
+      "identifier": "179019",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=179019",
+      "snapshot_url": "/api/v1/rules/law-001671/versions/179019-2016-01-06-69eeee5c526a1cab.json",
+      "version_id": "179019"
+    },
+    "canonical_id": "law-001671",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 2,
+    "changed_articles": [
+      {
+        "after_text": "제163조(당사자의 참여권, 신문권)\n①검사, 피고인 또는 변호인은 증인신문에 참여할 수 있다.\n②증인신문의 시일과 장소는 전항의 규정에 의하여 참여할 수 있는 자에게 미리 통지하여야 한다. 단, 참여하지 아니한다는 의사를 명시한 때에는 예외로 한다.",
+        "article_key": "article-163",
+        "article_number": "163",
+        "article_title": "제163조(당사자의 참여권, 신문권)",
+        "before_text": "제163조(당사자의 참여권, 신문권)\n①검사, 피고인 또는 변호인은 증인신문에 참여할 수 있다.\n②증인신문의 시일과 장소는 전항의 규정에 의하여 참여할 수 있는 자에게 미리 통지하여야 한다. 단, 참여하지 아니한다는 의사를 명시한 때에는 예외로 한다.\n③삭제",
+        "change_type": "MODIFIED",
+        "effective_date": "2016-02-01"
+      },
+      {
+        "after_text": "제471조의2(형집행정지 심의위원회)\n① 제471조제1항제1호의 형집행정지 및 그 연장에 관한 사항을 심의하기 위하여 각 지방검찰청에 형집행정지 심의위원회(이하 이 조에서 \"심의위원회\"라 한다)를 둔다.\n② 심의위원회는 위원장 1명을 포함한 10명 이내의 위원으로 구성하고, 위원은 학계, 법조계, 의료계, 시민단체 인사 등 학식과 경험이 있는 사람 중에서 각 지방검찰청 검사장이 임명 또는 위촉한다.\n③ 심의위원회의 구성 및 운영 등 그 밖에 필요한 사항은 법무부령으로 정한다.",
+        "article_key": "article-471의2",
+        "article_number": "471의2",
+        "article_title": "제471조의2(형집행정지 심의위원회)",
+        "before_text": null,
+        "change_type": "ADDED",
+        "effective_date": "2016-02-01"
+      }
+    ],
+    "comparison_evidence": null,
+    "comparison_scope": "FULL_STRUCTURED_BODY",
+    "comparison_source": "STRUCTURED_SNAPSHOT_DIFF",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T23:48:12.107640+00:00",
+    "effective_date": "2016-02-01",
+    "event_id": "evt-bac7cffaa1fc341536bb18d817ccc3b63dd9e5c4a470129f7b04d530ef160f55",
+    "fallback_reason": "OFFICIAL_COMPARISON_PAIR_OR_TEXT_UNAVAILABLE",
+    "official_old_new_available": false,
+    "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=173582",
+    "promulgation_or_issue_date": "2015-07-31",
+    "regulation_name": "형사소송법",
+    "regulation_type": "법률"
+  },
+  "schema_version": "1.4"
+}

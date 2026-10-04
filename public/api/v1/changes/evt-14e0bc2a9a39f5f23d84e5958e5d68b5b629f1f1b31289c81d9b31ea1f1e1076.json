@@ -1,0 +1,72 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "a86ff20d6439d9320d316c98cb5a2679c5e99426131726e92453fb605dcbbd14",
+      "effective_date": "2021-11-18",
+      "identifier": "234655",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=234655",
+      "snapshot_url": "/api/v1/rules/law-001671/versions/234655-2021-11-18-6867c4317a8fd43e.json",
+      "version_id": "234655"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "29dc48afbd45579232b783255f1ce81408ec4ad3e6e14e8e2efe3acf115c957f",
+      "effective_date": "2021-06-09",
+      "identifier": "223447",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=223447",
+      "snapshot_url": "/api/v1/rules/law-001671/versions/223447-2021-06-09-a1870422306b79a4.json",
+      "version_id": "223447"
+    },
+    "canonical_id": "law-001671",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 3,
+    "changed_articles": [
+      {
+        "after_text": "제72조의2(고지의 방법)\n① 법원은 합의부원으로 하여금 제72조의 절차를 이행하게 할 수 있다.\n② 법원은 피고인이 출석하기 어려운 특별한 사정이 있고 상당하다고 인정하는 때에는 검사와 변호인의 의견을 들어 비디오 등 중계장치에 의한 중계시설을 통하여 제72조의 절차를 진행할 수 있다.",
+        "article_key": "article-72의2",
+        "article_number": "72의2",
+        "article_title": "제72조의2(고지의 방법)",
+        "before_text": "제72조의2(수명법관) 법원은 합의부원으로 하여금 제72조의 절차를 이행하게 할 수 있다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2021-11-18"
+      },
+      {
+        "after_text": "제165조의2(비디오 등 중계장치 등에 의한 증인신문)\n① 법원은 다음 각 호의 어느 하나에 해당하는 자를 증인으로 신문하는 경우 상당하다고 인정하는 때에는 검사와 피고인 또는 변호인의 의견을 들어 비디오 등 중계장치에 의한 중계시설을 통하여 신문하거나 차폐(遮蔽)시설 등을 설치하고 신문할 수 있다.\n1. 「아동복지법」 제71조제1항제1호부터 제3호까지에 해당하는 죄의 피해자\n2. 「아동ㆍ청소년의 성보호에 관한 법률」 제7조, 제8조, 제11조부터 제15조까지 및 제17조제1항의 규정에 해당하는 죄의 대상이 되는 아동ㆍ청소년 또는 피해자\n3. 범죄의 성질, 증인의 연령, 심신의 상태, 피고인과의 관계, 그 밖의 사정으로 인하여 피고인 등과 대면하여 진술하는 경우 심리적인 부담으로 정신의 평온을 현저하게 잃을 우려가 있다고 인정되는 자\n② 법원은 증인이 멀리 떨어진 곳 또는 교통이 불편한 곳에 살고 있거나 건강상태 등 그 밖의 사정으로 말미암아 법정에 직접 출석하기 어렵다고 인정하는 때에는 검사와 피고인 또는 변호인의 의견을 들어 비디오 등 중계장치에 의한 중계시설을 통하여 신문할 수 있다.\n③ 제1항과 제2항에 따른 증인신문은 증인이 법정에 출석하여 이루어진 증인신문으로 본다.\n④ 제1항과 제2항에 따른 증인신문의 실시에 필요한 사항은 대법원규칙으로 정한다.",
+        "article_key": "article-165의2",
+        "article_number": "165의2",
+        "article_title": "제165조의2(비디오 등 중계장치 등에 의한 증인신문)",
+        "before_text": "제165조의2(비디오 등 중계장치 등에 의한 증인신문) 법원은 다음 각 호의 어느 하나에 해당하는 자를 증인으로 신문하는 경우 상당하다고 인정하는 때에는 검사와 피고인 또는 변호인의 의견을 들어 비디오 등 중계장치에 의한 중계시설을 통하여 신문하거나 차폐(遮蔽)시설 등을 설치하고 신문할 수 있다.\n1. 「아동복지법」 제71조제1항제1호부터 제3호까지에 해당하는 죄의 피해자\n2. 「아동ㆍ청소년의 성보호에 관한 법률」 제7조, 제8조, 제11조부터 제15조까지 및 제17조제1항의 규정에 해당하는 죄의 대상이 되는 아동ㆍ청소년 또는 피해자\n3. 범죄의 성질, 증인의 연령, 심신의 상태, 피고인과의 관계, 그 밖의 사정으로 인하여 피고인 등과 대면하여 진술하는 경우 심리적인 부담으로 정신의 평온을 현저하게 잃을 우려가 있다고 인정되는 자",
+        "change_type": "MODIFIED",
+        "effective_date": "2021-11-18"
+      },
+      {
+        "after_text": "제266조의17(비디오 등 중계장치 등에 의한 공판준비기일)\n① 법원은 피고인이 출석하지 아니하는 경우 상당하다고 인정하는 때에는 검사와 변호인의 의견을 들어 비디오 등 중계장치에 의한 중계시설을 통하거나 인터넷 화상장치를 이용하여 공판준비기일을 열 수 있다.\n② 제1항에 따른 기일은 검사와 변호인이 법정에 출석하여 이루어진 공판준비기일로 본다.\n③ 제1항에 따른 기일의 절차와 방법, 그 밖에 필요한 사항은 대법원규칙으로 정한다.",
+        "article_key": "article-266의17",
+        "article_number": "266의17",
+        "article_title": "제266조의17(비디오 등 중계장치 등에 의한 공판준비기일)",
+        "before_text": null,
+        "change_type": "ADDED",
+        "effective_date": "2021-11-18"
+      }
+    ],
+    "comparison_evidence": null,
+    "comparison_scope": "FULL_STRUCTURED_BODY",
+    "comparison_source": "STRUCTURED_SNAPSHOT_DIFF",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T23:48:12.107640+00:00",
+    "effective_date": "2021-11-18",
+    "event_id": "evt-14e0bc2a9a39f5f23d84e5958e5d68b5b629f1f1b31289c81d9b31ea1f1e1076",
+    "fallback_reason": "OFFICIAL_COMPARISON_PAIR_OR_TEXT_UNAVAILABLE",
+    "official_old_new_available": false,
+    "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=234655",
+    "promulgation_or_issue_date": "2021-08-17",
+    "regulation_name": "형사소송법",
+    "regulation_type": "법률"
+  },
+  "schema_version": "1.4"
+}

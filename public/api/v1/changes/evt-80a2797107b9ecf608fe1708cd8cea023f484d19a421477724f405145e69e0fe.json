@@ -1,0 +1,63 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "d6274f08d9064e3293e599f66a8734ef9a3dd5dec909947674dd7604a7bf6916",
+      "effective_date": "2014-05-14",
+      "identifier": "153907",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=153907",
+      "snapshot_url": "/api/v1/rules/law-001671/versions/153907-2014-05-14-c39091ef7041b8e5.json",
+      "version_id": "153907"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "f2d51f5bd87d2ae524f9139ebc713f5ebe24f25893f283d0c89bd1400c37fb3f",
+      "effective_date": "2013-06-19",
+      "identifier": "130857",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=130857",
+      "snapshot_url": "/api/v1/rules/law-001671/versions/130857-2013-06-19-a4268107f5e35f04.json",
+      "version_id": "130857"
+    },
+    "canonical_id": "law-001671",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 2,
+    "changed_articles": [
+      {
+        "after_text": "제361조의3(항소이유서와 답변서)\n①항소인 또는 변호인은 전조의 통지를 받은 날로부터 20일 이내에 항소이유서를 항소법원에 제출하여야 한다. 이 경우 제344조를 준용한다.\n②항소이유서의 제출을 받은 항소법원은 지체없이 부본 또는 등본을 상대방에게 송달하여야 한다.\n③상대방은 전항의 송달을 받은 날로부터 10일 이내에 답변서를 항소법원에 제출하여야 한다.\n④답변서의 제출을 받은 항소법원은 지체없이 그 부본 또는 등본을 항소인 또는 변호인에게 송달하여야 한다.",
+        "article_key": "article-361의3",
+        "article_number": "361의3",
+        "article_title": "제361조의3(항소이유서와 답변서)",
+        "before_text": "제361조의3(항소이유서와 답변서)\n①항소인 또는 변호인은 전조의 통지를 받은 날로부터 20일 이내에 항소이유서를 항소법원에 제출하여야 한다. 이 경우 제344조를 준용한다.\n②항소이유서의 제출을 받은 항소법원은 지체없이 그 부본 또는 등본을 상대방에게 송달하여야 한다.\n③상대방은 전항의 송달을 받은 날로부터 10일 이내에 답변서를 항소법원에 제출하여야 한다.\n④답변서의 제출을 받은 항소법원은 지체없이 그 부본 또는 등본을 항소인 또는 변호인에게 송달하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2014-05-14"
+      },
+      {
+        "after_text": "제380조(상고기각 결정)\n①상고인이나 변호인이 전조제1항의 기간 내에 상고이유서를 제출하지 아니한 때에는 결정으로 상고를 기각하여야 한다. 단, 상고장에 이유의 기재가 있는 때에는 예외로 한다.\n② 상고장 및 상고이유서에 기재된 상고이유의 주장이 제383조 각 호의 어느 하나의 사유에 해당하지 아니함이 명백한 때에는 결정으로 상고를 기각하여야 한다.",
+        "article_key": "article-380",
+        "article_number": "380",
+        "article_title": "제380조(상고기각 결정)",
+        "before_text": "제380조(상고기각 결정) 상고인이나 변호인이 전조제1항의 기간 내에 상고이유서를 제출하지 아니한 때에는 결정으로 상고를 기각하여야 한다. 단, 상고장에 이유의 기재가 있는 때에는 예외로 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2014-05-14"
+      }
+    ],
+    "comparison_evidence": null,
+    "comparison_scope": "FULL_STRUCTURED_BODY",
+    "comparison_source": "STRUCTURED_SNAPSHOT_DIFF",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T23:48:12.107640+00:00",
+    "effective_date": "2014-05-14",
+    "event_id": "evt-80a2797107b9ecf608fe1708cd8cea023f484d19a421477724f405145e69e0fe",
+    "fallback_reason": "OFFICIAL_COMPARISON_PAIR_OR_TEXT_UNAVAILABLE",
+    "official_old_new_available": false,
+    "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=153907",
+    "promulgation_or_issue_date": "2014-05-14",
+    "regulation_name": "형사소송법",
+    "regulation_type": "법률"
+  },
+  "schema_version": "1.4"
+}

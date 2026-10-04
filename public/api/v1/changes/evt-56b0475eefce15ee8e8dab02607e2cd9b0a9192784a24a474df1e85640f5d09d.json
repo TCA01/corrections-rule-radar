@@ -1,0 +1,81 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "2f08862e287e1378bf36286c179379ea26720ecab70bb9a48472b3ab756fc75f",
+      "effective_date": "2019-12-31",
+      "identifier": "213019",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=213019",
+      "snapshot_url": "/api/v1/rules/law-001671/versions/213019-2019-12-31-1ea705372d3e0d48.json",
+      "version_id": "213019"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "889080da5f2364c28acc1ca00ca633b6786aec9180879b04912c7f5d21e9db8a",
+      "effective_date": "2018-01-07",
+      "identifier": "179019",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=179019",
+      "snapshot_url": "/api/v1/rules/law-001671/versions/179019-2018-01-07-a1a0cc1c3b414c0a.json",
+      "version_id": "179019"
+    },
+    "canonical_id": "law-001671",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 4,
+    "changed_articles": [
+      {
+        "after_text": "제137조(구속영장집행과 수색) 검사, 사법경찰관리 또는 제81조제2항의 규정에 의한 법원사무관등이 구속영장을 집행할 경우에 필요한 때에는 미리 수색영장을 발부받기 어려운 긴급한 사정이 있는 경우에 한정하여 타인의 주거, 간수자있는 가옥, 건조물, 항공기, 선차 내에 들어가 피고인을 수색할 수 있다.",
+        "article_key": "article-137",
+        "article_number": "137",
+        "article_title": "제137조(구속영장집행과 수색)",
+        "before_text": "제137조(구속영장집행과 수색) 검사, 사법경찰관리 또는 제81조제2항의 규정에 의한 법원사무관등이 구속영장을 집행할 경우에 필요한 때에는 타인의 주거, 간수자있는 가옥, 건조물, 항공기, 선차 내에 들어가 피고인을 수색할 수 있다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2019-12-31"
+      },
+      {
+        "after_text": "제216조(영장에 의하지 아니한 강제처분)\n①검사 또는 사법경찰관은 제200조의2ㆍ제200조의3ㆍ제201조 또는 제212조의 규정에 의하여 피의자를 체포 또는 구속하는 경우에 필요한 때에는 영장없이 다음 처분을 할 수 있다.\n1. 타인의 주거나 타인이 간수하는 가옥, 건조물, 항공기, 선차 내에서의 피의자 수색. 다만, 제200조의2 또는 제201조에 따라 피의자를 체포 또는 구속하는 경우의 피의자 수색은 미리 수색영장을 발부받기 어려운 긴급한 사정이 있는 때에 한정한다.\n2. 체포현장에서의 압수, 수색, 검증\n②전항 제2호의 규정은 검사 또는 사법경찰관이 피고인에 대한 구속영장의 집행의 경우에 준용한다.\n③범행 중 또는 범행직후의 범죄 장소에서 긴급을 요하여 법원판사의 영장을 받을 수 없는 때에는 영장없이 압수, 수색 또는 검증을 할 수 있다. 이 경우에는 사후에 지체없이 영장을 받아야 한다.",
+        "article_key": "article-216",
+        "article_number": "216",
+        "article_title": "제216조(영장에 의하지 아니한 강제처분)",
+        "before_text": "제216조(영장에 의하지 아니한 강제처분)\n①검사 또는 사법경찰관은 제200조의2ㆍ제200조의3ㆍ제201조 또는 제212조의 규정에 의하여 피의자를 체포 또는 구속하는 경우에 필요한 때에는 영장없이 다음 처분을 할 수 있다.\n1. 타인의 주거나 타인이 간수하는 가옥, 건조물, 항공기, 선차 내에서의 피의자 수사\n2. 체포현장에서의 압수, 수색, 검증\n②전항 제2호의 규정은 검사 또는 사법경찰관이 피고인에 대한 구속영장의 집행의 경우에 준용한다.\n③범행 중 또는 범행직후의 범죄 장소에서 긴급을 요하여 법원판사의 영장을 받을 수 없는 때에는 영장없이 압수, 수색 또는 검증을 할 수 있다. 이 경우에는 사후에 지체없이 영장을 받아야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2019-12-31"
+      },
+      {
+        "after_text": "제405조(즉시항고의 제기기간) 즉시항고의 제기기간은 7일로 한다.",
+        "article_key": "article-405",
+        "article_number": "405",
+        "article_title": "제405조(즉시항고의 제기기간)",
+        "before_text": "제405조(즉시항고의 제기기간) 즉시항고의 제기기간은 3일로 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2019-12-31"
+      },
+      {
+        "after_text": "제416조(준항고)\n①재판장 또는 수명법관이 다음 각 호의 1에 해당한 재판을 고지한 경우에 불복이 있으면 그 법관소속의 법원에 재판의 취소 또는 변경을 청구할 수 있다.\n1. 기피신청을 기각한 재판\n2. 구금, 보석, 압수 또는 압수물환부에 관한 재판\n3. 감정하기 위하여 피고인의 유치를 명한 재판\n4. 증인, 감정인, 통역인 또는 번역인에 대하여 과태료 또는 비용의 배상을 명한 재판\n②지방법원이 전항의 청구를 받은 때에는 합의부에서 결정을 하여야 한다.\n③제1항의 청구는 재판의 고지있는 날로부터 7일 이내에 하여야 한다.\n④제1항제4호의 재판은 전항의 청구기간 내와 청구가 있는 때에는 그 재판의 집행은 정지된다.",
+        "article_key": "article-416",
+        "article_number": "416",
+        "article_title": "제416조(준항고)",
+        "before_text": "제416조(준항고)\n①재판장 또는 수명법관이 다음 각 호의 1에 해당한 재판을 고지한 경우에 불복이 있으면 그 법관소속의 법원에 재판의 취소 또는 변경을 청구할 수 있다.\n1. 기피신청을 기각한 재판\n2. 구금, 보석, 압수 또는 압수물환부에 관한 재판\n3. 감정하기 위하여 피고인의 유치를 명한 재판\n4. 증인, 감정인, 통역인 또는 번역인에 대하여 과태료 또는 비용의 배상을 명한 재판\n②지방법원이 전항의 청구를 받은 때에는 합의부에서 결정을 하여야 한다.\n③제1항의 청구는 재판의 고지있는 날로부터 3일 이내에 하여야 한다.\n④제1항제4호의 재판은 전항의 청구기간 내와 청구가 있는 때에는 그 재판의 집행은 정지된다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2019-12-31"
+      }
+    ],
+    "comparison_evidence": null,
+    "comparison_scope": "FULL_STRUCTURED_BODY",
+    "comparison_source": "STRUCTURED_SNAPSHOT_DIFF",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T23:48:12.107640+00:00",
+    "effective_date": "2019-12-31",
+    "event_id": "evt-56b0475eefce15ee8e8dab02607e2cd9b0a9192784a24a474df1e85640f5d09d",
+    "fallback_reason": "OFFICIAL_COMPARISON_PAIR_OR_TEXT_UNAVAILABLE",
+    "official_old_new_available": false,
+    "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=213019",
+    "promulgation_or_issue_date": "2019-12-31",
+    "regulation_name": "형사소송법",
+    "regulation_type": "법률"
+  },
+  "schema_version": "1.4"
+}

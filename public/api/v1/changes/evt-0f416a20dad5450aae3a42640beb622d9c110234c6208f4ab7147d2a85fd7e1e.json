@@ -1,0 +1,82 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "c708e793fdc67898ecb2f96b24b593f45aa44c55cb2980a1df713dbdc4c122b5",
+      "effective_date": "2022-09-10",
+      "identifier": "242053",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=242053",
+      "snapshot_url": "/api/v1/rules/law-001671/versions/242053-2022-09-10-e972be6b06c1341e.json",
+      "version_id": "242053"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "4ebe645e6193ebad1a7b75db0c2eb0743865082448c656a0c8e20bc71dcaead2",
+      "effective_date": "2022-02-03",
+      "identifier": "240029",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=240029",
+      "snapshot_url": "/api/v1/rules/law-001671/versions/240029-2022-02-03-a69547f448ebdc64.json",
+      "version_id": "240029"
+    },
+    "canonical_id": "law-001671",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 3,
+    "changed_articles": [
+      {
+        "after_text": "제196조(검사의 수사) ① (현행과 같음)\n② 검사는 제197조의3제6항, 제198조의2제2항 및 제245조의7제2항에 따라 사법경찰관으로부터 송치받은 사건에 관하여는 해당 사건과 동일성을 해치지 아니하는 범위 내에서 수사할 수 있다.",
+        "article_key": "article-196",
+        "article_number": "196",
+        "article_title": "제196조(검사의 수사)",
+        "before_text": "제196조(검사의 수사) (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2022-09-10"
+      },
+      {
+        "after_text": "제198조(준수사항) ① ∼ ③ (현행과 같음)\n④ 수사기관은 수사 중인 사건의 범죄 혐의를 밝히기 위한 목적으로 합리적인 근거 없이 별개의 사건을 부당하게 수사하여서는 아니 되고, 다른 사건의 수사를 통하여 확보된 증거 또는 자료를 내세워 관련 없는 사건에 대한 자백이나 진술을 강요하여서도 아니 된다.",
+        "article_key": "article-198",
+        "article_number": "198",
+        "article_title": "제198조(준수사항)",
+        "before_text": "제198조(준수사항) ① ∼ ③ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2022-09-10"
+      },
+      {
+        "after_text": "제245조의7(고소인 등의 이의신청) ① 제245조의6의 통지를 받은 사람(고발인을 제외한다)은 해당 사법경찰관의 소속 관서의 장에게 이의를 신청할 수 있다.\n② (현행과 같음)",
+        "article_key": "article-245의7",
+        "article_number": "245의7",
+        "article_title": "제245조의7(고소인 등의 이의신청)",
+        "before_text": "제245조의7(고소인 등의 이의신청) ① 제245조의6의 통지를 받은 사람은 해당 사법경찰관의 소속 관서의 장에게 이의를 신청할 수 있다.\n② (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2022-09-10"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "b172a70381913a3be3d87b0a4cbc29fcafc91cc2ded528f1f1301ff8bc33f615",
+      "credential_redacted": false,
+      "raw_sha256": "df6b5174f85c5cbb1b657efb52d19e7caeef3b14563d12e6afb8f57cb2f26e4d",
+      "request": {
+        "MST": "242053",
+        "target": "oldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "df6b5174f85c5cbb1b657efb52d19e7caeef3b14563d12e6afb8f57cb2f26e4d"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T23:48:12.107640+00:00",
+    "effective_date": "2022-09-10",
+    "event_id": "evt-0f416a20dad5450aae3a42640beb622d9c110234c6208f4ab7147d2a85fd7e1e",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=242053",
+    "promulgation_or_issue_date": "2022-05-09",
+    "regulation_name": "형사소송법",
+    "regulation_type": "법률"
+  },
+  "schema_version": "1.4"
+}

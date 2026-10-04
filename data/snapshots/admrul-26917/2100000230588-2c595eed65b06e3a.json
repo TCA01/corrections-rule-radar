@@ -1,0 +1,73 @@
+{
+  "appendices": [],
+  "attachments": [
+    {
+      "title": "['교정공무원 예절 규정 폐지훈령(안).hwp', '교정공무원 예절 규정 폐지훈령(안).pdf', '교정공무원 예절 규정 폐지훈령(안).hwp', '교정공무원 예절 규정 폐지훈령(안).pdf']",
+      "type": "OFFICIAL_ATTACHMENT",
+      "url": "https://www.law.go.kr/['http:/law.go.kr/flDownload.do?flSeq=133937323%27%2C+%27http%3A%2F%2Flaw.go.kr%2FflDownload.do%3FflSeq%3D133937327%27%2C+%27http%3A%2F%2Flaw.go.kr%2FflDownload.do%3FflSeq%3D133937331%27%2C+%27http%3A%2F%2Flaw.go.kr%2FflDownload.do%3FflSeq%3D133937335%27%5D"
+    }
+  ],
+  "body": {
+    "addenda": {
+      "부칙공포번호": "1494",
+      "부칙공포일자": "20231019",
+      "부칙내용": "부칙 이 훈령은 발령한 날부터 시행한다."
+    },
+    "articles": "교정공무원 예절 규정(법무부훈령 제1372호)을 폐지한다."
+  },
+  "canonical_id": "admrul-26917",
+  "evidence": {
+    "cache_key": "875206224169a18bd592dc8543a6ae5eaecdb63100ee9252cba7e51f7b853c2b",
+    "credential_redacted": false,
+    "raw_sha256": "b1df9c698965dad67181771c6e9c75c9c73c811f6d811289fd8a9a4a303081e3",
+    "request": {
+      "ID": "2100000230588",
+      "target": "admrul",
+      "type": "JSON"
+    },
+    "stored_sha256": "b1df9c698965dad67181771c6e9c75c9c73c811f6d811289fd8a9a4a303081e3"
+  },
+  "hashes": {
+    "appendix_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "attachment_link_hash": "ecca165045137b8f8bce775d4e91f0a010f99244e1204748f0f687c3fba7d438",
+    "body_hash": "7778b45abb3cef3e9c298cc5c595e645ba6d72a9167db2f1ccc1ebabd15de6be",
+    "metadata_hash": "966c5dcbf20d22ede15031878a10e8fa34573311657ae7e6c65d3906887503dd"
+  },
+  "metadata": {
+    "amendment_type": "폐지",
+    "department": "법무부(교정기획과)",
+    "effective_date": "2023-10-19",
+    "issue_date": "2023-10-19",
+    "issue_number": "1494",
+    "ministry": "법무부",
+    "name": "교정공무원 예절 규정",
+    "official_state": "N",
+    "rule_type": "훈령"
+  },
+  "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000230588",
+  "repeal_evidence": {
+    "amendment_type": "폐지",
+    "canonical_id": "admrul-26917",
+    "history_evidence": [
+      {
+        "cache_key": "c99433b3173dc9ee1fc61a7964b58cfe15ae1de86432afbe8373a16c8d86fef7",
+        "credential_redacted": true,
+        "raw_sha256": "ed429c3f57db8309a4f46a93c5efa1120e91e0d34fb1559ea9c16f68cef6e754",
+        "request": {
+          "display": 100,
+          "nw": 2,
+          "page": 1,
+          "query": "교정공무원 예절 규정",
+          "target": "admrul",
+          "type": "JSON"
+        },
+        "stored_sha256": "2689d84883a1a7e50bef144f33ed8efbfb7ea5f2ac846392954382e301484082"
+      }
+    ],
+    "source": "OFFICIAL_HISTORY",
+    "version_id": "2100000230588"
+  },
+  "source_kind": "admrul",
+  "stable_identifier": "26917",
+  "version_id": "2100000230588"
+}

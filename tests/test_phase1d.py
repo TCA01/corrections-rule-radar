@@ -145,7 +145,8 @@ class Phase1DAuditTests(unittest.TestCase):
             self.assertEqual(second['result'],'NO_CHANGE'); self.assertEqual(third['result'],'NO_CHANGE')
             self.assertEqual(second['new_events'],0); self.assertEqual(third['new_events'],0)
             self.assertEqual(public_fingerprint(Path(tmp)),good)
-            write_json(ROOT/'data/reports/phase1f_legacy_rehearsal.json',{'record_count':len(collection['registry']),'transitions':[first['result'],'BLOCKED',second['result'],third['result']],'one_rule_failure_isolated':True,'last_good_preserved':True,'public_bytes_and_mtimes_preserved':True,'events_after_repeats':len(load(Path(tmp)/'data/registry/events.json')),'mode':'ISOLATED_TEMP_DIRECTORY; ACTIVE_1.4_CONTRACT; NO PRODUCTION PUBLICATION','dataset_version':first['dataset_version']})
+            report_name='phase1g_legacy_rehearsal.json' if len(load(ROOT/'data/registry/rules.json'))==107 else 'phase1f_legacy_rehearsal.json'
+            write_json(ROOT/'data/reports'/report_name,{'record_count':len(collection['registry']),'transitions':[first['result'],'BLOCKED',second['result'],third['result']],'one_rule_failure_isolated':True,'last_good_preserved':True,'public_bytes_and_mtimes_preserved':True,'events_after_repeats':len(load(Path(tmp)/'data/registry/events.json')),'mode':'ISOLATED_TEMP_DIRECTORY; ACTIVE_1.4_CONTRACT; NO PRODUCTION PUBLICATION','dataset_version':first['dataset_version']})
         self.assertEqual(before_production,fingerprint())
 
     def test_frozen_13_rejects_expanded_rule_kind_fail_closed(self):

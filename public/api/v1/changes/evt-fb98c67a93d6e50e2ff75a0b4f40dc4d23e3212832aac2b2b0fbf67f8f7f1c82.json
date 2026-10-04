@@ -1,0 +1,145 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "d812f34702824793890e286411129a1596261a101c07f16d9d53b6513df72895",
+      "effective_date": "2015-07-31",
+      "identifier": "173582",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=173582",
+      "snapshot_url": "/api/v1/rules/law-001671/versions/173582-2015-07-31-acba192867bd20ed.json",
+      "version_id": "173582"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "5f33711abe4bfb96146ce63e4e33b36e5e2e0007e48b879a0f91d7db8f6af0bb",
+      "effective_date": "2014-12-30",
+      "identifier": "165507",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=165507",
+      "snapshot_url": "/api/v1/rules/law-001671/versions/165507-2014-12-30-ee8e3f9355f20682.json",
+      "version_id": "165507"
+    },
+    "canonical_id": "law-001671",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 10,
+    "changed_articles": [
+      {
+        "after_text": "제29조(보조인) ① (현행과 같음)\n② 보조인이 될 수 있는 자가 없거나 장애 등의 사유로 보조인으로서 역할을 할 수 없는 경우에는 피고인 또는 피의자와 신뢰관계 있는 자가 보조인이 될 수 있다.\n③보조인이 되고자 하는 자는 심급별로 그 취지를 신고하여야 한다.\n④보조인은 독립하여 피고인 또는 피의자의 명시한 의사에 반하지 아니하는 소송행위를 할 수 있다. 단, 법률에 다른 규정이 있는 때에는 예외로 한다.",
+        "article_key": "article-29",
+        "article_number": "29",
+        "article_title": "제29조(보조인)",
+        "before_text": "제29조(보조인) ① (생  략)\n②보조인이 되고자 하는 자는 심급별로 그 취지를 신고하여야 한다.\n③보조인은 독립하여 피고인 또는 피의자의 명시한 의사에 반하지 아니하는 소송행위를 할 수 있다. 단, 법률에 다른 규정이 있는 때에는 예외로 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2015-07-31"
+      },
+      {
+        "after_text": "제48조(조서의 작성방식) ① ∼ ⑦ (현행과 같음)",
+        "article_key": "article-48",
+        "article_number": "48",
+        "article_title": "제48조(조서의 작성방식)",
+        "before_text": "제48조(조서의 작성방법) ① ∼ ⑦ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2015-07-31"
+      },
+      {
+        "after_text": "제49조(검증 등의 조서) ① (현행과 같음)\n②검증조서에는 검증목적물의 현상을 명확하게 하기 위하여 도화나 사진을 첨부할 수 있다.\n③ (현행과 같음)",
+        "article_key": "article-49",
+        "article_number": "49",
+        "article_title": "제49조(검증 등의 조서)",
+        "before_text": "제49조(검증 등의 조서) ① (생  략)\n②검증조서에는 검증목적물의 현장을 명확하게 하기 위하여 도화나 사진을 첨부할 수 있다.\n③ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2015-07-31"
+      },
+      {
+        "after_text": "제101조(구속의 집행정지) ①·② (현행과 같음)\n④·⑤ (현행과 같음)",
+        "article_key": "article-101",
+        "article_number": "101",
+        "article_title": "제101조(구속의 집행정지)",
+        "before_text": "제101조(구속의 집행정지) ①·② (생  략)\n③제1항의 결정에 대하여는 검사는 즉시항고를 할 수 있다.\n④·⑤ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2015-07-31"
+      },
+      {
+        "after_text": "제111조(공무상 비밀과 압수) ①공무원 또는 공무원이었던 자가 소지 또는 보관하는 물건에 관하여는 본인 또는 그 당해 공무소가 직무상의 비밀에 관한 것임을 신고한 때에는 그 소속공무소 또는 당해 감독관공서의 승낙 없이는 압수하지 못한다.\n② (현행과 같음)",
+        "article_key": "article-111",
+        "article_number": "111",
+        "article_title": "제111조(공무상 비밀과 압수)",
+        "before_text": "제111조(공무상 비밀과 압수) ①공무원 또는 공무원이었던 자가 소지 또는 보관하는 물건에 관하여는 본인 또는 그 해당 공무소가 직무상의 비밀에 관한 것임을 신고한 때에는 그 소속공무소 또는 당해 감독관공서의 승낙 없이는 압수하지 못한다.\n② (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2015-07-31"
+      },
+      {
+        "after_text": "제163조(당사자의 참여권, 신문권) ①·② (현행과 같음)",
+        "article_key": "article-163",
+        "article_number": "163",
+        "article_title": "제163조(당사자의 참여권, 신문권)",
+        "before_text": "제163조(당사자의 참여권, 신문권) ①·② (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2015-07-31"
+      },
+      {
+        "after_text": "제201조의2(구속영장 청구와 피의자 심문) ① ∼ ⑥ (현행과 같음)\n⑦피의자심문을 하는 경우 법원이 구속영장청구서ㆍ수사 관계 서류 및 증거물을 접수한 날부터 구속영장을 발부하여 검찰청에 반환한 날까지의 기간은 제202조 및 제203조의 적용에 있어서 그 구속기간에 산입하지 아니한다.\n⑧ ∼ ⑩ (현행과 같음)",
+        "article_key": "article-201의2",
+        "article_number": "201의2",
+        "article_title": "제201조의2(구속영장 청구와 피의자 심문)",
+        "before_text": "제201조의2(구속영장 청구와 피의자 심문) ① ∼ ⑥ (생  략)\n⑦피의자심문을 하는 경우 법원이 구속영장청구서ㆍ수사 관계 서류 및 증거물을 접수한 날부터 구속영장을 발부하여 검찰청에 반환한 날까지의 기간은 제202조 및 제203조의 적용에 있어서 그 구속기간에 이를 산입하지 아니한다.\n⑧ ∼ ⑩ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2015-07-31"
+      },
+      {
+        "after_text": "제361조의3(항소이유서와 답변서) ① (현행과 같음)\n②항소이유서의 제출을 받은 항소법원은 지체없이 그 부본 또는 등본을 상대방에게 송달하여야 한다.\n③·④ (현행과 같음)",
+        "article_key": "article-361의3",
+        "article_number": "361의3",
+        "article_title": "제361조의3(항소이유서와 답변서)",
+        "before_text": "제361조의3(항소이유서와 답변서) ① (생  략)\n②항소이유서의 제출을 받은 항소법원은 지체없이 부본 또는 등본을 상대방에게 송달하여야 한다.\n③·④ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2015-07-31"
+      },
+      {
+        "after_text": "제482조(판결확정 전 구금일수 등의 산입) ① 판결선고 후 판결확정 전 구금일수(판결선고 당일의 구금일수를 포함한다)는 전부를 본형에 산입한다.\n②상소기각 결정 시에 송달기간이나 즉시항고기간 중의 미결구금일수는 전부를 본형에 산입한다.\n③ 제1항 및 제2항의 경우에는 구금일수의 1일을 형기의 1일 또는 벌금이나 과료에 관한 유치기간의 1일로 계산한다.",
+        "article_key": "article-482",
+        "article_number": "482",
+        "article_title": "제482조(판결확정 전 구금일수 등의 산입)",
+        "before_text": "제482조(상소제기후 판결전 구금일수 등의 산입) ①상소제기 후의 판결선고 전 구금일수는 다음 경우에는 전부를 본형에 산입한다.1. 검사가 상소를 제기한 때2. 검사가 아닌 자가 상소를 제기한 경우에 원심판결이 파기된 때\n②상소제기기간중의 판결확정전 구금일수(상소제기후의 구금일수를 제외한다)는 전부 본형에 산입한다.\n③상소기각 결정 시에 송달기간이나 즉시항고기간 중의 미결구금일수는 전부를 본형에 산입한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2015-07-31"
+      },
+      {
+        "after_text": "제487조(소송비용의 집행면제의 신청) 소송비용부담의 재판을 받은 자가 빈곤하여 이를 완납할 수 없는 때에는 그 재판의 확정 후 10일 이내에 재판을 선고한 법원에 소송비용의 전부 또는 일부에 대한 재판의 집행면제를 신청할 수 있다.",
+        "article_key": "article-487",
+        "article_number": "487",
+        "article_title": "제487조(소송비용의 집행면제의 신청)",
+        "before_text": "제487조(소송비용의 집행면제의 신청) 소송비용부담의 재판을 받은 자가 빈곤으로 인하여 이를 완납할 수 없는 때에는 그 재판의 확정 후 10일 이내에 재판을 선고한 법원에 소송비용의 전부 또는 일부에 대한 재판의 집행면제를 신청할 수 있다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2015-07-31"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "9c6aa4b682e11f46d60348db90948acc835c407fa329d5041bab7079b4c152d5",
+      "credential_redacted": false,
+      "raw_sha256": "a11073b9793889811a87ff2fd7a3bd7f7606d1e569759db8311892b7ff8dbb35",
+      "request": {
+        "MST": "173582",
+        "target": "oldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "a11073b9793889811a87ff2fd7a3bd7f7606d1e569759db8311892b7ff8dbb35"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T23:48:12.107640+00:00",
+    "effective_date": "2015-07-31",
+    "event_id": "evt-fb98c67a93d6e50e2ff75a0b4f40dc4d23e3212832aac2b2b0fbf67f8f7f1c82",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=173582",
+    "promulgation_or_issue_date": "2015-07-31",
+    "regulation_name": "형사소송법",
+    "regulation_type": "법률"
+  },
+  "schema_version": "1.4"
+}

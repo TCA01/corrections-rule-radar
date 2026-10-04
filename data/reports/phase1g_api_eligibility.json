@@ -1,0 +1,76 @@
+{
+  "api_tracking_class": "API_TRACKABLE",
+  "canonical_id": "law-001671",
+  "current_mst": "290189",
+  "discovery_candidate_hits": [],
+  "duration_seconds": 6.796,
+  "hashes": {
+    "appendix_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "attachment_link_hash": "26eeb5367ea76122f170d6a1603b24eaa6691b524eda960ff6de4b20cda8fe16",
+    "body_hash": "5f13501d6de48221d9b5f4ee6b27f464963a50f58281df07ac45fc5b3a7b7f87",
+    "metadata_hash": "3a5574cba761a59ee9c41f798ff623b0599b2b4dfa9423b4f9baa9f6c3754a78"
+  },
+  "history_evidence": [
+    {
+      "cache_key": "f96e1336326c4ee29e84861a80662bd65b51e86d30afe3bedf56a05ebeac3db8",
+      "credential_redacted": true,
+      "raw_sha256": "abd1c1c136690567dd0a1a42618b46f35dbaff8d1f8d89b4cc0581f1f500b876",
+      "request": {
+        "LID": "001671",
+        "display": 100,
+        "nw": "1,2,3",
+        "page": 1,
+        "target": "eflaw",
+        "type": "JSON"
+      },
+      "stored_sha256": "f6250e4ddbcf2dd6f5cb6745715b05a20b92fd152bebdd71f41004379e3a126c"
+    }
+  ],
+  "history_version_count": 58,
+  "list_evidence": [
+    {
+      "cache_key": "cd13b983a0a1b07502c71d85dcad5e0701efc41085b9121f5f730f1d6124abb8",
+      "credential_redacted": true,
+      "raw_sha256": "5f04ea617cbb038a7d77218bdd0b3050f8699cca63e66a78ab4743e629ea084d",
+      "request": {
+        "display": 100,
+        "nw": "2,3",
+        "page": 1,
+        "query": "형사소송법",
+        "target": "eflaw",
+        "type": "JSON"
+      },
+      "stored_sha256": "3461decfbdb10b51adb7e681cc112882f5611519d977f2eb8e774ad933399b88"
+    }
+  ],
+  "metadata": {
+    "amendment_type": "일부개정",
+    "department": null,
+    "effective_date": "2026-10-02",
+    "issue_date": "2026-09-29",
+    "issue_number": "22009",
+    "ministry": "법무부",
+    "name": "형사소송법",
+    "official_state": null,
+    "rule_type": "법률"
+  },
+  "metrics": {
+    "api_request_count": 7,
+    "api_response_seconds": 4.765,
+    "average_api_response_seconds": 0.680714,
+    "public_page_request_count": 0,
+    "public_page_response_seconds": 0.0,
+    "retry_count": 0,
+    "total_http_request_count": 7,
+    "transport_error_summary": {}
+  },
+  "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290189",
+  "official_title": "형사소송법",
+  "phase": "PHASE1G",
+  "production_duplicate_hits": [],
+  "snapshot_diff_capability": true,
+  "stable_law_id": "001671",
+  "status": "PASS",
+  "structured_article_count": 617,
+  "verified_at": "2026-10-03T23:38:50.923544+00:00"
+}

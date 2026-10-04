@@ -1,14 +1,14 @@
-# 교정업무 변경 레이더 — Phase 1F
+# 교정관련 규정 추적기 — Phase 1G
 
-Python Law.go.kr pipeline and React Web W1. No Android app, Firebase deployment,
-OCR, attachment downloads or legal interpretations are implemented here.
+Python Law.go.kr pipeline and React Web, hosted in the existing Firebase project.
+No Android app, OCR, attachment downloads or legal interpretations are included.
 
-Current: the approved production registry expands from 68 to 106 API-trackable
-records. Main schema 1.4 adds factual provenance and the 보고 domain to the
-persistent history contract. Immutable archives remain 1.1 and existing event
-details retain 1.3. No frontend edits or deployment are included. Web W4 consumes
-schema 1.4 separately. See docs/phase1f_contract.md and
-data/reports/phase1f_expansion.md. Phase 1D audit evidence is preserved.
+Current: Phase 1G explicitly adds only 형사소송법 to the previous 106 records:
+107 API-trackable rules, 105 current and 2 historical/repealed. Schema remains
+1.4 and all previous immutable snapshots/events are preserved. Existing Web W4
+consumes the record automatically; the footer adds the approved creator credit
+and personal-project disclaimer. See docs/phase1g_contract.md and
+data/reports/phase1g_expansion.json. Phase 1D/1F evidence is preserved.
 
 Phase 1A: `python scripts/observe.py --runs 3` observes normal live syncs;
 `python scripts/verify.py` verifies recovery, contracts and secrets;

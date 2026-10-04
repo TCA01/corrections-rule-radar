@@ -1,0 +1,73 @@
+{
+  "appendices": [],
+  "attachments": [
+    {
+      "title": "['예규 제1256호-교정기관 간판게시 및 교정직제 영문표기에 관한 지침 폐지.hwp', '예규 제1256호-교정기관 간판게시 및 교정직제 영문표기에 관한 지침 폐지.hwp']",
+      "type": "OFFICIAL_ATTACHMENT",
+      "url": "https://www.law.go.kr/['http:/law.go.kr/flDownload.do?flSeq=66721959%27%2C+%27http%3A%2F%2Flaw.go.kr%2FflDownload.do%3FflSeq%3D66721961%27%5D"
+    }
+  ],
+  "body": {
+    "addenda": {
+      "부칙공포번호": "1256",
+      "부칙공포일자": "20200608",
+      "부칙내용": "부칙 제1조(시행일) 이 예규는 발령한 날부터 시행한다."
+    },
+    "articles": "「교정기관 간판게시 및 교정직제 영문표기에 관한 지침」(법무부예규 제869호)을 폐지한다."
+  },
+  "canonical_id": "admrul-26424",
+  "evidence": {
+    "cache_key": "e6417abfc834a852483d6deda41a525799f506ceebcf8cbb7246e8a54ed4dd1b",
+    "credential_redacted": false,
+    "raw_sha256": "05c72089e56ff4904821dd21713536d0895961aceff8894a292d3848d753fcae",
+    "request": {
+      "ID": "2100000189927",
+      "target": "admrul",
+      "type": "JSON"
+    },
+    "stored_sha256": "05c72089e56ff4904821dd21713536d0895961aceff8894a292d3848d753fcae"
+  },
+  "hashes": {
+    "appendix_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "attachment_link_hash": "815c797853f7defea7c99ebfef576f3ad9c208c292abfc7df979c04dbc317f6c",
+    "body_hash": "2776dee34dd28cfe85363e039564cb00d65640467f5c13292e6e0add0d41a390",
+    "metadata_hash": "2c9a4adc768905096071974f18d917f2f0ea094b0a9a61b4d1c62684fa962889"
+  },
+  "metadata": {
+    "amendment_type": "폐지",
+    "department": "법무부(교정기획과)",
+    "effective_date": "2020-06-08",
+    "issue_date": "2020-06-08",
+    "issue_number": "1256",
+    "ministry": "법무부",
+    "name": "교정기관 간판게시 및 교정직제 영문표기에 관한 지침",
+    "official_state": "N",
+    "rule_type": "예규"
+  },
+  "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000189927",
+  "repeal_evidence": {
+    "amendment_type": "폐지",
+    "canonical_id": "admrul-26424",
+    "history_evidence": [
+      {
+        "cache_key": "30d9bee81d031191d3224182ba50b01bcee90031846f788deea5647048727967",
+        "credential_redacted": true,
+        "raw_sha256": "4f42cffd7a06db8531d5dcb1ca24d6574d5446c7b36ba34648ec057da394a06b",
+        "request": {
+          "display": 100,
+          "nw": 2,
+          "page": 1,
+          "query": "교정기관 간판게시 및 교정직제 영문표기에 관한 지침",
+          "target": "admrul",
+          "type": "JSON"
+        },
+        "stored_sha256": "02d31a6c20b79fbf5e3caec674f13edad39f1abaa07ad616d17dec59d9c3ea1f"
+      }
+    ],
+    "source": "OFFICIAL_HISTORY",
+    "version_id": "2100000189927"
+  },
+  "source_kind": "admrul",
+  "stable_identifier": "26424",
+  "version_id": "2100000189927"
+}

@@ -1964,17 +1964,21 @@ a:hover {
   flex-wrap: wrap;
 }
 
-.footer-brand h3 {
-  font-size: 1.125rem;
-  font-weight: 800;
-  color: var(--color-text-main);
-  margin-bottom: 0.375rem;
+.footer-creator {
+  max-width: 420px;
 }
 
-.footer-brand p {
+.creator-credit {
   font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--color-text-main);
+  line-height: 1.6;
+}
+
+.creator-disclaimer {
+  margin-top: 0.375rem;
+  font-size: 0.6875rem;
   color: var(--color-text-muted);
-  max-width: 420px;
   line-height: 1.6;
 }
 

@@ -1,0 +1,63 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "7277ab6c0f4e9056b3212c79bb4880fbecd27fb83c303c95e6635766fd3fac9e",
+      "effective_date": "2027-08-05",
+      "identifier": "288579",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=288579",
+      "snapshot_url": "/api/v1/rules/law-001671/versions/288579-2027-08-05-eec723645c81f23d.json",
+      "version_id": "288579"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "009b3200b741659950b2fb219d1c22d538a25c916ec88a879137161a6f4a6928",
+      "effective_date": "2027-02-05",
+      "identifier": "288579",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=288579",
+      "snapshot_url": "/api/v1/rules/law-001671/versions/288579-2027-02-05-41d66ada95a4c1fa.json",
+      "version_id": "288579"
+    },
+    "canonical_id": "law-001671",
+    "change_type": "EFFECTIVE_DATE_CORRECTED",
+    "change_types": [
+      "EFFECTIVE_DATE_CORRECTED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 2,
+    "changed_articles": [
+      {
+        "after_text": "제220조의2(압수ㆍ수색ㆍ검증의 영상녹화)\n① 사법경찰관은 영장이나 제216조 및 제217조에 따라 압수ㆍ수색ㆍ검증을 실시하는 경우 강제수사 개시부터 종료까지의 전 과정을 영상녹화장치(신체 착용형 촬영기기를 포함한다. 이하 같다)로 촬영ㆍ녹화하여야 한다. 다만, 영상녹화장치가 없거나 신속한 수사 등 상당한 이유가 있는 때에는 그러하지 아니하다.\n② 사법경찰관은 제1항에 따른 촬영ㆍ녹화를 하는 경우 피의자, 피해자 및 사건관계인의 사생활의 비밀, 인격권 등이 침해되지 아니하도록 노력하여야 한다.\n③ 제1항 및 제2항에 따라 촬영ㆍ녹화한 영상기록은 지체 없이 수사기록에 편철되고 형사사법정보시스템에 등재되어야 한다.\n④ 피의자ㆍ피고인, 그 변호인 또는 압수ㆍ수색ㆍ검증을 받은 자는 제3항에 따라 보관된 영상기록의 열람 또는 복사를 사법경찰관 또는 검사에게 신청할 수 있다. 이 경우 사법경찰관 또는 검사는 제245조의12제2항부터 제5항까지를 준용하여 허가하지 아니하거나 사용목적 제한 등을 할 수 있다.\n⑤ 그 밖에 압수ㆍ수색ㆍ검증의 영상녹화를 위한 구체적인 범위, 절차, 방식 등에 필요한 사항은 대통령령으로 정한다.",
+        "article_key": "article-220의2",
+        "article_number": "220의2",
+        "article_title": "제220조의2(압수ㆍ수색ㆍ검증의 영상녹화)",
+        "before_text": null,
+        "change_type": "ADDED",
+        "effective_date": "2027-08-05"
+      },
+      {
+        "after_text": "제244조의6(피의자신문 등의 녹음)\n① 사법경찰관은 제244조의2에 따라 영상녹화를 하는 경우를 제외하고 피의자신문의 전 과정을 녹음할 수 있다. 이 경우 미리 녹음사실을 알려주어야 한다.\n② 사법경찰관이 사건의 범죄 혐의를 밝히기 위한 목적으로 이루어지는 조사, 면담 등 명칭과 관계 없이 피의자의 진술을 듣는 경우 피의자 또는 변호인의 요청이 있으면 피의자의 진술을 녹음하여야 한다.\n③ 제244조의2제2항 및 제3항은 피의자신문 등의 녹음에 준용한다. 이 경우 \"영상녹화\"는 \"녹음\"으로, \"영상녹화물\"은 \"녹음물\"로, \"시청\"은 \"청취\"로 본다.",
+        "article_key": "article-244의6",
+        "article_number": "244의6",
+        "article_title": "제244조의6(피의자신문 등의 녹음)",
+        "before_text": null,
+        "change_type": "ADDED",
+        "effective_date": "2027-08-05"
+      }
+    ],
+    "comparison_evidence": null,
+    "comparison_scope": "FULL_STRUCTURED_BODY",
+    "comparison_source": "STRUCTURED_SNAPSHOT_DIFF",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T23:48:12.107640+00:00",
+    "effective_date": "2027-08-05",
+    "event_id": "evt-9ee405a05ad38f4264412b53733b45fc46f5aebb1cc98a83fcc5f9f67ce0a77a",
+    "fallback_reason": "OFFICIAL_COMPARISON_PAIR_OR_TEXT_UNAVAILABLE",
+    "official_old_new_available": false,
+    "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=288579",
+    "promulgation_or_issue_date": "2026-08-04",
+    "regulation_name": "형사소송법",
+    "regulation_type": "법률"
+  },
+  "schema_version": "1.4"
+}

@@ -21,6 +21,13 @@ from test_pipeline import ROOT,AT,load,evidence_collection
 def expanded():
     staged=ROOT/'data/staging/phase1f_collection.json'
     collection=load(staged) if staged.exists() else evidence_collection()
+    # This regression represents the historical Phase 1F release scope even
+    # after separately approved additions enter the current registry.
+    approved=approved_candidates(load(ROOT/'data/reports/phase1d_api_eligibility.json'))
+    ids=set(load(ROOT/'tests/fixtures/phase1f_previous_core.json')['previous_ids'])|{r['canonical_id'] for r in approved}
+    collection['registry']=[r for r in collection['registry'] if r['canonical_id'] in ids]
+    for field in ('snapshots','future'): collection[field]={cid:s for cid,s in collection[field].items() if cid in ids}
+    collection['resolution']=[r for r in collection['resolution'] if r['canonical_id'] in ids]
     collection=apply_provenance(collection,load(ROOT/'data/registry/provenance.json'))
     return apply_domains(collection,load(ROOT/'data/registry/business_domains.json'))
 

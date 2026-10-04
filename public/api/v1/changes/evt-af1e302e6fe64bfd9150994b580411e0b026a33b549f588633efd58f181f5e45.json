@@ -1,0 +1,91 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "baab3a147fe7b2630150e5ab138b3d74afc95e7734754719420be5feec2a63c1",
+      "effective_date": "2021-01-01",
+      "identifier": "213829",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=213829",
+      "snapshot_url": "/api/v1/rules/law-001671/versions/213829-2021-01-01-0d9c0d1627bdb91e.json",
+      "version_id": "213829"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "2f08862e287e1378bf36286c179379ea26720ecab70bb9a48472b3ab756fc75f",
+      "effective_date": "2019-12-31",
+      "identifier": "213019",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=213019",
+      "snapshot_url": "/api/v1/rules/law-001671/versions/213019-2019-12-31-1ea705372d3e0d48.json",
+      "version_id": "213019"
+    },
+    "canonical_id": "law-001671",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 4,
+    "changed_articles": [
+      {
+        "after_text": "제195조(검사와 사법경찰관의 관계 등) ① 검사와 사법경찰관은 수사, 공소제기 및 공소유지에 관하여 서로 협력하여야 한다.\n② 제1항에 따른 수사를 위하여 준수하여야 하는 일반적 수사준칙에 관한 사항은 대통령령으로 정한다.",
+        "article_key": "article-195",
+        "article_number": "195",
+        "article_title": "제195조(검사와 사법경찰관의 관계 등)",
+        "before_text": "제195조(검사의 수사) 검사는 범죄의 혐의 있다고 사료하는 때에는 범인, 범죄사실과 증거를 수사하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2021-01-01"
+      },
+      {
+        "after_text": "제196조(검사의 수사) 검사는 범죄의 혐의가 있다고 사료하는 때에는 범인, 범죄사실과 증거를 수사한다.",
+        "article_key": "article-196",
+        "article_number": "196",
+        "article_title": "제196조(검사의 수사)",
+        "before_text": "제196조(사법경찰관리) ① 수사관, 경무관, 총경, 경정, 경감, 경위는 사법경찰관으로서 모든 수사에 관하여 검사의 지휘를 받는다.② 사법경찰관은 범죄의 혐의가 있다고 인식하는 때에는 범인, 범죄사실과 증거에 관하여 수사를 개시ㆍ진행하여야 한다.③ 사법경찰관리는 검사의 지휘가 있는 때에는 이에 따라야 한다. 검사의 지휘에 관한 구체적 사항은 대통령령으로 정한다.④ 사법경찰관은 범죄를 수사한 때에는 관계 서류와 증거물을 지체 없이 검사에게 송부하여야 한다.⑤ 경사, 경장, 순경은 사법경찰리로서 수사의 보조를 하여야 한다.⑥ 제1항 또는 제5항에 규정한 자 이외에 법률로써 사법경찰관리를 정할 수 있다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2021-01-01"
+      },
+      {
+        "after_text": "제197조(사법경찰관리) ① 경무관, 총경, 경정, 경감, 경위는 사법경찰관으로서 범죄의 혐의가 있다고 사료하는 때에는 범인, 범죄사실과 증거를 수사한다.② 경사, 경장, 순경은 사법경찰리로서 수사의 보조를 하여야 한다.③ 삭  제④ 삭  제⑤ 삭  제⑥ 삭제",
+        "article_key": "article-197",
+        "article_number": "197",
+        "article_title": "제197조(사법경찰관리)",
+        "before_text": "제197조(특별사법경찰관리) 삼림, 해사, 전매, 세무, 군수사기관 기타 특별한 사항에 관하여 사법경찰관리의 직무를 행할 자와 그 직무의 범위는 법률로써 정한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2021-01-01"
+      },
+      {
+        "after_text": "제312조(검사 또는 사법경찰관의 조서 등) ① 검사가 작성한 피의자신문조서는 적법한 절차와 방식에 따라 작성된 것으로서 공판준비, 공판기일에 그 피의자였던 피고인 또는 변호인이 그 내용을 인정할 때에 한정하여 증거로 할 수 있다.\n③ ∼ ⑥ (현행과 같음)",
+        "article_key": "article-312",
+        "article_number": "312",
+        "article_title": "제312조(검사 또는 사법경찰관의 조서 등)",
+        "before_text": "제312조(검사 또는 사법경찰관의 조서 등) ①검사가 피고인이 된 피의자의 진술을 기재한 조서는 적법한 절차와 방식에 따라 작성된 것으로서 피고인이 진술한 내용과 동일하게 기재되어 있음이 공판준비 또는 공판기일에서의 피고인의 진술에 의하여 인정되고, 그 조서에 기재된 진술이 특히 신빙할 수 있는 상태하에서 행하여졌음이 증명된 때에 한하여 증거로 할 수 있다.\n②제1항에도 불구하고 피고인이 그 조서의 성립의 진정을 부인하는 경우에는 그 조서에 기재된 진술이 피고인이 진술한 내용과 동일하게 기재되어 있음이 영상녹화물이나 그 밖의 객관적인 방법에 의하여 증명되고, 그 조서에 기재된 진술이 특히 신빙할 수 있는 상태 하에서 행하여졌음이 증명된 때에 한하여 증거로 할 수 있다.\n③ ∼ ⑥ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2021-01-01"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "d5934c78222f912155482a0d79812d4d8a61f5014bb242fa7aca1f78deb971a5",
+      "credential_redacted": false,
+      "raw_sha256": "1881bb7e73c27adec88d8c65608cf2faa7234a39b1d721a781b4da29018450eb",
+      "request": {
+        "MST": "213829",
+        "target": "oldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "1881bb7e73c27adec88d8c65608cf2faa7234a39b1d721a781b4da29018450eb"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T23:48:12.107640+00:00",
+    "effective_date": "2021-01-01",
+    "event_id": "evt-af1e302e6fe64bfd9150994b580411e0b026a33b549f588633efd58f181f5e45",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=213829",
+    "promulgation_or_issue_date": "2020-02-04",
+    "regulation_name": "형사소송법",
+    "regulation_type": "법률"
+  },
+  "schema_version": "1.4"
+}

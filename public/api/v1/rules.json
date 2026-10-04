@@ -1,5 +1,5 @@
 {
-  "dataset_version": "ds-98bdc9ab4f0c49b90a76fe0a00c8efee2fdc7f7079c3cabc098c6da41ce1bc37",
+  "dataset_version": "ds-ad3e2e2e1e7022e1725ced2003bb82c7ff4508408f1d9356218112235e66d590",
   "rules": [
     {
       "business_domains": [
@@ -4538,6 +4538,57 @@
       "source_kind": "law",
       "status": "CURRENT",
       "version_id": "290191"
+    },
+    {
+      "business_domains": [
+        "수용·보안"
+      ],
+      "canonical_id": "law-001671",
+      "classification_status": "REVIEWED",
+      "corrections_category": "법률",
+      "current_name": "형사소송법",
+      "detail_url": "/api/v1/rules/law-001671.json",
+      "domain_assignment_status": "EVIDENCE_BASED",
+      "historical_names": [],
+      "metadata": {
+        "amendment_type": "일부개정",
+        "department": null,
+        "effective_date": "2026-10-02",
+        "issue_date": "2026-09-29",
+        "issue_number": "22009",
+        "ministry": "법무부",
+        "name": "형사소송법",
+        "official_state": null,
+        "rule_type": "법률"
+      },
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290189",
+      "primary_domain": "수용·보안",
+      "provenance": {
+        "api_tracking_class": "API_TRACKABLE",
+        "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+        "applies_to": [
+          "수용기록 업무",
+          "구속·영장 관련 업무",
+          "석방 관련 업무"
+        ],
+        "canonical_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290189",
+        "discovery_source": [
+          "MANUAL_OFFICIAL_REVIEW",
+          "LAW_API_KEYWORD"
+        ],
+        "history_source": "LAWGO_STRUCTURED_HISTORY",
+        "official_seed_name": null,
+        "official_seed_url": null,
+        "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+        "scope_review_status": "APPROVED",
+        "selection_basis": "수용기록 업무에서 구속·영장·석방 등 형사절차 관련 사항 확인에 직접 활용되는 기본법",
+        "structured_body_source": "LAWGO_JSON_XML"
+      },
+      "secondary_domains": [],
+      "seed_names": [],
+      "source_kind": "law",
+      "status": "CURRENT",
+      "version_id": "290189"
     },
     {
       "business_domains": [

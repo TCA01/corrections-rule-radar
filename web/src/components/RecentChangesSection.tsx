@@ -135,7 +135,7 @@ export const RecentChangesSection: React.FC<RecentChangesSectionProps> = ({
                     </td>
                     <td className="recent-articles-cell">
                       <span className="articles-count-tag">
-                        {artCount > 0 ? `${artCount}개 조문` : '조문 변경'}
+                        {artCount > 0 ? `${artCount}개 조문` : evt.comparison_status === 'AVAILABLE' ? '조문 변경 없음' : '비교 자료 없음'}
                       </span>
                     </td>
                     <td className="recent-domain-cell">

@@ -1,0 +1,29 @@
+{
+  "api_request_count": 133,
+  "api_response_seconds": 65.651,
+  "average_api_response_seconds": 0.493617,
+  "dataset_version": "ds-98bdc9ab4f0c49b90a76fe0a00c8efee2fdc7f7079c3cabc098c6da41ce1bc37",
+  "discovery_monitor_error": null,
+  "duration_seconds": 157.468,
+  "error_summary": {
+    "code": "SYNC_FAILED"
+  },
+  "event_ids_identical": true,
+  "failure_count": 0,
+  "finished_at": "2026-10-03T23:43:49.855639+00:00",
+  "last_good_dataset_version": "ds-98bdc9ab4f0c49b90a76fe0a00c8efee2fdc7f7079c3cabc098c6da41ce1bc37",
+  "mode": "CORE_STABLE_IDS",
+  "new_events": 0,
+  "public_bytes_and_mtimes_identical": true,
+  "public_page_request_count": 0,
+  "public_page_response_seconds": 0.0,
+  "public_rewritten": false,
+  "result": "BLOCKED",
+  "retry_count": 0,
+  "review_count": 0,
+  "snapshot_hashes_identical": true,
+  "started_at": "2026-10-03T23:41:12.383500+00:00",
+  "success_count": 107,
+  "total_http_request_count": 133,
+  "transport_error_summary": {}
+}

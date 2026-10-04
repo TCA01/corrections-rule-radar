@@ -1,0 +1,64 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "8a3d45bab11371568a44db1898f7300cdc13c9fa685c217370a60c1578ae9c87",
+      "effective_date": "2017-12-19",
+      "identifier": "199774",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=199774",
+      "snapshot_url": "/api/v1/rules/law-001671/versions/199774-2017-12-19-4679df4b477b6691.json",
+      "version_id": "199774"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "51bd00756a0aba77c2b111fac086581c90810b04e842660b3cb7cc62f36c4c3b",
+      "effective_date": "2017-12-12",
+      "identifier": "199510",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=199510",
+      "snapshot_url": "/api/v1/rules/law-001671/versions/199510-2017-12-12-046894078f529583.json",
+      "version_id": "199510"
+    },
+    "canonical_id": "law-001671",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 1,
+    "changed_articles": [
+      {
+        "after_text": "제457조의2(형종 상향의 금지 등) ① 피고인이 정식재판을 청구한 사건에 대하여는 약식명령의 형보다 중한 종류의 형을 선고하지 못한다.\n② 피고인이 정식재판을 청구한 사건에 대하여 약식명령의 형보다 중한 형을 선고하는 경우에는 판결서에 양형의 이유를 적어야 한다.",
+        "article_key": "article-457의2",
+        "article_number": "457의2",
+        "article_title": "제457조의2(형종 상향의 금지 등)",
+        "before_text": "제457조의2(불이익변경의 금지) 피고인이 정식재판을 청구한 사건에 대하여는 약식명령의 형보다 중한 형을 선고하지 못한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2017-12-19"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "0fdc0d9e93b37157cc681f4dcff51000bd01891def6ee7023af512d7e79f407a",
+      "credential_redacted": false,
+      "raw_sha256": "7b113ca3e9fa174fb1ad2cfdc78f210ad0ccf9f162c04e83c0dc7f95976c81aa",
+      "request": {
+        "MST": "199774",
+        "target": "oldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "7b113ca3e9fa174fb1ad2cfdc78f210ad0ccf9f162c04e83c0dc7f95976c81aa"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T23:48:12.107640+00:00",
+    "effective_date": "2017-12-19",
+    "event_id": "evt-31c1e9221c855fc5831c0cd02199e5afcd8a4b9db11ee1ce530236d527948aed",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=199774",
+    "promulgation_or_issue_date": "2017-12-19",
+    "regulation_name": "형사소송법",
+    "regulation_type": "법률"
+  },
+  "schema_version": "1.4"
+}

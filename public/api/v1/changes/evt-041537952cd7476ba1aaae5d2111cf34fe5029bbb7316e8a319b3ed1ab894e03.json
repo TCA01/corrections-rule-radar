@@ -1,0 +1,64 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "a912270fed0d6868179a2fd423a401fc343397dd1ca48a52a495a0d35c969caa",
+      "effective_date": "2014-10-15",
+      "identifier": "160763",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=160763",
+      "snapshot_url": "/api/v1/rules/law-001671/versions/160763-2014-10-15-bf20df258f7d00e5.json",
+      "version_id": "160763"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "d6274f08d9064e3293e599f66a8734ef9a3dd5dec909947674dd7604a7bf6916",
+      "effective_date": "2014-05-14",
+      "identifier": "153907",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=153907",
+      "snapshot_url": "/api/v1/rules/law-001671/versions/153907-2014-05-14-c39091ef7041b8e5.json",
+      "version_id": "153907"
+    },
+    "canonical_id": "law-001671",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 1,
+    "changed_articles": [
+      {
+        "after_text": "제80조(요급처분) 재판장은 급속을 요하는 경우에는 제68조부터 제71조까지, 제71조의2, 제73조, 제76조, 제77조와 전조에 규정한 처분을 할 수 있고 또는 합의부원으로 하여금 처분을 하게 할 수 있다.",
+        "article_key": "article-80",
+        "article_number": "80",
+        "article_title": "제80조(요급처분)",
+        "before_text": "제80조(요급처분) 재판장은 급속을 요하는 경우에는 제68조 내지 제73조, 제76조, 제77조와 전조에 규정한 처분을 할 수 있고 또는 합의부원으로 하여금 처분을 하게 할 수 있다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2014-10-15"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "345d5a69d30fd7ecd8dd20e05a7da5233a215e4e8347b4c6efa93306148d364b",
+      "credential_redacted": false,
+      "raw_sha256": "f0de571e927ebc85d1d51a4bb045f9b57a047fa5e6ab7091247968e4cc535658",
+      "request": {
+        "MST": "160763",
+        "target": "oldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "f0de571e927ebc85d1d51a4bb045f9b57a047fa5e6ab7091247968e4cc535658"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T23:48:12.107640+00:00",
+    "effective_date": "2014-10-15",
+    "event_id": "evt-041537952cd7476ba1aaae5d2111cf34fe5029bbb7316e8a319b3ed1ab894e03",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=160763",
+    "promulgation_or_issue_date": "2014-10-15",
+    "regulation_name": "형사소송법",
+    "regulation_type": "법률"
+  },
+  "schema_version": "1.4"
+}

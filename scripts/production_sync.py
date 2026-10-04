@@ -16,7 +16,7 @@ from scripts.observe import public_fingerprint,semantic_hashes
 from pipeline.law_api.comparisons import prepare
 from pipeline.law_api.revalidation import revalidate
 
-def run(*,discovery=False,full_audit=False,approved_expansion=False):
+def run(*,discovery=False,full_audit=False,approved_expansion=False,approved_phase1g=False):
     at=now(); start=time.monotonic(); metrics=Metrics(); previous=read('data/ops/health.json',{})
     before=public_fingerprint(ROOT); previous_state=read('data/registry/state.json',{}); previous_events=read('data/registry/events.json',[])
     write_json(ROOT/'data/reports/production_sync.json',{'result':'RUNNING','started_at':at,'last_good_dataset_version':previous.get('last_dataset_version')})
@@ -29,7 +29,13 @@ def run(*,discovery=False,full_audit=False,approved_expansion=False):
             except Exception as e:
                 discovery_error='DISCOVERY_MONITOR_UNAVAILABLE'
                 print(f"[production_sync] discovery monitor warning: {e}", file=sys.stderr, flush=True)
-        if approved_expansion:
+        if approved_phase1g:
+            from scripts.prepare_phase1g import inputs
+            state,rows=inputs()
+            collection=collect_core(metrics=metrics,quiet=True,state=state,trusted=rows)
+            collection['approved_expansion']='PHASE1G'
+            collection['history_backfill']=read('data/staging/phase1g_backfill.json',{})
+        elif approved_expansion:
             from scripts.prepare_expansion import inputs
             state,rows,approval=inputs()
             collection=collect_core(metrics=metrics,quiet=True,state=state,trusted=rows)
@@ -66,6 +72,6 @@ def run(*,discovery=False,full_audit=False,approved_expansion=False):
     write_json(ROOT/'data/reports/production'/(at[:19].replace(':','').replace('-','')+'.json'),report)
     return report
 def main():
-    parser=argparse.ArgumentParser(); parser.add_argument('--discovery',action='store_true'); parser.add_argument('--full-audit',action='store_true'); parser.add_argument('--approved-expansion',action='store_true'); args=parser.parse_args()
-    report=run(discovery=args.discovery,full_audit=args.full_audit,approved_expansion=args.approved_expansion); print(json.dumps(report,ensure_ascii=False)); return int(report['result']=='BLOCKED')
+    parser=argparse.ArgumentParser(); parser.add_argument('--discovery',action='store_true'); parser.add_argument('--full-audit',action='store_true'); parser.add_argument('--approved-expansion',action='store_true'); parser.add_argument('--approved-phase1g',action='store_true'); args=parser.parse_args()
+    report=run(discovery=args.discovery,full_audit=args.full_audit,approved_expansion=args.approved_expansion,approved_phase1g=args.approved_phase1g); print(json.dumps(report,ensure_ascii=False)); return int(report['result']=='BLOCKED')
 if __name__=='__main__': sys.exit(main())

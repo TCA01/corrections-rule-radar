@@ -1,0 +1,82 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "60f1448d4a7401acce69ffff4e37fc7909eaf6119c5e7aabe5158897f9dadf92",
+      "effective_date": "2016-01-06",
+      "identifier": "179019",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=179019",
+      "snapshot_url": "/api/v1/rules/law-001671/versions/179019-2016-01-06-69eeee5c526a1cab.json",
+      "version_id": "179019"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "d812f34702824793890e286411129a1596261a101c07f16d9d53b6513df72895",
+      "effective_date": "2015-07-31",
+      "identifier": "173582",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=173582",
+      "snapshot_url": "/api/v1/rules/law-001671/versions/173582-2015-07-31-acba192867bd20ed.json",
+      "version_id": "173582"
+    },
+    "canonical_id": "law-001671",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 3,
+    "changed_articles": [
+      {
+        "after_text": "제262조(심리와 결정) ① ∼ ③ (현행과 같음)\n④제2항제1호의 결정에 대하여는 제415조에 따른 즉시항고를 할 수 있고, 제2항제2호의 결정에 대하여는 불복할 수 없다. 제2항제1호의 결정이 확정된 사건에 대하여는 다른 중요한 증거를 발견한 경우를 제외하고는 소추할 수 없다.\n⑤·⑥ (현행과 같음)",
+        "article_key": "article-262",
+        "article_number": "262",
+        "article_title": "제262조(심리와 결정)",
+        "before_text": "제262조(심리와 결정) ① ∼ ③ (생  략)\n④제2항의 결정에 대하여는 불복할 수 없다. 제2항제1호의 결정이 확정된 사건에 대하여는 다른 중요한 증거를 발견한 경우를 제외하고는 소추할 수 없다.\n⑤·⑥ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2016-01-06"
+      },
+      {
+        "after_text": "제262조의4(공소시효의 정지 등) ①제260조에 따른 재정신청이 있으면 제262조에 따른 재정결정이 확정될 때까지 공소시효의 진행이 정지된다.\n② (현행과 같음)",
+        "article_key": "article-262의4",
+        "article_number": "262의4",
+        "article_title": "제262조의4(공소시효의 정지 등)",
+        "before_text": "제262조의4(공소시효의 정지 등) ①제260조에 따른 재정신청이 있으면 제262조에 따른 재정결정이 있을 때까지 공소시효의 진행이 정지된다.\n② (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2016-01-06"
+      },
+      {
+        "after_text": "제477조(재산형 등의 집행) ① ∼ ⑤ (현행과 같음)\n⑥ 벌금, 과료, 추징, 과태료, 소송비용 또는 비용배상의 분할납부, 납부연기 및 납부대행기관을 통한 납부 등 납부방법에 필요한 사항은 법무부령으로 정한다.",
+        "article_key": "article-477",
+        "article_number": "477",
+        "article_title": "제477조(재산형 등의 집행)",
+        "before_text": "제477조(재산형 등의 집행) ① ∼ ⑤ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2016-01-06"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "285d525a5ec17e87eb5816e14f5519b9093dd49692dc0398ef77a95fa3d4ae2b",
+      "credential_redacted": false,
+      "raw_sha256": "f63b1c76372199ab5c280e1c6c7470c223bf2903e12c480592365b7cc920258a",
+      "request": {
+        "MST": "179019",
+        "target": "oldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "f63b1c76372199ab5c280e1c6c7470c223bf2903e12c480592365b7cc920258a"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T23:48:12.107640+00:00",
+    "effective_date": "2016-01-06",
+    "event_id": "evt-74b23081e1042338062c3ca717996e23a77f7a734f17fba0007cdcd5240e7203",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=179019",
+    "promulgation_or_issue_date": "2016-01-06",
+    "regulation_name": "형사소송법",
+    "regulation_type": "법률"
+  },
+  "schema_version": "1.4"
+}

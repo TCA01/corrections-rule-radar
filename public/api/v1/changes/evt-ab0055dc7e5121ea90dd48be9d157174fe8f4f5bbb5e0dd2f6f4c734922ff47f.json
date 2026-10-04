@@ -1,0 +1,54 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "002ea4aa77825a0955c7169f3dec426902db02189203949dcdf2d1443d6e2d15",
+      "effective_date": "2025-01-17",
+      "identifier": "265773",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=265773",
+      "snapshot_url": "/api/v1/rules/law-001671/versions/265773-2025-01-17-05a7c45c1e61f054.json",
+      "version_id": "265773"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "290069faf57451835b004cf8e4d55734ec527dcb4b62279d42a127866adeb5ff",
+      "effective_date": "2024-02-13",
+      "identifier": "260231",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=260231",
+      "snapshot_url": "/api/v1/rules/law-001671/versions/260231-2024-02-13-033cc1fbda21633c.json",
+      "version_id": "260231"
+    },
+    "canonical_id": "law-001671",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 1,
+    "changed_articles": [
+      {
+        "after_text": "제294조의5(금전 공탁과 피해자 등의 의견 청취)\n① 법원은 피고인이 피해자의 권리 회복에 필요한 금전을 공탁한 경우에는 판결을 선고하기 전에 피해자 또는 그 법정대리인(피해자가 사망한 경우에는 배우자ㆍ직계친족ㆍ형제자매를 포함한다)의 의견을 들어야 한다. 다만, 그 의견을 청취하기 곤란한 경우로서 대법원규칙으로 정하는 특별한 사정이 있는 경우에는 그러하지 아니하다.\n② 제1항에 따른 의견 청취의 방법ㆍ절차 및 그 밖에 필요한 사항은 대법원규칙으로 정한다.",
+        "article_key": "article-294의5",
+        "article_number": "294의5",
+        "article_title": "제294조의5(금전 공탁과 피해자 등의 의견 청취)",
+        "before_text": null,
+        "change_type": "ADDED",
+        "effective_date": "2025-01-17"
+      }
+    ],
+    "comparison_evidence": null,
+    "comparison_scope": "FULL_STRUCTURED_BODY",
+    "comparison_source": "STRUCTURED_SNAPSHOT_DIFF",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T23:48:12.107640+00:00",
+    "effective_date": "2025-01-17",
+    "event_id": "evt-ab0055dc7e5121ea90dd48be9d157174fe8f4f5bbb5e0dd2f6f4c734922ff47f",
+    "fallback_reason": "OFFICIAL_COMPARISON_PAIR_OR_TEXT_UNAVAILABLE",
+    "official_old_new_available": false,
+    "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=265773",
+    "promulgation_or_issue_date": "2024-10-16",
+    "regulation_name": "형사소송법",
+    "regulation_type": "법률"
+  },
+  "schema_version": "1.4"
+}

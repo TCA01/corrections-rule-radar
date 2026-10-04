@@ -1,0 +1,43 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "5d5b962efcd67c0319a21f44647832e2ef17632618dd39977cb2fc8c3f09966b",
+      "effective_date": "2026-10-02",
+      "identifier": "288579",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=288579",
+      "snapshot_url": "/api/v1/rules/law-001671/versions/288579-2026-10-02-9d5ac1ec88deb05f.json",
+      "version_id": "288579"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "5f13501d6de48221d9b5f4ee6b27f464963a50f58281df07ac45fc5b3a7b7f87",
+      "effective_date": "2026-10-02",
+      "identifier": "290189",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290189",
+      "snapshot_url": "/api/v1/rules/law-001671/versions/290189-2026-10-02-aa614223f4a01171.json",
+      "version_id": "290189"
+    },
+    "canonical_id": "law-001671",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED"
+    ],
+    "changed_article_count": 0,
+    "changed_articles": [],
+    "comparison_evidence": null,
+    "comparison_scope": "FULL_STRUCTURED_BODY",
+    "comparison_source": "STRUCTURED_SNAPSHOT_DIFF",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T23:48:12.107640+00:00",
+    "effective_date": "2026-10-02",
+    "event_id": "evt-cc8e838fe28801579af71610df39e8edb49cfe8418196ac4f4eeb83307658b3b",
+    "fallback_reason": "OFFICIAL_COMPARISON_PAIR_OR_TEXT_UNAVAILABLE",
+    "official_old_new_available": false,
+    "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=288579",
+    "promulgation_or_issue_date": "2026-08-04",
+    "regulation_name": "형사소송법",
+    "regulation_type": "법률"
+  },
+  "schema_version": "1.4"
+}

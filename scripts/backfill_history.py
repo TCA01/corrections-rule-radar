@@ -15,7 +15,7 @@ from datetime import timedelta
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'data/staging/phase1e_backfill.json'
 
-def run(*,state=None,rows=None,output=OUT,report='data/reports/phase1e_backfill.json',cache_name='phase1e'):
+def run(*,state=None,rows=None,output=OUT,report='data/reports/phase1e_backfill.json',cache_name='phase1e',max_history_pairs=None):
     state=state or json.loads((ROOT/'data/registry/state.json').read_text(encoding='utf8'))
     rows=rows or json.loads((ROOT/'data/registry/rules.json').read_text(encoding='utf8'))
     if not {r['canonical_id'] for r in rows}<=set(state['seed_ids']): raise ValueError('CORE_SCOPE_MISMATCH')
@@ -48,6 +48,10 @@ def run(*,state=None,rows=None,output=OUT,report='data/reports/phase1e_backfill.
             # Retain the most recent earlier change as well; never a retention cap.
             older=[i for i,k in enumerate(ordered) if k[1]<cutoff]
             if older: selected.append(older[-1])
+            if max_history_pairs is not None:
+                if not 1<=max_history_pairs<=32: raise ValueError('INVALID_ONE_TIME_HISTORY_BUDGET')
+                selected=list(range(max(0,len(ordered)-max_history_pairs),len(ordered)))
+                record['backfill_policy']={'mode':'ONE_TIME_BOUNDED_VERSION_HISTORY','max_pairs':max_history_pairs,'available_version_count':len(ordered),'selected_version_count':len(selected),'selected_from':ordered[selected[0]][1],'selected_to':ordered[selected[-1]][1],'older_versions_not_fetched':max(0,len(ordered)-len(selected)-1)}
             needed=set(selected)|{i-1 for i in selected if i>0}
             resolved={}
             for i in sorted(needed):

@@ -1674,6 +1674,27 @@
       "selection_basis": "교정본부 공식 법령 현황 수록",
       "structured_body_source": "LAWGO_JSON_XML"
     },
+    "law-001671": {
+      "api_tracking_class": "API_TRACKABLE",
+      "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
+      "applies_to": [
+        "수용기록 업무",
+        "구속·영장 관련 업무",
+        "석방 관련 업무"
+      ],
+      "canonical_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290189",
+      "discovery_source": [
+        "MANUAL_OFFICIAL_REVIEW",
+        "LAW_API_KEYWORD"
+      ],
+      "history_source": "LAWGO_STRUCTURED_HISTORY",
+      "official_seed_name": null,
+      "official_seed_url": null,
+      "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+      "scope_review_status": "APPROVED",
+      "selection_basis": "수용기록 업무에서 구속·영장·석방 등 형사절차 관련 사항 확인에 직접 활용되는 기본법",
+      "structured_body_source": "LAWGO_JSON_XML"
+    },
     "law-002027": {
       "api_tracking_class": "API_TRACKABLE",
       "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",

@@ -145,7 +145,7 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({
         if (up.changed_articles && up.changed_articles.length > 0) {
           const effDate = up.metadata?.effective_date || up.version_reference?.effective_date;
           list.push({
-            id: `upcoming-${up.version_id}`,
+            id: `upcoming-${up.version_id}-${effDate}`,
             label: `${formatDotDate(effDate)} 시행 예정`,
             badge: '시행 예정',
             effectiveDate: effDate,

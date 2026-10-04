@@ -1,0 +1,249 @@
+{
+  "added": 1,
+  "api_eligibility": "PASS",
+  "applies_to": [
+    "수용기록 업무",
+    "구속·영장 관련 업무",
+    "석방 관련 업무"
+  ],
+  "backend_tests": {
+    "errors": 0,
+    "failure_test_ids": [],
+    "failures": 0,
+    "passed": true,
+    "public_contract": {
+      "failed_files": [],
+      "status": "PASS",
+      "validated_file_count": 536
+    },
+    "secret_scan": {
+      "file_count": 0,
+      "files": [],
+      "status": "PASS"
+    },
+    "tests": 138
+  },
+  "before_metrics": {
+    "api_request_count": 128,
+    "api_response_seconds": 56.469,
+    "average_api_response_seconds": 0.441164,
+    "dataset_version": "ds-98bdc9ab4f0c49b90a76fe0a00c8efee2fdc7f7079c3cabc098c6da41ce1bc37",
+    "discovery_monitor_error": null,
+    "duration_seconds": 141.281,
+    "error_summary": {},
+    "event_ids_identical": true,
+    "failure_count": 0,
+    "finished_at": "2026-10-03T11:34:20.336972+00:00",
+    "last_good_dataset_version": "ds-98bdc9ab4f0c49b90a76fe0a00c8efee2fdc7f7079c3cabc098c6da41ce1bc37",
+    "mode": "CORE_STABLE_IDS",
+    "new_events": 0,
+    "persistent_new_events": 0,
+    "public_bytes_and_mtimes_identical": true,
+    "public_page_request_count": 0,
+    "public_page_response_seconds": 0.0,
+    "public_rewritten": false,
+    "result": "NO_CHANGE",
+    "retry_count": 0,
+    "review_count": 0,
+    "snapshot_hashes_identical": true,
+    "started_at": "2026-10-03T11:31:59.050065+00:00",
+    "success_count": 106,
+    "total_http_request_count": 128,
+    "transport_error_summary": {}
+  },
+  "build_and_artifact": {
+    "api": {
+      "dataset_version": "ds-ad3e2e2e1e7022e1725ced2003bb82c7ff4508408f1d9356218112235e66d590",
+      "rule_count": 107,
+      "status": "PASS",
+      "validated_files": 536
+    },
+    "artifact_file_count": 539,
+    "secret_leak_count": 0,
+    "status": "PASS"
+  },
+  "business_domains": [
+    "수용·보안"
+  ],
+  "canonical_id": "law-001671",
+  "comparison_sources": {
+    "LAWGO_OLD_NEW": 10,
+    "STRUCTURED_SNAPSHOT_DIFF": 22
+  },
+  "creator_credit": "PASS",
+  "current": 105,
+  "current_effective_date": "2026-10-02",
+  "current_mst": "290189",
+  "final_tracked": 107,
+  "first_run": "CHANGED",
+  "footer_old_copy": "ABSENT",
+  "frontend_tests": {
+    "passed": 69,
+    "success": true,
+    "total": 69
+  },
+  "future_versions": [
+    [
+      "281865",
+      "2027-12-31"
+    ],
+    [
+      "288579",
+      "2027-08-05"
+    ],
+    [
+      "288579",
+      "2027-02-05"
+    ]
+  ],
+  "github_normal_run": {},
+  "historical": 2,
+  "history_backfill": {
+    "duration_seconds": 70.907,
+    "metrics": {
+      "api_request_count": 62,
+      "api_response_seconds": 36.55,
+      "average_api_response_seconds": 0.589516,
+      "public_page_request_count": 0,
+      "public_page_response_seconds": 0.0,
+      "retry_count": 0,
+      "total_http_request_count": 62,
+      "transport_error_summary": {}
+    },
+    "policy": {
+      "available_version_count": 58,
+      "max_pairs": 32,
+      "mode": "ONE_TIME_BOUNDED_VERSION_HISTORY",
+      "older_versions_not_fetched": 25,
+      "selected_from": "2014-05-14",
+      "selected_to": "2027-12-31",
+      "selected_version_count": 32
+    }
+  },
+  "history_events_added": 32,
+  "hosted_verification": {},
+  "initial_blocked_attempt": {
+    "api_request_count": 133,
+    "api_response_seconds": 65.651,
+    "average_api_response_seconds": 0.493617,
+    "dataset_version": "ds-98bdc9ab4f0c49b90a76fe0a00c8efee2fdc7f7079c3cabc098c6da41ce1bc37",
+    "discovery_monitor_error": null,
+    "duration_seconds": 157.468,
+    "error_summary": {
+      "code": "SYNC_FAILED"
+    },
+    "event_ids_identical": true,
+    "failure_count": 0,
+    "finished_at": "2026-10-03T23:43:49.855639+00:00",
+    "last_good_dataset_version": "ds-98bdc9ab4f0c49b90a76fe0a00c8efee2fdc7f7079c3cabc098c6da41ce1bc37",
+    "mode": "CORE_STABLE_IDS",
+    "new_events": 0,
+    "public_bytes_and_mtimes_identical": true,
+    "public_page_request_count": 0,
+    "public_page_response_seconds": 0.0,
+    "public_rewritten": false,
+    "result": "BLOCKED",
+    "retry_count": 0,
+    "review_count": 0,
+    "snapshot_hashes_identical": true,
+    "started_at": "2026-10-03T23:41:12.383500+00:00",
+    "success_count": 107,
+    "total_http_request_count": 133,
+    "transport_error_summary": {}
+  },
+  "known_issues": [
+    "One-time history backfill selects 32 of 58 listed versions plus their predecessor (25 earlier versions not fetched); normal sync does not crawl history.",
+    "Official old/new pair/text unavailable for 22 selected events; full structured snapshot comparison is explicitly identified.",
+    "Official department metadata is absent and remains null. No department or legal interpretation is invented."
+  ],
+  "live_runs": [
+    {
+      "api_request_count": 133,
+      "api_response_seconds": 69.384,
+      "average_api_response_seconds": 0.521684,
+      "dataset_version": "ds-ad3e2e2e1e7022e1725ced2003bb82c7ff4508408f1d9356218112235e66d590",
+      "discovery_monitor_error": null,
+      "duration_seconds": 174.813,
+      "error_summary": {},
+      "event_ids_identical": false,
+      "failure_count": 0,
+      "finished_at": "2026-10-03T23:48:37.738341+00:00",
+      "last_good_dataset_version": "ds-ad3e2e2e1e7022e1725ced2003bb82c7ff4508408f1d9356218112235e66d590",
+      "mode": "CORE_STABLE_IDS",
+      "new_events": 3,
+      "persistent_new_events": 32,
+      "public_bytes_and_mtimes_identical": false,
+      "public_page_request_count": 0,
+      "public_page_response_seconds": 0.0,
+      "public_rewritten": true,
+      "result": "PUBLISHED",
+      "retry_count": 0,
+      "review_count": 0,
+      "snapshot_hashes_identical": false,
+      "started_at": "2026-10-03T23:45:42.934398+00:00",
+      "success_count": 107,
+      "total_http_request_count": 133,
+      "transport_error_summary": {}
+    },
+    {
+      "api_request_count": 133,
+      "api_response_seconds": 64.47,
+      "average_api_response_seconds": 0.484737,
+      "dataset_version": "ds-ad3e2e2e1e7022e1725ced2003bb82c7ff4508408f1d9356218112235e66d590",
+      "discovery_monitor_error": null,
+      "duration_seconds": 148.734,
+      "error_summary": {},
+      "event_ids_identical": true,
+      "failure_count": 0,
+      "finished_at": "2026-10-03T23:51:21.447608+00:00",
+      "last_good_dataset_version": "ds-ad3e2e2e1e7022e1725ced2003bb82c7ff4508408f1d9356218112235e66d590",
+      "mode": "CORE_STABLE_IDS",
+      "new_events": 0,
+      "persistent_new_events": 0,
+      "public_bytes_and_mtimes_identical": true,
+      "public_page_request_count": 0,
+      "public_page_response_seconds": 0.0,
+      "public_rewritten": false,
+      "result": "NO_CHANGE",
+      "retry_count": 0,
+      "review_count": 0,
+      "snapshot_hashes_identical": true,
+      "started_at": "2026-10-03T23:48:52.706473+00:00",
+      "success_count": 107,
+      "total_http_request_count": 133,
+      "transport_error_summary": {}
+    }
+  ],
+  "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290189",
+  "official_title": "형사소송법",
+  "old_new_comparison": "PASS",
+  "phase": "PHASE 1G CRIMINAL PROCEDURE ACT EXPANSION",
+  "previous_tracked": 106,
+  "promulgation_date": "2026-09-29",
+  "promulgation_number": "22009",
+  "public_disclaimer": "PASS",
+  "ready_for_unattended_operation": false,
+  "recent_events_added": 2,
+  "recent_examples": [
+    {
+      "changed_article_count": 0,
+      "comparison_source": "STRUCTURED_SNAPSHOT_DIFF",
+      "effective_date": "2026-10-02",
+      "event_id": "evt-cc8e838fe28801579af71610df39e8edb49cfe8418196ac4f4eeb83307658b3b",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=288579"
+    },
+    {
+      "changed_article_count": 93,
+      "comparison_source": "STRUCTURED_SNAPSHOT_DIFF",
+      "effective_date": "2026-10-02",
+      "event_id": "evt-014fc0c274f4110b3d823d51b98f1d6618b6a36f1e2cf460cf6cdb8b3c0a73c8",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290189"
+    }
+  ],
+  "resolved_issue": "Initial publication rejected new discovery-source enum values; replaced with existing schema 1.4 values. Last-good remained intact.",
+  "schema": "1.4",
+  "scope_class": "CROSS_DOMAIN_CORRECTIONS",
+  "second_run": "NO_CHANGE",
+  "secret_leak": 0,
+  "selection_basis": "수용기록 업무에서 구속·영장·석방 등 형사절차 관련 사항 확인에 직접 활용되는 기본법"
+}

@@ -1,0 +1,64 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "290069faf57451835b004cf8e4d55734ec527dcb4b62279d42a127866adeb5ff",
+      "effective_date": "2024-02-13",
+      "identifier": "260231",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=260231",
+      "snapshot_url": "/api/v1/rules/law-001671/versions/260231-2024-02-13-033cc1fbda21633c.json",
+      "version_id": "260231"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "c708e793fdc67898ecb2f96b24b593f45aa44c55cb2980a1df713dbdc4c122b5",
+      "effective_date": "2022-09-10",
+      "identifier": "242053",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=242053",
+      "snapshot_url": "/api/v1/rules/law-001671/versions/242053-2022-09-10-e972be6b06c1341e.json",
+      "version_id": "242053"
+    },
+    "canonical_id": "law-001671",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 1,
+    "changed_articles": [
+      {
+        "after_text": "제253조(시효의 정지와 효력) ① ∼ ③ (현행과 같음)\n④ 피고인이 형사처분을 면할 목적으로 국외에 있는 경우 그 기간 동안 제249조제2항에 따른 기간의 진행은 정지된다.",
+        "article_key": "article-253",
+        "article_number": "253",
+        "article_title": "제253조(시효의 정지와 효력)",
+        "before_text": "제253조(시효의 정지와 효력) ① ∼ ③ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2024-02-13"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "ab952487d4125041680cefbf59dce90e4cf5950b7724bb91a0023b1f9142b8c7",
+      "credential_redacted": false,
+      "raw_sha256": "498e492880460e989b2dc507ae458872c0a7da964b698cebd02468b0c936bdff",
+      "request": {
+        "MST": "260231",
+        "target": "oldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "498e492880460e989b2dc507ae458872c0a7da964b698cebd02468b0c936bdff"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-03T23:48:12.107640+00:00",
+    "effective_date": "2024-02-13",
+    "event_id": "evt-da5a6deba2e9729ab4591794bc4e7247dfc50366d2880664a13d570b8ec8378d",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=260231",
+    "promulgation_or_issue_date": "2024-02-13",
+    "regulation_name": "형사소송법",
+    "regulation_type": "법률"
+  },
+  "schema_version": "1.4"
+}
