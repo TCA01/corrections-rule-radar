@@ -1,0 +1,38 @@
+{
+  "dataset_version": "ds-c21de361c699692df5cd9e366a51f0bbd31ade59516e8ba4185f2577b1e5a286",
+  "json_byte_matches": {
+    "changes/history.json": "2f5953cce2529dc8d662c316350cddf1e5ef3fd8477dcac6163ba691bd7a4fd5",
+    "manifest.json": "f374f862b6e2041e30904bda9d4e87b0f522bf462755c579c34327c2f42cc0b9",
+    "rules/law-001671.json": "b6c3d01c774e571ea2d2ec57b0c1d8ff86404551381877bbb8417fe1cdda608a"
+  },
+  "status": "PASS",
+  "transitions": [
+    {
+      "before_date": "2026-10-02",
+      "before_version": "290189",
+      "change_type": "RULE_AMENDED",
+      "cumulative_count": 3,
+      "effective_date": "2027-02-05",
+      "event_id": "evt-006b18a1f8fa81500d7dee2ddc5aeb8327796bb669b62d32dee4d141238b0848",
+      "incremental_count": 3
+    },
+    {
+      "before_date": "2027-02-05",
+      "before_version": "288579",
+      "change_type": "STAGED_EFFECTIVE_DATE",
+      "cumulative_count": 5,
+      "effective_date": "2027-08-05",
+      "event_id": "evt-435bd0aecd73820e38e05b660ff02b4061d5945434c4aa8173f25908aff28d44",
+      "incremental_count": 2
+    },
+    {
+      "before_date": "2027-08-05",
+      "before_version": "288579",
+      "change_type": "RULE_AMENDED",
+      "cumulative_count": 6,
+      "effective_date": "2027-12-31",
+      "event_id": "evt-6b2503ca2de5ed562d72fdcdef0a201332f029306c679d12a24fecd92ac68582",
+      "incremental_count": 1
+    }
+  ]
+}

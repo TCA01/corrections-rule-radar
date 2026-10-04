@@ -1,0 +1,36 @@
+{
+  "api_probe": "manifest/health/rules match deployed dataset",
+  "august_articles": [
+    "220의2",
+    "244의6"
+  ],
+  "browser_transitions": [
+    {
+      "before": "2026-10-02",
+      "cumulative": 3,
+      "incremental": 3,
+      "target": "2027-02-05"
+    },
+    {
+      "before": "2027-02-05",
+      "cumulative": 5,
+      "incremental": 2,
+      "target": "2027-08-05"
+    },
+    {
+      "before": "2027-08-05",
+      "cumulative": 6,
+      "incremental": 1,
+      "target": "2027-12-31"
+    }
+  ],
+  "creator_credit_preserved": true,
+  "dataset_version": "ds-c21de361c699692df5cd9e366a51f0bbd31ade59516e8ba4185f2577b1e5a286",
+  "default_mode": "PREVIOUS_EFFECTIVE_STATE",
+  "optional_mode": "CURRENT_BASELINE",
+  "rule_count": 107,
+  "schema_version": "1.5",
+  "status": "PASS",
+  "timeline_date_selection": "PASS",
+  "url": "https://corrections-rule-radar.web.app"
+}
