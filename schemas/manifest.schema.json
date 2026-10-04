@@ -37,7 +37,7 @@
       "const": "/api/v1/rules.json"
     },
     "schema_version": {
-      "const": "1.4"
+      "const": "1.5"
     },
     "upcoming_changes_url": {
       "const": "/api/v1/changes/upcoming.json"

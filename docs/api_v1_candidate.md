@@ -2,9 +2,16 @@
 
 Historical Phase 1A candidate. Phase 1B deliberately migrates the active main
 contract to 1.2. Phase 1E upgraded it to 1.3 for persistent history; Phase 1F
-now upgrades the active main contract to 1.4 for the approved 106-record scope,
+upgraded the main contract to 1.4 for the approved 106-record scope,
 provenance and 보고 domain. Immutable archives retain 1.1; existing event details
 retain 1.3. See phase1f_contract.md.
+
+Current candidate: schema 1.5, 107 rules. Phase 1H is an explicit coordinated
+semantic migration: upcoming defaults to PREVIOUS_EFFECTIVE_STATE, cumulative
+CURRENT_BASELINE fields remain available, and staged enforcement has its own
+event type. The deployed Web requires 1.5 and ships together with the dataset;
+no Android client has shipped. Existing 1.4 clients must reject 1.5 rather than
+silently reinterpret comparisons. See phase1h_contract.md and its reviewed lock.
 
 API_V1_CANDIDATE = true. This is a data contract candidate for React Web and
 Kotlin/Compose, not a deployed service or implemented client. Phase 1A explicitly

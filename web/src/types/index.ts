@@ -266,6 +266,12 @@ export interface RuleBody {
 export interface RuleVersionDetail {
   changed_articles?: ChangedArticle[];
   articles_compared_to?: VersionReference | null;
+  comparison_mode?: 'PREVIOUS_EFFECTIVE_STATE';
+  comparison_source?: 'STRUCTURED_SNAPSHOT_DIFF';
+  cumulative_changed_articles?: ChangedArticle[];
+  cumulative_articles_compared_to?: VersionReference;
+  cumulative_comparison_mode?: 'CURRENT_BASELINE';
+  cumulative_comparison_source?: 'STRUCTURED_SNAPSHOT_DIFF';
   canonical_id: string;
   source_kind: SourceKind;
   stable_identifier: string;

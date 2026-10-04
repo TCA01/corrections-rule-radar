@@ -39,8 +39,8 @@ class Phase1GTests(unittest.TestCase):
         self.assertIn('수용기록 업무',p['applies_to']); self.assertEqual(row['business_domains'],['수용·보안'])
         taxonomy=load(ROOT/'data/seed/business_domains.json')['domains']
         self.assertEqual(len(taxonomy),16); self.assertNotIn('수용기록',taxonomy)
-    def test_schema_14_and_creator_not_in_public_legal_data(self):
-        manifest=load(ROOT/'public/api/v1/manifest.json'); self.assertEqual(manifest['schema_version'],'1.4')
+    def test_schema_15_and_creator_not_in_public_legal_data(self):
+        manifest=load(ROOT/'public/api/v1/manifest.json'); self.assertEqual(manifest['schema_version'],'1.5')
         detail=load(ROOT/f'public/api/v1/rules/{self.cid}.json'); assert_public_safe(detail)
         self.assertNotIn('Kim In-jun',json.dumps(detail,ensure_ascii=False))
         self.assertNotIn('Wonju Correctional Institution',json.dumps(detail,ensure_ascii=False))

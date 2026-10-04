@@ -66,6 +66,18 @@ describe('App End-to-End Integration Test with Production Fixtures', () => {
     });
   });
 
+  it('opens the clicked upcoming effective date with its incremental baseline', async () => {
+    render(<App />);
+    await waitFor(() => expect(screen.getByRole('button', { name: '추적 규정: 총 107개' })).toBeInTheDocument());
+    const date = screen.getByText('2027.08.05', { selector: '.footer-info strong' });
+    const card = date.closest('article')!;
+    fireEvent.click(within(card).getByRole('button', { name: '개정 조문 대비표 보기' }));
+    await waitFor(() => expect(screen.getByRole('button', { name: '직전 시행상태 대비' })).toHaveAttribute('aria-pressed', 'true'));
+    expect(screen.getByRole('tab', { name: '시행 예정 2027.08.05 시행 예정' })).toHaveAttribute('aria-selected', 'true');
+    expect(screen.getByRole('dialog').querySelector('.diff-meta-strip')?.textContent).toContain('2027.02.05');
+    expect(screen.getByRole('dialog').querySelectorAll('.diff-article-card')).toHaveLength(2);
+  });
+
   it('loads entire dataset, displays last successful sync, and dynamic counts without hardcoding', async () => {
     render(<App />);
 
@@ -179,7 +191,7 @@ describe('App End-to-End Integration Test with Production Fixtures', () => {
     expect(screen.getByText('전·후 전체 비교')).toBeInTheDocument();
 
     fireEvent.click(screen.getByText('전·후 전체 비교'));
-    expect(screen.getAllByText('변경 전 (현행)').length).toBeGreaterThanOrEqual(1);
+    expect(screen.getAllByText(/^변경 전 \(/).length).toBeGreaterThanOrEqual(1);
     expect(screen.getAllByText('변경 후 (개정안)').length).toBeGreaterThanOrEqual(1);
 
     // Verify official disclaimer

@@ -95,8 +95,11 @@ def appendix_diff(before,after):
 def make_event(before,after,at,*,official_comparison=None,comparison_evidence=None):
     if before and before['canonical_id']!=after['canonical_id']: raise ValueError('HISTORY_IDENTITY_MISMATCH')
     correction=bool(before and before['version_id']==after['version_id'])
+    from pipeline.diff.effective_states import staged_evidence
+    staged=staged_evidence(before,after) if correction else None
     kinds=[]
-    if correction and before['metadata']['effective_date']!=after['metadata']['effective_date']: kinds.append('EFFECTIVE_DATE_CORRECTED')
+    if staged: kinds.append('STAGED_EFFECTIVE_DATE')
+    elif correction and before['metadata']['effective_date']!=after['metadata']['effective_date']: kinds.append('EFFECTIVE_DATE_CORRECTED')
     metadata_fields=('name','rule_type','issue_date','issue_number','ministry','department','amendment_type')
     if correction and any(before['metadata'][k]!=after['metadata'][k] for k in metadata_fields): kinds.append('METADATA_CORRECTED')
     if before and not correction: kinds.append('RULE_AMENDED')
@@ -124,8 +127,9 @@ def make_event(before,after,at,*,official_comparison=None,comparison_evidence=No
     status='COMPARISON_UNAVAILABLE' if before is None or articles is None else 'AVAILABLE'
     reason='BEFORE_VERSION_UNAVAILABLE' if before is None else 'STRUCTURED_ARTICLES_UNAVAILABLE' if articles is None else None
     event_identity={'canonical_id':after['canonical_id'],'before':identity(before),'after':identity(after)}
-    if correction: event_identity['correction']={k:after['metadata'][k] for k in metadata_fields}
-    return {'event_id':'evt-'+digest(event_identity),'canonical_id':after['canonical_id'],
+    if staged: event_identity['transition']='STAGED_EFFECTIVE_DATE'
+    elif correction: event_identity['correction']={k:after['metadata'][k] for k in metadata_fields}
+    result={'event_id':'evt-'+digest(event_identity),'canonical_id':after['canonical_id'],
             'regulation_name':after['metadata']['name'],'regulation_type':after['metadata']['rule_type'],
             'change_type':kinds[0],'change_types':list(dict.fromkeys(kinds)),'detected_at':at,
             'promulgation_or_issue_date':after['metadata']['issue_date'],'effective_date':after['metadata']['effective_date'],
@@ -135,6 +139,8 @@ def make_event(before,after,at,*,official_comparison=None,comparison_evidence=No
             'comparison_scope':scope,'comparison_status':status,'comparison_unavailable_reason':reason,
             'fallback_reason':fallback,'comparison_evidence':comparison_evidence if available else None,
             'official_source_url':after['official_source_url']}
+    if staged: result['staged_effective_evidence']=staged
+    return result
 
 def merge(existing,candidates):
     known={e['event_id']:e for e in existing}

@@ -39,18 +39,23 @@ COMMON={'schema_version':{'const':'1.1'},'dataset_version':{'type':'string','pat
 ARTICLE=obj({'article_key':S,'article_number':S,'article_title':S,'change_type':{'enum':['ADDED','MODIFIED','DELETED']},'before_text':NS,'after_text':NS,'effective_date':D})
 COMPARISON={'changed_articles':arr(ARTICLE),'articles_compared_to':{'anyOf':[REF,{'type':'null'}]}}
 COMPARED_SNAP={**SNAP,'properties':{**SNAP['properties'],**COMPARISON},'required':SNAP['required']+list(COMPARISON)}
+UPCOMING_COMPARISON={'comparison_mode':{'const':'PREVIOUS_EFFECTIVE_STATE'},'comparison_source':{'const':'STRUCTURED_SNAPSHOT_DIFF'},
+ 'cumulative_changed_articles':arr(ARTICLE),'cumulative_articles_compared_to':REF,
+ 'cumulative_comparison_mode':{'const':'CURRENT_BASELINE'},'cumulative_comparison_source':{'const':'STRUCTURED_SNAPSHOT_DIFF'}}
+COMPARED_SNAP['properties'].update(UPCOMING_COMPARISON); COMPARED_SNAP['required']+=list(UPCOMING_COMPARISON)
 EVENT['properties'].update(COMPARISON); EVENT['required']+=list(COMPARISON)
-COMMON['schema_version']={'const':'1.4'}
+COMMON['schema_version']={'const':'1.5'}
 PREF=obj({**REF['properties'],'identifier':S,'body_hash':H})
 PARTICLE={**ARTICLE,'properties':{**ARTICLE['properties'],'change_type':{'enum':['ADDED','REMOVED','MODIFIED','RENAMED','UNKNOWN_STRUCTURAL_CHANGE']}}}
 APPCHANGE=obj({'change_type':{'enum':['APPENDIX_ADDED','APPENDIX_REMOVED','APPENDIX_METADATA_CHANGED']},'status':{'enum':['AVAILABLE','REMOVED']},'before_metadata':{'anyOf':[APP,{'type':'null'}]},'after_metadata':{'anyOf':[APP,{'type':'null'}]}})
 PEVENT=obj({'event_id':EVENT['properties']['event_id'],'canonical_id':ID,'regulation_name':S,'regulation_type':NS,
- 'change_type':{'enum':['RULE_AMENDED','RULE_RENAMED','ARTICLE_CHANGED','RULE_REPEALED','NEW_RULE','HISTORICAL_VERSION','METADATA_CORRECTED','EFFECTIVE_DATE_CORRECTED','APPENDIX_ADDED','APPENDIX_REMOVED','APPENDIX_METADATA_CHANGED']},
+ 'change_type':{'enum':['RULE_AMENDED','RULE_RENAMED','ARTICLE_CHANGED','RULE_REPEALED','NEW_RULE','HISTORICAL_VERSION','METADATA_CORRECTED','EFFECTIVE_DATE_CORRECTED','STAGED_EFFECTIVE_DATE','APPENDIX_ADDED','APPENDIX_REMOVED','APPENDIX_METADATA_CHANGED']},
  'change_types':arr(S),'detected_at':TS,'promulgation_or_issue_date':D,'effective_date':{'type':'string','format':'date'},
  'before_version':{'anyOf':[PREF,{'type':'null'}]},'after_version':PREF,'changed_articles':arr(PARTICLE),'changed_article_count':N,'appendix_changes':arr(APPCHANGE),
  'official_old_new_available':{'type':'boolean'},'comparison_source':{'enum':['LAWGO_OLD_NEW','LAWGO_ADMIN_OLD_NEW','STRUCTURED_SNAPSHOT_DIFF',None]},
  'comparison_scope':{'enum':['FULL_STRUCTURED_BODY','OFFICIAL_COMPARISON_EXCERPT']},'comparison_status':{'enum':['AVAILABLE','COMPARISON_UNAVAILABLE']},
  'comparison_unavailable_reason':NS,'fallback_reason':NS,'comparison_evidence':{'type':['object','null']},'official_source_url':URL})
+PEVENT['properties']['staged_effective_evidence']=obj({'source':{'const':'LAWGO_STRUCTURED_ADDENDUM'},'issue_number':S,'before_effective_date':D,'after_effective_date':D,'before_body_hash':H,'after_body_hash':H,'commencement_clause':S})
 contracts={
  'manifest':obj({**COMMON,'published_at':TS,'rules_url':{'const':'/api/v1/rules.json'},'latest_changes_url':{'const':'/api/v1/changes/latest.json'},'upcoming_changes_url':{'const':'/api/v1/changes/upcoming.json'},'health_url':{'const':'/api/v1/health.json'},'rule_count':N,'API_V1_CANDIDATE':{'const':True}}),
  'rules':obj({**COMMON,'rules':arr(RULE)}),
@@ -63,5 +68,5 @@ contracts['manifest']['properties'].update({'recent_changes_url':{'const':'/api/
 contracts['manifest']['required']+=['recent_changes_url','history_changes_url','change_detail_url_template']
 contracts['history']=obj({**COMMON,'retention':{'const':'INDEFINITE'},'events':arr(PEVENT)})
 contracts['recent']=obj({**COMMON,'window_days':{'const':90},'date_basis':{'const':'EFFECTIVE_DATE_SEOUL'},'events':arr(PEVENT)})
-contracts['change']=obj({'schema_version':{'enum':['1.3','1.4']},'event':PEVENT})
+contracts['change']=obj({'schema_version':{'enum':['1.3','1.4','1.5']},'event':PEVENT})
 for name,schema in contracts.items(): write_json('schemas/'+name+'.schema.json',{'$schema':'https://json-schema.org/draft/2020-12/schema','$id':'urn:corrections-rule-radar:api:v1:'+name,'title':name,**schema})

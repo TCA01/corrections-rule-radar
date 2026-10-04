@@ -1,8 +1,8 @@
 {
-  "dataset_version": "ds-4bcdea34d7059c726dbcc77f29b45c6cf6156c679868c7ced065562389ab8d25",
+  "dataset_version": "ds-e32b8526faebc893736bc9bb81a9f164e86eb1fbc3115199c03a93a7201c54e0",
   "events_after_repeats": 1,
   "last_good_preserved": true,
-  "mode": "ISOLATED_TEMP_DIRECTORY; ACTIVE_1.4_CONTRACT; NO PRODUCTION PUBLICATION",
+  "mode": "ISOLATED_TEMP_DIRECTORY; ACTIVE_1.5_CONTRACT; NO PRODUCTION PUBLICATION",
   "one_rule_failure_isolated": true,
   "public_bytes_and_mtimes_preserved": true,
   "record_count": 106,

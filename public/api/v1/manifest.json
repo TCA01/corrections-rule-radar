@@ -1,14 +1,14 @@
 {
   "API_V1_CANDIDATE": true,
   "change_detail_url_template": "/api/v1/changes/{event_id}.json",
-  "dataset_version": "ds-ad3e2e2e1e7022e1725ced2003bb82c7ff4508408f1d9356218112235e66d590",
+  "dataset_version": "ds-c21de361c699692df5cd9e366a51f0bbd31ade59516e8ba4185f2577b1e5a286",
   "health_url": "/api/v1/health.json",
   "history_changes_url": "/api/v1/changes/history.json",
   "latest_changes_url": "/api/v1/changes/latest.json",
-  "published_at": "2026-10-03T23:48:12.107640+00:00",
+  "published_at": "2026-10-04T03:06:53.544812+00:00",
   "recent_changes_url": "/api/v1/changes/recent.json",
   "rule_count": 107,
   "rules_url": "/api/v1/rules.json",
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "upcoming_changes_url": "/api/v1/changes/upcoming.json"
 }

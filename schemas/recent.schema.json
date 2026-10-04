@@ -269,6 +269,7 @@
               "HISTORICAL_VERSION",
               "METADATA_CORRECTED",
               "EFFECTIVE_DATE_CORRECTED",
+              "STAGED_EFFECTIVE_DATE",
               "APPENDIX_ADDED",
               "APPENDIX_REMOVED",
               "APPENDIX_METADATA_CHANGED"
@@ -412,6 +413,52 @@
               "string",
               "null"
             ]
+          },
+          "staged_effective_evidence": {
+            "additionalProperties": false,
+            "properties": {
+              "after_body_hash": {
+                "pattern": "^[a-f0-9]{64}$",
+                "type": "string"
+              },
+              "after_effective_date": {
+                "format": "date",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "before_body_hash": {
+                "pattern": "^[a-f0-9]{64}$",
+                "type": "string"
+              },
+              "before_effective_date": {
+                "format": "date",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "commencement_clause": {
+                "type": "string"
+              },
+              "issue_number": {
+                "type": "string"
+              },
+              "source": {
+                "const": "LAWGO_STRUCTURED_ADDENDUM"
+              }
+            },
+            "required": [
+              "source",
+              "issue_number",
+              "before_effective_date",
+              "after_effective_date",
+              "before_body_hash",
+              "after_body_hash",
+              "commencement_clause"
+            ],
+            "type": "object"
           }
         },
         "required": [
@@ -443,7 +490,7 @@
       "type": "array"
     },
     "schema_version": {
-      "const": "1.4"
+      "const": "1.5"
     },
     "window_days": {
       "const": 90

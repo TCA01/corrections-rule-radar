@@ -49,7 +49,7 @@ class Phase1BTests(unittest.TestCase):
         future=files['rules/law-001668.json'][1]['upcoming'][0]
         event=next(e for e in files['changes/upcoming.json'][1]['events'] if e['canonical_id']=='law-001668')
         self.assertEqual(event['changed_articles'],future['changed_articles'])
-        self.assertEqual({a['article_key'] for a in future['changed_articles']},{'0005021','0053021','0053031'})
+        self.assertEqual({a['article_key'] for a in future['changed_articles']},{'article-5의2','article-53의2','article-53의3'})
         self.assertTrue(all(a['effective_date']=='2026-12-24' for a in future['changed_articles']))
     def test_future_event_keeps_comparison_after_effective_transition(self):
         from pipeline.diff import future_events

@@ -101,7 +101,7 @@ class Phase1FTests(unittest.TestCase):
         validate_contract('change',{'schema_version':'1.4','event':e})
     def test_schema_14_all_generated_files(self):
         _,files=build_contract(self.collection,[],AT)
-        self.assertEqual(files['manifest.json'][1]['schema_version'],'1.4')
+        self.assertEqual(files['manifest.json'][1]['schema_version'],'1.5')
         for rel,(name,value) in files.items(): validate_contract(name,value)
     def test_low_confidence_has_other_and_internal_report(self):
         report=load(ROOT/'data/reports/phase1f_domain_review.json'); self.assertTrue(report['low_confidence'])

@@ -42,8 +42,9 @@ def run(*,state=None,rows=None,output=OUT,report='data/reports/phase1e_backfill.
                 _,serial=identifiers(i,kind); effective=date(i.get('시행일자'))
                 if effective: versions[(serial,effective)]=i
             for s in [state['snapshots'][cid]]+state['future'].get(cid,[]):
-                versions[(s['version_id'],s['metadata']['effective_date'])]=None
-            ordered=sorted(versions,key=lambda k:(k[1],str((versions[k] or {}).get('공포일자',(versions[k] or {}).get('발령일자',''))),int(k[0])))
+                versions.setdefault((s['version_id'],s['metadata']['effective_date']),{'공포일자':s['metadata']['issue_date'] or ''})
+            current_key=(state['snapshots'][cid]['version_id'],state['snapshots'][cid]['metadata']['effective_date'])
+            ordered=sorted(versions,key=lambda k:(k[1],k==current_key,str((versions[k] or {}).get('공포일자',(versions[k] or {}).get('발령일자',''))),int(k[0])))
             selected=[i for i,k in enumerate(ordered) if k[1]>=cutoff]
             # Retain the most recent earlier change as well; never a retention cap.
             older=[i for i,k in enumerate(ordered) if k[1]<cutoff]
@@ -68,6 +69,9 @@ def run(*,state=None,rows=None,output=OUT,report='data/reports/phase1e_backfill.
             for i in sorted(set(selected)):
                 if i not in resolved: continue
                 new=resolved[i]; old=resolved.get(i-1); payload=None; proof=None; reason=None
+                if new['metadata']['effective_date']>state['snapshots'][cid]['metadata']['effective_date']:
+                    from pipeline.diff.effective_states import future_pairs,state_key
+                    old=next((a for a,b in future_pairs(state['snapshots'][cid],state['future'].get(cid,[])) if state_key(b)==state_key(new)),old)
                 try:
                     params={'target':'oldAndNew','MST':new['version_id']} if kind=='law' else {'target':'admrulOldAndNew','ID':new['version_id']}
                     payload,proof=client.fetch('lawService.do',**params)

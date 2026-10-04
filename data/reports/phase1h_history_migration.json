@@ -1,0 +1,24 @@
+{
+  "past_events_preserved": true,
+  "replacements": [
+    {
+      "canonical_id": "law-001671",
+      "effective_date": "2027-02-05",
+      "reason": "PREVIOUS_EFFECTIVE_STATE_PAIR_OR_STAGED_CLASSIFICATION",
+      "replacement_event_id": "evt-006b18a1f8fa81500d7dee2ddc5aeb8327796bb669b62d32dee4d141238b0848",
+      "retired_event_ids": [
+        "evt-55e4c38a92b1f74f5a3b25d1eff54872bc32a03416a2b9b77611dc56f60a65ba"
+      ]
+    },
+    {
+      "canonical_id": "law-001671",
+      "effective_date": "2027-08-05",
+      "reason": "PREVIOUS_EFFECTIVE_STATE_PAIR_OR_STAGED_CLASSIFICATION",
+      "replacement_event_id": "evt-435bd0aecd73820e38e05b660ff02b4061d5945434c4aa8173f25908aff28d44",
+      "retired_event_ids": [
+        "evt-9ee405a05ad38f4264412b53733b45fc46f5aebb1cc98a83fcc5f9f67ce0a77a"
+      ]
+    }
+  ],
+  "schema_version": "1.5"
+}

@@ -1,9 +1,12 @@
 # Shared public API v1
 
-Active main schema: 1.4. Immutable version artifacts retain archive format 1.1;
-existing persistent event detail envelopes retain 1.3. The approved 107-record
+Active main schema: 1.5. Immutable version artifacts retain archive format 1.1;
+unchanged persistent event detail envelopes retain 1.3/1.4. The approved 107-record
 scope is in phase1g_contract.md; provenance and appendix tombstones remain as
-defined in phase1f_contract.md. No schema change accompanies the new record.
+defined in phase1f_contract.md. The intentional upcoming semantic migration and
+optional cumulative fields are defined in phase1h_contract.md; Web and contract
+are released together. First future baselines use the actual canonical current
+version, subsequent baselines use the preceding effective state.
 Persistent history semantics are in phase1e_contract.md. Legacy article/detail
 fields remain documented in phase1b_contract.md.
 
@@ -34,6 +37,8 @@ Event enums: NEW_RULE, RULE_RENAMED, RULE_AMENDED, FUTURE_EFFECTIVE_VERSION,
 EFFECTIVE_DATE_CHANGED, ARTICLE_CHANGED, APPENDIX_CHANGED, ATTACHMENT_CHANGED,
 RULE_REPEALED, RULE_REMOVED_FROM_CORRECTIONS_SEED, NEW_CORRECTIONS_SEED,
 DISCOVERY_CANDIDATE. Discovery records are internal pending review.
+Persistent history also includes STAGED_EFFECTIVE_DATE, distinct from
+EFFECTIVE_DATE_CORRECTED, with structured commencement evidence when present.
 
 Rule status: CURRENT / REPEALED / REVIEW. Classification: REVIEW / REVIEWED.
 No title-based permanent keys, local paths, request URLs containing credentials,

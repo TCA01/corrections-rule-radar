@@ -1,0 +1,93 @@
+{
+  "artifact": {
+    "api": {
+      "dataset_version": "ds-c21de361c699692df5cd9e366a51f0bbd31ade59516e8ba4185f2577b1e5a286",
+      "rule_count": 107,
+      "status": "PASS",
+      "validated_files": 538
+    },
+    "artifact_file_count": 541,
+    "secret_leak_count": 0,
+    "status": "PASS"
+  },
+  "backend": {
+    "errors": 0,
+    "failure_test_ids": [],
+    "failures": 0,
+    "passed": true,
+    "public_contract": {
+      "failed_files": [],
+      "status": "PASS",
+      "validated_file_count": 538
+    },
+    "secret_scan": {
+      "file_count": 0,
+      "files": [],
+      "status": "PASS"
+    },
+    "tests": 147
+  },
+  "build": "PASS",
+  "first_live": {
+    "api_request_count": 135,
+    "api_response_seconds": 83.89,
+    "average_api_response_seconds": 0.621407,
+    "dataset_version": "ds-c21de361c699692df5cd9e366a51f0bbd31ade59516e8ba4185f2577b1e5a286",
+    "discovery_monitor_error": null,
+    "duration_seconds": 197.984,
+    "error_summary": {},
+    "event_ids_identical": true,
+    "failure_count": 0,
+    "finished_at": "2026-10-04T03:07:20.998272+00:00",
+    "last_good_dataset_version": "ds-c21de361c699692df5cd9e366a51f0bbd31ade59516e8ba4185f2577b1e5a286",
+    "mode": "CORE_STABLE_IDS",
+    "new_events": 0,
+    "persistent_new_events": 2,
+    "public_bytes_and_mtimes_identical": false,
+    "public_page_request_count": 0,
+    "public_page_response_seconds": 0.0,
+    "public_rewritten": true,
+    "result": "PUBLISHED",
+    "retry_count": 1,
+    "review_count": 0,
+    "snapshot_hashes_identical": true,
+    "started_at": "2026-10-04T03:04:03.015006+00:00",
+    "success_count": 107,
+    "total_http_request_count": 135,
+    "transport_error_summary": {
+      "NETWORK_ERROR": 1
+    }
+  },
+  "frontend": {
+    "passed": true,
+    "tests": 75
+  },
+  "second_live": {
+    "api_request_count": 133,
+    "api_response_seconds": 67.238,
+    "average_api_response_seconds": 0.505549,
+    "dataset_version": "ds-c21de361c699692df5cd9e366a51f0bbd31ade59516e8ba4185f2577b1e5a286",
+    "discovery_monitor_error": null,
+    "duration_seconds": 149.579,
+    "error_summary": {},
+    "event_ids_identical": true,
+    "failure_count": 0,
+    "finished_at": "2026-10-04T03:10:36.504609+00:00",
+    "last_good_dataset_version": "ds-c21de361c699692df5cd9e366a51f0bbd31ade59516e8ba4185f2577b1e5a286",
+    "mode": "CORE_STABLE_IDS",
+    "new_events": 0,
+    "persistent_new_events": 0,
+    "public_bytes_and_mtimes_identical": true,
+    "public_page_request_count": 0,
+    "public_page_response_seconds": 0.0,
+    "public_rewritten": false,
+    "result": "NO_CHANGE",
+    "retry_count": 0,
+    "review_count": 0,
+    "snapshot_hashes_identical": true,
+    "started_at": "2026-10-04T03:08:06.932500+00:00",
+    "success_count": 107,
+    "total_http_request_count": 133,
+    "transport_error_summary": {}
+  }
+}

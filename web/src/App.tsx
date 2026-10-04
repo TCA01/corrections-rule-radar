@@ -57,6 +57,7 @@ export const App: React.FC = () => {
   // Active rule and change event for detail view modal
   const [activeRule, setActiveRule] = useState<RuleSummary | null>(null);
   const [activeChangeEvent, setActiveChangeEvent] = useState<PersistentChangeEvent | null>(null);
+  const [activeUpcomingDate, setActiveUpcomingDate] = useState<string | null>(null);
 
   // Save selected domains to localStorage
   useEffect(() => {
@@ -68,7 +69,7 @@ export const App: React.FC = () => {
     }
   }, [selectedDomains]);
 
-  // Load initial dataset (Schema 1.4)
+  // Load initial dataset (Schema 1.5)
   const loadData = async () => {
     setLoading(true);
     setError(null);
@@ -77,13 +78,13 @@ export const App: React.FC = () => {
         api.getManifest(),
         api.getHealth().catch(() => null),
         api.getRules(),
-        api.getUpcomingChanges().catch(() => ({ schema_version: '1.4', dataset_version: '', events: [] })),
-        api.getRecentChanges().catch(() => ({ schema_version: '1.4', dataset_version: '', window_days: 90, date_basis: '', events: [] })),
-        api.getLatestChanges().catch(() => ({ schema_version: '1.4', dataset_version: '', events: [] })),
+        api.getUpcomingChanges().catch(() => ({ schema_version: '1.5', dataset_version: '', events: [] })),
+        api.getRecentChanges().catch(() => ({ schema_version: '1.5', dataset_version: '', window_days: 90, date_basis: '', events: [] })),
+        api.getLatestChanges().catch(() => ({ schema_version: '1.5', dataset_version: '', events: [] })),
       ]);
 
-      if (manifestData.schema_version !== '1.4') {
-        throw new ApiError(`지원되지 않는 스키마 버전입니다: ${manifestData.schema_version} (요구 버전: 1.4)`);
+      if (manifestData.schema_version !== '1.5') {
+        throw new ApiError(`지원되지 않는 스키마 버전입니다: ${manifestData.schema_version} (요구 버전: 1.5)`);
       }
 
       if (
@@ -308,6 +309,7 @@ export const App: React.FC = () => {
               rules={rules}
               onSelectRule={(rule) => {
                 setActiveChangeEvent(null);
+                setActiveUpcomingDate(null);
                 setActiveRule(rule);
               }}
             />
@@ -337,6 +339,7 @@ export const App: React.FC = () => {
                 events={domainFilteredToday}
                 onSelectEvent={(evt) => {
                   setActiveChangeEvent(null);
+                  setActiveUpcomingDate(null);
                   setActiveRule(evt.rule_summary);
                 }}
                 featuredStyle="today"
@@ -347,6 +350,7 @@ export const App: React.FC = () => {
               events={domainFilteredUpcoming}
               onSelectEvent={(evt) => {
                 setActiveChangeEvent(null);
+                setActiveUpcomingDate(evt.effective_date);
                 setActiveRule(evt.rule_summary);
               }}
             />
@@ -358,6 +362,7 @@ export const App: React.FC = () => {
               selectedDomains={selectedDomains}
               onSelectEvent={(evt, rule) => {
                 setActiveChangeEvent(evt);
+                setActiveUpcomingDate(null);
                 setActiveRule(rule || null);
               }}
             />
@@ -367,6 +372,7 @@ export const App: React.FC = () => {
               rules={rules}
               onSelectRule={(rule) => {
                 setActiveChangeEvent(null);
+                setActiveUpcomingDate(null);
                 setActiveRule(rule);
               }}
             />
@@ -379,9 +385,11 @@ export const App: React.FC = () => {
         <RuleDetailModal
           rule={activeRule}
           initialEvent={activeChangeEvent}
+          initialEffectiveDate={activeUpcomingDate}
           onClose={() => {
             setActiveRule(null);
             setActiveChangeEvent(null);
+            setActiveUpcomingDate(null);
           }}
         />
       )}

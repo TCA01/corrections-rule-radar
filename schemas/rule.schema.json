@@ -717,7 +717,7 @@
       "type": "object"
     },
     "schema_version": {
-      "const": "1.4"
+      "const": "1.5"
     },
     "upcoming": {
       "items": {
@@ -931,6 +931,102 @@
             },
             "type": "array"
           },
+          "comparison_mode": {
+            "const": "PREVIOUS_EFFECTIVE_STATE"
+          },
+          "comparison_source": {
+            "const": "STRUCTURED_SNAPSHOT_DIFF"
+          },
+          "cumulative_articles_compared_to": {
+            "additionalProperties": false,
+            "properties": {
+              "effective_date": {
+                "format": "date",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "official_source_url": {
+                "format": "uri",
+                "pattern": "^https://(www\\.)?law\\.go\\.kr/",
+                "type": "string"
+              },
+              "snapshot_url": {
+                "pattern": "^/api/v1/rules/(law|admrul)-\\d+/versions/\\d+-\\d{4}-\\d{2}-\\d{2}-[a-f0-9]{16}\\.json$",
+                "type": "string"
+              },
+              "version_id": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "version_id",
+              "effective_date",
+              "snapshot_url",
+              "official_source_url"
+            ],
+            "type": "object"
+          },
+          "cumulative_changed_articles": {
+            "items": {
+              "additionalProperties": false,
+              "properties": {
+                "after_text": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "article_key": {
+                  "type": "string"
+                },
+                "article_number": {
+                  "type": "string"
+                },
+                "article_title": {
+                  "type": "string"
+                },
+                "before_text": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "change_type": {
+                  "enum": [
+                    "ADDED",
+                    "MODIFIED",
+                    "DELETED"
+                  ]
+                },
+                "effective_date": {
+                  "format": "date",
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              },
+              "required": [
+                "article_key",
+                "article_number",
+                "article_title",
+                "change_type",
+                "before_text",
+                "after_text",
+                "effective_date"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "cumulative_comparison_mode": {
+            "const": "CURRENT_BASELINE"
+          },
+          "cumulative_comparison_source": {
+            "const": "STRUCTURED_SNAPSHOT_DIFF"
+          },
           "hashes": {
             "additionalProperties": false,
             "properties": {
@@ -1103,7 +1199,13 @@
           "version_status",
           "version_reference",
           "changed_articles",
-          "articles_compared_to"
+          "articles_compared_to",
+          "comparison_mode",
+          "comparison_source",
+          "cumulative_changed_articles",
+          "cumulative_articles_compared_to",
+          "cumulative_comparison_mode",
+          "cumulative_comparison_source"
         ],
         "type": "object"
       },

@@ -1,20 +1,23 @@
-# 교정관련 규정 추적기 — Phase 1G
+# 교정관련 규정 추적기 — Phase 1H
 
 Python Law.go.kr pipeline and React Web, hosted in the existing Firebase project.
 No Android app, OCR, attachment downloads or legal interpretations are included.
 
-Current: Phase 1G explicitly adds only 형사소송법 to the previous 106 records:
-107 API-trackable rules, 105 current and 2 historical/repealed. Schema remains
-1.4 and all previous immutable snapshots/events are preserved. Existing Web W4
-consumes the record automatically; the footer adds the approved creator credit
-and personal-project disclaimer. See docs/phase1g_contract.md and
-data/reports/phase1g_expansion.json. Phase 1D/1F evidence is preserved.
+Current: 107 API-trackable rules, 105 current and 2 historical/repealed.
+Schema 1.5 explicitly changes upcoming comparisons to the previous effective
+state, with optional current-baseline cumulative comparisons. The Web labels
+both modes and displays their exact before/after dates. Same MST + different
+efYd states remain distinct; proven staged enforcement is classified separately
+from corrections. Two incorrect future events are replaced with an audit trail;
+all unaffected event IDs and immutable artifacts are preserved. See
+docs/phase1h_contract.md and data/reports/phase1h_history_migration.json.
+The Phase 1G scope/creator credit and earlier evidence remain unchanged.
 
 Phase 1A: `python scripts/observe.py --runs 3` observes normal live syncs;
 `python scripts/verify.py` verifies recovery, contracts and secrets;
 `python scripts/freeze_contract.py` checks the frozen API v1 candidate.
 See docs/observation.md, docs/business_domain_review.md, docs/api_v1_candidate.md
-and data/reports/phase1a.md. UI/Firebase remain unbuilt and undeployed.
+and data/reports/phase1a.md for the historical pre-frontend observation phase.
 
 ## Run locally
 

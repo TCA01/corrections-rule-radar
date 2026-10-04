@@ -499,7 +499,7 @@ describe('RuleDetailModal Component', () => {
 
     // Switch to [전·후 전체 비교] (split panels)
     fireEvent.click(screen.getByText('전·후 전체 비교'));
-    expect(screen.getByText('변경 전 (현행)')).toBeInTheDocument();
+    expect(screen.getAllByText(/^변경 전 \(/).length).toBeGreaterThan(0);
     expect(screen.getByText('변경 후 (개정안)')).toBeInTheDocument();
     expect(screen.getByText('제53조의2 종전')).toBeInTheDocument();
     expect(screen.getByText('제53조의2 개정안')).toBeInTheDocument();

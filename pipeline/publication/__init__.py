@@ -10,7 +10,7 @@ from pipeline.validation import validate_contract,assert_schema_freeze
 from pipeline.publication.versions import index_snapshots,enrich_event,reference,url
 from pipeline.diff.articles import changed_articles
 
-SCHEMA_VERSION='1.4'
+SCHEMA_VERSION='1.5'
 
 def public_snapshot(s,status='HISTORICAL'):
     from pipeline.normalize.appendices import appendix_status
@@ -21,13 +21,16 @@ def public_snapshot(s,status='HISTORICAL'):
 def build_contract(collection,events,published_at,history=None,persistent=None):
     summaries=[]; files={}; future=collection['future']
     index=index_snapshots(collection,history or [])
-    events=[enrich_event(e,index,collection['snapshots'].get(e['canonical_id'])) for e in events]
+    from pipeline.diff.effective_states import future_pairs,state_key,display_articles,reconcile_upcoming
+    pairings={state_key(after):before for cid,current in collection['snapshots'].items() for before,after in future_pairs(current,future.get(cid,[]))}
+    events=[enrich_event(e,index,collection['snapshots'].get(e['canonical_id']),effective_baseline=pairings.get((e['canonical_id'],e['new_version'],e['effective_date']))) for e in events]
     from pipeline.diff.history import make_event,merge,recent
     from pipeline.operations.calendar import seoul_date
     from datetime import datetime
     if persistent is None:
         by_url={url(s):s for s in index.values()}
         persistent=merge([], [make_event(by_url.get((e['old_reference'] or e['articles_compared_to'] or {}).get('snapshot_url')),by_url[e['new_reference']['snapshot_url']],e['detected_at']) for e in events])
+        persistent,_=reconcile_upcoming(persistent,collection,published_at)
     allowed=set(collection['snapshots'])
     by_url={url(s):s for s in index.values()}
     for event in persistent:
@@ -45,7 +48,10 @@ def build_contract(collection,events,published_at,history=None,persistent=None):
         summaries.append(summary)
         prior=[v for v in index.values() if v['canonical_id']==cid and v['metadata']['effective_date']<s['metadata']['effective_date']]
         old=max(prior,key=lambda v:(v['metadata']['effective_date'],v['metadata']['issue_date'] or '',v['version_id'])) if prior else None
-        upcoming=[{**public_snapshot(v,'FUTURE'),'changed_articles':changed_articles(s,v),'articles_compared_to':reference(s)} for v in future.get(cid,[])]
+        upcoming=[{**public_snapshot(v,'FUTURE'),'changed_articles':display_articles(before,v),'articles_compared_to':reference(before),
+                   'comparison_mode':'PREVIOUS_EFFECTIVE_STATE','comparison_source':'STRUCTURED_SNAPSHOT_DIFF',
+                   'cumulative_changed_articles':display_articles(s,v),'cumulative_articles_compared_to':reference(s),
+                   'cumulative_comparison_mode':'CURRENT_BASELINE','cumulative_comparison_source':'STRUCTURED_SNAPSHOT_DIFF'} for before,v in future_pairs(s,future.get(cid,[]))]
         files['rules/'+cid+'.json']=('rule',{'schema_version':SCHEMA_VERSION,'rule':summary,'current':public_snapshot(s,summary['status']),'upcoming':upcoming,'changed_articles':changed_articles(old,s),'articles_compared_to':reference(old) if old else None})
     needed={url(s):s for s in list(collection['snapshots'].values())+[s for vs in future.values() for s in vs]}
     for s in history or []:
@@ -101,6 +107,13 @@ def publish(files,root):
             same=prior.read_bytes()==path.read_bytes()
             if name in ('version','change') and not same: raise ValueError('IMMUTABLE_ARTIFACT_DRIFT')
             if same: shutil.copy2(prior,path)
+    # Retired semantic pairings leave immutable deep links available as evidence;
+    # active history/recent lists contain only their corrected replacements.
+    for prior in (output/'changes').glob('evt-*.json'):
+        path=staging/'changes'/prior.name
+        if not path.exists():
+            retained=json.loads(prior.read_text(encoding='utf8'))
+            validate_contract('change',retained); shutil.copy2(prior,path)
     from scripts.validate_public import validate
     validate(staging,contract_validator=validate_contract)
     output.parent.mkdir(parents=True,exist_ok=True)

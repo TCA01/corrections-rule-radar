@@ -14,11 +14,11 @@ import { isRemovedAppendix } from '../utils/format';
 describe('Production Data Smoke Test (public/api/v1/)', () => {
   const publicDir = path.resolve(__dirname, '../../../public/api/v1');
 
-  it('verifies manifest.json integrity and schema 1.4', () => {
+  it('verifies manifest.json integrity and schema 1.5', () => {
     const raw = fs.readFileSync(path.join(publicDir, 'manifest.json'), 'utf-8');
     const data: ManifestResponse = JSON.parse(raw);
 
-    expect(data.schema_version).toBe('1.4');
+    expect(data.schema_version).toBe('1.5');
     expect(data.API_V1_CANDIDATE).toBe(true);
     expect(data.rule_count).toBe(107);
     expect(data.rules_url).toBe('/api/v1/rules.json');
@@ -30,11 +30,11 @@ describe('Production Data Smoke Test (public/api/v1/)', () => {
     expect(data.dataset_version).toMatch(/^ds-[a-f0-9]{64}$/);
   });
 
-  it('verifies health.json matches current publication scope under schema 1.4', () => {
+  it('verifies health.json matches current publication scope under schema 1.5', () => {
     const raw = fs.readFileSync(path.join(publicDir, 'health.json'), 'utf-8');
     const data: HealthResponse = JSON.parse(raw);
 
-    expect(data.schema_version).toBe('1.4');
+    expect(data.schema_version).toBe('1.5');
     expect(data.status).toBe('OK');
     expect(data.health_scope).toBe('PUBLISHED_DATASET');
     expect(data.rule_count).toBe(107);
@@ -47,7 +47,7 @@ describe('Production Data Smoke Test (public/api/v1/)', () => {
     const raw = fs.readFileSync(path.join(publicDir, 'rules.json'), 'utf-8');
     const data: RulesResponse = JSON.parse(raw);
 
-    expect(data.schema_version).toBe('1.4');
+    expect(data.schema_version).toBe('1.5');
     expect(data.rules.length).toBe(107);
 
     const currentRules = data.rules.filter((r) => r.status === 'CURRENT');
@@ -97,11 +97,11 @@ describe('Production Data Smoke Test (public/api/v1/)', () => {
     expect(data.rules.some((r) => r.canonical_id === 'admrul-2036599')).toBe(true); // 교육훈련시간 (CROSS_DOMAIN)
   });
 
-  it('verifies recent.json contains persistent 90-day changes (schema 1.4)', () => {
+  it('verifies recent.json contains persistent 90-day changes (schema 1.5)', () => {
     const raw = fs.readFileSync(path.join(publicDir, 'changes/recent.json'), 'utf-8');
     const data: RecentChangesResponse = JSON.parse(raw);
 
-    expect(data.schema_version).toBe('1.4');
+    expect(data.schema_version).toBe('1.5');
     expect(data.window_days).toBe(90);
     const history = JSON.parse(fs.readFileSync(path.join(publicDir, 'changes/history.json'), 'utf-8'));
     const publishedDay = JSON.parse(fs.readFileSync(path.join(publicDir, 'manifest.json'), 'utf-8')).published_at;
@@ -154,7 +154,7 @@ describe('Production Data Smoke Test (public/api/v1/)', () => {
     const raw = fs.readFileSync(path.join(publicDir, 'changes/upcoming.json'), 'utf-8');
     const data: ChangesResponse = JSON.parse(raw);
 
-    expect(data.schema_version).toBe('1.4');
+    expect(data.schema_version).toBe('1.5');
 
     for (const futureEvent of data.events) {
       expect(futureEvent.effective_date).toMatch(/^\d{4}-\d{2}-\d{2}$/);
@@ -166,7 +166,7 @@ describe('Production Data Smoke Test (public/api/v1/)', () => {
     const raw = fs.readFileSync(path.join(publicDir, 'rules/law-001668.json'), 'utf-8');
     const data: RuleDetailResponse = JSON.parse(raw);
 
-    expect(data.schema_version).toBe('1.4');
+    expect(data.schema_version).toBe('1.5');
     expect(data.rule.canonical_id).toBe('law-001668');
     expect(['CURRENT', 'REPEALED']).toContain(data.current.version_status);
 
@@ -191,7 +191,7 @@ describe('Production Data Smoke Test (public/api/v1/)', () => {
     const raw = fs.readFileSync(path.join(publicDir, 'rules/admrul-36283.json'), 'utf-8');
     const data: RuleDetailResponse = JSON.parse(raw);
 
-    expect(data.schema_version).toBe('1.4');
+    expect(data.schema_version).toBe('1.5');
     expect(data.upcoming.length).toBe(0);
     expect(Array.isArray(data.changed_articles)).toBe(true);
     expect(data.changed_articles!.length).toBe(71);

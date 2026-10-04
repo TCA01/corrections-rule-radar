@@ -33,7 +33,7 @@
       "type": "integer"
     },
     "schema_version": {
-      "const": "1.4"
+      "const": "1.5"
     },
     "status": {
       "enum": [

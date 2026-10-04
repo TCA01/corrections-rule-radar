@@ -130,7 +130,7 @@ class Phase1DAuditTests(unittest.TestCase):
     def test_expanded_success_failure_no_change_recovery(self):
         collection=expanded_collection(); before_production=fingerprint()
         OUT.mkdir(parents=True,exist_ok=True)
-        with tempfile.TemporaryDirectory(prefix='rehearsal-',dir=OUT) as tmp,patch.object(sync,'ROOT',Path(tmp)),patch('pipeline.publication.SCHEMA_VERSION','1.4'),patch('pipeline.publication.validate_contract',side_effect=proposed_13_validate):
+        with tempfile.TemporaryDirectory(prefix='rehearsal-',dir=OUT) as tmp,patch.object(sync,'ROOT',Path(tmp)),patch('pipeline.publication.SCHEMA_VERSION','1.5'),patch('pipeline.publication.validate_contract',side_effect=proposed_13_validate):
             first=sync.sync(collection); self.assertEqual(first['result'],'PUBLISHED')
             good=public_fingerprint(Path(tmp)); state=load(Path(tmp)/'data/registry/state.json'); health=load(Path(tmp)/'data/ops/health.json')
             broken=copy.deepcopy(collection); bad=next(r['canonical_id'] for r in eligible_records() if r['group']=='NEW_39')
@@ -146,7 +146,7 @@ class Phase1DAuditTests(unittest.TestCase):
             self.assertEqual(second['new_events'],0); self.assertEqual(third['new_events'],0)
             self.assertEqual(public_fingerprint(Path(tmp)),good)
             report_name='phase1g_legacy_rehearsal.json' if len(load(ROOT/'data/registry/rules.json'))==107 else 'phase1f_legacy_rehearsal.json'
-            write_json(ROOT/'data/reports'/report_name,{'record_count':len(collection['registry']),'transitions':[first['result'],'BLOCKED',second['result'],third['result']],'one_rule_failure_isolated':True,'last_good_preserved':True,'public_bytes_and_mtimes_preserved':True,'events_after_repeats':len(load(Path(tmp)/'data/registry/events.json')),'mode':'ISOLATED_TEMP_DIRECTORY; ACTIVE_1.4_CONTRACT; NO PRODUCTION PUBLICATION','dataset_version':first['dataset_version']})
+            write_json(ROOT/'data/reports'/report_name,{'record_count':len(collection['registry']),'transitions':[first['result'],'BLOCKED',second['result'],third['result']],'one_rule_failure_isolated':True,'last_good_preserved':True,'public_bytes_and_mtimes_preserved':True,'events_after_repeats':len(load(Path(tmp)/'data/registry/events.json')),'mode':'ISOLATED_TEMP_DIRECTORY; ACTIVE_1.5_CONTRACT; NO PRODUCTION PUBLICATION','dataset_version':first['dataset_version']})
         self.assertEqual(before_production,fingerprint())
 
     def test_frozen_13_rejects_expanded_rule_kind_fail_closed(self):

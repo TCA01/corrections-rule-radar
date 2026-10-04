@@ -16,6 +16,7 @@ from pipeline.diff.history import make_event,merge,identity
 from pipeline.publication.versions import url
 from pipeline.registry.approval import verify_expansion
 from pipeline.registry.provenance import apply_provenance
+from pipeline.diff.effective_states import reconcile_upcoming,state_key
 
 ROOT=Path(__file__).resolve().parents[1]
 def read(path,default):
@@ -81,12 +82,14 @@ def sync(collection):
         detected=min(original) if original else at
         candidates.append(make_event(pair['before'],new,detected,official_comparison=pair.get('official_comparison'),comparison_evidence=pair.get('comparison_evidence')))
     by_url={url(s):s for s in history+list(collection['snapshots'].values())+[v for vs in collection['future'].values() for v in vs]}
+    upcoming_keys={state_key(v) for vs in collection['future'].values() for v in vs}
     # Migrate exact retained comparisons, preserving original detection time.
     for e in events:
         ref=e.get('old_reference') or e.get('articles_compared_to')
         old=by_url.get(ref['snapshot_url']) if ref else (state or {}).get('snapshots',{}).get(e['canonical_id'])
         new=next((v for v in by_url.values() if v['canonical_id']==e['canonical_id'] and v['version_id']==e['new_version'] and v['hashes']==e['new_hashes']),None)
         if not new: raise ValueError('HISTORY_EVENT_VERSION_MISSING')
+        if state_key(new) in upcoming_keys: continue
         # Once a future version becomes current, its recorded comparison is
         # immutable. Official-state flags and placement cannot create a new event.
         if any(p['canonical_id']==new['canonical_id'] and p['after_version']['identifier']==new['version_id'] and p['after_version']['effective_date']==new['metadata']['effective_date'] and p['after_version']['body_hash']==new['hashes']['body_hash'] for p in persistent+candidates if p):
@@ -98,6 +101,7 @@ def sync(collection):
             if old and old['version_id']==new['version_id'] and old['hashes']!=new['hashes']:
                 candidates.append(make_event(old,new,at))
     persistent=merge(persistent,candidates)
+    persistent,replacements=reconcile_upcoming(persistent,collection,at)
     version,files=build_contract(collection,events,at,history=history,persistent=persistent)
     # Persist enriched comparison references so a future event keeps its original
     # baseline after becoming current; event IDs never depend on derived display.
@@ -114,6 +118,7 @@ def sync(collection):
         write_json(ROOT/'data/registry/rules.json',collection['registry'])
         write_json(ROOT/'data/registry/state.json',{'snapshots':collection['snapshots'],'future':collection['future'],'seed_ids':sorted(collection['snapshots'])})
         write_json(ROOT/'data/registry/change_history.json',persistent)
+        if replacements: write_json(ROOT/'data/reports/phase1h_history_migration.json',{'schema_version':'1.5','replacements':replacements,'past_events_preserved':True})
     write_json(ROOT/'data/registry/events.json',events)
     write_json(ROOT/'data/ops/health.json',ops)
     report={'result':'PUBLISHED' if changed else 'NO_CHANGE','dataset_version':version,'new_events':len([e for e in added if e['event_id'] not in known]),'persistent_new_events':len([e for e in persistent if e['event_id'] not in previous_persistent_ids]),'public_rewritten':changed}

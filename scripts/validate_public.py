@@ -17,7 +17,12 @@ def validate(folder,*,contract_validator=None):
         refs=[]
         if name=='rule':
             refs=[value['articles_compared_to'],value['current']['version_reference']]
-            refs += [r for v in value['upcoming'] for r in (v['version_reference'],v['articles_compared_to'])]
+            refs += [r for v in value['upcoming'] for r in (v['version_reference'],v['articles_compared_to'],v['cumulative_articles_compared_to'])]
+            previous=value['current']['version_reference']
+            for future in value['upcoming']:
+                if future['articles_compared_to']!=previous: raise ValueError('UPCOMING_INCREMENTAL_BASELINE_MISMATCH')
+                if future['cumulative_articles_compared_to']!=value['current']['version_reference']: raise ValueError('UPCOMING_CUMULATIVE_BASELINE_MISMATCH')
+                previous=future['version_reference']
         elif name=='changes': refs=[r for e in value['events'] for r in (e['old_reference'],e['new_reference'],e['articles_compared_to'])]
         elif name in ('history','recent','change'):
             events=[value['event']] if name=='change' else value['events']
@@ -53,5 +58,14 @@ def validate(folder,*,contract_validator=None):
             if ref:
                 v=json.loads((folder/ref['snapshot_url'].removeprefix('/api/v1/')).read_text(encoding='utf8'))['version']
                 if v['canonical_id']!=event['canonical_id']: raise ValueError('HISTORY_CANONICAL_ID_MISMATCH')
+    for row in rules:
+        detail=json.loads((folder/row['detail_url'].removeprefix('/api/v1/')).read_text(encoding='utf8'))
+        for future in detail['upcoming']:
+            matching=[e for e in history if e['canonical_id']==row['canonical_id'] and e['after_version']['snapshot_url']==future['version_reference']['snapshot_url']]
+            if future['changed_articles'] and len(matching)!=1: raise ValueError('UPCOMING_HISTORY_EVENT_MISSING_OR_DUPLICATE')
+            for event in matching:
+                if event['before_version']['snapshot_url']!=future['articles_compared_to']['snapshot_url']: raise ValueError('UPCOMING_HISTORY_BASELINE_MISMATCH')
+                normalized=[{**a,'change_type':{'REMOVED':'DELETED','RENAMED':'MODIFIED'}.get(a['change_type'],a['change_type'])} for a in event['changed_articles']]
+                if normalized!=future['changed_articles']: raise ValueError('UPCOMING_HISTORY_ARTICLES_MISMATCH')
     return {'status':'PASS','validated_files':count,'rule_count':len(rules),'dataset_version':manifest['dataset_version']}
 if __name__=='__main__': print(json.dumps(validate(Path('public/api/v1'))))

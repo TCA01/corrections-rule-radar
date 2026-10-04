@@ -1,0 +1,35 @@
+{
+  "artifact": {
+    "api": {
+      "dataset_version": "ds-81a9f0206f6f4d6ba731f63465e5ef4e9d72db16a9eb0346713bf3c3fad4a31e",
+      "rule_count": 107,
+      "status": "PASS",
+      "validated_files": 538
+    },
+    "artifact_file_count": 541,
+    "secret_leak_count": 0,
+    "status": "PASS"
+  },
+  "backend": {
+    "errors": 0,
+    "failure_test_ids": [],
+    "failures": 0,
+    "passed": true,
+    "public_contract": {
+      "failed_files": [],
+      "status": "PASS",
+      "validated_file_count": 538
+    },
+    "secret_scan": {
+      "file_count": 0,
+      "files": [],
+      "status": "PASS"
+    },
+    "tests": 147
+  },
+  "browser_modes_verified": true,
+  "frontend_passed": true,
+  "frontend_tests": 74,
+  "note": "Initial isolated pre-live gates; final release additionally tests direct timeline date selection (75 frontend tests).",
+  "stage": "ISOLATED_PRE_LIVE_REHEARSAL"
+}

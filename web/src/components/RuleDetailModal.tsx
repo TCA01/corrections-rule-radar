@@ -27,6 +27,7 @@ import {
 export interface RuleDetailModalProps {
   rule: RuleSummary | null;
   initialEvent?: PersistentChangeEvent | null;
+  initialEffectiveDate?: string | null;
   onClose: () => void;
 }
 
@@ -42,6 +43,7 @@ interface VersionComparisonTarget {
   changedArticles: ChangedArticleDiff[];
   comparisonSource: string;
   officialSourceUrl: string;
+  cumulative?: { beforeVersion: string; changedArticles: ChangedArticleDiff[] };
 }
 
 function isDownloadResource(url: string | null): boolean {
@@ -63,6 +65,7 @@ function isDownloadResource(url: string | null): boolean {
 export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({
   rule,
   initialEvent,
+  initialEffectiveDate,
   onClose,
 }) => {
   const [detail, setDetail] = useState<RuleDetailResponse | null>(null);
@@ -71,6 +74,7 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({
   const [activeDiffKey, setActiveDiffKey] = useState<string | null>(null);
   const [diffMode, setDiffMode] = useState<DiffDisplayMode>('unified'); // Default: [변경된 부분]
   const [selectedComparisonId, setSelectedComparisonId] = useState<string>('');
+  const [baselineMode, setBaselineMode] = useState<'incremental' | 'cumulative'>('incremental');
 
   const diffRefs = useRef<Record<string, HTMLDivElement | null>>({});
 
@@ -82,6 +86,7 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({
     }
 
     let isMounted = true;
+    setBaselineMode('incremental');
     setLoading(true);
     setError(null);
 
@@ -142,18 +147,22 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({
     // 2. Upcoming future version in detail
     if (detail?.upcoming && detail.upcoming.length > 0) {
       for (const up of detail.upcoming) {
-        if (up.changed_articles && up.changed_articles.length > 0) {
+        if (up.changed_articles) {
           const effDate = up.metadata?.effective_date || up.version_reference?.effective_date;
           list.push({
             id: `upcoming-${up.version_id}-${effDate}`,
             label: `${formatDotDate(effDate)} 시행 예정`,
             badge: '시행 예정',
             effectiveDate: effDate,
-            beforeVersion: detail.current?.version_reference?.effective_date || detail.current?.stable_identifier || '현행 규정',
+            beforeVersion: formatDotDate(up.articles_compared_to?.effective_date) || up.articles_compared_to?.version_id || '종전 규정',
             afterVersion: up.version_reference?.effective_date || up.version_id,
             changedArticles: displayArticleDiffs(up.changed_articles),
-            comparisonSource: '국가법령정보센터 개정안 대비',
+            comparisonSource: up.comparison_source || 'STRUCTURED_SNAPSHOT_DIFF',
             officialSourceUrl: up.official_source_url || rule?.official_source_url || 'https://www.law.go.kr',
+            cumulative: up.cumulative_articles_compared_to && up.cumulative_changed_articles ? {
+              beforeVersion: formatDotDate(up.cumulative_articles_compared_to.effective_date),
+              changedArticles: displayArticleDiffs(up.cumulative_changed_articles),
+            } : undefined,
           });
         }
       }
@@ -185,16 +194,18 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({
   useEffect(() => {
     if (comparisons.length > 0) {
       if (!selectedComparisonId || !comparisons.some((c) => c.id === selectedComparisonId)) {
-        setSelectedComparisonId(comparisons[0].id);
+        setSelectedComparisonId(comparisons.find((c) => c.badge === '시행 예정' && c.effectiveDate === initialEffectiveDate)?.id || comparisons[0].id);
       }
     }
-  }, [comparisons, selectedComparisonId]);
+  }, [comparisons, selectedComparisonId, initialEffectiveDate]);
 
   if (!rule) return null;
 
   const activeComparison =
     comparisons.find((c) => c.id === selectedComparisonId) || comparisons[0] || null;
-  const articleDiffs: ChangedArticleDiff[] = activeComparison?.changedArticles || [];
+  const cumulative = baselineMode === 'cumulative' ? activeComparison?.cumulative : undefined;
+  const articleDiffs: ChangedArticleDiff[] = cumulative?.changedArticles || activeComparison?.changedArticles || [];
+  const beforeVersion = cumulative?.beforeVersion || activeComparison?.beforeVersion;
 
   const scrollToDiff = (key: string) => {
     setActiveDiffKey(key);
@@ -395,7 +406,7 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({
           )}
 
           {/* Legal Diff Comparison Section (Upcoming & Past-Effective Changes) */}
-          {!loading && !error && activeComparison && articleDiffs.length > 0 && (
+          {!loading && !error && activeComparison && (
             <div className="detail-section diff-section">
               {/* Multiple Version Selector Tabs (if both upcoming and past exist) */}
               {comparisons.length > 1 && (
@@ -416,6 +427,19 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({
                 </div>
               )}
 
+              {activeComparison.badge === '시행 예정' && (
+                <div className="diff-mode-toggle" role="group" aria-label="시행 예정 비교 기준">
+                  <button type="button" aria-pressed={!cumulative} className={`diff-mode-btn ${!cumulative ? 'active' : ''}`} onClick={() => setBaselineMode('incremental')}>
+                    직전 시행상태 대비
+                  </button>
+                  {activeComparison.cumulative && (
+                    <button type="button" aria-pressed={Boolean(cumulative)} className={`diff-mode-btn ${cumulative ? 'active' : ''}`} onClick={() => setBaselineMode('cumulative')}>
+                      현재 기준 누적 비교
+                    </button>
+                  )}
+                </div>
+              )}
+
               <div className="diff-header-bar">
                 <div className="diff-header-left">
                   <h3 className="detail-section-title">
@@ -425,11 +449,11 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({
                   </h3>
                   <div className="diff-meta-strip">
                     <span className="diff-meta-item">
-                      종전 버전: <strong>{activeComparison.beforeVersion}</strong>
+                      종전 버전: <strong>{beforeVersion}</strong>
                     </span>
                     <span className="diff-meta-divider">→</span>
                     <span className="diff-meta-item">
-                      개정 버전: <strong>{activeComparison.afterVersion}</strong>
+                      개정 버전: <strong>{formatDotDate(activeComparison.effectiveDate)}</strong>
                     </span>
                     <span className="diff-meta-divider">·</span>
                     <span className="diff-meta-item">
@@ -463,6 +487,7 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({
                 </div>
               </div>
 
+              {articleDiffs.length === 0 && <p className="empty-state">이 비교 기준에서는 조문 변경이 없습니다.</p>}
               {/* Changed Articles Quick Navigation */}
               <div className="diff-nav-bar" role="navigation" aria-label="변경 조문 바로가기">
                 <span className="diff-nav-title">{`변경 조문 ${articleDiffs.length}개:`}</span>
@@ -551,7 +576,7 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({
                       {diffMode === 'split' && (
                         <div className="diff-panels">
                           <div className="diff-panel before">
-                            <span className="diff-panel-label">변경 전 (현행)</span>
+                            <span className="diff-panel-label">변경 전 ({beforeVersion})</span>
                             <div className="legal-text-wrap">
                               {diff.before_text || '〔신설된 조문으로 종전 규정 없음〕'}
                             </div>
@@ -572,7 +597,7 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({
             </div>
           )}
 
-          {!loading && !error && (!activeComparison || articleDiffs.length === 0) && (
+          {!loading && !error && !activeComparison && (
             <div className="detail-section">
               <h3 className="detail-section-title">조문 변경 대비표</h3>
               <div className="empty-state">

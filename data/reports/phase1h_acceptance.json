@@ -1,0 +1,59 @@
+{
+  "current": {
+    "effective_date": "2026-10-02",
+    "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290189",
+    "snapshot_url": "/api/v1/rules/law-001671/versions/290189-2026-10-02-aa614223f4a01171.json",
+    "version_id": "290189"
+  },
+  "history_ui_consistency": "PASS",
+  "preserved_past_events": 149,
+  "schema_version": "1.5",
+  "tracked_rules": 107,
+  "transitions": [
+    {
+      "after_date": "2027-02-05",
+      "after_version": "288579",
+      "articles": [
+        "197의4",
+        "260",
+        "261"
+      ],
+      "before_date": "2026-10-02",
+      "before_version": "290189",
+      "change_type": "RULE_AMENDED",
+      "cumulative_count": 3,
+      "event_id": "evt-006b18a1f8fa81500d7dee2ddc5aeb8327796bb669b62d32dee4d141238b0848",
+      "history_matches_ui": true,
+      "incremental_count": 3
+    },
+    {
+      "after_date": "2027-08-05",
+      "after_version": "288579",
+      "articles": [
+        "220의2",
+        "244의6"
+      ],
+      "before_date": "2027-02-05",
+      "before_version": "288579",
+      "change_type": "STAGED_EFFECTIVE_DATE",
+      "cumulative_count": 5,
+      "event_id": "evt-435bd0aecd73820e38e05b660ff02b4061d5945434c4aa8173f25908aff28d44",
+      "history_matches_ui": true,
+      "incremental_count": 2
+    },
+    {
+      "after_date": "2027-12-31",
+      "after_version": "281865",
+      "articles": [
+        "59의3"
+      ],
+      "before_date": "2027-08-05",
+      "before_version": "288579",
+      "change_type": "RULE_AMENDED",
+      "cumulative_count": 6,
+      "event_id": "evt-6b2503ca2de5ed562d72fdcdef0a201332f029306c679d12a24fecd92ac68582",
+      "history_matches_ui": true,
+      "incremental_count": 1
+    }
+  ]
+}
