@@ -44,16 +44,33 @@ def run():
         'ready_for_unattended_operation':bool(action.get('conclusion')=='success' and hosted.get('status')=='PASS' and hosted.get('ui_status')=='PASS' and backend['passed'] and front.get('success') and artifact.get('status')=='PASS'),
         'known_issues':['One-time history backfill selects 32 of 58 listed versions plus their predecessor (25 earlier versions not fetched); normal sync does not crawl history.',
                         'Official old/new pair/text unavailable for 22 selected events; full structured snapshot comparison is explicitly identified.',
-                        'Official department metadata is absent and remains null. No department or legal interpretation is invented.']}
+                        'Official department metadata is absent and remains null. No department or legal interpretation is invented.',
+                        'Hosted normal run recovered one transient NETWORK_ERROR with one retry; final review/failure count is zero.',
+                        'GitHub reported action-runtime deprecation and a forthcoming ubuntu-latest image migration; both are operational maintenance observations, not failures in this run.']}
     write_json(ROOT/'data/reports/phase1g_expansion.json',report)
     lines=['# PHASE 1G CRIMINAL PROCEDURE ACT EXPANSION','','| Item | Result |','|---|---|']
     for key in ('schema','api_eligibility','official_title','canonical_id','current_mst','current_effective_date','promulgation_number','promulgation_date','scope_class','selection_basis','business_domains','previous_tracked','added','final_tracked','current','historical','history_events_added','recent_events_added','old_new_comparison','first_run','second_run','footer_old_copy','creator_credit','public_disclaimer','ready_for_unattended_operation'):
         lines.append(f'| {key} | {report[key]} |')
+    for label,value in (
+        ('API CALLS',f"128 → {second['api_request_count']} (core sync); hosted normal run: {action.get('api_request_count','PENDING')}"),
+        ('RUNTIME',f"141.281 → {second['duration_seconds']} seconds; first: {first['duration_seconds']}; retries: {second['retry_count']}"),
+        ('BACKEND TESTS',f"{backend['tests']} PASS" if backend['passed'] else 'FAIL'),
+        ('FRONTEND TESTS',f"{front.get('numPassedTests')} PASS" if front.get('success') else 'FAIL'),
+        ('PUBLIC JSON',backend['public_contract']),
+        ('BUILD',artifact.get('status','PENDING')),
+        ('SECRET LEAK',report['secret_leak']),
+        ('GITHUB NORMAL RUN',action.get('conclusion','PENDING')),
+        ('LIVE SCHEMA',hosted.get('live_schema','PENDING')),
+        ('LIVE RULE COUNT',hosted.get('live_rule_count','PENDING')),
+        ('LIVE 형사소송법',hosted.get('live_law','PENDING')),
+        ('LIVE HISTORY',hosted.get('live_history','PENDING')),
+        ('LIVE FOOTER',hosted.get('ui_status','PENDING'))):
+        lines.append(f'| {label} | {value} |')
     lines+=['','## Operation','',f"Before: 128 API calls, 141.281 seconds (Phase 1F unchanged run). After: {second['api_request_count']} calls, {second['duration_seconds']} seconds, {second['retry_count']} retries. First successful expansion: {first['duration_seconds']} seconds.",
             '',f"Backend: {backend['tests']} tests, pass={backend['passed']}; frontend: {report['frontend_tests']}; JSON: {backend['public_contract']}; artifact: {artifact.get('status','PENDING')}; secret leaks: {report['secret_leak']}.",
             '',f"History: {backfill['records'][0]['backfill_policy']}. Sources: {report['comparison_sources']}. Recent examples: {json.dumps(report['recent_examples'],ensure_ascii=False)}.",
             '', 'All original 106 stable IDs and existing immutable events/archives are covered by regression fixtures. Second run has identical public bytes/mtimes, snapshot hashes and event IDs.',
-            '', '## Hosted operation','',f"GitHub: {json.dumps(action,ensure_ascii=False)}",'',f"Live: {json.dumps(hosted,ensure_ascii=False)}",'',
+            '', '## Hosted operation','',f"GitHub: {json.dumps({k:v for k,v in action.items() if k!='jobs'},ensure_ascii=False)}",'',f"Live: {json.dumps(hosted,ensure_ascii=False)}",'',
             '## Known issues','']+['- '+s for s in report['known_issues']]+['','Resolved initial validation failure: '+report['resolved_issue'],'']
     (ROOT/'data/reports/phase1g_expansion.md').write_text('\n'.join(lines),encoding='utf8')
     print(json.dumps({'tracked':report['final_tracked'],'history_added':len(events),'recent_added':len(recent),'ready':report['ready_for_unattended_operation']}))
