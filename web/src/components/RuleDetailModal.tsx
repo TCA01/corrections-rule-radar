@@ -9,6 +9,8 @@ import { api, ApiError } from '../services/api';
 import { formatDotDate } from '../utils/date';
 import { displayArticleDiffs, computeWordDiff } from '../utils/diff';
 import { isRemovedAppendix, getScopeClassLabel } from '../utils/format';
+import { decodeDisplayText } from '../utils/text';
+import { needsStructuredComparison, VisualComparison } from '../services/comparison';
 import {
   X,
   ExternalLink,
@@ -43,6 +45,7 @@ interface VersionComparisonTarget {
   changedArticles: ChangedArticleDiff[];
   comparisonSource: string;
   officialSourceUrl: string;
+  unavailable?: boolean;
   cumulative?: { beforeVersion: string; changedArticles: ChangedArticleDiff[] };
 }
 
@@ -75,6 +78,18 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({
   const [diffMode, setDiffMode] = useState<DiffDisplayMode>('unified'); // Default: [변경된 부분]
   const [selectedComparisonId, setSelectedComparisonId] = useState<string>('');
   const [baselineMode, setBaselineMode] = useState<'incremental' | 'cumulative'>('incremental');
+  const [visualEvent, setVisualEvent] = useState<{ eventId: string; comparison: VisualComparison } | null>(null);
+
+  useEffect(() => {
+    let active = true;
+    setVisualEvent(null);
+    if (initialEvent && needsStructuredComparison(initialEvent)) {
+      api.getVisualComparison(initialEvent).then(comparison => {
+        if (active) setVisualEvent({ eventId: initialEvent.event_id, comparison });
+      });
+    }
+    return () => { active = false; };
+  }, [initialEvent]);
 
   const diffRefs = useRef<Record<string, HTMLDivElement | null>>({});
 
@@ -138,7 +153,10 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({
         effectiveDate: initialEvent.effective_date,
         beforeVersion: initialEvent.before_version?.effective_date || initialEvent.before_version?.identifier || '종전 규정',
         afterVersion: initialEvent.after_version?.effective_date || initialEvent.after_version?.identifier || '개정 규정',
-        changedArticles: displayArticleDiffs(initialEvent.changed_articles),
+        changedArticles: displayArticleDiffs(needsStructuredComparison(initialEvent)
+          ? visualEvent?.eventId === initialEvent.event_id ? visualEvent.comparison.articles : []
+          : initialEvent.changed_articles),
+        unavailable: needsStructuredComparison(initialEvent) && visualEvent?.eventId === initialEvent.event_id && visualEvent.comparison.textSource === 'UNAVAILABLE',
         comparisonSource: initialEvent.comparison_source || '정밀 조문 대비',
         officialSourceUrl: initialEvent.official_source_url || rule?.official_source_url || 'https://www.law.go.kr',
       });
@@ -188,7 +206,7 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({
     }
 
     return list;
-  }, [detail, initialEvent, rule]);
+  }, [detail, initialEvent, rule, visualEvent]);
 
   // Set default active comparison target
   useEffect(() => {
@@ -487,7 +505,13 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({
                 </div>
               </div>
 
-              {articleDiffs.length === 0 && <p className="empty-state">이 비교 기준에서는 조문 변경이 없습니다.</p>}
+              {articleDiffs.length === 0 && <p className="empty-state">{activeComparison.unavailable
+                ? '공식 전체 본문을 불러오지 못해 문구 비교를 표시하지 않습니다. 공식 원문을 확인해 주세요.'
+                : initialEvent && needsStructuredComparison(initialEvent) && activeComparison.id === `event-${initialEvent.event_id}` && visualEvent?.eventId !== initialEvent.event_id
+                  ? '공식 전체 본문을 불러오는 중입니다.' : '이 비교 기준에서는 조문 변경이 없습니다.'}</p>}
+              {initialEvent && activeComparison.id === `event-${initialEvent.event_id}`
+                && visualEvent?.eventId === initialEvent.event_id && visualEvent.comparison.textSource === 'STRUCTURED_SNAPSHOT'
+                && <p className="detail-source-disclaimer">문구 비교: 해당 개정 전·후 공식 전체 본문. 대비표의 축약 표기는 문구 비교에 사용하지 않습니다.</p>}
               {/* Changed Articles Quick Navigation */}
               <div className="diff-nav-bar" role="navigation" aria-label="변경 조문 바로가기">
                 <span className="diff-nav-title">{`변경 조문 ${articleDiffs.length}개:`}</span>
@@ -628,8 +652,8 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({
                         <FileSpreadsheet size={16} />
                       </div>
                       <div className="appendix-info">
-                        <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
-                          <span className="appendix-title">{app.title || `별표·서식 제${app.sequence}호`}</span>
+                        <div className="appendix-title-row">
+                          <span className="appendix-title">{decodeDisplayText(app.title || `별표·서식 제${app.sequence}호`)}</span>
                           {isDeleted && <span className="badge badge-repealed">삭제</span>}
                         </div>
                         <span className="appendix-meta">

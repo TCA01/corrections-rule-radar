@@ -1,0 +1,338 @@
+[
+  {
+    "case": "deleted appendix",
+    "width": 360,
+    "failures": [],
+    "appendix_count": 4,
+    "examples": [
+      {
+        "action": {
+          "bottom": 4140.234375,
+          "height": 27.5625,
+          "left": 66,
+          "right": 215.53125,
+          "top": 4112.671875
+        },
+        "deleted": true,
+        "display": "grid",
+        "info": {
+          "bottom": 4104.671875,
+          "height": 45.953125,
+          "left": 66,
+          "right": 290,
+          "top": 4058.71875
+        },
+        "title": "삭제 <2016.1.22.>"
+      }
+    ],
+    "article14": null
+  },
+  {
+    "case": "deleted appendix",
+    "width": 390,
+    "failures": [],
+    "appendix_count": 4,
+    "examples": [
+      {
+        "action": {
+          "bottom": 3937.484375,
+          "height": 27.5625,
+          "left": 66,
+          "right": 215.53125,
+          "top": 3909.921875
+        },
+        "deleted": true,
+        "display": "grid",
+        "info": {
+          "bottom": 3901.921875,
+          "height": 45.953125,
+          "left": 66,
+          "right": 320,
+          "top": 3855.96875
+        },
+        "title": "삭제 <2016.1.22.>"
+      }
+    ],
+    "article14": null
+  },
+  {
+    "case": "deleted appendix",
+    "width": 412,
+    "failures": [],
+    "appendix_count": 4,
+    "examples": [
+      {
+        "action": {
+          "bottom": 3724.59375,
+          "height": 27.5625,
+          "left": 66,
+          "right": 215.53125,
+          "top": 3697.03125
+        },
+        "deleted": true,
+        "display": "grid",
+        "info": {
+          "bottom": 3689.03125,
+          "height": 45.953125,
+          "left": 66,
+          "right": 342,
+          "top": 3643.078125
+        },
+        "title": "삭제 <2016.1.22.>"
+      }
+    ],
+    "article14": null
+  },
+  {
+    "case": "deleted appendix",
+    "width": 1280,
+    "failures": [],
+    "appendix_count": 4,
+    "examples": [
+      {
+        "action": {
+          "bottom": 2307.125,
+          "height": 27.5625,
+          "left": 907.96875,
+          "right": 1057.5,
+          "top": 2279.5625
+        },
+        "deleted": true,
+        "display": "flex",
+        "info": {
+          "bottom": 2316.328125,
+          "height": 45.953125,
+          "left": 224.5,
+          "right": 891.96875,
+          "top": 2270.375
+        },
+        "title": "삭제 <2016.1.22.>"
+      }
+    ],
+    "article14": null
+  },
+  {
+    "case": "long appendices",
+    "width": 360,
+    "failures": [],
+    "appendix_count": 59,
+    "examples": [
+      {
+        "action": {
+          "bottom": 10088.125,
+          "height": 44,
+          "left": 66,
+          "right": 152.59375,
+          "top": 10044.125
+        },
+        "deleted": false,
+        "display": "grid",
+        "info": {
+          "bottom": 10036.125,
+          "height": 66.359375,
+          "left": 66,
+          "right": 290,
+          "top": 9969.765625
+        },
+        "title": "포승 사용방법3(제179조제1항제3호 관련)"
+      }
+    ],
+    "article14": null
+  },
+  {
+    "case": "long appendices",
+    "width": 390,
+    "failures": [],
+    "appendix_count": 59,
+    "examples": [
+      {
+        "action": {
+          "bottom": 9437.4375,
+          "height": 44,
+          "left": 66,
+          "right": 152.96875,
+          "top": 9393.4375
+        },
+        "deleted": false,
+        "display": "grid",
+        "info": {
+          "bottom": 9385.4375,
+          "height": 43.96875,
+          "left": 66,
+          "right": 320,
+          "top": 9341.46875
+        },
+        "title": "포승 사용방법3(제179조제1항제3호 관련)"
+      }
+    ],
+    "article14": null
+  },
+  {
+    "case": "long appendices",
+    "width": 412,
+    "failures": [],
+    "appendix_count": 59,
+    "examples": [
+      {
+        "action": {
+          "bottom": 9217.828125,
+          "height": 44,
+          "left": 66,
+          "right": 152.96875,
+          "top": 9173.828125
+        },
+        "deleted": false,
+        "display": "grid",
+        "info": {
+          "bottom": 9165.828125,
+          "height": 43.96875,
+          "left": 66,
+          "right": 342,
+          "top": 9121.859375
+        },
+        "title": "포승 사용방법3(제179조제1항제3호 관련)"
+      }
+    ],
+    "article14": null
+  },
+  {
+    "case": "long appendices",
+    "width": 1280,
+    "failures": [],
+    "appendix_count": 59,
+    "examples": [
+      {
+        "action": {
+          "bottom": 5263,
+          "height": 32.5625,
+          "left": 973.3125,
+          "right": 1057.5,
+          "top": 5230.4375
+        },
+        "deleted": false,
+        "display": "flex",
+        "info": {
+          "bottom": 5268.703125,
+          "height": 43.96875,
+          "left": 224.5,
+          "right": 957.3125,
+          "top": 5224.734375
+        },
+        "title": "포승 사용방법3(제179조제1항제3호 관련)"
+      }
+    ],
+    "article14": null
+  },
+  {
+    "case": "education14",
+    "width": 360,
+    "failures": [],
+    "appendix_count": 39,
+    "examples": [],
+    "article14": {
+      "highlights": [
+        {
+          "kind": "DEL",
+          "text": " 심리치료프로그램 대상자 중 집중인성교육 기본교육 수료 기준시간 이상의 교육을 이수한"
+        },
+        {
+          "kind": "DEL",
+          "text": "자5"
+        },
+        {
+          "kind": "INS",
+          "text": "삭제5"
+        },
+        {
+          "kind": "DEL",
+          "text": " 형기주기별"
+        }
+      ],
+      "text": "제14조(교육면제)일부개정제14조(교육면제) ① 소장은 수형자가 다음 각 호의 어느 하나에 해당하는 경우에는 교육을 면제할 수 있다.1. 65세 이상인 자2. 노역장 유치자3. 외국인4. 심리치료프로그램 대상자 중 집중인성교육 기본교육 수료 기준시간 이상의 교육을 이수한 자5삭제5. 삭제6. 정신적ㆍ신체적 장애, 질병 등으로 교육이 부적합하다고 인정되는 자7. 기타 교육 분위기를 저해할 우려가 있는 자② 소장은 제1항 제6호 및 제7호에 해당하는 경우에는 집중인성교육 면제자 및 면제사유를 교정정보시스템에 입력ㆍ관리하여야 한다.③ 면제자의 경우에도 본인의 신청에 의해 기본교육과 형기주기별 재교육을 이수할 수 있다."
+    }
+  },
+  {
+    "case": "education14",
+    "width": 390,
+    "failures": [],
+    "appendix_count": 39,
+    "examples": [],
+    "article14": {
+      "highlights": [
+        {
+          "kind": "DEL",
+          "text": " 심리치료프로그램 대상자 중 집중인성교육 기본교육 수료 기준시간 이상의 교육을 이수한"
+        },
+        {
+          "kind": "DEL",
+          "text": "자5"
+        },
+        {
+          "kind": "INS",
+          "text": "삭제5"
+        },
+        {
+          "kind": "DEL",
+          "text": " 형기주기별"
+        }
+      ],
+      "text": "제14조(교육면제)일부개정제14조(교육면제) ① 소장은 수형자가 다음 각 호의 어느 하나에 해당하는 경우에는 교육을 면제할 수 있다.1. 65세 이상인 자2. 노역장 유치자3. 외국인4. 심리치료프로그램 대상자 중 집중인성교육 기본교육 수료 기준시간 이상의 교육을 이수한 자5삭제5. 삭제6. 정신적ㆍ신체적 장애, 질병 등으로 교육이 부적합하다고 인정되는 자7. 기타 교육 분위기를 저해할 우려가 있는 자② 소장은 제1항 제6호 및 제7호에 해당하는 경우에는 집중인성교육 면제자 및 면제사유를 교정정보시스템에 입력ㆍ관리하여야 한다.③ 면제자의 경우에도 본인의 신청에 의해 기본교육과 형기주기별 재교육을 이수할 수 있다."
+    }
+  },
+  {
+    "case": "education14",
+    "width": 412,
+    "failures": [],
+    "appendix_count": 39,
+    "examples": [],
+    "article14": {
+      "highlights": [
+        {
+          "kind": "DEL",
+          "text": " 심리치료프로그램 대상자 중 집중인성교육 기본교육 수료 기준시간 이상의 교육을 이수한"
+        },
+        {
+          "kind": "DEL",
+          "text": "자5"
+        },
+        {
+          "kind": "INS",
+          "text": "삭제5"
+        },
+        {
+          "kind": "DEL",
+          "text": " 형기주기별"
+        }
+      ],
+      "text": "제14조(교육면제)일부개정제14조(교육면제) ① 소장은 수형자가 다음 각 호의 어느 하나에 해당하는 경우에는 교육을 면제할 수 있다.1. 65세 이상인 자2. 노역장 유치자3. 외국인4. 심리치료프로그램 대상자 중 집중인성교육 기본교육 수료 기준시간 이상의 교육을 이수한 자5삭제5. 삭제6. 정신적ㆍ신체적 장애, 질병 등으로 교육이 부적합하다고 인정되는 자7. 기타 교육 분위기를 저해할 우려가 있는 자② 소장은 제1항 제6호 및 제7호에 해당하는 경우에는 집중인성교육 면제자 및 면제사유를 교정정보시스템에 입력ㆍ관리하여야 한다.③ 면제자의 경우에도 본인의 신청에 의해 기본교육과 형기주기별 재교육을 이수할 수 있다."
+    }
+  },
+  {
+    "case": "education14",
+    "width": 1280,
+    "failures": [],
+    "appendix_count": 39,
+    "examples": [],
+    "article14": {
+      "highlights": [
+        {
+          "kind": "DEL",
+          "text": " 심리치료프로그램 대상자 중 집중인성교육 기본교육 수료 기준시간 이상의 교육을 이수한"
+        },
+        {
+          "kind": "DEL",
+          "text": "자5"
+        },
+        {
+          "kind": "INS",
+          "text": "삭제5"
+        },
+        {
+          "kind": "DEL",
+          "text": " 형기주기별"
+        }
+      ],
+      "text": "제14조(교육면제)일부개정제14조(교육면제) ① 소장은 수형자가 다음 각 호의 어느 하나에 해당하는 경우에는 교육을 면제할 수 있다.1. 65세 이상인 자2. 노역장 유치자3. 외국인4. 심리치료프로그램 대상자 중 집중인성교육 기본교육 수료 기준시간 이상의 교육을 이수한 자5삭제5. 삭제6. 정신적ㆍ신체적 장애, 질병 등으로 교육이 부적합하다고 인정되는 자7. 기타 교육 분위기를 저해할 우려가 있는 자② 소장은 제1항 제6호 및 제7호에 해당하는 경우에는 집중인성교육 면제자 및 면제사유를 교정정보시스템에 입력ㆍ관리하여야 한다.③ 면제자의 경우에도 본인의 신청에 의해 기본교육과 형기주기별 재교육을 이수할 수 있다."
+    }
+  }
+]

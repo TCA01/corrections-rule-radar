@@ -1765,6 +1765,15 @@ a:hover {
 
 .appendix-icon {
   color: var(--color-accent-navy);
+  flex-shrink: 0;
+}
+
+.appendix-title-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  min-width: 0;
 }
 
 .appendix-info {
@@ -1780,6 +1789,8 @@ a:hover {
   font-weight: 600;
   color: var(--color-text-main);
   word-break: keep-all;
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .appendix-meta {
@@ -1788,6 +1799,7 @@ a:hover {
 }
 
 .appendix-action-btn {
+  flex-shrink: 0;
   display: inline-flex;
   align-items: center;
   gap: 0.3rem;
@@ -1817,6 +1829,7 @@ a:hover {
 }
 
 .appendix-deleted-badge {
+  flex-shrink: 0;
   display: inline-flex;
   align-items: center;
   font-size: 0.75rem;
@@ -2087,6 +2100,47 @@ a:hover {
 }
 
 @media (max-width: 480px) {
+  .appendix-item {
+    display: grid;
+    grid-template-columns: 16px minmax(0, 1fr);
+    align-items: start;
+    column-gap: 0.625rem;
+    row-gap: 0.5rem;
+  }
+
+  .appendix-action-btn,
+  .appendix-deleted-badge,
+  .appendix-no-link {
+    grid-column: 2;
+    justify-self: start;
+    max-width: 100%;
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+
+  .appendix-action-btn {
+    min-height: 44px;
+    min-width: 44px;
+    padding: 0.5rem 0.75rem;
+  }
+
+  .diff-card-header {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .unified-diff-content,
+  .diff-panel .legal-text-wrap {
+    overflow-wrap: anywhere;
+    white-space: break-spaces;
+  }
+
+  .unified-diff-content .diff-token-del:not(.full-text),
+  .unified-diff-content .diff-token-ins:not(.full-text) {
+    padding-inline: 0;
+    margin-inline: 0;
+  }
+
   .container {
     padding: 0 0.875rem;
   }

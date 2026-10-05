@@ -6,7 +6,9 @@ import {
   RecentChangesResponse,
   PersistentChangeEvent,
   RuleDetailResponse,
+  RuleVersionDetail,
 } from '../types';
+import { needsStructuredComparison, resolveVisualComparison, VisualComparison } from './comparison';
 
 export class ApiError extends Error {
   status?: number;
@@ -56,6 +58,22 @@ async function fetchJson<T>(path: string): Promise<T> {
 }
 
 export const api = {
+  async getVisualComparison(event: PersistentChangeEvent): Promise<VisualComparison> {
+    if (!needsStructuredComparison(event)) return { articles: event.changed_articles, textSource: 'EVENT_TEXT' };
+    try {
+      const refs = [event.before_version, event.after_version];
+      for (const ref of refs) {
+        if (!ref?.snapshot_url || !new RegExp(`^/api/v1/rules/${event.canonical_id}/versions/\\d+-\\d{4}-\\d{2}-\\d{2}-[a-f0-9]{16}\\.json$`).test(ref.snapshot_url)) {
+          throw new Error('COMPARISON_REFERENCES_UNAVAILABLE');
+        }
+      }
+      const [before, after] = await Promise.all(refs.map(ref => fetchJson<{ version: RuleVersionDetail }>(ref!.snapshot_url!)));
+      return resolveVisualComparison(event, before.version, after.version);
+    } catch {
+      // Fail closed: comparative shorthand is never passed to a legal word diff.
+      return { articles: [], textSource: 'UNAVAILABLE' };
+    }
+  },
   getManifest(): Promise<ManifestResponse> {
     return fetchJson<ManifestResponse>('/api/v1/manifest.json');
   },

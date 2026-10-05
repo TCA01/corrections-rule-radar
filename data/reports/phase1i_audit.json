@@ -1,0 +1,54 @@
+{
+  "event_id": "evt-18869ca99f3cd419ad147adad5289d1a1bda797251272ac8c0d23a5df75e89be",
+  "canonical_id": "admrul-37584",
+  "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+  "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+  "comparison_evidence": {
+    "cache_key": "9e2ab1b2cb6598f0357fe3151b7652bcd529f2e55280cdb23631d32c3214e143",
+    "credential_redacted": false,
+    "raw_sha256": "7d59a0e069a5e20a3634d9cf4b7d26dca698d57b3c83a211eb91befe5da8e4a9",
+    "request": {
+      "ID": "2100000285778",
+      "target": "admrulOldAndNew",
+      "type": "JSON"
+    },
+    "stored_sha256": "7d59a0e069a5e20a3634d9cf4b7d26dca698d57b3c83a211eb91befe5da8e4a9"
+  },
+  "official_article": {
+    "after_text": "제14조(교육면제) ① 소장은 수형자가 다음 각 호의 어느 하나에 해당하는 경우에는 교육을 면제할 수 있다.\n1. ∼ 3. (현행과 같음)\n5. ∼ 7. (현행과 같음)\n② (현행과 같음)\n③ 면제자의 경우에도 본인의 신청에 의해 기본교육과 재교육을 이수할 수 있다.",
+    "article_key": "article-14",
+    "article_number": "14",
+    "article_title": "제14조(교육면제)",
+    "before_text": "제14조(교육면제) ① 소장은 수형자가 다음 각 호의 어느 하나에 해당하는 경우에는 교육을 면제할 수 있다.\n1. ∼ 3. (생  략)\n4. 심리치료프로그램 대상자 중 집중인성교육 기본교육 수료 기준시간 이상의 교육을 이수한 자\n5. ∼ 7. (생  략)\n② (생  략)\n③ 면제자의 경우에도 본인의 신청에 의해 기본교육과 형기주기별 재교육을 이수할 수 있다.",
+    "change_type": "MODIFIED",
+    "effective_date": "2026-10-02"
+  },
+  "before_reference": {
+    "body_hash": "5b2df54fb67c6b814ea4fff9620ae2c351cca79acaafc7297f25483ef585ac59",
+    "effective_date": "2023-03-14",
+    "identifier": "2100000220728",
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000220728",
+    "snapshot_url": "/api/v1/rules/admrul-37584/versions/2100000220728-2023-03-14-08db07148c7c6f6d.json",
+    "version_id": "2100000220728"
+  },
+  "before_article": {
+    "article_key": "article-14",
+    "article_number": "14",
+    "article_title": "제14조(교육면제)",
+    "text": "제14조(교육면제) ① 소장은 수형자가 다음 각 호의 어느 하나에 해당하는 경우에는 교육을 면제할 수 있다.1. 65세 이상인 자2. 노역장 유치자3. 외국인4. 심리치료프로그램 대상자 중 집중인성교육 기본교육 수료 기준시간 이상의 교육을 이수한 자5. 삭제6. 정신적ㆍ신체적 장애, 질병 등으로 교육이 부적합하다고 인정되는 자7. 기타 교육 분위기를 저해할 우려가 있는 자② 소장은 제1항 제6호 및 제7호에 해당하는 경우에는 집중인성교육 면제자 및 면제사유를 교정정보시스템에 입력ㆍ관리하여야 한다.③ 면제자의 경우에도 본인의 신청에 의해 기본교육과 형기주기별 재교육을 이수할 수 있다."
+  },
+  "after_reference": {
+    "body_hash": "ff261fcf02827ff452e9a2795c6ee18e380e29aa2417ad357f3e9a9b4c36462c",
+    "effective_date": "2026-10-02",
+    "identifier": "2100000285778",
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000285778",
+    "snapshot_url": "/api/v1/rules/admrul-37584/versions/2100000285778-2026-10-02-baa1be95e79d6240.json",
+    "version_id": "2100000285778"
+  },
+  "after_article": {
+    "article_key": "article-14",
+    "article_number": "14",
+    "article_title": "제14조(교육면제)",
+    "text": "제14조(교육면제) ① 소장은 수형자가 다음 각 호의 어느 하나에 해당하는 경우에는 교육을 면제할 수 있다.1. 65세 이상인 자2. 노역장 유치자3. 외국인4. 삭제5. 삭제6. 정신적ㆍ신체적 장애, 질병 등으로 교육이 부적합하다고 인정되는 자7. 기타 교육 분위기를 저해할 우려가 있는 자② 소장은 제1항 제6호 및 제7호에 해당하는 경우에는 집중인성교육 면제자 및 면제사유를 교정정보시스템에 입력ㆍ관리하여야 한다.③ 면제자의 경우에도 본인의 신청에 의해 기본교육과 재교육을 이수할 수 있다."
+  }
+}
