@@ -1,0 +1,47 @@
+{
+  "passed": false,
+  "runs": [
+    {
+      "all_public_mtimes_hashes_history_and_snapshots_identical": false,
+      "exit_code": 0,
+      "report": {
+        "api_request_count": 133,
+        "api_response_seconds": 78.235,
+        "average_api_response_seconds": 0.588233,
+        "dataset_version": "ds-c21de361c699692df5cd9e366a51f0bbd31ade59516e8ba4185f2577b1e5a286",
+        "discovery_monitor_error": null,
+        "duration_seconds": 170.531,
+        "error_summary": {},
+        "event_ids_identical": true,
+        "failure_count": 0,
+        "finished_at": "2026-10-05T11:28:59.553668+00:00",
+        "last_good_dataset_version": "ds-c21de361c699692df5cd9e366a51f0bbd31ade59516e8ba4185f2577b1e5a286",
+        "mode": "CORE_STABLE_IDS",
+        "new_events": 0,
+        "persistent_new_events": 0,
+        "public_bytes_and_mtimes_identical": true,
+        "public_page_request_count": 0,
+        "public_page_response_seconds": 0.0,
+        "public_rewritten": false,
+        "result": "NO_CHANGE",
+        "retry_count": 0,
+        "review_count": 0,
+        "snapshot_hashes_identical": true,
+        "started_at": "2026-10-05T11:26:09.025403+00:00",
+        "success_count": 107,
+        "total_http_request_count": 133,
+        "transport_error_summary": {},
+        "whole_sync_attempts": [
+          {
+            "attempt": 1,
+            "error_summary": {},
+            "result": "NO_CHANGE"
+          }
+        ],
+        "whole_sync_deadline_seconds": 720,
+        "whole_sync_retry_count": 0
+      },
+      "run": 1
+    }
+  ]
+}

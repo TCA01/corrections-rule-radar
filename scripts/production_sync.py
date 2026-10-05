@@ -20,7 +20,7 @@ def run(*,discovery=False,full_audit=False,approved_expansion=False,approved_pha
     at=now(); start=time.monotonic(); metrics=Metrics(); previous=read('data/ops/health.json',{})
     before=public_fingerprint(ROOT); previous_state=read('data/registry/state.json',{}); previous_events=read('data/registry/events.json',[])
     write_json(ROOT/'data/reports/production_sync.json',{'result':'RUNNING','started_at':at,'last_good_dataset_version':previous.get('last_dataset_version')})
-    collection=None; error=None
+    collection=None; error=None; error_status=None
     try:
         discovery_error=None
         if discovery or full_audit:
@@ -58,6 +58,7 @@ def run(*,discovery=False,full_audit=False,approved_expansion=False,approved_pha
     except Exception as exc:
         print(f"[production_sync] sync error: {exc}", file=sys.stderr, flush=True)
         error=exc.code if isinstance(exc,ApiError) else 'SYNC_FAILED'
+        error_status=exc.status if isinstance(exc,ApiError) else None
         result={'result':'BLOCKED','new_events':0,'public_rewritten':False,'dataset_version':previous.get('last_dataset_version')}
     ops=read('data/ops/health.json',previous)
     if error:
@@ -67,11 +68,15 @@ def run(*,discovery=False,full_audit=False,approved_expansion=False,approved_pha
     report={**result,'started_at':at,'finished_at':now(),'duration_seconds':round(time.monotonic()-start,6),**metrics.report(),**counts,'error_summary':{'code':error} if error else {},'mode':'WEEKLY_FULL_AUDIT' if full_audit else 'CORE_WITH_DAILY_DISCOVERY' if discovery else 'CORE_STABLE_IDS','last_good_dataset_version':ops.get('last_dataset_version')}
     report.update({'public_bytes_and_mtimes_identical':before==public_fingerprint(ROOT),'snapshot_hashes_identical':semantic_hashes(previous_state)==semantic_hashes(read('data/registry/state.json',{})),'event_ids_identical':[e['event_id'] for e in previous_events]==[e['event_id'] for e in read('data/registry/events.json',[])]})
     report['discovery_monitor_error']=locals().get('discovery_error')
+    if error_status is not None: report['error_summary']['http_status']=error_status
     ops.update({'last_attempt':at,'duration_seconds':report['duration_seconds'],**metrics.report(),**counts})
     write_json(ROOT/'data/ops/health.json',ops); write_json(ROOT/'data/reports/production_sync.json',report)
     write_json(ROOT/'data/reports/production'/(at[:19].replace(':','').replace('-','')+'.json'),report)
     return report
 def main():
-    parser=argparse.ArgumentParser(); parser.add_argument('--discovery',action='store_true'); parser.add_argument('--full-audit',action='store_true'); parser.add_argument('--approved-expansion',action='store_true'); parser.add_argument('--approved-phase1g',action='store_true'); args=parser.parse_args()
-    report=run(discovery=args.discovery,full_audit=args.full_audit,approved_expansion=args.approved_expansion,approved_phase1g=args.approved_phase1g); print(json.dumps(report,ensure_ascii=False)); return int(report['result']=='BLOCKED')
+    parser=argparse.ArgumentParser(); parser.add_argument('--worker',action='store_true'); parser.add_argument('--discovery',action='store_true'); parser.add_argument('--full-audit',action='store_true'); parser.add_argument('--approved-expansion',action='store_true'); parser.add_argument('--approved-phase1g',action='store_true'); args=parser.parse_args()
+    if args.worker: execute=run
+    else:
+        from scripts.unattended_sync import run as execute
+    report=execute(discovery=args.discovery,full_audit=args.full_audit,approved_expansion=args.approved_expansion,approved_phase1g=args.approved_phase1g); print(json.dumps(report,ensure_ascii=False)); return int(report['result']=='BLOCKED')
 if __name__=='__main__': sys.exit(main())

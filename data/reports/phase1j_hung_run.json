@@ -1,0 +1,20 @@
+{
+  "run_id": 37254965747,
+  "url": "https://github.com/TCA01/corrections-rule-radar/actions/runs/37254965747",
+  "conclusion": "cancelled",
+  "sync_step": "Sync core and scheduled discovery",
+  "sync_step_started_at": "2026-10-05T02:20:07Z",
+  "sync_step_finished_at": "2026-10-05T02:50:08Z",
+  "log_evidence": [
+    {"at": "2026-10-05T02:20:08.2438893Z", "message": "running discovery(full_audit=False)"},
+    {"at": "2026-10-05T02:20:23.5528914Z", "message": "DISCOVERY_PAGE_UNAVAILABLE"},
+    {"at": "2026-10-05T02:20:23.5530955Z", "message": "collecting core regulations..."},
+    {"at": "2026-10-05T02:50:08.9433669Z", "message": "operation cancelled"}
+  ],
+  "exact_request": "NOT_IDENTIFIABLE_FROM_RETAINED_LOGS",
+  "exact_network_phase": "NOT_IDENTIFIABLE_FROM_RETAINED_LOGS",
+  "code_path": "scheduled_sync -> production_sync -> collect_core -> LawClient.fetch -> _request -> opener.open(timeout=30) -> response.read",
+  "confirmed_design_gap": "Socket operation timeout and three transient attempts existed; no whole-request wall deadline or whole-sync deadline. DNS or repeated short reads could exceed the intended request budget.",
+  "wire_root_cause_confidence": "UNKNOWN; later successful runs do not prove a specific DNS/connect/TLS/read failure",
+  "validation_commit_deployment": "ALL_SKIPPED; last-good hosting remained intact"
+}

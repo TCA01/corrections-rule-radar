@@ -23,7 +23,7 @@ jobs:
     # Prepared only. Enable after repository, target and secrets are configured.
     if: vars.PRODUCTION_PIPELINE_ENABLED == 'true' && github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 25 # Includes setup, tests and any changed-data deployment.
     steps:
       - uses: actions/checkout@v4
         with:
@@ -49,6 +49,7 @@ jobs:
       - name: Install web dependencies
         run: npm ci --prefix web
       - name: Sync core and scheduled discovery
+        timeout-minutes: 15 # Final safety net above the 12-minute supervisor.
         env:
           LAW_API_OC: ${{ secrets.LAW_API_OC }}
           SCHEDULE: ${{ github.event.schedule }}
@@ -108,6 +109,7 @@ jobs:
           name: production-operation-reports
           path: |
             data/reports/production_sync.json
+            data/reports/production_attempts/
             data/reports/core_resolution.json
             data/reports/discovery_scan.json
             data/reports/discovery_candidates_api.json

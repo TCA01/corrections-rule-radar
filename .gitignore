@@ -19,6 +19,7 @@ htmlcov/
 .DS_Store
 Thumbs.db
 firebase-debug*.log
+data/reports/production_attempts/
 .firebase/
 *service_account*.json
 *service-account*.json

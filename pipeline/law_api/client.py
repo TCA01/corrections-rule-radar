@@ -3,6 +3,9 @@ import hashlib
 import json
 import os
 import socket
+import sys
+import queue
+import threading
 import time
 import urllib.error
 import urllib.parse
@@ -65,6 +68,38 @@ def parse_payload(raw, kind):
     return obj
 
 
+def bounded_request(opener, request, timeout):
+    """Bound DNS, connect/TLS and the complete body read, including trickles.
+
+    Only transport runs in the daemon thread. It cannot write caches, snapshots
+    or publication state. A timed-out result is discarded; the production
+    supervisor terminates the isolated worker process on its overall deadline.
+    """
+    result = queue.Queue(maxsize=1)
+    def transport():
+        try:
+            with opener.open(request, timeout=timeout) as response:
+                value = response.read(30_000_000)
+            result.put((value, None))
+        except urllib.error.HTTPError as exc:
+            result.put((None, ApiError('AUTHENTICATION_ERROR' if exc.code in (401, 403) else 'HTTP_ERROR', exc.code)))
+        except (socket.timeout, TimeoutError):
+            result.put((None, ApiError('TIMEOUT')))
+        except ApiError as exc:
+            result.put((None, ApiError(exc.code, exc.status)))
+        except (urllib.error.URLError, ConnectionError, OSError):
+            result.put((None, ApiError('NETWORK_ERROR')))
+        except Exception:
+            result.put((None, ApiError('TRANSPORT_FAILED')))
+    threading.Thread(target=transport, daemon=True, name='law-api-transport').start()
+    try:
+        raw, error = result.get(timeout=timeout)
+    except queue.Empty:
+        raise ApiError('TIMEOUT') from None
+    if error: raise error from None
+    return raw
+
+
 class LawClient:
     def __init__(self, *, timeout=30, interval=1.1, retries=2, cache="data/raw_cache", opener=None, metrics=None):
         self._oc = os.environ.get("LAW_API_OC", "").strip()
@@ -90,25 +125,15 @@ class LawClient:
             if attempt and self.metrics: self.metrics.retry_count+=1
             self._last = time.monotonic()
             attempt_started=self._last; error_code=None
-            old_timeout = socket.getdefaulttimeout()
-            socket.setdefaulttimeout(self.timeout)
             try:
-                with self.opener.open(req, timeout=self.timeout) as response:
-                    raw = response.read(30_000_000)
-                return raw
-            except urllib.error.HTTPError as exc:
-                error = ApiError("AUTHENTICATION_ERROR" if exc.code in (401, 403) else "HTTP_ERROR", exc.code)
+                return bounded_request(self.opener, req, self.timeout)
+            except ApiError as exc:
+                error = exc
                 error_code=error.code
-                if exc.code not in (429, 500, 502, 503, 504):
+                print(f'[law_api] {endpoint} target={params.get("target", "")} ID={params.get("ID", params.get("MST", ""))} attempt={attempt + 1}/{self.retries + 1} error={error.code} status={error.status or ""}', file=sys.stderr, flush=True)
+                if error.code not in ('TIMEOUT','NETWORK_ERROR') and not (error.code=='HTTP_ERROR' and (error.status==429 or 500<=(error.status or 0)<=599)):
                     break
-            except (socket.timeout, TimeoutError):
-                error = ApiError("TIMEOUT")
-                error_code=error.code
-            except urllib.error.URLError:
-                error = ApiError("NETWORK_ERROR")
-                error_code=error.code
             finally:
-                socket.setdefaulttimeout(old_timeout)
                 if self.metrics: self.metrics.record('api',time.monotonic()-attempt_started,error_code)
             if attempt < self.retries:
                 time.sleep(2 ** attempt)

@@ -36,15 +36,15 @@ export const Header: React.FC<HeaderProps> = ({ health }) => {
           <div className="header-meta-block">
             <div
               className="sync-status"
-              title={`마지막 정상 동기화: ${lastSyncStr}`}
-              aria-label={`동기화 상태: 마지막 정상 동기화 ${lastSyncStr}`}
+              title={`마지막 데이터 갱신: ${lastSyncStr}`}
+              aria-label={`동기화 상태: 마지막 데이터 갱신 ${lastSyncStr}`}
             >
               <span
                 className={`status-dot ${isDegraded ? 'degraded' : 'ok'}`}
                 aria-hidden="true"
               />
               <span className="sync-label">
-                마지막 정상 동기화: <strong>{lastSyncStr}</strong>
+                마지막 데이터 갱신: <strong>{lastSyncStr}</strong>
               </span>
               <CheckCircle2
                 size={14}

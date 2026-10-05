@@ -91,7 +91,9 @@ def run(*,metrics=None,quiet=False,state=None,trusted=None,output='data/staging/
             record.update({'status':'RESOLVED','current_name':value['metadata']['name']})
         except (ApiError,ValueError,KeyError,TypeError) as exc:
             record['review_reason']=exc.code if isinstance(exc,ApiError) else str(exc) if isinstance(exc,ValueError) else 'SCHEMA_MISMATCH'
-            if isinstance(exc,ApiError) and exc.code in ('AUTHENTICATION_ERROR','WAITING_FOR_LAW_API_OC'): raise
+            if isinstance(exc,ApiError):
+                record['http_status']=exc.status
+                if exc.code in ('AUTHENTICATION_ERROR','WAITING_FOR_LAW_API_OC','TIMEOUT','NETWORK_ERROR') or exc.code=='HTTP_ERROR' and (exc.status==429 or 500<=(exc.status or 0)<=599): raise
         resolution.append(record)
     collection={'complete':True,'collected_at':at,'registry':rows,'snapshots':snapshots,'future':future,'resolution':resolution}
     write_json(ROOT/'data/reports/core_resolution.json',{'entries':resolution,'complete':True,'collected_at':at})
