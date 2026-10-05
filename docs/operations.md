@@ -54,6 +54,6 @@ policies remain in effect.
 Private `production_sync.json` includes the deadline, attempt results and retry
 count. Sanitized attempt evidence remains under
 `data/reports/production_attempts/` and is uploaded as an operational artifact.
-API failure diagnostics include endpoint, target, stable request ID, attempt,
+API failure diagnostics include endpoint, target, supplied ID/MST, attempt,
 error code and HTTP status, never a credentialed URL. Publication timestamps
 stay stable on NO_CHANGE; private operational health records successful polls.

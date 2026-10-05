@@ -1,0 +1,34 @@
+{
+  "end_to_end_hang": {
+    "public_state_history_snapshots_unchanged": true,
+    "request_attempts": 6,
+    "request_retries": 4,
+    "result": "BLOCKED",
+    "whole_sync_attempts": 2
+  },
+  "full_backend_tests": 165,
+  "live_network_fault_injection": false,
+  "local_two_normal_runs": true,
+  "new_tests": 16,
+  "scenarios": [
+    "open ignores socket timeout",
+    "complete body read hangs",
+    "timeout then success",
+    "three timeouts final failure",
+    "HTTP500 and HTTP429 then success",
+    "HTTP400 not retried",
+    "connection reset then success",
+    "successful sync -> simulated failure -> last-good retained -> successful recovery",
+    "one whole-sync transient retry with fresh candidate",
+    "two transient failures block",
+    "whole worker killed on deadline after writing partial candidate",
+    "deadline before worker",
+    "promotion deadline rollback",
+    "NO_CHANGE content drift rejected",
+    "NO_CHANGE volatile attachment candidate does not add snapshot",
+    "actual hanging API subprocess: 3 requests x 2 whole attempts -> nonzero child exits -> BLOCKED"
+  ],
+  "status": "PASS",
+  "test_method": "deterministic offline fakes and real isolated subprocesses; no real 30-minute waits",
+  "workflow_gate": "sync nonzero exit prevents normal subsequent commit/build/deploy steps; only always() reports upload proceeds"
+}

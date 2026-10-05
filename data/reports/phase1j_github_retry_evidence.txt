@@ -1,0 +1,6 @@
+sync	Sync core and scheduled discovery	2026-10-05T11:43:15.1350396Z [unattended_sync] attempt 1/2; maximum remaining worker time 660s
+sync	Sync core and scheduled discovery	2026-10-05T11:45:36.6266321Z [law_api] lawService.do target=eflaw ID=271285 attempt=1/3 error=TIMEOUT status=
+sync	Sync core and scheduled discovery	2026-10-05T11:49:51.0753396Z [law_api] lawService.do target=admrul ID= attempt=1/3 error=TIMEOUT status=
+sync	Sync core and scheduled discovery	2026-10-05T11:51:35.8869363Z [law_api] lawSearch.do target=eflaw ID= attempt=1/3 error=TIMEOUT status=
+sync	Sync core and scheduled discovery	2026-10-05T11:52:07.7197709Z [production_sync] sync completed: NO_CHANGE
+sync	Stage allowlisted state or heartbeat	2026-10-05T11:54:12.6971087Z ***"public_changed": false, "commit_needed": false, "deploy_needed": false, "dataset_version": "ds-c21de361c699692df5cd9e366a51f0bbd31ade59516e8ba4185f2577b1e5a286", "heartbeat_only": false***

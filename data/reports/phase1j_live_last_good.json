@@ -1,0 +1,41 @@
+{
+  "dataset_version": "ds-c21de361c699692df5cd9e366a51f0bbd31ade59516e8ba4185f2577b1e5a286",
+  "health": {
+    "classification_review_count": 0,
+    "dataset_version": "ds-c21de361c699692df5cd9e366a51f0bbd31ade59516e8ba4185f2577b1e5a286",
+    "health_scope": "PUBLISHED_DATASET",
+    "last_successful_sync": "2026-10-04T03:06:53.544812+00:00",
+    "publication_status": "PUBLISHED",
+    "review_count": 0,
+    "rule_count": 107,
+    "schema_version": "1.5",
+    "status": "OK"
+  },
+  "matches": {
+    "changes/history.json": {
+      "identical_bytes": true,
+      "sha256": "2f5953cce2529dc8d662c316350cddf1e5ef3fd8477dcac6163ba691bd7a4fd5"
+    },
+    "changes/recent.json": {
+      "identical_bytes": true,
+      "sha256": "5560ea18ce104a55888eb1f65d4b10a4dd0fc377c47e930d41c71e67429e274a"
+    },
+    "health.json": {
+      "identical_bytes": true,
+      "sha256": "67ff5c04d2a30db9208277bce4ab356a2af369669e903770781b9f37954a52ad"
+    },
+    "manifest.json": {
+      "identical_bytes": true,
+      "sha256": "f374f862b6e2041e30904bda9d4e87b0f522bf462755c579c34327c2f42cc0b9"
+    },
+    "rules.json": {
+      "identical_bytes": true,
+      "sha256": "844bb704135db0c758a1d9b5aaeb32f773ec4f20f463d55c15cd478d5050c15b"
+    },
+    "rules/law-001671.json": {
+      "identical_bytes": true,
+      "sha256": "b6c3d01c774e571ea2d2ec57b0c1d8ff86404551381877bbb8417fe1cdda608a"
+    }
+  },
+  "status": "PASS"
+}

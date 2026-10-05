@@ -1,0 +1,81 @@
+{
+  "api_calls_per_normal_github_run": 140,
+  "average_api_response_seconds": 3.602429,
+  "backend_tests": 165,
+  "build": "PASS",
+  "core_rules": 107,
+  "dataset_version": "ds-c21de361c699692df5cd9e366a51f0bbd31ade59516e8ba4185f2577b1e5a286",
+  "deadline_shared_between_attempts": true,
+  "fail_closed": "PASS",
+  "frontend_tests": 90,
+  "github_job_duration_seconds": 683,
+  "github_job_timeout_minutes": 25,
+  "github_run_url": "https://github.com/TCA01/corrections-rule-radar/actions/runs/37304696750",
+  "github_sync_seconds": 538.266975,
+  "github_sync_step_timeout_minutes": 15,
+  "health_timestamp_semantics": "public health.last_successful_sync equals manifest.published_at; private operations health advances on completed polls",
+  "historical_reports_reason": "Retained audit evidence with repository-relative links; local machine references and secrets absent; marked pre-Phase1H.",
+  "historical_untracked_reports": "COMMITTED",
+  "hosting_artifact_files": 541,
+  "last_good": "PASS",
+  "live_site": "PASS",
+  "local_average_seconds": 167.07,
+  "local_runs": [
+    {
+      "all_public_mtimes_hashes_history_and_snapshots_identical": true,
+      "api_requests": 133,
+      "duration_seconds": 167.312,
+      "exit_code": 0,
+      "result": "NO_CHANGE",
+      "run": 1
+    },
+    {
+      "all_public_mtimes_hashes_history_and_snapshots_identical": true,
+      "api_requests": 133,
+      "duration_seconds": 166.828,
+      "exit_code": 0,
+      "result": "NO_CHANGE",
+      "run": 2
+    }
+  ],
+  "no_change_idempotency": "PASS",
+  "partial_publish_prevented": "PASS",
+  "phase": "PHASE 1J UNATTENDED OPERATION HARDENING",
+  "preservation": [
+    "107 rules",
+    "schema 1.5",
+    "Phase 1H incremental/cumulative comparisons",
+    "Phase 1I complete text/mobile behavior",
+    "16 domains including 보고",
+    "immutable history and old/new archives",
+    "twice-daily schedules",
+    "last-good Firebase dataset"
+  ],
+  "public_json_files": 538,
+  "public_page_calls_per_run": 2,
+  "ready_for_unattended_operation": true,
+  "recovered_timeouts_real_run": 3,
+  "request_backoff_seconds": [
+    1,
+    2
+  ],
+  "request_maximum_attempts": 3,
+  "request_retries_real_run": 3,
+  "request_timeout_seconds": 30,
+  "risks": [
+    "The precise request and DNS/connect/TLS/read phase of the old cancelled run cannot be identified from its retained logs."
+  ],
+  "schema_version": "1.5",
+  "secret_leak_count": 0,
+  "sync_triggered_deployment_count": 0,
+  "ui_code_release_count": 1,
+  "ui_label": "마지막 데이터 갱신",
+  "ui_label_changed": true,
+  "verify_direct_exit_code": 0,
+  "verify_explanation": "Prior piped exit 1 not conclusively diagnosable; current direct exit 0. No verifier change.",
+  "verify_issue": "OTHER",
+  "whole_sync_deadline_seconds": 720,
+  "whole_sync_maximum_attempts": 2,
+  "whole_sync_retries_real_run": 0,
+  "whole_sync_retry_wait_seconds": 5
+}
