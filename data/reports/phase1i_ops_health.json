@@ -1,0 +1,22 @@
+{
+  "api_request_count": 139,
+  "api_response_seconds": 294.758166,
+  "api_status": "OK",
+  "average_api_response_seconds": 2.120562,
+  "core_registry_total": 107,
+  "duration_seconds": 322.804197,
+  "failure_count": 0,
+  "last_attempt": "2026-10-05T06:14:10.484197+00:00",
+  "last_dataset_version": "ds-c21de361c699692df5cd9e366a51f0bbd31ade59516e8ba4185f2577b1e5a286",
+  "last_successful_sync": "2026-10-05T06:19:32.383403+00:00",
+  "public_page_request_count": 2,
+  "public_page_response_seconds": 8.412418,
+  "publication_status": "NO_CHANGE",
+  "retry_count": 2,
+  "review_count": 0,
+  "success_count": 107,
+  "total_http_request_count": 141,
+  "transport_error_summary": {
+    "NETWORK_ERROR": 2
+  }
+}

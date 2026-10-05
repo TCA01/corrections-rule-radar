@@ -36,6 +36,8 @@ export function probeLayout() {
   const article14 = education ? {
     text: education.textContent,
     highlights: [...education.querySelectorAll('del,ins')].map(node => ({ kind: node.tagName, text: node.textContent })),
+    before: education.querySelector('.diff-panel.before .legal-text-wrap')?.textContent ?? null,
+    after: education.querySelector('.diff-panel.after .legal-text-wrap')?.textContent ?? null,
   } : null;
   return { width: innerWidth, failures, appendices, article14 };
 }
@@ -62,6 +64,17 @@ export async function verifyPhase1IMobile(tab, viewport) {
         if (!result.article14?.text.includes('5. 삭제')) result.failures.push('Literal deletion missing');
       }
       results.push({ case: name, ...result });
+    }
+    if (name === 'education14') {
+      await tab.playwright.getByRole('tab', { name: '전·후 전체 비교', exact: true }).click();
+      for (const width of [360, 390, 412]) {
+        await viewport.set({ width, height: 800 });
+        const result = await tab.playwright.evaluate(probeLayout);
+        if (!result.article14?.before?.includes('4. 심리치료프로그램')
+          || !result.article14?.after?.includes('4. 삭제5. 삭제')
+          || /생\s*략|현행과 같음/.test(result.article14?.after ?? '')) result.failures.push('Incorrect full-text split comparison');
+        results.push({ case: 'education14 split', ...result });
+      }
     }
     await tab.playwright.getByRole('button', { name: '닫기', exact: true }).click();
   }

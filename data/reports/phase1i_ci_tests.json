@@ -1,0 +1,17 @@
+{
+  "errors": 0,
+  "failure_test_ids": [],
+  "failures": 0,
+  "passed": true,
+  "public_contract": {
+    "failed_files": [],
+    "status": "PASS",
+    "validated_file_count": 538
+  },
+  "secret_scan": {
+    "file_count": 0,
+    "files": [],
+    "status": "PASS"
+  },
+  "tests": 149
+}

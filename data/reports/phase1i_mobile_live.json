@@ -1,26 +1,82 @@
 [
   {
     "case": "deleted appendix",
-    "width": 1280,
+    "width": 360,
     "failures": [],
     "appendix_count": 4,
     "examples": [
       {
         "action": {
-          "bottom": 2307.125,
+          "bottom": 4140.234375,
           "height": 27.5625,
-          "left": 907.96875,
-          "right": 1057.5,
-          "top": 2279.5625
+          "left": 66,
+          "right": 215.53125,
+          "top": 4112.671875
         },
         "deleted": true,
-        "display": "flex",
+        "display": "grid",
         "info": {
-          "bottom": 2316.328125,
+          "bottom": 4104.671875,
           "height": 45.953125,
-          "left": 224.5,
-          "right": 891.96875,
-          "top": 2270.375
+          "left": 66,
+          "right": 290,
+          "top": 4058.71875
+        },
+        "title": "삭제 <2016.1.22.>"
+      }
+    ],
+    "article14": null
+  },
+  {
+    "case": "deleted appendix",
+    "width": 390,
+    "failures": [],
+    "appendix_count": 4,
+    "examples": [
+      {
+        "action": {
+          "bottom": 3937.484375,
+          "height": 27.5625,
+          "left": 66,
+          "right": 215.53125,
+          "top": 3909.921875
+        },
+        "deleted": true,
+        "display": "grid",
+        "info": {
+          "bottom": 3901.921875,
+          "height": 45.953125,
+          "left": 66,
+          "right": 320,
+          "top": 3855.96875
+        },
+        "title": "삭제 <2016.1.22.>"
+      }
+    ],
+    "article14": null
+  },
+  {
+    "case": "deleted appendix",
+    "width": 412,
+    "failures": [],
+    "appendix_count": 4,
+    "examples": [
+      {
+        "action": {
+          "bottom": 3724.59375,
+          "height": 27.5625,
+          "left": 66,
+          "right": 215.53125,
+          "top": 3697.03125
+        },
+        "deleted": true,
+        "display": "grid",
+        "info": {
+          "bottom": 3689.03125,
+          "height": 45.953125,
+          "left": 66,
+          "right": 342,
+          "top": 3643.078125
         },
         "title": "삭제 <2016.1.22.>"
       }
@@ -56,83 +112,83 @@
     "article14": null
   },
   {
-    "case": "deleted appendix",
-    "width": 1280,
+    "case": "long appendices",
+    "width": 360,
     "failures": [],
-    "appendix_count": 4,
+    "appendix_count": 59,
     "examples": [
       {
         "action": {
-          "bottom": 2307.125,
-          "height": 27.5625,
-          "left": 907.96875,
-          "right": 1057.5,
-          "top": 2279.5625
+          "bottom": 10088.125,
+          "height": 44,
+          "left": 66,
+          "right": 152.59375,
+          "top": 10044.125
         },
-        "deleted": true,
-        "display": "flex",
+        "deleted": false,
+        "display": "grid",
         "info": {
-          "bottom": 2316.328125,
-          "height": 45.953125,
-          "left": 224.5,
-          "right": 891.96875,
-          "top": 2270.375
+          "bottom": 10036.125,
+          "height": 66.359375,
+          "left": 66,
+          "right": 290,
+          "top": 9969.765625
         },
-        "title": "삭제 <2016.1.22.>"
-      }
-    ],
-    "article14": null
-  },
-  {
-    "case": "deleted appendix",
-    "width": 1280,
-    "failures": [],
-    "appendix_count": 4,
-    "examples": [
-      {
-        "action": {
-          "bottom": 2307.125,
-          "height": 27.5625,
-          "left": 907.96875,
-          "right": 1057.5,
-          "top": 2279.5625
-        },
-        "deleted": true,
-        "display": "flex",
-        "info": {
-          "bottom": 2316.328125,
-          "height": 45.953125,
-          "left": 224.5,
-          "right": 891.96875,
-          "top": 2270.375
-        },
-        "title": "삭제 <2016.1.22.>"
+        "title": "포승 사용방법3(제179조제1항제3호 관련)"
       }
     ],
     "article14": null
   },
   {
     "case": "long appendices",
-    "width": 1280,
+    "width": 390,
     "failures": [],
     "appendix_count": 59,
     "examples": [
       {
         "action": {
-          "bottom": 5261.3125,
-          "height": 29.1875,
-          "left": 975.34375,
-          "right": 1057.5,
-          "top": 5232.125
+          "bottom": 9437.4375,
+          "height": 44,
+          "left": 66,
+          "right": 152.96875,
+          "top": 9393.4375
         },
         "deleted": false,
-        "display": "flex",
+        "display": "grid",
         "info": {
-          "bottom": 5268.703125,
+          "bottom": 9385.4375,
           "height": 43.96875,
-          "left": 224.5,
-          "right": 959.34375,
-          "top": 5224.734375
+          "left": 66,
+          "right": 320,
+          "top": 9341.46875
+        },
+        "title": "포승 사용방법3(제179조제1항제3호 관련)"
+      }
+    ],
+    "article14": null
+  },
+  {
+    "case": "long appendices",
+    "width": 412,
+    "failures": [],
+    "appendix_count": 59,
+    "examples": [
+      {
+        "action": {
+          "bottom": 9217.828125,
+          "height": 44,
+          "left": 66,
+          "right": 152.96875,
+          "top": 9173.828125
+        },
+        "deleted": false,
+        "display": "grid",
+        "info": {
+          "bottom": 9165.828125,
+          "height": 43.96875,
+          "left": 66,
+          "right": 342,
+          "top": 9121.859375
         },
         "title": "포승 사용방법3(제179조제1항제3호 관련)"
       }
@@ -147,11 +203,11 @@
     "examples": [
       {
         "action": {
-          "bottom": 5261.3125,
-          "height": 29.1875,
-          "left": 975.34375,
+          "bottom": 5263,
+          "height": 32.5625,
+          "left": 973.3125,
           "right": 1057.5,
-          "top": 5232.125
+          "top": 5230.4375
         },
         "deleted": false,
         "display": "flex",
@@ -159,63 +215,7 @@
           "bottom": 5268.703125,
           "height": 43.96875,
           "left": 224.5,
-          "right": 959.34375,
-          "top": 5224.734375
-        },
-        "title": "포승 사용방법3(제179조제1항제3호 관련)"
-      }
-    ],
-    "article14": null
-  },
-  {
-    "case": "long appendices",
-    "width": 1280,
-    "failures": [],
-    "appendix_count": 59,
-    "examples": [
-      {
-        "action": {
-          "bottom": 5261.3125,
-          "height": 29.1875,
-          "left": 975.34375,
-          "right": 1057.5,
-          "top": 5232.125
-        },
-        "deleted": false,
-        "display": "flex",
-        "info": {
-          "bottom": 5268.703125,
-          "height": 43.96875,
-          "left": 224.5,
-          "right": 959.34375,
-          "top": 5224.734375
-        },
-        "title": "포승 사용방법3(제179조제1항제3호 관련)"
-      }
-    ],
-    "article14": null
-  },
-  {
-    "case": "long appendices",
-    "width": 1280,
-    "failures": [],
-    "appendix_count": 59,
-    "examples": [
-      {
-        "action": {
-          "bottom": 5261.3125,
-          "height": 29.1875,
-          "left": 975.34375,
-          "right": 1057.5,
-          "top": 5232.125
-        },
-        "deleted": false,
-        "display": "flex",
-        "info": {
-          "bottom": 5268.703125,
-          "height": 43.96875,
-          "left": 224.5,
-          "right": 959.34375,
+          "right": 957.3125,
           "top": 5224.734375
         },
         "title": "포승 사용방법3(제179조제1항제3호 관련)"
@@ -225,7 +225,7 @@
   },
   {
     "case": "education14",
-    "width": 1280,
+    "width": 360,
     "failures": [],
     "appendix_count": 39,
     "examples": [],
@@ -255,7 +255,7 @@
   },
   {
     "case": "education14",
-    "width": 1280,
+    "width": 390,
     "failures": [],
     "appendix_count": 39,
     "examples": [],
@@ -285,7 +285,7 @@
   },
   {
     "case": "education14",
-    "width": 1280,
+    "width": 412,
     "failures": [],
     "appendix_count": 39,
     "examples": [],
@@ -345,7 +345,7 @@
   },
   {
     "case": "education14 split",
-    "width": 1280,
+    "width": 360,
     "failures": [],
     "appendix_count": 39,
     "examples": [],
@@ -358,7 +358,7 @@
   },
   {
     "case": "education14 split",
-    "width": 1280,
+    "width": 390,
     "failures": [],
     "appendix_count": 39,
     "examples": [],
@@ -371,7 +371,7 @@
   },
   {
     "case": "education14 split",
-    "width": 1280,
+    "width": 412,
     "failures": [],
     "appendix_count": 39,
     "examples": [],
