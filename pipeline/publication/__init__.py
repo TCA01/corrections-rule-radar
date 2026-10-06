@@ -115,6 +115,9 @@ def publish(files,root):
             retained=json.loads(prior.read_text(encoding='utf8'))
             validate_contract('change',retained); shutil.copy2(prior,path)
     from scripts.validate_public import validate
+    # Retain the last completed scan until the supervisor records a new one.
+    ops=output/'ops-status.json'
+    if ops.exists(): shutil.copy2(ops,staging/'ops-status.json')
     validate(staging,contract_validator=validate_contract)
     output.parent.mkdir(parents=True,exist_ok=True)
     existed=output.exists()

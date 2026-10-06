@@ -63,7 +63,7 @@ describe('Phase 1G production integration', () => {
     if (!provenance || typeof provenance === 'string') throw new Error('Expected schema 1.4 structured provenance');
     expect(modal.textContent).toContain(provenance.selection_basis);
     expect(modal.textContent).toContain('수용기록 업무');
-    expect(within(modal).getByRole('link', { name: '공식 원문' })).toHaveAttribute('href', law.official_source_url);
+    expect(within(modal).getByRole('link', { name: '공식 원문' })).toHaveAttribute('href', 'https://www.law.go.kr/LSW/lsInfoP.do?efYd=20261002&lsiSeq=290189');
     fireEvent.click(within(modal).getByRole('tab', { name: '전·후 전체 비교' }));
     expect(modal.textContent).toContain('종전 버전');
     expect(modal.textContent).toContain('개정 버전');

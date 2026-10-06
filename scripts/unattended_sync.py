@@ -13,6 +13,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from pipeline.operations import now
 from pipeline.snapshot import write_json
 from scripts.validate_public import validate
+from pipeline.operations.public_status import publish_status
 
 ROOT = Path(__file__).resolve().parents[1]
 DEADLINE_SECONDS = 720
@@ -202,5 +203,10 @@ def run(*, root=None, deadline_seconds=DEADLINE_SECONDS, executor=None, **option
         errors = Counter()
         for attempt in attempts: errors.update(attempt['metrics'].get('transport_error_summary', {}))
         report['transport_error_summary'] = dict(errors)
+    try: report['ops_status_updated'] = publish_status(root, report)
+    except Exception:
+        report['ops_status_updated'] = False
+        report['result'] = 'BLOCKED'
+        report['error_summary'] = {'code':'OPS_STATUS_PUBLICATION_FAILED'}
     write_json(root / 'data/reports/production_sync.json', report)
     return report

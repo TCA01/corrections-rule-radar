@@ -1,0 +1,18 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "type":"object", "additionalProperties":false,
+  "required":["schema_version","status_scope","last_scan_started_at","last_scan_completed_at","last_scan_status","last_scan_result","last_scan_rule_count","last_scan_current_count","last_scan_failures","last_good_dataset_version","schedule_kst"],
+  "properties":{
+    "schema_version":{"const":"1.5"},
+    "status_scope":{"const":"LAST_SUCCESSFUL_SCAN"},
+    "last_scan_started_at":{"type":"string","format":"date-time"},
+    "last_scan_completed_at":{"type":"string","format":"date-time"},
+    "last_scan_status":{"const":"OK"},
+    "last_scan_result":{"enum":["PUBLISHED","NO_CHANGE"]},
+    "last_scan_rule_count":{"type":"integer","minimum":1},
+    "last_scan_current_count":{"type":"integer","minimum":0},
+    "last_scan_failures":{"const":0},
+    "last_good_dataset_version":{"type":"string","pattern":"^ds-[a-f0-9]{64}$"},
+    "schedule_kst":{"const":["08:37","20:37"]}
+  }
+}

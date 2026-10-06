@@ -1,4 +1,5 @@
 import React, { useState, useMemo } from 'react';
+import { officialSource } from '../utils/officialSource';
 import { RuleSummary, BusinessDomain, CONTROLLED_DOMAINS } from '../types';
 import { formatDotDate } from '../utils/date';
 import { Search, Filter, ExternalLink, ChevronRight } from 'lucide-react';
@@ -59,7 +60,7 @@ export const RegulationDirectory: React.FC<RegulationDirectoryProps> = ({ rules,
           <h2 id="directory-heading" className="section-title">
             전체 규정 디렉터리
           </h2>
-          <span className="section-badge">총 {filteredRules.length}개</span>
+          <span className="section-badge">{includeRepealed ? '전체' : '현행'} {filteredRules.length}개</span>
         </div>
       </div>
 
@@ -204,7 +205,7 @@ export const RegulationDirectory: React.FC<RegulationDirectoryProps> = ({ rules,
                       <ChevronRight size={14} />
                     </button>
                     <a
-                      href={rule.official_source_url}
+                      href={officialSource(rule)}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="row-external-link"

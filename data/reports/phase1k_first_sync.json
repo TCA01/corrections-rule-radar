@@ -1,0 +1,47 @@
+{
+  "api_request_count": 135,
+  "api_response_seconds": 80.099,
+  "average_api_response_seconds": 0.593326,
+  "dataset_version": "ds-b1f5f18bf785019f3998a504462ac072e0b885a07f4da519a1a95d79289943a2",
+  "discovery_monitor_error": null,
+  "duration_seconds": 205.5,
+  "error_summary": {},
+  "event_ids_identical": false,
+  "failure_count": 0,
+  "finished_at": "2026-10-06T10:00:06.475494+00:00",
+  "last_good_dataset_version": "ds-b1f5f18bf785019f3998a504462ac072e0b885a07f4da519a1a95d79289943a2",
+  "mode": "CORE_STABLE_IDS",
+  "new_events": 10,
+  "ops_status_updated": true,
+  "persistent_new_events": 2,
+  "public_bytes_and_mtimes_identical": false,
+  "public_page_request_count": 0,
+  "public_page_response_seconds": 0.0,
+  "public_rewritten": true,
+  "request_metrics_complete": true,
+  "result": "PUBLISHED",
+  "retry_count": 0,
+  "review_count": 0,
+  "snapshot_hashes_identical": false,
+  "started_at": "2026-10-06T09:56:40.983505+00:00",
+  "success_count": 107,
+  "total_http_request_count": 135,
+  "transport_error_summary": {},
+  "whole_sync_attempts": [
+    {
+      "attempt": 1,
+      "error_summary": {},
+      "metrics": {
+        "api_request_count": 135,
+        "api_response_seconds": 80.099,
+        "public_page_request_count": 0,
+        "public_page_response_seconds": 0.0,
+        "retry_count": 0,
+        "transport_error_summary": {}
+      },
+      "result": "PUBLISHED"
+    }
+  ],
+  "whole_sync_deadline_seconds": 720,
+  "whole_sync_retry_count": 0
+}

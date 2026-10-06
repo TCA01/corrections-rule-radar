@@ -62,7 +62,7 @@ jobs:
         run: python scripts/verify.py
       - name: Frontend tests
         run: npm test --prefix web
-      - name: Stage allowlisted state or heartbeat
+      - name: Stage allowlisted legal state, scan status or heartbeat
         id: state
         env:
           FORCE_DEPLOY: ${{ inputs.force_deploy }}
@@ -118,4 +118,5 @@ jobs:
             data/reports/tests.json
             data/reports/firebase_artifact.json
             data/ops/health.json
+            public/api/v1/ops-status.json
           retention-days: 30

@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useRef, useMemo } from 'react';
+import { officialSource } from '../utils/officialSource';
 import {
   RuleSummary,
   RuleDetailResponse,
@@ -145,7 +146,7 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({
     const list: VersionComparisonTarget[] = [];
 
     // 1. If opened with a specific event from recent changes
-    if (initialEvent && initialEvent.changed_articles && initialEvent.changed_articles.length > 0) {
+    if (initialEvent) {
       list.push({
         id: `event-${initialEvent.event_id}`,
         label: `${formatDotDate(initialEvent.effective_date)} 개정`,
@@ -158,7 +159,7 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({
           : initialEvent.changed_articles),
         unavailable: needsStructuredComparison(initialEvent) && visualEvent?.eventId === initialEvent.event_id && visualEvent.comparison.textSource === 'UNAVAILABLE',
         comparisonSource: initialEvent.comparison_source || '정밀 조문 대비',
-        officialSourceUrl: initialEvent.official_source_url || rule?.official_source_url || 'https://www.law.go.kr',
+        officialSourceUrl: officialSource({ ...rule, version_id: initialEvent.after_version?.version_id || initialEvent.after_version?.identifier, effective_date: initialEvent.effective_date, official_source_url: initialEvent.official_source_url }),
       });
     }
 
@@ -176,7 +177,7 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({
             afterVersion: up.version_reference?.effective_date || up.version_id,
             changedArticles: displayArticleDiffs(up.changed_articles),
             comparisonSource: up.comparison_source || 'STRUCTURED_SNAPSHOT_DIFF',
-            officialSourceUrl: up.official_source_url || rule?.official_source_url || 'https://www.law.go.kr',
+            officialSourceUrl: officialSource({ ...up, source_kind: rule?.source_kind, effective_date: effDate }),
             cumulative: up.cumulative_articles_compared_to && up.cumulative_changed_articles ? {
               beforeVersion: formatDotDate(up.cumulative_articles_compared_to.effective_date),
               changedArticles: displayArticleDiffs(up.cumulative_changed_articles),
@@ -200,7 +201,7 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({
           afterVersion: detail.current?.version_reference?.effective_date || detail.current?.version_id || '현행 규정',
           changedArticles: displayArticleDiffs(detail.changed_articles),
           comparisonSource: '정밀 조문 대비 (Phase 1E)',
-          officialSourceUrl: detail.current?.official_source_url || rule?.official_source_url || 'https://www.law.go.kr',
+          officialSourceUrl: officialSource(detail.current),
         });
       }
     }
@@ -299,7 +300,7 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({
 
             {/* Official Source Action moved to Header (Section 14) */}
             <a
-              href={rule.official_source_url}
+              href={activeComparison?.officialSourceUrl || officialSource(rule)}
               target="_blank"
               rel="noopener noreferrer"
               className="modal-official-link"
@@ -458,6 +459,7 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({
                 </div>
               )}
 
+              {activeComparison.badge === '시행 예정' && <p className="comparison-explanation">{cumulative ? '현재 시행상태 대비 해당 날짜까지 누적된 변경입니다.' : '직전 시행상태 대비 해당 시행일에 새로 달라지는 조문입니다.'}</p>}
               <div className="diff-header-bar">
                 <div className="diff-header-left">
                   <h3 className="detail-section-title">
@@ -638,7 +640,7 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({
           {!loading && !error && appendices.length > 0 && (
             <div className="detail-section">
               <h3 className="detail-section-title">
-                관련 별표·서식 ({appendices.length}건)
+                현행 규정의 관련 별표·서식 ({appendices.length}건)
               </h3>
               <div className="appendices-list">
                 {appendices.map((app, idx) => {
@@ -701,7 +703,7 @@ export const RuleDetailModal: React.FC<RuleDetailModalProps> = ({
             <div className="detail-source-row">
               <span className="source-label">출처: 법제처 국가법령정보센터</span>
               <a
-                href={rule.official_source_url}
+                href={activeComparison?.officialSourceUrl || officialSource(rule)}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="official-source-link"

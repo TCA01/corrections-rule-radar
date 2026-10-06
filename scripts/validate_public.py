@@ -13,6 +13,10 @@ def validate(folder,*,contract_validator=None):
         rel=p.relative_to(folder).as_posix(); value=json.loads(p.read_text(encoding='utf-8'))
         name='version' if '/versions/' in rel else 'rule' if rel.startswith('rules/') else ('change' if p.stem.startswith('evt-') else p.stem if p.stem in ('recent','history') else 'changes') if rel.startswith('changes/') else p.stem
         contract_validator(name,value)
+        if name=='ops-status':
+            from datetime import datetime
+            if datetime.fromisoformat(value['last_scan_completed_at']) < datetime.fromisoformat(value['last_scan_started_at']): raise ValueError('OPS_TIME_ORDER')
+            if value['last_scan_current_count']>value['last_scan_rule_count']: raise ValueError('OPS_COUNT_MISMATCH')
         if 'dataset_version' in value and value['dataset_version']!=manifest['dataset_version']: raise ValueError('MIXED_DATASET')
         refs=[]
         if name=='rule':

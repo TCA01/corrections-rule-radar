@@ -10,6 +10,7 @@ from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 from pipeline.operations import heartbeat_due,now
 from pipeline.snapshot import write_json
+from pipeline.operations.public_status import status_hash
 
 ROOT=Path(__file__).resolve().parents[1]
 EXACT={'data/registry/state.json','data/registry/rules.json','data/registry/events.json','data/registry/change_history.json','data/registry/provenance.json','data/registry/business_domains.json','data/registry/scope_approval.json','data/registry/scope_approvals/phase1g.json','data/seed/business_domains.json','data/seed/corrections.json','data/ops/deployment.json'}
@@ -31,15 +32,21 @@ def prepare(*,published,force_deploy=False,at=None,last_change=None):
         if heartbeat_due(last_change or last_activity(),at):
             write_json(ROOT/'data/ops/heartbeat.json',{'last_heartbeat':at,'reason':'30_DAYS_WITHOUT_REPOSITORY_COMMIT'})
             paths=['data/ops/heartbeat.json']
+    ops_hash=status_hash(ROOT)
+    ops_pending=bool(ops_hash and ops_hash!=old.get('last_deployed_ops_sha256'))
+    if ops_pending:
+        old['pending_ops_sha256']=ops_hash
+        write_json(marker,old)
+        paths=list(dict.fromkeys(paths+['public/api/v1/ops-status.json','data/ops/deployment.json']))
     if paths: git('add','--',*paths)
     # On a new host/bootstrap there may be no prior deployment marker. A manual
     # enabled run can deploy the validated existing baseline too.
     pending=old.get('pending_dataset_version') or (version if not old.get('last_deployed_dataset_version') else None)
-    return {'public_changed':published,'commit_needed':bool(paths),'deploy_needed':(pending is not None) or force_deploy,'dataset_version':version,'heartbeat_only':paths==['data/ops/heartbeat.json']}
+    return {'public_changed':published,'ops_changed':ops_pending,'commit_needed':bool(paths),'deploy_needed':(pending is not None) or ops_pending or force_deploy,'dataset_version':version,'heartbeat_only':paths==['data/ops/heartbeat.json']}
 def acknowledge(version):
     current=json.loads((ROOT/'public/api/v1/manifest.json').read_text(encoding='utf-8'))['dataset_version']
     if version!=current: raise ValueError('DEPLOYMENT_DATASET_MISMATCH')
-    write_json(ROOT/'data/ops/deployment.json',{'pending_dataset_version':None,'last_deployed_dataset_version':version,'last_successful_deployment':now()}); git('add','--','data/ops/deployment.json')
+    write_json(ROOT/'data/ops/deployment.json',{'pending_dataset_version':None,'pending_ops_sha256':None,'last_deployed_dataset_version':version,'last_deployed_ops_sha256':status_hash(ROOT),'last_successful_deployment':now()}); git('add','--','data/ops/deployment.json')
 def main():
     parser=argparse.ArgumentParser()
     parser.add_argument('--ack-deployed')

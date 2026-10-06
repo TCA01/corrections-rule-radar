@@ -1,5 +1,5 @@
 {
-  "dataset_version": "ds-c21de361c699692df5cd9e366a51f0bbd31ade59516e8ba4185f2577b1e5a286",
+  "dataset_version": "ds-b1f5f18bf785019f3998a504462ac072e0b885a07f4da519a1a95d79289943a2",
   "rules": [
     {
       "business_domains": [
@@ -976,29 +976,30 @@
     },
     {
       "business_domains": [
-        "인사·조직",
         "기타"
       ],
       "canonical_id": "admrul-29857",
       "classification_status": "REVIEWED",
       "corrections_category": "훈령",
-      "current_name": "법무부 소관 회계 관계공무원의 관직지정과 임명권 위임에 관한 규정",
+      "current_name": "법무부 소관 회계 관계 공무원의 관직지정과 임명권 위임에 관한 규정",
       "detail_url": "/api/v1/rules/admrul-29857.json",
-      "domain_assignment_status": "EVIDENCE_BASED",
-      "historical_names": [],
+      "domain_assignment_status": "FALLBACK",
+      "historical_names": [
+        "법무부 소관 회계 관계공무원의 관직지정과 임명권 위임에 관한 규정"
+      ],
       "metadata": {
         "amendment_type": "일부개정",
         "department": "법무부(운영지원과)",
-        "effective_date": "2025-06-18",
-        "issue_date": "2025-06-18",
-        "issue_number": "1583",
+        "effective_date": "2026-10-02",
+        "issue_date": "2026-10-02",
+        "issue_number": "1642",
         "ministry": "법무부",
-        "name": "법무부 소관 회계 관계공무원의 관직지정과 임명권 위임에 관한 규정",
+        "name": "법무부 소관 회계 관계 공무원의 관직지정과 임명권 위임에 관한 규정",
         "official_state": "Y",
         "rule_type": "훈령"
       },
-      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000260472",
-      "primary_domain": "인사·조직",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286176",
+      "primary_domain": "기타",
       "provenance": {
         "api_tracking_class": "API_TRACKABLE",
         "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
@@ -1006,7 +1007,7 @@
           "교정기관 회계 담당자",
           "지방교정청장"
         ],
-        "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000260472",
+        "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286176",
         "discovery_source": [
           "LAW_API_MINISTRY",
           "LAW_API_KEYWORD"
@@ -1019,13 +1020,11 @@
         "selection_basis": "회계 관계공무원 관직·임명권 위임; 제4조 지방교정청장 대리자 임명 명시",
         "structured_body_source": "LAWGO_JSON_XML"
       },
-      "secondary_domains": [
-        "기타"
-      ],
+      "secondary_domains": [],
       "seed_names": [],
       "source_kind": "admrul",
       "status": "CURRENT",
-      "version_id": "2100000260472"
+      "version_id": "2100000286176"
     },
     {
       "business_domains": [
@@ -1443,28 +1442,30 @@
     },
     {
       "business_domains": [
-        "수용·보안"
+        "기타"
       ],
       "canonical_id": "admrul-35611",
       "classification_status": "REVIEWED",
       "corrections_category": "예규",
-      "current_name": "미결수용인 분리수용 협조(공범표시)",
+      "current_name": "미결수용인 분리수용 관련 지침",
       "detail_url": "/api/v1/rules/admrul-35611.json",
-      "domain_assignment_status": "EVIDENCE_BASED",
-      "historical_names": [],
+      "domain_assignment_status": "FALLBACK",
+      "historical_names": [
+        "미결수용인 분리수용 협조(공범표시)"
+      ],
       "metadata": {
         "amendment_type": "일부개정",
         "department": "공소청(형사1과)",
-        "effective_date": "2024-06-03",
-        "issue_date": "2024-06-03",
-        "issue_number": "1414",
+        "effective_date": "2026-10-02",
+        "issue_date": "2026-10-02",
+        "issue_number": "186",
         "ministry": "공소청",
-        "name": "미결수용인 분리수용 협조(공범표시)",
+        "name": "미결수용인 분리수용 관련 지침",
         "official_state": "Y",
         "rule_type": "예규"
       },
-      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000241876",
-      "primary_domain": "수용·보안",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286360",
+      "primary_domain": "기타",
       "provenance": {
         "api_tracking_class": "API_TRACKABLE",
         "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
@@ -1472,7 +1473,7 @@
           "구치소 수용 담당자",
           "미결수용인"
         ],
-        "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000241876",
+        "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286360",
         "discovery_source": [
           "LAW_API_MINISTRY",
           "LAW_API_KEYWORD"
@@ -1489,7 +1490,7 @@
       "seed_names": [],
       "source_kind": "admrul",
       "status": "CURRENT",
-      "version_id": "2100000241876"
+      "version_id": "2100000286360"
     },
     {
       "business_domains": [

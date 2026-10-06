@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-05T11:43:43.230163+00:00",
+  "collected_at": "2026-10-06T10:01:18.068746+00:00",
   "complete": true,
   "entries": [
     {
@@ -604,7 +604,7 @@
     },
     {
       "canonical_id": "admrul-29857",
-      "current_name": "법무부 소관 회계 관계공무원의 관직지정과 임명권 위임에 관한 규정",
+      "current_name": "법무부 소관 회계 관계 공무원의 관직지정과 임명권 위임에 관한 규정",
       "resolution_method": "TRUSTED_STABLE_ID",
       "review_reason": null,
       "seed_name": null,
@@ -620,7 +620,7 @@
     },
     {
       "canonical_id": "admrul-35611",
-      "current_name": "미결수용인 분리수용 협조(공범표시)",
+      "current_name": "미결수용인 분리수용 관련 지침",
       "resolution_method": "TRUSTED_STABLE_ID",
       "review_reason": null,
       "seed_name": null,

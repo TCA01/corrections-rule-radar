@@ -1,4 +1,17 @@
 {
-  "count": 0,
-  "records": []
+  "count": 2,
+  "records": [
+    {
+      "canonical_id": "admrul-29857",
+      "current_name": "법무부 소관 회계 관계 공무원의 관직지정과 임명권 위임에 관한 규정",
+      "primary_domain": "기타",
+      "reason": "APPROVED_MAPPING_CONTENT_CHANGED_OR_MISSING"
+    },
+    {
+      "canonical_id": "admrul-35611",
+      "current_name": "미결수용인 분리수용 관련 지침",
+      "primary_domain": "기타",
+      "reason": "APPROVED_MAPPING_CONTENT_CHANGED_OR_MISSING"
+    }
+  ]
 }

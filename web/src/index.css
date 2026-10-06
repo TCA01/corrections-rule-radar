@@ -2175,3 +2175,7 @@ a:hover {
     padding: 1rem;
   }
 }
+
+.scan-status { display: flex; flex-direction: column; gap: .15rem; font-size: .8rem; line-height: 1.5; }
+.scan-schedule, .comparison-explanation { font-size: .78rem; color: #64748b; line-height: 1.6; }
+.header-meta-block { display: flex; flex-direction: column; gap: .4rem; }

@@ -1,0 +1,71 @@
+- heading "(신구법 비교는 공포단위 서비스입니다)" [level=2]:
+  - generic: (신구법 비교는 공포단위 서비스입니다)
+    - row "이전법령 형사소송법 [시행 2027. 12. 31] [법률 제21241호, 2025. 12. 30, 일부개정] 형사소송법 [시행 2026. 10. 2] [법률 제21857호, 2026. 8. 4, 일부개정] 다음법령":
+      - columnheader "형사소송법 [시행 2027. 12. 31] [법률 제21241호, 2025. 12. 30, 일부개정]":
+        - text: "[시행 2027. 12. 31] [법률 제21241호, 2025. 12. 30, 일부개정]"
+      - columnheader "형사소송법 [시행 2026. 10. 2] [법률 제21857호, 2026. 8. 4, 일부개정]":
+        - text: "[시행 2026. 10. 2] [법률 제21857호, 2026. 8. 4, 일부개정]"
+
+- heading "법령(연혁)" [level=2]
+- heading "- 형사소송법" [level=2]:
+  - generic: "- 형사소송법"
+- heading [level=2]
+- paragraph:
+  - img "법제처 국가법령정보센터 - 새창열림"
+- list:
+  - link "형사소송법 [시행 2027. 8. 5.] [법률 제21857호, 2026. 8. 4., 일부개정]":
+    - /url: javascript:;
+    - generic: 형사소송법
+    - generic: "[시행 2027. 8. 5.] [법률 제21857호, 2026. 8. 4., 일부개정]"
+  - list:
+    - link "본문목록열림 본문":
+      - /url: javascript:;
+      - generic: 본문목록열림
+      - text: 본문
+    - link "부칙목록열림 부칙":
+      - /url: javascript:;
+      - generi
+
+- heading "법령(연혁)" [level=2]
+- heading "- 형사소송법" [level=2]:
+  - generic: "- 형사소송법"
+- heading [level=2]
+- paragraph:
+  - img "법제처 국가법령정보센터 - 새창열림"
+- list:
+  - link "형사소송법 [시행 2027. 12. 31.] [법률 제21241호, 2025. 12. 30., 일부개정]":
+    - /url: javascript:;
+    - generic: 형사소송법
+    - generic: "[시행 2027. 12. 31.] [법률 제21241호, 2025. 12. 30., 일부개정]"
+  - list:
+    - link "본문목록열림 본문":
+      - /url: javascript:;
+      - generic: 본문목록열림
+      - text: 본문
+    - link "부칙목록열림 부칙":
+      - /url: javascript:;
+      - generic: 부칙목록열림
+
+
+- heading "법령" [level=2]
+- heading "- 형사소송법" [level=2]:
+  - generic: "- 형사소송법"
+- heading [level=2]
+- paragraph:
+  - img "법제처 국가법령정보센터 - 새창열림"
+- list:
+  - link "형사소송법 [시행 2026. 10. 2.] [법률 제22009호, 2026. 9. 29., 일부개정]":
+    - /url: javascript:;
+    - generic: 형사소송법
+    - generic: "[시행 2026. 10. 2.] [법률 제22009호, 2026. 9. 29., 일부개정]"
+  - list:
+    - link "본문목록열림 본문":
+      - /url: javascript:;
+      - generic: 본문목록열림
+      - text: 본문
+    - link "부칙목록열림 부칙":
+      - /url: javascript:;
+      - generic: 부칙목록열림
+      - te
+
+Observed first navigation: 형사소송법 [시행 2027. 2. 5.] [법률 제21857호, 2026. 8. 4., 일부개정] at https://www.law.go.kr/LSW/lsInfoP.do?efYd=20270205&lsiSeq=288579

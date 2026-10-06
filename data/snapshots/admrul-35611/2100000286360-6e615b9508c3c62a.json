@@ -1,0 +1,63 @@
+{
+  "appendices": [],
+  "attachments": [
+    {
+      "title": "8. 미결수용인 분리수용 관련 지침.hwp",
+      "type": "OFFICIAL_ATTACHMENT",
+      "url": "https://law.go.kr/flDownload.do?flSeq=170053177"
+    }
+  ],
+  "body": {
+    "addenda": {
+      "부칙공포번호": [
+        "1097",
+        "1414",
+        "186"
+      ],
+      "부칙공포일자": [
+        "20200601",
+        "20240601",
+        "20261002"
+      ],
+      "부칙내용": [
+        "부칙 1. 이 예규는 2020년 6월 1일부터 시행한다.2. 종전의 대검예규 제501호(미결수용인 분리수용 협조)는 이를 폐지한다.",
+        "부칙 1. 이 예규는 2024년 6월 3일부터 시행한다.2. 종전의 대검예규 제501호(미결수용인 분리수용 협조)는 이를 폐지한다.",
+        "부칙 1. 이 예규는 2026년 10월 2일부터 시행한다."
+      ]
+    },
+    "articles": "1. 본 예규는 공범 등 사건 관련 피의자 등의 미결수용시 분리수용에 관하여 필요한 사항을 규정함을 목적으로 한다.　2. 공범을 비롯하여 사건에 서로 관련이 있는 피의자 등의 미결수용에 있어서는 형의 집행 및 수용자의 처우에 관한 법률 제81조, 동법 시행령 제100조의 규정에 의하여 분리수용하고, 서로간의 접촉을 금지토록 되어 있으므로, 송치된 구속피의자의 수용을 지휘할 때나 구속영장의 집행을 지휘할 때는 구치소 등에서 동 관련 관계를 용이하게 식별할 수 있도록 각 호와 같이 공범 관계를 명시하여야 한다.가. 공범자 등을 동시에 수용할 경우에는 구속영장 집행지휘 날인 부분 또는 수용지휘 하단 여백에 \"피의자 ○ ○ ○ 와 공범, 피고인 ○ ○ ○와 서로 관련\" 등으로 표시하여야 한다.나. 공범자 등을 추가 수용할 경우에는 위 부분에 \"수용 중인 피의자 ○ ○ ○ 와 공범, 수용 중인 피고인 ○ ○ ○와 서로 관련\" 등으로 표시하여야 한다."
+  },
+  "canonical_id": "admrul-35611",
+  "evidence": {
+    "cache_key": "cd28876f3c72153dd230547ef68536f6385d019b90b30909958a201187415140",
+    "credential_redacted": false,
+    "raw_sha256": "92f7616bb5f727d0d76043118868797023ae45fc425be205a4c94a22c5e0de79",
+    "request": {
+      "LID": "35611",
+      "target": "admrul",
+      "type": "JSON"
+    },
+    "stored_sha256": "92f7616bb5f727d0d76043118868797023ae45fc425be205a4c94a22c5e0de79"
+  },
+  "hashes": {
+    "appendix_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "attachment_link_hash": "2ebe65f8ed9af94ced871da6391ed340d5a572683c6092b229fadc0a5be79313",
+    "body_hash": "27075c73ada567a2502fc3e079951e0a7daf78b4b54e9a2b94dfaa736dfab15f",
+    "metadata_hash": "187913afb90460144c50496143f27a75615096da4e31db2ab16e0ddbe71b4da9"
+  },
+  "metadata": {
+    "amendment_type": "일부개정",
+    "department": "공소청(형사1과)",
+    "effective_date": "2026-10-02",
+    "issue_date": "2026-10-02",
+    "issue_number": "186",
+    "ministry": "공소청",
+    "name": "미결수용인 분리수용 관련 지침",
+    "official_state": "Y",
+    "rule_type": "예규"
+  },
+  "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286360",
+  "source_kind": "admrul",
+  "stable_identifier": "35611",
+  "version_id": "2100000286360"
+}

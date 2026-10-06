@@ -42,6 +42,7 @@ describe('App End-to-End Integration Test with Production Fixtures', () => {
     vi.setSystemTime(new Date('2026-10-03T03:00:00Z'));
     vi.spyOn(api, 'getManifest').mockResolvedValue(manifestData);
     vi.spyOn(api, 'getHealth').mockResolvedValue(healthData);
+    vi.spyOn(api, 'getOpsStatus').mockRejectedValue(new Error('Not yet published'));
     vi.spyOn(api, 'getRules').mockResolvedValue(rulesData);
     vi.spyOn(api, 'getUpcomingChanges').mockResolvedValue(upcomingData);
     vi.spyOn(api, 'getLatestChanges').mockResolvedValue(latestData);

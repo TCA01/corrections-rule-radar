@@ -4,6 +4,7 @@ import os
 import re
 import time
 import urllib.request
+from pathlib import Path
 
 def verify(project,expected):
     if not re.fullmatch(r'[a-z][a-z0-9-]{4,29}',project or ''): raise ValueError('FIREBASE_PROJECT_ID_REQUIRED')
@@ -14,6 +15,11 @@ def verify(project,expected):
                 request=urllib.request.Request(f'https://{project}.web.app/api/v1/{path}',headers={'Cache-Control':'no-cache','Accept':'application/json'})
                 with urllib.request.urlopen(request,timeout=30) as response: value=json.load(response)
                 if value['dataset_version']!=expected: raise ValueError('HOSTED_DATASET_MISMATCH')
+            ops=Path('public/api/v1/ops-status.json')
+            if ops.exists():
+                request=urllib.request.Request(f'https://{project}.web.app/api/v1/ops-status.json',headers={'Cache-Control':'no-cache'})
+                with urllib.request.urlopen(request,timeout=30) as response: actual=json.load(response)
+                if actual!=json.loads(ops.read_text(encoding='utf8')): raise ValueError('HOSTED_OPS_MISMATCH')
             return {'status':'PASS','dataset_version':expected}
         except Exception:
             if attempt==2: raise ValueError('HOSTED_RELEASE_NOT_VERIFIED') from None

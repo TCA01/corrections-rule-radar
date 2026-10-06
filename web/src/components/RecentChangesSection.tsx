@@ -1,4 +1,5 @@
 import React, { useMemo } from 'react';
+import { officialSource } from '../utils/officialSource';
 import { PersistentChangeEvent, RuleSummary, BusinessDomain } from '../types';
 import { formatDotDate } from '../utils/date';
 import { ExternalLink, Eye, History } from 'lucide-react';
@@ -158,7 +159,7 @@ export const RecentChangesSection: React.FC<RecentChangesSectionProps> = ({
                           <span>변경 내용 보기</span>
                         </button>
                         <a
-                          href={evt.official_source_url || rule.official_source_url}
+                          href={officialSource({ ...rule, version_id: evt.after_version?.version_id || evt.after_version?.identifier, effective_date: evt.effective_date, official_source_url: evt.official_source_url || rule.official_source_url })}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="btn-action-secondary"

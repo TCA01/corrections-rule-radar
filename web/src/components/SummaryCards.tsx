@@ -6,6 +6,8 @@ interface SummaryCardsProps {
   recent90Count?: number;
   recent30Count?: number;
   totalTrackedCount: number;
+  currentCount?: number;
+  historicalCount?: number;
   onSelectCard?: (type: 'today' | 'upcoming' | 'recent' | 'total') => void;
 }
 
@@ -15,6 +17,8 @@ export const SummaryCards: React.FC<SummaryCardsProps> = ({
   recent90Count,
   recent30Count,
   totalTrackedCount,
+  currentCount,
+  historicalCount,
   onSelectCard,
 }) => {
   const displayRecentCount = recent90Count !== undefined ? recent90Count : (recent30Count ?? 0);
@@ -93,7 +97,7 @@ export const SummaryCards: React.FC<SummaryCardsProps> = ({
             <span className="stat-number">{totalTrackedCount}</span>
             <span className="stat-unit">개</span>
           </div>
-          <span className="summary-stat-sub">교정 핵심 법령·훈령·예규</span>
+          <span className="summary-stat-sub">{currentCount !== undefined ? `현행 ${currentCount} · 폐지/역사 ${historicalCount ?? 0}` : '교정 핵심 법령·훈령·예규'}</span>
         </div>
       </div>
     </section>

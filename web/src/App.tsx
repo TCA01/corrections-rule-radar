@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useMemo } from 'react';
 import {
   RuleSummary,
+  OpsStatus,
   HealthResponse,
   ChangesResponse,
   RecentChangesResponse,
@@ -10,6 +11,7 @@ import {
   DisplayChangeEvent,
 } from './types';
 import { api, ApiError } from './services/api';
+import { officialSource } from './utils/officialSource';
 import { calculateDDay, isSameDay } from './utils/date';
 import { getChangeTypeLabel, getFactualDescription } from './utils/format';
 import { Header } from './components/Header';
@@ -28,6 +30,7 @@ const STORAGE_KEY_DOMAINS = 'corrections_rule_tracker_domains';
 
 export const App: React.FC = () => {
   const [health, setHealth] = useState<HealthResponse | null>(null);
+  const [ops, setOps] = useState<OpsStatus | null>(null);
   const [rules, setRules] = useState<RuleSummary[]>([]);
   const [upcomingChanges, setUpcomingChanges] = useState<ChangesResponse | null>(null);
   const [recentChanges, setRecentChanges] = useState<RecentChangesResponse | null>(null);
@@ -96,6 +99,7 @@ export const App: React.FC = () => {
       }
 
       setHealth(healthData);
+      api.getOpsStatus().then(setOps).catch(() => setOps(null));
       setRules(rulesData.rules);
       setUpcomingChanges(upcomingData);
       setRecentChanges(recentData);
@@ -164,7 +168,7 @@ export const App: React.FC = () => {
           d_day: dDayInfo.dDay,
           department: rule.metadata.department,
           factual_description: getFactualDescription(evt.change_type, effectiveDate),
-          official_source_url: evt.official_source_url || rule.official_source_url,
+          official_source_url: officialSource({ ...rule, version_id: evt.new_version, effective_date: effectiveDate, official_source_url: evt.official_source_url || rule.official_source_url }),
           is_upcoming: true,
           is_today: dDayInfo.dDay === 0,
           status: rule.status,
@@ -204,7 +208,7 @@ export const App: React.FC = () => {
             d_day: 0,
             department: r.metadata.department,
             factual_description: '오늘부터 시행되는 규정입니다.',
-            official_source_url: r.official_source_url,
+            official_source_url: officialSource(r),
             is_upcoming: false,
             is_today: true,
             status: r.status,
@@ -269,7 +273,7 @@ export const App: React.FC = () => {
   return (
     <div className="app-root">
       {/* 1. Header (Product title: 교정관련 규정 추적기, last sync) */}
-      <Header health={health} />
+      <Header health={health} ops={ops} />
 
       <main className="container" role="main" style={{ paddingBottom: '4rem' }}>
         {/* Loading State */}
@@ -320,6 +324,8 @@ export const App: React.FC = () => {
               upcoming30Count={summaryCounts.upcoming30Count}
               recent90Count={summaryCounts.recent90Count}
               totalTrackedCount={summaryCounts.totalTrackedCount}
+              currentCount={rules.filter(r => r.status === 'CURRENT').length}
+              historicalCount={rules.filter(r => r.status === 'REPEALED').length}
             />
 
             {/* 4. MY BUSINESS DOMAINS (VoiceBox Civic Segmented Filter Panel) */}

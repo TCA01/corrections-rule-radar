@@ -1,12 +1,13 @@
 {
   "API_V1_CANDIDATE": true,
-  "review_document": "docs/phase1h_contract.md",
+  "review_document": "docs/phase1k_contract.md",
   "schema_sha256": {
     "change.schema.json": "70751f5a19b902fd691fb2c5bbb8f0122ca219e5c2f9f9533450cbf2e6ad6ad3",
     "changes.schema.json": "548594f996ada936d34e130bd8400d28512045336ef8db470a39c465e98e9cc8",
     "health.schema.json": "7504d04936cf0b1486cdd8225a8d6bad1decb64df0c6065988f20f52b39c1eae",
     "history.schema.json": "dc3834b5ef94bf84588de96d6665d6140692d29e2c3d3b14cb14f87b3701d283",
     "manifest.schema.json": "8d9bd0b1cbab5443aedda01931284e8eb43130affd0661bdf6eddf4ad674f07f",
+    "ops-status.schema.json": "a2c5768228f8af5cae289ecf4a3cdb8d71a19eb051e9fe8e6c90365601b134f2",
     "recent.schema.json": "4ea6ca979ccf1ba9c2e2874eb61a4be9f7682060b86bef6c1f325fac817e312b",
     "rule.schema.json": "f3d997cd2adc00386810fa64e9dbdbaed8da6b5237f24fae5757ec61e0105349",
     "rules.schema.json": "a2fe79aa0c4b443d6e0586b1af8ea821a6901d6aa55b32c12c571bf4aafa3b5b",

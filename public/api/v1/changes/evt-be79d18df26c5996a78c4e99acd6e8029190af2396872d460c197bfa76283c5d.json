@@ -1,0 +1,74 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "c305e1b3494c0c6c896461fac188c4bb1e7078488d8b2895dfbd0a0f86441f20",
+      "effective_date": "2026-10-02",
+      "identifier": "2100000286176",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286176",
+      "snapshot_url": "/api/v1/rules/admrul-29857/versions/2100000286176-2026-10-02-62000df646fb7dc5.json",
+      "version_id": "2100000286176"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "7a8144935c052b45c1d07f0d38145d186afff2aabb6b0a17db6378f97da9c7ff",
+      "effective_date": "2025-06-18",
+      "identifier": "2100000260472",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000260472",
+      "snapshot_url": "/api/v1/rules/admrul-29857/versions/2100000260472-2025-06-18-bce248d276968704.json",
+      "version_id": "2100000260472"
+    },
+    "canonical_id": "admrul-29857",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "RULE_RENAMED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 2,
+    "changed_articles": [
+      {
+        "after_text": "제1조(목적) 이 규정은 국가회계법ㆍ같은법 시행령, 국고금관리법ㆍ같은법 시행령, 국가를 당사자로 하는 계약에 관한 법률ㆍ같은법 시행령, 국가채권관리법ㆍ같은법 시행령, 국유재산법ㆍ같은법 시행령, 물품관리법ㆍ같은법 시행령 및 범죄피해자보호기금법ㆍ같은법 시행령에 의하여 법무부소관의 세입ㆍ세출, 채권관리, 국유재산관리 및 물품관리업무를 담당할 회계관계공무원의 관직지정에 관한 사항과 출납공무원(관서운영경비출납공무원, 세입세출외현금출납공무원, 수입금출납공무원, 수입대체경비출납공무원), 검사공무원, 유가증권취급공무원, 물품출납공무원 및 물품운용관에 대한 임명권의 위임에 관한 사항을 규정함을 목적으로 한다.",
+        "article_key": "article-1",
+        "article_number": "1",
+        "article_title": "제1조(목적)",
+        "before_text": "제1조(목적) 이 규정은 「국가회계법」ㆍ같은법 시행령, 「국고금관리법」ㆍ같은법 시행령, 「국가를 당사자로 하는 계약에 관한 법률」ㆍ같은법 시행령, 「국가채권관리법」ㆍ같은법 시행령, 「국유재산법」ㆍ같은법 시행령, 「물품관리법」ㆍ같은법 시행령 및 「범죄피해자보호기금법」ㆍ같은법 시행령에 의하여 법무부소관의 세입ㆍ세출, 채권관리, 국유재산관리 및 물품관리업무를 담당할 회계관계공무원의 관직지정에 관한 사항과 출납공무원(관서운영경비출납공무원, 세입세출외현금출납공무원, 수입금출납공무원, 수입대체경비출납공무원), 검사공무원, 유가증권취급공무원, 물품출납공무원 및 물품운용관에 대한 임명권의 위임에 관한 사항을 규정함을 목적으로 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-10-02"
+      },
+      {
+        "after_text": "제4조(대리자의 임명등) ① 제3조의 규정에 의하여 관직이 지정된 회계관계공무원이 그 직무를 수행하지 못할 사유가 발생한 때에는 당해관서의 장, 주임관서의 장 및 지방교정청장은 지체 없이 그 직무를 대리할 자를 임명하여야 한다.\n② (현행과 같음)",
+        "article_key": "article-4",
+        "article_number": "4",
+        "article_title": "제4조(대리자의 임명등)",
+        "before_text": "제4조(대리자의 임명 등) ① 제3조의 규정에 의하여 관직이 지정된 회계관계공무원이 그 직무를 수행하지 못할 사유가 발생한 때에는 당해관서의 장, 주임관서의 장 및 지방교정청장은 지체없이 그 직무를 대리할 자를 임명하여야 한다.\n② (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-10-02"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "037068d4a1ad5e625e321ba36ed6b5590263079e359e1f331ff561f08e84de53",
+      "credential_redacted": false,
+      "raw_sha256": "c8ba05a28b4ce700d809171ed523779839cae8669cd9a30bc3a54a8d92fbcbf9",
+      "request": {
+        "ID": "2100000286176",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "c8ba05a28b4ce700d809171ed523779839cae8669cd9a30bc3a54a8d92fbcbf9"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-06T09:59:24.213621+00:00",
+    "effective_date": "2026-10-02",
+    "event_id": "evt-be79d18df26c5996a78c4e99acd6e8029190af2396872d460c197bfa76283c5d",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286176",
+    "promulgation_or_issue_date": "2026-10-02",
+    "regulation_name": "법무부 소관 회계 관계 공무원의 관직지정과 임명권 위임에 관한 규정",
+    "regulation_type": "훈령"
+  },
+  "schema_version": "1.5"
+}

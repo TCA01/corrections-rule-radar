@@ -1,0 +1,26 @@
+[
+  {
+    "effective_date": "2026-10-02",
+    "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290189",
+    "snapshot_url": "/api/v1/rules/law-001671/versions/290189-2026-10-02-aa614223f4a01171.json",
+    "version_id": "290189"
+  },
+  {
+    "effective_date": "2027-02-05",
+    "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=288579",
+    "snapshot_url": "/api/v1/rules/law-001671/versions/288579-2027-02-05-41d66ada95a4c1fa.json",
+    "version_id": "288579"
+  },
+  {
+    "effective_date": "2027-08-05",
+    "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=288579",
+    "snapshot_url": "/api/v1/rules/law-001671/versions/288579-2027-08-05-eec723645c81f23d.json",
+    "version_id": "288579"
+  },
+  {
+    "effective_date": "2027-12-31",
+    "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=281865",
+    "snapshot_url": "/api/v1/rules/law-001671/versions/281865-2027-12-31-d429ef41ab43c445.json",
+    "version_id": "281865"
+  }
+]

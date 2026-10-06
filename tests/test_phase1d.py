@@ -29,6 +29,9 @@ def expanded_collection():
         cid=r['canonical_id']; s=r['snapshot']; meta=s['metadata']
         row=copy.deepcopy(original.get(cid,{'canonical_id':cid,'source_kind':s['source_kind'],'seed_names':[],'historical_names':[],'corrections_category':meta['rule_type'],'business_domains':[],'classification_status':'REVIEW','status':r['current_status'],'law_or_rule_identifier':s['stable_identifier'],'last_verified_at':'2026-10-03T00:00:00+00:00'}))
         row.update({'current_name':meta['name'],'version_id':s['version_id'],'current_effective_date':meta['effective_date'],'official_source':s['official_source_url']})
+        # This rehearsal uses historical snapshots with today's alias registry.
+        # A later rename can make the historical current title an alias today.
+        row['historical_names']=[n for n in row['historical_names'] if n!=meta['name']]
         rows.append(row); snapshots[cid]=s; future[cid]=r['future_effective_capability']['future_versions']
         resolution.append({'canonical_id':cid,'status':'RESOLVED'})
     from pipeline.registry.provenance import apply_provenance

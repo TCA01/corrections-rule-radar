@@ -1,14 +1,15 @@
 import React from 'react';
-import { HealthResponse } from '../types';
+import { HealthResponse, OpsStatus } from '../types';
 import { formatDateTime } from '../utils/date';
 import { AlertTriangle, CheckCircle2 } from 'lucide-react';
 
 interface HeaderProps {
   health: HealthResponse | null;
+  ops?: OpsStatus | null;
   onOpenDemo?: () => void;
 }
 
-export const Header: React.FC<HeaderProps> = ({ health }) => {
+export const Header: React.FC<HeaderProps> = ({ health, ops }) => {
   const isDegraded = health ? health.status !== 'OK' || health.publication_status !== 'PUBLISHED' : false;
   const lastSyncStr = health ? formatDateTime(health.last_successful_sync) : '-';
 
@@ -34,6 +35,11 @@ export const Header: React.FC<HeaderProps> = ({ health }) => {
           </div>
 
           <div className="header-meta-block">
+            <div className="scan-status" aria-label="최근 자동 확인">
+              <span>최근 자동 확인</span>
+              <strong>{ops?.last_scan_status === 'OK' ? `${formatDateTime(ops.last_scan_completed_at)} · 정상` : '확인 기록을 불러오지 못했습니다'}</strong>
+              {ops?.last_scan_status === 'OK' && <span>{ops.last_scan_result === 'NO_CHANGE' ? '변경 없음' : '변경 감지'}</span>}
+            </div>
             <div
               className="sync-status"
               title={`마지막 데이터 갱신: ${lastSyncStr}`}
@@ -53,6 +59,7 @@ export const Header: React.FC<HeaderProps> = ({ health }) => {
                 aria-hidden="true"
               />
             </div>
+            <div className="scan-schedule">자동 확인 · 매일 {(ops?.schedule_kst || ['08:37', '20:37']).join(' · ')} (한국시간)</div>
           </div>
         </div>
       </div>

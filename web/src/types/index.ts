@@ -19,6 +19,20 @@ export const CONTROLLED_DOMAINS = [
 
 export type BusinessDomain = typeof CONTROLLED_DOMAINS[number];
 
+export interface OpsStatus {
+  schema_version: string;
+  status_scope: 'LAST_SUCCESSFUL_SCAN';
+  last_scan_started_at: string;
+  last_scan_completed_at: string;
+  last_scan_status: 'OK';
+  last_scan_result: 'NO_CHANGE' | 'PUBLISHED';
+  last_scan_rule_count: number;
+  last_scan_current_count: number;
+  last_scan_failures: number;
+  last_good_dataset_version: string;
+  schedule_kst: string[];
+}
+
 export type CorrectionsCategory = '법률' | '대통령령' | '법무부령' | '예규' | '훈령' | '지침';
 export type RuleStatus = 'CURRENT' | 'REPEALED' | 'REVIEW';
 export type ClassificationStatus = 'REVIEW' | 'REVIEWED';

@@ -1,22 +1,20 @@
 {
-  "api_request_count": 140,
-  "api_response_seconds": 504.340069,
+  "api_request_count": 133,
+  "api_response_seconds": 67.654,
   "api_status": "OK",
-  "average_api_response_seconds": 3.602429,
+  "average_api_response_seconds": 0.508677,
   "core_registry_total": 107,
-  "duration_seconds": 532.412645,
+  "duration_seconds": 157.907,
   "failure_count": 0,
-  "last_attempt": "2026-10-05T11:43:15.307188+00:00",
-  "last_dataset_version": "ds-c21de361c699692df5cd9e366a51f0bbd31ade59516e8ba4185f2577b1e5a286",
-  "last_successful_sync": "2026-10-05T11:52:06.764845+00:00",
-  "public_page_request_count": 2,
-  "public_page_response_seconds": 6.788811,
+  "last_attempt": "2026-10-06T10:01:12.227748+00:00",
+  "last_dataset_version": "ds-b1f5f18bf785019f3998a504462ac072e0b885a07f4da519a1a95d79289943a2",
+  "last_successful_sync": "2026-10-06T10:03:46.473505+00:00",
+  "public_page_request_count": 0,
+  "public_page_response_seconds": 0.0,
   "publication_status": "NO_CHANGE",
-  "retry_count": 3,
+  "retry_count": 0,
   "review_count": 0,
   "success_count": 107,
-  "total_http_request_count": 142,
-  "transport_error_summary": {
-    "TIMEOUT": 3
-  }
+  "total_http_request_count": 133,
+  "transport_error_summary": {}
 }

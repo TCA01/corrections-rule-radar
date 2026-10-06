@@ -90,7 +90,7 @@ class IsolatedRecovery(unittest.TestCase):
     def fingerprint(self):
         return {str(p.relative_to(self.root)): (p.read_bytes(), p.stat().st_mtime_ns)
                 for rel in ('public/api/v1', 'data/registry', 'data/snapshots')
-                for p in (self.root / rel).rglob('*.json')}
+                for p in (self.root / rel).rglob('*.json') if p.name != 'ops-status.json'}
 
     def partial_failure(self, candidate, code='TIMEOUT', status=None):
         write_json(candidate / 'public/api/v1/health.json', {'INVALID_PARTIAL': True})
@@ -109,10 +109,12 @@ class IsolatedRecovery(unittest.TestCase):
     def test_success_failure_success_preserves_last_good_and_restores(self):
         self.assertEqual(self.run_sync(lambda c, o, t: self.no_change(c))['result'], 'NO_CHANGE')
         good = self.fingerprint()
+        good_ops = (self.root / 'public/api/v1/ops-status.json').read_bytes()
         failed = self.run_sync(lambda c, o, t: self.partial_failure(c))
         self.assertEqual(failed['result'], 'BLOCKED')
         self.assertEqual(failed['whole_sync_retry_count'], 1)
         self.assertEqual(self.fingerprint(), good)
+        self.assertEqual((self.root / 'public/api/v1/ops-status.json').read_bytes(), good_ops)
         self.assertEqual(supervisor.read(self.root, 'data/ops/health.json')['last_successful_sync'], 'RESTORED')
         self.assertEqual(self.run_sync(lambda c, o, t: self.no_change(c))['result'], 'NO_CHANGE')
         self.assertEqual(self.fingerprint(), good)

@@ -340,7 +340,7 @@ describe('RecentChangesSection Component', () => {
 
     // Official link has valid URL
     const link = screen.getByRole('link', { name: /공식 원문/ });
-    expect(link).toHaveAttribute('href', mockPersistentEvent.official_source_url);
+    expect(link).toHaveAttribute('href', 'https://www.law.go.kr/LSW/lsInfoP.do?efYd=20261224&lsiSeq=280443');
 
     // Click "변경 내용 보기"
     const viewBtn = screen.getByRole('button', { name: /변경 내용 보기/ });
@@ -480,8 +480,8 @@ describe('RuleDetailModal Component', () => {
     // Check official source link is prominently placed in modal header next to title
     const officialLinks = screen.getAllByRole('link', { name: /공식 원문/ });
     expect(officialLinks.length).toBeGreaterThanOrEqual(1);
-    expect(officialLinks[0]).toHaveAttribute('href', mockRule.official_source_url);
-    expect(document.querySelector('.modal-official-link')).toHaveAttribute('href', mockRule.official_source_url);
+    expect(officialLinks[0]).toHaveAttribute('href', 'https://www.law.go.kr/LSW/lsInfoP.do?efYd=20261224&lsiSeq=280443');
+    expect(document.querySelector('.modal-official-link')).toHaveAttribute('href', 'https://www.law.go.kr/LSW/lsInfoP.do?efYd=20261224&lsiSeq=280443');
 
     await waitFor(() => {
       expect(screen.getByText('개정 조문 대비표 (2026.12.24 시행 예정)')).toBeInTheDocument();
@@ -505,7 +505,7 @@ describe('RuleDetailModal Component', () => {
     expect(screen.getByText('제53조의2 개정안')).toBeInTheDocument();
 
     // Check appendices: labels and deleted handling (Section 20)
-    expect(screen.getByText('관련 별표·서식 (3건)')).toBeInTheDocument();
+    expect(screen.getByText('현행 규정의 관련 별표·서식 (3건)')).toBeInTheDocument();
     expect(screen.getByText('수용기록 웹 서식')).toBeInTheDocument();
     expect(screen.getByRole('link', { name: /미리보기/ })).toBeInTheDocument();
 
@@ -567,7 +567,12 @@ describe('RuleDetailModal Component', () => {
       upcoming: [],
     });
 
-    render(<RuleDetailModal rule={mockRule} initialEvent={mockPersistentEvent} onClose={vi.fn()} />);
+    const pastEvent: PersistentChangeEvent = {
+      ...mockPersistentEvent, effective_date: '2026-10-02', changed_article_count: 1,
+      changed_articles: [{ article_key: '000100', article_number: '1', article_title: '제1조(목적)',
+        change_type: 'MODIFIED', before_text: '수형자의 교화', after_text: '수용자의 교화와 사회복귀', effective_date: '2026-10-02' }],
+    };
+    render(<RuleDetailModal rule={mockRule} initialEvent={pastEvent} onClose={vi.fn()} />);
 
     await waitFor(() => {
       expect(screen.getByText(/개정 조문 대비표/)).toBeInTheDocument();
@@ -750,7 +755,7 @@ describe('RuleDetailModal Component', () => {
     render(<RuleDetailModal rule={mockRule} onClose={vi.fn()} />);
 
     await waitFor(() => {
-      expect(screen.getByText('관련 별표·서식 (6건)')).toBeInTheDocument();
+      expect(screen.getByText('현행 규정의 관련 별표·서식 (6건)')).toBeInTheDocument();
     });
 
     // 1-4: Deleted appendices must display title and deleted notices

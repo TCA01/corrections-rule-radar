@@ -1,0 +1,22 @@
+[
+  {
+    "mode": "current",
+    "count": 105,
+    "label": "현행 105개"
+  },
+  {
+    "mode": "all",
+    "count": 107,
+    "label": "전체 107개"
+  },
+  {
+    "mode": "medical",
+    "count": 7,
+    "label": "전체 7개"
+  },
+  {
+    "mode": "search",
+    "count": 1,
+    "label": "전체 1개"
+  }
+]

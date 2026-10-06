@@ -1,5 +1,6 @@
 import {
   ManifestResponse,
+  OpsStatus,
   RulesResponse,
   HealthResponse,
   ChangesResponse,
@@ -58,6 +59,9 @@ async function fetchJson<T>(path: string): Promise<T> {
 }
 
 export const api = {
+  getOpsStatus(): Promise<OpsStatus> {
+    return fetchJson<OpsStatus>('/api/v1/ops-status.json');
+  },
   async getVisualComparison(event: PersistentChangeEvent): Promise<VisualComparison> {
     if (!needsStructuredComparison(event)) return { articles: event.changed_articles, textSource: 'EVENT_TEXT' };
     try {
