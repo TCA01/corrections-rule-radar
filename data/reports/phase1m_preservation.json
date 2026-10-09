@@ -1,0 +1,14 @@
+{
+  "approved_107_ids_preserved": true,
+  "changed_current_rule_ids": [
+    "admrul-35611"
+  ],
+  "drifted_snapshots": [],
+  "future_states_preserved": true,
+  "immutable_original_snapshots_preserved": true,
+  "no_change_all_legal_bytes_and_snapshot_set_identical": true,
+  "no_change_baseline": "phase1m_final_baseline.json",
+  "no_change_dataset_version_identical": true,
+  "original_user_report_preserved": true,
+  "status": "PASS"
+}

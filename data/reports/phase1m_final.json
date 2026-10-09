@@ -1,0 +1,3074 @@
+{
+  "as_of": "2026-10-09T01:10:37.489752+00:00",
+  "expected_schedules_kst": [
+    "08:37",
+    "20:37"
+  ],
+  "legal_data_modified": true,
+  "live": {
+    "checked_at": "2026-10-09T01:10:23.251523+00:00",
+    "counts": {
+      "CURRENT": 104,
+      "REPEALED": 3
+    },
+    "dataset_version": "ds-f5bde34929cfd8e03eac00f72b39863b25aad37a62f59abeb47ff3b29664ce9a",
+    "last_scheduled_run_event_verified": "schedule",
+    "official_repeal_body_matches": true,
+    "ops": {
+      "github_run_id": "37867380401",
+      "last_good_dataset_version": "ds-f5bde34929cfd8e03eac00f72b39863b25aad37a62f59abeb47ff3b29664ce9a",
+      "last_scan_completed_at": "2026-10-09T01:06:45.121999+00:00",
+      "last_scan_current_count": 104,
+      "last_scan_failures": 0,
+      "last_scan_result": "NO_CHANGE",
+      "last_scan_rule_count": 107,
+      "last_scan_started_at": "2026-10-09T00:57:53.592489+00:00",
+      "last_scan_status": "OK",
+      "last_scheduled_scan": {
+        "completed_at": "2026-10-06T17:32:06.209233+00:00",
+        "cron": "37 11 * * *",
+        "dataset_version": "ds-b1f5f18bf785019f3998a504462ac072e0b885a07f4da519a1a95d79289943a2",
+        "github_run_id": "37503211648",
+        "result": "NO_CHANGE",
+        "started_at": "2026-10-06T17:24:14.430446+00:00"
+      },
+      "schedule_kst": [
+        "08:37",
+        "20:37"
+      ],
+      "schema_version": "1.5",
+      "status_scope": "LAST_SUCCESSFUL_SCAN",
+      "trigger": "MANUAL"
+    },
+    "published_at": "2026-10-09T00:25:23.666906+00:00",
+    "run_id": 37867380401,
+    "status": "PASS",
+    "tracked": 107,
+    "upcoming": [
+      {
+        "baseline": {
+          "effective_date": "2026-10-02",
+          "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290191",
+          "snapshot_url": "/api/v1/rules/law-001668/versions/290191-2026-10-02-6f7111ef76469437.json",
+          "version_id": "290191"
+        },
+        "canonical_id": "law-001668",
+        "cumulative": 3,
+        "date": "2026-12-24",
+        "incremental": 3,
+        "version_id": "280443"
+      },
+      {
+        "baseline": {
+          "effective_date": "2026-10-02",
+          "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=290189",
+          "snapshot_url": "/api/v1/rules/law-001671/versions/290189-2026-10-02-aa614223f4a01171.json",
+          "version_id": "290189"
+        },
+        "canonical_id": "law-001671",
+        "cumulative": 3,
+        "date": "2027-02-05",
+        "incremental": 3,
+        "version_id": "288579"
+      },
+      {
+        "baseline": {
+          "effective_date": "2027-02-05",
+          "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=288579",
+          "snapshot_url": "/api/v1/rules/law-001671/versions/288579-2027-02-05-41d66ada95a4c1fa.json",
+          "version_id": "288579"
+        },
+        "canonical_id": "law-001671",
+        "cumulative": 5,
+        "date": "2027-08-05",
+        "incremental": 2,
+        "version_id": "288579"
+      },
+      {
+        "baseline": {
+          "effective_date": "2027-08-05",
+          "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=288579",
+          "snapshot_url": "/api/v1/rules/law-001671/versions/288579-2027-08-05-eec723645c81f23d.json",
+          "version_id": "288579"
+        },
+        "canonical_id": "law-001671",
+        "cumulative": 6,
+        "date": "2027-12-31",
+        "incremental": 1,
+        "version_id": "281865"
+      }
+    ]
+  },
+  "manual_rehearsals_completed": [
+    37863931848,
+    37865156917,
+    37867380401
+  ],
+  "next_real_scheduled_success_verified": false,
+  "next_schedule_config": "PASS",
+  "no_change_verified_run_ids": [
+    37867380401
+  ],
+  "official_repeal": {
+    "body_evidence": {
+      "cache_key": "71099bb26722675275f443393ff3d1daf538ec3b3618d9704ed2fea066fe6b9b",
+      "credential_redacted": false,
+      "raw_sha256": "f0816749479cf104b1151b9b9f6dbcfc4d664d40ccbdc657656bc9d0cdb7d5eb",
+      "request": {
+        "ID": "2100000286404",
+        "target": "admrul",
+        "type": "JSON"
+      },
+      "stored_sha256": "f0816749479cf104b1151b9b9f6dbcfc4d664d40ccbdc657656bc9d0cdb7d5eb"
+    },
+    "canonical_id": "admrul-35611",
+    "current_evidence": {
+      "cache_key": "b4999bd401d493bc8e4afe43a172c09b8b8773ced4e18d4c29cf12ce797713b9",
+      "credential_redacted": false,
+      "raw_sha256": "bc71cc09a5ae8ce1f5b347a9c4ce24ace175e8a141676dfe4751efe1320f2726",
+      "request": {
+        "LID": "35611",
+        "target": "admrul",
+        "type": "JSON"
+      },
+      "stored_sha256": "bc71cc09a5ae8ce1f5b347a9c4ce24ace175e8a141676dfe4751efe1320f2726"
+    },
+    "current_lid_root_keys": [],
+    "exact_history_rows": [
+      {
+        "id": "1",
+        "발령번호": "1583",
+        "발령일자": "20261002",
+        "생성일자": "20261007",
+        "소관부처명": "공소청",
+        "시행일자": "20261002",
+        "제개정구분명": "폐지",
+        "제개정구분코드": "200404",
+        "행정규칙ID": "35611",
+        "행정규칙명": "미결수용인 분리수용 협조",
+        "행정규칙상세링크": "/DRF/lawService.do?OC=REDACTED&target=admrul&ID=2100000286404&type=HTML&mobileYn=",
+        "행정규칙일련번호": "2100000286404",
+        "행정규칙종류": "예규",
+        "현행연혁구분": "연혁"
+      },
+      {
+        "id": "2",
+        "발령번호": "501",
+        "발령일자": "20091102",
+        "생성일자": "20261007",
+        "소관부처명": "공소청",
+        "시행일자": "20091102",
+        "제개정구분명": "폐지제정",
+        "제개정구분코드": "200407",
+        "행정규칙ID": "35611",
+        "행정규칙명": "미결수용인 분리수용 협조(공범표시)",
+        "행정규칙상세링크": "/DRF/lawService.do?OC=REDACTED&target=admrul&ID=2000000011695&type=HTML&mobileYn=",
+        "행정규칙일련번호": "2000000011695",
+        "행정규칙종류": "예규",
+        "현행연혁구분": "연혁"
+      },
+      {
+        "id": "3",
+        "발령번호": "1097",
+        "발령일자": "20200601",
+        "생성일자": "20261007",
+        "소관부처명": "공소청",
+        "시행일자": "20200601",
+        "제개정구분명": "폐지제정",
+        "제개정구분코드": "200407",
+        "행정규칙ID": "35611",
+        "행정규칙명": "미결수용인 분리수용 협조(공범표시)",
+        "행정규칙상세링크": "/DRF/lawService.do?OC=REDACTED&target=admrul&ID=2100000189807&type=HTML&mobileYn=",
+        "행정규칙일련번호": "2100000189807",
+        "행정규칙종류": "예규",
+        "현행연혁구분": "연혁"
+      },
+      {
+        "id": "4",
+        "발령번호": "1414",
+        "발령일자": "20240603",
+        "생성일자": "20261007",
+        "소관부처명": "공소청",
+        "시행일자": "20240603",
+        "제개정구분명": "일부개정",
+        "제개정구분코드": "200403",
+        "행정규칙ID": "35611",
+        "행정규칙명": "미결수용인 분리수용 협조(공범표시)",
+        "행정규칙상세링크": "/DRF/lawService.do?OC=REDACTED&target=admrul&ID=2100000241876&type=HTML&mobileYn=",
+        "행정규칙일련번호": "2100000241876",
+        "행정규칙종류": "예규",
+        "현행연혁구분": "연혁"
+      },
+      {
+        "id": "5",
+        "발령번호": "116",
+        "발령일자": "19790615",
+        "생성일자": "20261007",
+        "소관부처명": "공소청",
+        "시행일자": "19790615",
+        "제개정구분명": "제정",
+        "제개정구분코드": "200401",
+        "행정규칙ID": "35611",
+        "행정규칙명": "미결수용자의 분리수용 협조(공범표시)",
+        "행정규칙상세링크": "/DRF/lawService.do?OC=REDACTED&target=admrul&ID=2000000001984&type=HTML&mobileYn=",
+        "행정규칙일련번호": "2000000001984",
+        "행정규칙종류": "예규",
+        "현행연혁구분": "연혁"
+      }
+    ],
+    "hashes": {
+      "appendix_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "attachment_link_hash": "3f24d0f5fbacb969f63678596a4923b8b73044650fc71660f496cb0134dc5ffb",
+      "body_hash": "26f25b8a08b014e60d82ed4bb6ebf4ae3f443c8bd0a807ad78423c99a53e72a5",
+      "metadata_hash": "104ae8b63a9569cd5cf44b62dee265297eaa12cefd5922fee34c43960841a68d"
+    },
+    "history_evidence": [
+      {
+        "cache_key": "cae060f46331e2a7cf4082e010da0b7b2acce9afb2a85828d4d787d64b3b7ffc",
+        "credential_redacted": true,
+        "raw_sha256": "ae1125820d0192348a61f50388e98694dd4d2ef3653e2512dac256c837b5da4d",
+        "request": {
+          "display": 100,
+          "nw": 2,
+          "page": 1,
+          "query": "미결수용인 분리수용 관련 지침",
+          "target": "admrul",
+          "type": "JSON"
+        },
+        "stored_sha256": "73c8d3082677b986691cb64f3a1cdb1400d81d86d6a5fbcc04525c8c25aaf3fd"
+      }
+    ],
+    "metadata": {
+      "amendment_type": "폐지",
+      "department": "공소청(형사1과)",
+      "effective_date": "2026-10-02",
+      "issue_date": "2026-10-02",
+      "issue_number": "1583",
+      "ministry": "공소청",
+      "name": "미결수용인 분리수용 협조",
+      "official_state": "N",
+      "rule_type": "예규"
+    },
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286404",
+    "status": "PASS",
+    "structured_body_present": true,
+    "version_id": "2100000286404"
+  },
+  "ops_status_only_stale": false,
+  "ops_status_semantics": "PASS",
+  "phase": "1M",
+  "preservation": {
+    "approved_107_ids_preserved": true,
+    "changed_current_rule_ids": [
+      "admrul-35611"
+    ],
+    "drifted_snapshots": [],
+    "future_states_preserved": true,
+    "immutable_original_snapshots_preserved": true,
+    "no_change_all_legal_bytes_and_snapshot_set_identical": true,
+    "no_change_baseline": "phase1m_final_baseline.json",
+    "no_change_dataset_version_identical": true,
+    "original_user_report_preserved": true,
+    "status": "PASS"
+  },
+  "ready_for_unattended_twice_daily_operation": false,
+  "root_cause": [
+    "One exact-ID collection review: CURRENT_NOT_CONFIRMED during official repeal transition.",
+    "Three subsequent verified collections could not deploy because historical release tests froze live status counts at 105/2 (Phase1G) and 104/2 (Phase1F).",
+    "The evening rehearsal exposed timestamp-only republication: a fresh Actions checkout restored stale private health, and sync compared its cached version instead of the published manifest. The dataset and legal events did not change. The generic baseline was corrected and a fresh-checkout regression test added.",
+    "Scheduled dispatch was observed 3–6 hours after configured slots, before runner jobs started; underlying GitHub dispatch cause is not established."
+  ],
+  "runs": [
+    {
+      "completed_at": "2026-10-06T17:35:03Z",
+      "completed_at_kst": "2026-10-07 02:35:03",
+      "conclusion": "success",
+      "created_at": "2026-10-06T17:23:46Z",
+      "created_at_kst": "2026-10-07 02:23:46",
+      "cron": "37 11 * * *",
+      "deployment_completed": true,
+      "dispatch_delay_seconds": 20806.0,
+      "duration_seconds": 677.0,
+      "event": "schedule",
+      "expected_slot_kst": "2026-10-06 20:37:00",
+      "failed_steps": [],
+      "failure_log_evidence": [],
+      "head_sha": "f1b7a6691c90e365495ff822b468ddd9be1d0044",
+      "html_url": "https://github.com/TCA01/corrections-rule-radar/actions/runs/37503211648",
+      "id": 37503211648,
+      "job_started_at": "2026-10-06T17:23:50Z",
+      "job_started_at_kst": "2026-10-07 02:23:50",
+      "jobs": [
+        {
+          "completed_at": "2026-10-06T17:35:03Z",
+          "conclusion": "success",
+          "name": "sync",
+          "started_at": "2026-10-06T17:23:50Z",
+          "steps": [
+            {
+              "completed_at": "2026-10-06T17:23:53Z",
+              "conclusion": "success",
+              "name": "Set up job",
+              "number": 1,
+              "started_at": "2026-10-06T17:23:51Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-06T17:23:56Z",
+              "conclusion": "success",
+              "name": "Run actions/checkout@v4",
+              "number": 2,
+              "started_at": "2026-10-06T17:23:53Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-06T17:23:56Z",
+              "conclusion": "success",
+              "name": "Run actions/setup-python@v5",
+              "number": 3,
+              "started_at": "2026-10-06T17:23:56Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-06T17:23:57Z",
+              "conclusion": "success",
+              "name": "Restore opaque discovery fingerprints and pending review queue",
+              "number": 4,
+              "started_at": "2026-10-06T17:23:56Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-06T17:24:03Z",
+              "conclusion": "success",
+              "name": "Run actions/setup-node@v4",
+              "number": 5,
+              "started_at": "2026-10-06T17:23:57Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-06T17:24:08Z",
+              "conclusion": "success",
+              "name": "Install Python dependencies",
+              "number": 6,
+              "started_at": "2026-10-06T17:24:03Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-06T17:24:14Z",
+              "conclusion": "success",
+              "name": "Install web dependencies",
+              "number": 7,
+              "started_at": "2026-10-06T17:24:08Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-06T17:32:06Z",
+              "conclusion": "success",
+              "name": "Sync core and scheduled discovery",
+              "number": 8,
+              "started_at": "2026-10-06T17:24:14Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-06T17:33:55Z",
+              "conclusion": "success",
+              "name": "Validate and run all backend tests",
+              "number": 9,
+              "started_at": "2026-10-06T17:32:06Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-06T17:34:06Z",
+              "conclusion": "success",
+              "name": "Frontend tests",
+              "number": 10,
+              "started_at": "2026-10-06T17:33:55Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-06T17:34:07Z",
+              "conclusion": "success",
+              "name": "Stage allowlisted legal state, scan status or heartbeat",
+              "number": 11,
+              "started_at": "2026-10-06T17:34:06Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-06T17:34:20Z",
+              "conclusion": "success",
+              "name": "Build web candidate",
+              "number": 12,
+              "started_at": "2026-10-06T17:34:07Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-06T17:34:27Z",
+              "conclusion": "success",
+              "name": "Verify exact hosting artifact",
+              "number": 13,
+              "started_at": "2026-10-06T17:34:20Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-06T17:34:29Z",
+              "conclusion": "success",
+              "name": "Commit trusted state before deployment",
+              "number": 14,
+              "started_at": "2026-10-06T17:34:27Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-06T17:34:54Z",
+              "conclusion": "success",
+              "name": "Deploy validated candidate to Firebase Hosting",
+              "number": 15,
+              "started_at": "2026-10-06T17:34:29Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-06T17:34:56Z",
+              "conclusion": "success",
+              "name": "Acknowledge deployed dataset for restart-safe retry",
+              "number": 16,
+              "started_at": "2026-10-06T17:34:54Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-06T17:34:58Z",
+              "conclusion": "success",
+              "name": "Retain safe operational reports including failures",
+              "number": 17,
+              "started_at": "2026-10-06T17:34:56Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-06T17:34:58Z",
+              "conclusion": "success",
+              "name": "Post Run actions/setup-node@v4",
+              "number": 31,
+              "started_at": "2026-10-06T17:34:58Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-06T17:34:59Z",
+              "conclusion": "success",
+              "name": "Post Restore opaque discovery fingerprints and pending review queue",
+              "number": 32,
+              "started_at": "2026-10-06T17:34:58Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-06T17:34:59Z",
+              "conclusion": "success",
+              "name": "Post Run actions/setup-python@v5",
+              "number": 33,
+              "started_at": "2026-10-06T17:34:59Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-06T17:34:59Z",
+              "conclusion": "success",
+              "name": "Post Run actions/checkout@v4",
+              "number": 34,
+              "started_at": "2026-10-06T17:34:59Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-06T17:34:59Z",
+              "conclusion": "success",
+              "name": "Complete job",
+              "number": 35,
+              "started_at": "2026-10-06T17:34:59Z",
+              "status": "completed"
+            }
+          ]
+        }
+      ],
+      "name": "Production regulation sync",
+      "ops": {
+        "last_good_dataset_version": "ds-b1f5f18bf785019f3998a504462ac072e0b885a07f4da519a1a95d79289943a2",
+        "last_scan_completed_at": "2026-10-06T17:32:06.209233+00:00",
+        "last_scan_current_count": 105,
+        "last_scan_failures": 0,
+        "last_scan_result": "NO_CHANGE",
+        "last_scan_rule_count": 107,
+        "last_scan_started_at": "2026-10-06T17:24:14.430446+00:00",
+        "last_scan_status": "OK",
+        "schedule_kst": [
+          "08:37",
+          "20:37"
+        ],
+        "schema_version": "1.5",
+        "status_scope": "LAST_SUCCESSFUL_SCAN"
+      },
+      "run_started_at": "2026-10-06T17:23:46Z",
+      "schedule_log_evidence": [
+        "sync\tUNKNOWN STEP\t2026-10-06T17:24:14.3722099Z   SCHEDULE: 37 11 * * *"
+      ],
+      "started_at_kst": "2026-10-07 02:23:46",
+      "status": "completed",
+      "sync": {
+        "api_request_count": 135,
+        "api_response_seconds": 448.251091,
+        "average_api_response_seconds": 3.320378,
+        "dataset_version": "ds-b1f5f18bf785019f3998a504462ac072e0b885a07f4da519a1a95d79289943a2",
+        "discovery_monitor_error": null,
+        "duration_seconds": 471.778795,
+        "error_summary": {},
+        "event_ids_identical": true,
+        "failure_count": 0,
+        "finished_at": "2026-10-06T17:32:06.209233+00:00",
+        "last_good_dataset_version": "ds-b1f5f18bf785019f3998a504462ac072e0b885a07f4da519a1a95d79289943a2",
+        "mode": "CORE_STABLE_IDS",
+        "new_events": 0,
+        "ops_status_updated": true,
+        "persistent_new_events": 0,
+        "public_bytes_and_mtimes_identical": true,
+        "public_page_request_count": 0,
+        "public_page_response_seconds": 0.0,
+        "public_rewritten": false,
+        "request_metrics_complete": true,
+        "result": "NO_CHANGE",
+        "retry_count": 2,
+        "review_count": 0,
+        "snapshot_hashes_identical": true,
+        "started_at": "2026-10-06T17:24:14.430446+00:00",
+        "success_count": 107,
+        "total_http_request_count": 135,
+        "transport_error_summary": {
+          "TIMEOUT": 2
+        },
+        "whole_sync_attempts": [
+          {
+            "attempt": 1,
+            "error_summary": {},
+            "metrics": {
+              "api_request_count": 135,
+              "api_response_seconds": 448.251091,
+              "public_page_request_count": 0,
+              "public_page_response_seconds": 0.0,
+              "retry_count": 2,
+              "transport_error_summary": {
+                "TIMEOUT": 2
+              }
+            },
+            "result": "NO_CHANGE"
+          }
+        ],
+        "whole_sync_deadline_seconds": 720,
+        "whole_sync_retry_count": 0
+      },
+      "updated_at": "2026-10-06T17:35:03Z",
+      "verification": {
+        "errors": 0,
+        "failure_test_ids": [],
+        "failures": 0,
+        "passed": true,
+        "public_contract": {
+          "failed_files": [],
+          "status": "PASS",
+          "validated_file_count": 543
+        },
+        "secret_scan": {
+          "file_count": 0,
+          "files": [],
+          "status": "PASS"
+        },
+        "tests": 169
+      }
+    },
+    {
+      "completed_at": "2026-10-07T02:49:27Z",
+      "completed_at_kst": "2026-10-07 11:49:27",
+      "conclusion": "failure",
+      "created_at": "2026-10-07T02:40:02Z",
+      "created_at_kst": "2026-10-07 11:40:02",
+      "cron": "37 23 * * *",
+      "deployment_completed": false,
+      "dispatch_delay_seconds": 10982.0,
+      "duration_seconds": 565.0,
+      "event": "schedule",
+      "expected_slot_kst": "2026-10-07 08:37:00",
+      "failed_steps": [
+        "Sync core and scheduled discovery"
+      ],
+      "failure_log_evidence": [],
+      "head_sha": "d1fb756cd6909eededd82717f999b93759c1d017",
+      "html_url": "https://github.com/TCA01/corrections-rule-radar/actions/runs/37563062041",
+      "id": 37563062041,
+      "job_started_at": "2026-10-07T02:40:06Z",
+      "job_started_at_kst": "2026-10-07 11:40:06",
+      "jobs": [
+        {
+          "completed_at": "2026-10-07T02:49:27Z",
+          "conclusion": "failure",
+          "name": "sync",
+          "started_at": "2026-10-07T02:40:06Z",
+          "steps": [
+            {
+              "completed_at": "2026-10-07T02:40:09Z",
+              "conclusion": "success",
+              "name": "Set up job",
+              "number": 1,
+              "started_at": "2026-10-07T02:40:07Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-07T02:40:11Z",
+              "conclusion": "success",
+              "name": "Run actions/checkout@v4",
+              "number": 2,
+              "started_at": "2026-10-07T02:40:09Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-07T02:40:12Z",
+              "conclusion": "success",
+              "name": "Run actions/setup-python@v5",
+              "number": 3,
+              "started_at": "2026-10-07T02:40:11Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-07T02:40:12Z",
+              "conclusion": "success",
+              "name": "Restore opaque discovery fingerprints and pending review queue",
+              "number": 4,
+              "started_at": "2026-10-07T02:40:12Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-07T02:40:15Z",
+              "conclusion": "success",
+              "name": "Run actions/setup-node@v4",
+              "number": 5,
+              "started_at": "2026-10-07T02:40:12Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-07T02:40:17Z",
+              "conclusion": "success",
+              "name": "Install Python dependencies",
+              "number": 6,
+              "started_at": "2026-10-07T02:40:15Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-07T02:40:23Z",
+              "conclusion": "success",
+              "name": "Install web dependencies",
+              "number": 7,
+              "started_at": "2026-10-07T02:40:17Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-07T02:49:23Z",
+              "conclusion": "failure",
+              "name": "Sync core and scheduled discovery",
+              "number": 8,
+              "started_at": "2026-10-07T02:40:23Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-07T02:49:23Z",
+              "conclusion": "skipped",
+              "name": "Validate and run all backend tests",
+              "number": 9,
+              "started_at": "2026-10-07T02:49:23Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-07T02:49:23Z",
+              "conclusion": "skipped",
+              "name": "Frontend tests",
+              "number": 10,
+              "started_at": "2026-10-07T02:49:23Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-07T02:49:23Z",
+              "conclusion": "skipped",
+              "name": "Stage allowlisted legal state, scan status or heartbeat",
+              "number": 11,
+              "started_at": "2026-10-07T02:49:23Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-07T02:49:23Z",
+              "conclusion": "skipped",
+              "name": "Build web candidate",
+              "number": 12,
+              "started_at": "2026-10-07T02:49:23Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-07T02:49:23Z",
+              "conclusion": "skipped",
+              "name": "Verify exact hosting artifact",
+              "number": 13,
+              "started_at": "2026-10-07T02:49:23Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-07T02:49:23Z",
+              "conclusion": "skipped",
+              "name": "Commit trusted state before deployment",
+              "number": 14,
+              "started_at": "2026-10-07T02:49:23Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-07T02:49:23Z",
+              "conclusion": "skipped",
+              "name": "Deploy validated candidate to Firebase Hosting",
+              "number": 15,
+              "started_at": "2026-10-07T02:49:23Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-07T02:49:23Z",
+              "conclusion": "skipped",
+              "name": "Acknowledge deployed dataset for restart-safe retry",
+              "number": 16,
+              "started_at": "2026-10-07T02:49:23Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-07T02:49:25Z",
+              "conclusion": "success",
+              "name": "Retain safe operational reports including failures",
+              "number": 17,
+              "started_at": "2026-10-07T02:49:23Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-07T02:49:25Z",
+              "conclusion": "skipped",
+              "name": "Post Run actions/setup-node@v4",
+              "number": 31,
+              "started_at": "2026-10-07T02:49:25Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-07T02:49:25Z",
+              "conclusion": "skipped",
+              "name": "Post Restore opaque discovery fingerprints and pending review queue",
+              "number": 32,
+              "started_at": "2026-10-07T02:49:25Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-07T02:49:25Z",
+              "conclusion": "skipped",
+              "name": "Post Run actions/setup-python@v5",
+              "number": 33,
+              "started_at": "2026-10-07T02:49:25Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-07T02:49:25Z",
+              "conclusion": "success",
+              "name": "Post Run actions/checkout@v4",
+              "number": 34,
+              "started_at": "2026-10-07T02:49:25Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-07T02:49:25Z",
+              "conclusion": "success",
+              "name": "Complete job",
+              "number": 35,
+              "started_at": "2026-10-07T02:49:25Z",
+              "status": "completed"
+            }
+          ]
+        }
+      ],
+      "name": "Production regulation sync",
+      "ops": {
+        "last_good_dataset_version": "ds-b1f5f18bf785019f3998a504462ac072e0b885a07f4da519a1a95d79289943a2",
+        "last_scan_completed_at": "2026-10-06T17:32:06.209233+00:00",
+        "last_scan_current_count": 105,
+        "last_scan_failures": 0,
+        "last_scan_result": "NO_CHANGE",
+        "last_scan_rule_count": 107,
+        "last_scan_started_at": "2026-10-06T17:24:14.430446+00:00",
+        "last_scan_status": "OK",
+        "schedule_kst": [
+          "08:37",
+          "20:37"
+        ],
+        "schema_version": "1.5",
+        "status_scope": "LAST_SUCCESSFUL_SCAN"
+      },
+      "run_started_at": "2026-10-07T02:40:02Z",
+      "schedule_log_evidence": [
+        "sync\tUNKNOWN STEP\t2026-10-07T02:40:23.1131774Z   SCHEDULE: 37 23 * * *"
+      ],
+      "started_at_kst": "2026-10-07 11:40:02",
+      "status": "completed",
+      "sync": {
+        "api_request_count": 141,
+        "api_response_seconds": 517.73766,
+        "average_api_response_seconds": 3.671898,
+        "dataset_version": "ds-b1f5f18bf785019f3998a504462ac072e0b885a07f4da519a1a95d79289943a2",
+        "discovery_monitor_error": null,
+        "duration_seconds": 540.752983,
+        "error_summary": {
+          "code": "INCOMPLETE_COLLECTION"
+        },
+        "event_ids_identical": true,
+        "failure_count": 1,
+        "finished_at": "2026-10-07T02:49:23.921728+00:00",
+        "health": {
+          "api_status": "DEGRADED",
+          "core_registry_total": 107,
+          "failure_count": 1,
+          "last_attempt": "2026-10-07T02:49:23.270524+00:00",
+          "last_dataset_version": "ds-b1f5f18bf785019f3998a504462ac072e0b885a07f4da519a1a95d79289943a2",
+          "last_successful_sync": "2026-10-06T10:03:46.473505+00:00",
+          "publication_status": "BLOCKED",
+          "review_count": 1,
+          "success_count": 106
+        },
+        "last_good_dataset_version": "ds-b1f5f18bf785019f3998a504462ac072e0b885a07f4da519a1a95d79289943a2",
+        "mode": "CORE_WITH_DAILY_DISCOVERY",
+        "new_events": 0,
+        "ops_status_updated": false,
+        "persistent_new_events": 0,
+        "public_bytes_and_mtimes_identical": true,
+        "public_page_request_count": 2,
+        "public_page_response_seconds": 6.873813,
+        "public_rewritten": false,
+        "request_metrics_complete": true,
+        "result": "BLOCKED",
+        "retry_count": 2,
+        "review_count": 1,
+        "snapshot_hashes_identical": true,
+        "started_at": "2026-10-07T02:40:23.168755+00:00",
+        "success_count": 106,
+        "total_http_request_count": 143,
+        "transport_error_summary": {
+          "TIMEOUT": 2
+        },
+        "whole_sync_attempts": [
+          {
+            "attempt": 1,
+            "error_summary": {
+              "code": "INCOMPLETE_COLLECTION"
+            },
+            "metrics": {
+              "api_request_count": 141,
+              "api_response_seconds": 517.73766,
+              "public_page_request_count": 2,
+              "public_page_response_seconds": 6.873813,
+              "retry_count": 2,
+              "transport_error_summary": {
+                "TIMEOUT": 2
+              }
+            },
+            "result": "BLOCKED"
+          }
+        ],
+        "whole_sync_deadline_seconds": 720,
+        "whole_sync_retry_count": 0
+      },
+      "updated_at": "2026-10-07T02:49:28Z",
+      "verification": {
+        "errors": 0,
+        "failure_test_ids": [],
+        "failures": 0,
+        "passed": true,
+        "public_contract": {
+          "failed_files": [],
+          "status": "PASS",
+          "validated_file_count": 543
+        },
+        "secret_scan": {
+          "file_count": 0,
+          "files": [],
+          "status": "PASS"
+        },
+        "tests": 169
+      }
+    },
+    {
+      "completed_at": "2026-10-07T18:04:30Z",
+      "completed_at_kst": "2026-10-08 03:04:30",
+      "conclusion": "failure",
+      "created_at": "2026-10-07T17:57:12Z",
+      "created_at_kst": "2026-10-08 02:57:12",
+      "cron": "37 11 * * *",
+      "deployment_completed": false,
+      "dispatch_delay_seconds": 22812.0,
+      "duration_seconds": 438.0,
+      "event": "schedule",
+      "expected_slot_kst": "2026-10-07 20:37:00",
+      "failed_steps": [
+        "Validate and run all backend tests"
+      ],
+      "failure_log_evidence": [],
+      "head_sha": "d1fb756cd6909eededd82717f999b93759c1d017",
+      "html_url": "https://github.com/TCA01/corrections-rule-radar/actions/runs/37663058212",
+      "id": 37663058212,
+      "job_started_at": "2026-10-07T17:57:16Z",
+      "job_started_at_kst": "2026-10-08 02:57:16",
+      "jobs": [
+        {
+          "completed_at": "2026-10-07T18:04:30Z",
+          "conclusion": "failure",
+          "name": "sync",
+          "started_at": "2026-10-07T17:57:16Z",
+          "steps": [
+            {
+              "completed_at": "2026-10-07T17:57:18Z",
+              "conclusion": "success",
+              "name": "Set up job",
+              "number": 1,
+              "started_at": "2026-10-07T17:57:17Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-07T17:57:21Z",
+              "conclusion": "success",
+              "name": "Run actions/checkout@v4",
+              "number": 2,
+              "started_at": "2026-10-07T17:57:18Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-07T17:57:21Z",
+              "conclusion": "success",
+              "name": "Run actions/setup-python@v5",
+              "number": 3,
+              "started_at": "2026-10-07T17:57:21Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-07T17:57:22Z",
+              "conclusion": "success",
+              "name": "Restore opaque discovery fingerprints and pending review queue",
+              "number": 4,
+              "started_at": "2026-10-07T17:57:21Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-07T17:57:23Z",
+              "conclusion": "success",
+              "name": "Run actions/setup-node@v4",
+              "number": 5,
+              "started_at": "2026-10-07T17:57:22Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-07T17:57:25Z",
+              "conclusion": "success",
+              "name": "Install Python dependencies",
+              "number": 6,
+              "started_at": "2026-10-07T17:57:23Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-07T17:57:29Z",
+              "conclusion": "success",
+              "name": "Install web dependencies",
+              "number": 7,
+              "started_at": "2026-10-07T17:57:25Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-07T18:02:35Z",
+              "conclusion": "success",
+              "name": "Sync core and scheduled discovery",
+              "number": 8,
+              "started_at": "2026-10-07T17:57:29Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-07T18:04:26Z",
+              "conclusion": "failure",
+              "name": "Validate and run all backend tests",
+              "number": 9,
+              "started_at": "2026-10-07T18:02:35Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-07T18:04:26Z",
+              "conclusion": "skipped",
+              "name": "Frontend tests",
+              "number": 10,
+              "started_at": "2026-10-07T18:04:26Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-07T18:04:26Z",
+              "conclusion": "skipped",
+              "name": "Stage allowlisted legal state, scan status or heartbeat",
+              "number": 11,
+              "started_at": "2026-10-07T18:04:26Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-07T18:04:26Z",
+              "conclusion": "skipped",
+              "name": "Build web candidate",
+              "number": 12,
+              "started_at": "2026-10-07T18:04:26Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-07T18:04:26Z",
+              "conclusion": "skipped",
+              "name": "Verify exact hosting artifact",
+              "number": 13,
+              "started_at": "2026-10-07T18:04:26Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-07T18:04:26Z",
+              "conclusion": "skipped",
+              "name": "Commit trusted state before deployment",
+              "number": 14,
+              "started_at": "2026-10-07T18:04:26Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-07T18:04:26Z",
+              "conclusion": "skipped",
+              "name": "Deploy validated candidate to Firebase Hosting",
+              "number": 15,
+              "started_at": "2026-10-07T18:04:26Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-07T18:04:26Z",
+              "conclusion": "skipped",
+              "name": "Acknowledge deployed dataset for restart-safe retry",
+              "number": 16,
+              "started_at": "2026-10-07T18:04:26Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-07T18:04:27Z",
+              "conclusion": "success",
+              "name": "Retain safe operational reports including failures",
+              "number": 17,
+              "started_at": "2026-10-07T18:04:26Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-07T18:04:27Z",
+              "conclusion": "skipped",
+              "name": "Post Run actions/setup-node@v4",
+              "number": 31,
+              "started_at": "2026-10-07T18:04:27Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-07T18:04:27Z",
+              "conclusion": "skipped",
+              "name": "Post Restore opaque discovery fingerprints and pending review queue",
+              "number": 32,
+              "started_at": "2026-10-07T18:04:27Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-07T18:04:27Z",
+              "conclusion": "skipped",
+              "name": "Post Run actions/setup-python@v5",
+              "number": 33,
+              "started_at": "2026-10-07T18:04:27Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-07T18:04:28Z",
+              "conclusion": "success",
+              "name": "Post Run actions/checkout@v4",
+              "number": 34,
+              "started_at": "2026-10-07T18:04:27Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-07T18:04:28Z",
+              "conclusion": "success",
+              "name": "Complete job",
+              "number": 35,
+              "started_at": "2026-10-07T18:04:28Z",
+              "status": "completed"
+            }
+          ]
+        }
+      ],
+      "name": "Production regulation sync",
+      "ops": {
+        "last_good_dataset_version": "ds-803848ef2f30b4f6590060c1194913b05d805fc44841b8944834e7ba0e97178d",
+        "last_scan_completed_at": "2026-10-07T18:02:35.210636+00:00",
+        "last_scan_current_count": 104,
+        "last_scan_failures": 0,
+        "last_scan_result": "PUBLISHED",
+        "last_scan_rule_count": 107,
+        "last_scan_started_at": "2026-10-07T17:57:29.171575+00:00",
+        "last_scan_status": "OK",
+        "schedule_kst": [
+          "08:37",
+          "20:37"
+        ],
+        "schema_version": "1.5",
+        "status_scope": "LAST_SUCCESSFUL_SCAN"
+      },
+      "run_started_at": "2026-10-07T17:57:12Z",
+      "schedule_log_evidence": [
+        "sync\tUNKNOWN STEP\t2026-10-07T17:57:29.1001347Z   SCHEDULE: 37 11 * * *"
+      ],
+      "started_at_kst": "2026-10-08 02:57:12",
+      "status": "completed",
+      "sync": {
+        "api_request_count": 136,
+        "api_response_seconds": 278.804112,
+        "average_api_response_seconds": 2.05003,
+        "dataset_version": "ds-803848ef2f30b4f6590060c1194913b05d805fc44841b8944834e7ba0e97178d",
+        "discovery_monitor_error": null,
+        "duration_seconds": 306.039068,
+        "error_summary": {},
+        "event_ids_identical": false,
+        "failure_count": 0,
+        "finished_at": "2026-10-07T18:02:35.210636+00:00",
+        "last_good_dataset_version": "ds-803848ef2f30b4f6590060c1194913b05d805fc44841b8944834e7ba0e97178d",
+        "mode": "CORE_STABLE_IDS",
+        "new_events": 5,
+        "ops_status_updated": true,
+        "persistent_new_events": 1,
+        "public_bytes_and_mtimes_identical": false,
+        "public_page_request_count": 0,
+        "public_page_response_seconds": 0.0,
+        "public_rewritten": true,
+        "request_metrics_complete": true,
+        "result": "PUBLISHED",
+        "retry_count": 0,
+        "review_count": 0,
+        "snapshot_hashes_identical": false,
+        "started_at": "2026-10-07T17:57:29.171575+00:00",
+        "success_count": 107,
+        "total_http_request_count": 136,
+        "transport_error_summary": {},
+        "whole_sync_attempts": [
+          {
+            "attempt": 1,
+            "error_summary": {},
+            "metrics": {
+              "api_request_count": 136,
+              "api_response_seconds": 278.804112,
+              "public_page_request_count": 0,
+              "public_page_response_seconds": 0.0,
+              "retry_count": 0,
+              "transport_error_summary": {}
+            },
+            "result": "PUBLISHED"
+          }
+        ],
+        "whole_sync_deadline_seconds": 720,
+        "whole_sync_retry_count": 0
+      },
+      "updated_at": "2026-10-07T18:04:31Z",
+      "verification": {
+        "errors": 0,
+        "failure_test_ids": [
+          "test_phase1f.Phase1FTests.test_exact_106_scope_and_104_current_two_historical",
+          "test_phase1g.Phase1GTests.test_exact_scope_delta_and_status_counts"
+        ],
+        "failures": 2,
+        "passed": false,
+        "public_contract": {
+          "failed_files": [],
+          "status": "PASS",
+          "validated_file_count": 545
+        },
+        "secret_scan": {
+          "file_count": 0,
+          "files": [],
+          "status": "PASS"
+        },
+        "tests": 169
+      }
+    },
+    {
+      "completed_at": "2026-10-08T03:04:38Z",
+      "completed_at_kst": "2026-10-08 12:04:38",
+      "conclusion": "failure",
+      "created_at": "2026-10-08T02:51:48Z",
+      "created_at_kst": "2026-10-08 11:51:48",
+      "cron": "37 23 * * *",
+      "deployment_completed": false,
+      "dispatch_delay_seconds": 11688.0,
+      "duration_seconds": 770.0,
+      "event": "schedule",
+      "expected_slot_kst": "2026-10-08 08:37:00",
+      "failed_steps": [
+        "Validate and run all backend tests"
+      ],
+      "failure_log_evidence": [],
+      "head_sha": "d1fb756cd6909eededd82717f999b93759c1d017",
+      "html_url": "https://github.com/TCA01/corrections-rule-radar/actions/runs/37719943653",
+      "id": 37719943653,
+      "job_started_at": "2026-10-08T02:51:52Z",
+      "job_started_at_kst": "2026-10-08 11:51:52",
+      "jobs": [
+        {
+          "completed_at": "2026-10-08T03:04:38Z",
+          "conclusion": "failure",
+          "name": "sync",
+          "started_at": "2026-10-08T02:51:52Z",
+          "steps": [
+            {
+              "completed_at": "2026-10-08T02:51:54Z",
+              "conclusion": "success",
+              "name": "Set up job",
+              "number": 1,
+              "started_at": "2026-10-08T02:51:52Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-08T02:51:57Z",
+              "conclusion": "success",
+              "name": "Run actions/checkout@v4",
+              "number": 2,
+              "started_at": "2026-10-08T02:51:54Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-08T02:51:57Z",
+              "conclusion": "success",
+              "name": "Run actions/setup-python@v5",
+              "number": 3,
+              "started_at": "2026-10-08T02:51:57Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-08T02:51:58Z",
+              "conclusion": "success",
+              "name": "Restore opaque discovery fingerprints and pending review queue",
+              "number": 4,
+              "started_at": "2026-10-08T02:51:57Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-08T02:51:59Z",
+              "conclusion": "success",
+              "name": "Run actions/setup-node@v4",
+              "number": 5,
+              "started_at": "2026-10-08T02:51:58Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-08T02:52:02Z",
+              "conclusion": "success",
+              "name": "Install Python dependencies",
+              "number": 6,
+              "started_at": "2026-10-08T02:51:59Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-08T02:52:06Z",
+              "conclusion": "success",
+              "name": "Install web dependencies",
+              "number": 7,
+              "started_at": "2026-10-08T02:52:02Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-08T03:02:42Z",
+              "conclusion": "success",
+              "name": "Sync core and scheduled discovery",
+              "number": 8,
+              "started_at": "2026-10-08T02:52:06Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-08T03:04:35Z",
+              "conclusion": "failure",
+              "name": "Validate and run all backend tests",
+              "number": 9,
+              "started_at": "2026-10-08T03:02:42Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-08T03:04:35Z",
+              "conclusion": "skipped",
+              "name": "Frontend tests",
+              "number": 10,
+              "started_at": "2026-10-08T03:04:35Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-08T03:04:35Z",
+              "conclusion": "skipped",
+              "name": "Stage allowlisted legal state, scan status or heartbeat",
+              "number": 11,
+              "started_at": "2026-10-08T03:04:35Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-08T03:04:35Z",
+              "conclusion": "skipped",
+              "name": "Build web candidate",
+              "number": 12,
+              "started_at": "2026-10-08T03:04:35Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-08T03:04:35Z",
+              "conclusion": "skipped",
+              "name": "Verify exact hosting artifact",
+              "number": 13,
+              "started_at": "2026-10-08T03:04:35Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-08T03:04:35Z",
+              "conclusion": "skipped",
+              "name": "Commit trusted state before deployment",
+              "number": 14,
+              "started_at": "2026-10-08T03:04:35Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-08T03:04:35Z",
+              "conclusion": "skipped",
+              "name": "Deploy validated candidate to Firebase Hosting",
+              "number": 15,
+              "started_at": "2026-10-08T03:04:35Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-08T03:04:35Z",
+              "conclusion": "skipped",
+              "name": "Acknowledge deployed dataset for restart-safe retry",
+              "number": 16,
+              "started_at": "2026-10-08T03:04:35Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-08T03:04:36Z",
+              "conclusion": "success",
+              "name": "Retain safe operational reports including failures",
+              "number": 17,
+              "started_at": "2026-10-08T03:04:35Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-08T03:04:36Z",
+              "conclusion": "skipped",
+              "name": "Post Run actions/setup-node@v4",
+              "number": 31,
+              "started_at": "2026-10-08T03:04:36Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-08T03:04:36Z",
+              "conclusion": "skipped",
+              "name": "Post Restore opaque discovery fingerprints and pending review queue",
+              "number": 32,
+              "started_at": "2026-10-08T03:04:36Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-08T03:04:36Z",
+              "conclusion": "skipped",
+              "name": "Post Run actions/setup-python@v5",
+              "number": 33,
+              "started_at": "2026-10-08T03:04:36Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-08T03:04:36Z",
+              "conclusion": "success",
+              "name": "Post Run actions/checkout@v4",
+              "number": 34,
+              "started_at": "2026-10-08T03:04:36Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-08T03:04:36Z",
+              "conclusion": "success",
+              "name": "Complete job",
+              "number": 35,
+              "started_at": "2026-10-08T03:04:36Z",
+              "status": "completed"
+            }
+          ]
+        }
+      ],
+      "name": "Production regulation sync",
+      "ops": {
+        "last_good_dataset_version": "ds-307ebf70494563f4587849525c3b5d414f20f4f2b81e2c34daac00518e1fa96e",
+        "last_scan_completed_at": "2026-10-08T03:02:42.181798+00:00",
+        "last_scan_current_count": 104,
+        "last_scan_failures": 0,
+        "last_scan_result": "PUBLISHED",
+        "last_scan_rule_count": 107,
+        "last_scan_started_at": "2026-10-08T02:52:06.563301+00:00",
+        "last_scan_status": "OK",
+        "schedule_kst": [
+          "08:37",
+          "20:37"
+        ],
+        "schema_version": "1.5",
+        "status_scope": "LAST_SUCCESSFUL_SCAN"
+      },
+      "run_started_at": "2026-10-08T02:51:48Z",
+      "schedule_log_evidence": [
+        "sync\tUNKNOWN STEP\t2026-10-08T02:52:06.5062631Z   SCHEDULE: 37 23 * * *"
+      ],
+      "started_at_kst": "2026-10-08 11:51:48",
+      "status": "completed",
+      "sync": {
+        "api_request_count": 141,
+        "api_response_seconds": 599.138529,
+        "average_api_response_seconds": 4.249209,
+        "dataset_version": "ds-307ebf70494563f4587849525c3b5d414f20f4f2b81e2c34daac00518e1fa96e",
+        "discovery_monitor_error": null,
+        "duration_seconds": 635.618509,
+        "error_summary": {},
+        "event_ids_identical": false,
+        "failure_count": 0,
+        "finished_at": "2026-10-08T03:02:42.181798+00:00",
+        "last_good_dataset_version": "ds-307ebf70494563f4587849525c3b5d414f20f4f2b81e2c34daac00518e1fa96e",
+        "mode": "CORE_WITH_DAILY_DISCOVERY",
+        "new_events": 5,
+        "ops_status_updated": true,
+        "persistent_new_events": 1,
+        "public_bytes_and_mtimes_identical": false,
+        "public_page_request_count": 2,
+        "public_page_response_seconds": 8.317582,
+        "public_rewritten": true,
+        "request_metrics_complete": true,
+        "result": "PUBLISHED",
+        "retry_count": 1,
+        "review_count": 0,
+        "snapshot_hashes_identical": false,
+        "started_at": "2026-10-08T02:52:06.563301+00:00",
+        "success_count": 107,
+        "total_http_request_count": 143,
+        "transport_error_summary": {
+          "TIMEOUT": 1
+        },
+        "whole_sync_attempts": [
+          {
+            "attempt": 1,
+            "error_summary": {},
+            "metrics": {
+              "api_request_count": 141,
+              "api_response_seconds": 599.138529,
+              "public_page_request_count": 2,
+              "public_page_response_seconds": 8.317582,
+              "retry_count": 1,
+              "transport_error_summary": {
+                "TIMEOUT": 1
+              }
+            },
+            "result": "PUBLISHED"
+          }
+        ],
+        "whole_sync_deadline_seconds": 720,
+        "whole_sync_retry_count": 0
+      },
+      "updated_at": "2026-10-08T03:04:38Z",
+      "verification": {
+        "errors": 0,
+        "failure_test_ids": [
+          "test_phase1f.Phase1FTests.test_exact_106_scope_and_104_current_two_historical",
+          "test_phase1g.Phase1GTests.test_exact_scope_delta_and_status_counts"
+        ],
+        "failures": 2,
+        "passed": false,
+        "public_contract": {
+          "failed_files": [],
+          "status": "PASS",
+          "validated_file_count": 545
+        },
+        "secret_scan": {
+          "file_count": 0,
+          "files": [],
+          "status": "PASS"
+        },
+        "tests": 169
+      }
+    },
+    {
+      "completed_at": "2026-10-08T18:11:24Z",
+      "completed_at_kst": "2026-10-09 03:11:24",
+      "conclusion": "failure",
+      "created_at": "2026-10-08T17:58:58Z",
+      "created_at_kst": "2026-10-09 02:58:58",
+      "cron": "37 11 * * *",
+      "deployment_completed": false,
+      "dispatch_delay_seconds": 22918.0,
+      "duration_seconds": 746.0,
+      "event": "schedule",
+      "expected_slot_kst": "2026-10-08 20:37:00",
+      "failed_steps": [
+        "Validate and run all backend tests"
+      ],
+      "failure_log_evidence": [],
+      "head_sha": "d1fb756cd6909eededd82717f999b93759c1d017",
+      "html_url": "https://github.com/TCA01/corrections-rule-radar/actions/runs/37820751430",
+      "id": 37820751430,
+      "job_started_at": "2026-10-08T17:59:02Z",
+      "job_started_at_kst": "2026-10-09 02:59:02",
+      "jobs": [
+        {
+          "completed_at": "2026-10-08T18:11:24Z",
+          "conclusion": "failure",
+          "name": "sync",
+          "started_at": "2026-10-08T17:59:02Z",
+          "steps": [
+            {
+              "completed_at": "2026-10-08T17:59:05Z",
+              "conclusion": "success",
+              "name": "Set up job",
+              "number": 1,
+              "started_at": "2026-10-08T17:59:03Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-08T17:59:08Z",
+              "conclusion": "success",
+              "name": "Run actions/checkout@v4",
+              "number": 2,
+              "started_at": "2026-10-08T17:59:05Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-08T17:59:08Z",
+              "conclusion": "success",
+              "name": "Run actions/setup-python@v5",
+              "number": 3,
+              "started_at": "2026-10-08T17:59:08Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-08T17:59:09Z",
+              "conclusion": "success",
+              "name": "Restore opaque discovery fingerprints and pending review queue",
+              "number": 4,
+              "started_at": "2026-10-08T17:59:08Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-08T17:59:11Z",
+              "conclusion": "success",
+              "name": "Run actions/setup-node@v4",
+              "number": 5,
+              "started_at": "2026-10-08T17:59:09Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-08T17:59:13Z",
+              "conclusion": "success",
+              "name": "Install Python dependencies",
+              "number": 6,
+              "started_at": "2026-10-08T17:59:11Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-08T17:59:17Z",
+              "conclusion": "success",
+              "name": "Install web dependencies",
+              "number": 7,
+              "started_at": "2026-10-08T17:59:13Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-08T18:09:31Z",
+              "conclusion": "success",
+              "name": "Sync core and scheduled discovery",
+              "number": 8,
+              "started_at": "2026-10-08T17:59:17Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-08T18:11:20Z",
+              "conclusion": "failure",
+              "name": "Validate and run all backend tests",
+              "number": 9,
+              "started_at": "2026-10-08T18:09:31Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-08T18:11:20Z",
+              "conclusion": "skipped",
+              "name": "Frontend tests",
+              "number": 10,
+              "started_at": "2026-10-08T18:11:20Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-08T18:11:20Z",
+              "conclusion": "skipped",
+              "name": "Stage allowlisted legal state, scan status or heartbeat",
+              "number": 11,
+              "started_at": "2026-10-08T18:11:20Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-08T18:11:20Z",
+              "conclusion": "skipped",
+              "name": "Build web candidate",
+              "number": 12,
+              "started_at": "2026-10-08T18:11:20Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-08T18:11:20Z",
+              "conclusion": "skipped",
+              "name": "Verify exact hosting artifact",
+              "number": 13,
+              "started_at": "2026-10-08T18:11:20Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-08T18:11:20Z",
+              "conclusion": "skipped",
+              "name": "Commit trusted state before deployment",
+              "number": 14,
+              "started_at": "2026-10-08T18:11:20Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-08T18:11:20Z",
+              "conclusion": "skipped",
+              "name": "Deploy validated candidate to Firebase Hosting",
+              "number": 15,
+              "started_at": "2026-10-08T18:11:20Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-08T18:11:20Z",
+              "conclusion": "skipped",
+              "name": "Acknowledge deployed dataset for restart-safe retry",
+              "number": 16,
+              "started_at": "2026-10-08T18:11:20Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-08T18:11:21Z",
+              "conclusion": "success",
+              "name": "Retain safe operational reports including failures",
+              "number": 17,
+              "started_at": "2026-10-08T18:11:20Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-08T18:11:21Z",
+              "conclusion": "skipped",
+              "name": "Post Run actions/setup-node@v4",
+              "number": 31,
+              "started_at": "2026-10-08T18:11:21Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-08T18:11:21Z",
+              "conclusion": "skipped",
+              "name": "Post Restore opaque discovery fingerprints and pending review queue",
+              "number": 32,
+              "started_at": "2026-10-08T18:11:21Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-08T18:11:21Z",
+              "conclusion": "skipped",
+              "name": "Post Run actions/setup-python@v5",
+              "number": 33,
+              "started_at": "2026-10-08T18:11:21Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-08T18:11:22Z",
+              "conclusion": "success",
+              "name": "Post Run actions/checkout@v4",
+              "number": 34,
+              "started_at": "2026-10-08T18:11:21Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-08T18:11:22Z",
+              "conclusion": "success",
+              "name": "Complete job",
+              "number": 35,
+              "started_at": "2026-10-08T18:11:22Z",
+              "status": "completed"
+            }
+          ]
+        }
+      ],
+      "name": "Production regulation sync",
+      "ops": {
+        "last_good_dataset_version": "ds-000b7cf4eafe6692e08fe01eb157a7c101f09067cd19c7d21848553a1c9aca0b",
+        "last_scan_completed_at": "2026-10-08T18:09:31.686192+00:00",
+        "last_scan_current_count": 104,
+        "last_scan_failures": 0,
+        "last_scan_result": "PUBLISHED",
+        "last_scan_rule_count": 107,
+        "last_scan_started_at": "2026-10-08T17:59:17.899932+00:00",
+        "last_scan_status": "OK",
+        "schedule_kst": [
+          "08:37",
+          "20:37"
+        ],
+        "schema_version": "1.5",
+        "status_scope": "LAST_SUCCESSFUL_SCAN"
+      },
+      "run_started_at": "2026-10-08T17:58:58Z",
+      "schedule_log_evidence": [
+        "sync\tUNKNOWN STEP\t2026-10-08T17:59:17.8440543Z   SCHEDULE: 37 11 * * *"
+      ],
+      "started_at_kst": "2026-10-09 02:58:58",
+      "status": "completed",
+      "sync": {
+        "api_request_count": 136,
+        "api_response_seconds": 587.438945,
+        "average_api_response_seconds": 4.319404,
+        "dataset_version": "ds-000b7cf4eafe6692e08fe01eb157a7c101f09067cd19c7d21848553a1c9aca0b",
+        "discovery_monitor_error": null,
+        "duration_seconds": 613.786264,
+        "error_summary": {},
+        "event_ids_identical": false,
+        "failure_count": 0,
+        "finished_at": "2026-10-08T18:09:31.686192+00:00",
+        "last_good_dataset_version": "ds-000b7cf4eafe6692e08fe01eb157a7c101f09067cd19c7d21848553a1c9aca0b",
+        "mode": "CORE_STABLE_IDS",
+        "new_events": 5,
+        "ops_status_updated": true,
+        "persistent_new_events": 1,
+        "public_bytes_and_mtimes_identical": false,
+        "public_page_request_count": 0,
+        "public_page_response_seconds": 0.0,
+        "public_rewritten": true,
+        "request_metrics_complete": true,
+        "result": "PUBLISHED",
+        "retry_count": 0,
+        "review_count": 0,
+        "snapshot_hashes_identical": false,
+        "started_at": "2026-10-08T17:59:17.899932+00:00",
+        "success_count": 107,
+        "total_http_request_count": 136,
+        "transport_error_summary": {},
+        "whole_sync_attempts": [
+          {
+            "attempt": 1,
+            "error_summary": {},
+            "metrics": {
+              "api_request_count": 136,
+              "api_response_seconds": 587.438945,
+              "public_page_request_count": 0,
+              "public_page_response_seconds": 0.0,
+              "retry_count": 0,
+              "transport_error_summary": {}
+            },
+            "result": "PUBLISHED"
+          }
+        ],
+        "whole_sync_deadline_seconds": 720,
+        "whole_sync_retry_count": 0
+      },
+      "updated_at": "2026-10-08T18:11:25Z",
+      "verification": {
+        "errors": 0,
+        "failure_test_ids": [
+          "test_phase1f.Phase1FTests.test_exact_106_scope_and_104_current_two_historical",
+          "test_phase1g.Phase1GTests.test_exact_scope_delta_and_status_counts"
+        ],
+        "failures": 2,
+        "passed": false,
+        "public_contract": {
+          "failed_files": [],
+          "status": "PASS",
+          "validated_file_count": 545
+        },
+        "secret_scan": {
+          "file_count": 0,
+          "files": [],
+          "status": "PASS"
+        },
+        "tests": 169
+      }
+    },
+    {
+      "completed_at": "2026-10-09T00:18:52Z",
+      "completed_at_kst": "2026-10-09 09:18:52",
+      "conclusion": "success",
+      "created_at": "2026-10-09T00:16:12Z",
+      "created_at_kst": "2026-10-09 09:16:12",
+      "deployment_completed": false,
+      "duration_seconds": 160.0,
+      "event": "push",
+      "failed_steps": [],
+      "head_sha": "dea5cc0ce0bc4c796fb83c91c901d6ec634bca64",
+      "html_url": "https://github.com/TCA01/corrections-rule-radar/actions/runs/37863901363",
+      "id": 37863901363,
+      "job_started_at": "2026-10-09T00:16:15Z",
+      "job_started_at_kst": "2026-10-09 09:16:15",
+      "jobs": [
+        {
+          "completed_at": "2026-10-09T00:18:52Z",
+          "conclusion": "success",
+          "name": "validate",
+          "started_at": "2026-10-09T00:16:15Z",
+          "steps": [
+            {
+              "completed_at": "2026-10-09T00:16:17Z",
+              "conclusion": "success",
+              "name": "Set up job",
+              "number": 1,
+              "started_at": "2026-10-09T00:16:16Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:16:21Z",
+              "conclusion": "success",
+              "name": "Run actions/checkout@v4",
+              "number": 2,
+              "started_at": "2026-10-09T00:16:17Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:16:21Z",
+              "conclusion": "success",
+              "name": "Run actions/setup-python@v5",
+              "number": 3,
+              "started_at": "2026-10-09T00:16:21Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:16:28Z",
+              "conclusion": "success",
+              "name": "Run actions/setup-node@v4",
+              "number": 4,
+              "started_at": "2026-10-09T00:16:21Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:16:32Z",
+              "conclusion": "success",
+              "name": "Run python -m pip install -r requirements.txt",
+              "number": 5,
+              "started_at": "2026-10-09T00:16:28Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:16:37Z",
+              "conclusion": "success",
+              "name": "Run npm ci --prefix web",
+              "number": 6,
+              "started_at": "2026-10-09T00:16:32Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:16:37Z",
+              "conclusion": "success",
+              "name": "Offline tests without production credential",
+              "number": 7,
+              "started_at": "2026-10-09T00:16:37Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:18:20Z",
+              "conclusion": "success",
+              "name": "Run python scripts/verify.py",
+              "number": 8,
+              "started_at": "2026-10-09T00:16:37Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:18:30Z",
+              "conclusion": "success",
+              "name": "Run npm test --prefix web",
+              "number": 9,
+              "started_at": "2026-10-09T00:18:20Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:18:42Z",
+              "conclusion": "success",
+              "name": "Run npm run build --prefix web",
+              "number": 10,
+              "started_at": "2026-10-09T00:18:30Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:18:49Z",
+              "conclusion": "success",
+              "name": "Run python scripts/verify_artifact.py",
+              "number": 11,
+              "started_at": "2026-10-09T00:18:42Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:18:50Z",
+              "conclusion": "success",
+              "name": "Post Run actions/setup-node@v4",
+              "number": 20,
+              "started_at": "2026-10-09T00:18:49Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:18:50Z",
+              "conclusion": "success",
+              "name": "Post Run actions/setup-python@v5",
+              "number": 21,
+              "started_at": "2026-10-09T00:18:50Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:18:50Z",
+              "conclusion": "success",
+              "name": "Post Run actions/checkout@v4",
+              "number": 22,
+              "started_at": "2026-10-09T00:18:50Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:18:50Z",
+              "conclusion": "success",
+              "name": "Complete job",
+              "number": 23,
+              "started_at": "2026-10-09T00:18:50Z",
+              "status": "completed"
+            }
+          ]
+        }
+      ],
+      "name": "Offline contract and artifact validation",
+      "run_started_at": "2026-10-09T00:16:12Z",
+      "started_at_kst": "2026-10-09 09:16:12",
+      "status": "completed",
+      "updated_at": "2026-10-09T00:18:53Z"
+    },
+    {
+      "completed_at": "2026-10-09T00:28:43Z",
+      "completed_at_kst": "2026-10-09 09:28:43",
+      "conclusion": "success",
+      "created_at": "2026-10-09T00:16:33Z",
+      "created_at_kst": "2026-10-09 09:16:33",
+      "deployment_completed": true,
+      "duration_seconds": 730.0,
+      "event": "workflow_dispatch",
+      "failed_steps": [],
+      "failure_log_evidence": [],
+      "head_sha": "dea5cc0ce0bc4c796fb83c91c901d6ec634bca64",
+      "html_url": "https://github.com/TCA01/corrections-rule-radar/actions/runs/37863931848",
+      "id": 37863931848,
+      "job_started_at": "2026-10-09T00:16:37Z",
+      "job_started_at_kst": "2026-10-09 09:16:37",
+      "jobs": [
+        {
+          "completed_at": "2026-10-09T00:28:43Z",
+          "conclusion": "success",
+          "name": "sync",
+          "started_at": "2026-10-09T00:16:37Z",
+          "steps": [
+            {
+              "completed_at": "2026-10-09T00:16:39Z",
+              "conclusion": "success",
+              "name": "Set up job",
+              "number": 1,
+              "started_at": "2026-10-09T00:16:38Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:16:42Z",
+              "conclusion": "success",
+              "name": "Run actions/checkout@v4",
+              "number": 2,
+              "started_at": "2026-10-09T00:16:39Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:16:42Z",
+              "conclusion": "success",
+              "name": "Run actions/setup-python@v5",
+              "number": 3,
+              "started_at": "2026-10-09T00:16:42Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:16:43Z",
+              "conclusion": "success",
+              "name": "Restore opaque discovery fingerprints and pending review queue",
+              "number": 4,
+              "started_at": "2026-10-09T00:16:42Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:16:46Z",
+              "conclusion": "success",
+              "name": "Run actions/setup-node@v4",
+              "number": 5,
+              "started_at": "2026-10-09T00:16:43Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:16:48Z",
+              "conclusion": "success",
+              "name": "Install Python dependencies",
+              "number": 6,
+              "started_at": "2026-10-09T00:16:46Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:16:52Z",
+              "conclusion": "success",
+              "name": "Install web dependencies",
+              "number": 7,
+              "started_at": "2026-10-09T00:16:48Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:25:39Z",
+              "conclusion": "success",
+              "name": "Sync core and scheduled discovery",
+              "number": 8,
+              "started_at": "2026-10-09T00:16:52Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:27:30Z",
+              "conclusion": "success",
+              "name": "Validate and run all backend tests",
+              "number": 9,
+              "started_at": "2026-10-09T00:25:39Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:27:43Z",
+              "conclusion": "success",
+              "name": "Frontend tests",
+              "number": 10,
+              "started_at": "2026-10-09T00:27:30Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:27:44Z",
+              "conclusion": "success",
+              "name": "Stage allowlisted legal state, scan status or heartbeat",
+              "number": 11,
+              "started_at": "2026-10-09T00:27:43Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:27:57Z",
+              "conclusion": "success",
+              "name": "Build web candidate",
+              "number": 12,
+              "started_at": "2026-10-09T00:27:44Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:28:05Z",
+              "conclusion": "success",
+              "name": "Verify exact hosting artifact",
+              "number": 13,
+              "started_at": "2026-10-09T00:27:57Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:28:07Z",
+              "conclusion": "success",
+              "name": "Commit trusted state before deployment",
+              "number": 14,
+              "started_at": "2026-10-09T00:28:05Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:28:36Z",
+              "conclusion": "success",
+              "name": "Deploy validated candidate to Firebase Hosting",
+              "number": 15,
+              "started_at": "2026-10-09T00:28:07Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:28:38Z",
+              "conclusion": "success",
+              "name": "Acknowledge deployed dataset for restart-safe retry",
+              "number": 16,
+              "started_at": "2026-10-09T00:28:36Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:28:39Z",
+              "conclusion": "success",
+              "name": "Retain safe operational reports including failures",
+              "number": 17,
+              "started_at": "2026-10-09T00:28:38Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:28:39Z",
+              "conclusion": "success",
+              "name": "Post Run actions/setup-node@v4",
+              "number": 31,
+              "started_at": "2026-10-09T00:28:39Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:28:40Z",
+              "conclusion": "success",
+              "name": "Post Restore opaque discovery fingerprints and pending review queue",
+              "number": 32,
+              "started_at": "2026-10-09T00:28:39Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:28:40Z",
+              "conclusion": "success",
+              "name": "Post Run actions/setup-python@v5",
+              "number": 33,
+              "started_at": "2026-10-09T00:28:40Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:28:41Z",
+              "conclusion": "success",
+              "name": "Post Run actions/checkout@v4",
+              "number": 34,
+              "started_at": "2026-10-09T00:28:40Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:28:41Z",
+              "conclusion": "success",
+              "name": "Complete job",
+              "number": 35,
+              "started_at": "2026-10-09T00:28:41Z",
+              "status": "completed"
+            }
+          ]
+        }
+      ],
+      "name": "Production regulation sync",
+      "ops": {
+        "github_run_id": "37863931848",
+        "last_good_dataset_version": "ds-f5bde34929cfd8e03eac00f72b39863b25aad37a62f59abeb47ff3b29664ce9a",
+        "last_scan_completed_at": "2026-10-09T00:25:39.506338+00:00",
+        "last_scan_current_count": 104,
+        "last_scan_failures": 0,
+        "last_scan_result": "PUBLISHED",
+        "last_scan_rule_count": 107,
+        "last_scan_started_at": "2026-10-09T00:16:52.114964+00:00",
+        "last_scan_status": "OK",
+        "last_scheduled_scan": {
+          "completed_at": "2026-10-06T17:32:06.209233+00:00",
+          "cron": "37 11 * * *",
+          "dataset_version": "ds-b1f5f18bf785019f3998a504462ac072e0b885a07f4da519a1a95d79289943a2",
+          "github_run_id": "37503211648",
+          "result": "NO_CHANGE",
+          "started_at": "2026-10-06T17:24:14.430446+00:00"
+        },
+        "schedule_kst": [
+          "08:37",
+          "20:37"
+        ],
+        "schema_version": "1.5",
+        "status_scope": "LAST_SUCCESSFUL_SCAN",
+        "trigger": "MANUAL"
+      },
+      "run_started_at": "2026-10-09T00:16:33Z",
+      "schedule_log_evidence": [
+        "sync\tSync core and scheduled discovery\t2026-10-09T00:16:52.0585148Z   SCHEDULE: "
+      ],
+      "started_at_kst": "2026-10-09 09:16:33",
+      "status": "completed",
+      "sync": {
+        "api_request_count": 140,
+        "api_response_seconds": 490.338615,
+        "average_api_response_seconds": 3.502419,
+        "dataset_version": "ds-f5bde34929cfd8e03eac00f72b39863b25aad37a62f59abeb47ff3b29664ce9a",
+        "discovery_monitor_error": null,
+        "duration_seconds": 527.391385,
+        "error_summary": {},
+        "event_ids_identical": false,
+        "failure_count": 0,
+        "finished_at": "2026-10-09T00:25:39.506338+00:00",
+        "last_good_dataset_version": "ds-f5bde34929cfd8e03eac00f72b39863b25aad37a62f59abeb47ff3b29664ce9a",
+        "mode": "CORE_WITH_DAILY_DISCOVERY",
+        "new_events": 5,
+        "ops_status_updated": true,
+        "persistent_new_events": 1,
+        "public_bytes_and_mtimes_identical": false,
+        "public_page_request_count": 2,
+        "public_page_response_seconds": 6.843359,
+        "public_rewritten": true,
+        "request_metrics_complete": true,
+        "result": "PUBLISHED",
+        "retry_count": 0,
+        "review_count": 0,
+        "schedule_policy": {
+          "discovery": true,
+          "full_audit": false
+        },
+        "schedule_test_mode": "morning",
+        "snapshot_hashes_identical": false,
+        "started_at": "2026-10-09T00:16:52.114964+00:00",
+        "success_count": 107,
+        "total_http_request_count": 142,
+        "transport_error_summary": {},
+        "trigger": "MANUAL",
+        "whole_sync_attempts": [
+          {
+            "attempt": 1,
+            "error_summary": {},
+            "metrics": {
+              "api_request_count": 140,
+              "api_response_seconds": 490.338615,
+              "public_page_request_count": 2,
+              "public_page_response_seconds": 6.843359,
+              "retry_count": 0,
+              "transport_error_summary": {}
+            },
+            "result": "PUBLISHED"
+          }
+        ],
+        "whole_sync_deadline_seconds": 720,
+        "whole_sync_retry_count": 0
+      },
+      "updated_at": "2026-10-09T00:28:44Z",
+      "verification": {
+        "errors": 0,
+        "failure_test_ids": [],
+        "failures": 0,
+        "passed": true,
+        "public_contract": {
+          "failed_files": [],
+          "status": "PASS",
+          "validated_file_count": 545
+        },
+        "secret_scan": {
+          "file_count": 0,
+          "files": [],
+          "status": "PASS"
+        },
+        "tests": 172
+      }
+    },
+    {
+      "completed_at": "2026-10-09T00:43:47Z",
+      "completed_at_kst": "2026-10-09 09:43:47",
+      "conclusion": "success",
+      "created_at": "2026-10-09T00:30:45Z",
+      "created_at_kst": "2026-10-09 09:30:45",
+      "deployment_completed": true,
+      "duration_seconds": 782.0,
+      "event": "workflow_dispatch",
+      "failed_steps": [],
+      "failure_log_evidence": [],
+      "head_sha": "ffb83a1f1bc87042e77fc8784935960a6476ca53",
+      "html_url": "https://github.com/TCA01/corrections-rule-radar/actions/runs/37865156917",
+      "id": 37865156917,
+      "job_started_at": "2026-10-09T00:30:50Z",
+      "job_started_at_kst": "2026-10-09 09:30:50",
+      "jobs": [
+        {
+          "completed_at": "2026-10-09T00:43:47Z",
+          "conclusion": "success",
+          "name": "sync",
+          "started_at": "2026-10-09T00:30:50Z",
+          "steps": [
+            {
+              "completed_at": "2026-10-09T00:30:52Z",
+              "conclusion": "success",
+              "name": "Set up job",
+              "number": 1,
+              "started_at": "2026-10-09T00:30:51Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:30:56Z",
+              "conclusion": "success",
+              "name": "Run actions/checkout@v4",
+              "number": 2,
+              "started_at": "2026-10-09T00:30:52Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:30:56Z",
+              "conclusion": "success",
+              "name": "Run actions/setup-python@v5",
+              "number": 3,
+              "started_at": "2026-10-09T00:30:56Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:30:57Z",
+              "conclusion": "success",
+              "name": "Restore opaque discovery fingerprints and pending review queue",
+              "number": 4,
+              "started_at": "2026-10-09T00:30:56Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:30:59Z",
+              "conclusion": "success",
+              "name": "Run actions/setup-node@v4",
+              "number": 5,
+              "started_at": "2026-10-09T00:30:57Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:31:01Z",
+              "conclusion": "success",
+              "name": "Install Python dependencies",
+              "number": 6,
+              "started_at": "2026-10-09T00:30:59Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:31:05Z",
+              "conclusion": "success",
+              "name": "Install web dependencies",
+              "number": 7,
+              "started_at": "2026-10-09T00:31:01Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:40:47Z",
+              "conclusion": "success",
+              "name": "Sync core and scheduled discovery",
+              "number": 8,
+              "started_at": "2026-10-09T00:31:05Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:42:42Z",
+              "conclusion": "success",
+              "name": "Validate and run all backend tests",
+              "number": 9,
+              "started_at": "2026-10-09T00:40:47Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:42:54Z",
+              "conclusion": "success",
+              "name": "Frontend tests",
+              "number": 10,
+              "started_at": "2026-10-09T00:42:42Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:42:54Z",
+              "conclusion": "success",
+              "name": "Stage allowlisted legal state, scan status or heartbeat",
+              "number": 11,
+              "started_at": "2026-10-09T00:42:54Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:43:07Z",
+              "conclusion": "success",
+              "name": "Build web candidate",
+              "number": 12,
+              "started_at": "2026-10-09T00:42:54Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:43:15Z",
+              "conclusion": "success",
+              "name": "Verify exact hosting artifact",
+              "number": 13,
+              "started_at": "2026-10-09T00:43:07Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:43:17Z",
+              "conclusion": "success",
+              "name": "Commit trusted state before deployment",
+              "number": 14,
+              "started_at": "2026-10-09T00:43:15Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:43:39Z",
+              "conclusion": "success",
+              "name": "Deploy validated candidate to Firebase Hosting",
+              "number": 15,
+              "started_at": "2026-10-09T00:43:17Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:43:41Z",
+              "conclusion": "success",
+              "name": "Acknowledge deployed dataset for restart-safe retry",
+              "number": 16,
+              "started_at": "2026-10-09T00:43:39Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:43:42Z",
+              "conclusion": "success",
+              "name": "Retain safe operational reports including failures",
+              "number": 17,
+              "started_at": "2026-10-09T00:43:41Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:43:42Z",
+              "conclusion": "success",
+              "name": "Post Run actions/setup-node@v4",
+              "number": 31,
+              "started_at": "2026-10-09T00:43:42Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:43:43Z",
+              "conclusion": "success",
+              "name": "Post Restore opaque discovery fingerprints and pending review queue",
+              "number": 32,
+              "started_at": "2026-10-09T00:43:42Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:43:43Z",
+              "conclusion": "success",
+              "name": "Post Run actions/setup-python@v5",
+              "number": 33,
+              "started_at": "2026-10-09T00:43:43Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:43:44Z",
+              "conclusion": "success",
+              "name": "Post Run actions/checkout@v4",
+              "number": 34,
+              "started_at": "2026-10-09T00:43:43Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:43:44Z",
+              "conclusion": "success",
+              "name": "Complete job",
+              "number": 35,
+              "started_at": "2026-10-09T00:43:44Z",
+              "status": "completed"
+            }
+          ]
+        }
+      ],
+      "name": "Production regulation sync",
+      "ops": {
+        "github_run_id": "37865156917",
+        "last_good_dataset_version": "ds-f5bde34929cfd8e03eac00f72b39863b25aad37a62f59abeb47ff3b29664ce9a",
+        "last_scan_completed_at": "2026-10-09T00:40:47.797262+00:00",
+        "last_scan_current_count": 104,
+        "last_scan_failures": 0,
+        "last_scan_result": "PUBLISHED",
+        "last_scan_rule_count": 107,
+        "last_scan_started_at": "2026-10-09T00:31:05.750443+00:00",
+        "last_scan_status": "OK",
+        "last_scheduled_scan": {
+          "completed_at": "2026-10-06T17:32:06.209233+00:00",
+          "cron": "37 11 * * *",
+          "dataset_version": "ds-b1f5f18bf785019f3998a504462ac072e0b885a07f4da519a1a95d79289943a2",
+          "github_run_id": "37503211648",
+          "result": "NO_CHANGE",
+          "started_at": "2026-10-06T17:24:14.430446+00:00"
+        },
+        "schedule_kst": [
+          "08:37",
+          "20:37"
+        ],
+        "schema_version": "1.5",
+        "status_scope": "LAST_SUCCESSFUL_SCAN",
+        "trigger": "MANUAL"
+      },
+      "run_started_at": "2026-10-09T00:30:45Z",
+      "schedule_log_evidence": [
+        "sync\tSync core and scheduled discovery\t2026-10-09T00:31:05.6923942Z   SCHEDULE: "
+      ],
+      "started_at_kst": "2026-10-09 09:30:45",
+      "status": "completed",
+      "sync": {
+        "api_request_count": 134,
+        "api_response_seconds": 555.743802,
+        "average_api_response_seconds": 4.147342,
+        "dataset_version": "ds-f5bde34929cfd8e03eac00f72b39863b25aad37a62f59abeb47ff3b29664ce9a",
+        "discovery_monitor_error": null,
+        "duration_seconds": 582.046824,
+        "error_summary": {},
+        "event_ids_identical": true,
+        "failure_count": 0,
+        "finished_at": "2026-10-09T00:40:47.797262+00:00",
+        "last_good_dataset_version": "ds-f5bde34929cfd8e03eac00f72b39863b25aad37a62f59abeb47ff3b29664ce9a",
+        "mode": "CORE_STABLE_IDS",
+        "new_events": 0,
+        "ops_status_updated": true,
+        "persistent_new_events": 0,
+        "public_bytes_and_mtimes_identical": false,
+        "public_page_request_count": 0,
+        "public_page_response_seconds": 0.0,
+        "public_rewritten": true,
+        "request_metrics_complete": true,
+        "result": "PUBLISHED",
+        "retry_count": 0,
+        "review_count": 0,
+        "schedule_policy": {
+          "discovery": false,
+          "full_audit": false
+        },
+        "schedule_test_mode": "evening",
+        "snapshot_hashes_identical": true,
+        "started_at": "2026-10-09T00:31:05.750443+00:00",
+        "success_count": 107,
+        "total_http_request_count": 134,
+        "transport_error_summary": {},
+        "trigger": "MANUAL",
+        "whole_sync_attempts": [
+          {
+            "attempt": 1,
+            "error_summary": {},
+            "metrics": {
+              "api_request_count": 134,
+              "api_response_seconds": 555.743802,
+              "public_page_request_count": 0,
+              "public_page_response_seconds": 0.0,
+              "retry_count": 0,
+              "transport_error_summary": {}
+            },
+            "result": "PUBLISHED"
+          }
+        ],
+        "whole_sync_deadline_seconds": 720,
+        "whole_sync_retry_count": 0
+      },
+      "updated_at": "2026-10-09T00:43:48Z",
+      "verification": {
+        "errors": 0,
+        "failure_test_ids": [],
+        "failures": 0,
+        "passed": true,
+        "public_contract": {
+          "failed_files": [],
+          "status": "PASS",
+          "validated_file_count": 545
+        },
+        "secret_scan": {
+          "file_count": 0,
+          "files": [],
+          "status": "PASS"
+        },
+        "tests": 172
+      }
+    },
+    {
+      "completed_at": "2026-10-09T00:59:25Z",
+      "completed_at_kst": "2026-10-09 09:59:25",
+      "conclusion": "success",
+      "created_at": "2026-10-09T00:56:34Z",
+      "created_at_kst": "2026-10-09 09:56:34",
+      "deployment_completed": false,
+      "duration_seconds": 171.0,
+      "event": "push",
+      "failed_steps": [],
+      "head_sha": "a60f627fba344ac2a445e5560867b901f1b84c94",
+      "html_url": "https://github.com/TCA01/corrections-rule-radar/actions/runs/37867303577",
+      "id": 37867303577,
+      "job_started_at": "2026-10-09T00:56:37Z",
+      "job_started_at_kst": "2026-10-09 09:56:37",
+      "jobs": [
+        {
+          "completed_at": "2026-10-09T00:59:25Z",
+          "conclusion": "success",
+          "name": "validate",
+          "started_at": "2026-10-09T00:56:37Z",
+          "steps": [
+            {
+              "completed_at": "2026-10-09T00:56:39Z",
+              "conclusion": "success",
+              "name": "Set up job",
+              "number": 1,
+              "started_at": "2026-10-09T00:56:38Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:56:42Z",
+              "conclusion": "success",
+              "name": "Run actions/checkout@v4",
+              "number": 2,
+              "started_at": "2026-10-09T00:56:39Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:56:42Z",
+              "conclusion": "success",
+              "name": "Run actions/setup-python@v5",
+              "number": 3,
+              "started_at": "2026-10-09T00:56:42Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:56:44Z",
+              "conclusion": "success",
+              "name": "Run actions/setup-node@v4",
+              "number": 4,
+              "started_at": "2026-10-09T00:56:42Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:56:49Z",
+              "conclusion": "success",
+              "name": "Run python -m pip install -r requirements.txt",
+              "number": 5,
+              "started_at": "2026-10-09T00:56:44Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:56:53Z",
+              "conclusion": "success",
+              "name": "Run npm ci --prefix web",
+              "number": 6,
+              "started_at": "2026-10-09T00:56:49Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:56:53Z",
+              "conclusion": "success",
+              "name": "Offline tests without production credential",
+              "number": 7,
+              "started_at": "2026-10-09T00:56:53Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:58:50Z",
+              "conclusion": "success",
+              "name": "Run python scripts/verify.py",
+              "number": 8,
+              "started_at": "2026-10-09T00:56:53Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:59:02Z",
+              "conclusion": "success",
+              "name": "Run npm test --prefix web",
+              "number": 9,
+              "started_at": "2026-10-09T00:58:50Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:59:15Z",
+              "conclusion": "success",
+              "name": "Run npm run build --prefix web",
+              "number": 10,
+              "started_at": "2026-10-09T00:59:02Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:59:23Z",
+              "conclusion": "success",
+              "name": "Run python scripts/verify_artifact.py",
+              "number": 11,
+              "started_at": "2026-10-09T00:59:15Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:59:23Z",
+              "conclusion": "success",
+              "name": "Post Run actions/setup-node@v4",
+              "number": 20,
+              "started_at": "2026-10-09T00:59:23Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:59:23Z",
+              "conclusion": "success",
+              "name": "Post Run actions/setup-python@v5",
+              "number": 21,
+              "started_at": "2026-10-09T00:59:23Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:59:23Z",
+              "conclusion": "success",
+              "name": "Post Run actions/checkout@v4",
+              "number": 22,
+              "started_at": "2026-10-09T00:59:23Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:59:23Z",
+              "conclusion": "success",
+              "name": "Complete job",
+              "number": 23,
+              "started_at": "2026-10-09T00:59:23Z",
+              "status": "completed"
+            }
+          ]
+        }
+      ],
+      "name": "Offline contract and artifact validation",
+      "run_started_at": "2026-10-09T00:56:34Z",
+      "started_at_kst": "2026-10-09 09:56:34",
+      "status": "completed",
+      "updated_at": "2026-10-09T00:59:25Z"
+    },
+    {
+      "completed_at": "2026-10-09T01:08:36Z",
+      "completed_at_kst": "2026-10-09 10:08:36",
+      "conclusion": "success",
+      "created_at": "2026-10-09T00:57:29Z",
+      "created_at_kst": "2026-10-09 09:57:29",
+      "deployment_completed": true,
+      "duration_seconds": 667.0,
+      "event": "workflow_dispatch",
+      "failed_steps": [],
+      "failure_log_evidence": [],
+      "head_sha": "a60f627fba344ac2a445e5560867b901f1b84c94",
+      "html_url": "https://github.com/TCA01/corrections-rule-radar/actions/runs/37867380401",
+      "id": 37867380401,
+      "job_started_at": "2026-10-09T00:57:39Z",
+      "job_started_at_kst": "2026-10-09 09:57:39",
+      "jobs": [
+        {
+          "completed_at": "2026-10-09T01:08:36Z",
+          "conclusion": "success",
+          "name": "sync",
+          "started_at": "2026-10-09T00:57:39Z",
+          "steps": [
+            {
+              "completed_at": "2026-10-09T00:57:42Z",
+              "conclusion": "success",
+              "name": "Set up job",
+              "number": 1,
+              "started_at": "2026-10-09T00:57:40Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:57:45Z",
+              "conclusion": "success",
+              "name": "Run actions/checkout@v4",
+              "number": 2,
+              "started_at": "2026-10-09T00:57:42Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:57:45Z",
+              "conclusion": "success",
+              "name": "Run actions/setup-python@v5",
+              "number": 3,
+              "started_at": "2026-10-09T00:57:45Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:57:46Z",
+              "conclusion": "success",
+              "name": "Restore opaque discovery fingerprints and pending review queue",
+              "number": 4,
+              "started_at": "2026-10-09T00:57:45Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:57:48Z",
+              "conclusion": "success",
+              "name": "Run actions/setup-node@v4",
+              "number": 5,
+              "started_at": "2026-10-09T00:57:46Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:57:50Z",
+              "conclusion": "success",
+              "name": "Install Python dependencies",
+              "number": 6,
+              "started_at": "2026-10-09T00:57:48Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T00:57:53Z",
+              "conclusion": "success",
+              "name": "Install web dependencies",
+              "number": 7,
+              "started_at": "2026-10-09T00:57:50Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T01:06:45Z",
+              "conclusion": "success",
+              "name": "Sync core and scheduled discovery",
+              "number": 8,
+              "started_at": "2026-10-09T00:57:53Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T01:07:50Z",
+              "conclusion": "success",
+              "name": "Validate and run all backend tests",
+              "number": 9,
+              "started_at": "2026-10-09T01:06:45Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T01:07:57Z",
+              "conclusion": "success",
+              "name": "Frontend tests",
+              "number": 10,
+              "started_at": "2026-10-09T01:07:50Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T01:07:57Z",
+              "conclusion": "success",
+              "name": "Stage allowlisted legal state, scan status or heartbeat",
+              "number": 11,
+              "started_at": "2026-10-09T01:07:57Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T01:08:05Z",
+              "conclusion": "success",
+              "name": "Build web candidate",
+              "number": 12,
+              "started_at": "2026-10-09T01:07:57Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T01:08:09Z",
+              "conclusion": "success",
+              "name": "Verify exact hosting artifact",
+              "number": 13,
+              "started_at": "2026-10-09T01:08:05Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T01:08:11Z",
+              "conclusion": "success",
+              "name": "Commit trusted state before deployment",
+              "number": 14,
+              "started_at": "2026-10-09T01:08:09Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T01:08:30Z",
+              "conclusion": "success",
+              "name": "Deploy validated candidate to Firebase Hosting",
+              "number": 15,
+              "started_at": "2026-10-09T01:08:11Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T01:08:32Z",
+              "conclusion": "success",
+              "name": "Acknowledge deployed dataset for restart-safe retry",
+              "number": 16,
+              "started_at": "2026-10-09T01:08:30Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T01:08:33Z",
+              "conclusion": "success",
+              "name": "Retain safe operational reports including failures",
+              "number": 17,
+              "started_at": "2026-10-09T01:08:32Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T01:08:33Z",
+              "conclusion": "success",
+              "name": "Post Run actions/setup-node@v4",
+              "number": 31,
+              "started_at": "2026-10-09T01:08:33Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T01:08:34Z",
+              "conclusion": "success",
+              "name": "Post Restore opaque discovery fingerprints and pending review queue",
+              "number": 32,
+              "started_at": "2026-10-09T01:08:33Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T01:08:34Z",
+              "conclusion": "success",
+              "name": "Post Run actions/setup-python@v5",
+              "number": 33,
+              "started_at": "2026-10-09T01:08:34Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T01:08:34Z",
+              "conclusion": "success",
+              "name": "Post Run actions/checkout@v4",
+              "number": 34,
+              "started_at": "2026-10-09T01:08:34Z",
+              "status": "completed"
+            },
+            {
+              "completed_at": "2026-10-09T01:08:34Z",
+              "conclusion": "success",
+              "name": "Complete job",
+              "number": 35,
+              "started_at": "2026-10-09T01:08:34Z",
+              "status": "completed"
+            }
+          ]
+        }
+      ],
+      "name": "Production regulation sync",
+      "ops": {
+        "github_run_id": "37867380401",
+        "last_good_dataset_version": "ds-f5bde34929cfd8e03eac00f72b39863b25aad37a62f59abeb47ff3b29664ce9a",
+        "last_scan_completed_at": "2026-10-09T01:06:45.121999+00:00",
+        "last_scan_current_count": 104,
+        "last_scan_failures": 0,
+        "last_scan_result": "NO_CHANGE",
+        "last_scan_rule_count": 107,
+        "last_scan_started_at": "2026-10-09T00:57:53.592489+00:00",
+        "last_scan_status": "OK",
+        "last_scheduled_scan": {
+          "completed_at": "2026-10-06T17:32:06.209233+00:00",
+          "cron": "37 11 * * *",
+          "dataset_version": "ds-b1f5f18bf785019f3998a504462ac072e0b885a07f4da519a1a95d79289943a2",
+          "github_run_id": "37503211648",
+          "result": "NO_CHANGE",
+          "started_at": "2026-10-06T17:24:14.430446+00:00"
+        },
+        "schedule_kst": [
+          "08:37",
+          "20:37"
+        ],
+        "schema_version": "1.5",
+        "status_scope": "LAST_SUCCESSFUL_SCAN",
+        "trigger": "MANUAL"
+      },
+      "run_started_at": "2026-10-09T00:57:29Z",
+      "schedule_log_evidence": [
+        "sync\tSync core and scheduled discovery\t2026-10-09T00:57:53.5529087Z   SCHEDULE: "
+      ],
+      "started_at_kst": "2026-10-09 09:57:29",
+      "status": "completed",
+      "sync": {
+        "api_request_count": 138,
+        "api_response_seconds": 506.03469,
+        "average_api_response_seconds": 3.666918,
+        "dataset_version": "ds-f5bde34929cfd8e03eac00f72b39863b25aad37a62f59abeb47ff3b29664ce9a",
+        "discovery_monitor_error": null,
+        "duration_seconds": 531.529525,
+        "error_summary": {},
+        "event_ids_identical": true,
+        "failure_count": 0,
+        "finished_at": "2026-10-09T01:06:45.121999+00:00",
+        "last_good_dataset_version": "ds-f5bde34929cfd8e03eac00f72b39863b25aad37a62f59abeb47ff3b29664ce9a",
+        "mode": "CORE_STABLE_IDS",
+        "new_events": 0,
+        "ops_status_updated": true,
+        "persistent_new_events": 0,
+        "public_bytes_and_mtimes_identical": true,
+        "public_page_request_count": 0,
+        "public_page_response_seconds": 0.0,
+        "public_rewritten": false,
+        "request_metrics_complete": true,
+        "result": "NO_CHANGE",
+        "retry_count": 4,
+        "review_count": 0,
+        "schedule_policy": {
+          "discovery": false,
+          "full_audit": false
+        },
+        "schedule_test_mode": "evening",
+        "snapshot_hashes_identical": true,
+        "started_at": "2026-10-09T00:57:53.592489+00:00",
+        "success_count": 107,
+        "total_http_request_count": 138,
+        "transport_error_summary": {
+          "TIMEOUT": 4
+        },
+        "trigger": "MANUAL",
+        "whole_sync_attempts": [
+          {
+            "attempt": 1,
+            "error_summary": {},
+            "metrics": {
+              "api_request_count": 138,
+              "api_response_seconds": 506.03469,
+              "public_page_request_count": 0,
+              "public_page_response_seconds": 0.0,
+              "retry_count": 4,
+              "transport_error_summary": {
+                "TIMEOUT": 4
+              }
+            },
+            "result": "NO_CHANGE"
+          }
+        ],
+        "whole_sync_deadline_seconds": 720,
+        "whole_sync_retry_count": 0
+      },
+      "updated_at": "2026-10-09T01:08:37Z",
+      "verification": {
+        "errors": 0,
+        "failure_test_ids": [],
+        "failures": 0,
+        "passed": true,
+        "public_contract": {
+          "failed_files": [],
+          "status": "PASS",
+          "validated_file_count": 545
+        },
+        "secret_scan": {
+          "file_count": 0,
+          "files": [],
+          "status": "PASS"
+        },
+        "tests": 173
+      }
+    }
+  ],
+  "scan_failures": {
+    "completed_but_unpublished": 3,
+    "incomplete_collections": 1,
+    "missing_scheduled_slots_at_cutoff": 1
+  },
+  "scope_preserved": 107,
+  "slots": [
+    {
+      "created_at_kst": "2026-10-07 11:40:02",
+      "result": "FAILURE",
+      "run_existed": true,
+      "run_id": 37563062041,
+      "slot_kst": "2026-10-07 08:37"
+    },
+    {
+      "created_at_kst": "2026-10-08 02:57:12",
+      "result": "FAILURE",
+      "run_existed": true,
+      "run_id": 37663058212,
+      "slot_kst": "2026-10-07 20:37"
+    },
+    {
+      "created_at_kst": "2026-10-08 11:51:48",
+      "result": "FAILURE",
+      "run_existed": true,
+      "run_id": 37719943653,
+      "slot_kst": "2026-10-08 08:37"
+    },
+    {
+      "created_at_kst": "2026-10-09 02:58:58",
+      "result": "FAILURE",
+      "run_existed": true,
+      "run_id": 37820751430,
+      "slot_kst": "2026-10-08 20:37"
+    },
+    {
+      "created_at_kst": null,
+      "result": "MISSING",
+      "run_existed": false,
+      "run_id": null,
+      "slot_kst": "2026-10-09 08:37"
+    }
+  ],
+  "timezone_bug": false,
+  "ui_origin": {
+    "completed_kst": "2026-10-07 02:32:06",
+    "completed_utc": "2026-10-06T17:32:06.209233+00:00",
+    "event": "schedule",
+    "run_id": 37503211648
+  }
+}

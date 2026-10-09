@@ -1,0 +1,150 @@
+{
+  "run": {
+    "conclusion": "success",
+    "createdAt": "2026-10-09T00:56:34Z",
+    "databaseId": 37867303577,
+    "event": "push",
+    "headSha": "a60f627fba344ac2a445e5560867b901f1b84c94",
+    "jobs": [
+      {
+        "completedAt": "2026-10-09T00:59:25Z",
+        "conclusion": "success",
+        "databaseId": 113616974997,
+        "name": "validate",
+        "startedAt": "2026-10-09T00:56:37Z",
+        "status": "completed",
+        "steps": [
+          {
+            "completedAt": "2026-10-09T00:56:39Z",
+            "conclusion": "success",
+            "name": "Set up job",
+            "number": 1,
+            "startedAt": "2026-10-09T00:56:38Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-09T00:56:42Z",
+            "conclusion": "success",
+            "name": "Run actions/checkout@v4",
+            "number": 2,
+            "startedAt": "2026-10-09T00:56:39Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-09T00:56:42Z",
+            "conclusion": "success",
+            "name": "Run actions/setup-python@v5",
+            "number": 3,
+            "startedAt": "2026-10-09T00:56:42Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-09T00:56:44Z",
+            "conclusion": "success",
+            "name": "Run actions/setup-node@v4",
+            "number": 4,
+            "startedAt": "2026-10-09T00:56:42Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-09T00:56:49Z",
+            "conclusion": "success",
+            "name": "Run python -m pip install -r requirements.txt",
+            "number": 5,
+            "startedAt": "2026-10-09T00:56:44Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-09T00:56:53Z",
+            "conclusion": "success",
+            "name": "Run npm ci --prefix web",
+            "number": 6,
+            "startedAt": "2026-10-09T00:56:49Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-09T00:56:53Z",
+            "conclusion": "success",
+            "name": "Offline tests without production credential",
+            "number": 7,
+            "startedAt": "2026-10-09T00:56:53Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-09T00:58:50Z",
+            "conclusion": "success",
+            "name": "Run python scripts/verify.py",
+            "number": 8,
+            "startedAt": "2026-10-09T00:56:53Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-09T00:59:02Z",
+            "conclusion": "success",
+            "name": "Run npm test --prefix web",
+            "number": 9,
+            "startedAt": "2026-10-09T00:58:50Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-09T00:59:15Z",
+            "conclusion": "success",
+            "name": "Run npm run build --prefix web",
+            "number": 10,
+            "startedAt": "2026-10-09T00:59:02Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-09T00:59:23Z",
+            "conclusion": "success",
+            "name": "Run python scripts/verify_artifact.py",
+            "number": 11,
+            "startedAt": "2026-10-09T00:59:15Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-09T00:59:23Z",
+            "conclusion": "success",
+            "name": "Post Run actions/setup-node@v4",
+            "number": 20,
+            "startedAt": "2026-10-09T00:59:23Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-09T00:59:23Z",
+            "conclusion": "success",
+            "name": "Post Run actions/setup-python@v5",
+            "number": 21,
+            "startedAt": "2026-10-09T00:59:23Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-09T00:59:23Z",
+            "conclusion": "success",
+            "name": "Post Run actions/checkout@v4",
+            "number": 22,
+            "startedAt": "2026-10-09T00:59:23Z",
+            "status": "completed"
+          },
+          {
+            "completedAt": "2026-10-09T00:59:23Z",
+            "conclusion": "success",
+            "name": "Complete job",
+            "number": 23,
+            "startedAt": "2026-10-09T00:59:23Z",
+            "status": "completed"
+          }
+        ],
+        "url": "https://github.com/TCA01/corrections-rule-radar/actions/runs/37867303577/job/113616974997"
+      }
+    ],
+    "startedAt": "2026-10-09T00:56:34Z",
+    "updatedAt": "2026-10-09T00:59:25Z"
+  },
+  "status": "PASS",
+  "validation_log_evidence": [
+    "validate\tRun python scripts/verify.py\t2026-10-09T00:58:50.1531906Z {\"tests\": 173, \"passed\": true, \"failures\": 0, \"errors\": 0, \"failure_test_ids\": [], \"secret_scan\": {\"status\": \"PASS\", \"file_count\": 0, \"files\": []}, \"public_contract\": {\"validated_file_count\": 545, \"failed_files\": [], \"status\": \"PASS\"}}",
+    "validate\tRun npm test --prefix web\t2026-10-09T00:59:02.5266226Z       Tests  102 passed (102)",
+    "validate\tRun python scripts/verify_artifact.py\t2026-10-09T00:59:23.3948184Z {\"status\": \"PASS\", \"artifact_file_count\": 548, \"api\": {\"status\": \"PASS\", \"validated_files\": 545, \"rule_count\": 107, \"dataset_version\": \"ds-f5bde34929cfd8e03eac00f72b39863b25aad37a62f59abeb47ff3b29664ce9a\"}, \"secret_leak_count\": 0}"
+  ]
+}

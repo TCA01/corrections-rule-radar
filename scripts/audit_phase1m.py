@@ -2,6 +2,7 @@
 import argparse
 import hashlib
 import json
+import re
 import subprocess
 import sys
 import urllib.request
@@ -82,6 +83,14 @@ def history():
     write_json(REPORTS/'phase1m_run_history.json',value)
     print(json.dumps({'as_of':value['as_of'],'runs':[{k:r[k] for k in ('id','name','event','conclusion','created_at')} for r in result]}))
 
+def ci(run_id):
+    meta=json.loads(gh('run','view',str(run_id),'--repo','TCA01/corrections-rule-radar','--json','databaseId,event,headSha,createdAt,startedAt,updatedAt,conclusion,jobs'))
+    log=re.sub(r'(?:\x1b|\^\[)\[[0-9;]*m','',gh('run','view',str(run_id),'--repo','TCA01/corrections-rule-radar','--log'))
+    proof=[line for line in log.splitlines() if '"tests": 173' in line or re.search(r'Tests\s+102 passed',line) or '"artifact_file_count": 548' in line]
+    assert meta['conclusion']=='success' and len(proof)==3
+    write_json(REPORTS/f'phase1m_ci_{run_id}.json',{'status':'PASS','run':meta,'validation_log_evidence':proof})
+    print(json.dumps({'status':'PASS','run_id':run_id,'evidence':proof}))
+
 def live(run_id):
     base='https://corrections-rule-radar.web.app/api/v1/'
     def fetch(rel):
@@ -156,7 +165,7 @@ def preservation():
     print(json.dumps(value)); assert value['status']=='PASS'
 
 if __name__=='__main__':
-    parser = argparse.ArgumentParser(); parser.add_argument('mode',choices=['freeze','official','history','live','capture','capture_final','preservation']); parser.add_argument('--run-id',type=int)
+    parser = argparse.ArgumentParser(); parser.add_argument('mode',choices=['freeze','official','history','live','ci','capture','capture_final','preservation']); parser.add_argument('--run-id',type=int)
     args=parser.parse_args()
-    if args.mode=='live': live(args.run_id)
+    if args.mode in ('live','ci'): globals()[args.mode](args.run_id)
     else: globals()[args.mode]()

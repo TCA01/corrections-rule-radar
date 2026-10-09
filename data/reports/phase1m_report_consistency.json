@@ -1,0 +1,20 @@
+{
+  "audit_cutoff_utc": "2026-10-09T01:10:37.489752+00:00",
+  "checks": {
+    "all_actions_runs_included": true,
+    "both_rehearsals_passed_all_release_gates": true,
+    "five_requested_slots_included": true,
+    "immutable_and_future_data_preserved": true,
+    "manual_tests_cannot_substitute_for_real_schedule_acceptance": true,
+    "markdown_matches_ready_decision": true,
+    "morning_and_evening_rehearsals_are_manual": true,
+    "no_change_kept_events_hashes_bytes_and_mtimes": true,
+    "official_107_scope_and_repeal_verified": true,
+    "repository_and_live_dataset_agree": true,
+    "scheduled_freshness_kept_independently": true,
+    "slot_matches_actual_schedule_event": true,
+    "utc_to_kst_origin_correct": true
+  },
+  "run_count": 10,
+  "status": "PASS"
+}
