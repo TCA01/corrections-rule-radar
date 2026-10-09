@@ -43,7 +43,7 @@ describe('Production Data Smoke Test (public/api/v1/)', () => {
     expect(data.last_successful_sync).toBeTruthy();
   });
 
-  it('verifies rules.json contains expected 107 core rules, 105 current, 2 repealed, zero review', () => {
+  it('verifies all 107 tracked rules have statuses supported by official body metadata, zero review', () => {
     const raw = fs.readFileSync(path.join(publicDir, 'rules.json'), 'utf-8');
     const data: RulesResponse = JSON.parse(raw);
 
@@ -52,8 +52,14 @@ describe('Production Data Smoke Test (public/api/v1/)', () => {
 
     const currentRules = data.rules.filter((r) => r.status === 'CURRENT');
     const repealedRules = data.rules.filter((r) => r.status === 'REPEALED');
-    expect(currentRules.length).toBe(105);
-    expect(repealedRules.length).toBe(2);
+    expect(currentRules.length + repealedRules.length).toBe(107);
+    for (const r of data.rules) {
+      expect(r.status).toBe(['폐지', '타법폐지'].includes(r.metadata.amendment_type || '') ? 'REPEALED' : 'CURRENT');
+      const detail: RuleDetailResponse = JSON.parse(fs.readFileSync(path.join(publicDir, 'rules', r.canonical_id + '.json'), 'utf8'));
+      expect(detail.current.metadata).toEqual(r.metadata);
+      expect(detail.current.version_id).toBe(r.version_id);
+    }
+    expect(repealedRules.map(r=>r.canonical_id)).toEqual(expect.arrayContaining(['admrul-26424','admrul-26917']));
 
     const classified = data.rules.filter((r) => r.classification_status === 'REVIEWED');
     const review = data.rules.filter((r) => r.classification_status === 'REVIEW');

@@ -1,4 +1,5 @@
 {
+  "github_run_id": "37503211648",
   "last_good_dataset_version": "ds-b1f5f18bf785019f3998a504462ac072e0b885a07f4da519a1a95d79289943a2",
   "last_scan_completed_at": "2026-10-06T17:32:06.209233+00:00",
   "last_scan_current_count": 105,
@@ -7,10 +8,20 @@
   "last_scan_rule_count": 107,
   "last_scan_started_at": "2026-10-06T17:24:14.430446+00:00",
   "last_scan_status": "OK",
+  "last_scheduled_scan": {
+    "completed_at": "2026-10-06T17:32:06.209233+00:00",
+    "cron": "37 11 * * *",
+    "dataset_version": "ds-b1f5f18bf785019f3998a504462ac072e0b885a07f4da519a1a95d79289943a2",
+    "github_run_id": "37503211648",
+    "result": "NO_CHANGE",
+    "started_at": "2026-10-06T17:24:14.430446+00:00"
+  },
+  "schedule_cron": "37 11 * * *",
   "schedule_kst": [
     "08:37",
     "20:37"
   ],
   "schema_version": "1.5",
-  "status_scope": "LAST_SUCCESSFUL_SCAN"
+  "status_scope": "LAST_SUCCESSFUL_SCAN",
+  "trigger": "SCHEDULE"
 }

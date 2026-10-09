@@ -102,14 +102,17 @@ class IsolatedRecovery(unittest.TestCase):
         write_json(candidate / 'data/ops/health.json', {'last_successful_sync': 'RESTORED', 'last_dataset_version': 'GOOD'})
         return {'result': 'NO_CHANGE', 'success_count': 107, 'error_summary': {}}
 
-    def run_sync(self, executor):
+    def run_sync(self, executor, scan_context=None):
         with patch.object(supervisor, 'RETRY_DELAY_SECONDS', 0):
-            return supervisor.run(root=self.root, deadline_seconds=30, executor=executor)
+            return supervisor.run(root=self.root, deadline_seconds=30, executor=executor, scan_context=scan_context)
 
     def test_success_failure_success_preserves_last_good_and_restores(self):
-        self.assertEqual(self.run_sync(lambda c, o, t: self.no_change(c))['result'], 'NO_CHANGE')
+        context={'trigger':'SCHEDULE','schedule_cron':'37 23 * * *','github_run_id':'123456'}
+        self.assertEqual(self.run_sync(lambda c, o, t: self.no_change(c),context)['result'], 'NO_CHANGE')
         good = self.fingerprint()
         good_ops = (self.root / 'public/api/v1/ops-status.json').read_bytes()
+        scheduled=json.loads(good_ops)['last_scheduled_scan']
+        self.assertEqual(json.loads(good_ops)['trigger'],'SCHEDULE')
         failed = self.run_sync(lambda c, o, t: self.partial_failure(c))
         self.assertEqual(failed['result'], 'BLOCKED')
         self.assertEqual(failed['whole_sync_retry_count'], 1)
@@ -118,6 +121,9 @@ class IsolatedRecovery(unittest.TestCase):
         self.assertEqual(supervisor.read(self.root, 'data/ops/health.json')['last_successful_sync'], 'RESTORED')
         self.assertEqual(self.run_sync(lambda c, o, t: self.no_change(c))['result'], 'NO_CHANGE')
         self.assertEqual(self.fingerprint(), good)
+        recovered=supervisor.read(self.root,'public/api/v1/ops-status.json')
+        self.assertEqual(recovered['trigger'],'MANUAL')
+        self.assertEqual(recovered['last_scheduled_scan'],scheduled)
 
     def test_timeout_then_success_uses_fresh_candidate(self):
         def executor(candidate, options, timeout):

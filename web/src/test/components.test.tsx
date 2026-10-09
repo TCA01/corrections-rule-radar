@@ -312,7 +312,7 @@ describe('Header Component', () => {
     expect(screen.getByRole('alert')).toHaveTextContent(
       '일부 데이터 확인이 지연되고 있습니다. 마지막 정상 데이터가 표시됩니다.'
     );
-    expect(screen.getByText(/마지막 데이터 갱신:/)).toBeInTheDocument();
+    expect(screen.getByText(/마지막 법령 데이터 반영:/)).toBeInTheDocument();
   });
 });
 

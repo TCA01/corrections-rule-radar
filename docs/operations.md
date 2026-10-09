@@ -4,11 +4,14 @@ Internal health: last_attempt, last_successful_sync, api_status, core_registry_t
 success_count, review_count, failure_count, publication_status, last_dataset_version.
 Public health includes only safe dataset status/counts and last successful published
 verification. On a no-change run internal success advances, legal public data stays byte
-identical. The UI labels this **마지막 데이터 갱신**. The legacy v1 field name
+identical. The UI labels this **마지막 법령 데이터 반영**. The legacy v1 field name
 `last_successful_sync` is the published dataset timestamp, not the latest poll.
 Phase 1K publishes successful scan completion through separate `ops-status.json`.
 It may generate an operational commit and Hosting release without a legal change.
-The header displays **최근 자동 확인**, result, and the 08:37/20:37 KST schedule.
+The header displays **최근 자동 확인** only for actual schedule events. Manual
+checks display **최근 시스템 확인 · 수동 실행**, retaining the last verified
+scheduled completion separately. The cron is 08:37/20:37 KST; actual GitHub
+schedule delivery may be delayed. See `phase1m_contract.md`.
 
 One-item errors remain isolated in the resolution report and do not erase retained
 snapshots. This Phase 0 uses strict whole-dataset publication blocking for any

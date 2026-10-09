@@ -92,7 +92,7 @@ describe('App End-to-End Integration Test with Production Fixtures', () => {
     expect(screen.queryByText('교정업무 변경 레이더')).not.toBeInTheDocument();
 
     // Check last successful sync is displayed
-    expect(screen.getByText(/마지막 데이터 갱신:/)).toBeInTheDocument();
+    expect(screen.getByText(/마지막 법령 데이터 반영:/)).toBeInTheDocument();
 
     // Check total tracked regulations count matches actual rules.length (68)
     expect(screen.getByText('추적 규정')).toBeInTheDocument();

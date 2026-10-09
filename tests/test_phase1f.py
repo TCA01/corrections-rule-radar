@@ -17,6 +17,7 @@ from scripts import sync,production_sync,collect_core
 from scripts.observe import public_fingerprint
 from scripts.validate_workflows import validate as workflows
 from test_pipeline import ROOT,AT,load,evidence_collection
+from status_evidence import assert_status_evidence
 
 def expanded():
     staged=ROOT/'data/staging/phase1f_collection.json'
@@ -41,10 +42,10 @@ class Phase1FTests(unittest.TestCase):
         self.assertEqual(Counter(r['scope_class'] for r in self.approved),{'DIRECT_CORRECTIONS':15,'CROSS_DOMAIN_CORRECTIONS':23})
         bad=load(ROOT/'data/reports/phase1d_api_eligibility.json'); bad['final_recommended_additions'].pop()
         with self.assertRaisesRegex(ValueError,'DISCREPANCY_STOP'): approved_candidates(bad)
-    def test_exact_106_scope_and_104_current_two_historical(self):
+    def test_exact_106_scope_and_official_status_evidence(self):
         rows=self.collection['registry']; self.assertEqual(len(rows),106)
         self.assertEqual({r['canonical_id'] for r in rows},set(self.previous['previous_ids'])|{r['canonical_id'] for r in self.approved})
-        self.assertEqual(Counter(r['status'] for r in rows),{'CURRENT':104,'REPEALED':2})
+        assert_status_evidence(self, self.collection)
     def test_excluded_limited_review_absent(self):
         ids=set(self.collection['snapshots']); self.assertNotIn('admrul-30248',ids)
         report=load(ROOT/'data/reports/phase1d_api_eligibility.json')

@@ -17,7 +17,8 @@ afterEach(()=>{cleanup();vi.restoreAllMocks();});
 it('counts only visible directory rows for current, historical, domain and search',()=>{
   const {container}=render(<RegulationDirectory rules={rules.rules} onSelectRule={vi.fn()}/>);
   const check=(n:number)=>{expect(container.querySelectorAll('.directory-table-row')).toHaveLength(n);expect(container.querySelector('.section-badge')?.textContent).toContain(`${n}개`);};
-  check(105); expect(screen.getByText('현행 105개')).toBeInTheDocument();
+  const currentCount=rules.rules.filter(r=>r.status==='CURRENT').length;
+  check(currentCount); expect(screen.getByText(`현행 ${currentCount}개`)).toBeInTheDocument();
   fireEvent.click(screen.getByLabelText('폐지 규정 포함'));check(107);
   fireEvent.change(screen.getByLabelText('업무 분야 필터'),{target:{value:'의료'}});
   check(rules.rules.filter(r=>r.business_domains.includes('의료')).length);

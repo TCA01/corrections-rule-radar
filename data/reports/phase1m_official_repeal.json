@@ -1,0 +1,145 @@
+{
+  "body_evidence": {
+    "cache_key": "71099bb26722675275f443393ff3d1daf538ec3b3618d9704ed2fea066fe6b9b",
+    "credential_redacted": false,
+    "raw_sha256": "f0816749479cf104b1151b9b9f6dbcfc4d664d40ccbdc657656bc9d0cdb7d5eb",
+    "request": {
+      "ID": "2100000286404",
+      "target": "admrul",
+      "type": "JSON"
+    },
+    "stored_sha256": "f0816749479cf104b1151b9b9f6dbcfc4d664d40ccbdc657656bc9d0cdb7d5eb"
+  },
+  "canonical_id": "admrul-35611",
+  "current_evidence": {
+    "cache_key": "b4999bd401d493bc8e4afe43a172c09b8b8773ced4e18d4c29cf12ce797713b9",
+    "credential_redacted": false,
+    "raw_sha256": "bc71cc09a5ae8ce1f5b347a9c4ce24ace175e8a141676dfe4751efe1320f2726",
+    "request": {
+      "LID": "35611",
+      "target": "admrul",
+      "type": "JSON"
+    },
+    "stored_sha256": "bc71cc09a5ae8ce1f5b347a9c4ce24ace175e8a141676dfe4751efe1320f2726"
+  },
+  "current_lid_root_keys": [],
+  "exact_history_rows": [
+    {
+      "id": "1",
+      "발령번호": "1583",
+      "발령일자": "20261002",
+      "생성일자": "20261007",
+      "소관부처명": "공소청",
+      "시행일자": "20261002",
+      "제개정구분명": "폐지",
+      "제개정구분코드": "200404",
+      "행정규칙ID": "35611",
+      "행정규칙명": "미결수용인 분리수용 협조",
+      "행정규칙상세링크": "/DRF/lawService.do?OC=REDACTED&target=admrul&ID=2100000286404&type=HTML&mobileYn=",
+      "행정규칙일련번호": "2100000286404",
+      "행정규칙종류": "예규",
+      "현행연혁구분": "연혁"
+    },
+    {
+      "id": "2",
+      "발령번호": "501",
+      "발령일자": "20091102",
+      "생성일자": "20261007",
+      "소관부처명": "공소청",
+      "시행일자": "20091102",
+      "제개정구분명": "폐지제정",
+      "제개정구분코드": "200407",
+      "행정규칙ID": "35611",
+      "행정규칙명": "미결수용인 분리수용 협조(공범표시)",
+      "행정규칙상세링크": "/DRF/lawService.do?OC=REDACTED&target=admrul&ID=2000000011695&type=HTML&mobileYn=",
+      "행정규칙일련번호": "2000000011695",
+      "행정규칙종류": "예규",
+      "현행연혁구분": "연혁"
+    },
+    {
+      "id": "3",
+      "발령번호": "1097",
+      "발령일자": "20200601",
+      "생성일자": "20261007",
+      "소관부처명": "공소청",
+      "시행일자": "20200601",
+      "제개정구분명": "폐지제정",
+      "제개정구분코드": "200407",
+      "행정규칙ID": "35611",
+      "행정규칙명": "미결수용인 분리수용 협조(공범표시)",
+      "행정규칙상세링크": "/DRF/lawService.do?OC=REDACTED&target=admrul&ID=2100000189807&type=HTML&mobileYn=",
+      "행정규칙일련번호": "2100000189807",
+      "행정규칙종류": "예규",
+      "현행연혁구분": "연혁"
+    },
+    {
+      "id": "4",
+      "발령번호": "1414",
+      "발령일자": "20240603",
+      "생성일자": "20261007",
+      "소관부처명": "공소청",
+      "시행일자": "20240603",
+      "제개정구분명": "일부개정",
+      "제개정구분코드": "200403",
+      "행정규칙ID": "35611",
+      "행정규칙명": "미결수용인 분리수용 협조(공범표시)",
+      "행정규칙상세링크": "/DRF/lawService.do?OC=REDACTED&target=admrul&ID=2100000241876&type=HTML&mobileYn=",
+      "행정규칙일련번호": "2100000241876",
+      "행정규칙종류": "예규",
+      "현행연혁구분": "연혁"
+    },
+    {
+      "id": "5",
+      "발령번호": "116",
+      "발령일자": "19790615",
+      "생성일자": "20261007",
+      "소관부처명": "공소청",
+      "시행일자": "19790615",
+      "제개정구분명": "제정",
+      "제개정구분코드": "200401",
+      "행정규칙ID": "35611",
+      "행정규칙명": "미결수용자의 분리수용 협조(공범표시)",
+      "행정규칙상세링크": "/DRF/lawService.do?OC=REDACTED&target=admrul&ID=2000000001984&type=HTML&mobileYn=",
+      "행정규칙일련번호": "2000000001984",
+      "행정규칙종류": "예규",
+      "현행연혁구분": "연혁"
+    }
+  ],
+  "hashes": {
+    "appendix_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "attachment_link_hash": "3f24d0f5fbacb969f63678596a4923b8b73044650fc71660f496cb0134dc5ffb",
+    "body_hash": "26f25b8a08b014e60d82ed4bb6ebf4ae3f443c8bd0a807ad78423c99a53e72a5",
+    "metadata_hash": "104ae8b63a9569cd5cf44b62dee265297eaa12cefd5922fee34c43960841a68d"
+  },
+  "history_evidence": [
+    {
+      "cache_key": "cae060f46331e2a7cf4082e010da0b7b2acce9afb2a85828d4d787d64b3b7ffc",
+      "credential_redacted": true,
+      "raw_sha256": "ae1125820d0192348a61f50388e98694dd4d2ef3653e2512dac256c837b5da4d",
+      "request": {
+        "display": 100,
+        "nw": 2,
+        "page": 1,
+        "query": "미결수용인 분리수용 관련 지침",
+        "target": "admrul",
+        "type": "JSON"
+      },
+      "stored_sha256": "73c8d3082677b986691cb64f3a1cdb1400d81d86d6a5fbcc04525c8c25aaf3fd"
+    }
+  ],
+  "metadata": {
+    "amendment_type": "폐지",
+    "department": "공소청(형사1과)",
+    "effective_date": "2026-10-02",
+    "issue_date": "2026-10-02",
+    "issue_number": "1583",
+    "ministry": "공소청",
+    "name": "미결수용인 분리수용 협조",
+    "official_state": "N",
+    "rule_type": "예규"
+  },
+  "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286404",
+  "status": "PASS",
+  "structured_body_present": true,
+  "version_id": "2100000286404"
+}

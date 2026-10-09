@@ -11,6 +11,7 @@ from pipeline.validation import assert_public_safe
 from scripts import sync
 from scripts.observe import public_fingerprint
 from test_pipeline import ROOT,load,evidence_collection
+from status_evidence import assert_status_evidence
 
 class Phase1GTests(unittest.TestCase):
     @classmethod
@@ -23,7 +24,7 @@ class Phase1GTests(unittest.TestCase):
         rows=self.collection['registry']
         self.assertEqual(len(rows),107)
         self.assertEqual(set(self.collection['snapshots']),set(self.previous['previous_ids'])|{self.cid})
-        self.assertEqual(Counter(r['status'] for r in rows),{'CURRENT':105,'REPEALED':2})
+        assert_status_evidence(self, self.collection)
         self.assertEqual(sum(r['current_name']=='형사소송법' for r in rows),1)
     def test_live_identity_and_structured_current_body(self):
         sn=self.collection['snapshots'][self.cid]; report=self.evidence

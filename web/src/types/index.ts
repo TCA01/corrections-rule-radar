@@ -31,6 +31,17 @@ export interface OpsStatus {
   last_scan_failures: number;
   last_good_dataset_version: string;
   schedule_kst: string[];
+  trigger?: 'SCHEDULE' | 'MANUAL';
+  github_run_id?: string;
+  schedule_cron?: string;
+  last_scheduled_scan?: {
+    started_at: string;
+    completed_at: string;
+    result: 'NO_CHANGE' | 'PUBLISHED';
+    dataset_version: string;
+    cron: string;
+    github_run_id: string;
+  } | null;
 }
 
 export type CorrectionsCategory = '법률' | '대통령령' | '법무부령' | '예규' | '훈령' | '지침';

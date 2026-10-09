@@ -12,6 +12,8 @@ interface HeaderProps {
 export const Header: React.FC<HeaderProps> = ({ health, ops }) => {
   const isDegraded = health ? health.status !== 'OK' || health.publication_status !== 'PUBLISHED' : false;
   const lastSyncStr = health ? formatDateTime(health.last_successful_sync) : '-';
+  const scanLabel = ops?.trigger === 'SCHEDULE' ? '최근 자동 확인' : '최근 시스템 확인';
+  const scanSuffix = ops?.trigger === 'MANUAL' ? ' · 수동 실행' : '';
 
   return (
     <header className="site-header" role="banner">
@@ -35,22 +37,23 @@ export const Header: React.FC<HeaderProps> = ({ health, ops }) => {
           </div>
 
           <div className="header-meta-block">
-            <div className="scan-status" aria-label="최근 자동 확인">
-              <span>최근 자동 확인</span>
-              <strong>{ops?.last_scan_status === 'OK' ? `${formatDateTime(ops.last_scan_completed_at)} · 정상` : '확인 기록을 불러오지 못했습니다'}</strong>
+            <div className="scan-status" aria-label={scanLabel}>
+              <span>{scanLabel}</span>
+              <strong>{ops?.last_scan_status === 'OK' ? `${formatDateTime(ops.last_scan_completed_at)} · 정상${scanSuffix}` : '확인 기록을 불러오지 못했습니다'}</strong>
               {ops?.last_scan_status === 'OK' && <span>{ops.last_scan_result === 'NO_CHANGE' ? '변경 없음' : '변경 감지'}</span>}
+              {ops?.trigger !== 'SCHEDULE' && ops?.last_scheduled_scan && <span>최근 예약 확인: {formatDateTime(ops.last_scheduled_scan.completed_at)}</span>}
             </div>
             <div
               className="sync-status"
-              title={`마지막 데이터 갱신: ${lastSyncStr}`}
-              aria-label={`동기화 상태: 마지막 데이터 갱신 ${lastSyncStr}`}
+              title={`마지막 법령 데이터 반영: ${lastSyncStr}`}
+              aria-label={`동기화 상태: 마지막 법령 데이터 반영 ${lastSyncStr}`}
             >
               <span
                 className={`status-dot ${isDegraded ? 'degraded' : 'ok'}`}
                 aria-hidden="true"
               />
               <span className="sync-label">
-                마지막 데이터 갱신: <strong>{lastSyncStr}</strong>
+                마지막 법령 데이터 반영: <strong>{lastSyncStr}</strong>
               </span>
               <CheckCircle2
                 size={14}

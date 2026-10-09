@@ -13,6 +13,11 @@ on:
         description: Force rehearsal deploy of last-good validated state without legal change mutation
         type: boolean
         default: false
+      schedule_test_mode:
+        description: Execute the exact morning/evening policy while preserving MANUAL trigger
+        type: choice
+        options: [normal, morning, evening]
+        default: normal
 concurrency:
   group: production-state-and-hosting
   cancel-in-progress: false
@@ -54,6 +59,7 @@ jobs:
           LAW_API_OC: ${{ secrets.LAW_API_OC }}
           SCHEDULE: ${{ github.event.schedule }}
           FULL_AUDIT: ${{ inputs.full_audit }}
+          SCHEDULE_TEST_MODE: ${{ inputs.schedule_test_mode || 'normal' }}
           PYTHONUNBUFFERED: "1"
         run: python scripts/scheduled_sync.py
       - name: Validate and run all backend tests

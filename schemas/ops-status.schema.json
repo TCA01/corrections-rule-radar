@@ -13,6 +13,24 @@
     "last_scan_current_count":{"type":"integer","minimum":0},
     "last_scan_failures":{"const":0},
     "last_good_dataset_version":{"type":"string","pattern":"^ds-[a-f0-9]{64}$"},
-    "schedule_kst":{"const":["08:37","20:37"]}
+    "schedule_kst":{"const":["08:37","20:37"]},
+    "trigger":{"enum":["SCHEDULE","MANUAL"]},
+    "github_run_id":{"type":"string","pattern":"^[0-9]+$"},
+    "schedule_cron":{"enum":["37 23 * * *","37 11 * * *"]},
+    "last_scheduled_scan":{"anyOf":[{"type":"null"},{"$ref":"#/$defs/scheduled_scan"}]}
+  },
+  "$defs":{
+    "scheduled_scan":{
+      "type":"object","additionalProperties":false,
+      "required":["started_at","completed_at","result","dataset_version","cron","github_run_id"],
+      "properties":{
+        "started_at":{"type":"string","format":"date-time"},
+        "completed_at":{"type":"string","format":"date-time"},
+        "result":{"enum":["PUBLISHED","NO_CHANGE"]},
+        "dataset_version":{"type":"string","pattern":"^ds-[a-f0-9]{64}$"},
+        "cron":{"enum":["37 23 * * *","37 11 * * *"]},
+        "github_run_id":{"type":"string","pattern":"^[0-9]+$"}
+      }
+    }
   }
 }

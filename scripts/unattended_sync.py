@@ -144,7 +144,7 @@ def retain_operations(root, candidate, report):
         write_json(root / 'data/reports' / source.name, read(candidate, 'data/reports/' + source.name))
 
 
-def run(*, root=None, deadline_seconds=DEADLINE_SECONDS, executor=None, **options):
+def run(*, root=None, deadline_seconds=DEADLINE_SECONDS, executor=None, scan_context=None, **options):
     root = Path(root or ROOT).resolve(); started = now(); start = time.monotonic()
     deadline = start + deadline_seconds; reserve = min(60, deadline_seconds / 10)
     previous = read(root, 'data/ops/health.json', {})
@@ -203,7 +203,7 @@ def run(*, root=None, deadline_seconds=DEADLINE_SECONDS, executor=None, **option
         errors = Counter()
         for attempt in attempts: errors.update(attempt['metrics'].get('transport_error_summary', {}))
         report['transport_error_summary'] = dict(errors)
-    try: report['ops_status_updated'] = publish_status(root, report)
+    try: report['ops_status_updated'] = publish_status(root, report, scan_context)
     except Exception:
         report['ops_status_updated'] = False
         report['result'] = 'BLOCKED'
