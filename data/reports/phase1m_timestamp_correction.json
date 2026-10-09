@@ -1,0 +1,19 @@
+{
+  "basis": "ACTUAL_FIRST_PUBLICATION_OF_THIS_LEGAL_DATASET",
+  "basis_run_id": 37863931848,
+  "changes": {
+    "health.json": {
+      "before": "2026-10-09T00:40:31.844931+00:00",
+      "corrected": "2026-10-09T00:25:23.666906+00:00",
+      "field": "last_successful_sync"
+    },
+    "manifest.json": {
+      "before": "2026-10-09T00:40:31.844931+00:00",
+      "corrected": "2026-10-09T00:25:23.666906+00:00",
+      "field": "published_at"
+    }
+  },
+  "dataset_version": "ds-f5bde34929cfd8e03eac00f72b39863b25aad37a62f59abeb47ff3b29664ce9a",
+  "status": "PASS",
+  "unnecessary_republication_run_id": 37865156917
+}

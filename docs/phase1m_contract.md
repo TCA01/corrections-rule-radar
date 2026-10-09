@@ -28,3 +28,9 @@ effective date already reached. Empty API responses still fail closed.
 The cron remains 08:37 / 20:37 KST. GitHub's schedule delivery is best effort;
 the audit observed delays before run creation. This change cannot guarantee
 execution at the configured minute or eliminate GitHub-side dispatch delays.
+
+Repeated fresh Actions checkouts compare the generated legal version against
+the published manifest. Private operational health is deliberately excluded
+from generated-state commits and cannot determine whether legal publication
+changed. Repeal-search wording and scan timestamps do not republish unchanged
+legal data. A real repetition exposed and verified this separate defect.

@@ -5,7 +5,7 @@
   "health_url": "/api/v1/health.json",
   "history_changes_url": "/api/v1/changes/history.json",
   "latest_changes_url": "/api/v1/changes/latest.json",
-  "published_at": "2026-10-09T00:40:31.844931+00:00",
+  "published_at": "2026-10-09T00:25:23.666906+00:00",
   "recent_changes_url": "/api/v1/changes/recent.json",
   "rule_count": 107,
   "rules_url": "/api/v1/rules.json",

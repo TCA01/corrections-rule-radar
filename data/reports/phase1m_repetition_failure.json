@@ -1,0 +1,94 @@
+{
+  "cached_health_differed_from_published_manifest": true,
+  "cause": "FRESH_CHECKOUT_STALE_PRIVATE_HEALTH",
+  "checkout_private_health": {
+    "api_request_count": 133,
+    "api_response_seconds": 67.654,
+    "api_status": "OK",
+    "average_api_response_seconds": 0.508677,
+    "core_registry_total": 107,
+    "duration_seconds": 157.907,
+    "failure_count": 0,
+    "last_attempt": "2026-10-06T10:01:12.227748+00:00",
+    "last_dataset_version": "ds-b1f5f18bf785019f3998a504462ac072e0b885a07f4da519a1a95d79289943a2",
+    "last_successful_sync": "2026-10-06T10:03:46.473505+00:00",
+    "public_page_request_count": 0,
+    "public_page_response_seconds": 0.0,
+    "publication_status": "NO_CHANGE",
+    "retry_count": 0,
+    "review_count": 0,
+    "success_count": 107,
+    "total_http_request_count": 133,
+    "transport_error_summary": {}
+  },
+  "legal_change_events_added": 0,
+  "legal_dataset_version_unchanged": true,
+  "preservation": {
+    "approved_107_ids_preserved": true,
+    "changed_current_rule_ids": [
+      "admrul-35611"
+    ],
+    "drifted_snapshots": [],
+    "future_states_preserved": true,
+    "immutable_original_snapshots_preserved": true,
+    "no_change_all_legal_bytes_and_snapshot_set_identical": false,
+    "no_change_dataset_version_identical": true,
+    "original_user_report_preserved": true,
+    "status": "FAIL"
+  },
+  "published_manifest_dataset_version": "ds-f5bde34929cfd8e03eac00f72b39863b25aad37a62f59abeb47ff3b29664ce9a",
+  "run_id": 37865156917,
+  "sync": {
+    "api_request_count": 134,
+    "api_response_seconds": 555.743802,
+    "average_api_response_seconds": 4.147342,
+    "dataset_version": "ds-f5bde34929cfd8e03eac00f72b39863b25aad37a62f59abeb47ff3b29664ce9a",
+    "discovery_monitor_error": null,
+    "duration_seconds": 582.046824,
+    "error_summary": {},
+    "event_ids_identical": true,
+    "failure_count": 0,
+    "finished_at": "2026-10-09T00:40:47.797262+00:00",
+    "last_good_dataset_version": "ds-f5bde34929cfd8e03eac00f72b39863b25aad37a62f59abeb47ff3b29664ce9a",
+    "mode": "CORE_STABLE_IDS",
+    "new_events": 0,
+    "ops_status_updated": true,
+    "persistent_new_events": 0,
+    "public_bytes_and_mtimes_identical": false,
+    "public_page_request_count": 0,
+    "public_page_response_seconds": 0.0,
+    "public_rewritten": true,
+    "request_metrics_complete": true,
+    "result": "PUBLISHED",
+    "retry_count": 0,
+    "review_count": 0,
+    "schedule_policy": {
+      "discovery": false,
+      "full_audit": false
+    },
+    "schedule_test_mode": "evening",
+    "snapshot_hashes_identical": true,
+    "started_at": "2026-10-09T00:31:05.750443+00:00",
+    "success_count": 107,
+    "total_http_request_count": 134,
+    "transport_error_summary": {},
+    "trigger": "MANUAL",
+    "whole_sync_attempts": [
+      {
+        "attempt": 1,
+        "error_summary": {},
+        "metrics": {
+          "api_request_count": 134,
+          "api_response_seconds": 555.743802,
+          "public_page_request_count": 0,
+          "public_page_response_seconds": 0.0,
+          "retry_count": 0,
+          "transport_error_summary": {}
+        },
+        "result": "PUBLISHED"
+      }
+    ],
+    "whole_sync_deadline_seconds": 720,
+    "whole_sync_retry_count": 0
+  }
+}

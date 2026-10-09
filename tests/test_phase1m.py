@@ -11,8 +11,36 @@ from pipeline.operations.public_status import publish_status, status_hash
 from scripts.scheduled_sync import policy, selected_schedule, scan_context
 from status_evidence import assert_status_evidence
 from test_pipeline import ROOT, evidence_collection
+from scripts import sync as sync_module
+from pipeline.snapshot import write_json
 
 class Phase1MTests(unittest.TestCase):
+    def test_fresh_checkout_with_stale_private_health_does_not_republish_unchanged_legal_data(self):
+        collection=evidence_collection()
+        with tempfile.TemporaryDirectory() as tmp,patch.object(sync_module,'ROOT',Path(tmp)):
+            root=Path(tmp)
+            first=sync_module.sync(collection)
+            self.assertEqual(first['result'],'PUBLISHED')
+            folders=('public/api/v1','data/registry')
+            def fingerprint():
+                return {p.relative_to(root).as_posix():(p.read_bytes(),p.stat().st_mtime_ns)
+                    for folder in folders for p in (root/folder).rglob('*.json')}
+            before=fingerprint()
+            # Only public/registry state is committed by the production bot.
+            # The next Actions checkout therefore restores old private health.
+            write_json(root/'data/ops/health.json',{'last_dataset_version':'STALE_PRIVATE_VERSION'})
+            repeated=copy.deepcopy(collection)
+            for row in repeated['registry']: row['last_verified_at']='2026-10-09T02:00:00Z'
+            for sn in repeated['snapshots'].values():
+                if sn.get('repeal_evidence'):
+                    sn['repeal_evidence']['history_evidence']=[{'request':{'query':'changed search wording','nw':2}}]
+            second=sync_module.sync(repeated)
+            self.assertEqual(second['result'],'NO_CHANGE')
+            self.assertEqual(second['dataset_version'],first['dataset_version'])
+            self.assertEqual(second['new_events'],0)
+            self.assertEqual(second['persistent_new_events'],0)
+            self.assertEqual(fingerprint(),before)
+
     def test_new_verified_repeal_keeps_exact_scope_without_frozen_status_count(self):
         collection=evidence_collection()
         row=next(r for r in collection['registry'] if r['source_kind']=='admrul' and r['status']=='CURRENT')

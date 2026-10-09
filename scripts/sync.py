@@ -106,7 +106,10 @@ def sync(collection):
     # Persist enriched comparison references so a future event keeps its original
     # baseline after becoming current; event IDs never depend on derived display.
     events=sorted(files['changes/latest.json'][1]['events']+files['changes/upcoming.json'][1]['events'],key=lambda e:e['event_id'])
-    changed=version!=previous.get('last_dataset_version')
+    # Actions starts from a fresh checkout. Private attempt health is deliberately
+    # not committed, so its version may predate the published legal dataset.
+    # Compare against the validated publication, not that operational cache.
+    changed=version!=read('public/api/v1/manifest.json',{}).get('dataset_version')
     if changed:
         try: publish(files,ROOT)
         except Exception:
