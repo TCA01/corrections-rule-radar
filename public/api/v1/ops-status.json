@@ -1,12 +1,12 @@
 {
-  "github_run_id": "37503211648",
-  "last_good_dataset_version": "ds-b1f5f18bf785019f3998a504462ac072e0b885a07f4da519a1a95d79289943a2",
-  "last_scan_completed_at": "2026-10-06T17:32:06.209233+00:00",
-  "last_scan_current_count": 105,
+  "github_run_id": "37863931848",
+  "last_good_dataset_version": "ds-f5bde34929cfd8e03eac00f72b39863b25aad37a62f59abeb47ff3b29664ce9a",
+  "last_scan_completed_at": "2026-10-09T00:25:39.506338+00:00",
+  "last_scan_current_count": 104,
   "last_scan_failures": 0,
-  "last_scan_result": "NO_CHANGE",
+  "last_scan_result": "PUBLISHED",
   "last_scan_rule_count": 107,
-  "last_scan_started_at": "2026-10-06T17:24:14.430446+00:00",
+  "last_scan_started_at": "2026-10-09T00:16:52.114964+00:00",
   "last_scan_status": "OK",
   "last_scheduled_scan": {
     "completed_at": "2026-10-06T17:32:06.209233+00:00",
@@ -16,12 +16,11 @@
     "result": "NO_CHANGE",
     "started_at": "2026-10-06T17:24:14.430446+00:00"
   },
-  "schedule_cron": "37 11 * * *",
   "schedule_kst": [
     "08:37",
     "20:37"
   ],
   "schema_version": "1.5",
   "status_scope": "LAST_SUCCESSFUL_SCAN",
-  "trigger": "SCHEDULE"
+  "trigger": "MANUAL"
 }

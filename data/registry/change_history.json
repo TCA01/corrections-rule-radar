@@ -259,6 +259,48 @@
   },
   {
     "after_version": {
+      "body_hash": "26f25b8a08b014e60d82ed4bb6ebf4ae3f443c8bd0a807ad78423c99a53e72a5",
+      "effective_date": "2026-10-02",
+      "identifier": "2100000286404",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286404",
+      "snapshot_url": "/api/v1/rules/admrul-35611/versions/2100000286404-2026-10-02-698ff6f05cdb5099.json",
+      "version_id": "2100000286404"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "27075c73ada567a2502fc3e079951e0a7daf78b4b54e9a2b94dfaa736dfab15f",
+      "effective_date": "2026-10-02",
+      "identifier": "2100000286360",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286360",
+      "snapshot_url": "/api/v1/rules/admrul-35611/versions/2100000286360-2026-10-02-098035796b435a0b.json",
+      "version_id": "2100000286360"
+    },
+    "canonical_id": "admrul-35611",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "RULE_RENAMED",
+      "RULE_REPEALED"
+    ],
+    "changed_article_count": 0,
+    "changed_articles": [],
+    "comparison_evidence": null,
+    "comparison_scope": "FULL_STRUCTURED_BODY",
+    "comparison_source": null,
+    "comparison_status": "COMPARISON_UNAVAILABLE",
+    "comparison_unavailable_reason": "STRUCTURED_ARTICLES_UNAVAILABLE",
+    "detected_at": "2026-10-09T00:25:23.666906+00:00",
+    "effective_date": "2026-10-02",
+    "event_id": "evt-ea9c55fd62f60cda0c0c8626a029749bc4f68a4742626139375178b0c0546671",
+    "fallback_reason": "OFFICIAL_COMPARISON_PAIR_OR_TEXT_UNAVAILABLE",
+    "official_old_new_available": false,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286404",
+    "promulgation_or_issue_date": "2026-10-02",
+    "regulation_name": "미결수용인 분리수용 협조",
+    "regulation_type": "예규"
+  },
+  {
+    "after_version": {
       "body_hash": "3013bac79204aee528269057a2e9b6262bd65f3eba153e0aa69a454e336e6a70",
       "effective_date": "2026-10-02",
       "identifier": "290561",

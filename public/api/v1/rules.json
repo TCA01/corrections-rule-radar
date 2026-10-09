@@ -1,5 +1,5 @@
 {
-  "dataset_version": "ds-b1f5f18bf785019f3998a504462ac072e0b885a07f4da519a1a95d79289943a2",
+  "dataset_version": "ds-f5bde34929cfd8e03eac00f72b39863b25aad37a62f59abeb47ff3b29664ce9a",
   "rules": [
     {
       "business_domains": [
@@ -1447,24 +1447,25 @@
       "canonical_id": "admrul-35611",
       "classification_status": "REVIEWED",
       "corrections_category": "예규",
-      "current_name": "미결수용인 분리수용 관련 지침",
+      "current_name": "미결수용인 분리수용 협조",
       "detail_url": "/api/v1/rules/admrul-35611.json",
       "domain_assignment_status": "FALLBACK",
       "historical_names": [
-        "미결수용인 분리수용 협조(공범표시)"
+        "미결수용인 분리수용 협조(공범표시)",
+        "미결수용인 분리수용 관련 지침"
       ],
       "metadata": {
-        "amendment_type": "일부개정",
+        "amendment_type": "폐지",
         "department": "공소청(형사1과)",
         "effective_date": "2026-10-02",
         "issue_date": "2026-10-02",
-        "issue_number": "186",
+        "issue_number": "1583",
         "ministry": "공소청",
-        "name": "미결수용인 분리수용 관련 지침",
-        "official_state": "Y",
+        "name": "미결수용인 분리수용 협조",
+        "official_state": "N",
         "rule_type": "예규"
       },
-      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286360",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286404",
       "primary_domain": "기타",
       "provenance": {
         "api_tracking_class": "API_TRACKABLE",
@@ -1473,7 +1474,7 @@
           "구치소 수용 담당자",
           "미결수용인"
         ],
-        "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286360",
+        "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286404",
         "discovery_source": [
           "LAW_API_MINISTRY",
           "LAW_API_KEYWORD"
@@ -1481,7 +1482,7 @@
         "history_source": "LAWGO_STRUCTURED_HISTORY",
         "official_seed_name": null,
         "official_seed_url": null,
-        "scope_class": "DIRECT_CORRECTIONS",
+        "scope_class": "HISTORICAL_REPEALED",
         "scope_review_status": "APPROVED",
         "selection_basis": "형집행법 제81조·시행령 제100조의 미결수용인 분리수용 협조·공범표시 규정",
         "structured_body_source": "LAWGO_JSON_XML"
@@ -1489,8 +1490,8 @@
       "secondary_domains": [],
       "seed_names": [],
       "source_kind": "admrul",
-      "status": "CURRENT",
-      "version_id": "2100000286360"
+      "status": "REPEALED",
+      "version_id": "2100000286404"
     },
     {
       "business_domains": [

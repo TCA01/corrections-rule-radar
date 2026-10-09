@@ -50334,9 +50334,9 @@
         "canonical_id": "admrul-26917",
         "history_evidence": [
           {
-            "cache_key": "3d5602a7966126ea6cc6a81054b0b8b1bfd37a9457f5f1116d29ffcc19a0eb31",
+            "cache_key": "3aa97d70cbcc0314fb8ec31252449ecc7583b590e1c81c131ac99251abdf1f41",
             "credential_redacted": true,
-            "raw_sha256": "23cb7673d6cec99d908e20b4b08aca5a851f7d7a8b5eeaf1343b51647739bfd3",
+            "raw_sha256": "5f03c974e7ac385f3c357150b5f0b402d39d3d8520d4434d82d53290bfd3543f",
             "request": {
               "display": 100,
               "nw": 2,
@@ -50345,7 +50345,7 @@
               "target": "admrul",
               "type": "JSON"
             },
-            "stored_sha256": "8ab537358aa3c1d0e7c766fb209d80f01ae65a55155154e69a86d7260dbe2880"
+            "stored_sha256": "af4d8cd7ceadaf8538b5ebeec2f4cd917c685f66a2b3f48b8dd511e0278b5a03"
           }
         ],
         "source": "OFFICIAL_HISTORY",
@@ -53063,64 +53063,74 @@
       "appendices": [],
       "attachments": [
         {
-          "title": "8. 미결수용인 분리수용 관련 지침.hwp",
+          "title": "['8. 미결수용인 분리수용 협조(대검예규 제1414호).hwp', '8. 미결수용인 분리수용 협조(대검예규 제1414호).pdf']",
           "type": "OFFICIAL_ATTACHMENT",
-          "url": "https://law.go.kr/flDownload.do?flSeq=170053177"
+          "url": "https://www.law.go.kr/['http:/law.go.kr/flDownload.do?flSeq=170171817%27%2C+%27http%3A%2F%2Flaw.go.kr%2FflDownload.do%3FflSeq%3D170171861%27%5D"
         }
       ],
       "body": {
         "addenda": {
-          "부칙공포번호": [
-            "1097",
-            "1414",
-            "186"
-          ],
-          "부칙공포일자": [
-            "20200601",
-            "20240601",
-            "20261002"
-          ],
-          "부칙내용": [
-            "부칙 1. 이 예규는 2020년 6월 1일부터 시행한다.2. 종전의 대검예규 제501호(미결수용인 분리수용 협조)는 이를 폐지한다.",
-            "부칙 1. 이 예규는 2024년 6월 3일부터 시행한다.2. 종전의 대검예규 제501호(미결수용인 분리수용 협조)는 이를 폐지한다.",
-            "부칙 1. 이 예규는 2026년 10월 2일부터 시행한다."
-          ]
+          "부칙공포번호": "1583",
+          "부칙공포일자": "20261002",
+          "부칙내용": "부칙 이 예규는 2026. 10. 2.부터 시행한다."
         },
-        "articles": "1. 본 예규는 공범 등 사건 관련 피의자 등의 미결수용시 분리수용에 관하여 필요한 사항을 규정함을 목적으로 한다.　2. 공범을 비롯하여 사건에 서로 관련이 있는 피의자 등의 미결수용에 있어서는 형의 집행 및 수용자의 처우에 관한 법률 제81조, 동법 시행령 제100조의 규정에 의하여 분리수용하고, 서로간의 접촉을 금지토록 되어 있으므로, 송치된 구속피의자의 수용을 지휘할 때나 구속영장의 집행을 지휘할 때는 구치소 등에서 동 관련 관계를 용이하게 식별할 수 있도록 각 호와 같이 공범 관계를 명시하여야 한다.가. 공범자 등을 동시에 수용할 경우에는 구속영장 집행지휘 날인 부분 또는 수용지휘 하단 여백에 \"피의자 ○ ○ ○ 와 공범, 피고인 ○ ○ ○와 서로 관련\" 등으로 표시하여야 한다.나. 공범자 등을 추가 수용할 경우에는 위 부분에 \"수용 중인 피의자 ○ ○ ○ 와 공범, 수용 중인 피고인 ○ ○ ○와 서로 관련\" 등으로 표시하여야 한다."
+        "articles": "「미결수용인 분리수용 협조」(대검예규 제1414호, 2009. 11. 2. 제정)을 폐지한다."
       },
       "canonical_id": "admrul-35611",
       "evidence": {
-        "cache_key": "cd28876f3c72153dd230547ef68536f6385d019b90b30909958a201187415140",
+        "cache_key": "71099bb26722675275f443393ff3d1daf538ec3b3618d9704ed2fea066fe6b9b",
         "credential_redacted": false,
-        "raw_sha256": "92f7616bb5f727d0d76043118868797023ae45fc425be205a4c94a22c5e0de79",
+        "raw_sha256": "f0816749479cf104b1151b9b9f6dbcfc4d664d40ccbdc657656bc9d0cdb7d5eb",
         "request": {
-          "LID": "35611",
+          "ID": "2100000286404",
           "target": "admrul",
           "type": "JSON"
         },
-        "stored_sha256": "92f7616bb5f727d0d76043118868797023ae45fc425be205a4c94a22c5e0de79"
+        "stored_sha256": "f0816749479cf104b1151b9b9f6dbcfc4d664d40ccbdc657656bc9d0cdb7d5eb"
       },
       "hashes": {
         "appendix_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
-        "attachment_link_hash": "2ebe65f8ed9af94ced871da6391ed340d5a572683c6092b229fadc0a5be79313",
-        "body_hash": "27075c73ada567a2502fc3e079951e0a7daf78b4b54e9a2b94dfaa736dfab15f",
-        "metadata_hash": "187913afb90460144c50496143f27a75615096da4e31db2ab16e0ddbe71b4da9"
+        "attachment_link_hash": "3f24d0f5fbacb969f63678596a4923b8b73044650fc71660f496cb0134dc5ffb",
+        "body_hash": "26f25b8a08b014e60d82ed4bb6ebf4ae3f443c8bd0a807ad78423c99a53e72a5",
+        "metadata_hash": "104ae8b63a9569cd5cf44b62dee265297eaa12cefd5922fee34c43960841a68d"
       },
       "metadata": {
-        "amendment_type": "일부개정",
+        "amendment_type": "폐지",
         "department": "공소청(형사1과)",
         "effective_date": "2026-10-02",
         "issue_date": "2026-10-02",
-        "issue_number": "186",
+        "issue_number": "1583",
         "ministry": "공소청",
-        "name": "미결수용인 분리수용 관련 지침",
-        "official_state": "Y",
+        "name": "미결수용인 분리수용 협조",
+        "official_state": "N",
         "rule_type": "예규"
       },
-      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286360",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286404",
+      "repeal_evidence": {
+        "amendment_type": "폐지",
+        "canonical_id": "admrul-35611",
+        "history_evidence": [
+          {
+            "cache_key": "cae060f46331e2a7cf4082e010da0b7b2acce9afb2a85828d4d787d64b3b7ffc",
+            "credential_redacted": true,
+            "raw_sha256": "ae1125820d0192348a61f50388e98694dd4d2ef3653e2512dac256c837b5da4d",
+            "request": {
+              "display": 100,
+              "nw": 2,
+              "page": 1,
+              "query": "미결수용인 분리수용 관련 지침",
+              "target": "admrul",
+              "type": "JSON"
+            },
+            "stored_sha256": "73c8d3082677b986691cb64f3a1cdb1400d81d86d6a5fbcc04525c8c25aaf3fd"
+          }
+        ],
+        "source": "OFFICIAL_HISTORY",
+        "version_id": "2100000286404"
+      },
       "source_kind": "admrul",
       "stable_identifier": "35611",
-      "version_id": "2100000286360"
+      "version_id": "2100000286404"
     },
     "admrul-36282": {
       "appendices": [
@@ -105215,16 +105225,16 @@
       },
       "canonical_id": "law-010883",
       "evidence": {
-        "cache_key": "706acb3ef9fb48fd768a8b8ae9db2e89f0b46c4c9048d22434d22528820ffc9b",
+        "cache_key": "f1ff742f7211870ffe6843dee7ead90bcc2b0cfb5341f027388bc15247f5fa2d",
         "credential_redacted": false,
-        "raw_sha256": "ff7bf01d4d12465ff4f8be71ed2b7559386f2135edcb37d4e4eb237a3a8f7f5a",
+        "raw_sha256": "90c2e6c2a1b890cec23e6a09cd52b4fff9b0449862751868772477fd295e831d",
         "request": {
           "MST": "290561",
           "efYd": "20261002",
           "target": "eflaw",
           "type": "JSON"
         },
-        "stored_sha256": "ff7bf01d4d12465ff4f8be71ed2b7559386f2135edcb37d4e4eb237a3a8f7f5a"
+        "stored_sha256": "90c2e6c2a1b890cec23e6a09cd52b4fff9b0449862751868772477fd295e831d"
       },
       "hashes": {
         "appendix_hash": "cd3295c5ea198b61c5e63533a386195ef5d4999ebb67a357b78560267cc1249c",

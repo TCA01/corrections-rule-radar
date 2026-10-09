@@ -1,0 +1,73 @@
+{
+  "appendices": [],
+  "attachments": [
+    {
+      "title": "['8. 미결수용인 분리수용 협조(대검예규 제1414호).hwp', '8. 미결수용인 분리수용 협조(대검예규 제1414호).pdf']",
+      "type": "OFFICIAL_ATTACHMENT",
+      "url": "https://www.law.go.kr/['http:/law.go.kr/flDownload.do?flSeq=170171817%27%2C+%27http%3A%2F%2Flaw.go.kr%2FflDownload.do%3FflSeq%3D170171861%27%5D"
+    }
+  ],
+  "body": {
+    "addenda": {
+      "부칙공포번호": "1583",
+      "부칙공포일자": "20261002",
+      "부칙내용": "부칙 이 예규는 2026. 10. 2.부터 시행한다."
+    },
+    "articles": "「미결수용인 분리수용 협조」(대검예규 제1414호, 2009. 11. 2. 제정)을 폐지한다."
+  },
+  "canonical_id": "admrul-35611",
+  "evidence": {
+    "cache_key": "71099bb26722675275f443393ff3d1daf538ec3b3618d9704ed2fea066fe6b9b",
+    "credential_redacted": false,
+    "raw_sha256": "f0816749479cf104b1151b9b9f6dbcfc4d664d40ccbdc657656bc9d0cdb7d5eb",
+    "request": {
+      "ID": "2100000286404",
+      "target": "admrul",
+      "type": "JSON"
+    },
+    "stored_sha256": "f0816749479cf104b1151b9b9f6dbcfc4d664d40ccbdc657656bc9d0cdb7d5eb"
+  },
+  "hashes": {
+    "appendix_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "attachment_link_hash": "3f24d0f5fbacb969f63678596a4923b8b73044650fc71660f496cb0134dc5ffb",
+    "body_hash": "26f25b8a08b014e60d82ed4bb6ebf4ae3f443c8bd0a807ad78423c99a53e72a5",
+    "metadata_hash": "104ae8b63a9569cd5cf44b62dee265297eaa12cefd5922fee34c43960841a68d"
+  },
+  "metadata": {
+    "amendment_type": "폐지",
+    "department": "공소청(형사1과)",
+    "effective_date": "2026-10-02",
+    "issue_date": "2026-10-02",
+    "issue_number": "1583",
+    "ministry": "공소청",
+    "name": "미결수용인 분리수용 협조",
+    "official_state": "N",
+    "rule_type": "예규"
+  },
+  "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286404",
+  "repeal_evidence": {
+    "amendment_type": "폐지",
+    "canonical_id": "admrul-35611",
+    "history_evidence": [
+      {
+        "cache_key": "cae060f46331e2a7cf4082e010da0b7b2acce9afb2a85828d4d787d64b3b7ffc",
+        "credential_redacted": true,
+        "raw_sha256": "ae1125820d0192348a61f50388e98694dd4d2ef3653e2512dac256c837b5da4d",
+        "request": {
+          "display": 100,
+          "nw": 2,
+          "page": 1,
+          "query": "미결수용인 분리수용 관련 지침",
+          "target": "admrul",
+          "type": "JSON"
+        },
+        "stored_sha256": "73c8d3082677b986691cb64f3a1cdb1400d81d86d6a5fbcc04525c8c25aaf3fd"
+      }
+    ],
+    "source": "OFFICIAL_HISTORY",
+    "version_id": "2100000286404"
+  },
+  "source_kind": "admrul",
+  "stable_identifier": "35611",
+  "version_id": "2100000286404"
+}
