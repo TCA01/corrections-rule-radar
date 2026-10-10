@@ -60,7 +60,7 @@ it('separates last successful scan from legal data publication and missing statu
   expect(screen.getByText('2026.10.06 09:40 · 정상')).toBeInTheDocument();
   expect(screen.getByText('변경 없음')).toBeInTheDocument();
   expect(screen.getByText(formatDateTime(health.last_successful_sync))).toBeInTheDocument();
-  expect(screen.getByText(/08:37 · 20:37/)).toBeInTheDocument();
+  expect(screen.getByText('자동 확인 · 매일 2회 정기 동기화')).toBeInTheDocument();
   rerender(<Header health={health} ops={null}/>);
   expect(screen.queryByText('변경 없음')).not.toBeInTheDocument();
 });

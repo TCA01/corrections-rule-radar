@@ -62,7 +62,12 @@ export const Header: React.FC<HeaderProps> = ({ health, ops }) => {
                 aria-hidden="true"
               />
             </div>
-            <div className="scan-schedule">자동 확인 · 매일 {(ops?.schedule_kst || ['08:37', '20:37']).join(' · ')} (한국시간)</div>
+            <div
+              className="scan-schedule"
+              title="GitHub Actions 작업 대기열에 따라 실제 실행 시각은 다소 지연될 수 있습니다"
+            >
+              자동 확인 · 매일 2회 정기 동기화
+            </div>
           </div>
         </div>
       </div>
