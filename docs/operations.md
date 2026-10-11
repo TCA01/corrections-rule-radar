@@ -31,7 +31,7 @@ failure investigations. Firebase release rollback is separate and future-only.
 ## Unattended execution (Phase 1J)
 
 Run `python scripts/production_sync.py` (or the scheduled entry point). The
-supervisor gives all attempts a shared 720-second budget, including preparation
+supervisor gives all attempts a shared 1080-second budget, including preparation
 and validation, reserving up to 60 seconds for validation and local promotion.
 Each complete attempt runs in a separate disposable process and candidate tree.
 An expired worker is killed and waited for; it never writes the live legal state.
@@ -44,10 +44,10 @@ a cache or legal data. Maximum three attempts, with 1 and 2 seconds backoff,
 apply to timeout/network/reset errors, HTTP 429 and HTTP 5xx. Deterministic 4xx,
 authentication, redirects and invalid payloads are not request-retried. An
 exhausted transient core request stops the candidate immediately. One fresh
-whole-sync retry after 5 seconds is allowed inside the same 720-second budget;
+whole-sync retry after 5 seconds is allowed inside the same 1080-second budget;
 authentication, review/schema failures and budget exhaustion are not retried.
 
-GitHub's sync step has a 15-minute safety limit; the job's 25-minute limit also
+GitHub's sync step has a 22-minute safety limit; the job's 30-minute limit also
 covers setup, verification and a possible changed-data release. Both failed
 attempts produce a nonzero exit, so state commit/build/deploy steps do not run.
 Reports upload even on failure. NO_CHANGE leaves every legal public byte and mtime
