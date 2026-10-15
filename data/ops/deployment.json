@@ -1,7 +1,7 @@
 {
   "last_deployed_dataset_version": "ds-f5bde34929cfd8e03eac00f72b39863b25aad37a62f59abeb47ff3b29664ce9a",
-  "last_deployed_ops_sha256": "2215b9b3fb55f9d250240bc84cb25825867d5d07e6145141e8a95cb74af3b7f7",
-  "last_successful_deployment": "2026-10-14T16:08:27.886480+00:00",
+  "last_deployed_ops_sha256": "588f4ee49ea701f14adaa588e2a395a7f67f8d7f6f84585ba1be6681abe8c25f",
+  "last_successful_deployment": "2026-10-15T15:52:23.635928+00:00",
   "pending_dataset_version": null,
-  "pending_ops_sha256": "588f4ee49ea701f14adaa588e2a395a7f67f8d7f6f84585ba1be6681abe8c25f"
+  "pending_ops_sha256": null
 }
