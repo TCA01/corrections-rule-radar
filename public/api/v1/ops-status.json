@@ -1,20 +1,20 @@
 {
-  "github_run_id": "38593857859",
+  "github_run_id": "38762762353",
   "last_good_dataset_version": "ds-f5bde34929cfd8e03eac00f72b39863b25aad37a62f59abeb47ff3b29664ce9a",
-  "last_scan_completed_at": "2026-10-14T16:05:25.784277+00:00",
+  "last_scan_completed_at": "2026-10-15T15:49:23.652492+00:00",
   "last_scan_current_count": 104,
   "last_scan_failures": 0,
   "last_scan_result": "NO_CHANGE",
   "last_scan_rule_count": 107,
-  "last_scan_started_at": "2026-10-14T15:57:33.275013+00:00",
+  "last_scan_started_at": "2026-10-15T15:43:16.848548+00:00",
   "last_scan_status": "OK",
   "last_scheduled_scan": {
-    "completed_at": "2026-10-14T16:05:25.784277+00:00",
+    "completed_at": "2026-10-15T15:49:23.652492+00:00",
     "cron": "37 11 * * *",
     "dataset_version": "ds-f5bde34929cfd8e03eac00f72b39863b25aad37a62f59abeb47ff3b29664ce9a",
-    "github_run_id": "38593857859",
+    "github_run_id": "38762762353",
     "result": "NO_CHANGE",
-    "started_at": "2026-10-14T15:57:33.275013+00:00"
+    "started_at": "2026-10-15T15:43:16.848548+00:00"
   },
   "schedule_cron": "37 11 * * *",
   "schedule_kst": [
