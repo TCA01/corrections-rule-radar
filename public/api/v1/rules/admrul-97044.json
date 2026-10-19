@@ -1,147 +1,180 @@
 {
-  "articles_compared_to": null,
-  "changed_articles": [],
+  "articles_compared_to": {
+    "effective_date": "2026-05-18",
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000278766",
+    "snapshot_url": "/api/v1/rules/admrul-97044/versions/2100000278766-2026-05-18-2326c6231ec03051.json",
+    "version_id": "2100000278766"
+  },
+  "changed_articles": [
+    {
+      "after_text": "제33조(이수명령의 집행 통보 등) ① 수용기록업무 담당자는 법원으로부터 이수명령에 관한 판결문 또는 결정서와 공소청으로부터 이수명령집행지휘서가 접수된 경우 지체 없이 해당 수용자의 교정정보시스템 동정관찰란에 입력하고 이수명령 집행담당자에게 이를 통보하여야 한다.② 제1항의 통보를 받은 이수명령 집행담당자는 이수명령 집행 전 이수명령을 받은 수용자에게 이수명령의 의미 등 이수명령 집행 전반에 대한 설명과 이수명령의 집행에 따를 것을 고지하고 별지 제9호 서식에 따른 이수명령 집행서에 해당 수용자의 서명을 받아 수용기록부에 편철하여야 한다.",
+      "article_key": "article-33",
+      "article_number": "33",
+      "article_title": "제33조(이수명령의 집행 통보 등)",
+      "before_text": "제33조(이수명령의 집행 통보 등) ① 수용기록업무 담당자는 법원으로부터 이수명령에 관한 판결문 또는 결정서와 검찰청으로부터 이수명령집행지휘서가 접수된 경우 지체 없이 해당 수용자의 교정정보시스템 동정관찰란에 입력하고 이수명령 집행담당자에게 이를 통보하여야 한다.② 제1항의 통보를 받은 이수명령 집행담당자는 이수명령 집행 전 이수명령을 받은 수용자에게 이수명령의 의미 등 이수명령 집행 전반에 대한 설명과 이수명령의 집행에 따를 것을 고지하고 별지 제9호 서식에 따른 이수명령 집행서에 해당 수용자의 서명을 받아 수용기록부에 편철하여야 한다.",
+      "change_type": "MODIFIED",
+      "effective_date": "2026-10-19"
+    },
+    {
+      "after_text": "제36조(이수명령의 집행 종료 등) ① 이수명령 집행담당자는 이수명령을 받은 수용자에 대한 이수명령의 집행이 종료되었거나, 일부 또는 전부 집행되지 아니한 경우에는 그 사실을 해당 수용자의 교정정보시스템 특이동정란에 입력하여야 한다.② 이수명령 집행담당자는 이수명령의 일부 또는 전부가 집행되지 아니한 경우에는 그 사실을 수용기록업무 담당자에게 통보하여야 한다. 이 경우 별지 제11호 서식에 따른 이수명령 미집행 안내 확인서에 해당 수용자의 서명을 받아 수용기록업무 담당자에게 송부하여야 한다.③ 제2항의 통보를 받은 수용기록업무 담당자는 별지 제12호 서식에 따른 이수명령 미집행 통보서를 작성하여 이수명령 미집행 안내 확인서와 함께 이수명령집행을 지휘한 공소청에 송부하여야 한다.",
+      "article_key": "article-36",
+      "article_number": "36",
+      "article_title": "제36조(이수명령의 집행 종료 등)",
+      "before_text": "제36조(이수명령의 집행 종료 등) ① 이수명령 집행담당자는 이수명령을 받은 수용자에 대한 이수명령의 집행이 종료되었거나, 일부 또는 전부 집행되지 아니한 경우에는 그 사실을 해당 수용자의 교정정보시스템 특이동정란에 입력하여야 한다.② 이수명령 집행담당자는 이수명령의 일부 또는 전부가 집행되지 아니한 경우에는 그 사실을 수용기록업무 담당자에게 통보하여야 한다. 이 경우 별지 제11호 서식에 따른 이수명령 미집행 안내 확인서에 해당 수용자의 서명을 받아 수용기록업무 담당자에게 송부하여야 한다.③ 제2항의 통보를 받은 수용기록업무 담당자는 별지 제12호 서식에 따른 이수명령 미집행 통보서를 작성하여 이수명령 미집행 안내 확인서와 함께 이수명령집행을 지휘한 검찰청에 송부하여야 한다.",
+      "change_type": "MODIFIED",
+      "effective_date": "2026-10-19"
+    }
+  ],
   "current": {
     "appendices": [
       {
         "branch": "00",
-        "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=164053675",
+        "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170547895",
         "sequence": "0001",
         "status": "AVAILABLE",
         "title": "중독재활 프로그램 시행 대상자 명부",
         "type": "별지",
-        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=164053671"
+        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170547891"
       },
       {
         "branch": "00",
-        "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=164053681",
+        "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170547901",
         "sequence": "0002",
         "status": "AVAILABLE",
         "title": "중독재활 프로그램 수료자 명부",
         "type": "별지",
-        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=164053677"
+        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170547897"
       },
       {
         "branch": "00",
-        "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=164053687",
+        "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170547907",
         "sequence": "0003",
         "status": "AVAILABLE",
         "title": "중독재활 프로그램 진행일지",
         "type": "별지",
-        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=164053683"
+        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170547903"
       },
       {
         "branch": "00",
-        "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=164053693",
+        "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170547913",
         "sequence": "0004",
         "status": "AVAILABLE",
         "title": "중독재활 프로그램 시행 제외자 명부",
         "type": "별지",
-        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=164053689"
+        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170547909"
       },
       {
         "branch": "00",
-        "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=164053699",
+        "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170547919",
         "sequence": "0005",
         "status": "AVAILABLE",
         "title": "중독재활(환소) 이송자 명부",
         "type": "별지",
-        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=164053695"
+        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170547915"
       },
       {
         "branch": "00",
-        "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=164053705",
+        "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170547925",
         "sequence": "0006",
         "status": "AVAILABLE",
         "title": "중독재활 프로그램 시행 유예자 명부",
         "type": "별지",
-        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=164053701"
+        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170547921"
       },
       {
         "branch": "00",
-        "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=164053711",
+        "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170547931",
         "sequence": "0007",
         "status": "AVAILABLE",
         "title": "중독재활 프로그램 만족도 조사",
         "type": "별지",
-        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=164053707"
+        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170547927"
       },
       {
         "branch": "00",
-        "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=164053717",
+        "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170547937",
         "sequence": "0008",
         "status": "AVAILABLE",
         "title": "이수명령 집행 대상자 명부",
         "type": "별지",
-        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=164053713"
+        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170547933"
       },
       {
         "branch": "00",
-        "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=164053723",
+        "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170547943",
         "sequence": "0009",
         "status": "AVAILABLE",
         "title": "이수명령 집행서",
         "type": "별지",
-        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=164053719"
+        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170547939"
       },
       {
         "branch": "00",
-        "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=164053729",
+        "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170547949",
         "sequence": "0010",
         "status": "AVAILABLE",
         "title": "이수명령 집행 불응 사유서",
         "type": "별지",
-        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=164053725"
+        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170547945"
       },
       {
         "branch": "00",
-        "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=164053735",
+        "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170547955",
         "sequence": "0011",
         "status": "AVAILABLE",
         "title": "이수명령 미집행 안내 확인서",
         "type": "별지",
-        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=164053731"
+        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170547951"
       },
       {
         "branch": "00",
-        "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=164053741",
+        "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170547961",
         "sequence": "0012",
         "status": "AVAILABLE",
         "title": "이수명령 미집행 통보서",
         "type": "별지",
-        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=164053737"
+        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170547957"
       },
       {
         "branch": "00",
-        "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=164053747",
+        "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170547967",
         "sequence": "0013",
         "status": "AVAILABLE",
         "title": "중독재활 자문위원회 회의록",
         "type": "별지",
-        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=164053743"
+        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170547963"
       },
       {
         "branch": "00",
-        "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=164053753",
+        "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170547973",
         "sequence": "0014",
         "status": "AVAILABLE",
         "title": "중독재활업무 실적",
         "type": "별지",
-        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=164053749"
+        "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170547969"
       }
     ],
     "attachments": [
       {
-        "title": "['중독재활 업무지침 제정 전문.hwp', '중독재활 업무지침 제정 전문.pdf']",
+        "title": "중독재활 업무지침 일부개정예규안 전문.hwpx",
         "type": "OFFICIAL_ATTACHMENT",
-        "url": "https://www.law.go.kr/['http:/law.go.kr/flDownload.do?flSeq=164051729%27%2C+%27http%3A%2F%2Flaw.go.kr%2FflDownload.do%3FflSeq%3D164051733%27%5D"
+        "url": "https://law.go.kr/flDownload.do?flSeq=170532275"
       }
     ],
     "body": {
       "addenda": {
-        "부칙공포번호": "1386",
-        "부칙공포일자": "20260518",
-        "부칙내용": "부칙 제1조(시행일) 이 지침은 발령한 날부터 시행한다.제2조(다른 지침과의 관계) 중독재활 업무와 관련하여 다른 지침의 규정이 이 지침과 중복 또는 상충되는 경우에는 이 지침을 우선하여 적용한다."
+        "부칙공포번호": [
+          "1386",
+          "1399"
+        ],
+        "부칙공포일자": [
+          "20260518",
+          "20261019"
+        ],
+        "부칙내용": [
+          "부칙 제1조(시행일) 이 지침은 발령한 날부터 시행한다.제2조(다른 지침과의 관계) 중독재활 업무와 관련하여 다른 지침의 규정이 이 지침과 중복 또는 상충되는 경우에는 이 지침을 우선하여 적용한다.",
+          "부칙 제1조(시행일) 이 지침은 발령한 날부터 시행한다.제2조(다른 지침과의 관계) 중독재활 업무와 관련하여 다른 지침의 규정이 이 지침과 중복 또는 상충되는 경우에는 이 지침을 우선하여 적용한다."
+        ]
       },
       "articles": [
         "제1장 총칙",
@@ -181,10 +214,10 @@
         "제31조(사후관리) 소장은 중독재활의 효과를 증진하기 위하여 필요하다고 판단되는 경우에는 중독재활 프로그램을 수료한 수용자를 대상으로 추가 중독재활 프로그램을 실시하는 등의 조치를 할 수 있다.",
         "제5장 이수명령 집행",
         "제32조(이수명령의 집행자) ① 이수명령은 소장이 집행하고, 그 집행담당관은 마약사범재활과장으로 한다. 다만, 마약사범재활과가 설치되지 않은 교정시설은 보안과장 또는 심리치료과장을 집행담당관으로 한다.② 이수명령 집행담당자는 중독재활 프로그램을 운영하는 교도관으로 하며, 이수명령의 집행계획의 수립, 별지 제8호 서식에 따른 이수명령 집행 대상자 명부 작성 등의 업무를 수행한다.",
-        "제33조(이수명령의 집행 통보 등) ① 수용기록업무 담당자는 법원으로부터 이수명령에 관한 판결문 또는 결정서와 검찰청으로부터 이수명령집행지휘서가 접수된 경우 지체 없이 해당 수용자의 교정정보시스템 동정관찰란에 입력하고 이수명령 집행담당자에게 이를 통보하여야 한다.② 제1항의 통보를 받은 이수명령 집행담당자는 이수명령 집행 전 이수명령을 받은 수용자에게 이수명령의 의미 등 이수명령 집행 전반에 대한 설명과 이수명령의 집행에 따를 것을 고지하고 별지 제9호 서식에 따른 이수명령 집행서에 해당 수용자의 서명을 받아 수용기록부에 편철하여야 한다.",
+        "제33조(이수명령의 집행 통보 등) ① 수용기록업무 담당자는 법원으로부터 이수명령에 관한 판결문 또는 결정서와 공소청으로부터 이수명령집행지휘서가 접수된 경우 지체 없이 해당 수용자의 교정정보시스템 동정관찰란에 입력하고 이수명령 집행담당자에게 이를 통보하여야 한다.② 제1항의 통보를 받은 이수명령 집행담당자는 이수명령 집행 전 이수명령을 받은 수용자에게 이수명령의 의미 등 이수명령 집행 전반에 대한 설명과 이수명령의 집행에 따를 것을 고지하고 별지 제9호 서식에 따른 이수명령 집행서에 해당 수용자의 서명을 받아 수용기록부에 편철하여야 한다.",
         "제34조(이수명령 집행 불응자에 대한 조치) ① 이수명령 집행담당자는 이수명령을 받은 수용자가 이수명령의 집행을 위한 중독재활 프로그램에 참여하지 않거나, 집행에 관한 지시를 따르지 아니한 경우에는 별지 제10 서식에 따른 이수명령 집행 불응 사유서에 해당 수용자의 서명을 받아 수용기록부에 편철하고, 이를 조사업무 담당자에게 통보하여야 한다.② 제1항의 통보를 받은 조사업무 담당자는 이수명령 집행 불응행위가 법 제107조 및 시행규칙 제214조에 해당하는지 여부를 조사하고, 그 결과에 따라 시행규칙 제220조제2항에 따른 조치를 하여야 한다.",
         "제35조(이수명령의 집행) ① 이수명령은 제19조의 법무부장관이 정하는 운영계획에 따라 집행하되, 필요한 경우 개별 상담 등 별도의 이수과정을 운영하여 집행할 수 있다.② 재활수용동에서 실시하는 재활 프로그램 참여 시간은 이수명령 집행 시간으로 인정한다.",
-        "제36조(이수명령의 집행 종료 등) ① 이수명령 집행담당자는 이수명령을 받은 수용자에 대한 이수명령의 집행이 종료되었거나, 일부 또는 전부 집행되지 아니한 경우에는 그 사실을 해당 수용자의 교정정보시스템 특이동정란에 입력하여야 한다.② 이수명령 집행담당자는 이수명령의 일부 또는 전부가 집행되지 아니한 경우에는 그 사실을 수용기록업무 담당자에게 통보하여야 한다. 이 경우 별지 제11호 서식에 따른 이수명령 미집행 안내 확인서에 해당 수용자의 서명을 받아 수용기록업무 담당자에게 송부하여야 한다.③ 제2항의 통보를 받은 수용기록업무 담당자는 별지 제12호 서식에 따른 이수명령 미집행 통보서를 작성하여 이수명령 미집행 안내 확인서와 함께 이수명령집행을 지휘한 검찰청에 송부하여야 한다.",
+        "제36조(이수명령의 집행 종료 등) ① 이수명령 집행담당자는 이수명령을 받은 수용자에 대한 이수명령의 집행이 종료되었거나, 일부 또는 전부 집행되지 아니한 경우에는 그 사실을 해당 수용자의 교정정보시스템 특이동정란에 입력하여야 한다.② 이수명령 집행담당자는 이수명령의 일부 또는 전부가 집행되지 아니한 경우에는 그 사실을 수용기록업무 담당자에게 통보하여야 한다. 이 경우 별지 제11호 서식에 따른 이수명령 미집행 안내 확인서에 해당 수용자의 서명을 받아 수용기록업무 담당자에게 송부하여야 한다.③ 제2항의 통보를 받은 수용기록업무 담당자는 별지 제12호 서식에 따른 이수명령 미집행 통보서를 작성하여 이수명령 미집행 안내 확인서와 함께 이수명령집행을 지휘한 공소청에 송부하여야 한다.",
         "제6장 사회복귀 지원",
         "제37조(사회복귀 지원) ① 소장은 출소 예정인 수용자에게 필요한 경우 지역사회 내 중독재활센터, 치료보호기관 등에 관한 정보를 제공하고, 출소 후 연계 서비스를 의뢰하여야 한다.② 소장은 출소자의 회복을 지원하기 위한 전화상담, 문자전송 등 사례관리를 할 수 있다.③ 소장은 필요한 경우 사례관리 신청서와 개인정보제공 동의서 등을 출소 예정인 수용자에게 요구할 수 있다.",
         "제7장 중독재활 자문위원회",
@@ -204,59 +237,58 @@
     "canonical_id": "admrul-97044",
     "hashes": {
       "appendix_hash": "c2e8827bf7ed0cda6dacda38be675ef592a23db87d40bb0f95810a4da0fd9103",
-      "attachment_link_hash": "5fced81df63c6d232e4a54243b2f25d28c2973071a1c22448180e8051504d453",
-      "body_hash": "9afa12bb7756d1cb1b02eb5d84c2398e9d29dd277a09f9c8ccd5bbff003bcbdc",
-      "metadata_hash": "4508b08d03fb4aa934c5ed70195beb5471fc7eab76e39932a8c225a4f3827fab"
+      "attachment_link_hash": "e62d24a99bb87547e754ea4ca2a2127c46972c1348f16799a4eccac8d783fdc5",
+      "body_hash": "ddf82ec5b91e7c91038148515c8663442c17d974c80a007be8eb3e0eb1c15620",
+      "metadata_hash": "b7fdbea9adaa4d376ed56a4287587de7302c080605b387b3f4bb76b8fb532fba"
     },
     "metadata": {
-      "amendment_type": "제정",
+      "amendment_type": "일부개정",
       "department": "법무부(마약사범재활팀)",
-      "effective_date": "2026-05-18",
-      "issue_date": "2026-05-18",
-      "issue_number": "1386",
+      "effective_date": "2026-10-19",
+      "issue_date": "2026-10-19",
+      "issue_number": "1399",
       "ministry": "법무부",
       "name": "중독재활 업무지침",
       "official_state": "Y",
       "rule_type": "예규"
     },
-    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000278766",
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286858",
     "source_kind": "admrul",
     "stable_identifier": "97044",
-    "version_id": "2100000278766",
+    "version_id": "2100000286858",
     "version_reference": {
-      "effective_date": "2026-05-18",
-      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000278766",
-      "snapshot_url": "/api/v1/rules/admrul-97044/versions/2100000278766-2026-05-18-2326c6231ec03051.json",
-      "version_id": "2100000278766"
+      "effective_date": "2026-10-19",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286858",
+      "snapshot_url": "/api/v1/rules/admrul-97044/versions/2100000286858-2026-10-19-bdf11db97b6a1716.json",
+      "version_id": "2100000286858"
     },
     "version_status": "CURRENT"
   },
-  "dataset_version": "ds-f5bde34929cfd8e03eac00f72b39863b25aad37a62f59abeb47ff3b29664ce9a",
+  "dataset_version": "ds-b53ba78702bafbfb277b46ee8a5dbcf4537cabe5f20e858156c81cd009ec9cc3",
   "rule": {
     "business_domains": [
-      "심리치료",
-      "교육·교화"
+      "기타"
     ],
     "canonical_id": "admrul-97044",
     "classification_status": "REVIEWED",
     "corrections_category": "예규",
     "current_name": "중독재활 업무지침",
     "detail_url": "/api/v1/rules/admrul-97044.json",
-    "domain_assignment_status": "EVIDENCE_BASED",
+    "domain_assignment_status": "FALLBACK",
     "historical_names": [],
     "metadata": {
-      "amendment_type": "제정",
+      "amendment_type": "일부개정",
       "department": "법무부(마약사범재활팀)",
-      "effective_date": "2026-05-18",
-      "issue_date": "2026-05-18",
-      "issue_number": "1386",
+      "effective_date": "2026-10-19",
+      "issue_date": "2026-10-19",
+      "issue_number": "1399",
       "ministry": "법무부",
       "name": "중독재활 업무지침",
       "official_state": "Y",
       "rule_type": "예규"
     },
-    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000278766",
-    "primary_domain": "심리치료",
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286858",
+    "primary_domain": "기타",
     "provenance": {
       "api_tracking_class": "API_TRACKABLE",
       "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
@@ -265,7 +297,7 @@
         "알코올 관련사범",
         "교정시설 재활 담당자"
       ],
-      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000278766",
+      "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286858",
       "discovery_source": [
         "LAW_API_MINISTRY",
         "LAW_API_KEYWORD"
@@ -278,13 +310,11 @@
       "selection_basis": "형집행법 제64조에 따른 마약류수용자·알코올 관련사범 중독재활 및 사회복귀 지원",
       "structured_body_source": "LAWGO_JSON_XML"
     },
-    "secondary_domains": [
-      "교육·교화"
-    ],
+    "secondary_domains": [],
     "seed_names": [],
     "source_kind": "admrul",
     "status": "CURRENT",
-    "version_id": "2100000278766"
+    "version_id": "2100000286858"
   },
   "schema_version": "1.5",
   "upcoming": []

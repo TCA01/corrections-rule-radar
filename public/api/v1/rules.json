@@ -1,5 +1,5 @@
 {
-  "dataset_version": "ds-f5bde34929cfd8e03eac00f72b39863b25aad37a62f59abeb47ff3b29664ce9a",
+  "dataset_version": "ds-b53ba78702bafbfb277b46ee8a5dbcf4537cabe5f20e858156c81cd009ec9cc3",
   "rules": [
     {
       "business_domains": [
@@ -4123,35 +4123,35 @@
     },
     {
       "business_domains": [
-        "수용·보안"
+        "기타"
       ],
       "canonical_id": "admrul-86499",
       "classification_status": "REVIEWED",
       "corrections_category": "훈령",
       "current_name": "교정특별사법경찰 운영규정",
       "detail_url": "/api/v1/rules/admrul-86499.json",
-      "domain_assignment_status": "EVIDENCE_BASED",
+      "domain_assignment_status": "FALLBACK",
       "historical_names": [],
       "metadata": {
         "amendment_type": "일부개정",
         "department": "법무부(특별점검팀)",
-        "effective_date": "2024-11-01",
-        "issue_date": "2024-11-01",
-        "issue_number": "1542",
+        "effective_date": "2026-10-19",
+        "issue_date": "2026-10-19",
+        "issue_number": "1645",
         "ministry": "법무부",
         "name": "교정특별사법경찰 운영규정",
         "official_state": "Y",
         "rule_type": "훈령"
       },
-      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000249288",
-      "primary_domain": "수용·보안",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286908",
+      "primary_domain": "기타",
       "provenance": {
         "api_tracking_class": "API_TRACKABLE",
         "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
         "applies_to": [
           "교정특별사법경찰"
         ],
-        "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000249288",
+        "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286908",
         "discovery_source": [
           "LAW_API_MINISTRY",
           "LAW_API_KEYWORD"
@@ -4168,7 +4168,7 @@
       "seed_names": [],
       "source_kind": "admrul",
       "status": "CURRENT",
-      "version_id": "2100000249288"
+      "version_id": "2100000286908"
     },
     {
       "business_domains": [
@@ -4322,29 +4322,28 @@
     },
     {
       "business_domains": [
-        "심리치료",
-        "교육·교화"
+        "기타"
       ],
       "canonical_id": "admrul-97044",
       "classification_status": "REVIEWED",
       "corrections_category": "예규",
       "current_name": "중독재활 업무지침",
       "detail_url": "/api/v1/rules/admrul-97044.json",
-      "domain_assignment_status": "EVIDENCE_BASED",
+      "domain_assignment_status": "FALLBACK",
       "historical_names": [],
       "metadata": {
-        "amendment_type": "제정",
+        "amendment_type": "일부개정",
         "department": "법무부(마약사범재활팀)",
-        "effective_date": "2026-05-18",
-        "issue_date": "2026-05-18",
-        "issue_number": "1386",
+        "effective_date": "2026-10-19",
+        "issue_date": "2026-10-19",
+        "issue_number": "1399",
         "ministry": "법무부",
         "name": "중독재활 업무지침",
         "official_state": "Y",
         "rule_type": "예규"
       },
-      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000278766",
-      "primary_domain": "심리치료",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286858",
+      "primary_domain": "기타",
       "provenance": {
         "api_tracking_class": "API_TRACKABLE",
         "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
@@ -4353,7 +4352,7 @@
           "알코올 관련사범",
           "교정시설 재활 담당자"
         ],
-        "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000278766",
+        "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286858",
         "discovery_source": [
           "LAW_API_MINISTRY",
           "LAW_API_KEYWORD"
@@ -4366,13 +4365,11 @@
         "selection_basis": "형집행법 제64조에 따른 마약류수용자·알코올 관련사범 중독재활 및 사회복귀 지원",
         "structured_body_source": "LAWGO_JSON_XML"
       },
-      "secondary_domains": [
-        "교육·교화"
-      ],
+      "secondary_domains": [],
       "seed_names": [],
       "source_kind": "admrul",
       "status": "CURRENT",
-      "version_id": "2100000278766"
+      "version_id": "2100000286858"
     },
     {
       "business_domains": [

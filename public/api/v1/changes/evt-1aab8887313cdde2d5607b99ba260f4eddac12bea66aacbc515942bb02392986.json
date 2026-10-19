@@ -1,0 +1,82 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "ddf82ec5b91e7c91038148515c8663442c17d974c80a007be8eb3e0eb1c15620",
+      "effective_date": "2026-10-19",
+      "identifier": "2100000286858",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286858",
+      "snapshot_url": "/api/v1/rules/admrul-97044/versions/2100000286858-2026-10-19-bdf11db97b6a1716.json",
+      "version_id": "2100000286858"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "9afa12bb7756d1cb1b02eb5d84c2398e9d29dd277a09f9c8ccd5bbff003bcbdc",
+      "effective_date": "2026-05-18",
+      "identifier": "2100000278766",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000278766",
+      "snapshot_url": "/api/v1/rules/admrul-97044/versions/2100000278766-2026-05-18-2326c6231ec03051.json",
+      "version_id": "2100000278766"
+    },
+    "canonical_id": "admrul-97044",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 3,
+    "changed_articles": [
+      {
+        "after_text": "제21조(마약류 중독재활 프로그램 구성) 마약류 중독재활 프로그램은 다음 각 호의 내용으로 구성할 수 있으며 최신 중독재활 치료를 지속적으로 반영한다.\n1. (현행과 같음)\n2. 마약류 폐해에 대한 이해\n3. ∼ 5. (현행과 같음)",
+        "article_key": "article-21",
+        "article_number": "21",
+        "article_title": "제21조(마약류 중독재활 프로그램 구성)",
+        "before_text": "제21조(마약류 중독재활 프로그램 구성) 마약류 중독재활 프로그램은 다음 각 호의 내용으로 구성할 수 있으며 최신 중독재활 치료를 지속적으로 반영한다.\n1. (생  략)\n2. 마약류 폐해에 대한 이해\n3. ∼ 5. (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-10-19"
+      },
+      {
+        "after_text": "제33조(이수명령의 집행 통보 등) ① 수용기록업무 담당자는 법원으로부터 이수명령에 관한 판결문 또는 결정서와 공소청으로부터 이수명령집행지휘서가 접수된 경우 지체 없이 해당 수용자의 교정정보시스템 동정관찰란에 입력하고 이수명령 집행담당자에게 이를 통보하여야 한다.\n② (현행과 같음)",
+        "article_key": "article-33",
+        "article_number": "33",
+        "article_title": "제33조(이수명령의 집행 통보 등)",
+        "before_text": "제33조(이수명령의 집행 통보 등) ① 수용기록업무 담당자는 법원으로부터 이수명령에 관한 판결문 또는 결정서와 검찰청으로부터 이수명령집행지휘서가 접수된 경우 지체 없이 해당 수용자의 교정정보시스템 동정관찰란에 입력하고 이수명령 집행담당자에게 이를 통보하여야 한다.\n② (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-10-19"
+      },
+      {
+        "after_text": "제36조(이수명령의 집행 종료 등) ①·② (현행과 같음)\n③ 제2항의 통보를 받은 수용기록업무 담당자는 별지 제12호 서식에 따른 이수명령 미집행 통보서를 작성하여 이수명령 미집행 안내 확인서와 함께 이수명령집행을 지휘한 공소청에 송부하여야 한다.",
+        "article_key": "article-36",
+        "article_number": "36",
+        "article_title": "제36조(이수명령의 집행 종료 등)",
+        "before_text": "제36조(이수명령의 집행 종료 등) ①·② (생  략)\n③ 제2항의 통보를 받은 수용기록업무 담당자는 별지 제12호 서식에 따른 이수명령 미집행 통보서를 작성하여 이수명령 미집행 안내 확인서와 함께 이수명령집행을 지휘한 검찰청에 송부하여야 한다.",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-10-19"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "e6066a32c7d19e111e4802b99bec689786a856e48fc1ff6a7719786dc7ad6ec5",
+      "credential_redacted": false,
+      "raw_sha256": "76977c7b0bc360c253fcca7a45f3daf6b5f7525f088e45bac9792df195d718de",
+      "request": {
+        "ID": "2100000286858",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "76977c7b0bc360c253fcca7a45f3daf6b5f7525f088e45bac9792df195d718de"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-19T01:47:06.078163+00:00",
+    "effective_date": "2026-10-19",
+    "event_id": "evt-1aab8887313cdde2d5607b99ba260f4eddac12bea66aacbc515942bb02392986",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286858",
+    "promulgation_or_issue_date": "2026-10-19",
+    "regulation_name": "중독재활 업무지침",
+    "regulation_type": "예규"
+  },
+  "schema_version": "1.5"
+}
