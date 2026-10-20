@@ -1,5 +1,5 @@
 {
-  "dataset_version": "ds-0073a43ba1265fbd77e7ccff29d1534f75deb5b937360fcd771e85a4d4550b7e",
+  "dataset_version": "ds-9e6afcd7b043bdadc2c9283bc917ae12d28e5beb934a124c968023cde5a03c08",
   "rules": [
     {
       "business_domains": [
@@ -4123,35 +4123,35 @@
     },
     {
       "business_domains": [
-        "기타"
+        "수용·보안"
       ],
       "canonical_id": "admrul-86499",
       "classification_status": "REVIEWED",
       "corrections_category": "훈령",
       "current_name": "교정특별사법경찰 운영규정",
       "detail_url": "/api/v1/rules/admrul-86499.json",
-      "domain_assignment_status": "FALLBACK",
+      "domain_assignment_status": "EVIDENCE_BASED",
       "historical_names": [],
       "metadata": {
         "amendment_type": "일부개정",
         "department": "법무부(특별점검팀)",
-        "effective_date": "2026-10-19",
-        "issue_date": "2026-10-19",
-        "issue_number": "1645",
+        "effective_date": "2024-11-01",
+        "issue_date": "2024-11-01",
+        "issue_number": "1542",
         "ministry": "법무부",
         "name": "교정특별사법경찰 운영규정",
         "official_state": "Y",
         "rule_type": "훈령"
       },
-      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286908",
-      "primary_domain": "기타",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000249288",
+      "primary_domain": "수용·보안",
       "provenance": {
         "api_tracking_class": "API_TRACKABLE",
         "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
         "applies_to": [
           "교정특별사법경찰"
         ],
-        "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000286908",
+        "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000249288",
         "discovery_source": [
           "LAW_API_MINISTRY",
           "LAW_API_KEYWORD"
@@ -4168,7 +4168,7 @@
       "seed_names": [],
       "source_kind": "admrul",
       "status": "CURRENT",
-      "version_id": "2100000286908"
+      "version_id": "2100000249288"
     },
     {
       "business_domains": [
