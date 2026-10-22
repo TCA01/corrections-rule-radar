@@ -1,0 +1,64 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "d18179c8bd32703ede028572b91b7baaad6d2d87f88c76c096f44a57e999420b",
+      "effective_date": "2026-10-01",
+      "identifier": "2100000285400",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000285400",
+      "snapshot_url": "/api/v1/rules/admrul-36282/versions/2100000285400-2026-10-01-72462c0b3273ff8b.json",
+      "version_id": "2100000285400"
+    },
+    "appendix_changes": [
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170827941",
+          "sequence": "0017",
+          "title": "작업재료출납부",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170827937"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660035",
+          "sequence": "0017",
+          "title": "작업재료수불부",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660031"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      }
+    ],
+    "before_version": {
+      "body_hash": "d18179c8bd32703ede028572b91b7baaad6d2d87f88c76c096f44a57e999420b",
+      "effective_date": "2026-10-01",
+      "identifier": "2100000285400",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000285400",
+      "snapshot_url": "/api/v1/rules/admrul-36282/versions/2100000285400-2026-10-01-4718889da3400aa9.json",
+      "version_id": "2100000285400"
+    },
+    "canonical_id": "admrul-36282",
+    "change_type": "APPENDIX_METADATA_CHANGED",
+    "change_types": [
+      "APPENDIX_METADATA_CHANGED"
+    ],
+    "changed_article_count": 0,
+    "changed_articles": [],
+    "comparison_evidence": null,
+    "comparison_scope": "FULL_STRUCTURED_BODY",
+    "comparison_source": "STRUCTURED_SNAPSHOT_DIFF",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-22T12:36:54.813275+00:00",
+    "effective_date": "2026-10-01",
+    "event_id": "evt-5641fe677236577bed9bd65b33efe2cc797ecf7a53b0a6cd89608d63822ce97d",
+    "fallback_reason": "OFFICIAL_COMPARISON_UNAVAILABLE",
+    "official_old_new_available": false,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000285400",
+    "promulgation_or_issue_date": "2026-10-01",
+    "regulation_name": "교도작업운영지침",
+    "regulation_type": "예규"
+  },
+  "schema_version": "1.5"
+}

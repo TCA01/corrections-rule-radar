@@ -1,5 +1,5 @@
 {
-  "dataset_version": "ds-c482e293faa2c03c73261532083c649aa746998f66a8c54df22a34d994a25650",
+  "dataset_version": "ds-6337ad00b88fa246d5508f0c607db20bb421299262ab57c0db09c958f1f816c7",
   "rules": [
     {
       "business_domains": [
@@ -53,29 +53,28 @@
     },
     {
       "business_domains": [
-        "분류·가석방",
-        "수용·보안"
+        "기타"
       ],
       "canonical_id": "admrul-2046965",
       "classification_status": "REVIEWED",
       "corrections_category": "예규",
       "current_name": "분류처우 업무지침",
       "detail_url": "/api/v1/rules/admrul-2046965.json",
-      "domain_assignment_status": "EVIDENCE_BASED",
+      "domain_assignment_status": "FALLBACK",
       "historical_names": [],
       "metadata": {
         "amendment_type": "일부개정",
         "department": "법무부(분류심사과)",
-        "effective_date": "2025-03-01",
-        "issue_date": "2025-02-27",
-        "issue_number": "1365",
+        "effective_date": "2026-10-21",
+        "issue_date": "2026-10-21",
+        "issue_number": "1401",
         "ministry": "법무부",
         "name": "분류처우 업무지침",
         "official_state": "Y",
         "rule_type": "예규"
       },
-      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000255778",
-      "primary_domain": "분류·가석방",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000287184",
+      "primary_domain": "기타",
       "provenance": {
         "api_tracking_class": "API_TRACKABLE",
         "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
@@ -83,7 +82,7 @@
           "수용자",
           "수형자"
         ],
-        "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000255778",
+        "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000287184",
         "discovery_source": [
           "CORRECTIONS_PAGE"
         ],
@@ -95,15 +94,13 @@
         "selection_basis": "교정본부 공식 행정규칙 현황 수록",
         "structured_body_source": "LAWGO_JSON_XML"
       },
-      "secondary_domains": [
-        "수용·보안"
-      ],
+      "secondary_domains": [],
       "seed_names": [
         "분류처우 업무지침"
       ],
       "source_kind": "admrul",
       "status": "CURRENT",
-      "version_id": "2100000255778"
+      "version_id": "2100000287184"
     },
     {
       "business_domains": [
@@ -1749,36 +1746,35 @@
     },
     {
       "business_domains": [
-        "분류·가석방",
-        "수용·보안"
+        "기타"
       ],
       "canonical_id": "admrul-37383",
       "classification_status": "REVIEWED",
       "corrections_category": "훈령",
       "current_name": "피보호감호자 분류처우 업무지침",
       "detail_url": "/api/v1/rules/admrul-37383.json",
-      "domain_assignment_status": "EVIDENCE_BASED",
+      "domain_assignment_status": "FALLBACK",
       "historical_names": [],
       "metadata": {
         "amendment_type": "일부개정",
         "department": "법무부(분류심사과)",
-        "effective_date": "2024-07-01",
-        "issue_date": "2024-06-26",
-        "issue_number": "1529",
+        "effective_date": "2026-10-21",
+        "issue_date": "2026-10-21",
+        "issue_number": "1648",
         "ministry": "법무부",
         "name": "피보호감호자 분류처우 업무지침",
         "official_state": "Y",
         "rule_type": "훈령"
       },
-      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000243144",
-      "primary_domain": "분류·가석방",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000287180",
+      "primary_domain": "기타",
       "provenance": {
         "api_tracking_class": "API_TRACKABLE",
         "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
         "applies_to": [
           "피보호감호자"
         ],
-        "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000243144",
+        "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000287180",
         "discovery_source": [
           "CORRECTIONS_PAGE"
         ],
@@ -1790,15 +1786,13 @@
         "selection_basis": "교정본부 공식 행정규칙 현황 수록",
         "structured_body_source": "LAWGO_JSON_XML"
       },
-      "secondary_domains": [
-        "수용·보안"
-      ],
+      "secondary_domains": [],
       "seed_names": [
         "피보호감호자 분류처우 업무지침"
       ],
       "source_kind": "admrul",
       "status": "CURRENT",
-      "version_id": "2100000243144"
+      "version_id": "2100000287180"
     },
     {
       "business_domains": [
@@ -3217,28 +3211,28 @@
     },
     {
       "business_domains": [
-        "분류·가석방"
+        "기타"
       ],
       "canonical_id": "admrul-54074",
       "classification_status": "REVIEWED",
       "corrections_category": "예규",
       "current_name": "분류센터 운영지침",
       "detail_url": "/api/v1/rules/admrul-54074.json",
-      "domain_assignment_status": "EVIDENCE_BASED",
+      "domain_assignment_status": "FALLBACK",
       "historical_names": [],
       "metadata": {
         "amendment_type": "일부개정",
         "department": "법무부(분류심사과)",
-        "effective_date": "2025-04-01",
-        "issue_date": "2025-03-25",
-        "issue_number": "1367",
+        "effective_date": "2026-10-21",
+        "issue_date": "2026-10-21",
+        "issue_number": "1400",
         "ministry": "법무부",
         "name": "분류센터 운영지침",
         "official_state": "Y",
         "rule_type": "예규"
       },
-      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000256922",
-      "primary_domain": "분류·가석방",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000287182",
+      "primary_domain": "기타",
       "provenance": {
         "api_tracking_class": "API_TRACKABLE",
         "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
@@ -3247,7 +3241,7 @@
           "수형자",
           "교정시설"
         ],
-        "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000256922",
+        "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000287182",
         "discovery_source": [
           "CORRECTIONS_PAGE"
         ],
@@ -3265,7 +3259,7 @@
       ],
       "source_kind": "admrul",
       "status": "CURRENT",
-      "version_id": "2100000256922"
+      "version_id": "2100000287182"
     },
     {
       "business_domains": [

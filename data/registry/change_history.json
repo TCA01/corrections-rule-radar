@@ -259,6 +259,234 @@
   },
   {
     "after_version": {
+      "body_hash": "e5da07f9a017747e283bdf5c9538f5b9bcc8ff3f762308cac8e4ab51207bc5a4",
+      "effective_date": "2026-10-21",
+      "identifier": "2100000287182",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000287182",
+      "snapshot_url": "/api/v1/rules/admrul-54074/versions/2100000287182-2026-10-21-6bc69537429cfbe0.json",
+      "version_id": "2100000287182"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "9590a70f2c1991401e0e2a819ff6130a0e7369417432c6981cc1bb64ae453986",
+      "effective_date": "2025-04-01",
+      "identifier": "2100000256922",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000256922",
+      "snapshot_url": "/api/v1/rules/admrul-54074/versions/2100000256922-2025-04-01-c847151358a68614.json",
+      "version_id": "2100000256922"
+    },
+    "canonical_id": "admrul-54074",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 1,
+    "changed_articles": [
+      {
+        "after_text": "제2조(정의) 이 지침에서 사용하고 있는 용어의 뜻은 다음과 같다.\n1. ∼ 4. (현행과 같음)\n5. “관계기관”이란 공소청(광역공소청, 지방공소청, 지방공소청 지청을 포함한다.), 중대범죄수사청(지방중대범죄수사청을 포함한다.), 경찰청, 보호관찰소, 한국법무보호복지공단 등 수형자의 재범방지 및 원조와 관련된 기관을 말한다.\n6. ∼ 8. (현행과 같음)",
+        "article_key": "article-2",
+        "article_number": "2",
+        "article_title": "제2조(정의)",
+        "before_text": "제2조(정의) 이 지침에서 사용하고 있는 용어의 뜻은 다음과 같다.\n1. ∼ 4. (생  략)\n5. “관계기관”이란 검찰청, 경찰청, 보호관찰소, 한국법무보호복지공단 등 수형자의 재범방지 및 원조와 관련된 기관을 말한다.\n6. ∼ 8. (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-10-21"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "4ba7bd8ac940ca1421b76203a462419979aadd322280270e30d29c0cc1de95ad",
+      "credential_redacted": false,
+      "raw_sha256": "2e4b624f26d689e6e67251fc926e4821c546c02a5cc893579a1e2375c19c6b70",
+      "request": {
+        "ID": "2100000287182",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "2e4b624f26d689e6e67251fc926e4821c546c02a5cc893579a1e2375c19c6b70"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-22T12:36:54.813275+00:00",
+    "effective_date": "2026-10-21",
+    "event_id": "evt-c6ade08d23a8ff71db291b77e809130c28572d25b958ad204406d4decc4e052a",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000287182",
+    "promulgation_or_issue_date": "2026-10-21",
+    "regulation_name": "분류센터 운영지침",
+    "regulation_type": "예규"
+  },
+  {
+    "after_version": {
+      "body_hash": "d34a83ab75a4b8a98365c6376e5789b3af42f2a0e7c93872ba83ae51c261d1f7",
+      "effective_date": "2026-10-21",
+      "identifier": "2100000287184",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000287184",
+      "snapshot_url": "/api/v1/rules/admrul-2046965/versions/2100000287184-2026-10-21-939932631c0bd329.json",
+      "version_id": "2100000287184"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "d8252db564b73fb4e26496771aa73718c3cdd9ae59a7804ff76e8b34ec377fbc",
+      "effective_date": "2025-03-01",
+      "identifier": "2100000255778",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000255778",
+      "snapshot_url": "/api/v1/rules/admrul-2046965/versions/2100000255778-2025-03-01-39806dcee0852a46.json",
+      "version_id": "2100000255778"
+    },
+    "canonical_id": "admrul-2046965",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 1,
+    "changed_articles": [
+      {
+        "after_text": "제123조(헌법재판소 위헌결정 등에 대한 조치) 헌법재판소의 위헌결정이 있는 죄명으로 복역하고 있는 수형자에 대하여 공소청(광역공소청, 지방공소청, 및 지방공소청 지청을 포함한다.)으로부터 형면제 통보를 받거나 재심청구 결과 무죄판결 또는 형기의 변동이 있는 자(잔여형기가 남아있는 경우에 한한다)에 대한 조치내용은 다음 각 호와 같다.\n1. ∼ 5. (현행과 같음)",
+        "article_key": "article-123",
+        "article_number": "123",
+        "article_title": "제123조(헌법재판소 위헌결정 등에 대한 조치)",
+        "before_text": "제123조(헌법재판소 위헌결정 등에 대한 조치) 헌법재판소의 위헌결정이 있는 죄명으로 복역하고 있는 수형자에 대하여 검찰청으로부터 형면제 통보를 받거나 재심청구 결과 무죄판결 또는 형기의 변동이 있는 자(잔여형기가 남아있는 경우에 한한다)에 대한 조치내용은 다음 각 호와 같다.\n1. ∼ 5. (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-10-21"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "9c99175adc00ab61b907b3cbf8cb43893e0b0bf549e8b400e6142409f8208b9c",
+      "credential_redacted": false,
+      "raw_sha256": "3e949c5807a40d6483fb0f6983de0cfae1c3c673be1cb78ab155eeebcb354882",
+      "request": {
+        "ID": "2100000287184",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "3e949c5807a40d6483fb0f6983de0cfae1c3c673be1cb78ab155eeebcb354882"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-22T12:36:54.813275+00:00",
+    "effective_date": "2026-10-21",
+    "event_id": "evt-abb60d3ac89f8f17377e09d5f518424101e9323798580f034f90b12716bae7d0",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000287184",
+    "promulgation_or_issue_date": "2026-10-21",
+    "regulation_name": "분류처우 업무지침",
+    "regulation_type": "예규"
+  },
+  {
+    "after_version": {
+      "body_hash": "7d31509c0d58fbf23158fe7a241d1057bbcd6fe0ae518a54623f4a05a5aee557",
+      "effective_date": "2026-10-21",
+      "identifier": "2100000287180",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000287180",
+      "snapshot_url": "/api/v1/rules/admrul-37383/versions/2100000287180-2026-10-21-f5c553d29f57690d.json",
+      "version_id": "2100000287180"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "11afc6a33174ba99b14262bd2788f810c6617b6ff35c474881c3ad9ffaf7bfd4",
+      "effective_date": "2024-07-01",
+      "identifier": "2100000243144",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000243144",
+      "snapshot_url": "/api/v1/rules/admrul-37383/versions/2100000243144-2024-07-01-264948754af4e570.json",
+      "version_id": "2100000243144"
+    },
+    "canonical_id": "admrul-37383",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 6,
+    "changed_articles": [
+      {
+        "after_text": "제10조(분류조사 자료 및 조회) ① 소장은 분류심사를 위하여 필요한 경우에는 다음 각 호의 자료를 활용할 수 있다.\n1.·2. (현행과 같음)\n3. 법원ㆍ공소청(광역공소청, 지방공소청 및 지방공소청 지청을 포함한다. 이하 같다)ㆍ중대범죄수사청(지방중대범죄수사청을 포함한다. 이하 같다)ㆍ보호관찰소ㆍ시청ㆍ군청ㆍ구청ㆍ경찰ㆍ학교ㆍ병원ㆍ직장ㆍ보호단체ㆍ친족 등이 작성한 자료\n4. (현행과 같음)\n② 소장은 분류심사에 필요한 경우에는 감호자의 가족 등을 면담하여 감호자의 가정환경 및 보호관계 등을 조사하거나 공소청, 중대범죄수사청, 경찰서, 그 밖의 관계기관에 유ㆍ무선으로 조회하여 필요한 사항을 확인할 수 있다.\n③ (현행과 같음)",
+        "article_key": "article-10",
+        "article_number": "10",
+        "article_title": "제10조(분류조사 자료 및 조회)",
+        "before_text": "제10조(분류조사 자료 및 조회) ① 소장은 분류심사를 위하여 필요한 경우에는 다음 각 호의 자료를 활용할 수 있다.\n1.·2. (생  략)\n3. 법원ㆍ검찰ㆍ보호관찰소ㆍ시청ㆍ군청ㆍ구청ㆍ경찰ㆍ학교ㆍ병원ㆍ직장ㆍ보호단체ㆍ친족 등이 작성한 자료\n4. (생  략)\n② 소장은 분류심사에 필요한 경우에는 감호자의 가족 등을 면담하여 감호자의 가정환경 및 보호관계 등을 조사하거나 검찰청, 경찰서, 그 밖의 관계기관에 유ㆍ무선으로 조회하여 필요한 사항을 확인할 수 있다.\n③ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-10-21"
+      },
+      {
+        "after_text": "제11조(분류조사 사항) 소장은 분류심사를 실시하는 경우 다음 각 호의 사항에 대하여 조사한다.\n1. ∼ 8. (현행과 같음)",
+        "article_key": "article-11",
+        "article_number": "11",
+        "article_title": "제11조(분류조사 사항)",
+        "before_text": "제11조(분류조사 사항) 소장은 분류심사를  실시하는 경우 다음 각 호의 사항에 대하여 조사한다.\n1. ∼ 8. (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-10-21"
+      },
+      {
+        "after_text": "제12조(분류검사) ①·② (현행과 같음)\n③ 적성검사는 제2항의 인성검사 대상자로서 50세 이하인 감호자에 대하여 실시한다.\n④ (현행과 같음)",
+        "article_key": "article-12",
+        "article_number": "12",
+        "article_title": "제12조(분류검사)",
+        "before_text": "제12조(분류검사) ①·② (생  략)\n③ 적성검사는 제2항의 인성검사 대상자로서  50세 이하인 감호자에 대하여 실시한다.\n④ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-10-21"
+      },
+      {
+        "after_text": "제50조(사회적 처우) ① 소장은 제33조의 자치생활 감호자에 대하여 교정시설 밖에서 이루어지는 다음 각 호에 해당하는 활동을 허가할 수 있다.\n1. ∼ 5. (현행과 같음)\n② ∼ ④ (현행과 같음)",
+        "article_key": "article-50",
+        "article_number": "50",
+        "article_title": "제50조(사회적 처우)",
+        "before_text": "제50조(사회적 처우) ① 소장은 제33조의 자치생활 감호자에 대하여 교정시설 밖에서 이루어지는 다음 각 호에 해당하는 활동을 허가할 수 있다.\n1. ∼ 5. (생  략)\n② ∼ ④ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-10-21"
+      },
+      {
+        "after_text": "제62조(가출소심사신청 요청) ① 소장은 가출소예비심사회의에서 가출소심사신청을 요청하기로 결정한 감호자에 대하여는 종전의 「사회보호법 시행규칙」에 의하여 다음 각 호의 서류를 첨부하여 관할 공소청 검사에게 가출소심사신청을 요청하여야 한다.\n1. ∼ 4. (현행과 같음)",
+        "article_key": "article-62",
+        "article_number": "62",
+        "article_title": "제62조(가출소심사신청 요청)",
+        "before_text": "제62조(가출소심사신청 요청) ① 소장은 가출소예비심사회의에서 가출소심사신청을 요청하기로 결정한 감호자에 대하여는 종전의 「사회보호법 시행규칙」에 의하여 다음 각 호의 서류를 첨부하여 관할 검찰청 검사에게 가출소심사신청을 요청하여야 한다.\n1. ∼ 4. (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-10-21"
+      },
+      {
+        "after_text": "제71조(분류처우위원회) ① (현행과 같음)\n② 위원회의 회의는 정기회의와 임시회의로 구분하고 정기회의는 매월 10일에 개최하며, 임시회의는 소장이 감호자의 처우상 필요하다고 인정하는 때에 개최할 수 있다.\n③ (현행과 같음)",
+        "article_key": "article-71",
+        "article_number": "71",
+        "article_title": "제71조(분류처우위원회)",
+        "before_text": "제71조(분류처우위원회) ① (생  략)\n② 위원회의 회의는 정기회의와 임시회의로 구분하고 정기회의는 매월 10일에 개최하며, 임시회의는 소장이 감호자의 처우상 필요하다고 인정하는 때에 개최할 수 있다.\n③ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-10-21"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "8033e4cb71eac788479a2d44bfbb9a61a9b332ef626af38ea8ab1d6f4c951245",
+      "credential_redacted": false,
+      "raw_sha256": "cd0cda0131d3c16e19da5d4edb87ab1431e0d2a7099b5f66d369368c4898ebd5",
+      "request": {
+        "ID": "2100000287180",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "cd0cda0131d3c16e19da5d4edb87ab1431e0d2a7099b5f66d369368c4898ebd5"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-22T12:36:54.813275+00:00",
+    "effective_date": "2026-10-21",
+    "event_id": "evt-46d9e131be8a9fce2adfe02b2254cf352771bb1392a4d89e2e4e046c01f022b5",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000287180",
+    "promulgation_or_issue_date": "2026-10-21",
+    "regulation_name": "피보호감호자 분류처우 업무지침",
+    "regulation_type": "훈령"
+  },
+  {
+    "after_version": {
       "body_hash": "1717a6e787617e1ad325606c75fc6d51d7ba2cb7d1e9dd2aac230c1d8fa1fea0",
       "effective_date": "2026-10-19",
       "identifier": "2100000286908",
@@ -2483,6 +2711,67 @@
     "promulgation_or_issue_date": "2026-09-29",
     "regulation_name": "형사소송법",
     "regulation_type": "법률"
+  },
+  {
+    "after_version": {
+      "body_hash": "d18179c8bd32703ede028572b91b7baaad6d2d87f88c76c096f44a57e999420b",
+      "effective_date": "2026-10-01",
+      "identifier": "2100000285400",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000285400",
+      "snapshot_url": "/api/v1/rules/admrul-36282/versions/2100000285400-2026-10-01-72462c0b3273ff8b.json",
+      "version_id": "2100000285400"
+    },
+    "appendix_changes": [
+      {
+        "after_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170827941",
+          "sequence": "0017",
+          "title": "작업재료출납부",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=170827937"
+        },
+        "before_metadata": {
+          "branch": "00",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660035",
+          "sequence": "0017",
+          "title": "작업재료수불부",
+          "type": "별지",
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=169660031"
+        },
+        "change_type": "APPENDIX_METADATA_CHANGED",
+        "status": "AVAILABLE"
+      }
+    ],
+    "before_version": {
+      "body_hash": "d18179c8bd32703ede028572b91b7baaad6d2d87f88c76c096f44a57e999420b",
+      "effective_date": "2026-10-01",
+      "identifier": "2100000285400",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000285400",
+      "snapshot_url": "/api/v1/rules/admrul-36282/versions/2100000285400-2026-10-01-4718889da3400aa9.json",
+      "version_id": "2100000285400"
+    },
+    "canonical_id": "admrul-36282",
+    "change_type": "APPENDIX_METADATA_CHANGED",
+    "change_types": [
+      "APPENDIX_METADATA_CHANGED"
+    ],
+    "changed_article_count": 0,
+    "changed_articles": [],
+    "comparison_evidence": null,
+    "comparison_scope": "FULL_STRUCTURED_BODY",
+    "comparison_source": "STRUCTURED_SNAPSHOT_DIFF",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-22T12:36:54.813275+00:00",
+    "effective_date": "2026-10-01",
+    "event_id": "evt-5641fe677236577bed9bd65b33efe2cc797ecf7a53b0a6cd89608d63822ce97d",
+    "fallback_reason": "OFFICIAL_COMPARISON_UNAVAILABLE",
+    "official_old_new_available": false,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000285400",
+    "promulgation_or_issue_date": "2026-10-01",
+    "regulation_name": "교도작업운영지침",
+    "regulation_type": "예규"
   },
   {
     "after_version": {

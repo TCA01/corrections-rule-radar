@@ -1,0 +1,109 @@
+{
+  "event": {
+    "after_version": {
+      "body_hash": "7d31509c0d58fbf23158fe7a241d1057bbcd6fe0ae518a54623f4a05a5aee557",
+      "effective_date": "2026-10-21",
+      "identifier": "2100000287180",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000287180",
+      "snapshot_url": "/api/v1/rules/admrul-37383/versions/2100000287180-2026-10-21-f5c553d29f57690d.json",
+      "version_id": "2100000287180"
+    },
+    "appendix_changes": [],
+    "before_version": {
+      "body_hash": "11afc6a33174ba99b14262bd2788f810c6617b6ff35c474881c3ad9ffaf7bfd4",
+      "effective_date": "2024-07-01",
+      "identifier": "2100000243144",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000243144",
+      "snapshot_url": "/api/v1/rules/admrul-37383/versions/2100000243144-2024-07-01-264948754af4e570.json",
+      "version_id": "2100000243144"
+    },
+    "canonical_id": "admrul-37383",
+    "change_type": "RULE_AMENDED",
+    "change_types": [
+      "RULE_AMENDED",
+      "ARTICLE_CHANGED"
+    ],
+    "changed_article_count": 6,
+    "changed_articles": [
+      {
+        "after_text": "제10조(분류조사 자료 및 조회) ① 소장은 분류심사를 위하여 필요한 경우에는 다음 각 호의 자료를 활용할 수 있다.\n1.·2. (현행과 같음)\n3. 법원ㆍ공소청(광역공소청, 지방공소청 및 지방공소청 지청을 포함한다. 이하 같다)ㆍ중대범죄수사청(지방중대범죄수사청을 포함한다. 이하 같다)ㆍ보호관찰소ㆍ시청ㆍ군청ㆍ구청ㆍ경찰ㆍ학교ㆍ병원ㆍ직장ㆍ보호단체ㆍ친족 등이 작성한 자료\n4. (현행과 같음)\n② 소장은 분류심사에 필요한 경우에는 감호자의 가족 등을 면담하여 감호자의 가정환경 및 보호관계 등을 조사하거나 공소청, 중대범죄수사청, 경찰서, 그 밖의 관계기관에 유ㆍ무선으로 조회하여 필요한 사항을 확인할 수 있다.\n③ (현행과 같음)",
+        "article_key": "article-10",
+        "article_number": "10",
+        "article_title": "제10조(분류조사 자료 및 조회)",
+        "before_text": "제10조(분류조사 자료 및 조회) ① 소장은 분류심사를 위하여 필요한 경우에는 다음 각 호의 자료를 활용할 수 있다.\n1.·2. (생  략)\n3. 법원ㆍ검찰ㆍ보호관찰소ㆍ시청ㆍ군청ㆍ구청ㆍ경찰ㆍ학교ㆍ병원ㆍ직장ㆍ보호단체ㆍ친족 등이 작성한 자료\n4. (생  략)\n② 소장은 분류심사에 필요한 경우에는 감호자의 가족 등을 면담하여 감호자의 가정환경 및 보호관계 등을 조사하거나 검찰청, 경찰서, 그 밖의 관계기관에 유ㆍ무선으로 조회하여 필요한 사항을 확인할 수 있다.\n③ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-10-21"
+      },
+      {
+        "after_text": "제11조(분류조사 사항) 소장은 분류심사를 실시하는 경우 다음 각 호의 사항에 대하여 조사한다.\n1. ∼ 8. (현행과 같음)",
+        "article_key": "article-11",
+        "article_number": "11",
+        "article_title": "제11조(분류조사 사항)",
+        "before_text": "제11조(분류조사 사항) 소장은 분류심사를  실시하는 경우 다음 각 호의 사항에 대하여 조사한다.\n1. ∼ 8. (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-10-21"
+      },
+      {
+        "after_text": "제12조(분류검사) ①·② (현행과 같음)\n③ 적성검사는 제2항의 인성검사 대상자로서 50세 이하인 감호자에 대하여 실시한다.\n④ (현행과 같음)",
+        "article_key": "article-12",
+        "article_number": "12",
+        "article_title": "제12조(분류검사)",
+        "before_text": "제12조(분류검사) ①·② (생  략)\n③ 적성검사는 제2항의 인성검사 대상자로서  50세 이하인 감호자에 대하여 실시한다.\n④ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-10-21"
+      },
+      {
+        "after_text": "제50조(사회적 처우) ① 소장은 제33조의 자치생활 감호자에 대하여 교정시설 밖에서 이루어지는 다음 각 호에 해당하는 활동을 허가할 수 있다.\n1. ∼ 5. (현행과 같음)\n② ∼ ④ (현행과 같음)",
+        "article_key": "article-50",
+        "article_number": "50",
+        "article_title": "제50조(사회적 처우)",
+        "before_text": "제50조(사회적 처우) ① 소장은 제33조의 자치생활 감호자에 대하여 교정시설 밖에서 이루어지는 다음 각 호에 해당하는 활동을 허가할 수 있다.\n1. ∼ 5. (생  략)\n② ∼ ④ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-10-21"
+      },
+      {
+        "after_text": "제62조(가출소심사신청 요청) ① 소장은 가출소예비심사회의에서 가출소심사신청을 요청하기로 결정한 감호자에 대하여는 종전의 「사회보호법 시행규칙」에 의하여 다음 각 호의 서류를 첨부하여 관할 공소청 검사에게 가출소심사신청을 요청하여야 한다.\n1. ∼ 4. (현행과 같음)",
+        "article_key": "article-62",
+        "article_number": "62",
+        "article_title": "제62조(가출소심사신청 요청)",
+        "before_text": "제62조(가출소심사신청 요청) ① 소장은 가출소예비심사회의에서 가출소심사신청을 요청하기로 결정한 감호자에 대하여는 종전의 「사회보호법 시행규칙」에 의하여 다음 각 호의 서류를 첨부하여 관할 검찰청 검사에게 가출소심사신청을 요청하여야 한다.\n1. ∼ 4. (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-10-21"
+      },
+      {
+        "after_text": "제71조(분류처우위원회) ① (현행과 같음)\n② 위원회의 회의는 정기회의와 임시회의로 구분하고 정기회의는 매월 10일에 개최하며, 임시회의는 소장이 감호자의 처우상 필요하다고 인정하는 때에 개최할 수 있다.\n③ (현행과 같음)",
+        "article_key": "article-71",
+        "article_number": "71",
+        "article_title": "제71조(분류처우위원회)",
+        "before_text": "제71조(분류처우위원회) ① (생  략)\n② 위원회의 회의는 정기회의와 임시회의로 구분하고 정기회의는 매월 10일에 개최하며, 임시회의는 소장이 감호자의 처우상 필요하다고 인정하는 때에 개최할 수 있다.\n③ (생  략)",
+        "change_type": "MODIFIED",
+        "effective_date": "2026-10-21"
+      }
+    ],
+    "comparison_evidence": {
+      "cache_key": "8033e4cb71eac788479a2d44bfbb9a61a9b332ef626af38ea8ab1d6f4c951245",
+      "credential_redacted": false,
+      "raw_sha256": "cd0cda0131d3c16e19da5d4edb87ab1431e0d2a7099b5f66d369368c4898ebd5",
+      "request": {
+        "ID": "2100000287180",
+        "target": "admrulOldAndNew",
+        "type": "JSON"
+      },
+      "stored_sha256": "cd0cda0131d3c16e19da5d4edb87ab1431e0d2a7099b5f66d369368c4898ebd5"
+    },
+    "comparison_scope": "OFFICIAL_COMPARISON_EXCERPT",
+    "comparison_source": "LAWGO_ADMIN_OLD_NEW",
+    "comparison_status": "AVAILABLE",
+    "comparison_unavailable_reason": null,
+    "detected_at": "2026-10-22T12:36:54.813275+00:00",
+    "effective_date": "2026-10-21",
+    "event_id": "evt-46d9e131be8a9fce2adfe02b2254cf352771bb1392a4d89e2e4e046c01f022b5",
+    "fallback_reason": null,
+    "official_old_new_available": true,
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000287180",
+    "promulgation_or_issue_date": "2026-10-21",
+    "regulation_name": "피보호감호자 분류처우 업무지침",
+    "regulation_type": "훈령"
+  },
+  "schema_version": "1.5"
+}
