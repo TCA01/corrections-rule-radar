@@ -16,7 +16,7 @@ from scripts.validate_public import validate
 from pipeline.operations.public_status import publish_status
 
 ROOT = Path(__file__).resolve().parents[1]
-DEADLINE_SECONDS = 1080
+DEADLINE_SECONDS = 1260
 RETRY_DELAY_SECONDS = 5
 TRANSIENT = {'TIMEOUT', 'NETWORK_ERROR'}
 
