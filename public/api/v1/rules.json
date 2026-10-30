@@ -1,5 +1,5 @@
 {
-  "dataset_version": "ds-6337ad00b88fa246d5508f0c607db20bb421299262ab57c0db09c958f1f816c7",
+  "dataset_version": "ds-e00acac9bca35606a54636a59485222a4c1d3a99764f8179107e7487647fd73f",
   "rules": [
     {
       "business_domains": [
@@ -4907,29 +4907,28 @@
     },
     {
       "business_domains": [
-        "인사·조직",
-        "수용·보안"
+        "기타"
       ],
       "canonical_id": "law-006524",
       "classification_status": "REVIEWED",
       "corrections_category": "법무부령",
       "current_name": "교도관직무규칙",
       "detail_url": "/api/v1/rules/law-006524.json",
-      "domain_assignment_status": "EVIDENCE_BASED",
+      "domain_assignment_status": "FALLBACK",
       "historical_names": [],
       "metadata": {
         "amendment_type": "일부개정",
         "department": null,
-        "effective_date": "2025-04-22",
-        "issue_date": "2025-04-22",
-        "issue_number": "01094",
+        "effective_date": "2026-10-30",
+        "issue_date": "2026-10-30",
+        "issue_number": "01174",
         "ministry": "법무부",
         "name": "교도관직무규칙",
         "official_state": null,
         "rule_type": "법무부령"
       },
-      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=270769",
-      "primary_domain": "인사·조직",
+      "official_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=291583",
+      "primary_domain": "기타",
       "provenance": {
         "api_tracking_class": "API_TRACKABLE",
         "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
@@ -4937,7 +4936,7 @@
           "교도관",
           "수용자"
         ],
-        "canonical_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=270769",
+        "canonical_source_url": "https://www.law.go.kr/LSW/lsInfoP.do?lsiSeq=291583",
         "discovery_source": [
           "CORRECTIONS_PAGE"
         ],
@@ -4949,15 +4948,13 @@
         "selection_basis": "교정본부 공식 법령 현황 수록",
         "structured_body_source": "LAWGO_JSON_XML"
       },
-      "secondary_domains": [
-        "수용·보안"
-      ],
+      "secondary_domains": [],
       "seed_names": [
         "교도관직무규칙"
       ],
       "source_kind": "law",
       "status": "CURRENT",
-      "version_id": "270769"
+      "version_id": "291583"
     },
     {
       "business_domains": [
