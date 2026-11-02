@@ -1,5 +1,5 @@
 {
-  "dataset_version": "ds-e00acac9bca35606a54636a59485222a4c1d3a99764f8179107e7487647fd73f",
+  "dataset_version": "ds-253ce72b62dcccf1cf189ab5e215b9210707d7a5347dd684557eb15d10906695",
   "rules": [
     {
       "business_domains": [
@@ -3313,37 +3313,37 @@
     },
     {
       "business_domains": [
-        "심리치료"
+        "기타"
       ],
       "canonical_id": "admrul-56055",
       "classification_status": "REVIEWED",
       "corrections_category": "예규",
       "current_name": "심리치료 업무지침 ",
       "detail_url": "/api/v1/rules/admrul-56055.json",
-      "domain_assignment_status": "EVIDENCE_BASED",
+      "domain_assignment_status": "FALLBACK",
       "historical_names": [
         "심리치료 업무지침"
       ],
       "metadata": {
         "amendment_type": "일부개정",
         "department": "법무부(심리치료과)",
-        "effective_date": "2026-04-01",
-        "issue_date": "2026-04-01",
-        "issue_number": "1382",
+        "effective_date": "2026-11-03",
+        "issue_date": "2026-11-03",
+        "issue_number": "1404",
         "ministry": "법무부",
         "name": "심리치료 업무지침 ",
         "official_state": "Y",
         "rule_type": "예규"
       },
-      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000276308",
-      "primary_domain": "심리치료",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000287666",
+      "primary_domain": "기타",
       "provenance": {
         "api_tracking_class": "API_TRACKABLE",
         "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
         "applies_to": [
           "수용자"
         ],
-        "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000276308",
+        "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000287666",
         "discovery_source": [
           "CORRECTIONS_PAGE"
         ],
@@ -3361,7 +3361,7 @@
       ],
       "source_kind": "admrul",
       "status": "CURRENT",
-      "version_id": "2100000276308"
+      "version_id": "2100000287666"
     },
     {
       "business_domains": [
