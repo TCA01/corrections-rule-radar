@@ -50112,9 +50112,9 @@
         "canonical_id": "admrul-26424",
         "history_evidence": [
           {
-            "cache_key": "911a957d9d2fa4c55e6d6b6d0f8c64ed3a6bd3a39062b98c3a33168b2c343ec6",
+            "cache_key": "180af7f2983b22357ebb59a3e5d89d620934dd2092703df2304ed3efbb9e6966",
             "credential_redacted": true,
-            "raw_sha256": "4b0b631826b073f46400f44a5e8497a8206fea1f1608aa5b6324053e56601068",
+            "raw_sha256": "64701bc070d64c59dbc82506f1df839bbaf3b064cc15d9ca486ff3203aed5ff1",
             "request": {
               "display": 100,
               "nw": 2,
@@ -50123,7 +50123,7 @@
               "target": "admrul",
               "type": "JSON"
             },
-            "stored_sha256": "8946cd138750575ee973501616559c38f6d17f212ba6313132f5916ab6afcef5"
+            "stored_sha256": "081af5fc6775ce3608c9ad7170518685fd77dd432bf50d50a6c7a0e1200b2eaa"
           }
         ],
         "source": "OFFICIAL_HISTORY",
@@ -50337,9 +50337,9 @@
         "canonical_id": "admrul-26917",
         "history_evidence": [
           {
-            "cache_key": "8e63d6c9523d00ab7f9eca35ef73d51dc8004bc14d0a6d608455a4e639754bd8",
+            "cache_key": "44a8d1c6eb56722da101b1f048c302d25ee0c5b28baba16eabae74e3f39aaa38",
             "credential_redacted": true,
-            "raw_sha256": "d5c5ab4bce254619449b2a60d68990a25e6f67794fcb70556de5194e89f37308",
+            "raw_sha256": "3f27e7a6923b7248269c7f35df3408f0753e1df1c8ac9682e33c5c9b5efa59af",
             "request": {
               "display": 100,
               "nw": 2,
@@ -50348,7 +50348,7 @@
               "target": "admrul",
               "type": "JSON"
             },
-            "stored_sha256": "e006665e0ff3a2d051d63a17f20df06a235e370a42d0736442af905e45816cff"
+            "stored_sha256": "e0c84bef27421b81389cde8aa18316a86eb3e6982ac00c25bb573d2676d39fc3"
           }
         ],
         "source": "OFFICIAL_HISTORY",
@@ -53081,15 +53081,15 @@
       },
       "canonical_id": "admrul-35611",
       "evidence": {
-        "cache_key": "71099bb26722675275f443393ff3d1daf538ec3b3618d9704ed2fea066fe6b9b",
+        "cache_key": "0a477412f1ba7a8b9a819b6251949e1a4af85cb59b0936b90dd7bbcb664de799",
         "credential_redacted": false,
-        "raw_sha256": "f0816749479cf104b1151b9b9f6dbcfc4d664d40ccbdc657656bc9d0cdb7d5eb",
+        "raw_sha256": "a3a75194f9fc8d1011eae836cf704c6f460c8a1780bed93192e3dbc675b59212",
         "request": {
           "ID": "2100000286404",
           "target": "admrul",
           "type": "JSON"
         },
-        "stored_sha256": "f0816749479cf104b1151b9b9f6dbcfc4d664d40ccbdc657656bc9d0cdb7d5eb"
+        "stored_sha256": "a3a75194f9fc8d1011eae836cf704c6f460c8a1780bed93192e3dbc675b59212"
       },
       "hashes": {
         "appendix_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
@@ -53114,9 +53114,9 @@
         "canonical_id": "admrul-35611",
         "history_evidence": [
           {
-            "cache_key": "0d2237de596e79f3272dfe26a9975898c61710628249da7bd9b7a7db7728b514",
+            "cache_key": "6a3374ae7489038908f174fd0a7ace18574cade3bc17bd44fc2df14c91960a61",
             "credential_redacted": true,
-            "raw_sha256": "0a0334ff72009604e05856f2f9a85b2fb5f0e07fec9f16c03115b0cf69354e2f",
+            "raw_sha256": "fd99493c8b57db3de5ba7f0079a033962f6560570855e0ff14be721f806429df",
             "request": {
               "display": 100,
               "nw": 2,
@@ -53125,7 +53125,7 @@
               "target": "admrul",
               "type": "JSON"
             },
-            "stored_sha256": "622129c98ed7238eb942916c781ea68bd312a43092433e6ea74b3747aadb44b9"
+            "stored_sha256": "9cc22fdf683fe5e11eafa79da2ddf6b3f4cd38725f8557fe7aef939c9a5d0c58"
           }
         ],
         "source": "OFFICIAL_HISTORY",
@@ -60627,202 +60627,202 @@
       "appendices": [
         {
           "branch": "00",
-          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055627",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128277",
           "sequence": "0001",
           "title": "심리치료팀 구성 기준",
           "type": "별표",
-          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055623"
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128273"
         },
         {
           "branch": "00",
-          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055633",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128283",
           "sequence": "0001",
           "title": "심리치료 일일 업무일지",
           "type": "별지",
-          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055629"
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128279"
         },
         {
           "branch": "00",
-          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055639",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128289",
           "sequence": "0002",
           "title": "심리치료중앙자문위원회 회의록",
           "type": "별지",
-          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055635"
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128285"
         },
         {
           "branch": "00",
-          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055645",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128295",
           "sequence": "0003",
           "title": "심리상담 대상자 명부",
           "type": "별지",
-          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055641"
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128291"
         },
         {
           "branch": "00",
-          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055651",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128301",
           "sequence": "0004",
           "title": "수용자 상담 결과 보고서",
           "type": "별지",
-          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055647"
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128297"
         },
         {
           "branch": "00",
-          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055657",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128307",
           "sequence": "0005",
           "title": "사례발표 동의서",
           "type": "별지",
-          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055653"
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128303"
         },
         {
           "branch": "00",
-          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055663",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128313",
           "sequence": "0006",
           "title": "서약서",
           "type": "별지",
-          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055659"
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128309"
         },
         {
           "branch": "00",
-          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055669",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128319",
           "sequence": "0007",
           "title": "사례회의 일지",
           "type": "별지",
-          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055665"
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128315"
         },
         {
           "branch": "00",
-          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055675",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128325",
           "sequence": "0008",
           "title": "사례회의 참가자 확인 및 서약서",
           "type": "별지",
-          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055671"
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128321"
         },
         {
           "branch": "00",
-          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055681",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128331",
           "sequence": "0009",
           "title": "심리치료 프로그램 시행 대상자 명부",
           "type": "별지",
-          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055677"
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128327"
         },
         {
           "branch": "00",
-          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055687",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128337",
           "sequence": "0010",
           "title": "심리치료 프로그램 수료자 명부",
           "type": "별지",
-          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055683"
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128333"
         },
         {
           "branch": "00",
-          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055693",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128343",
           "sequence": "0011",
           "title": "심리치료 프로그램 진행일지",
           "type": "별지",
-          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055689"
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128339"
         },
         {
           "branch": "00",
-          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055699",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128349",
           "sequence": "0012",
           "title": "심리치료 프로그램 시행 제외자 명부",
           "type": "별지",
-          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055695"
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128345"
         },
         {
           "branch": "00",
-          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055705",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128355",
           "sequence": "0013",
           "title": "심리치료 프로그램 참여(환소) 이송자 명부",
           "type": "별지",
-          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055701"
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128351"
         },
         {
           "branch": "00",
-          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055711",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128361",
           "sequence": "0014",
           "title": "심리치료 프로그램 시행 유예자 명부",
           "type": "별지",
-          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055707"
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128357"
         },
         {
           "branch": "00",
-          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055717",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128367",
           "sequence": "0015",
           "title": "심리치료 프로그램 만족도 조사",
           "type": "별지",
-          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055713"
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128363"
         },
         {
           "branch": "00",
-          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055723",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128373",
           "sequence": "0016",
           "title": "이수명령 집행 대상자 명부",
           "type": "별지",
-          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055719"
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128369"
         },
         {
           "branch": "00",
-          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055729",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128379",
           "sequence": "0017",
           "title": "이수명령 집행서",
           "type": "별지",
-          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055725"
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128375"
         },
         {
           "branch": "00",
-          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055735",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128385",
           "sequence": "0018",
           "title": "이수명령 집행 불응 사유서",
           "type": "별지",
-          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055731"
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128381"
         },
         {
           "branch": "00",
-          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055741",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128391",
           "sequence": "0019",
           "title": "이수명령 미집행 안내 확인서",
           "type": "별지",
-          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055737"
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128387"
         },
         {
           "branch": "00",
-          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055747",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128397",
           "sequence": "0020",
           "title": "이수명령 미집행 통보서",
           "type": "별지",
-          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055743"
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128393"
         },
         {
           "branch": "00",
-          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055753",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128403",
           "sequence": "0021",
           "title": "보직 변경 등 건의서",
           "type": "별지",
-          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055749"
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128399"
         },
         {
           "branch": "00",
-          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055759",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128409",
           "sequence": "0022",
           "title": "직무 스트레스 관리 프로그램 추천서",
           "type": "별지",
-          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055755"
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128405"
         },
         {
           "branch": "00",
-          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055765",
+          "pdf_url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128415",
           "sequence": "0023",
           "title": "심리치료업무 실적",
           "type": "별지",
-          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171055761"
+          "url": "https://www.law.go.kr/LSW/flDownload.do?flSeq=171128411"
         }
       ],
       "attachments": [
         {
-          "title": "['「심리치료 업무지침」 일부개정예규안 전문.pdf', '「심리치료 업무지침」 일부개정예규안 전문.hwpx']",
+          "title": "['「심리치료 업무지침」 개정 전문.hwpx', '「심리치료 업무지침」 개정 전문.pdf']",
           "type": "OFFICIAL_ATTACHMENT",
-          "url": "https://www.law.go.kr/['http:/law.go.kr/flDownload.do?flSeq=171053799%27%2C+%27http%3A%2F%2Flaw.go.kr%2FflDownload.do%3FflSeq%3D171053795%27%5D"
+          "url": "https://www.law.go.kr/['http:/law.go.kr/flDownload.do?flSeq=171126407%27%2C+%27http%3A%2F%2Flaw.go.kr%2FflDownload.do%3FflSeq%3D171126411%27%5D"
         }
       ],
       "body": {
@@ -60931,19 +60931,19 @@
       },
       "canonical_id": "admrul-56055",
       "evidence": {
-        "cache_key": "7ff2d7cf63ef8c251dd3b7377a118cb5bda5ad8c252b8d3da173a030854e1838",
+        "cache_key": "d67723d2c8d172c7ef316b6f9a771b237f7071c551c40f8cbfe2c22e024f7afa",
         "credential_redacted": false,
-        "raw_sha256": "7d3e379ffb5ede12bcac8a2df74fab98ad295bd3e7e22026079d2ebaff421a2e",
+        "raw_sha256": "064607946610d00298ed94ef25c1698d560dfdf87887ad382e1dbe339420dafe",
         "request": {
           "LID": "56055",
           "target": "admrul",
           "type": "JSON"
         },
-        "stored_sha256": "7d3e379ffb5ede12bcac8a2df74fab98ad295bd3e7e22026079d2ebaff421a2e"
+        "stored_sha256": "064607946610d00298ed94ef25c1698d560dfdf87887ad382e1dbe339420dafe"
       },
       "hashes": {
         "appendix_hash": "698ee3082a025f5ee493aa05644c991951a2910ab8c4d147bd7ea3874fd2c325",
-        "attachment_link_hash": "ea35033c56163e9d6c577cd257f0ebff9d7b8506b4a128ef089c8b45ca185bd7",
+        "attachment_link_hash": "ba22e9d42166ebc750a7e771ba1186fe25d0918dfc1ad1e7727a3aede12c5ee9",
         "body_hash": "c52ebb7b41fbe77a3444cf9706d734592e9065062f51d4f6b499a1920f0063f8",
         "metadata_hash": "bfc19e479181f03b5a3a19b77a5b9e56b71afc09a1e608d2eade67b2e596f084"
       },

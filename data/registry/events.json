@@ -7669,6 +7669,61 @@
   },
   {
     "articles_compared_to": {
+      "effective_date": "2026-11-03",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000287666",
+      "snapshot_url": "/api/v1/rules/admrul-56055/versions/2100000287666-2026-11-03-15d2f0f9419ae867.json",
+      "version_id": "2100000287666"
+    },
+    "canonical_id": "admrul-56055",
+    "change_type": "ATTACHMENT_CHANGED",
+    "changed_articles": [],
+    "detected_at": "2026-11-03T18:44:12.815717+00:00",
+    "effective_date": "2026-11-03",
+    "event_id": "evt-eb7f7656ab79ac4426a614d41c653a66484192a02e01dc714045856bfed2b5ab",
+    "evidence": {
+      "new_hashes": {
+        "appendix_hash": "698ee3082a025f5ee493aa05644c991951a2910ab8c4d147bd7ea3874fd2c325",
+        "attachment_link_hash": "ba22e9d42166ebc750a7e771ba1186fe25d0918dfc1ad1e7727a3aede12c5ee9",
+        "body_hash": "c52ebb7b41fbe77a3444cf9706d734592e9065062f51d4f6b499a1920f0063f8",
+        "metadata_hash": "bfc19e479181f03b5a3a19b77a5b9e56b71afc09a1e608d2eade67b2e596f084"
+      },
+      "old_hashes": {
+        "appendix_hash": "698ee3082a025f5ee493aa05644c991951a2910ab8c4d147bd7ea3874fd2c325",
+        "attachment_link_hash": "ea35033c56163e9d6c577cd257f0ebff9d7b8506b4a128ef089c8b45ca185bd7",
+        "body_hash": "c52ebb7b41fbe77a3444cf9706d734592e9065062f51d4f6b499a1920f0063f8",
+        "metadata_hash": "bfc19e479181f03b5a3a19b77a5b9e56b71afc09a1e608d2eade67b2e596f084"
+      }
+    },
+    "new_hashes": {
+      "appendix_hash": "698ee3082a025f5ee493aa05644c991951a2910ab8c4d147bd7ea3874fd2c325",
+      "attachment_link_hash": "ba22e9d42166ebc750a7e771ba1186fe25d0918dfc1ad1e7727a3aede12c5ee9",
+      "body_hash": "c52ebb7b41fbe77a3444cf9706d734592e9065062f51d4f6b499a1920f0063f8",
+      "metadata_hash": "bfc19e479181f03b5a3a19b77a5b9e56b71afc09a1e608d2eade67b2e596f084"
+    },
+    "new_reference": {
+      "effective_date": "2026-11-03",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000287666",
+      "snapshot_url": "/api/v1/rules/admrul-56055/versions/2100000287666-2026-11-03-6e47c56b2ecbd7a8.json",
+      "version_id": "2100000287666"
+    },
+    "new_version": "2100000287666",
+    "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000287666",
+    "old_hashes": {
+      "appendix_hash": "698ee3082a025f5ee493aa05644c991951a2910ab8c4d147bd7ea3874fd2c325",
+      "attachment_link_hash": "ea35033c56163e9d6c577cd257f0ebff9d7b8506b4a128ef089c8b45ca185bd7",
+      "body_hash": "c52ebb7b41fbe77a3444cf9706d734592e9065062f51d4f6b499a1920f0063f8",
+      "metadata_hash": "bfc19e479181f03b5a3a19b77a5b9e56b71afc09a1e608d2eade67b2e596f084"
+    },
+    "old_reference": {
+      "effective_date": "2026-11-03",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000287666",
+      "snapshot_url": "/api/v1/rules/admrul-56055/versions/2100000287666-2026-11-03-15d2f0f9419ae867.json",
+      "version_id": "2100000287666"
+    },
+    "old_version": "2100000287666"
+  },
+  {
+    "articles_compared_to": {
       "effective_date": "2025-04-01",
       "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000256922",
       "snapshot_url": "/api/v1/rules/admrul-54074/versions/2100000256922-2025-04-01-c847151358a68614.json",
