@@ -1,8 +1,8 @@
 {
   "classification_review_count": 0,
-  "dataset_version": "ds-6bd29ccc055b9739805687505965a68fe3cbca4b5368b9d2f5b5a3161ad33b92",
+  "dataset_version": "ds-4fb145820e7029d2e16b99807815da0d555369cd6448caa85b7cd5f8f07c3f0c",
   "health_scope": "PUBLISHED_DATASET",
-  "last_successful_sync": "2026-11-03T18:44:12.815717+00:00",
+  "last_successful_sync": "2026-11-05T19:06:35.137340+00:00",
   "publication_status": "PUBLISHED",
   "review_count": 0,
   "rule_count": 107,

@@ -1,5 +1,5 @@
 {
-  "dataset_version": "ds-6bd29ccc055b9739805687505965a68fe3cbca4b5368b9d2f5b5a3161ad33b92",
+  "dataset_version": "ds-4fb145820e7029d2e16b99807815da0d555369cd6448caa85b7cd5f8f07c3f0c",
   "rules": [
     {
       "business_domains": [
@@ -1389,35 +1389,35 @@
     },
     {
       "business_domains": [
-        "분류·가석방"
+        "기타"
       ],
       "canonical_id": "admrul-35334",
       "classification_status": "REVIEWED",
       "corrections_category": "예규",
       "current_name": "가석방 업무지침",
       "detail_url": "/api/v1/rules/admrul-35334.json",
-      "domain_assignment_status": "EVIDENCE_BASED",
+      "domain_assignment_status": "FALLBACK",
       "historical_names": [],
       "metadata": {
         "amendment_type": "일부개정",
         "department": "법무부(분류심사과)",
-        "effective_date": "2026-03-30",
-        "issue_date": "2026-03-30",
-        "issue_number": "1384",
+        "effective_date": "2026-11-06",
+        "issue_date": "2026-11-06",
+        "issue_number": "1403",
         "ministry": "법무부",
         "name": "가석방 업무지침",
         "official_state": "Y",
         "rule_type": "예규"
       },
-      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000276392",
-      "primary_domain": "분류·가석방",
+      "official_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000287592",
+      "primary_domain": "기타",
       "provenance": {
         "api_tracking_class": "API_TRACKABLE",
         "appendix_metadata_source": "LAWGO_STRUCTURED_METADATA",
         "applies_to": [
           "교정본부 및 소속기관(공식 목록·담당 부서 근거)"
         ],
-        "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000276392",
+        "canonical_source_url": "https://www.law.go.kr/LSW/admRulLsInfoP.do?admRulSeq=2100000287592",
         "discovery_source": [
           "CORRECTIONS_PAGE"
         ],
@@ -1435,7 +1435,7 @@
       ],
       "source_kind": "admrul",
       "status": "CURRENT",
-      "version_id": "2100000276392"
+      "version_id": "2100000287592"
     },
     {
       "business_domains": [
